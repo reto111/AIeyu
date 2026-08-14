@@ -436,7 +436,8 @@ russian-ai-tutor/
 
 注意：
 
-- Tesseract 对项目路径 `D:\AI俄语` 中的中文目录名处理不稳定，因此语言包放在纯英文用户目录。
+- 项目目录应使用纯英文路径，例如 `D:\AIeyu`，避免 Tesseract 等工具处理中文路径时出现编码问题。
+- 语言包放在纯英文用户目录。
 - 后续 OCR 脚本应显式传入 `--tessdata-dir C:\Users\Reto\tesseract-tessdata`。
 
 ## 18. 后续工作规则
