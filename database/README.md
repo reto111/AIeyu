@@ -39,3 +39,25 @@ database/russian_ai_tutor.sqlite
 ```
 
 该文件是本地运行产物，不提交到 Git。
+
+## OCR 依赖
+
+当前本机 OCR 配置：
+
+```text
+Tesseract: C:\Program Files\Tesseract-OCR\tesseract.exe
+Tessdata: C:\Users\Reto\tesseract-tessdata
+Languages: rus, eng, osd
+```
+
+检查 OCR 环境：
+
+```text
+.venv\Scripts\python.exe scripts\check_ocr_setup.py
+```
+
+对 PDF 做 OCR 测试：
+
+```text
+.venv\Scripts\python.exe scripts\ocr_pdf_text.py data\raw_pdfs\tem8_russian_2017_full.pdf data\processed\tem8_russian_2017_ocr.txt --max-pages 2
+```

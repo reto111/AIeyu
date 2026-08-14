@@ -424,7 +424,22 @@ russian-ai-tutor/
 
 这些 PDF 应放入 `data/raw_pdfs/`，原始 PDF 不提交到 Git。
 
-## 17. 后续工作规则
+## 17. 本地 OCR 配置
+
+当前已安装 Tesseract OCR，用于处理扫描版俄语专八 PDF。
+
+配置：
+
+- Tesseract 可执行文件：`C:\Program Files\Tesseract-OCR\tesseract.exe`
+- 语言包目录：`C:\Users\Reto\tesseract-tessdata`
+- 已配置语言：`rus`、`eng`、`osd`
+
+注意：
+
+- Tesseract 对项目路径 `D:\AI俄语` 中的中文目录名处理不稳定，因此语言包放在纯英文用户目录。
+- 后续 OCR 脚本应显式传入 `--tessdata-dir C:\Users\Reto\tesseract-tessdata`。
+
+## 18. 后续工作规则
 
 后续开发或规划时：
 
@@ -434,7 +449,7 @@ russian-ai-tutor/
 - 如果需要做架构决策，应优先兼顾“专八第一版可落地”和“多考试体系可扩展”。
 - 如果引入 GitHub 项目作为参考，应先评估许可证、技术栈、维护状态和改造成本。
 
-## 18. 版本控制规则
+## 19. 版本控制规则
 
 项目从一开始使用 Git 做版本控制。
 

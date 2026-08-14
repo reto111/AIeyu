@@ -3,6 +3,7 @@ node_modules/
 .venv/
 venv/
 env/
+.venv/
 
 # Build outputs
 dist/
@@ -38,3 +39,7 @@ data/processed/
 database/*.sqlite
 database/*.sqlite3
 database/*.db
+
+# Local tools and temporary downloads
+tools/
+tmp/

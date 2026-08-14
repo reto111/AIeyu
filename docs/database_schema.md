@@ -271,6 +271,20 @@ python scripts/init_sqlite_db.py
 data/processed/
 ```
 
+当前本机 OCR 已采用 Tesseract：
+
+```text
+Tesseract: C:\Program Files\Tesseract-OCR\tesseract.exe
+Tessdata: C:\Users\Reto\tesseract-tessdata
+Languages: rus, eng, osd
+```
+
+可用以下脚本检查：
+
+```text
+.venv\Scripts\python.exe scripts\check_ocr_setup.py
+```
+
 ### Step 5: 人工校对
 
 检查：
