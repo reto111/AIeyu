@@ -20,6 +20,9 @@ __pycache__/
 .env
 .env.*
 !.env.example
+*.sqlite
+*.sqlite3
+*.db
 
 # OS and editor files
 .DS_Store
@@ -31,3 +34,7 @@ Thumbs.db
 data/raw_pdfs/
 data/processed/
 
+# Local generated database files
+database/*.sqlite
+database/*.sqlite3
+database/*.db
