@@ -359,3 +359,10 @@ review_status = 'approved'
 5. 写 PDF 来源登记脚本。
 6. 抽取 1 年真题做导入试验。
 7. 人工校对 20-30 道题，验证表结构是否够用。
+
+当前已完成：
+
+- 2019 年文字版已完成第一轮切分试验。
+- 输出 `data/processed/structured/tem8_russian_2019_review.json`。
+- 切出综合知识 30 题、阅读理解 20 题，共 50 题。
+- 所有题目均为 `needs_review`，尚未进入正式题库。

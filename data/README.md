@@ -38,3 +38,10 @@ tem8_russian_2024_answers.pdf
 
 这些文件通常也不提交到 Git，除非是脱敏后的示例数据。
 
+建议将待审核题目 JSON 放入：
+
+```text
+data/processed/structured/
+```
+
+这些 JSON 仍属于中间处理结果，不直接作为正式题库。

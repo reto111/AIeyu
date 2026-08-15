@@ -410,6 +410,7 @@ russian-ai-tutor/
 - `docs/PROJECT_CONTEXT.md`: 项目共识、已确认标准、重要注意事项、候选方案评估。
 - `docs/product_requirements.md`: 产品需求文档，记录目标用户、功能范围、核心流程、验收标准和版本边界。
 - `docs/database_schema.md`: 数据库设计说明，记录建库原则、表结构说明、PDF 导入流程和当前真题批次。
+- `docs/segmentation_rules.md`: 题目切分规则，记录专八文本到待审核 JSON 的切分策略。
 - `database/schema.sql`: 初始数据库 SQL 表结构，当前以 SQLite 兼容为主，后续可迁移 PostgreSQL。
 
 ## 16. 当前资料批次
