@@ -247,7 +247,7 @@ CREATE INDEX IF NOT EXISTS idx_user_answers_quiz_item
 INSERT OR IGNORE INTO exam_systems (code, name_zh, name_original, description)
 VALUES
   ('TEM8_RU', '俄语专业八级', 'Русский язык TEM-8', '第一阶段默认考试体系'),
-  ('TEM4_RU', '俄语专业四级', 'Русский язык TEM-4', '后续扩展考试体系；当前资料中已出现专四真题');
+  ('TEM4_RU', '俄语专业四级', 'Русский язык TEM-4', '后续扩展考试体系预留，当前不导入专四资料');
 
 INSERT OR IGNORE INTO exam_levels (exam_system_id, code, name_zh, sort_order)
 SELECT id, 'TEM8', '专八', 1

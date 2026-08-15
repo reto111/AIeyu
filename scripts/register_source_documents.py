@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import re
 import sqlite3
+import argparse
 from pathlib import Path
 
 
@@ -99,11 +100,20 @@ def get_inventory_by_name() -> dict[str, dict]:
     return {item["file_name"]: item for item in items}
 
 
-def upsert_source_document(conn: sqlite3.Connection, pdf_path: Path, inventory: dict) -> None:
+def upsert_source_document(
+    conn: sqlite3.Connection,
+    pdf_path: Path,
+    inventory: dict,
+    include_non_tem8: bool,
+) -> bool:
     text_sample = read_text_sample(pdf_path)
     exam_code, exam_detection = detect_exam_system(pdf_path, text_sample)
     document_type = detect_document_type(pdf_path, text_sample)
     source_year = detect_year(pdf_path, text_sample)
+
+    if exam_code != "TEM8_RU" and not include_non_tem8:
+        print(f"Skipping non-TEM8 source: {pdf_path.name} ({exam_code}, {exam_detection})")
+        return False
 
     exam_system_id = conn.execute(
         "SELECT id FROM exam_systems WHERE code = ?", (exam_code,)
@@ -177,16 +187,37 @@ def upsert_source_document(conn: sqlite3.Connection, pdf_path: Path, inventory: 
             """,
             values,
         )
+    return True
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Register raw PDF files as source documents.")
+    parser.add_argument(
+        "--include-non-tem8",
+        action="store_true",
+        help="Register PDFs detected as non-TEM8. Default is to skip them.",
+    )
+    parser.add_argument(
+        "--reset-sources",
+        action="store_true",
+        help="Delete existing source_documents before registering current raw PDFs.",
+    )
+    args = parser.parse_args()
+
     inventory_by_name = get_inventory_by_name()
     pdfs = sorted(RAW_DIR.glob("*.pdf"))
 
     with sqlite3.connect(DB_PATH) as conn:
         ensure_exam_seed(conn)
+        if args.reset_sources:
+            conn.execute("DELETE FROM source_documents")
         for pdf_path in pdfs:
-            upsert_source_document(conn, pdf_path, inventory_by_name.get(pdf_path.name, {}))
+            upsert_source_document(
+                conn,
+                pdf_path,
+                inventory_by_name.get(pdf_path.name, {}),
+                include_non_tem8=args.include_non_tem8,
+            )
         conn.commit()
 
         rows = conn.execute(
