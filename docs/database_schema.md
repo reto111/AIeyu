@@ -54,6 +54,16 @@ PDF 原件
 - 2023 年俄语专八真题及答案 PDF
 - 2024 年俄语专八真题及答案 PDF
 
+初次文本检查发现：
+
+- 2017 文件标题显示为“俄语专业四级水平测试”。
+- 2018 文件标题显示为“俄语专业四级水平测试”。
+- 2021 文件标题显示为“俄语专业八级水平测试”。
+- 2023 文件标题显示为“俄语专业四级水平测试”。
+- 2024 是照片/扫描版，中文标题 OCR 不稳定，考试体系需人工确认。
+
+因此数据库已预留 `TEM4_RU` 和 `TEM8_RU` 两套考试体系，避免把专四资料误入专八题库。
+
 建议放入：
 
 ```text
@@ -258,6 +268,12 @@ python scripts/init_sqlite_db.py
 2017 答案 PDF -> document_type = answers
 ```
 
+登记脚本：
+
+```text
+.venv\Scripts\python.exe scripts\register_source_documents.py
+```
+
 ### Step 4: 解析 PDF
 
 根据 PDF 类型选择：
@@ -283,6 +299,24 @@ Languages: rus, eng, osd
 
 ```text
 .venv\Scripts\python.exe scripts\check_ocr_setup.py
+```
+
+对于带密码的 PDF，脚本从本地环境变量读取密码：
+
+```text
+$env:PDF_PASSWORD="your-password"
+```
+
+生成 PDF 清单：
+
+```text
+.venv\Scripts\python.exe scripts\inspect_raw_pdfs.py
+```
+
+提取 PDF 文本：
+
+```text
+.venv\Scripts\python.exe scripts\extract_pdf_text.py data\raw_pdfs\tem8_russian_2024_full.pdf data\processed\tem8_russian_2024_full.txt --mode auto
 ```
 
 ### Step 5: 人工校对

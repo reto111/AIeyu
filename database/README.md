@@ -61,3 +61,21 @@ Languages: rus, eng, osd
 ```text
 .venv\Scripts\python.exe scripts\ocr_pdf_text.py data\raw_pdfs\tem8_russian_2017_full.pdf data\processed\tem8_russian_2017_ocr.txt --max-pages 2
 ```
+
+如果 PDF 需要密码，先在当前终端设置本地环境变量：
+
+```text
+$env:PDF_PASSWORD="your-password"
+```
+
+生成 PDF 清单：
+
+```text
+.venv\Scripts\python.exe scripts\inspect_raw_pdfs.py
+```
+
+提取 PDF 文本，自动对扫描页走 OCR：
+
+```text
+.venv\Scripts\python.exe scripts\extract_pdf_text.py data\raw_pdfs\tem8_russian_2024_full.pdf data\processed\tem8_russian_2024_full.txt --mode auto
+```

@@ -245,12 +245,19 @@ CREATE INDEX IF NOT EXISTS idx_user_answers_quiz_item
   ON user_answers (quiz_item_id);
 
 INSERT OR IGNORE INTO exam_systems (code, name_zh, name_original, description)
-VALUES ('TEM8_RU', '俄语专业八级', 'Русский язык TEM-8', '第一阶段默认考试体系');
+VALUES
+  ('TEM8_RU', '俄语专业八级', 'Русский язык TEM-8', '第一阶段默认考试体系'),
+  ('TEM4_RU', '俄语专业四级', 'Русский язык TEM-4', '后续扩展考试体系；当前资料中已出现专四真题');
 
 INSERT OR IGNORE INTO exam_levels (exam_system_id, code, name_zh, sort_order)
 SELECT id, 'TEM8', '专八', 1
 FROM exam_systems
 WHERE code = 'TEM8_RU';
+
+INSERT OR IGNORE INTO exam_levels (exam_system_id, code, name_zh, sort_order)
+SELECT id, 'TEM4', '专四', 1
+FROM exam_systems
+WHERE code = 'TEM4_RU';
 
 INSERT OR IGNORE INTO question_types (code, name_zh, description)
 VALUES
@@ -258,4 +265,3 @@ VALUES
   ('literature_choice', '文学选择题', '俄语文学相关单项选择题'),
   ('culture_choice', '国情选择题', '俄罗斯国情相关单项选择题'),
   ('reading_choice', '阅读理解选择题', '阅读文章下的单项选择题');
-
