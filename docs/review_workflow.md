@@ -55,7 +55,7 @@ data\processed\review_sheets\tem8_questions_review.csv
 人工填写字段：
 
 - `knowledge_point_codes`: 知识点代码，多个用英文逗号分隔，例如 `grammar.aspect,grammar.lexical_choice`
-- `review_decision`: 建议填写 `approved`、`needs_fix` 或 `rejected`
+- `review_decision`: 建议填写 `approved`、`needs_review`、`needs_fix` 或 `rejected`
 - `review_notes`: 记录题干问题、答案疑问、OCR/切分错误或讲解备注
 
 ## 4. 审核标准
@@ -76,9 +76,36 @@ data\processed\review_sheets\tem8_questions_review.csv
 - `needs_fix`: 需要修正题干、选项、答案、文章或标签。
 - `rejected`: 暂不使用。
 
-## 5. 后续导入规则
+## 5. 回写审核结果
 
-后续会补充审核表回写脚本，用于把人工审核结论、知识点标签和备注写回数据库。
+填完审核表后，先干跑检查：
+
+```text
+.venv\Scripts\python.exe scripts\apply_review_sheet.py --dry-run
+```
+
+确认无误后正式回写：
+
+```text
+.venv\Scripts\python.exe scripts\apply_review_sheet.py
+```
+
+回写规则：
+
+- `approved`: 题目状态写为 `approved`，可进入练习池。
+- `rejected`: 题目状态写为 `rejected`，不进入练习池。
+- `needs_review`: 题目状态保持 `needs_review`。
+- `needs_fix`: 题目状态保持 `needs_review`，同时在审核日志中记录需要修改的原因。
+
+如果 `review_decision = approved`，默认必须填写至少一个 `knowledge_point_codes`。如确有特殊情况，可加：
+
+```text
+--allow-approved-without-knowledge
+```
+
+每次回写都会向 `question_review_logs` 写入一条审核日志，保留审核结论、备注和当次知识点代码。
+
+## 6. 正式组卷规则
 
 正式组卷只应抽取：
 
@@ -92,3 +119,5 @@ source_usage = 'practice'
 ```text
 source_label
 ```
+
+

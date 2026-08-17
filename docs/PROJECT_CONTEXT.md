@@ -495,7 +495,31 @@ russian-ai-tutor/
 
 脚本可重复运行；同一 `code` 会更新已有知识点，不会重复插入。后续题目人工审核时，应给每道正式题至少绑定一个知识点。
 
-## 19. 本地 OCR 配置
+## 19. 当前人工审核流程状态
+
+已建立待审核题目的导出与回写脚本：
+
+- 导出脚本：`scripts/export_review_sheet.py`
+- 回写脚本：`scripts/apply_review_sheet.py`
+- 审核日志迁移：`scripts/migrate_question_review_logs.py`
+- 流程文档：`docs/review_workflow.md`
+
+当前已生成本地审核表：
+
+```text
+data/processed/review_sheets/tem8_questions_review.csv
+```
+
+该表包含 150 道待审核题，保留题干、选项、答案、阅读文章、来源标签，并预留 `knowledge_point_codes`、`review_decision`、`review_notes` 三列供人工填写。
+
+回写策略：
+
+- `approved` 写入题目主状态，且默认必须绑定至少一个知识点。
+- `rejected` 写入题目主状态。
+- `needs_review` 保持待审核。
+- `needs_fix` 记录到审核日志，题目主状态仍保持待审核。
+
+## 20. 本地 OCR 配置
 
 当前已安装 Tesseract OCR，用于处理扫描版俄语专八 PDF。
 
@@ -511,7 +535,7 @@ russian-ai-tutor/
 - 语言包放在纯英文用户目录。
 - 后续 OCR 脚本应显式传入 `--tessdata-dir C:\Users\Reto\tesseract-tessdata`。
 
-## 20. 后续工作规则
+## 21. 后续工作规则
 
 后续开发或规划时：
 
@@ -521,7 +545,7 @@ russian-ai-tutor/
 - 如果需要做架构决策，应优先兼顾“专八第一版可落地”和“多考试体系可扩展”。
 - 如果引入 GitHub 项目作为参考，应先评估许可证、技术栈、维护状态和改造成本。
 
-## 21. 版本控制规则
+## 22. 版本控制规则
 
 项目从一开始使用 Git 做版本控制。
 
@@ -542,6 +566,7 @@ russian-ai-tutor/
 - `feat: add question bank schema`
 - `feat: add quiz generation flow`
 - `fix: correct pdf parsing edge case`
+
 
 
 

@@ -80,6 +80,32 @@ docs/knowledge_taxonomy.md
 
 当前知识点树共 35 个节点：语法与词汇 14 个、俄罗斯文学 7 个、俄罗斯国情 7 个、阅读理解 7 个。
 
+## 审核表导出与回写
+
+导出待审核题目：
+
+```text
+.venv\Scripts\python.exe scripts\export_review_sheet.py
+```
+
+回写前先干跑：
+
+```text
+.venv\Scripts\python.exe scripts\apply_review_sheet.py --dry-run
+```
+
+正式回写：
+
+```text
+.venv\Scripts\python.exe scripts\apply_review_sheet.py
+```
+
+审核日志表迁移：
+
+```text
+.venv\Scripts\python.exe scripts\migrate_question_review_logs.py
+```
+
 ## OCR 依赖
 
 当前本机 OCR 配置：
@@ -119,5 +145,6 @@ $env:PDF_PASSWORD="your-password"
 ```text
 .venv\Scripts\python.exe scripts\extract_pdf_text.py data\raw_pdfs\tem8_russian_2024_full.pdf data\processed\tem8_russian_2024_full.txt --mode auto
 ```
+
 
 

@@ -216,7 +216,21 @@ source_label = '2019 年俄语专八真题'
 
 一道题可以对应多个知识点。
 
-### 4.10 quiz_sessions / quiz_items / user_answers
+### 4.10 question_review_logs
+
+人工审核日志表。
+
+用于记录：
+
+- 审核结论
+- 审核备注
+- 当次填写的知识点代码
+- 审核人标识
+- 审核时间
+
+`needs_fix` 不直接进入 `questions.review_status`，而是保留为审核日志中的结论；题目主状态仍保持 `needs_review`。
+
+### 4.11 quiz_sessions / quiz_items / user_answers
 
 测试、试卷题目和用户答案。
 
@@ -228,13 +242,13 @@ source_label = '2019 年俄语专八真题'
 - 记录历史
 - 统计正确率
 
-### 4.11 weakness_snapshots
+### 4.12 weakness_snapshots
 
 薄弱知识点快照。
 
 每次测试结束后，根据错题统计生成。
 
-### 4.12 ai_tutor_threads / ai_tutor_messages
+### 4.13 ai_tutor_threads / ai_tutor_messages
 
 AI 私教对话记录。
 
@@ -393,3 +407,4 @@ requires_source_label = 1
   - 来源标签：全部要求展示 `source_label`，例如 `2019 年俄语专八真题`
 - 2024 OCR 版已试跑，因章节标题、题号和选项排版不同，需要单独的 OCR/新版排版切分规则。
 - OCR 解析可以暂时放一放，优先把文字版真题转成可审核题目。
+

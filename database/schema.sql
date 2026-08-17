@@ -138,6 +138,17 @@ CREATE TABLE IF NOT EXISTS question_knowledge_points (
   FOREIGN KEY (knowledge_point_id) REFERENCES knowledge_points(id)
 );
 
+CREATE TABLE IF NOT EXISTS question_review_logs (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  question_id INTEGER NOT NULL,
+  review_decision TEXT NOT NULL CHECK (review_decision IN ('approved', 'needs_review', 'needs_fix', 'rejected')),
+  review_notes TEXT,
+  knowledge_point_codes TEXT,
+  reviewer TEXT NOT NULL DEFAULT 'manual_review',
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (question_id) REFERENCES questions(id) ON DELETE CASCADE
+);
+
 CREATE TABLE IF NOT EXISTS users (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   display_name TEXT NOT NULL,
@@ -275,3 +286,4 @@ VALUES
   ('literature_choice', '文学选择题', '俄语文学相关单项选择题'),
   ('culture_choice', '国情选择题', '俄罗斯国情相关单项选择题'),
   ('reading_choice', '阅读理解选择题', '阅读文章下的单项选择题');
+
