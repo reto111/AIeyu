@@ -130,6 +130,28 @@ data\processed\review_sheets\tem8_passages_review.csv
 ```
 
 详见：`docs/quiz_generation.md`
+
+## 批改练习卷
+
+生成答案模板：
+
+```text
+.venv\Scripts\python.exe scripts\grade_quiz.py --quiz data\processed\quizzes\tem8_quiz_20260817.json --create-answer-template
+```
+
+批改并生成报告：
+
+```text
+.venv\Scripts\python.exe scripts\grade_quiz.py --quiz data\processed\quizzes\tem8_quiz_20260817.json --answers data\processed\reports\tem8_quiz_20260817_sample_answers.json
+```
+
+批改并写入数据库：
+
+```text
+.venv\Scripts\python.exe scripts\grade_quiz.py --quiz data\processed\quizzes\tem8_quiz_20260817.json --answers data\processed\reports\tem8_quiz_20260817_sample_answers.json --persist --title "TEM8 smoke test quiz"
+```
+
+详见：`docs/grading_workflow.md`
 ## OCR 依赖
 
 当前本机 OCR 配置：

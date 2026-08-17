@@ -428,6 +428,7 @@ russian-ai-tutor/
 - `docs/knowledge_taxonomy.md`: 俄语专八第一版知识点树，用于题目打标、错题分析和巩固练习生成。
 - `docs/review_workflow.md`: 待审核题目导出、人工校对、知识点标注和审核结论规则。
 - `docs/quiz_generation.md`: 专八练习卷生成脚本规则，记录审核状态、来源标签和内部测试模式。
+- `docs/grading_workflow.md`: 答题模板、批改、错题统计、薄弱点快照和入库流程。
 - `database/schema.sql`: 初始数据库 SQL 表结构，当前以 SQLite 兼容为主，后续可迁移 PostgreSQL。
 
 ## 16. 当前资料批次
@@ -565,7 +566,35 @@ scripts/generate_quiz.py
 
 验证来源标签、答案键、知识点标签和阅读文章关联均能输出。
 
-## 21. 本地 OCR 配置
+## 21. 当前批改原型状态
+
+已建立学生答题与自动批改脚本：
+
+```text
+scripts/grade_quiz.py
+```
+
+当前能力：
+
+- 根据练习卷生成答案模板。
+- 读取学生答案 JSON。
+- 自动判定正确/错误。
+- 输出正确率、错题列表、来源标签和知识点。
+- 按知识点统计薄弱项。
+- 可选择写入 `quiz_sessions`、`quiz_items`、`user_answers`、`weakness_snapshots`。
+
+当前已用 10 题练习卷完成一次入库验证：
+
+- `quiz_session_id = 1`
+- 总题数：10
+- 答对：7
+- 正确率：0.7
+- 写入答案记录：10
+- 写入薄弱点快照：4
+
+下一步应在批改报告基础上生成中文复习建议和巩固练习包。
+
+## 22. 本地 OCR 配置
 
 当前已安装 Tesseract OCR，用于处理扫描版俄语专八 PDF。
 
@@ -581,7 +610,7 @@ scripts/generate_quiz.py
 - 语言包放在纯英文用户目录。
 - 后续 OCR 脚本应显式传入 `--tessdata-dir C:\Users\Reto\tesseract-tessdata`。
 
-## 22. 后续工作规则
+## 23. 后续工作规则
 
 后续开发或规划时：
 
@@ -591,7 +620,7 @@ scripts/generate_quiz.py
 - 如果需要做架构决策，应优先兼顾“专八第一版可落地”和“多考试体系可扩展”。
 - 如果引入 GitHub 项目作为参考，应先评估许可证、技术栈、维护状态和改造成本。
 
-## 23. 版本控制规则
+## 24. 版本控制规则
 
 项目从一开始使用 Git 做版本控制。
 
