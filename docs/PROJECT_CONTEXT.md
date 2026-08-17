@@ -430,6 +430,7 @@ russian-ai-tutor/
 - `docs/quiz_generation.md`: 专八练习卷生成脚本规则，记录审核状态、来源标签和内部测试模式。
 - `docs/grading_workflow.md`: 答题模板、批改、错题统计、薄弱点快照和入库流程。
 - `docs/remediation_workflow.md`: 批改后的中文复习建议、薄弱点巩固练习包生成流程。
+- `docs/tutoring_prompt_workflow.md`: AI 私教错题讲解提示词和大模型输入上下文构建流程。
 - `database/schema.sql`: 初始数据库 SQL 表结构，当前以 SQLite 兼容为主，后续可迁移 PostgreSQL。
 
 ## 16. 当前资料批次
@@ -619,7 +620,31 @@ scripts/generate_remediation_pack.py
 
 下一步应把规则版建议升级为大模型中文讲解，并建立学生追问对话窗口的数据结构和提示词。
 
-## 23. 本地 OCR 配置
+## 23. 当前 AI 私教提示词状态
+
+已建立错题讲解提示词模板：
+
+```text
+prompts/tutoring/tem8_wrong_question_tutor.md
+```
+
+已建立提示词输入包构建脚本：
+
+```text
+scripts/build_tutor_prompt.py
+```
+
+当前能力：
+
+- 读取批改报告。
+- 读取复习包。
+- 整理错题、学生答案、正确答案、来源标签、薄弱知识点和巩固练习。
+- 输出 JSON prompt 包，方便后续 API 调用。
+- 输出 Markdown 预览，方便人工检查。
+
+当前尚未调用大模型 API，也尚未建立网页对话窗口。
+
+## 24. 本地 OCR 配置
 
 当前已安装 Tesseract OCR，用于处理扫描版俄语专八 PDF。
 
@@ -635,7 +660,7 @@ scripts/generate_remediation_pack.py
 - 语言包放在纯英文用户目录。
 - 后续 OCR 脚本应显式传入 `--tessdata-dir C:\Users\Reto\tesseract-tessdata`。
 
-## 24. 后续工作规则
+## 25. 后续工作规则
 
 后续开发或规划时：
 
@@ -645,7 +670,7 @@ scripts/generate_remediation_pack.py
 - 如果需要做架构决策，应优先兼顾“专八第一版可落地”和“多考试体系可扩展”。
 - 如果引入 GitHub 项目作为参考，应先评估许可证、技术栈、维护状态和改造成本。
 
-## 25. 版本控制规则
+## 26. 版本控制规则
 
 项目从一开始使用 Git 做版本控制。
 

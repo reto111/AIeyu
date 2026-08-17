@@ -162,6 +162,16 @@ data\processed\review_sheets\tem8_passages_review.csv
 ```
 
 详见：`docs/remediation_workflow.md`
+
+## 构建 AI 私教提示词
+
+根据批改报告和复习包构建给大模型使用的输入：
+
+```text
+.venv\Scripts\python.exe scripts\build_tutor_prompt.py --report data\processed\reports\tem8_quiz_20260817_sample_report_persisted.json --remediation data\processed\remediation\tem8_quiz_20260817_sample_report_persisted_remediation.json
+```
+
+详见：`docs/tutoring_prompt_workflow.md`
 ## OCR 依赖
 
 当前本机 OCR 配置：
