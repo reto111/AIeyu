@@ -21,6 +21,7 @@ def validate_file(path: Path) -> dict:
     missing_options: list[str] = []
     missing_answers: list[str] = []
     missing_passages: list[str] = []
+    missing_source_labels: list[str] = []
 
     for question in questions:
         question_type = question.get("question_type")
@@ -33,6 +34,9 @@ def validate_file(path: Path) -> dict:
             missing_answers.append(str(number))
         if question_type == "reading_choice" and not question.get("passage", {}).get("body"):
             missing_passages.append(str(number))
+        if question.get("content_origin") == "past_exam_original":
+            if not question.get("requires_source_label") or not question.get("source_label"):
+                missing_source_labels.append(str(number))
 
     errors: list[str] = []
     if len(questions) != 50:
@@ -49,6 +53,15 @@ def validate_file(path: Path) -> dict:
         errors.append(f"missing answers: {', '.join(missing_answers)}")
     if missing_passages:
         errors.append(f"reading questions missing passages: {', '.join(missing_passages)}")
+    if missing_source_labels:
+        errors.append(
+            "past exam questions must require and include a source label: "
+            + ", ".join(missing_source_labels)
+        )
+
+    if payload.get("content_origin") == "past_exam_original":
+        if not payload.get("requires_source_label") or not payload.get("source_label"):
+            errors.append("payload must require and include a source label")
 
     return {
         "file": str(path),

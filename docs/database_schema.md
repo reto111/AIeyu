@@ -10,7 +10,8 @@
 数据库负责：
 
 - 真题来源管理
-- 题目、选项、答案、解析
+- 历年真题结构化结果
+- AI 改写/仿写题目、选项、答案、解析
 - 阅读文章和阅读小题
 - 知识点标签
 - 审核状态
@@ -36,13 +37,16 @@ RAGFlow 负责：
 ```text
 PDF 原件
   -> 文本/OCR 提取
-  -> 题目初步切分
+  -> 真题结构初步切分
   -> 人工校对
   -> 知识点标注
-  -> approved 正式题库
+  -> 标注来源年份和原题号
+  -> approved 练习题库
 ```
 
 只有审核后的题目才能进入正式组卷。
+
+历年真题可以用于学生组卷，但必须显示来源标签。
 
 ## 3. 当前 PDF 批次
 
@@ -185,9 +189,20 @@ V0.1 默认题型：
 
 ```text
 review_status = 'approved'
+source_usage = 'practice'
 ```
 
 的题目中抽取。
+
+历年真题题应标记为：
+
+```text
+content_origin = 'past_exam_original'
+requires_source_label = 1
+source_label = '2019 年俄语专八真题'
+```
+
+这类题目可以参与组卷，但前端必须展示 `source_label`。
 
 ### 4.8 question_options
 
@@ -344,9 +359,12 @@ review_status = 'needs_review'
 
 ```text
 review_status = 'approved'
+source_usage = 'practice'
+content_origin = 'past_exam_original'
+requires_source_label = 1
 ```
 
-这些题才可以进入随机组卷。
+这些历年真题可以进入随机组卷，但必须保留并展示来源年份和原题号。
 
 ## 6. 下一步要做的事
 
@@ -365,5 +383,6 @@ review_status = 'approved'
 - 2019、2021、2023 年文字版已完成第一轮切分试验。
 - 输出 `data/processed/structured/*_review.json`。
 - 每年切出综合知识 30 题、阅读理解 20 题，共 50 题。
-- 所有题目均为 `needs_review`，尚未进入正式题库。
+- 所有题目均为待审核候选，审核后可以进入练习题库。
 - 2024 OCR 版已试跑，因章节标题、题号和选项排版不同，需要单独的 OCR/新版排版切分规则。
+- OCR 解析可以暂时放一放，优先把文字版真题转成可审核题目。

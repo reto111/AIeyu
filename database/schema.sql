@@ -99,13 +99,20 @@ CREATE TABLE IF NOT EXISTS questions (
   generation_status TEXT NOT NULL DEFAULT 'human_imported' CHECK (generation_status IN ('human_imported', 'ai_draft', 'ai_review_pending', 'ai_approved', 'practice_only')),
   source_page INTEGER,
   raw_text TEXT,
+  source_usage TEXT NOT NULL DEFAULT 'practice' CHECK (source_usage IN ('source_reference_only', 'practice')),
+  content_origin TEXT NOT NULL DEFAULT 'past_exam_original' CHECK (content_origin IN ('past_exam_original', 'ai_rewritten', 'ai_generated', 'manual')),
+  source_label TEXT,
+  requires_source_label INTEGER NOT NULL DEFAULT 1 CHECK (requires_source_label IN (0, 1)),
+  rewrite_source_question_id INTEGER,
+  similarity_review_status TEXT NOT NULL DEFAULT 'not_checked' CHECK (similarity_review_status IN ('not_checked', 'passed', 'flagged', 'failed')),
   created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
   updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
   FOREIGN KEY (exam_system_id) REFERENCES exam_systems(id),
   FOREIGN KEY (level_id) REFERENCES exam_levels(id),
   FOREIGN KEY (question_type_id) REFERENCES question_types(id),
   FOREIGN KEY (passage_id) REFERENCES passages(id),
-  FOREIGN KEY (source_document_id) REFERENCES source_documents(id)
+  FOREIGN KEY (source_document_id) REFERENCES source_documents(id),
+  FOREIGN KEY (rewrite_source_question_id) REFERENCES questions(id)
 );
 
 CREATE TABLE IF NOT EXISTS question_options (
@@ -234,6 +241,9 @@ CREATE INDEX IF NOT EXISTS idx_questions_exam_level_type
 
 CREATE INDEX IF NOT EXISTS idx_questions_source
   ON questions (source_year, source_question_number);
+
+CREATE INDEX IF NOT EXISTS idx_questions_source_usage
+  ON questions (source_usage, content_origin, generation_status, review_status, similarity_review_status);
 
 CREATE INDEX IF NOT EXISTS idx_qkp_knowledge_point
   ON question_knowledge_points (knowledge_point_id);

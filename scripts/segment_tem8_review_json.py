@@ -206,6 +206,11 @@ def parse_comprehensive_questions(text: str, answers: dict[int, str], source_yea
                 "source_page": chunk.source_page,
                 "raw_text": chunk.raw_text,
                 "review_status": "needs_review",
+                "source_usage": "practice",
+                "content_origin": "past_exam_original",
+                "source_label": f"{source_year} 年俄语专八真题",
+                "requires_source_label": True,
+                "eligible_for_quiz_after_approval": True,
             }
         )
 
@@ -276,6 +281,11 @@ def parse_reading_questions(text: str, answers: dict[int, str], source_year: int
                     "source_page": chunk.source_page,
                     "raw_text": chunk.raw_text,
                     "review_status": "needs_review",
+                    "source_usage": "practice",
+                    "content_origin": "past_exam_original",
+                    "source_label": f"{source_year} 年俄语专八真题",
+                    "requires_source_label": True,
+                    "eligible_for_quiz_after_approval": True,
                 }
             )
 
@@ -323,6 +333,11 @@ def main() -> None:
         "source_file": str(args.input).replace("\\", "/"),
         "source_year": args.year,
         "review_status": "needs_review",
+        "source_usage": "practice",
+        "content_origin": "past_exam_original",
+        "source_label": f"{args.year} 年俄语专八真题",
+        "requires_source_label": True,
+        "eligible_for_quiz_after_approval": True,
         "summary": summarize(questions, answers),
         "questions": questions,
     }

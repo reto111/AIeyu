@@ -6,7 +6,8 @@
 
 - V0.1 本地原型优先使用 SQLite。
 - 表结构尽量保持 PostgreSQL 兼容，方便后续迁移到线上商业版本。
-- 正式题库必须使用结构化数据库，不用 RAGFlow 替代。
+- 正式练习题库必须使用结构化数据库，不用 RAGFlow 替代。
+- 历年真题可以用于学生组卷，但必须展示来源年份和真题来源。
 - RAGFlow 只负责教材、讲义、考纲、解析等知识资料检索。
 
 主要文件：
@@ -21,7 +22,9 @@
 3. 解析 PDF 得到待审核题目
 4. 人工校对后写入 questions / options / passages
 5. 标注 knowledge_points
-6. approved 状态的题目才能用于组卷
+6. 历年真题题目标记 source_label 和 requires_source_label
+7. approved 状态的题目才能用于组卷
+8. 若为历年真题，前端必须展示来源标签
 ```
 
 ## 初始化本地数据库

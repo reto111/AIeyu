@@ -1,7 +1,7 @@
 # TEM8 Segmentation Rules
 
 > 本文档记录俄语专八 PDF 提取文本的题目切分规则。
-> 第一版先从文字版 `2019_full` 试验，输出待审核 JSON，不直接写入正式题库。
+> 第一版先从文字版 `2019_full` 试验，输出待审核 JSON。历年真题可以用于组卷，但必须显示来源年份。
 
 ## 1. 当前策略
 
@@ -118,7 +118,14 @@ data/processed/structured/tem8_russian_2019_review.json
 
 ```text
 review_status = needs_review
+source_usage = practice
+content_origin = past_exam_original
+requires_source_label = true
+source_label = "<年份> 年俄语专八真题"
+eligible_for_quiz_after_approval = true
 ```
+
+这些切分结果需要人工审核；审核后可以用于学生组卷，但必须展示来源标签。
 
 ## 8. 验收标准
 
@@ -162,7 +169,7 @@ data/processed/structured/tem8_russian_2021_review.json
 data/processed/structured/tem8_russian_2023_review.json
 ```
 
-这些文件是中间处理结果，不提交到 Git。
+这些文件是中间处理结果，不提交到 Git；人工审核后才能导入可组卷题库。
 
 验证脚本：
 
@@ -188,3 +195,9 @@ data/processed/structured/tem8_russian_2023_review.json
 - 2024 文本后半部分似乎包含带 `Задание` 的材料或答案/解析页，需要先区分试卷正文和后附内容。
 
 因此后续应增加 `ocr_layout` 切分模式，而不是把 2024 强行套用 2019/2021/2023 的文字版规则。
+
+当前决策：
+
+- OCR 解析的扫描/照片版资料可以暂时放一放。
+- 优先处理 2019、2021、2023 文字版真题。
+- 历年真题可用于组卷，但题目展示和解析中必须标注来源年份。
