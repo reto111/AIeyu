@@ -130,15 +130,17 @@ review_status = needs_review
 - 阅读题应绑定 passage。
 - 不应混入听力、翻译、写作内容。
 
-## 9. 2019 样板结果
+## 9. 当前文字版切分结果
 
 脚本：
 
 ```text
 .venv\Scripts\python.exe scripts\segment_tem8_review_json.py data\processed\tem8_russian_2019_full.txt data\processed\structured\tem8_russian_2019_review.json --year 2019
+.venv\Scripts\python.exe scripts\segment_tem8_review_json.py data\processed\tem8_russian_2021_full.txt data\processed\structured\tem8_russian_2021_review.json --year 2021
+.venv\Scripts\python.exe scripts\segment_tem8_review_json.py data\processed\tem8_russian_2023_full.txt data\processed\structured\tem8_russian_2023_review.json --year 2023
 ```
 
-当前结果：
+2019、2021、2023 当前结果均为：
 
 ```text
 total_questions: 50
@@ -156,6 +158,33 @@ questions_per_passage: 4
 
 ```text
 data/processed/structured/tem8_russian_2019_review.json
+data/processed/structured/tem8_russian_2021_review.json
+data/processed/structured/tem8_russian_2023_review.json
 ```
 
-该文件是中间处理结果，不提交到 Git。
+这些文件是中间处理结果，不提交到 Git。
+
+验证脚本：
+
+```text
+.venv\Scripts\python.exe scripts\validate_review_json.py data\processed\structured\tem8_russian_2019_review.json data\processed\structured\tem8_russian_2021_review.json data\processed\structured\tem8_russian_2023_review.json
+```
+
+## 10. 已修正的切分问题
+
+- 俄语句首 `В ...` 可能被误识别成 `B` 选项；规则已改为选项字母后必须紧跟 `.` 或 `)`。
+- 阅读文章正文中的数字，例如 `48 странах мира`，可能被误识别成题号；规则已改为每篇文章按预期起始题号切分：46、50、54、58、62。
+
+## 11. OCR / 新版排版待处理
+
+2024 OCR 版暂不能使用当前文字版规则自动切分。
+
+已观察到的差异：
+
+- 章节标题使用俄文：`ГРАММАТИКА, ЛЕКСИКА И СТИЛИСТИКА`、`ЧТЕНИЕ`。
+- 题号格式为 `16.`、`17.`，不是独立数字行。
+- 选项可能同一行并排出现，例如 `А) ... В) ...`。
+- OCR 会把 `D)` 识别成 `2)`、`О)`、`р)` 等，需要单独标准化。
+- 2024 文本后半部分似乎包含带 `Задание` 的材料或答案/解析页，需要先区分试卷正文和后附内容。
+
+因此后续应增加 `ocr_layout` 切分模式，而不是把 2024 强行套用 2019/2021/2023 的文字版规则。

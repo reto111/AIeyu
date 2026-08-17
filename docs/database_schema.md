@@ -362,7 +362,8 @@ review_status = 'approved'
 
 当前已完成：
 
-- 2019 年文字版已完成第一轮切分试验。
-- 输出 `data/processed/structured/tem8_russian_2019_review.json`。
-- 切出综合知识 30 题、阅读理解 20 题，共 50 题。
+- 2019、2021、2023 年文字版已完成第一轮切分试验。
+- 输出 `data/processed/structured/*_review.json`。
+- 每年切出综合知识 30 题、阅读理解 20 题，共 50 题。
 - 所有题目均为 `needs_review`，尚未进入正式题库。
+- 2024 OCR 版已试跑，因章节标题、题号和选项排版不同，需要单独的 OCR/新版排版切分规则。

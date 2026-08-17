@@ -120,7 +120,7 @@ def split_numbered_questions(
 
 
 def extract_options(raw_text: str) -> tuple[str, list[dict]]:
-    option_marker = re.compile(r"^([AАBВCСDД])\s*[\.)]\s*(.*)$")
+    option_marker = re.compile(r"^([AАBВCСDД])[\.)]\s*(.*)$")
     stem_lines: list[str] = []
     options: list[dict] = []
     current_option: dict | None = None
@@ -226,8 +226,8 @@ def split_reading_passages(reading_section: str) -> list[tuple[str, str]]:
     return passages
 
 
-def first_question_position(passage_text: str) -> int | None:
-    match = re.search(r"(?m)^(4[6-9]|5\d|6[0-5])(?:\s+|$)", passage_text)
+def first_question_position(passage_text: str, expected_start: int) -> int | None:
+    match = re.search(rf"(?m)^{expected_start}(?:\s+|$)", passage_text)
     return match.start() if match else None
 
 
@@ -236,13 +236,25 @@ def parse_reading_questions(text: str, answers: dict[int, str], source_year: int
     questions: list[dict] = []
 
     for passage_title, passage_text in split_reading_passages(reading_section):
-        question_start = first_question_position(passage_text)
+        passage_number_match = re.search(r"(\d+)", passage_title)
+        if not passage_number_match:
+            continue
+        passage_number = int(passage_number_match.group(1))
+        expected_start = 46 + (passage_number - 1) * 4
+        expected_end = min(expected_start + 3, 65)
+
+        question_start = first_question_position(passage_text, expected_start)
         if question_start is None:
             continue
 
         passage_body = passage_text[:question_start].strip()
         question_text = passage_text[question_start:].strip()
-        chunks = split_numbered_questions(question_text, 46, 65)
+        chunks = split_numbered_questions(
+            question_text,
+            expected_start,
+            expected_end,
+            first_number=expected_start,
+        )
 
         for chunk in chunks:
             stem, options = extract_options(chunk.raw_text)
