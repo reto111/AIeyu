@@ -184,6 +184,8 @@ def write_outputs(
 
 
 def main() -> None:
+    load_dotenv(ROOT / ".env")
+
     parser = argparse.ArgumentParser(description="Call DeepSeek API for TEM8 tutor feedback.")
     parser.add_argument("--prompt", type=Path, required=True)
     parser.add_argument("--output", type=Path)
@@ -196,7 +198,6 @@ def main() -> None:
     parser.add_argument("--persist", action="store_true")
     args = parser.parse_args()
 
-    load_dotenv(ROOT / ".env")
     api_key = os.environ.get("DEEPSEEK_API_KEY")
     if not api_key or api_key == "your_deepseek_api_key_here":
         print(

@@ -2,11 +2,13 @@ from __future__ import annotations
 
 import argparse
 import json
+import sqlite3
 from pathlib import Path
 from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
+DB_PATH = ROOT / "database" / "russian_ai_tutor.sqlite"
 PROMPT_PATH = ROOT / "prompts" / "tutoring" / "tem8_wrong_question_tutor.md"
 DEFAULT_OUTPUT_DIR = ROOT / "data" / "processed" / "tutor_prompts"
 
@@ -15,21 +17,79 @@ def load_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def compact_wrong_questions(report: dict[str, Any]) -> list[dict[str, Any]]:
+def option_rows(conn: sqlite3.Connection, question_id: int) -> list[dict[str, str]]:
+    rows = conn.execute(
+        """
+        SELECT option_key, option_text
+        FROM question_options
+        WHERE question_id = ?
+        ORDER BY sort_order, option_key
+        """,
+        (question_id,),
+    ).fetchall()
+    return [{"key": row[0], "text": row[1]} for row in rows]
+
+
+def question_context(conn: sqlite3.Connection, question_id: int) -> dict[str, Any]:
+    row = conn.execute(
+        """
+        SELECT
+          q.id,
+          q.source_year,
+          q.source_question_number,
+          q.source_label,
+          q.stem,
+          q.correct_answer,
+          qt.code AS question_type,
+          p.id AS passage_id,
+          p.title AS passage_title,
+          p.body AS passage_body
+        FROM questions q
+        JOIN question_types qt ON qt.id = q.question_type_id
+        LEFT JOIN passages p ON p.id = q.passage_id
+        WHERE q.id = ?
+        """,
+        (question_id,),
+    ).fetchone()
+    if row is None:
+        return {}
+    return {
+        "question_id": row["id"],
+        "question_type": row["question_type"],
+        "stem": row["stem"],
+        "options": option_rows(conn, question_id),
+        "correct_answer": row["correct_answer"],
+        "source": {
+            "year": row["source_year"],
+            "question_number": row["source_question_number"],
+            "label": row["source_label"],
+        },
+        "passage": {
+            "id": row["passage_id"],
+            "title": row["passage_title"],
+            "body": row["passage_body"],
+        }
+        if row["passage_id"]
+        else None,
+    }
+
+
+def compact_wrong_questions(
+    conn: sqlite3.Connection,
+    report: dict[str, Any],
+) -> list[dict[str, Any]]:
     result = []
     for item in report.get("wrong_questions", []):
-        result.append(
+        question_id = int(item["question_id"])
+        context = question_context(conn, question_id)
+        context.update(
             {
                 "quiz_number": item.get("quiz_number"),
-                "question_id": item.get("question_id"),
-                "question_type": item.get("question_type"),
                 "selected_answer": item.get("selected_answer"),
-                "correct_answer": item.get("correct_answer"),
                 "knowledge_point_codes": item.get("knowledge_point_codes", []),
-                "source_label": item.get("source_label"),
-                "stem": item.get("stem"),
             }
         )
+        result.append(context)
     return result
 
 
@@ -50,7 +110,9 @@ def compact_remediation(remediation_pack: dict[str, Any]) -> list[dict[str, Any]
                         "question_type": question.get("question_type"),
                         "source": question.get("source"),
                         "stem": question.get("stem"),
+                        "options": question.get("options", []),
                         "answer_key": question.get("answer_key"),
+                        "passage": question.get("passage"),
                     }
                     for question in item.get("practice_questions", [])
                 ],
@@ -62,6 +124,10 @@ def compact_remediation(remediation_pack: dict[str, Any]) -> list[dict[str, Any]
 def build_payload(report_path: Path, remediation_path: Path) -> dict[str, Any]:
     report = load_json(report_path)
     remediation_pack = load_json(remediation_path)
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.row_factory = sqlite3.Row
+        wrong_questions = compact_wrong_questions(conn, report)
+
     return {
         "grading_report": {
             "quiz_session_id": report.get("quiz_session_id"),
@@ -71,7 +137,7 @@ def build_payload(report_path: Path, remediation_path: Path) -> dict[str, Any]:
             "wrong_count": report.get("wrong_count"),
             "accuracy": report.get("accuracy"),
             "weakness": report.get("weakness", []),
-            "wrong_questions": compact_wrong_questions(report),
+            "wrong_questions": wrong_questions,
         },
         "remediation_pack": {
             "summary_zh": remediation_pack.get("summary_zh"),

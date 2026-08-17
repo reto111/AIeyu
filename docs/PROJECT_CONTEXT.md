@@ -639,11 +639,11 @@ scripts/build_tutor_prompt.py
 
 - 读取批改报告。
 - 读取复习包。
-- 整理错题、学生答案、正确答案、来源标签、薄弱知识点和巩固练习。
+- 整理错题、学生答案、正确答案、选项、阅读原文、来源标签、薄弱知识点和巩固练习。
 - 输出 JSON prompt 包，方便后续 API 调用。
 - 输出 Markdown 预览，方便人工检查。
 
-当前尚未调用大模型 API，也尚未建立网页对话窗口。
+当前已完成一次 DeepSeek 真实调用，证明 API Key 和接口可用；但第一次 prompt 过于精简，模型缺少错题选项和阅读原文，阅读题讲解不够具体。后续已将 prompt 构建脚本改为从数据库补全错题选项、阅读文章和来源信息。
 
 ## 24. 当前 DeepSeek API 接入状态
 
@@ -665,6 +665,8 @@ scripts/build_tutor_prompt.py
 API Key 不提交到 Git，只能放在本地 `.env` 或环境变量 `DEEPSEEK_API_KEY` 中。
 
 当前脚本可读取 tutor prompt 包，调用 DeepSeek 生成中文错题讲解，并可选写入 `ai_tutor_threads` 和 `ai_tutor_messages`。
+
+注意：增强版 prompt 会发送完整选项和阅读原文到 DeepSeek。真实调用和写入对话表前，需要用户明确同意发送这份扩展后的测试数据。
 
 ## 25. 本地 OCR 配置
 

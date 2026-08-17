@@ -75,6 +75,8 @@ data\processed\tutor_outputs\
 - `ai_tutor_threads`
 - `ai_tutor_messages`
 
+注意：如果 prompt 包包含完整题干、选项和阅读原文，调用 DeepSeek 前需要明确确认允许把这些内容发送到外部模型服务。
+
 ## 5. 模型选择建议
 
 第一阶段建议：
