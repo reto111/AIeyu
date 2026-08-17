@@ -470,11 +470,20 @@ russian-ai-tutor/
   - 文学选择题：21
   - 国情选择题：18
   - 阅读选择题：60
-- 审核状态：全部为 `needs_review`
+- 审核状态：已由用户明确确认批量通过，全部回写为 `approved`
 - 内容来源：全部为 `past_exam_original`
 - 来源展示：全部要求显示 `source_label`，例如 `2019 年俄语专八真题`
 
-这些题目目前是“待人工审核的历年真题原题”。进入学生组卷池前，应先确认题干、选项、答案、阅读文章和来源年份无误；进入组卷后，前端必须展示来源标签。
+这些题目目前是“可进入学生组卷池的历年真题原题”。进入组卷后，前端必须展示来源标签。
+
+2026-08-17 更新：用户明确确认将 150 道题全部标记为 `approved`，并先按粗知识点入库：
+
+- 语法题：`grammar`，51 题
+- 文学题：`literature`，21 题
+- 国情题：`culture`，18 题
+- 阅读题：`reading`，60 题
+
+当前每题已有 1 个粗知识点标签，后续仍应逐步细化到具体考点，例如动词体、运动动词、作家作品、国情地理、阅读推断等。
 
 ## 18. 当前知识点树状态
 
@@ -511,7 +520,7 @@ russian-ai-tutor/
 data/processed/review_sheets/tem8_questions_review.csv
 ```
 
-该表包含 150 道待审核题，保留题干、选项、答案、阅读文章、来源标签，并预留 `knowledge_point_codes`、`review_decision`、`review_notes` 三列供人工填写。
+该表曾用于审核 150 道待审核题，保留题干、选项、答案、来源标签，并预留 `knowledge_point_codes`、`review_decision`、`review_notes` 三列供人工填写。
 
 2026-08-17 更新：后续审核表导出改为题目表和阅读文章表分开：
 
@@ -527,6 +536,13 @@ data/processed/review_sheets/tem8_questions_review.csv
 - `needs_review` 保持待审核。
 - `needs_fix` 记录到审核日志，题目主状态仍保持待审核。
 
+当前回写结果：
+
+- `approved`: 150 题
+- `question_knowledge_points`: 150 条
+- `question_review_logs`: 150 条
+- 本地回写前数据库备份位于 `data/processed/backups/`
+
 ## 20. 当前组卷原型状态
 
 已建立学生侧练习卷生成脚本：
@@ -538,11 +554,16 @@ scripts/generate_quiz.py
 当前规则：
 
 - 默认只抽 `review_status = approved` 且 `source_usage = practice` 的题。
-- 当前 150 道已入库题仍是 `needs_review`，所以默认模式会拒绝组卷。
-- 内部测试可临时加 `--include-needs-review` 验证输出结构。
+- 当前 150 道已入库题均为 `approved`，默认模式可以正式组卷。
+- 内部测试仍可临时加 `--include-needs-review` 验证未审核题输出结构，但学生正式入口不应使用该参数。
 - 历年真题输出中保留 `source.label`，例如 `2021 年俄语专八真题`。
 
-当前已用内部测试模式生成过 5 道语法题 JSON，验证来源标签、答案键和审核状态均能输出。
+当前已用正式默认模式生成过：
+
+- 综合练习卷：10 题
+- 阅读专项练习卷：5 题
+
+验证来源标签、答案键、知识点标签和阅读文章关联均能输出。
 
 ## 21. 本地 OCR 配置
 
