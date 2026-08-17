@@ -106,6 +106,21 @@ docs/knowledge_taxonomy.md
 .venv\Scripts\python.exe scripts\migrate_question_review_logs.py
 ```
 
+## 生成练习卷
+
+默认只抽审核通过题：
+
+```text
+.venv\Scripts\python.exe scripts\generate_quiz.py --count 10
+```
+
+审核前内部测试可临时允许待审核题：
+
+```text
+.venv\Scripts\python.exe scripts\generate_quiz.py --count 5 --type grammar_choice --include-needs-review --seed 42
+```
+
+详见：`docs/quiz_generation.md`
 ## OCR 依赖
 
 当前本机 OCR 配置：
@@ -145,6 +160,8 @@ $env:PDF_PASSWORD="your-password"
 ```text
 .venv\Scripts\python.exe scripts\extract_pdf_text.py data\raw_pdfs\tem8_russian_2024_full.pdf data\processed\tem8_russian_2024_full.txt --mode auto
 ```
+
+
 
 
 

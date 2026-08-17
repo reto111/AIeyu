@@ -427,6 +427,7 @@ russian-ai-tutor/
 - `docs/segmentation_rules.md`: 题目切分规则，记录专八文本到待审核 JSON 的切分策略。
 - `docs/knowledge_taxonomy.md`: 俄语专八第一版知识点树，用于题目打标、错题分析和巩固练习生成。
 - `docs/review_workflow.md`: 待审核题目导出、人工校对、知识点标注和审核结论规则。
+- `docs/quiz_generation.md`: 专八练习卷生成脚本规则，记录审核状态、来源标签和内部测试模式。
 - `database/schema.sql`: 初始数据库 SQL 表结构，当前以 SQLite 兼容为主，后续可迁移 PostgreSQL。
 
 ## 16. 当前资料批次
@@ -519,7 +520,24 @@ data/processed/review_sheets/tem8_questions_review.csv
 - `needs_review` 保持待审核。
 - `needs_fix` 记录到审核日志，题目主状态仍保持待审核。
 
-## 20. 本地 OCR 配置
+## 20. 当前组卷原型状态
+
+已建立学生侧练习卷生成脚本：
+
+```text
+scripts/generate_quiz.py
+```
+
+当前规则：
+
+- 默认只抽 `review_status = approved` 且 `source_usage = practice` 的题。
+- 当前 150 道已入库题仍是 `needs_review`，所以默认模式会拒绝组卷。
+- 内部测试可临时加 `--include-needs-review` 验证输出结构。
+- 历年真题输出中保留 `source.label`，例如 `2021 年俄语专八真题`。
+
+当前已用内部测试模式生成过 5 道语法题 JSON，验证来源标签、答案键和审核状态均能输出。
+
+## 21. 本地 OCR 配置
 
 当前已安装 Tesseract OCR，用于处理扫描版俄语专八 PDF。
 
@@ -535,7 +553,7 @@ data/processed/review_sheets/tem8_questions_review.csv
 - 语言包放在纯英文用户目录。
 - 后续 OCR 脚本应显式传入 `--tessdata-dir C:\Users\Reto\tesseract-tessdata`。
 
-## 21. 后续工作规则
+## 22. 后续工作规则
 
 后续开发或规划时：
 
@@ -545,7 +563,7 @@ data/processed/review_sheets/tem8_questions_review.csv
 - 如果需要做架构决策，应优先兼顾“专八第一版可落地”和“多考试体系可扩展”。
 - 如果引入 GitHub 项目作为参考，应先评估许可证、技术栈、维护状态和改造成本。
 
-## 22. 版本控制规则
+## 23. 版本控制规则
 
 项目从一开始使用 Git 做版本控制。
 
@@ -566,6 +584,7 @@ data/processed/review_sheets/tem8_questions_review.csv
 - `feat: add question bank schema`
 - `feat: add quiz generation flow`
 - `fix: correct pdf parsing edge case`
+
 
 
 
