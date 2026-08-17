@@ -426,6 +426,7 @@ russian-ai-tutor/
 - `docs/database_schema.md`: 数据库设计说明，记录建库原则、表结构说明、PDF 导入流程和当前真题批次。
 - `docs/segmentation_rules.md`: 题目切分规则，记录专八文本到待审核 JSON 的切分策略。
 - `docs/knowledge_taxonomy.md`: 俄语专八第一版知识点树，用于题目打标、错题分析和巩固练习生成。
+- `docs/review_workflow.md`: 待审核题目导出、人工校对、知识点标注和审核结论规则。
 - `database/schema.sql`: 初始数据库 SQL 表结构，当前以 SQLite 兼容为主，后续可迁移 PostgreSQL。
 
 ## 16. 当前资料批次
@@ -541,6 +542,7 @@ russian-ai-tutor/
 - `feat: add question bank schema`
 - `feat: add quiz generation flow`
 - `fix: correct pdf parsing edge case`
+
 
 
 
