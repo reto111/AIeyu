@@ -384,5 +384,12 @@ requires_source_label = 1
 - 输出 `data/processed/structured/*_review.json`。
 - 每年切出综合知识 30 题、阅读理解 20 题，共 50 题。
 - 所有题目均为待审核候选，审核后可以进入练习题库。
+- 2019、2021、2023 年待审核 JSON 已导入本地 SQLite：
+  - 题目：150 道
+  - 选项：600 个
+  - 阅读文章：15 篇
+  - 状态：全部为 `review_status = 'needs_review'`
+  - 来源：全部为 `content_origin = 'past_exam_original'`
+  - 来源标签：全部要求展示 `source_label`，例如 `2019 年俄语专八真题`
 - 2024 OCR 版已试跑，因章节标题、题号和选项排版不同，需要单独的 OCR/新版排版切分规则。
 - OCR 解析可以暂时放一放，优先把文字版真题转成可审核题目。

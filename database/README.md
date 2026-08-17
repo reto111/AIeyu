@@ -43,6 +43,27 @@ database/russian_ai_tutor.sqlite
 
 该文件是本地运行产物，不提交到 Git。
 
+## 导入待审核真题
+
+2019、2021、2023 年文字版专八真题已完成结构化切分，并可用以下脚本导入本地 SQLite：
+
+```text
+.venv\Scripts\python.exe scripts\import_review_json_to_db.py --replace-source data\processed\structured\tem8_russian_2019_review.json data\processed\structured\tem8_russian_2021_review.json data\processed\structured\tem8_russian_2023_review.json
+```
+
+当前导入状态：
+
+```text
+questions: 150
+question_options: 600
+passages: 15
+review_status: 全部 needs_review
+content_origin: 全部 past_exam_original
+source_label: 全部要求展示，例如 2019 年俄语专八真题
+```
+
+注意：这些题目目前还不是最终审核通过题库。正式进入学生组卷池前，需要人工确认题干、选项、答案、阅读文章和来源标签。
+
 ## OCR 依赖
 
 当前本机 OCR 配置：
