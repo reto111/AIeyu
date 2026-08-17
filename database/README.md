@@ -152,6 +152,16 @@ data\processed\review_sheets\tem8_passages_review.csv
 ```
 
 详见：`docs/grading_workflow.md`
+
+## 生成错题复习包
+
+根据批改报告生成中文复习建议和同类巩固练习：
+
+```text
+.venv\Scripts\python.exe scripts\generate_remediation_pack.py --report data\processed\reports\tem8_quiz_20260817_sample_report_persisted.json --per-weakness 3 --seed 20260817
+```
+
+详见：`docs/remediation_workflow.md`
 ## OCR 依赖
 
 当前本机 OCR 配置：
