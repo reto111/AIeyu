@@ -425,6 +425,7 @@ russian-ai-tutor/
 - `docs/product_requirements.md`: 产品需求文档，记录目标用户、功能范围、核心流程、验收标准和版本边界。
 - `docs/database_schema.md`: 数据库设计说明，记录建库原则、表结构说明、PDF 导入流程和当前真题批次。
 - `docs/segmentation_rules.md`: 题目切分规则，记录专八文本到待审核 JSON 的切分策略。
+- `docs/knowledge_taxonomy.md`: 俄语专八第一版知识点树，用于题目打标、错题分析和巩固练习生成。
 - `database/schema.sql`: 初始数据库 SQL 表结构，当前以 SQLite 兼容为主，后续可迁移 PostgreSQL。
 
 ## 16. 当前资料批次
@@ -473,7 +474,27 @@ russian-ai-tutor/
 
 这些题目目前是“待人工审核的历年真题原题”。进入学生组卷池前，应先确认题干、选项、答案、阅读文章和来源年份无误；进入组卷后，前端必须展示来源标签。
 
-## 18. 本地 OCR 配置
+## 18. 当前知识点树状态
+
+已建立俄语专八第一版知识点树，并写入本地 SQLite 的 `knowledge_points` 表。
+
+当前节点数：35
+
+分类分布：
+
+- 语法与词汇：14
+- 俄罗斯文学：7
+- 俄罗斯国情：7
+- 阅读理解：7
+
+维护入口：
+
+- 文档：`docs/knowledge_taxonomy.md`
+- 脚本：`scripts/seed_tem8_knowledge_points.py`
+
+脚本可重复运行；同一 `code` 会更新已有知识点，不会重复插入。后续题目人工审核时，应给每道正式题至少绑定一个知识点。
+
+## 19. 本地 OCR 配置
 
 当前已安装 Tesseract OCR，用于处理扫描版俄语专八 PDF。
 
@@ -489,7 +510,7 @@ russian-ai-tutor/
 - 语言包放在纯英文用户目录。
 - 后续 OCR 脚本应显式传入 `--tessdata-dir C:\Users\Reto\tesseract-tessdata`。
 
-## 19. 后续工作规则
+## 20. 后续工作规则
 
 后续开发或规划时：
 
@@ -499,7 +520,7 @@ russian-ai-tutor/
 - 如果需要做架构决策，应优先兼顾“专八第一版可落地”和“多考试体系可扩展”。
 - 如果引入 GitHub 项目作为参考，应先评估许可证、技术栈、维护状态和改造成本。
 
-## 20. 版本控制规则
+## 21. 版本控制规则
 
 项目从一开始使用 Git 做版本控制。
 
@@ -520,3 +541,6 @@ russian-ai-tutor/
 - `feat: add question bank schema`
 - `feat: add quiz generation flow`
 - `fix: correct pdf parsing edge case`
+
+
+

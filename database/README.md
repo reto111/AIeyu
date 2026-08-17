@@ -64,6 +64,22 @@ source_label: 全部要求展示，例如 2019 年俄语专八真题
 
 注意：这些题目目前还不是最终审核通过题库。正式进入学生组卷池前，需要人工确认题干、选项、答案、阅读文章和来源标签。
 
+## 初始化知识点树
+
+俄语专八第一版知识点树写入 `knowledge_points` 表：
+
+```text
+.venv\Scripts\python.exe scripts\seed_tem8_knowledge_points.py
+```
+
+知识点树说明见：
+
+```text
+docs/knowledge_taxonomy.md
+```
+
+当前知识点树共 35 个节点：语法与词汇 14 个、俄罗斯文学 7 个、俄罗斯国情 7 个、阅读理解 7 个。
+
 ## OCR 依赖
 
 当前本机 OCR 配置：
@@ -103,3 +119,5 @@ $env:PDF_PASSWORD="your-password"
 ```text
 .venv\Scripts\python.exe scripts\extract_pdf_text.py data\raw_pdfs\tem8_russian_2024_full.pdf data\processed\tem8_russian_2024_full.txt --mode auto
 ```
+
+
