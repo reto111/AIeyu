@@ -28,9 +28,17 @@
 
 ```text
 data\processed\review_sheets\tem8_questions_review.csv
+data\processed\review_sheets\tem8_passages_review.csv
 ```
 
 该目录不提交到 Git，避免提交真题内容。
+
+导出结构：
+
+- `tem8_questions_review.csv`: 题目、选项、答案、来源、`passage_id`、知识点和审核结论。
+- `tem8_passages_review.csv`: 阅读文章全文，每篇文章一行，通过 `passage_id` 与题目表对应。
+
+注意：题目表不再重复放入阅读文章全文，避免阅读题在表格中显得被长文章打散。
 
 只导出某一年：
 
@@ -50,7 +58,8 @@ data\processed\review_sheets\tem8_questions_review.csv
 - `stem`: 题干
 - `option_a` 到 `option_d`: 选项
 - `correct_answer`: 正确答案
-- `passage_body`: 阅读文章全文，非阅读题为空
+- `passage_id`: 阅读文章 ID，非阅读题为空
+- `passage_title`: 阅读文章标题，非阅读题为空
 
 人工填写字段：
 

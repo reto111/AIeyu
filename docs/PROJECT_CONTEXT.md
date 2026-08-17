@@ -513,6 +513,13 @@ data/processed/review_sheets/tem8_questions_review.csv
 
 该表包含 150 道待审核题，保留题干、选项、答案、阅读文章、来源标签，并预留 `knowledge_point_codes`、`review_decision`、`review_notes` 三列供人工填写。
 
+2026-08-17 更新：后续审核表导出改为题目表和阅读文章表分开：
+
+- `tem8_questions_review.csv`: 题目、选项、答案、来源、`passage_id`、审核字段。
+- `tem8_passages_review.csv`: 阅读文章全文，每篇文章一行。
+
+这样阅读题不会再因为长文章正文重复出现在每一题行里而难以阅读。
+
 回写策略：
 
 - `approved` 写入题目主状态，且默认必须绑定至少一个知识点。

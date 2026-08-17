@@ -88,6 +88,15 @@ docs/knowledge_taxonomy.md
 .venv\Scripts\python.exe scripts\export_review_sheet.py
 ```
 
+默认会导出两个文件：
+
+```text
+data\processed\review_sheets\tem8_questions_review.csv
+data\processed\review_sheets\tem8_passages_review.csv
+```
+
+题目表不再重复放入阅读文章全文，阅读文章通过 `passage_id` 单独查看。
+
 回写前先干跑：
 
 ```text
