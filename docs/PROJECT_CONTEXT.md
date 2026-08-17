@@ -431,6 +431,7 @@ russian-ai-tutor/
 - `docs/grading_workflow.md`: 答题模板、批改、错题统计、薄弱点快照和入库流程。
 - `docs/remediation_workflow.md`: 批改后的中文复习建议、薄弱点巩固练习包生成流程。
 - `docs/tutoring_prompt_workflow.md`: AI 私教错题讲解提示词和大模型输入上下文构建流程。
+- `docs/deepseek_integration.md`: DeepSeek API 本地配置、调用脚本、模型选择和对话入库说明。
 - `database/schema.sql`: 初始数据库 SQL 表结构，当前以 SQLite 兼容为主，后续可迁移 PostgreSQL。
 
 ## 16. 当前资料批次
@@ -644,7 +645,28 @@ scripts/build_tutor_prompt.py
 
 当前尚未调用大模型 API，也尚未建立网页对话窗口。
 
-## 24. 本地 OCR 配置
+## 24. 当前 DeepSeek API 接入状态
+
+用户已确认接入 DeepSeek API。
+
+已建立：
+
+- 本地环境示例：`.env.example`
+- 调用脚本：`scripts/call_deepseek_tutor.py`
+- 接入文档：`docs/deepseek_integration.md`
+
+当前接口规则：
+
+- `DEEPSEEK_BASE_URL = https://api.deepseek.com`
+- 默认模型：`deepseek-v4-flash`
+- 可选高质量模型：`deepseek-v4-pro`
+- 旧模型名 `deepseek-chat`、`deepseek-reasoner` 不再用于本项目。
+
+API Key 不提交到 Git，只能放在本地 `.env` 或环境变量 `DEEPSEEK_API_KEY` 中。
+
+当前脚本可读取 tutor prompt 包，调用 DeepSeek 生成中文错题讲解，并可选写入 `ai_tutor_threads` 和 `ai_tutor_messages`。
+
+## 25. 本地 OCR 配置
 
 当前已安装 Tesseract OCR，用于处理扫描版俄语专八 PDF。
 
@@ -660,7 +682,7 @@ scripts/build_tutor_prompt.py
 - 语言包放在纯英文用户目录。
 - 后续 OCR 脚本应显式传入 `--tessdata-dir C:\Users\Reto\tesseract-tessdata`。
 
-## 25. 后续工作规则
+## 26. 后续工作规则
 
 后续开发或规划时：
 
@@ -670,7 +692,7 @@ scripts/build_tutor_prompt.py
 - 如果需要做架构决策，应优先兼顾“专八第一版可落地”和“多考试体系可扩展”。
 - 如果引入 GitHub 项目作为参考，应先评估许可证、技术栈、维护状态和改造成本。
 
-## 26. 版本控制规则
+## 27. 版本控制规则
 
 项目从一开始使用 Git 做版本控制。
 

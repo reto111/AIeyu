@@ -172,6 +172,34 @@ data\processed\review_sheets\tem8_passages_review.csv
 ```
 
 详见：`docs/tutoring_prompt_workflow.md`
+
+## 调用 DeepSeek 私教讲解
+
+先配置本地 API Key：
+
+```text
+.env.example -> .env
+```
+
+或在 PowerShell 中设置：
+
+```text
+$env:DEEPSEEK_API_KEY="你的 DeepSeek API Key"
+```
+
+调用 DeepSeek 生成中文讲解：
+
+```text
+.venv\Scripts\python.exe scripts\call_deepseek_tutor.py --prompt data\processed\tutor_prompts\tem8_quiz_20260817_sample_report_persisted_tutor_prompt.json
+```
+
+调用并保存到对话表：
+
+```text
+.venv\Scripts\python.exe scripts\call_deepseek_tutor.py --prompt data\processed\tutor_prompts\tem8_quiz_20260817_sample_report_persisted_tutor_prompt.json --persist
+```
+
+详见：`docs/deepseek_integration.md`
 ## OCR 依赖
 
 当前本机 OCR 配置：
