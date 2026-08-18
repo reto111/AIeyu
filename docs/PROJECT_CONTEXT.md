@@ -718,9 +718,10 @@ apps/student_web/static/
 - 页面作答。
 - 自动批改并写入测试记录。
 - 显示正确率、错题、薄弱知识点和来源标签。
-- 批改完成后自动把本次错题数据发送到 DeepSeek，生成深度错题讲解并写入对话表。
+- `/api/grade` 同步完成批改和 DeepSeek 深度错题讲解生成，并写入对话表。
+- 前端提交后只显示“正在批改中”的等待状态；批改结果和讲解内容等待同一个响应完成后一起出现。
 - 逐题讲解显示在对应错题下方；薄弱点排序、复习方案、巩固练习和可追问问题显示在 AI 对话区。
-- 读取已保存的 DeepSeek 中文讲解。
+- 学生端不再提供“读取讲解”按钮。
 - 预留追问入口，发送前要求确认允许把对话上下文发送到 DeepSeek。
 
 当前验证：
@@ -729,10 +730,13 @@ apps/student_web/static/
 - 题库状态接口返回 150 道 `approved` 题。
 - 组卷接口可生成练习。
 - 批改接口可写入 `quiz_sessions`、`quiz_items`、`user_answers`、`weakness_snapshots`。
-- 本次测试讲解接口为 `/api/explain`，必须收到 `confirm_external_send = true` 才能调用 DeepSeek。
+- `/api/grade` 返回批改结果时同步返回 DeepSeek 讲解。
+- `/api/explain` 保留为内部调试入口，必须收到 `confirm_external_send = true` 才能调用 DeepSeek。
 - AI 讲解读取接口只返回 assistant 消息，不把系统提示词和底层 JSON 暴露给学生端。
 
 2026-08-18 更新：用户要求去掉“生成错题讲解”按钮，不再输出“本次表现”。讲解应在批改后自动生成，并按题目显示逐题解析；整体复习内容单独显示在 AI 对话区。
+
+2026-08-18 更新：用户进一步要求去掉“读取讲解”步骤，并让批改与讲解同步出现。当前实现为 `/api/grade` 等待 DeepSeek 返回后再把批改结果和讲解一起返回前端。
 
 当前本地访问地址：
 

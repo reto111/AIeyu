@@ -393,7 +393,7 @@ def api_grade(payload: dict[str, Any]) -> dict[str, Any]:
         )
         conn.commit()
 
-    return {
+    result = {
         "quiz_session_id": quiz_session_id,
         "submitted_at": datetime.now().isoformat(timespec="seconds"),
         "total_questions": total,
@@ -404,6 +404,20 @@ def api_grade(payload: dict[str, Any]) -> dict[str, Any]:
         "wrong_questions": wrong_questions,
         "graded_questions": graded_questions,
     }
+    if result["wrong_count"]:
+        try:
+            result["explanation"] = generate_explanation_for_session(quiz_session_id)
+        except Exception as exc:
+            result["explanation_error"] = str(exc)
+    else:
+        result["explanation"] = {
+            "quiz_session_id": quiz_session_id,
+            "thread_id": None,
+            "assistant_text": "本次无错题。",
+            "question_explanations": [],
+            "study_advice_zh": "本次无错题。可以继续生成新练习，或选择薄弱专项保持手感。",
+        }
+    return result
 
 
 def grading_report_for_session(conn: sqlite3.Connection, quiz_session_id: int) -> dict[str, Any]:
@@ -606,10 +620,7 @@ def parse_assistant_json(text: str) -> dict[str, Any]:
     return parsed if isinstance(parsed, dict) else {}
 
 
-def api_generate_explanation(payload: dict[str, Any]) -> dict[str, Any]:
-    if not payload.get("confirm_external_send"):
-        raise ValueError("请先确认允许把本次错题数据发送到 DeepSeek。")
-    quiz_session_id = int(payload["quiz_session_id"])
+def generate_explanation_for_session(quiz_session_id: int) -> dict[str, Any]:
     system_prompt = PROMPT_PATH.read_text(encoding="utf-8")
 
     with db() as conn:
@@ -674,6 +685,12 @@ def api_generate_explanation(payload: dict[str, Any]) -> dict[str, Any]:
         "question_explanations": question_explanations,
         "study_advice_zh": study_advice_zh or assistant_text,
     }
+
+
+def api_generate_explanation(payload: dict[str, Any]) -> dict[str, Any]:
+    if not payload.get("confirm_external_send"):
+        raise ValueError("请先确认允许把本次错题数据发送到 DeepSeek。")
+    return generate_explanation_for_session(int(payload["quiz_session_id"]))
 
 
 def api_followup(payload: dict[str, Any]) -> dict[str, Any]:

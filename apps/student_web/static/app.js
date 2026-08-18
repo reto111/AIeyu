@@ -61,6 +61,15 @@ function selectedValues(name) {
   return Array.from(document.querySelectorAll(`input[name="${name}"]:checked`)).map((input) => input.value);
 }
 
+function setSubmitLoading(isLoading) {
+  const button = $("#quizForm button[type='submit']");
+  button.disabled = isLoading;
+  button.textContent = isLoading ? "批改中..." : "提交批改";
+  if (isLoading) {
+    $("#answerHint").innerHTML = `<span class="loader"></span><span>正在批改中，讲解生成后会一起显示。</span>`;
+  }
+}
+
 async function generateQuiz() {
   $("#generateBtn").disabled = true;
   $("#generateBtn").textContent = "生成中...";
@@ -77,6 +86,7 @@ async function generateQuiz() {
     });
     state.result = null;
     state.explanation = null;
+    state.latestThreadId = null;
     renderQuiz(state.quiz);
     $("#resultBox").classList.add("muted");
     $("#resultBox").textContent = "提交后显示正确率和薄弱点。";
@@ -143,23 +153,26 @@ async function submitQuiz(event) {
     };
   });
 
-  $("#answerHint").textContent = "正在批改...";
+  setSubmitLoading(true);
+  applyQuestionExplanations([]);
+  $("#resultBox").classList.add("muted");
+  $("#resultBox").textContent = "正在批改中...";
+  $("#threadBox").classList.add("muted");
+  $("#threadBox").textContent = "正在同步生成错题讲解...";
   try {
     state.result = await requestJson("/api/grade", {
       method: "POST",
       body: JSON.stringify({ title: "AIeyu student practice", answers }),
     });
+    state.explanation = state.result.explanation || null;
     renderResult(state.result);
     markAnswers(state.result);
-    $("#answerHint").textContent = "已批改，正在生成讲解...";
-    $("#threadBox").classList.add("muted");
-    $("#threadBox").textContent = state.result.wrong_count
-      ? "正在生成薄弱点、复习方案和巩固练习。"
-      : "本次无错题。";
-    await generateExplanation();
+    renderExplanation(state.explanation, state.result.explanation_error);
     $("#answerHint").textContent = "已批改";
   } catch (error) {
     $("#answerHint").textContent = error.message;
+  } finally {
+    setSubmitLoading(false);
   }
 }
 
@@ -217,66 +230,31 @@ function applyQuestionExplanations(explanations) {
   }
 }
 
-function parseAssistantJson(text) {
-  try {
-    return JSON.parse(text);
-  } catch {
-    return null;
-  }
-}
-
-async function generateExplanation() {
-  if (!state.result?.quiz_session_id) {
-    $("#threadBox").textContent = "请先提交批改，再生成错题讲解。";
+function renderExplanation(explanation, error) {
+  if (error) {
+    $("#threadBox").classList.remove("muted");
+    $("#threadBox").textContent = `批改已完成，但 AI 讲解生成失败：${error}`;
     return;
   }
-  if (!state.result.wrong_count) {
-    $("#threadBox").textContent = "本次无错题，暂时不需要生成错题讲解。";
+  if (!explanation) {
+    $("#threadBox").classList.add("muted");
+    $("#threadBox").textContent = "本次没有生成 AI 讲解。";
     return;
   }
-
-  $("#threadBox").classList.add("muted");
-  $("#threadBox").textContent = "正在生成讲解，稍等一下。";
-  try {
-    const payload = await requestJson("/api/explain", {
-      method: "POST",
-      body: JSON.stringify({
-        quiz_session_id: state.result.quiz_session_id,
-        confirm_external_send: true,
-      }),
-    });
-    if (payload.thread_id) {
-      state.latestThreadId = payload.thread_id;
-    }
-    state.explanation = payload;
-    applyQuestionExplanations(payload.question_explanations || []);
-    $("#threadBox").classList.remove("muted");
-    $("#threadBox").textContent = payload.study_advice_zh || payload.assistant_text;
-  } catch (error) {
-    $("#threadBox").textContent = error.message;
+  if (explanation.thread_id) {
+    state.latestThreadId = explanation.thread_id;
   }
-}
-
-async function loadThread() {
-  $("#threadBox").classList.add("muted");
-  $("#threadBox").textContent = "正在读取讲解...";
-  try {
-    const payload = await requestJson(`/api/thread?id=${state.latestThreadId}`);
-    const assistantMessages = payload.messages.filter((item) => item.role === "assistant");
-    const latestContent = assistantMessages.at(-1)?.content || "";
-    const parsed = parseAssistantJson(latestContent);
-    if (parsed?.question_explanations) {
-      applyQuestionExplanations(parsed.question_explanations);
-    }
-    $("#threadBox").classList.remove("muted");
-    $("#threadBox").textContent = parsed?.study_advice_zh || latestContent || "当前线程还没有讲解。";
-  } catch (error) {
-    $("#threadBox").textContent = error.message;
-  }
+  applyQuestionExplanations(explanation.question_explanations || []);
+  $("#threadBox").classList.remove("muted");
+  $("#threadBox").textContent = explanation.study_advice_zh || explanation.assistant_text || "本次没有整体建议。";
 }
 
 async function sendFollowup() {
   const message = $("#followupText").value.trim();
+  if (!state.latestThreadId) {
+    $("#threadBox").textContent = "请先完成一次带 AI 讲解的批改。";
+    return;
+  }
   if (!message) {
     $("#threadBox").textContent = "请先输入追问。";
     return;
@@ -318,7 +296,6 @@ async function init() {
 
 $("#generateBtn").addEventListener("click", generateQuiz);
 $("#quizForm").addEventListener("submit", submitQuiz);
-$("#loadThreadBtn").addEventListener("click", loadThread);
 $("#followupBtn").addEventListener("click", sendFollowup);
 
 init();

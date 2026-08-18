@@ -77,7 +77,15 @@ data\processed\tutor_outputs\
 
 注意：如果 prompt 包包含完整题干、选项和阅读原文，调用 DeepSeek 前需要明确确认允许把这些内容发送到外部模型服务。
 
-学生端网页已提供本次测试讲解入口：
+学生端网页的正式入口是批改接口：
+
+```text
+POST /api/grade
+```
+
+该接口会先写入批改记录，再同步调用 DeepSeek，最后一次性返回批改结果、逐题讲解和整体复习建议。
+
+内部调试仍保留单独讲解入口：
 
 ```text
 POST /api/explain
@@ -115,7 +123,7 @@ POST /api/explain
 }
 ```
 
-如果没有 `confirm_external_send = true`，接口必须拒绝调用 DeepSeek。学生端原型在批改完成后自动携带该标记生成讲解；商业化前应补充隐私政策和服务条款确认。
+如果没有 `confirm_external_send = true`，`/api/explain` 必须拒绝调用 DeepSeek。学生端原型按用户确认规则在 `/api/grade` 中自动同步调用 DeepSeek；商业化前应补充隐私政策和服务条款确认。
 
 ## 5. 学生追问
 

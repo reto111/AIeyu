@@ -102,6 +102,12 @@ h1 {
   color: var(--muted);
 }
 
+#answerHint {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .panel {
   padding: 16px;
 }
@@ -298,6 +304,21 @@ textarea {
   color: var(--ink);
   line-height: 1.7;
   white-space: pre-wrap;
+}
+
+.loader {
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--line);
+  border-top-color: var(--green);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .submitbar {
