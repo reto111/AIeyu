@@ -438,6 +438,7 @@ russian-ai-tutor/
 - `docs/deepseek_integration.md`: DeepSeek API 本地配置、调用脚本、模型选择和对话入库说明。
 - `docs/tutor_followup_workflow.md`: AI 私教讲解后的学生追问流程。
 - `docs/student_web_prototype.md`: 学生端本地网页原型，包含组卷、答题、批改和 AI 讲解展示。
+- `docs/aliyun_windows_deployment.md`: 阿里云 Windows Server 试用服务器部署流程。
 - `database/schema.sql`: 初始数据库 SQL 表结构，当前以 SQLite 兼容为主，后续可迁移 PostgreSQL。
 
 ## 16. 当前资料批次
@@ -762,6 +763,16 @@ http://127.0.0.1:8765/
 - 后续 OCR 脚本应显式传入 `--tessdata-dir C:\Users\Reto\tesseract-tessdata`。
 
 ## 28. 后续工作规则
+
+阿里云测试部署规则：
+
+- 当前用户有一台阿里云 ECS Windows Server 2022 试用服务器，配置为 2 vCPU / 4 GiB。
+- 推荐通过 GitHub 私有仓库同步代码到服务器。
+- `.env`、SQLite 数据库、原始 PDF 和处理产物不得提交到 GitHub。
+- 服务器需要单独复制 `.env` 和 `database\russian_ai_tutor.sqlite`。
+- 当前学生端服务在服务器上应使用 `--host 0.0.0.0 --port 8765` 启动。
+- 正式对外测试前需要开放阿里云安全组和 Windows 防火墙的 TCP `8765` 端口。
+- 当前原型没有登录系统，测试链接只应发给可信学生。
 
 随机组卷规则：
 
