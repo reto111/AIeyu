@@ -432,6 +432,7 @@ russian-ai-tutor/
 - `docs/remediation_workflow.md`: 批改后的中文复习建议、薄弱点巩固练习包生成流程。
 - `docs/tutoring_prompt_workflow.md`: AI 私教错题讲解提示词和大模型输入上下文构建流程。
 - `docs/deepseek_integration.md`: DeepSeek API 本地配置、调用脚本、模型选择和对话入库说明。
+- `docs/tutor_followup_workflow.md`: AI 私教讲解后的学生追问流程。
 - `database/schema.sql`: 初始数据库 SQL 表结构，当前以 SQLite 兼容为主，后续可迁移 PostgreSQL。
 
 ## 16. 当前资料批次
@@ -679,7 +680,25 @@ API Key 不提交到 Git，只能放在本地 `.env` 或环境变量 `DEEPSEEK_A
 
 注意：增强版 prompt 会发送完整选项和阅读原文到 DeepSeek。真实调用和写入对话表前，需要用户明确同意发送这份扩展后的测试数据；本轮测试已取得明确同意并完成调用。
 
-## 25. 本地 OCR 配置
+## 25. 当前追问对话脚本状态
+
+已建立 AI 私教追问脚本：
+
+```text
+scripts/followup_deepseek_tutor.py
+```
+
+当前能力：
+
+- 根据 `ai_tutor_threads.id` 读取历史对话。
+- 追加学生追问。
+- 调用 DeepSeek 继续回答。
+- 把学生追问和模型回答写回 `ai_tutor_messages`。
+- 输出 JSON 和 Markdown 供本地检查。
+
+注意：追问调用会把该对话线程历史和学生新问题发送到 DeepSeek。如果线程中包含题干、选项、阅读原文或学习表现，正式调用前仍需要确认用户同意发送。
+
+## 26. 本地 OCR 配置
 
 当前已安装 Tesseract OCR，用于处理扫描版俄语专八 PDF。
 
@@ -695,7 +714,7 @@ API Key 不提交到 Git，只能放在本地 `.env` 或环境变量 `DEEPSEEK_A
 - 语言包放在纯英文用户目录。
 - 后续 OCR 脚本应显式传入 `--tessdata-dir C:\Users\Reto\tesseract-tessdata`。
 
-## 26. 后续工作规则
+## 27. 后续工作规则
 
 后续开发或规划时：
 
@@ -705,7 +724,7 @@ API Key 不提交到 Git，只能放在本地 `.env` 或环境变量 `DEEPSEEK_A
 - 如果需要做架构决策，应优先兼顾“专八第一版可落地”和“多考试体系可扩展”。
 - 如果引入 GitHub 项目作为参考，应先评估许可证、技术栈、维护状态和改造成本。
 
-## 27. 版本控制规则
+## 28. 版本控制规则
 
 项目从一开始使用 Git 做版本控制。
 

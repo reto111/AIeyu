@@ -77,7 +77,17 @@ data\processed\tutor_outputs\
 
 注意：如果 prompt 包包含完整题干、选项和阅读原文，调用 DeepSeek 前需要明确确认允许把这些内容发送到外部模型服务。
 
-## 5. 模型选择建议
+## 5. 学生追问
+
+初始讲解写入对话表后，可以基于同一个线程继续追问：
+
+```text
+.venv\Scripts\python.exe scripts\followup_deepseek_tutor.py --thread-id 1 --message "第2题为什么不能选A？请再用更简单的话解释。"
+```
+
+追问会读取该线程历史，并把新问题与模型回答继续写入 `ai_tutor_messages`。
+
+## 6. 模型选择建议
 
 第一阶段建议：
 

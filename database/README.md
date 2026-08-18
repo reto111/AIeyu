@@ -200,6 +200,14 @@ $env:DEEPSEEK_API_KEY="你的 DeepSeek API Key"
 ```
 
 详见：`docs/deepseek_integration.md`
+
+继续追问同一个 AI 私教线程：
+
+```text
+.venv\Scripts\python.exe scripts\followup_deepseek_tutor.py --thread-id 1 --message "第2题为什么不能选A？请再用更简单的话解释。"
+```
+
+详见：`docs/tutor_followup_workflow.md`
 ## OCR 依赖
 
 当前本机 OCR 配置：
