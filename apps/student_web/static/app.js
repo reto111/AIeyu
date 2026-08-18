@@ -1,6 +1,7 @@
 const state = {
   quiz: null,
   result: null,
+  explanation: null,
   latestThreadId: 1,
 };
 
@@ -75,11 +76,12 @@ async function generateQuiz() {
       body: JSON.stringify(payload),
     });
     state.result = null;
+    state.explanation = null;
     renderQuiz(state.quiz);
     $("#resultBox").classList.add("muted");
     $("#resultBox").textContent = "提交后显示正确率和薄弱点。";
     $("#threadBox").classList.add("muted");
-    $("#threadBox").textContent = "提交批改后可生成本次错题讲解。";
+    $("#threadBox").textContent = "批改后自动生成薄弱点、复习方案和巩固练习。";
   } catch (error) {
     $("#resultBox").classList.remove("muted");
     $("#resultBox").textContent = error.message;
@@ -121,6 +123,7 @@ function renderQuiz(quiz) {
               )
               .join("")}
           </div>
+          <div class="question-explanation hidden" data-explanation-for="${question.quiz_number}"></div>
         </article>
       `;
     })
@@ -148,11 +151,13 @@ async function submitQuiz(event) {
     });
     renderResult(state.result);
     markAnswers(state.result);
-    $("#answerHint").textContent = "已批改";
+    $("#answerHint").textContent = "已批改，正在生成讲解...";
     $("#threadBox").classList.add("muted");
     $("#threadBox").textContent = state.result.wrong_count
-      ? "可以生成本次错题讲解。"
-      : "这次没有错题，继续保持。";
+      ? "正在生成薄弱点、复习方案和巩固练习。"
+      : "本次无错题。";
+    await generateExplanation();
+    $("#answerHint").textContent = "已批改";
   } catch (error) {
     $("#answerHint").textContent = error.message;
   }
@@ -172,17 +177,8 @@ function renderResult(result) {
     .join("");
 
   const wrongHtml = result.wrong_questions.length
-    ? result.wrong_questions
-        .map(
-          (item) => `
-            <div class="wrong">
-              <strong>第 ${item.quiz_number} 题 · ${item.source.label}</strong>
-              <span>你选 ${item.selected_answer || "未答"}，正确答案 ${item.correct_answer}</span>
-            </div>
-          `
-        )
-        .join("")
-    : `<div class="weakness"><strong>全部答对</strong><span>这轮非常稳。</span></div>`;
+    ? `<div class="wrong"><strong>${result.wrong_questions.length} 道错题</strong><span>逐题解析会显示在对应题目下方。</span></div>`
+    : `<div class="weakness"><strong>无错题</strong><span>可以继续生成新练习。</span></div>`;
 
   $("#resultBox").classList.remove("muted");
   $("#resultBox").innerHTML = `
@@ -208,24 +204,39 @@ function markAnswers(result) {
   }
 }
 
+function applyQuestionExplanations(explanations) {
+  for (const box of document.querySelectorAll(".question-explanation")) {
+    box.classList.add("hidden");
+    box.textContent = "";
+  }
+  for (const item of explanations || []) {
+    const box = document.querySelector(`[data-explanation-for="${item.quiz_number}"]`);
+    if (!box) continue;
+    box.classList.remove("hidden");
+    box.textContent = item.explanation_zh || "";
+  }
+}
+
+function parseAssistantJson(text) {
+  try {
+    return JSON.parse(text);
+  } catch {
+    return null;
+  }
+}
+
 async function generateExplanation() {
   if (!state.result?.quiz_session_id) {
     $("#threadBox").textContent = "请先提交批改，再生成错题讲解。";
     return;
   }
   if (!state.result.wrong_count) {
-    $("#threadBox").textContent = "这次没有错题，暂时不需要生成错题讲解。";
-    return;
-  }
-  if (!$("#explainConsent").checked) {
-    $("#threadBox").textContent = "请先勾选同意发送本次错题数据到 DeepSeek。";
+    $("#threadBox").textContent = "本次无错题，暂时不需要生成错题讲解。";
     return;
   }
 
-  $("#generateExplainBtn").disabled = true;
-  $("#generateExplainBtn").textContent = "生成中...";
   $("#threadBox").classList.add("muted");
-  $("#threadBox").textContent = "正在生成错题讲解，稍等一下。";
+  $("#threadBox").textContent = "正在生成讲解，稍等一下。";
   try {
     const payload = await requestJson("/api/explain", {
       method: "POST",
@@ -237,13 +248,12 @@ async function generateExplanation() {
     if (payload.thread_id) {
       state.latestThreadId = payload.thread_id;
     }
+    state.explanation = payload;
+    applyQuestionExplanations(payload.question_explanations || []);
     $("#threadBox").classList.remove("muted");
-    $("#threadBox").textContent = payload.assistant_text;
+    $("#threadBox").textContent = payload.study_advice_zh || payload.assistant_text;
   } catch (error) {
     $("#threadBox").textContent = error.message;
-  } finally {
-    $("#generateExplainBtn").disabled = false;
-    $("#generateExplainBtn").textContent = "生成错题讲解";
   }
 }
 
@@ -253,8 +263,13 @@ async function loadThread() {
   try {
     const payload = await requestJson(`/api/thread?id=${state.latestThreadId}`);
     const assistantMessages = payload.messages.filter((item) => item.role === "assistant");
+    const latestContent = assistantMessages.at(-1)?.content || "";
+    const parsed = parseAssistantJson(latestContent);
+    if (parsed?.question_explanations) {
+      applyQuestionExplanations(parsed.question_explanations);
+    }
     $("#threadBox").classList.remove("muted");
-    $("#threadBox").textContent = assistantMessages.at(-1)?.content || "当前线程还没有讲解。";
+    $("#threadBox").textContent = parsed?.study_advice_zh || latestContent || "当前线程还没有讲解。";
   } catch (error) {
     $("#threadBox").textContent = error.message;
   }
@@ -303,7 +318,6 @@ async function init() {
 
 $("#generateBtn").addEventListener("click", generateQuiz);
 $("#quizForm").addEventListener("submit", submitQuiz);
-$("#generateExplainBtn").addEventListener("click", generateExplanation);
 $("#loadThreadBtn").addEventListener("click", loadThread);
 $("#followupBtn").addEventListener("click", sendFollowup);
 

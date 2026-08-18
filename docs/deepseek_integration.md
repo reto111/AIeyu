@@ -85,6 +85,27 @@ POST /api/explain
 
 该接口会从数据库读取指定 `quiz_session_id` 的错题、选项、学生答案、正确答案、来源标签和薄弱点，套用 `prompts\tutoring\tem8_wrong_question_tutor.md`，调用 DeepSeek 生成深度中文讲解，并写入 `ai_tutor_threads` / `ai_tutor_messages`。
 
+当前提示词要求 DeepSeek 只返回 JSON：
+
+```json
+{
+  "question_explanations": [
+    {
+      "quiz_number": 1,
+      "question_id": 123,
+      "explanation_zh": "..."
+    }
+  ],
+  "study_advice_zh": "..."
+}
+```
+
+前端显示规则：
+
+- `question_explanations`: 放入对应错题下方。
+- `study_advice_zh`: 放入 AI 对话区，包含薄弱点排序、复习方案、巩固练习和可追问问题。
+- 不再输出“本次表现”。
+
 接口必须收到：
 
 ```json
@@ -94,7 +115,7 @@ POST /api/explain
 }
 ```
 
-如果没有 `confirm_external_send = true`，接口必须拒绝调用 DeepSeek。
+如果没有 `confirm_external_send = true`，接口必须拒绝调用 DeepSeek。学生端原型在批改完成后自动携带该标记生成讲解；商业化前应补充隐私政策和服务条款确认。
 
 ## 5. 学生追问
 

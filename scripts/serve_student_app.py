@@ -583,6 +583,29 @@ def assistant_text_from_response(response: dict[str, Any]) -> str:
     return text
 
 
+def parse_assistant_json(text: str) -> dict[str, Any]:
+    cleaned = text.strip()
+    if cleaned.startswith("```"):
+        lines = cleaned.splitlines()
+        if lines and lines[0].startswith("```"):
+            lines = lines[1:]
+        if lines and lines[-1].startswith("```"):
+            lines = lines[:-1]
+        cleaned = "\n".join(lines).strip()
+    try:
+        parsed = json.loads(cleaned)
+    except json.JSONDecodeError:
+        start = cleaned.find("{")
+        end = cleaned.rfind("}")
+        if start == -1 or end == -1 or end <= start:
+            return {}
+        try:
+            parsed = json.loads(cleaned[start : end + 1])
+        except json.JSONDecodeError:
+            return {}
+    return parsed if isinstance(parsed, dict) else {}
+
+
 def api_generate_explanation(payload: dict[str, Any]) -> dict[str, Any]:
     if not payload.get("confirm_external_send"):
         raise ValueError("请先确认允许把本次错题数据发送到 DeepSeek。")
@@ -596,6 +619,8 @@ def api_generate_explanation(payload: dict[str, Any]) -> dict[str, Any]:
                 "quiz_session_id": quiz_session_id,
                 "thread_id": None,
                 "assistant_text": "这次没有错题，暂时不需要生成错题讲解。可以继续生成新练习或做一次薄弱点专项。",
+                "question_explanations": [],
+                "study_advice_zh": "",
             }
         user_payload = build_tutor_payload(report)
 
@@ -605,6 +630,13 @@ def api_generate_explanation(payload: dict[str, Any]) -> dict[str, Any]:
     ]
     response = deepseek_chat(messages)
     assistant_text = assistant_text_from_response(response)
+    assistant_json = parse_assistant_json(assistant_text)
+    question_explanations = assistant_json.get("question_explanations", [])
+    if not isinstance(question_explanations, list):
+        question_explanations = []
+    study_advice_zh = assistant_json.get("study_advice_zh", "")
+    if not isinstance(study_advice_zh, str):
+        study_advice_zh = ""
 
     with db() as conn:
         cursor = conn.execute(
@@ -635,7 +667,13 @@ def api_generate_explanation(payload: dict[str, Any]) -> dict[str, Any]:
             ),
         )
         conn.commit()
-    return {"quiz_session_id": quiz_session_id, "thread_id": thread_id, "assistant_text": assistant_text}
+    return {
+        "quiz_session_id": quiz_session_id,
+        "thread_id": thread_id,
+        "assistant_text": assistant_text,
+        "question_explanations": question_explanations,
+        "study_advice_zh": study_advice_zh or assistant_text,
+    }
 
 
 def api_followup(payload: dict[str, Any]) -> dict[str, Any]:

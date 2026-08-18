@@ -170,10 +170,6 @@ textarea {
   border: 1px solid var(--line);
 }
 
-.explain-btn {
-  margin-top: 10px;
-}
-
 .workspace {
   min-width: 0;
   overflow: hidden;
@@ -291,6 +287,17 @@ textarea {
 .option.wrong {
   border-color: var(--red);
   background: #fff0ef;
+}
+
+.question-explanation {
+  margin-top: 12px;
+  padding: 12px;
+  border: 1px solid #bfd7cc;
+  border-radius: 6px;
+  background: #f2faf6;
+  color: var(--ink);
+  line-height: 1.7;
+  white-space: pre-wrap;
 }
 
 .submitbar {
