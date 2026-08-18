@@ -433,6 +433,7 @@ russian-ai-tutor/
 - `docs/tutoring_prompt_workflow.md`: AI 私教错题讲解提示词和大模型输入上下文构建流程。
 - `docs/deepseek_integration.md`: DeepSeek API 本地配置、调用脚本、模型选择和对话入库说明。
 - `docs/tutor_followup_workflow.md`: AI 私教讲解后的学生追问流程。
+- `docs/student_web_prototype.md`: 学生端本地网页原型，包含组卷、答题、批改和 AI 讲解展示。
 - `database/schema.sql`: 初始数据库 SQL 表结构，当前以 SQLite 兼容为主，后续可迁移 PostgreSQL。
 
 ## 16. 当前资料批次
@@ -698,7 +699,40 @@ scripts/followup_deepseek_tutor.py
 
 注意：追问调用会把该对话线程历史和学生新问题发送到 DeepSeek。如果线程中包含题干、选项、阅读原文或学习表现，正式调用前仍需要确认用户同意发送。
 
-## 26. 本地 OCR 配置
+## 26. 当前学生端网页原型状态
+
+已建立本地学生端网页原型：
+
+```text
+scripts/serve_student_app.py
+apps/student_web/static/
+```
+
+当前能力：
+
+- 查看题库状态。
+- 按题型和年份生成练习。
+- 页面作答。
+- 自动批改并写入测试记录。
+- 显示正确率、错题、薄弱知识点和来源标签。
+- 读取已保存的 DeepSeek 中文讲解。
+- 预留追问入口，发送前要求确认允许把对话上下文发送到 DeepSeek。
+
+当前验证：
+
+- 首页可访问。
+- 题库状态接口返回 150 道 `approved` 题。
+- 组卷接口可生成练习。
+- 批改接口可写入 `quiz_sessions`、`quiz_items`、`user_answers`、`weakness_snapshots`。
+- AI 讲解读取接口只返回 assistant 消息，不把系统提示词和底层 JSON 暴露给学生端。
+
+当前本地访问地址：
+
+```text
+http://127.0.0.1:8765/
+```
+
+## 27. 本地 OCR 配置
 
 当前已安装 Tesseract OCR，用于处理扫描版俄语专八 PDF。
 
@@ -714,7 +748,7 @@ scripts/followup_deepseek_tutor.py
 - 语言包放在纯英文用户目录。
 - 后续 OCR 脚本应显式传入 `--tessdata-dir C:\Users\Reto\tesseract-tessdata`。
 
-## 27. 后续工作规则
+## 28. 后续工作规则
 
 后续开发或规划时：
 
@@ -724,7 +758,7 @@ scripts/followup_deepseek_tutor.py
 - 如果需要做架构决策，应优先兼顾“专八第一版可落地”和“多考试体系可扩展”。
 - 如果引入 GitHub 项目作为参考，应先评估许可证、技术栈、维护状态和改造成本。
 
-## 28. 版本控制规则
+## 29. 版本控制规则
 
 项目从一开始使用 Git 做版本控制。
 

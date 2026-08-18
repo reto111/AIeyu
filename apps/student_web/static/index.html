@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AIeyu 专八练习</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <span class="mark">AI</span>
+          <div>
+            <h1>AIeyu</h1>
+            <p>俄语专八练习</p>
+          </div>
+        </div>
+
+        <section class="panel">
+          <h2>组卷</h2>
+          <label class="field">
+            <span>题目数量</span>
+            <input id="countInput" type="number" min="1" max="50" value="10" />
+          </label>
+          <div class="field">
+            <span>题型</span>
+            <div id="typeControls" class="checkgrid"></div>
+          </div>
+          <div class="field">
+            <span>年份</span>
+            <div id="yearControls" class="checkgrid"></div>
+          </div>
+          <button id="generateBtn" class="primary">生成练习</button>
+        </section>
+
+        <section class="panel stats">
+          <h2>题库</h2>
+          <div id="statusSummary">正在读取题库...</div>
+        </section>
+      </aside>
+
+      <section class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Student Practice</p>
+            <h2>今日专八训练</h2>
+          </div>
+          <div id="quizMeta" class="meta">尚未生成练习</div>
+        </header>
+
+        <section id="emptyState" class="empty">
+          <h2>选择题型和数量后开始练习</h2>
+          <p>题目来自已审核的历年俄语专八真题，页面会保留年份来源。</p>
+        </section>
+
+        <form id="quizForm" class="quiz hidden">
+          <div id="questionList"></div>
+          <div class="submitbar">
+            <button type="submit" class="primary">提交批改</button>
+            <span id="answerHint"></span>
+          </div>
+        </form>
+      </section>
+
+      <aside class="results">
+        <section class="panel">
+          <h2>批改结果</h2>
+          <div id="resultBox" class="muted">提交后显示正确率和薄弱点。</div>
+        </section>
+
+        <section class="panel">
+          <h2>AI 讲解</h2>
+          <div id="threadBox" class="thread muted">可读取最近一次 DeepSeek 讲解。</div>
+          <button id="loadThreadBtn" class="secondary">读取讲解</button>
+          <div class="followup">
+            <textarea id="followupText" rows="3" placeholder="继续追问，例如：第2题为什么不能选A？"></textarea>
+            <label class="consent">
+              <input id="externalConsent" type="checkbox" />
+              <span>同意发送本对话上下文到 DeepSeek</span>
+            </label>
+            <button id="followupBtn" class="secondary">发送追问</button>
+          </div>
+        </section>
+      </aside>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>

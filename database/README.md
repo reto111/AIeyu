@@ -208,6 +208,20 @@ $env:DEEPSEEK_API_KEY="你的 DeepSeek API Key"
 ```
 
 详见：`docs/tutor_followup_workflow.md`
+
+## 启动学生端网页原型
+
+```text
+.venv\Scripts\python.exe scripts\serve_student_app.py --port 8765
+```
+
+打开：
+
+```text
+http://127.0.0.1:8765/
+```
+
+详见：`docs/student_web_prototype.md`
 ## OCR 依赖
 
 当前本机 OCR 配置：
