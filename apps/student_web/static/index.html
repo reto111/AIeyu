@@ -72,6 +72,11 @@
         <section class="panel">
           <h2>AI 讲解</h2>
           <div id="threadBox" class="thread muted">可读取最近一次 DeepSeek 讲解。</div>
+          <label class="consent">
+            <input id="explainConsent" type="checkbox" />
+            <span>同意发送本次错题数据到 DeepSeek</span>
+          </label>
+          <button id="generateExplainBtn" class="primary explain-btn">生成错题讲解</button>
           <button id="loadThreadBtn" class="secondary">读取讲解</button>
           <div class="followup">
             <textarea id="followupText" rows="3" placeholder="继续追问，例如：第2题为什么不能选A？"></textarea>

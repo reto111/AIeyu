@@ -718,6 +718,7 @@ apps/student_web/static/
 - 页面作答。
 - 自动批改并写入测试记录。
 - 显示正确率、错题、薄弱知识点和来源标签。
+- 学生明确同意后，可把本次错题数据发送到 DeepSeek，生成深度错题讲解并写入对话表。
 - 读取已保存的 DeepSeek 中文讲解。
 - 预留追问入口，发送前要求确认允许把对话上下文发送到 DeepSeek。
 
@@ -727,6 +728,7 @@ apps/student_web/static/
 - 题库状态接口返回 150 道 `approved` 题。
 - 组卷接口可生成练习。
 - 批改接口可写入 `quiz_sessions`、`quiz_items`、`user_answers`、`weakness_snapshots`。
+- 本次测试讲解接口为 `/api/explain`，必须收到 `confirm_external_send = true` 才能调用 DeepSeek。
 - AI 讲解读取接口只返回 assistant 消息，不把系统提示词和底层 JSON 暴露给学生端。
 
 当前本地访问地址：

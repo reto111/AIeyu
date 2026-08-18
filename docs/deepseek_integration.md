@@ -77,6 +77,25 @@ data\processed\tutor_outputs\
 
 注意：如果 prompt 包包含完整题干、选项和阅读原文，调用 DeepSeek 前需要明确确认允许把这些内容发送到外部模型服务。
 
+学生端网页已提供本次测试讲解入口：
+
+```text
+POST /api/explain
+```
+
+该接口会从数据库读取指定 `quiz_session_id` 的错题、选项、学生答案、正确答案、来源标签和薄弱点，套用 `prompts\tutoring\tem8_wrong_question_tutor.md`，调用 DeepSeek 生成深度中文讲解，并写入 `ai_tutor_threads` / `ai_tutor_messages`。
+
+接口必须收到：
+
+```json
+{
+  "quiz_session_id": 1,
+  "confirm_external_send": true
+}
+```
+
+如果没有 `confirm_external_send = true`，接口必须拒绝调用 DeepSeek。
+
 ## 5. 学生追问
 
 初始讲解写入对话表后，可以基于同一个线程继续追问：

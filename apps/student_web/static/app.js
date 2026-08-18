@@ -78,6 +78,8 @@ async function generateQuiz() {
     renderQuiz(state.quiz);
     $("#resultBox").classList.add("muted");
     $("#resultBox").textContent = "提交后显示正确率和薄弱点。";
+    $("#threadBox").classList.add("muted");
+    $("#threadBox").textContent = "提交批改后可生成本次错题讲解。";
   } catch (error) {
     $("#resultBox").classList.remove("muted");
     $("#resultBox").textContent = error.message;
@@ -147,6 +149,10 @@ async function submitQuiz(event) {
     renderResult(state.result);
     markAnswers(state.result);
     $("#answerHint").textContent = "已批改";
+    $("#threadBox").classList.add("muted");
+    $("#threadBox").textContent = state.result.wrong_count
+      ? "可以生成本次错题讲解。"
+      : "这次没有错题，继续保持。";
   } catch (error) {
     $("#answerHint").textContent = error.message;
   }
@@ -199,6 +205,45 @@ function markAnswers(result) {
       if (key === question.correct_answer) option.classList.add("correct");
       if (key === question.selected_answer && !question.is_correct) option.classList.add("wrong");
     }
+  }
+}
+
+async function generateExplanation() {
+  if (!state.result?.quiz_session_id) {
+    $("#threadBox").textContent = "请先提交批改，再生成错题讲解。";
+    return;
+  }
+  if (!state.result.wrong_count) {
+    $("#threadBox").textContent = "这次没有错题，暂时不需要生成错题讲解。";
+    return;
+  }
+  if (!$("#explainConsent").checked) {
+    $("#threadBox").textContent = "请先勾选同意发送本次错题数据到 DeepSeek。";
+    return;
+  }
+
+  $("#generateExplainBtn").disabled = true;
+  $("#generateExplainBtn").textContent = "生成中...";
+  $("#threadBox").classList.add("muted");
+  $("#threadBox").textContent = "正在生成错题讲解，稍等一下。";
+  try {
+    const payload = await requestJson("/api/explain", {
+      method: "POST",
+      body: JSON.stringify({
+        quiz_session_id: state.result.quiz_session_id,
+        confirm_external_send: true,
+      }),
+    });
+    if (payload.thread_id) {
+      state.latestThreadId = payload.thread_id;
+    }
+    $("#threadBox").classList.remove("muted");
+    $("#threadBox").textContent = payload.assistant_text;
+  } catch (error) {
+    $("#threadBox").textContent = error.message;
+  } finally {
+    $("#generateExplainBtn").disabled = false;
+    $("#generateExplainBtn").textContent = "生成错题讲解";
   }
 }
 
@@ -258,6 +303,7 @@ async function init() {
 
 $("#generateBtn").addEventListener("click", generateQuiz);
 $("#quizForm").addEventListener("submit", submitQuiz);
+$("#generateExplainBtn").addEventListener("click", generateExplanation);
 $("#loadThreadBtn").addEventListener("click", loadThread);
 $("#followupBtn").addEventListener("click", sendFollowup);
 

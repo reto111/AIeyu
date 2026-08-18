@@ -170,6 +170,10 @@ textarea {
   border: 1px solid var(--line);
 }
 
+.explain-btn {
+  margin-top: 10px;
+}
+
 .workspace {
   min-width: 0;
   overflow: hidden;

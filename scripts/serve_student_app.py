@@ -19,6 +19,7 @@ from urllib.parse import parse_qs, urlparse
 ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "database" / "russian_ai_tutor.sqlite"
 STATIC_DIR = ROOT / "apps" / "student_web" / "static"
+PROMPT_PATH = ROOT / "prompts" / "tutoring" / "tem8_wrong_question_tutor.md"
 DEFAULT_BASE_URL = "https://api.deepseek.com"
 DEFAULT_MODEL = "deepseek-v4-flash"
 DEFAULT_RANDOM_QUESTION_TYPES = ["grammar_choice", "literature_choice", "culture_choice"]
@@ -405,6 +406,108 @@ def api_grade(payload: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def grading_report_for_session(conn: sqlite3.Connection, quiz_session_id: int) -> dict[str, Any]:
+    session = conn.execute(
+        """
+        SELECT id, total_questions, correct_count, accuracy, submitted_at
+        FROM quiz_sessions
+        WHERE id = ?
+        """,
+        (quiz_session_id,),
+    ).fetchone()
+    if session is None:
+        raise ValueError(f"没有找到测试记录 {quiz_session_id}。")
+
+    rows = conn.execute(
+        """
+        SELECT qi.sort_order, qi.question_id, ua.selected_answer, ua.is_correct
+        FROM quiz_items qi
+        JOIN user_answers ua ON ua.quiz_item_id = qi.id
+        WHERE qi.quiz_session_id = ?
+        ORDER BY qi.sort_order
+        """,
+        (quiz_session_id,),
+    ).fetchall()
+    if not rows:
+        raise ValueError(f"测试记录 {quiz_session_id} 还没有答题数据。")
+
+    graded_questions = []
+    wrong_questions = []
+    for row in rows:
+        question = fetch_question(conn, int(row["question_id"]))
+        graded = public_question(conn, question, int(row["sort_order"]))
+        graded["selected_answer"] = row["selected_answer"] or ""
+        graded["correct_answer"] = question["correct_answer"]
+        graded["is_correct"] = bool(row["is_correct"])
+        graded_questions.append(graded)
+        if not graded["is_correct"]:
+            wrong_questions.append(graded)
+
+    weakness = [
+        {
+            "knowledge_point_code": row["code"],
+            "knowledge_point_name_zh": row["name_zh"],
+            "attempted_count": row["attempted_count"],
+            "wrong_count": row["wrong_count"],
+            "accuracy": row["accuracy"],
+            "advice_zh": row["ai_summary_zh"],
+        }
+        for row in conn.execute(
+            """
+            SELECT kp.code, kp.name_zh, ws.attempted_count, ws.wrong_count, ws.accuracy, ws.ai_summary_zh
+            FROM weakness_snapshots ws
+            JOIN knowledge_points kp ON kp.id = ws.knowledge_point_id
+            WHERE ws.quiz_session_id = ?
+            ORDER BY ws.wrong_count DESC, kp.code
+            """,
+            (quiz_session_id,),
+        ).fetchall()
+    ]
+
+    return {
+        "quiz_session_id": quiz_session_id,
+        "submitted_at": session["submitted_at"],
+        "total_questions": session["total_questions"],
+        "correct_count": session["correct_count"],
+        "wrong_count": len(wrong_questions),
+        "accuracy": session["accuracy"],
+        "weakness": weakness,
+        "wrong_questions": wrong_questions,
+        "graded_questions": graded_questions,
+    }
+
+
+def build_tutor_payload(report: dict[str, Any]) -> dict[str, Any]:
+    wrong_questions = report["wrong_questions"]
+    return {
+        "grading_report": {
+            "quiz_session_id": report["quiz_session_id"],
+            "total_questions": report["total_questions"],
+            "correct_count": report["correct_count"],
+            "wrong_count": report["wrong_count"],
+            "accuracy": report["accuracy"],
+            "weakness": report["weakness"],
+            "wrong_questions": wrong_questions,
+        },
+        "remediation_pack": {
+            "summary_zh": "请根据错题题型、选项和薄弱知识点生成中文讲解、复习路径和同类巩固练习。",
+            "remediation": [
+                {
+                    "knowledge_point_code": item["knowledge_point_code"],
+                    "knowledge_point_name_zh": item["knowledge_point_name_zh"],
+                    "attempted_count": item["attempted_count"],
+                    "wrong_count": item["wrong_count"],
+                    "accuracy": item["accuracy"],
+                    "advice_zh": item["advice_zh"],
+                    "practice_questions": [],
+                }
+                for item in report["weakness"]
+                if int(item["wrong_count"]) > 0
+            ],
+        },
+    }
+
+
 def latest_assistant_text(conn: sqlite3.Connection, thread_id: int) -> str | None:
     row = conn.execute(
         """
@@ -470,6 +573,71 @@ def deepseek_chat(messages: list[dict[str, str]]) -> dict[str, Any]:
         raise RuntimeError(exc.read().decode("utf-8", errors="replace")) from exc
 
 
+def assistant_text_from_response(response: dict[str, Any]) -> str:
+    choices = response.get("choices") or []
+    if not choices:
+        raise ValueError("DeepSeek 没有返回可用讲解。")
+    text = str(choices[0].get("message", {}).get("content") or "").strip()
+    if not text:
+        raise ValueError("DeepSeek 返回内容为空。")
+    return text
+
+
+def api_generate_explanation(payload: dict[str, Any]) -> dict[str, Any]:
+    if not payload.get("confirm_external_send"):
+        raise ValueError("请先确认允许把本次错题数据发送到 DeepSeek。")
+    quiz_session_id = int(payload["quiz_session_id"])
+    system_prompt = PROMPT_PATH.read_text(encoding="utf-8")
+
+    with db() as conn:
+        report = grading_report_for_session(conn, quiz_session_id)
+        if not report["wrong_questions"]:
+            return {
+                "quiz_session_id": quiz_session_id,
+                "thread_id": None,
+                "assistant_text": "这次没有错题，暂时不需要生成错题讲解。可以继续生成新练习或做一次薄弱点专项。",
+            }
+        user_payload = build_tutor_payload(report)
+
+    messages = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": json.dumps(user_payload, ensure_ascii=False, indent=2)},
+    ]
+    response = deepseek_chat(messages)
+    assistant_text = assistant_text_from_response(response)
+
+    with db() as conn:
+        cursor = conn.execute(
+            """
+            INSERT INTO ai_tutor_threads (quiz_session_id, title)
+            VALUES (?, ?)
+            """,
+            (quiz_session_id, f"TEM8 student explanation {datetime.now().isoformat(timespec='minutes')}"),
+        )
+        thread_id = int(cursor.lastrowid)
+        conn.execute(
+            "INSERT INTO ai_tutor_messages (thread_id, role, content) VALUES (?, 'system', ?)",
+            (thread_id, system_prompt),
+        )
+        conn.execute(
+            "INSERT INTO ai_tutor_messages (thread_id, role, content) VALUES (?, 'user', ?)",
+            (thread_id, json.dumps(user_payload, ensure_ascii=False, indent=2)),
+        )
+        conn.execute(
+            """
+            INSERT INTO ai_tutor_messages (thread_id, role, content, rag_references_json)
+            VALUES (?, 'assistant', ?, ?)
+            """,
+            (
+                thread_id,
+                assistant_text,
+                json.dumps({"provider": "deepseek", "raw_response": response}, ensure_ascii=False),
+            ),
+        )
+        conn.commit()
+    return {"quiz_session_id": quiz_session_id, "thread_id": thread_id, "assistant_text": assistant_text}
+
+
 def api_followup(payload: dict[str, Any]) -> dict[str, Any]:
     if not payload.get("confirm_external_send"):
         raise ValueError("请先确认允许把本对话上下文发送到 DeepSeek。")
@@ -494,7 +662,7 @@ def api_followup(payload: dict[str, Any]) -> dict[str, Any]:
 
     messages.append({"role": "user", "content": user_message})
     response = deepseek_chat(messages)
-    assistant_text = str(response["choices"][0]["message"]["content"])
+    assistant_text = assistant_text_from_response(response)
 
     with db() as conn:
         conn.execute(
@@ -553,6 +721,9 @@ class StudentAppHandler(BaseHTTPRequestHandler):
                 return
             if self.path == "/api/grade":
                 json_response(self, HTTPStatus.OK, api_grade(payload))
+                return
+            if self.path == "/api/explain":
+                json_response(self, HTTPStatus.OK, api_generate_explanation(payload))
                 return
             if self.path == "/api/followup":
                 json_response(self, HTTPStatus.OK, api_followup(payload))

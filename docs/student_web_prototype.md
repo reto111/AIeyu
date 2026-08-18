@@ -17,6 +17,7 @@
 - 页面作答。
 - 提交后自动批改。
 - 显示正确率、错题和薄弱知识点。
+- 勾选同意后，为本次测试生成 DeepSeek 深度错题讲解。
 - 展示真题来源标签，例如 `2021 年俄语专八真题`。
 - 读取已保存的 DeepSeek 中文讲解。
 - 预留学生继续追问入口。
@@ -69,6 +70,12 @@ POST /api/quiz
 POST /api/grade
 ```
 
+生成本次错题讲解：
+
+```text
+POST /api/explain
+```
+
 读取 AI 讲解：
 
 ```text
@@ -81,7 +88,7 @@ GET /api/thread?id=1
 POST /api/followup
 ```
 
-追问会把该对话线程历史和学生新问题发送到 DeepSeek。前端必须要求学生明确同意后才能发送。
+生成讲解会把本次错题、选项、学生答案、正确答案、来源标签和薄弱点发送到 DeepSeek。追问会把该对话线程历史和学生新问题发送到 DeepSeek。前端必须要求学生明确同意后才能发送。
 
 ## 5. 当前验证结果
 
@@ -91,6 +98,7 @@ POST /api/followup
 - `/api/status` 返回 150 道已审核题。
 - `/api/quiz` 可生成练习，默认不包含阅读题，且不会把正确答案提前返回给前端。
 - `/api/grade` 可批改并写入数据库。
+- `/api/explain` 在学生明确同意后，可根据本次测试生成深度错题讲解并写入 `ai_tutor_threads` / `ai_tutor_messages`。
 - `/api/thread?id=1` 只返回 assistant 讲解消息，不把系统提示词和底层 JSON 暴露给学生端。
 
 ## 6. 后续升级
@@ -100,6 +108,5 @@ POST /api/followup
 - 把当前本地服务拆成正式后端 API。
 - 将静态页面升级为 React 或 Next.js。
 - 加入真实用户账号。
-- 将 DeepSeek 初始讲解从脚本流程接入网页按钮。
 - 增加错题本和复习计划页面。
 - 增加背单词、听力和新闻材料模块。
