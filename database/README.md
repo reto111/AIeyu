@@ -123,6 +123,12 @@ data\processed\review_sheets\tem8_passages_review.csv
 .venv\Scripts\python.exe scripts\generate_quiz.py --count 10
 ```
 
+默认随机组卷不包含阅读题，只抽语法、文学、国情。阅读题需要作为专项明确选择：
+
+```text
+.venv\Scripts\python.exe scripts\generate_quiz.py --count 10 --type reading_choice
+```
+
 审核前内部测试可临时允许待审核题：
 
 ```text

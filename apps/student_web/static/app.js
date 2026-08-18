@@ -32,14 +32,15 @@ function renderStatus(status) {
 
   const typeControls = $("#typeControls");
   typeControls.innerHTML = status.question_types
-    .map(
-      (item) => `
+    .map((item) => {
+      const checked = item.code === "reading_choice" ? "" : "checked";
+      return `
         <label class="chip">
-          <input type="checkbox" name="questionType" value="${item.code}" checked />
+          <input type="checkbox" name="questionType" value="${item.code}" ${checked} />
           <span>${item.name} ${item.count}</span>
         </label>
-      `
-    )
+      `;
+    })
     .join("");
 
   const yearControls = $("#yearControls");

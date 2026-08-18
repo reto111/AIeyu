@@ -21,6 +21,7 @@ DB_PATH = ROOT / "database" / "russian_ai_tutor.sqlite"
 STATIC_DIR = ROOT / "apps" / "student_web" / "static"
 DEFAULT_BASE_URL = "https://api.deepseek.com"
 DEFAULT_MODEL = "deepseek-v4-flash"
+DEFAULT_RANDOM_QUESTION_TYPES = ["grammar_choice", "literature_choice", "culture_choice"]
 
 
 QUESTION_TYPE_NAMES = {
@@ -190,6 +191,8 @@ def api_status() -> dict[str, Any]:
 def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
     count = max(1, min(int(payload.get("count") or 10), 50))
     question_types = [str(item) for item in payload.get("question_types", []) if item]
+    if not question_types:
+        question_types = DEFAULT_RANDOM_QUESTION_TYPES
     years = [int(item) for item in payload.get("years", []) if item]
     seed = payload.get("seed")
     rng = random.Random(seed)

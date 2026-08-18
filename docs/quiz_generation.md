@@ -30,6 +30,16 @@ source_usage = 'practice'
 
 当前 2019、2021、2023 的 150 道题已经由用户确认批量审核通过，默认模式可以正式组卷。
 
+随机组卷默认不包含阅读题，只抽取：
+
+```text
+grammar_choice
+literature_choice
+culture_choice
+```
+
+阅读题保留为单独专项。只有在用户明确选择 `reading_choice` 时才进入组卷。
+
 ## 3. 内部测试模式
 
 为了在审核前验证组卷结构，可以使用内部测试参数：
@@ -48,6 +58,8 @@ source_usage = 'practice'
 .venv\Scripts\python.exe scripts\generate_quiz.py --count 10
 ```
 
+该命令默认不包含阅读题。
+
 限定题型：
 
 ```text
@@ -58,6 +70,12 @@ source_usage = 'practice'
 
 ```text
 .venv\Scripts\python.exe scripts\generate_quiz.py --count 10 --type grammar_choice --type reading_choice
+```
+
+如需阅读专项，可以明确指定：
+
+```text
+.venv\Scripts\python.exe scripts\generate_quiz.py --count 10 --type reading_choice
 ```
 
 限定年份：

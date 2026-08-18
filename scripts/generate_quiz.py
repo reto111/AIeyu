@@ -12,6 +12,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "database" / "russian_ai_tutor.sqlite"
 DEFAULT_OUTPUT_DIR = ROOT / "data" / "processed" / "quizzes"
+DEFAULT_RANDOM_QUESTION_TYPES = ["grammar_choice", "literature_choice", "culture_choice"]
 
 
 def parse_csv(value: str | None) -> list[str]:
@@ -105,9 +106,10 @@ def generate_quiz(
     seed: int | None,
 ) -> dict[str, Any]:
     rng = random.Random(seed)
+    effective_question_types = question_types or DEFAULT_RANDOM_QUESTION_TYPES
     with sqlite3.connect(DB_PATH) as conn:
         conn.row_factory = sqlite3.Row
-        candidates = candidate_rows(conn, question_types, years, include_needs_review)
+        candidates = candidate_rows(conn, effective_question_types, years, include_needs_review)
         if len(candidates) < count:
             raise ValueError(f"Only {len(candidates)} candidate question(s), cannot generate {count}.")
         selected = list(candidates)
@@ -147,7 +149,7 @@ def generate_quiz(
         "exam_system": "TEM8_RU",
         "level": "TEM8",
         "count": count,
-        "question_types": question_types or "all",
+        "question_types": effective_question_types,
         "years": years or "all",
         "include_needs_review": include_needs_review,
         "seed": seed,
