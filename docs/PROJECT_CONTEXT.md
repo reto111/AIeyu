@@ -645,6 +645,17 @@ scripts/build_tutor_prompt.py
 
 当前已完成一次 DeepSeek 真实调用，证明 API Key 和接口可用；但第一次 prompt 过于精简，模型缺少错题选项和阅读原文，阅读题讲解不够具体。后续已将 prompt 构建脚本改为从数据库补全错题选项、阅读文章和来源信息。
 
+2026-08-18 更新：用户已明确同意发送增强版错题数据并写入对话表。增强版 DeepSeek 调用成功，并已保存：
+
+- 输出 JSON：`data/processed/tutor_outputs/tem8_quiz_20260817_sample_report_persisted_tutor_prompt_enriched_deepseek_output.json`
+- 输出 Markdown：`data/processed/tutor_outputs/tem8_quiz_20260817_sample_report_persisted_tutor_prompt_enriched_deepseek_output.md`
+- 对话线程：`ai_tutor_threads.id = 1`
+- 对话消息：system/user/assistant 各 1 条
+- 模型：`deepseek-v4-flash`
+- token 使用：输入 7974，输出 4715，总计 12689
+
+增强版讲解能看到完整选项和阅读原文，因此阅读题讲解可以定位原文并逐项分析。
+
 ## 24. 当前 DeepSeek API 接入状态
 
 用户已确认接入 DeepSeek API。
@@ -666,7 +677,7 @@ API Key 不提交到 Git，只能放在本地 `.env` 或环境变量 `DEEPSEEK_A
 
 当前脚本可读取 tutor prompt 包，调用 DeepSeek 生成中文错题讲解，并可选写入 `ai_tutor_threads` 和 `ai_tutor_messages`。
 
-注意：增强版 prompt 会发送完整选项和阅读原文到 DeepSeek。真实调用和写入对话表前，需要用户明确同意发送这份扩展后的测试数据。
+注意：增强版 prompt 会发送完整选项和阅读原文到 DeepSeek。真实调用和写入对话表前，需要用户明确同意发送这份扩展后的测试数据；本轮测试已取得明确同意并完成调用。
 
 ## 25. 本地 OCR 配置
 
