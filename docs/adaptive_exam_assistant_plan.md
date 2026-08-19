@@ -75,6 +75,13 @@ AIeyu 的核心功能应明确为：
 
 ## 4. 用户画像第一版算法
 
+核心原则：
+
+```text
+用户画像不是让大模型“感觉学生哪里弱”，而是用结构化作答数据计算出来。
+LLM 只负责解释画像结果、生成复习建议和辅助生成练习题。
+```
+
 ### 4.1 画像维度
 
 每个用户至少维护：
@@ -88,29 +95,54 @@ AIeyu 的核心功能应明确为：
 - 已做题目集合
 - 最近训练模式
 
-### 4.2 掌握度评分
+### 4.2 每次答题记录
 
-第一版建议用 0-100 分规则模型：
+每道题提交后至少记录：
 
 ```text
-mastery_score = 100
-  - 错误率惩罚
-  - 最近错误惩罚
-  - 连续错误惩罚
-  + 最近正确奖励
-  + 巩固练习完成奖励
+user_id
+quiz_session_id
+question_id
+question_type
+knowledge_points
+selected_answer
+correct_answer
+is_correct
+answered_at
+source_year
+content_origin
 ```
 
-推荐先用简单规则：
+后续可扩展：
+
+```text
+answer_time_seconds
+difficulty
+confidence
+viewed_explanation
+asked_ai_followup
+completed_remediation
+```
+
+### 4.3 掌握度评分
+
+第一版建议使用可解释的规则模型：
+
+```text
+weighted_accuracy = 加权正确数 / 加权作答总数
+mastery_score = round(weighted_accuracy * 100)
+```
+
+权重规则：
 
 - 最近 20 次相关作答作为主要窗口。
-- 正确率低于 60%：薄弱。
-- 正确率 60%-80%：待巩固。
-- 正确率 80% 以上且最近连续正确：基本掌握。
-- 最近错题权重大于很久以前的错题。
+- 最近作答权重大于历史作答。
+- 最近 7 天作答权重最高。
+- 很久以前的题权重降低。
 - 题量少于 5 道时标记为 `insufficient_data`，不做过度判断。
+- 最近连续错 2 次以上时，状态强制降一级。
 
-### 4.3 输出状态
+### 4.4 输出状态
 
 每个题型或知识点可输出：
 
@@ -118,6 +150,7 @@ mastery_score = 100
 weak
 unstable
 stable
+strong
 insufficient_data
 ```
 
@@ -126,7 +159,72 @@ insufficient_data
 - 薄弱
 - 不稳定
 - 基本掌握
+- 掌握较好
 - 数据不足
+
+分层规则：
+
+```text
+attempt_count < 5:
+  insufficient_data
+
+mastery_score < 60:
+  weak
+
+60 <= mastery_score < 75:
+  unstable
+
+75 <= mastery_score < 88:
+  stable
+
+mastery_score >= 88:
+  strong
+```
+
+如果最近连续错 2 次以上，则在上述状态基础上降一级。
+
+### 4.5 弱项优先级
+
+弱项优先级不能只看正确率，还要看题量和最近错误。
+
+第一版推荐：
+
+```text
+weakness_priority =
+  错误率 * 50
+  + 最近错误权重 * 30
+  + 连续错误权重 * 20
+```
+
+优先推荐：
+
+- 近期错得多。
+- 相关题量足够。
+- 对目标考试得分影响大。
+- 已有足够未做题或可生成变式题。
+
+### 4.6 MVP 最小指标
+
+第一版最小实现以下指标：
+
+```text
+type_mastery_score
+knowledge_mastery_score
+attempt_count
+wrong_count
+last_wrong_at
+recent_wrong_streak
+mastery_status
+weakness_priority
+```
+
+前端先展示：
+
+- 题型掌握度
+- 知识点掌握度
+- 最薄弱 3 项
+- 推荐下一次训练范围
+- 已做题过滤状态
 
 ## 5. 不重复训练策略
 
