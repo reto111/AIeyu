@@ -137,7 +137,7 @@ mastery_score = round(weighted_accuracy * 100)
 
 - 最近 20 次相关作答作为主要窗口。
 - 最近作答权重大于历史作答。
-- 最近 7 天作答权重最高。
+- 最近 3 天作答权重最高。
 - 很久以前的题权重降低。
 - 题量少于 5 道时标记为 `insufficient_data`，不做过度判断。
 - 最近连续错 2 次以上时，状态强制降一级。
@@ -345,10 +345,10 @@ min_attempts = 5
 推荐第一版采用简单时间权重：
 
 ```text
-answered_at <= 7 天: weight = 1.0
-7 天 < answered_at <= 30 天: weight = 0.7
-30 天 < answered_at <= 90 天: weight = 0.4
-answered_at > 90 天: weight = 0.2
+answered_at <= 3 天: weight = 1.0
+3 天 < answered_at <= 7 天: weight = 0.7
+7 天 < answered_at <= 10 天: weight = 0.4
+answered_at > 10 天: weight = 0.2
 ```
 
 计算：
@@ -393,9 +393,9 @@ strong -> stable -> unstable -> weak
 error_rate = wrong_count / attempt_count
 
 recent_error_weight:
-  最近 7 天有错 = 1
-  最近 30 天有错 = 0.7
-  最近 90 天有错 = 0.4
+  最近 3 天有错 = 1
+  最近 7 天有错 = 0.7
+  最近 10 天有错 = 0.4
   否则 = 0
 
 streak_weight:
