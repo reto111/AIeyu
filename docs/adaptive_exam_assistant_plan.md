@@ -252,7 +252,323 @@ last_result
 
 如果暂时不新增表，也可以先从 `quiz_items + user_answers` 推导，但长期建议建表提升查询效率。
 
-## 6. 弱项专项训练
+## 6. 数据表与计算产物建议
+
+为了让用户画像可查询、可缓存、可解释，建议新增三类表。
+
+### 6.1 题目曝光表
+
+```text
+question_exposures
+- id
+- user_id
+- question_id
+- first_seen_at
+- last_seen_at
+- seen_count
+- correct_count
+- wrong_count
+- last_is_correct
+- last_quiz_session_id
+```
+
+用途：
+
+- 避免重复抽题。
+- 识别旧错题。
+- 支持 spaced repetition。
+
+### 6.2 掌握度快照表
+
+```text
+mastery_snapshots
+- id
+- user_id
+- exam_system_id
+- level_id
+- target_type: question_type / knowledge_point
+- target_code
+- attempt_count
+- wrong_count
+- weighted_accuracy
+- mastery_score
+- mastery_status
+- recent_wrong_streak
+- weakness_priority
+- calculated_at
+```
+
+用途：
+
+- 前端快速展示题型掌握度和知识点掌握度。
+- 记录每次画像更新时间。
+- 后续生成学习曲线。
+
+### 6.3 推荐训练队列表
+
+```text
+training_recommendations
+- id
+- user_id
+- exam_system_id
+- level_id
+- target_type
+- target_code
+- reason_code
+- priority
+- recommended_count
+- status: active / used / dismissed
+- created_at
+```
+
+用途：
+
+- 存储“下一次建议练什么”。
+- 支持首页直接展示推荐专项。
+- 避免每次页面刷新都重新计算。
+
+## 7. 掌握度计算细则
+
+### 7.1 作答窗口
+
+每个题型或知识点单独取最近作答：
+
+```text
+window_size = 20
+min_attempts = 5
+```
+
+如果某个知识点最近作答不足 20 条，就使用全部历史相关作答，但少于 5 条时只输出 `insufficient_data`。
+
+### 7.2 时间权重
+
+推荐第一版采用简单时间权重：
+
+```text
+answered_at <= 7 天: weight = 1.0
+7 天 < answered_at <= 30 天: weight = 0.7
+30 天 < answered_at <= 90 天: weight = 0.4
+answered_at > 90 天: weight = 0.2
+```
+
+计算：
+
+```text
+weighted_accuracy =
+  sum(is_correct * weight) / sum(weight)
+
+mastery_score =
+  round(weighted_accuracy * 100)
+```
+
+### 7.3 连续错误
+
+从最近一次作答往前数，连续错误次数：
+
+```text
+recent_wrong_streak = 最近连续 is_correct = false 的数量
+```
+
+状态降级规则：
+
+```text
+recent_wrong_streak >= 2:
+  mastery_status 降一级
+
+recent_wrong_streak >= 3:
+  weakness_priority 额外 +10
+```
+
+状态等级从高到低：
+
+```text
+strong -> stable -> unstable -> weak
+```
+
+`insufficient_data` 不参与降级。
+
+### 7.4 弱项优先级细则
+
+```text
+error_rate = wrong_count / attempt_count
+
+recent_error_weight:
+  最近 7 天有错 = 1
+  最近 30 天有错 = 0.7
+  最近 90 天有错 = 0.4
+  否则 = 0
+
+streak_weight:
+  min(recent_wrong_streak, 3) / 3
+
+weakness_priority =
+  round(error_rate * 50 + recent_error_weight * 30 + streak_weight * 20)
+```
+
+修正规则：
+
+- `attempt_count < 5` 时不标为正式弱项，但可提示“数据不足”。
+- 如果题型或知识点在考试中高频，可后续增加 `exam_weight`。
+- 如果该知识点可用题量不足，推荐时应提示“需要生成新题或补充题库”。
+
+## 8. 专项训练选题算法
+
+### 8.1 输入
+
+```text
+user_id
+exam_system
+level
+target_type: question_type / knowledge_point
+target_code
+count
+exclude_reading_by_default
+```
+
+### 8.2 候选题过滤
+
+候选题必须满足：
+
+```text
+review_status = approved
+source_usage = practice
+exam_system / level 匹配
+题型或知识点匹配
+```
+
+随机综合训练默认排除：
+
+```text
+reading_choice
+```
+
+阅读只在用户明确选择阅读专项时进入。
+
+### 8.3 排序优先级
+
+选题优先级：
+
+```text
+1. 从未做过的题
+2. 做过但上次答错，且距离上次出现较久
+3. 做过多次但错误率较高
+4. 很久以前做对过的题
+5. 最近做对过的题，尽量不选
+```
+
+可以转成排序分：
+
+```text
+selection_score =
+  unseen_bonus
+  + last_wrong_bonus
+  + high_error_rate_bonus
+  + old_seen_bonus
+  - recent_correct_penalty
+  - seen_count_penalty
+```
+
+第一版建议：
+
+```text
+unseen_bonus = 100 if seen_count = 0 else 0
+last_wrong_bonus = 40 if last_is_correct = false else 0
+high_error_rate_bonus = user_question_error_rate * 30
+old_seen_bonus = days_since_last_seen capped at 30
+recent_correct_penalty = 50 if last_is_correct = true and days_since_last_seen < 7 else 0
+seen_count_penalty = seen_count * 5
+```
+
+### 8.4 题量不足时
+
+如果候选题不足：
+
+```text
+1. 放宽到同父级知识点。
+2. 放宽到同题型。
+3. 加入旧错题。
+4. 仍不足时触发 AI 生成题草稿。
+```
+
+触发 AI 生成题时，必须标记：
+
+```text
+generated_needed = true
+generated_reason = insufficient_unseen_questions
+```
+
+## 9. API 输出建议
+
+### 9.1 用户画像接口
+
+```text
+GET /api/profile
+```
+
+返回：
+
+```json
+{
+  "user_id": 1,
+  "exam_system": "TEM8_RU",
+  "level": "TEM8",
+  "question_type_mastery": [
+    {
+      "code": "grammar_choice",
+      "name": "语法",
+      "attempt_count": 12,
+      "wrong_count": 5,
+      "mastery_score": 58,
+      "mastery_status": "weak",
+      "weakness_priority": 76
+    }
+  ],
+  "knowledge_mastery": [],
+  "top_weaknesses": [],
+  "next_training": {
+    "mode": "weakness_review",
+    "target_type": "question_type",
+    "target_code": "grammar_choice",
+    "count": 10
+  }
+}
+```
+
+### 9.2 弱项专项组卷接口
+
+```text
+POST /api/quiz/weakness
+```
+
+输入：
+
+```json
+{
+  "count": 10,
+  "target_type": "auto",
+  "target_code": "auto"
+}
+```
+
+如果 `target_type = auto`，系统从用户画像里选择最高优先级弱项。
+
+返回应包含：
+
+```json
+{
+  "mode": "weakness_review",
+  "target": {
+    "type": "question_type",
+    "code": "grammar_choice",
+    "name": "语法",
+    "reason": "近期语法题错误率高"
+  },
+  "generated_needed": false,
+  "questions": []
+}
+```
+
+## 10. 弱项专项训练
 
 弱项专项训练应基于用户画像生成：
 
@@ -277,7 +593,7 @@ last_result
 - 是否含 AI 生成题
 - 是否全部来自已审核题库
 
-## 7. AI 生成题库链路
+## 11. AI 生成题库链路
 
 AI 生成题不能直接变成正式题库。
 
@@ -315,7 +631,7 @@ review_status = needs_review / approved
 
 当前 schema 已有部分字段，下一步应补齐生成脚本和审核流程。
 
-## 8. RAG 在新闭环中的位置
+## 12. RAG 在新闭环中的位置
 
 RAG 不替代题库，也不直接决定答案。
 
@@ -329,7 +645,7 @@ RAG 用于：
 
 第一版可先不接 RAGFlow，先把结构化题库、用户画像和不重复训练跑通。
 
-## 9. 下一阶段开发优先级
+## 13. 下一阶段开发优先级
 
 建议下一步按以下顺序开发：
 
@@ -343,7 +659,7 @@ RAG 用于：
 8. 人工审核表和回写流程。
 9. RAGFlow 小规模验证。
 
-## 10. 对当前 MVP 的调整结论
+## 14. 对当前 MVP 的调整结论
 
 当前项目已经完成“练习 - 批改 - AI 讲解”的半闭环。
 
