@@ -200,6 +200,25 @@ CREATE TABLE IF NOT EXISTS user_answers (
   FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
+CREATE TABLE IF NOT EXISTS question_exposures (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id INTEGER NOT NULL,
+  question_id INTEGER NOT NULL,
+  first_seen_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  last_seen_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  seen_count INTEGER NOT NULL DEFAULT 0,
+  correct_count INTEGER NOT NULL DEFAULT 0,
+  wrong_count INTEGER NOT NULL DEFAULT 0,
+  last_is_correct INTEGER CHECK (last_is_correct IN (0, 1)),
+  last_quiz_session_id INTEGER,
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES users(id),
+  FOREIGN KEY (question_id) REFERENCES questions(id),
+  FOREIGN KEY (last_quiz_session_id) REFERENCES quiz_sessions(id),
+  UNIQUE (user_id, question_id)
+);
+
 CREATE TABLE IF NOT EXISTS weakness_snapshots (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   user_id INTEGER,
@@ -213,6 +232,47 @@ CREATE TABLE IF NOT EXISTS weakness_snapshots (
   FOREIGN KEY (user_id) REFERENCES users(id),
   FOREIGN KEY (quiz_session_id) REFERENCES quiz_sessions(id),
   FOREIGN KEY (knowledge_point_id) REFERENCES knowledge_points(id)
+);
+
+CREATE TABLE IF NOT EXISTS mastery_snapshots (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id INTEGER NOT NULL,
+  exam_system_id INTEGER NOT NULL,
+  level_id INTEGER NOT NULL,
+  target_type TEXT NOT NULL CHECK (target_type IN ('question_type', 'knowledge_point')),
+  target_code TEXT NOT NULL,
+  target_name_zh TEXT,
+  attempt_count INTEGER NOT NULL DEFAULT 0,
+  wrong_count INTEGER NOT NULL DEFAULT 0,
+  weighted_accuracy REAL,
+  mastery_score INTEGER,
+  mastery_status TEXT NOT NULL CHECK (mastery_status IN ('weak', 'unstable', 'stable', 'strong', 'insufficient_data')),
+  recent_wrong_streak INTEGER NOT NULL DEFAULT 0,
+  weakness_priority INTEGER NOT NULL DEFAULT 0,
+  last_wrong_at TEXT,
+  calculated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES users(id),
+  FOREIGN KEY (exam_system_id) REFERENCES exam_systems(id),
+  FOREIGN KEY (level_id) REFERENCES exam_levels(id)
+);
+
+CREATE TABLE IF NOT EXISTS training_recommendations (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id INTEGER NOT NULL,
+  exam_system_id INTEGER NOT NULL,
+  level_id INTEGER NOT NULL,
+  target_type TEXT NOT NULL CHECK (target_type IN ('question_type', 'knowledge_point')),
+  target_code TEXT NOT NULL,
+  target_name_zh TEXT,
+  reason_code TEXT NOT NULL,
+  priority INTEGER NOT NULL DEFAULT 0,
+  recommended_count INTEGER NOT NULL DEFAULT 10,
+  status TEXT NOT NULL DEFAULT 'active' CHECK (status IN ('active', 'used', 'dismissed')),
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES users(id),
+  FOREIGN KEY (exam_system_id) REFERENCES exam_systems(id),
+  FOREIGN KEY (level_id) REFERENCES exam_levels(id)
 );
 
 CREATE TABLE IF NOT EXISTS ai_tutor_threads (
@@ -264,6 +324,15 @@ CREATE INDEX IF NOT EXISTS idx_quiz_sessions_user
 
 CREATE INDEX IF NOT EXISTS idx_user_answers_quiz_item
   ON user_answers (quiz_item_id);
+
+CREATE INDEX IF NOT EXISTS idx_question_exposures_user_question
+  ON question_exposures (user_id, question_id);
+
+CREATE INDEX IF NOT EXISTS idx_mastery_snapshots_user_target
+  ON mastery_snapshots (user_id, exam_system_id, level_id, target_type, target_code, calculated_at);
+
+CREATE INDEX IF NOT EXISTS idx_training_recommendations_user_status
+  ON training_recommendations (user_id, status, priority);
 
 INSERT OR IGNORE INTO exam_systems (code, name_zh, name_original, description)
 VALUES

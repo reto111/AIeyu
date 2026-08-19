@@ -15,6 +15,15 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import parse_qs, urlparse
 
+from adaptive_profile import (
+    DEFAULT_USER_ID,
+    ensure_adaptive_tables,
+    ensure_default_user,
+    parse_datetime,
+    recalculate_profile,
+    record_question_exposure,
+)
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "database" / "russian_ai_tutor.sqlite"
@@ -55,6 +64,8 @@ def db() -> sqlite3.Connection:
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA foreign_keys = ON")
+    ensure_adaptive_tables(conn)
+    ensure_default_user(conn)
     return conn
 
 
@@ -189,6 +200,43 @@ def api_status() -> dict[str, Any]:
     }
 
 
+def exposure_rows(conn: sqlite3.Connection, user_id: int, question_ids: list[int]) -> dict[int, sqlite3.Row]:
+    if not question_ids:
+        return {}
+    placeholders = ", ".join("?" for _ in question_ids)
+    rows = conn.execute(
+        f"""
+        SELECT question_id, seen_count, correct_count, wrong_count, last_is_correct, last_seen_at
+        FROM question_exposures
+        WHERE user_id = ? AND question_id IN ({placeholders})
+        """,
+        [user_id, *question_ids],
+    ).fetchall()
+    return {int(row["question_id"]): row for row in rows}
+
+
+def adaptive_selection_score(exposure: sqlite3.Row | None, rng: random.Random) -> float:
+    if exposure is None:
+        return 100 + rng.random()
+    seen_count = int(exposure["seen_count"] or 0)
+    correct_count = int(exposure["correct_count"] or 0)
+    wrong_count = int(exposure["wrong_count"] or 0)
+    total = max(correct_count + wrong_count, 1)
+    error_rate = wrong_count / total
+    days_since_last_seen = 30
+    if exposure["last_seen_at"]:
+        days_since_last_seen = min((datetime.now() - parse_datetime(exposure["last_seen_at"])).days, 30)
+    score = rng.random()
+    if exposure["last_is_correct"] == 0:
+        score += 40
+    score += error_rate * 30
+    score += days_since_last_seen
+    if exposure["last_is_correct"] == 1 and days_since_last_seen < 7:
+        score -= 50
+    score -= seen_count * 5
+    return score
+
+
 def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
     count = max(1, min(int(payload.get("count") or 10), 50))
     question_types = [str(item) for item in payload.get("question_types", []) if item]
@@ -234,8 +282,12 @@ def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
         ).fetchall()
         if len(rows) < count:
             raise ValueError(f"当前条件下只有 {len(rows)} 道题，无法生成 {count} 道。")
-        selected = list(rows)
-        rng.shuffle(selected)
+        exposures = exposure_rows(conn, DEFAULT_USER_ID, [int(row["id"]) for row in rows])
+        selected = sorted(
+            rows,
+            key=lambda row: adaptive_selection_score(exposures.get(int(row["id"])), rng),
+            reverse=True,
+        )
         questions = [
             public_question(conn, row, index)
             for index, row in enumerate(selected[:count], start=1)
@@ -246,6 +298,11 @@ def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
         "count": len(questions),
         "questions": questions,
     }
+
+
+def api_profile() -> dict[str, Any]:
+    with db() as conn:
+        return recalculate_profile(conn, DEFAULT_USER_ID)
 
 
 def fetch_ids(conn: sqlite3.Connection) -> tuple[int, int]:
@@ -272,15 +329,17 @@ def api_grade(payload: dict[str, Any]) -> dict[str, Any]:
         raise ValueError("还没有收到答案。")
 
     with db() as conn:
+        user_id = DEFAULT_USER_ID
         exam_system_id, level_id = fetch_ids(conn)
         cursor = conn.execute(
             """
             INSERT INTO quiz_sessions (
-              exam_system_id, level_id, title, mode, status, total_questions
+              user_id, exam_system_id, level_id, title, mode, status, total_questions
             )
-            VALUES (?, ?, ?, 'random', 'submitted', ?)
+            VALUES (?, ?, ?, ?, 'random', 'submitted', ?)
             """,
             (
+                user_id,
                 exam_system_id,
                 level_id,
                 payload.get("title") or "TEM8 student practice",
@@ -314,11 +373,12 @@ def api_grade(payload: dict[str, Any]) -> dict[str, Any]:
             quiz_item_id = int(cursor.lastrowid)
             conn.execute(
                 """
-                INSERT INTO user_answers (quiz_item_id, selected_answer, is_correct)
-                VALUES (?, ?, ?)
+                INSERT INTO user_answers (quiz_item_id, user_id, selected_answer, is_correct)
+                VALUES (?, ?, ?, ?)
                 """,
-                (quiz_item_id, selected_answer or None, 1 if is_correct else 0),
+                (quiz_item_id, user_id, selected_answer or None, 1 if is_correct else 0),
             )
+            record_question_exposure(conn, user_id, quiz_session_id, question_id, is_correct)
 
             codes = knowledge_codes(conn, question_id)
             for code in codes:
@@ -364,12 +424,13 @@ def api_grade(payload: dict[str, Any]) -> dict[str, Any]:
                 conn.execute(
                     """
                     INSERT INTO weakness_snapshots (
-                      quiz_session_id, knowledge_point_id, attempted_count,
+                      user_id, quiz_session_id, knowledge_point_id, attempted_count,
                       wrong_count, accuracy, ai_summary_zh
                     )
-                    VALUES (?, ?, ?, ?, ?, ?)
+                    VALUES (?, ?, ?, ?, ?, ?, ?)
                     """,
                     (
+                        user_id,
                         quiz_session_id,
                         int(kp["id"]),
                         attempted,
@@ -404,6 +465,8 @@ def api_grade(payload: dict[str, Any]) -> dict[str, Any]:
         "wrong_questions": wrong_questions,
         "graded_questions": graded_questions,
     }
+    with db() as conn:
+        result["profile"] = recalculate_profile(conn, DEFAULT_USER_ID)
     if result["wrong_count"]:
         try:
             result["explanation"] = generate_explanation_for_session(quiz_session_id)
@@ -757,6 +820,9 @@ class StudentAppHandler(BaseHTTPRequestHandler):
             parsed = urlparse(self.path)
             if parsed.path == "/api/status":
                 json_response(self, HTTPStatus.OK, api_status())
+                return
+            if parsed.path == "/api/profile":
+                json_response(self, HTTPStatus.OK, api_profile())
                 return
             if parsed.path == "/api/thread":
                 query = parse_qs(parsed.query)

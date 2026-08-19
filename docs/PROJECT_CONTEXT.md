@@ -741,10 +741,14 @@ apps/student_web/static/
 
 - 查看题库状态。
 - 按题型和年份生成练习。
+- 随机组卷默认不包含阅读题。
+- 随机组卷已参考题目曝光记录做基础避重。
 - 页面作答。
 - 自动批改并写入测试记录。
+- 批改后更新本地默认学生的题型掌握度、知识点掌握度和弱项训练建议。
 - 显示正确率、错题、薄弱知识点和来源标签。
 - `/api/grade` 同步完成批改和 DeepSeek 深度错题讲解生成，并写入对话表。
+- `/api/profile` 返回当前本地默认学生画像。
 - 前端提交后只显示“正在批改中”的等待状态；批改结果和讲解内容等待同一个响应完成后一起出现。
 - 逐题讲解显示在对应错题下方；薄弱点排序、复习方案、巩固练习和可追问问题显示在 AI 对话区。
 - 学生端不再提供“读取讲解”按钮。
@@ -754,8 +758,10 @@ apps/student_web/static/
 
 - 首页可访问。
 - 题库状态接口返回 150 道 `approved` 题。
-- 组卷接口可生成练习。
+- 组卷接口可生成练习，默认不包含阅读题。
 - 批改接口可写入 `quiz_sessions`、`quiz_items`、`user_answers`、`weakness_snapshots`。
+- 已新增 `question_exposures`、`mastery_snapshots`、`training_recommendations`，支持画像计算和避重组卷。
+- `/api/profile` 可返回题型掌握度、知识点掌握度、前三个薄弱项和下一步训练建议。
 - `/api/grade` 返回批改结果时同步返回 DeepSeek 讲解。
 - `/api/explain` 保留为内部调试入口，必须收到 `confirm_external_send = true` 才能调用 DeepSeek。
 - AI 讲解读取接口只返回 assistant 消息，不把系统提示词和底层 JSON 暴露给学生端。
