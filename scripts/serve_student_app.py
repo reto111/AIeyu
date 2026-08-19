@@ -567,7 +567,7 @@ def build_tutor_payload(report: dict[str, Any]) -> dict[str, Any]:
             "wrong_questions": wrong_questions,
         },
         "remediation_pack": {
-            "summary_zh": "请根据错题题型、选项和薄弱知识点生成中文讲解、复习路径和同类巩固练习。",
+            "summary_zh": "请根据错题题型、选项和薄弱知识点生成中文讲解、薄弱点排序、复习路径和可追问问题，不要输出巩固练习安排。",
             "remediation": [
                 {
                     "knowledge_point_code": item["knowledge_point_code"],

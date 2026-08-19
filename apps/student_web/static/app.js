@@ -91,7 +91,7 @@ async function generateQuiz() {
     $("#resultBox").classList.add("muted");
     $("#resultBox").textContent = "提交后显示正确率和薄弱点。";
     $("#threadBox").classList.add("muted");
-    $("#threadBox").textContent = "批改后自动生成薄弱点、复习方案和巩固练习。";
+    $("#threadBox").textContent = "批改后自动生成薄弱点、复习方案和可追问问题。";
   } catch (error) {
     $("#resultBox").classList.remove("muted");
     $("#resultBox").textContent = error.message;

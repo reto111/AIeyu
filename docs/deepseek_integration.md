@@ -111,7 +111,7 @@ POST /api/explain
 前端显示规则：
 
 - `question_explanations`: 放入对应错题下方。
-- `study_advice_zh`: 放入 AI 对话区，包含薄弱点排序、复习方案、巩固练习和可追问问题。
+- `study_advice_zh`: 放入 AI 对话区，包含薄弱点排序、复习方案和可追问问题；不包含巩固练习安排。
 - 不再输出“本次表现”。
 
 接口必须收到：
