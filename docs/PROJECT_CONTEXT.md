@@ -5,7 +5,15 @@
 
 ## 1. 项目定位
 
-项目暂定方向：面向俄语专业八级考试的 AI 私教型学习与测评 Agent。
+项目方向：面向小语种考试的个人 AI 自适应备考助手。
+
+核心定义：
+
+```text
+一款面向小语种考试的 AI 自适应备考工具，根据用户在目标考试中的真实作答表现建立能力画像，识别薄弱题型与知识点，并结合题库、RAG 和 AI 生成，持续提供个性化、不重复的专项训练。
+```
+
+第一阶段仍以“俄语专八”为基础，验证个人画像、题库组卷、自动判分、AI 错题解析、题型掌握度、弱项专项训练、AI 生成题和质检基础链路。
 
 第一阶段以“俄语专八”为基础，后续需要能够扩展并接入其他俄语考试或等级体系，例如：
 
@@ -439,6 +447,7 @@ russian-ai-tutor/
 - `docs/tutor_followup_workflow.md`: AI 私教讲解后的学生追问流程。
 - `docs/student_web_prototype.md`: 学生端本地网页原型，包含组卷、答题、批改和 AI 讲解展示。
 - `docs/aliyun_windows_deployment.md`: 阿里云 Windows Server 试用服务器部署流程。
+- `docs/adaptive_exam_assistant_plan.md`: 从练习原型调整为个人 AI 自适应备考助手的产品主线和开发优先级。
 - `database/schema.sql`: 初始数据库 SQL 表结构，当前以 SQLite 兼容为主，后续可迁移 PostgreSQL。
 
 ## 16. 当前资料批次
