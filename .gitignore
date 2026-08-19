@@ -34,6 +34,7 @@ Thumbs.db
 # Project data that may contain copyrighted or private source materials
 data/raw_pdfs/
 data/processed/
+data/knowledge_sources/**/*.pdf
 
 # Local generated database files
 database/*.sqlite

@@ -58,18 +58,24 @@ def extract_pdf(
     lang: str,
     dpi: int,
     max_pages: int | None,
+    page_from: int,
+    page_to: int | None,
 ) -> None:
     document = fitz.open(pdf_path)
     if not authenticate(document, password):
         raise SystemExit(f"PDF needs a password and could not be opened: {pdf_path}")
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    page_count = len(document) if max_pages is None else min(len(document), max_pages)
+    start_index = max(page_from - 1, 0)
+    end_index = len(document) if page_to is None else min(page_to, len(document))
+    if max_pages is not None:
+        end_index = min(start_index + max_pages, end_index)
     parts: list[str] = []
 
     with tempfile.TemporaryDirectory(prefix="russian_ai_pdf_") as tmp_dir:
         tmp_path = Path(tmp_dir)
-        for index in range(page_count):
+        total = max(end_index - start_index, 0)
+        for offset, index in enumerate(range(start_index, end_index), start=1):
             page = document[index]
             direct_text = page.get_text("text").strip()
 
@@ -83,7 +89,9 @@ def extract_pdf(
                 page_text = direct_text
                 method = "direct"
 
-            parts.append(f"\n\n--- Page {index + 1} ({method}) ---\n{page_text}")
+            page_number = index + 1
+            print(f"[{offset}/{total}] Page {page_number} ({method})")
+            parts.append(f"\n\n--- Page {page_number} ({method}) ---\n{page_text}")
 
     output_path.write_text("\n".join(parts).strip() + "\n", encoding="utf-8")
     print(f"Wrote text: {output_path}")
@@ -97,6 +105,8 @@ def main() -> None:
     parser.add_argument("--lang", default="rus+eng")
     parser.add_argument("--dpi", type=int, default=300)
     parser.add_argument("--max-pages", type=int, default=None)
+    parser.add_argument("--page-from", type=int, default=1)
+    parser.add_argument("--page-to", type=int, default=None)
     parser.add_argument("--password-env", default="PDF_PASSWORD")
     args = parser.parse_args()
 
@@ -108,6 +118,8 @@ def main() -> None:
         lang=args.lang,
         dpi=args.dpi,
         max_pages=args.max_pages,
+        page_from=args.page_from,
+        page_to=args.page_to,
     )
 
 

@@ -68,6 +68,65 @@ knowledge_chunks
 
 导入脚本会跳过 `README.md`，只导入同目录下的知识源 Markdown。
 
+## 4.1 扫描 PDF 资料
+
+扫描书籍 PDF 可以先放在：
+
+```text
+data/knowledge_sources/
+```
+
+PDF 原件可能包含版权资料，不提交到 Git。
+
+扫描 PDF 需要先 OCR：
+
+```text
+.venv\Scripts\python.exe scripts\extract_pdf_text.py data\knowledge_sources\your_reference.pdf data\processed\knowledge_sources\ocr\your_reference.txt --mode ocr --lang chi_sim+rus+eng --dpi 220
+```
+
+OCR 文本也不提交到 Git。
+
+OCR 完成后导入知识块：
+
+```text
+.venv\Scripts\python.exe scripts\import_ocr_text_knowledge_source.py data\processed\knowledge_sources\ocr\your_reference.txt --source-pdf data\knowledge_sources\your_reference.pdf --title "资料标题" --question-type culture_choice --knowledge-point culture
+```
+
+当前 Tesseract 已安装：
+
+```text
+rus
+eng
+chi_sim
+osd
+```
+
+当前已处理的扫描 PDF：
+
+```text
+tem8_countryknowledge_reference_scan.pdf
+```
+
+状态：
+
+- 页数：161 页。
+- OCR 输出：`data/processed/knowledge_sources/ocr/tem8_countryknowledge_reference_scan.txt`
+- 已导入知识块：159 个。
+- 题型标签：`culture_choice`
+- 知识点标签：`culture`
+
+当前已抽样验证但尚未全量 OCR 的扫描 PDF：
+
+```text
+Russian_grammar_reference_scan.pdf
+```
+
+状态：
+
+- 页数：641 页。
+- 已抽样确认 `chi_sim+rus+eng` 可识别中俄混排正文。
+- 因页数较多，建议后续改用分批 OCR 或带进度 OCR。
+
 ## 5. 检索资料
 
 按关键词和知识点检索：

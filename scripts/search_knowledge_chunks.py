@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import sys
 from typing import Any
 
 from knowledge_base import connect, ensure_knowledge_base_tables
@@ -75,6 +76,8 @@ def search_chunks(
 
 
 def main() -> None:
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     parser = argparse.ArgumentParser(description="Search local knowledge chunks for question generation context.")
     parser.add_argument("query", nargs="?", default="")
     parser.add_argument("--question-type")

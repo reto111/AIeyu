@@ -790,13 +790,19 @@ http://127.0.0.1:8765/
 
 - Tesseract 可执行文件：`C:\Program Files\Tesseract-OCR\tesseract.exe`
 - 语言包目录：`C:\Users\Reto\tesseract-tessdata`
-- 已配置语言：`rus`、`eng`、`osd`
+- 已配置语言：`rus`、`eng`、`chi_sim`、`osd`
 
 注意：
 
 - 项目目录应使用纯英文路径，例如 `D:\AIeyu`，避免 Tesseract 等工具处理中文路径时出现编码问题。
 - 语言包放在纯英文用户目录。
 - 后续 OCR 脚本应显式传入 `--tessdata-dir C:\Users\Reto\tesseract-tessdata`。
+- 扫描版中文/中俄混排参考书应优先使用 `--lang chi_sim+rus+eng`。
+
+当前知识源扫描 PDF 状态：
+
+- `tem8_countryknowledge_reference_scan.pdf`: 161 页，已完成 OCR，已导入 `knowledge_chunks` 159 个，标记为 `culture_choice` / `culture`。
+- `Russian_grammar_reference_scan.pdf`: 641 页，已抽样确认可用，但尚未全量 OCR；建议后续分批处理。
 
 ## 28. 后续工作规则
 
