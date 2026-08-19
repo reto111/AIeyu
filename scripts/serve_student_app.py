@@ -32,6 +32,7 @@ PROMPT_PATH = ROOT / "prompts" / "tutoring" / "tem8_wrong_question_tutor.md"
 DEFAULT_BASE_URL = "https://api.deepseek.com"
 DEFAULT_MODEL = "deepseek-v4-flash"
 DEFAULT_RANDOM_QUESTION_TYPES = ["grammar_choice", "literature_choice", "culture_choice"]
+DIAGNOSTIC_QUESTION_TYPES = ["grammar_choice", "literature_choice", "culture_choice", "reading_choice"]
 
 
 QUESTION_TYPE_NAMES = {
@@ -237,9 +238,50 @@ def adaptive_selection_score(exposure: sqlite3.Row | None, rng: random.Random) -
     return score
 
 
+def select_balanced_by_type(
+    rows: list[sqlite3.Row],
+    count: int,
+    question_types: list[str],
+    exposures: dict[int, sqlite3.Row],
+    rng: random.Random,
+) -> list[sqlite3.Row]:
+    grouped: dict[str, list[sqlite3.Row]] = {code: [] for code in question_types}
+    for row in rows:
+        grouped.setdefault(row["question_type"], []).append(row)
+
+    selected: list[sqlite3.Row] = []
+    remaining_pool: list[sqlite3.Row] = []
+    base = count // max(len(question_types), 1)
+    remainder = count % max(len(question_types), 1)
+
+    for index, code in enumerate(question_types):
+        target = base + (1 if index < remainder else 0)
+        candidates = sorted(
+            grouped.get(code, []),
+            key=lambda row: adaptive_selection_score(exposures.get(int(row["id"])), rng),
+            reverse=True,
+        )
+        selected.extend(candidates[:target])
+        remaining_pool.extend(candidates[target:])
+
+    if len(selected) < count:
+        selected_ids = {int(row["id"]) for row in selected}
+        fallback = sorted(
+            [row for row in remaining_pool if int(row["id"]) not in selected_ids],
+            key=lambda row: adaptive_selection_score(exposures.get(int(row["id"])), rng),
+            reverse=True,
+        )
+        selected.extend(fallback[: count - len(selected)])
+
+    return selected[:count]
+
+
 def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
     count = max(1, min(int(payload.get("count") or 10), 50))
+    mode = str(payload.get("mode") or "random")
     question_types = [str(item) for item in payload.get("question_types", []) if item]
+    if mode == "diagnostic" and not question_types:
+        question_types = DIAGNOSTIC_QUESTION_TYPES
     if not question_types:
         question_types = DEFAULT_RANDOM_QUESTION_TYPES
     years = [int(item) for item in payload.get("years", []) if item]
@@ -283,11 +325,14 @@ def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
         if len(rows) < count:
             raise ValueError(f"当前条件下只有 {len(rows)} 道题，无法生成 {count} 道。")
         exposures = exposure_rows(conn, DEFAULT_USER_ID, [int(row["id"]) for row in rows])
-        selected = sorted(
-            rows,
-            key=lambda row: adaptive_selection_score(exposures.get(int(row["id"])), rng),
-            reverse=True,
-        )
+        if mode == "diagnostic":
+            selected = select_balanced_by_type(rows, count, question_types, exposures, rng)
+        else:
+            selected = sorted(
+                rows,
+                key=lambda row: adaptive_selection_score(exposures.get(int(row["id"])), rng),
+                reverse=True,
+            )
         questions = [
             public_question(conn, row, index)
             for index, row in enumerate(selected[:count], start=1)
@@ -295,6 +340,7 @@ def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
     return {
         "exam_system": "TEM8_RU",
         "level": "TEM8",
+        "mode": mode,
         "count": len(questions),
         "questions": questions,
     }

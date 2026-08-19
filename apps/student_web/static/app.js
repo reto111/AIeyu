@@ -2,10 +2,19 @@ const state = {
   quiz: null,
   result: null,
   explanation: null,
+  profile: null,
   latestThreadId: 1,
 };
 
 const $ = (selector) => document.querySelector(selector);
+
+const DIAGNOSTIC_TYPES = ["grammar_choice", "literature_choice", "culture_choice", "reading_choice"];
+const TYPE_ORDER = [
+  ["grammar_choice", "语法"],
+  ["literature_choice", "文学"],
+  ["culture_choice", "国情"],
+  ["reading_choice", "阅读"],
+];
 
 function optionLabel(item) {
   return `${item.key}. ${item.text}`;
@@ -57,6 +66,53 @@ function renderStatus(status) {
     .join("");
 }
 
+function masteryClass(status) {
+  if (status === "strong" || status === "stable") return "good";
+  if (status === "unstable" || status === "insufficient_data") return "mid";
+  return "low";
+}
+
+function renderProfile(profile) {
+  state.profile = profile;
+  const byType = new Map((profile.question_type_mastery || []).map((item) => [item.target_code, item]));
+  const items = TYPE_ORDER.map(([code, name]) => {
+    const item = byType.get(code);
+    const score = item ? Number(item.mastery_score || 0) : 0;
+    const status = item?.mastery_status || "insufficient_data";
+    const statusZh = item?.mastery_status_zh || "数据不足";
+    const attempts = item?.attempt_count || 0;
+    return `
+      <div class="mastery ${masteryClass(status)}">
+        <div class="mastery-head">
+          <strong>${name}</strong>
+          <span>${attempts} 次</span>
+        </div>
+        <div class="meter" aria-label="${name}掌握度 ${score}">
+          <span style="width: ${Math.max(score, 4)}%"></span>
+        </div>
+        <div class="mastery-foot">
+          <span>${statusZh} · ${score} 分</span>
+          <button type="button" class="textbtn" data-practice-type="${code}">只练此类</button>
+        </div>
+      </div>
+    `;
+  }).join("");
+
+  const next = profile.next_training
+    ? `<p class="profile-next">建议优先：${profile.next_training.target_name_zh}</p>`
+    : `<p class="profile-next">数据还不够，建议先完成入门诊断。</p>`;
+
+  $("#profileSummary").classList.remove("muted");
+  $("#profileSummary").innerHTML = `${items}${next}`;
+}
+
+function selectOnlyQuestionType(code) {
+  for (const input of document.querySelectorAll('input[name="questionType"]')) {
+    input.checked = input.value === code;
+  }
+  $("#countInput").value = 10;
+}
+
 function selectedValues(name) {
   return Array.from(document.querySelectorAll(`input[name="${name}"]:checked`)).map((input) => input.value);
 }
@@ -70,7 +126,7 @@ function setSubmitLoading(isLoading) {
   }
 }
 
-async function generateQuiz() {
+async function generateQuiz(mode = "random") {
   $("#generateBtn").disabled = true;
   $("#generateBtn").textContent = "生成中...";
   try {
@@ -80,6 +136,9 @@ async function generateQuiz() {
       years: selectedValues("year").map(Number),
       seed: Date.now(),
     };
+    if (mode === "diagnostic") {
+      payload.mode = "diagnostic";
+    }
     state.quiz = await requestJson("/api/quiz", {
       method: "POST",
       body: JSON.stringify(payload),
@@ -104,7 +163,7 @@ async function generateQuiz() {
 function renderQuiz(quiz) {
   $("#emptyState").classList.add("hidden");
   $("#quizForm").classList.remove("hidden");
-  $("#quizMeta").textContent = `${quiz.count} 题 · 俄语专八`;
+  $("#quizMeta").textContent = `${quiz.count} 题 · ${quiz.mode === "diagnostic" ? "入门诊断" : "俄语专八"}`;
   $("#answerHint").textContent = "";
 
   $("#questionList").innerHTML = quiz.questions
@@ -165,6 +224,9 @@ async function submitQuiz(event) {
       body: JSON.stringify({ title: "AIeyu student practice", answers }),
     });
     state.explanation = state.result.explanation || null;
+    if (state.result.profile) {
+      renderProfile(state.result.profile);
+    }
     renderResult(state.result);
     markAnswers(state.result);
     renderExplanation(state.explanation, state.result.explanation_error);
@@ -292,9 +354,38 @@ async function init() {
   } catch (error) {
     $("#statusSummary").textContent = error.message;
   }
+  try {
+    renderProfile(await requestJson("/api/profile"));
+  } catch (error) {
+    $("#profileSummary").textContent = error.message;
+  }
 }
 
-$("#generateBtn").addEventListener("click", generateQuiz);
+async function startDiagnostic() {
+  $("#countInput").value = 30;
+  for (const input of document.querySelectorAll('input[name="questionType"]')) {
+    input.checked = DIAGNOSTIC_TYPES.includes(input.value);
+  }
+  for (const input of document.querySelectorAll('input[name="year"]')) {
+    input.checked = true;
+  }
+  $("#diagnosticBtn").disabled = true;
+  $("#diagnosticBtn").textContent = "生成中...";
+  try {
+    await generateQuiz("diagnostic");
+  } finally {
+    $("#diagnosticBtn").disabled = false;
+    $("#diagnosticBtn").textContent = "开始 30 题诊断";
+  }
+}
+
+$("#generateBtn").addEventListener("click", () => generateQuiz());
+$("#diagnosticBtn").addEventListener("click", startDiagnostic);
+$("#profileSummary").addEventListener("click", (event) => {
+  const button = event.target.closest("[data-practice-type]");
+  if (!button) return;
+  selectOnlyQuestionType(button.dataset.practiceType);
+});
 $("#quizForm").addEventListener("submit", submitQuiz);
 $("#followupBtn").addEventListener("click", sendFollowup);
 

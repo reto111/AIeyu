@@ -740,6 +740,10 @@ apps/student_web/static/
 当前能力：
 
 - 查看题库状态。
+- 新用户可一键开始 30 题入门诊断。
+- 入门诊断覆盖语法、文学、国情和阅读四类题型，并尽量均衡抽题。
+- 前端显示四类题型掌握度：掌握分、掌握状态和累计作答次数。
+- 学生可从能力画像中选择“只练此类”。
 - 按题型和年份生成练习。
 - 随机组卷默认不包含阅读题。
 - 随机组卷已参考题目曝光记录做基础避重。
@@ -758,6 +762,7 @@ apps/student_web/static/
 
 - 首页可访问。
 - 题库状态接口返回 150 道 `approved` 题。
+- 30 题入门诊断接口验证通过，四类题型分布为语法 8、文学 8、国情 7、阅读 7。
 - 组卷接口可生成练习，默认不包含阅读题。
 - 批改接口可写入 `quiz_sessions`、`quiz_items`、`user_answers`、`weakness_snapshots`。
 - 已新增 `question_exposures`、`mastery_snapshots`、`training_recommendations`，支持画像计算和避重组卷。

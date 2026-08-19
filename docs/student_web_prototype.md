@@ -10,6 +10,10 @@
 已支持：
 
 - 查看已审核题库概况。
+- 新用户可一键开始 30 题入门诊断。
+- 入门诊断覆盖语法、文学、国情和阅读四类题型，并尽量均衡抽题。
+- 显示四类题型掌握度：掌握分、状态标签和累计作答次数。
+- 支持从能力画像中一键选择“只练此类”。
 - 按题型选择练习范围。
 - 按年份选择练习范围。
 - 设置题目数量。
@@ -65,6 +69,14 @@ GET /api/status
 POST /api/quiz
 ```
 
+入门诊断同样使用 `/api/quiz`，请求中传入：
+
+```text
+mode = diagnostic
+count = 30
+question_types = grammar_choice / literature_choice / culture_choice / reading_choice
+```
+
 提交批改并同步生成讲解：
 
 ```text
@@ -103,6 +115,8 @@ POST /api/followup
 
 - 首页可访问。
 - `/api/status` 返回 150 道已审核题。
+- 首页已提供 30 题入门诊断入口。
+- 入门诊断可生成 30 题，四类题型分布为 8 / 8 / 7 / 7。
 - `/api/quiz` 可生成练习，默认不包含阅读题，且不会把正确答案提前返回给前端。
 - `/api/quiz` 已参考 `question_exposures` 做基础避重排序。
 - `/api/grade` 可批改、写入数据库、同步生成深度错题讲解，并返回完整页面渲染所需数据。

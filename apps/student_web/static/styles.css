@@ -117,6 +117,17 @@ h1 {
   font-size: 17px;
 }
 
+.diagnostic {
+  display: grid;
+  gap: 8px;
+}
+
+.diagnostic p,
+.profile-next {
+  color: var(--muted);
+  line-height: 1.5;
+}
+
 .field {
   display: grid;
   gap: 8px;
@@ -174,6 +185,64 @@ textarea {
   background: #edf2ef;
   color: var(--green-dark);
   border: 1px solid var(--line);
+}
+
+.profile {
+  display: grid;
+  gap: 10px;
+}
+
+.mastery {
+  display: grid;
+  gap: 7px;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fbfcfa;
+}
+
+.mastery-head,
+.mastery-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.mastery-head span,
+.mastery-foot span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.meter {
+  height: 8px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e8ece8;
+}
+
+.meter span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--amber);
+}
+
+.mastery.good .meter span {
+  background: var(--green);
+}
+
+.mastery.low .meter span {
+  background: var(--red);
+}
+
+.textbtn {
+  padding: 0;
+  background: transparent;
+  color: var(--green-dark);
+  font-size: 13px;
+  font-weight: 700;
 }
 
 .workspace {
