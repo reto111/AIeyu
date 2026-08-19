@@ -69,6 +69,48 @@ CREATE TABLE IF NOT EXISTS source_documents (
   FOREIGN KEY (level_id) REFERENCES exam_levels(id)
 );
 
+CREATE TABLE IF NOT EXISTS knowledge_sources (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  exam_system_id INTEGER NOT NULL,
+  level_id INTEGER,
+  title TEXT NOT NULL,
+  source_type TEXT NOT NULL CHECK (source_type IN ('syllabus', 'grammar_note', 'literature_note', 'culture_note', 'reading_note', 'manual_note', 'reference_book', 'web_article')),
+  file_path TEXT NOT NULL,
+  file_hash TEXT,
+  language TEXT NOT NULL DEFAULT 'zh',
+  trust_level INTEGER NOT NULL DEFAULT 2 CHECK (trust_level BETWEEN 1 AND 5),
+  review_status TEXT NOT NULL DEFAULT 'draft' CHECK (review_status IN ('draft', 'reviewed', 'archived')),
+  notes TEXT,
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (exam_system_id) REFERENCES exam_systems(id),
+  FOREIGN KEY (level_id) REFERENCES exam_levels(id),
+  UNIQUE (exam_system_id, file_path)
+);
+
+CREATE TABLE IF NOT EXISTS knowledge_chunks (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  source_id INTEGER NOT NULL,
+  exam_system_id INTEGER NOT NULL,
+  level_id INTEGER,
+  chunk_code TEXT,
+  title TEXT NOT NULL,
+  body TEXT NOT NULL,
+  language TEXT NOT NULL DEFAULT 'zh',
+  question_type_code TEXT,
+  knowledge_point_code TEXT,
+  tags_json TEXT,
+  source_locator TEXT,
+  token_count INTEGER NOT NULL DEFAULT 0,
+  embedding_status TEXT NOT NULL DEFAULT 'not_indexed' CHECK (embedding_status IN ('not_indexed', 'indexed', 'failed')),
+  review_status TEXT NOT NULL DEFAULT 'draft' CHECK (review_status IN ('draft', 'reviewed', 'archived')),
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (source_id) REFERENCES knowledge_sources(id) ON DELETE CASCADE,
+  FOREIGN KEY (exam_system_id) REFERENCES exam_systems(id),
+  FOREIGN KEY (level_id) REFERENCES exam_levels(id)
+);
+
 CREATE TABLE IF NOT EXISTS passages (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   source_document_id INTEGER,
@@ -315,6 +357,12 @@ CREATE INDEX IF NOT EXISTS idx_questions_source
 
 CREATE INDEX IF NOT EXISTS idx_questions_source_usage
   ON questions (source_usage, content_origin, generation_status, review_status, similarity_review_status);
+
+CREATE INDEX IF NOT EXISTS idx_knowledge_sources_exam
+  ON knowledge_sources (exam_system_id, level_id, source_type, review_status);
+
+CREATE INDEX IF NOT EXISTS idx_knowledge_chunks_lookup
+  ON knowledge_chunks (exam_system_id, level_id, question_type_code, knowledge_point_code, review_status);
 
 CREATE INDEX IF NOT EXISTS idx_qkp_knowledge_point
   ON question_knowledge_points (knowledge_point_id);

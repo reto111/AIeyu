@@ -168,7 +168,7 @@ RAG 更适合用于：
 推荐组合：
 
 - 结构化数据库：历年真题、仿真题、答案、选项、知识点、来源标签、用户记录、测试记录、错题本
-- 向量知识库 / RAG：教材、讲义、考试大纲、文学国情资料、解析文档
+- 出题依据库 / RAG：教材、讲义、考试大纲、文学国情资料、解析文档；当前先使用本地 `knowledge_sources` / `knowledge_chunks` 做轻量检索
 - 大模型：讲解、错因分析、生成巩固练习、对话答疑
 
 ## 6. 可扩展考试体系设计
@@ -463,6 +463,7 @@ russian-ai-tutor/
 - `docs/student_web_prototype.md`: 学生端本地网页原型，包含组卷、答题、批改和 AI 讲解展示。
 - `docs/aliyun_windows_deployment.md`: 阿里云 Windows Server 试用服务器部署流程。
 - `docs/adaptive_exam_assistant_plan.md`: 从练习原型调整为个人 AI 自适应备考助手的产品主线和开发优先级。
+- `docs/knowledge_base_workflow.md`: 出题依据库和轻量 RAG 流程，记录资料导入、知识块检索和 AI 出题前的依据要求。
 - `database/schema.sql`: 初始数据库 SQL 表结构，当前以 SQLite 兼容为主，后续可迁移 PostgreSQL。
 
 ## 16. 当前资料批次
