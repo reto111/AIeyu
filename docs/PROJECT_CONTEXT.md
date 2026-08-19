@@ -459,6 +459,7 @@ russian-ai-tutor/
 - `docs/remediation_workflow.md`: 批改后的中文复习建议、薄弱点巩固练习包生成流程。
 - `docs/tutoring_prompt_workflow.md`: AI 私教错题讲解提示词和大模型输入上下文构建流程。
 - `docs/deepseek_integration.md`: DeepSeek API 本地配置、调用脚本、模型选择和对话入库说明。
+- `docs/ai_question_generation_workflow.md`: AI 生成题草稿流程，记录 dry run、DeepSeek 调用、草稿入库和人工审核规则。
 - `docs/tutor_followup_workflow.md`: AI 私教讲解后的学生追问流程。
 - `docs/student_web_prototype.md`: 学生端本地网页原型，包含组卷、答题、批改和 AI 讲解展示。
 - `docs/aliyun_windows_deployment.md`: 阿里云 Windows Server 试用服务器部署流程。

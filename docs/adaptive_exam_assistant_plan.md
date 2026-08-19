@@ -629,7 +629,13 @@ similarity_review_status = not_checked / passed / flagged / failed
 review_status = needs_review / approved
 ```
 
-当前 schema 已有部分字段，下一步应补齐生成脚本和审核流程。
+当前已新增第一版 AI 生成题草稿脚本：
+
+- 默认 dry run，只生成 prompt 预览。
+- 必须显式确认后才发送知识块到 DeepSeek。
+- 写入数据库时固定为 `needs_review` / `ai_draft` / `ai_generated`。
+- 已新增 `question_generation_references` 记录生成依据知识块。
+- 已有基础格式校验和防照抄检查。
 
 ## 12. RAG 在新闭环中的位置
 

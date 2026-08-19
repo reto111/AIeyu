@@ -247,7 +247,19 @@ source_label = '2019 年俄语专八真题'
 - AI 生成题必须进入 `needs_review`，人工审核后才能进入学生练习池。
 - 人工整理资料必须标注为 `manual_note` 或对应 note 类型，不得伪装成官方大纲。
 
-### 4.12 quiz_sessions / quiz_items / user_answers
+### 4.12 question_generation_references
+
+AI 生成题与知识块依据的关联表。
+
+用于记录每道 AI 草稿题生成时使用了哪些 `knowledge_chunks`。
+
+用途：
+
+- 人工审核时追溯生成依据。
+- 后续检查题目是否照抄资料原题。
+- 后续统计哪些知识源支持了哪些题目。
+
+### 4.13 quiz_sessions / quiz_items / user_answers
 
 测试、试卷题目和用户答案。
 
@@ -259,13 +271,13 @@ source_label = '2019 年俄语专八真题'
 - 记录历史
 - 统计正确率
 
-### 4.13 weakness_snapshots
+### 4.14 weakness_snapshots
 
 薄弱知识点快照。
 
 每次测试结束后，根据错题统计生成。
 
-### 4.14 ai_tutor_threads / ai_tutor_messages
+### 4.15 ai_tutor_threads / ai_tutor_messages
 
 AI 私教对话记录。
 
@@ -275,7 +287,7 @@ AI 私教对话记录。
 - 测试结果追问
 - 知识点追问
 
-### 4.15 question_exposures
+### 4.16 question_exposures
 
 题目曝光记录表。
 
@@ -290,7 +302,7 @@ AI 私教对话记录。
 
 注意：画像重算只读取该表，不应在读取画像时重复增加曝光次数。只有真实作答或一次性迁移历史记录时才更新曝光记录。
 
-### 4.16 mastery_snapshots
+### 4.17 mastery_snapshots
 
 用户画像快照表。
 
@@ -301,7 +313,7 @@ AI 私教对话记录。
 
 掌握度基于最近 20 次相关作答，并使用 3 天、7 天、10 天、更早四档时间权重。
 
-### 4.17 training_recommendations
+### 4.18 training_recommendations
 
 训练推荐表。
 

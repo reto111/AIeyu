@@ -180,6 +180,17 @@ CREATE TABLE IF NOT EXISTS question_knowledge_points (
   FOREIGN KEY (knowledge_point_id) REFERENCES knowledge_points(id)
 );
 
+CREATE TABLE IF NOT EXISTS question_generation_references (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  question_id INTEGER NOT NULL,
+  knowledge_chunk_id INTEGER NOT NULL,
+  role TEXT NOT NULL DEFAULT 'source_context' CHECK (role IN ('source_context', 'style_reference', 'similarity_reference')),
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (question_id) REFERENCES questions(id) ON DELETE CASCADE,
+  FOREIGN KEY (knowledge_chunk_id) REFERENCES knowledge_chunks(id),
+  UNIQUE (question_id, knowledge_chunk_id, role)
+);
+
 CREATE TABLE IF NOT EXISTS question_review_logs (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   question_id INTEGER NOT NULL,
@@ -366,6 +377,9 @@ CREATE INDEX IF NOT EXISTS idx_knowledge_chunks_lookup
 
 CREATE INDEX IF NOT EXISTS idx_qkp_knowledge_point
   ON question_knowledge_points (knowledge_point_id);
+
+CREATE INDEX IF NOT EXISTS idx_question_generation_references_question
+  ON question_generation_references (question_id, role);
 
 CREATE INDEX IF NOT EXISTS idx_quiz_sessions_user
   ON quiz_sessions (user_id, started_at);
