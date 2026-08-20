@@ -60,7 +60,8 @@ retrieved_chunk_ids = ...
 - 校验返回 JSON。
 - 检查每题是否有题干、四个选项、唯一正确答案和中文解析。
 - 检查题干是否直接出现在知识块正文里。
-- 检查题干是否和已有题过于相似。
+- 检查题干、选项和解析组成的整体内容是否和已有题或同批次题目过于相似。
+- 对国情 `difficulty = 4` 做基础深度检查，避免单纯名称、位置或单点事实题伪装成高难度题。
 - 写入 `questions` / `question_options` / `question_knowledge_points`。
 - 写入 `question_generation_references`，保留生成依据知识块。
 
@@ -112,10 +113,23 @@ AI 生成题可以继续使用现有审核表导出流程：
 
 - 首次生成的第 152 题“Красная площадь 中 красный 的历史含义”难度偏低。
 - 后续 prompt 已补充难度要求，减少此类单点词义题。
+- 后续生成的第 154 题更符合国情 `difficulty = 4` 标准：事实节点 + 历史背景 + 易混干扰项辨析。
+- 后续生成的第 155 题与第 154 题过于接近，第 156 题仍偏基础事实辨析；因此新增本地 AI 草稿质量审计。
+
+当前可运行本地审计：
+
+```text
+.venv\Scripts\python.exe scripts\audit_ai_question_drafts.py
+```
+
+如需把风险写入审核日志并标记：
+
+```text
+.venv\Scripts\python.exe scripts\audit_ai_question_drafts.py --persist-flags
+```
 
 后续需要补：
 
-- 更强的相似度检查。
 - 选项唯一性验证。
 - 答案自洽二次审查。
 - 按知识点批量生成。

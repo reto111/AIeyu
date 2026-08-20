@@ -24,6 +24,8 @@ DEFAULT_BASE_URL = "https://api.deepseek.com"
 DEFAULT_MODEL = "deepseek-v4-flash"
 OPTION_KEYS = ["A", "B", "C", "D"]
 SIMILARITY_THRESHOLD = 0.86
+AI_DRAFT_SIMILARITY_THRESHOLD = 0.74
+BATCH_SIMILARITY_THRESHOLD = 0.78
 
 
 def load_dotenv(path: Path) -> None:
@@ -221,24 +223,185 @@ def similarity_ratio(left: str, right: str) -> float:
     return SequenceMatcher(None, normalize_text(left), normalize_text(right)).ratio()
 
 
+def years_in_text(text: str) -> set[str]:
+    return set(re.findall(r"(?:1[0-9]{3}|20[0-9]{2})", text))
+
+
+def culture_key_terms(text: str) -> set[str]:
+    terms = [
+        "莫斯科",
+        "首都",
+        "克里姆林宫",
+        "红场",
+        "苏联",
+        "俄罗斯",
+        "总统",
+        "官邸",
+        "炮王",
+        "钟王",
+        "莫斯科大学",
+        "圣彼得堡",
+        "成立",
+        "迁都",
+        "联邦",
+    ]
+    return {term for term in terms if term in text}
+
+
+def is_same_culture_signature(left: str, right: str) -> bool:
+    left_years = years_in_text(left)
+    right_years = years_in_text(right)
+    shared_years = left_years & right_years
+    shared_terms = culture_key_terms(left) & culture_key_terms(right)
+    return len(shared_years) >= 2 and len(shared_terms) >= 2
+
+
+def question_payload_text(question: dict[str, Any]) -> str:
+    option_texts = [
+        str(option.get("text") or "")
+        for option in question.get("options", []) or []
+        if isinstance(option, dict)
+    ]
+    return "\n".join(
+        [
+            str(question.get("stem") or ""),
+            *option_texts,
+            str(question.get("explanation_zh") or ""),
+        ]
+    )
+
+
+def existing_question_payloads(conn: sqlite3.Connection) -> list[dict[str, Any]]:
+    rows = conn.execute(
+        """
+        SELECT
+          q.id,
+          q.stem,
+          q.explanation_zh,
+          q.generation_status,
+          q.review_status,
+          qt.code AS question_type
+        FROM questions q
+        JOIN question_types qt ON qt.id = q.question_type_id
+        WHERE q.review_status IN ('needs_review', 'approved')
+        """
+    ).fetchall()
+    option_rows = conn.execute(
+        """
+        SELECT question_id, option_key, option_text
+        FROM question_options
+        ORDER BY question_id, option_key
+        """
+    ).fetchall()
+    options_by_question: dict[int, list[str]] = {}
+    for row in option_rows:
+        options_by_question.setdefault(int(row["question_id"]), []).append(str(row["option_text"] or ""))
+
+    payloads: list[dict[str, Any]] = []
+    for row in rows:
+        question_id = int(row["id"])
+        payloads.append(
+            {
+                "id": question_id,
+                "question_type": row["question_type"],
+                "generation_status": row["generation_status"],
+                "review_status": row["review_status"],
+                "text": "\n".join(
+                    [
+                        str(row["stem"] or ""),
+                        *options_by_question.get(question_id, []),
+                        str(row["explanation_zh"] or ""),
+                    ]
+                ),
+                "stem": str(row["stem"] or ""),
+            }
+        )
+    return payloads
+
+
+def detect_batch_similarity_risks(questions: list[dict[str, Any]]) -> list[str]:
+    risks: list[str] = []
+    for left_index, left_question in enumerate(questions, start=1):
+        for right_index, right_question in enumerate(questions[left_index:], start=left_index + 1):
+            ratio = similarity_ratio(
+                question_payload_text(left_question),
+                question_payload_text(right_question),
+            )
+            if ratio >= BATCH_SIMILARITY_THRESHOLD:
+                risks.append(
+                    f"Question {left_index} is too similar to generated question {right_index} "
+                    f"(payload_ratio={ratio:.2f})."
+                )
+    return risks
+
+
+def detect_culture_difficulty_risks(
+    questions: list[dict[str, Any]],
+    question_type: str,
+    requested_difficulty: int,
+) -> list[str]:
+    if question_type != "culture_choice" or requested_difficulty < 4:
+        return []
+
+    risks: list[str] = []
+    low_depth_patterns = [
+        "名称是什么",
+        "叫什么",
+        "位于哪里",
+        "哪一项是正确的",
+        "哪一项正确",
+        "下列关于",
+    ]
+    depth_markers = [
+        "时间",
+        "时期",
+        "背景",
+        "关系",
+        "原因",
+        "制度",
+        "事件",
+        "成立",
+        "成为",
+        "混淆",
+        "对应",
+        "节点",
+        "历史",
+    ]
+    for index, question in enumerate(questions, start=1):
+        stem = str(question.get("stem") or "")
+        options_text = " ".join(
+            str(option.get("text") or "")
+            for option in question.get("options", []) or []
+            if isinstance(option, dict)
+        )
+        text = stem + " " + options_text
+        year_count = len(years_in_text(text))
+        stem_marker_count = sum(1 for marker in depth_markers if marker in stem)
+        has_low_depth_pattern = any(pattern in stem for pattern in low_depth_patterns)
+        if has_low_depth_pattern and year_count < 2 and stem_marker_count < 2:
+            risks.append(
+                f"Question {index} may be too shallow for culture difficulty>=4 "
+                "(single fact/name/location style)."
+            )
+    return risks
+
+
 def detect_similarity_risks(
     conn: sqlite3.Connection,
     questions: list[dict[str, Any]],
     prompt_package: dict[str, Any],
     threshold: float,
+    question_type: str,
+    requested_difficulty: int,
 ) -> list[str]:
     risks: list[str] = []
-    existing_questions = conn.execute(
-        """
-        SELECT id, stem
-        FROM questions
-        WHERE review_status IN ('needs_review', 'approved')
-        """
-    ).fetchall()
+    existing_questions = existing_question_payloads(conn)
     chunk_bodies = [
         str(chunk.get("body") or "")
         for chunk in prompt_package["user_payload"]["retrieved_chunks"]
     ]
+    risks.extend(detect_batch_similarity_risks(questions))
+    risks.extend(detect_culture_difficulty_risks(questions, question_type, requested_difficulty))
 
     for index, question in enumerate(questions, start=1):
         stem = str(question.get("stem") or "")
@@ -250,11 +413,25 @@ def detect_similarity_risks(
                     break
 
         for row in existing_questions:
-            ratio = similarity_ratio(stem, str(row["stem"] or ""))
-            if ratio >= threshold:
+            stem_ratio = similarity_ratio(stem, str(row["stem"] or ""))
+            payload_text = question_payload_text(question)
+            existing_text = str(row["text"] or "")
+            payload_ratio = similarity_ratio(payload_text, existing_text)
+            active_threshold = (
+                AI_DRAFT_SIMILARITY_THRESHOLD
+                if row["generation_status"] in {"ai_draft", "ai_review_pending"}
+                else threshold
+            )
+            same_culture_signature = (
+                question_type == "culture_choice"
+                and row["question_type"] == "culture_choice"
+                and is_same_culture_signature(payload_text, existing_text)
+            )
+            if stem_ratio >= threshold or payload_ratio >= active_threshold or same_culture_signature:
                 risks.append(
                     f"Question {index} is too similar to existing question {row['id']} "
-                    f"(ratio={ratio:.2f})."
+                    f"(stem_ratio={stem_ratio:.2f}, payload_ratio={payload_ratio:.2f}, "
+                    f"same_culture_signature={same_culture_signature})."
                 )
                 break
 
@@ -271,7 +448,15 @@ def insert_generated_questions(
     ensure_knowledge_base_tables(conn)
     ensure_generation_reference_table(conn)
     exam_system_id, level_id = fetch_tem8_ids(conn)
-    similarity_risks = detect_similarity_risks(conn, questions, prompt_package, SIMILARITY_THRESHOLD)
+    requested_difficulty = int(prompt_package["user_payload"]["generation_request"]["difficulty"])
+    similarity_risks = detect_similarity_risks(
+        conn,
+        questions,
+        prompt_package,
+        SIMILARITY_THRESHOLD,
+        question_type,
+        requested_difficulty,
+    )
     if similarity_risks:
         raise ValueError("AI generated questions failed similarity checks: " + "; ".join(similarity_risks))
 
