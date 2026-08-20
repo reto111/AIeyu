@@ -46,7 +46,7 @@ data\processed\review_sheets\tem8_passages_review.csv
 
 导出结构：
 
-- `tem8_questions_review.csv`: 题目、选项、答案、来源、`passage_id`、知识点和审核结论。
+- `tem8_questions_review.csv`: 题目、选项、答案、来源、`passage_id`、知识点、中文解析、AI 生成依据和审核结论。
 - `tem8_passages_review.csv`: 阅读文章全文，每篇文章一行，通过 `passage_id` 与题目表对应。
 
 注意：题目表不再重复放入阅读文章全文，避免阅读题在表格中显得被长文章打散。
@@ -69,8 +69,13 @@ data\processed\review_sheets\tem8_passages_review.csv
 - `stem`: 题干
 - `option_a` 到 `option_d`: 选项
 - `correct_answer`: 正确答案
+- `explanation_zh`: 中文解析；AI 生成题必须重点检查解析是否支撑答案
 - `passage_id`: 阅读文章 ID，非阅读题为空
 - `passage_title`: 阅读文章标题，非阅读题为空
+- `generation_status`: AI 生成或人工导入状态
+- `similarity_review_status`: 相似度检查状态
+- `generation_references`: AI 生成题使用的知识块来源
+- `source_basis_zh`: AI 生成题自述的依据摘要
 
 人工填写字段：
 

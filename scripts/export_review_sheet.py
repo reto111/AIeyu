@@ -21,15 +21,20 @@ FIELDNAMES = [
     "question_type",
     "review_status",
     "content_origin",
+    "generation_status",
+    "similarity_review_status",
     "stem",
     "option_a",
     "option_b",
     "option_c",
     "option_d",
     "correct_answer",
+    "explanation_zh",
     "passage_id",
     "passage_title",
     "knowledge_point_codes",
+    "generation_references",
+    "source_basis_zh",
     "review_decision",
     "review_notes",
 ]
@@ -66,6 +71,44 @@ def option_map(conn: sqlite3.Connection, question_id: int) -> dict[str, str]:
     return {str(key).upper(): text for key, text in rows}
 
 
+def knowledge_point_codes(conn: sqlite3.Connection, question_id: int) -> str:
+    rows = conn.execute(
+        """
+        SELECT kp.code
+        FROM question_knowledge_points qkp
+        JOIN knowledge_points kp ON kp.id = qkp.knowledge_point_id
+        WHERE qkp.question_id = ?
+        ORDER BY kp.sort_order, kp.code
+        """,
+        (question_id,),
+    ).fetchall()
+    return ",".join(str(row["code"]) for row in rows)
+
+
+def generation_references(conn: sqlite3.Connection, question_id: int) -> str:
+    rows = conn.execute(
+        """
+        SELECT kc.title, kc.source_locator
+        FROM question_generation_references qgr
+        JOIN knowledge_chunks kc ON kc.id = qgr.knowledge_chunk_id
+        WHERE qgr.question_id = ?
+        ORDER BY kc.id
+        """,
+        (question_id,),
+    ).fetchall()
+    return " | ".join(f"{row['title']} ({row['source_locator']})" for row in rows)
+
+
+def source_basis(raw_text: str | None) -> str:
+    if not raw_text:
+        return ""
+    try:
+        payload = json.loads(raw_text)
+    except json.JSONDecodeError:
+        return ""
+    return str(payload.get("source_basis_zh") or "")
+
+
 def review_rows(conn: sqlite3.Connection, years: list[int] | None) -> list[dict[str, str]]:
     params: list[Any] = []
     year_filter = ""
@@ -84,10 +127,14 @@ def review_rows(conn: sqlite3.Connection, years: list[int] | None) -> list[dict[
           qt.code AS question_type,
           q.review_status,
           q.content_origin,
+          q.generation_status,
+          q.similarity_review_status,
           q.stem,
           q.correct_answer,
+          q.explanation_zh,
           q.passage_id,
-          p.title AS passage_title
+          p.title AS passage_title,
+          q.raw_text
         FROM questions q
         JOIN question_types qt ON qt.id = q.question_type_id
         LEFT JOIN passages p ON p.id = q.passage_id
@@ -111,15 +158,20 @@ def review_rows(conn: sqlite3.Connection, years: list[int] | None) -> list[dict[
                 "question_type": safe_cell(row["question_type"]),
                 "review_status": safe_cell(row["review_status"]),
                 "content_origin": safe_cell(row["content_origin"]),
+                "generation_status": safe_cell(row["generation_status"]),
+                "similarity_review_status": safe_cell(row["similarity_review_status"]),
                 "stem": safe_cell(row["stem"]),
                 "option_a": safe_cell(options.get("A")),
                 "option_b": safe_cell(options.get("B")),
                 "option_c": safe_cell(options.get("C")),
                 "option_d": safe_cell(options.get("D")),
                 "correct_answer": safe_cell(row["correct_answer"]),
+                "explanation_zh": safe_cell(row["explanation_zh"]),
                 "passage_id": safe_cell(row["passage_id"]),
                 "passage_title": safe_cell(row["passage_title"]),
-                "knowledge_point_codes": "",
+                "knowledge_point_codes": safe_cell(knowledge_point_codes(conn, question_id)),
+                "generation_references": safe_cell(generation_references(conn, question_id)),
+                "source_basis_zh": safe_cell(source_basis(row["raw_text"])),
                 "review_decision": "",
                 "review_notes": "",
             }
