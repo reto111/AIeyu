@@ -805,6 +805,11 @@ http://127.0.0.1:8765/
 - `tem8_countryknowledge_reference_scan.pdf`: 161 页，已完成 OCR，已导入 `knowledge_chunks` 159 个，标记为 `culture_choice` / `culture`。
 - `Russian_grammar_reference_scan.pdf`: 641 页，已抽样确认可用，但尚未全量 OCR；建议后续分批处理。
 
+AI 生成题人工反馈：
+
+- 2026-08-20 首次真实生成 2 道国情草稿题，题目 ID 为 151、152。
+- 题目 152 被反馈为难度偏低，偏单点词义记忆；后续生成规则应避免此类过低难度题，国情题应更重视背景关系和干扰项辨析。
+
 ## 28. 后续工作规则
 
 阿里云测试部署规则：
