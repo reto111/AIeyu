@@ -138,6 +138,17 @@ def culture_depth_risks(question: dict[str, Any]) -> list[str]:
         "对应",
         "节点",
         "历史",
+        "综合",
+        "组合",
+        "判断",
+        "描述",
+        "特征",
+        "流向",
+        "水量",
+        "别称",
+        "分布",
+        "产地",
+        "资源",
     ]
     low_depth_patterns = [
         "名称是什么",

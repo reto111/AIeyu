@@ -366,6 +366,17 @@ def detect_culture_difficulty_risks(
         "对应",
         "节点",
         "历史",
+        "综合",
+        "组合",
+        "判断",
+        "描述",
+        "特征",
+        "流向",
+        "水量",
+        "别称",
+        "分布",
+        "产地",
+        "资源",
     ]
     for index, question in enumerate(questions, start=1):
         stem = str(question.get("stem") or "")
@@ -629,28 +640,35 @@ def main() -> None:
     generated_payload = parse_json_object(assistant_text)
     questions = validate_questions(generated_payload, args.count)
 
-    inserted_ids: list[int] = []
-    if args.persist:
-        with connect() as conn:
-            inserted_ids = insert_generated_questions(
-                conn,
-                questions,
-                prompt_package,
-                args.question_type,
-                args.knowledge_point,
-            )
-
     output_path = args.output_dir / f"generation_result_{stamp}.json"
+    inserted_ids: list[int] = []
+    insert_error: str | None = None
+    if args.persist:
+        try:
+            with connect() as conn:
+                inserted_ids = insert_generated_questions(
+                    conn,
+                    questions,
+                    prompt_package,
+                    args.question_type,
+                    args.knowledge_point,
+                )
+        except Exception as exc:
+            insert_error = str(exc)
+
     write_json(
         output_path,
         {
             "prompt_path": str(prompt_path),
             "model": args.model,
             "inserted_question_ids": inserted_ids,
+            "insert_error": insert_error,
             "assistant_payload": generated_payload,
             "raw_response": response,
         },
     )
+    if insert_error:
+        raise ValueError(insert_error)
     print(
         json.dumps(
             {
