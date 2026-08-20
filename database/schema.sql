@@ -416,5 +416,83 @@ VALUES
   ('grammar_choice', '语法选择题', '俄语专八语法单项选择题'),
   ('literature_choice', '文学选择题', '俄语文学相关单项选择题'),
   ('culture_choice', '国情选择题', '俄罗斯国情相关单项选择题'),
-  ('reading_choice', '阅读理解选择题', '阅读文章下的单项选择题');
+  ('reading_choice', '阅读理解选择题', '阅读文章下的单项选择题'),
+  ('listening_choice', '听力理解选择题', '听力音频材料下的单项选择题');
+
+CREATE TABLE IF NOT EXISTS listening_assets (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  exam_system_id INTEGER NOT NULL,
+  level_id INTEGER,
+  source_year INTEGER,
+  title TEXT NOT NULL,
+  file_path TEXT NOT NULL,
+  file_name TEXT NOT NULL,
+  file_hash TEXT,
+  file_format TEXT,
+  file_size_bytes INTEGER,
+  duration_seconds REAL,
+  asset_scope TEXT NOT NULL DEFAULT 'segment' CHECK (asset_scope IN ('full_exam', 'section', 'segment')),
+  segment_order INTEGER,
+  segment_label TEXT,
+  language TEXT NOT NULL DEFAULT 'ru',
+  source_label TEXT,
+  asr_status TEXT NOT NULL DEFAULT 'pending' CHECK (asr_status IN ('pending', 'asr_draft', 'human_verified', 'failed', 'skipped')),
+  transcript_status TEXT NOT NULL DEFAULT 'no_transcript' CHECK (transcript_status IN ('no_transcript', 'asr_draft', 'human_verified')),
+  review_status TEXT NOT NULL DEFAULT 'pending' CHECK (review_status IN ('pending', 'in_review', 'reviewed', 'archived')),
+  notes TEXT,
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (exam_system_id) REFERENCES exam_systems(id),
+  FOREIGN KEY (level_id) REFERENCES exam_levels(id),
+  UNIQUE (exam_system_id, file_path)
+);
+
+CREATE TABLE IF NOT EXISTS listening_transcripts (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  audio_asset_id INTEGER NOT NULL,
+  transcript_type TEXT NOT NULL CHECK (transcript_type IN ('asr_raw', 'human_corrected')),
+  provider TEXT,
+  model_name TEXT,
+  language TEXT NOT NULL DEFAULT 'ru',
+  transcript_text TEXT NOT NULL,
+  confidence REAL,
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (audio_asset_id) REFERENCES listening_assets(id) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS listening_segments (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  audio_asset_id INTEGER NOT NULL,
+  segment_order INTEGER NOT NULL DEFAULT 0,
+  start_seconds REAL,
+  end_seconds REAL,
+  text_ru TEXT,
+  text_zh TEXT,
+  review_status TEXT NOT NULL DEFAULT 'draft' CHECK (review_status IN ('draft', 'reviewed', 'archived')),
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (audio_asset_id) REFERENCES listening_assets(id) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS listening_question_links (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  question_id INTEGER NOT NULL,
+  audio_asset_id INTEGER NOT NULL,
+  listening_segment_id INTEGER,
+  relation TEXT NOT NULL DEFAULT 'source_audio' CHECK (relation IN ('source_audio', 'evidence_segment', 'whole_group')),
+  start_seconds REAL,
+  end_seconds REAL,
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (question_id) REFERENCES questions(id) ON DELETE CASCADE,
+  FOREIGN KEY (audio_asset_id) REFERENCES listening_assets(id),
+  FOREIGN KEY (listening_segment_id) REFERENCES listening_segments(id),
+  UNIQUE (question_id, audio_asset_id, listening_segment_id, relation)
+);
+
+CREATE INDEX IF NOT EXISTS idx_listening_assets_year
+  ON listening_assets (exam_system_id, level_id, source_year, asset_scope, segment_order);
+
+CREATE INDEX IF NOT EXISTS idx_listening_question_links_question
+  ON listening_question_links (question_id);
 

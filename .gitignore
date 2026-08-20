@@ -35,6 +35,7 @@ Thumbs.db
 data/raw_pdfs/
 data/processed/
 data/knowledge_sources/**/*.pdf
+data/listening/
 
 # Local generated database files
 database/*.sqlite

@@ -136,6 +136,7 @@ V0.1 默认题型：
 - `literature_choice`: 文学选择题
 - `culture_choice`: 国情选择题
 - `reading_choice`: 阅读理解选择题
+- `listening_choice`: 听力理解选择题
 
 ### 4.4 knowledge_points
 
@@ -320,6 +321,30 @@ AI 私教对话记录。
 用于保存当前最高优先级弱项和建议专项训练数量。
 
 第一版只生成本地默认用户的 active 推荐；后续接入多用户后，每个学生独立生成。
+
+### 4.19 listening_assets / listening_transcripts / listening_segments / listening_question_links
+
+听力音频和转写链路。
+
+`listening_assets` 记录听力音频文件，包括年份、路径、文件哈希、整套音频或分段音频、分段顺序和转写状态。
+
+`listening_transcripts` 保存音频转写文本，区分：
+
+```text
+asr_raw
+human_corrected
+```
+
+`listening_segments` 保存带时间范围的听力原文片段，用于后续在 AI 讲解中定位听力依据。
+
+`listening_question_links` 负责把听力题目与音频或音频片段绑定。
+
+当前规则：
+
+- 2019、2024 这类分段音频不合并，每个 mp3 登记为一个 `segment`。
+- 2017、2018、2023 这类整套 mp3 先登记为 `full_exam`，后续再切段或人工标记题组时间范围。
+- 音频文件不提交到 Git，只提交登记和处理脚本。
+- ASR 自动转写只能作为草稿，正式讲解应优先使用人工校对稿。
 
 ## 5. 建库步骤
 
