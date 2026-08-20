@@ -76,6 +76,79 @@ listening_choice
 
 云端 ASR 可以作为备选，但需要用户明确同意发送音频到外部服务，并注意听力材料版权边界。
 
+### 5.1 本地 ASR 小样本
+
+安装本地 ASR 依赖：
+
+```text
+.venv\Scripts\python.exe -m pip install -r requirements-asr.txt
+```
+
+先转写 2019 年第 1 段，不写数据库：
+
+```text
+.venv\Scripts\python.exe scripts\transcribe_listening_audio.py --year 2019 --segment-order 1 --model-size base
+```
+
+转写并写入数据库：
+
+```text
+.venv\Scripts\python.exe scripts\transcribe_listening_audio.py --year 2019 --segment-order 1 --model-size base --persist
+```
+
+如果某个模型只识别出“Текст 1/2/3”等提示词，说明语音可能被 VAD 过滤过度，可以关闭 VAD 对比：
+
+```text
+.venv\Scripts\python.exe scripts\transcribe_listening_audio.py --year 2019 --segment-order 1 --model-size small --no-vad
+```
+
+输出校对文件位于：
+
+```text
+data/processed/listening_asr/
+```
+
+`base` 模型用于快速验证流程；如果俄语准确率不够，再试 `small` 或 `medium`。模型越大，下载和转写耗时越长。
+
+当前 2019 年第 1 段样本结论：
+
+- `base` 能识别主体，但专有名词和格形错误较多。
+- `small` 默认 VAD 会过度过滤，只识别出“Текст 1/2/3”等提示词。
+- `small --no-vad` 明显更适合作为校对底稿，但仍会错识年份、人名、地名和专有术语。
+- 第一版建议听力 ASR 默认使用 `small --no-vad` 生成草稿，再人工校对。
+
+### 5.2 导出和回写听力转写校对表
+
+导出 2019 年第 1 段校对表：
+
+```text
+.venv\Scripts\python.exe scripts\export_listening_transcript_review.py --asset-id 3
+```
+
+默认输出：
+
+```text
+data/processed/review_sheets/tem8_listening_transcripts_review.csv
+```
+
+校对时填写：
+
+- `corrected_text_ru`: 修正后的俄语原文
+- `review_decision`: 填 `reviewed` / `approved` / `human_verified`
+- `review_notes`: 可选备注
+
+回写前预览：
+
+```text
+.venv\Scripts\python.exe scripts\apply_listening_transcript_review.py --dry-run
+```
+
+确认后回写：
+
+```text
+.venv\Scripts\python.exe scripts\apply_listening_transcript_review.py
+```
+
 ## 6. 后续接入顺序
 
 1. 登记所有听力音频资产。
