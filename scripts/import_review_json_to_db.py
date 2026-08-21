@@ -25,14 +25,20 @@ def source_document_id(conn: sqlite3.Connection, source_year: int) -> int:
         JOIN exam_systems es ON es.id = sd.exam_system_id
         WHERE es.code = 'TEM8_RU'
           AND sd.source_year = ?
-          AND sd.document_type = 'full'
-        ORDER BY sd.id
+          AND sd.document_type IN ('full', 'questions')
+        ORDER BY
+          CASE sd.document_type
+            WHEN 'full' THEN 0
+            WHEN 'questions' THEN 1
+            ELSE 2
+          END,
+          sd.id
         LIMIT 1
         """,
         (source_year,),
     ).fetchone()
     if row is None:
-        raise ValueError(f"No TEM8 full source document found for year {source_year}")
+        raise ValueError(f"No TEM8 full/questions source document found for year {source_year}")
     return int(row[0])
 
 

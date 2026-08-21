@@ -16,6 +16,100 @@ OPTION_KEY_MAP = {
     "С": "C",
     "D": "D",
     "Д": "D",
+    "O": "D",
+    "О": "D",
+    "0": "D",
+    "2": "D",
+    "Р": "D",
+    "р": "D",
+    "а": "D",
+}
+
+
+ANSWER_OVERRIDES = {
+    2017: {
+        16: "C",
+        21: "D",
+        29: "D",
+        30: "A",
+        31: "C",
+        34: "D",
+        38: "C",
+        39: "D",
+    },
+    2018: {
+        16: "B",
+        21: "B",
+        25: "D",
+        29: "D",
+        32: "D",
+        39: "D",
+        42: "D",
+        45: "C",
+        54: "D",
+    },
+}
+
+
+OPTION_OVERRIDES = {
+    2017: {
+        25: {
+            "A": "внесет",
+            "B": "несет",
+            "C": "внесут",
+            "D": "несут",
+        },
+        26: {
+            "A": "на сотрудничестве",
+            "B": "сотрудничеством",
+            "C": "в сотрудничестве",
+            "D": "сотрудничество",
+        },
+        36: {
+            "A": "А. А. Фет",
+            "B": "М. И. Цветаева",
+            "C": "С. А. Есенин",
+            "D": "А. А. Ахматова",
+        },
+        37: {
+            "A": "Евгений и Татьяна",
+            "B": "Юрий и Лара",
+            "C": "Родион и Сонечка",
+            "D": "Андрей и Наташа",
+        },
+        38: {
+            "A": "«Деревня»",
+            "B": "«Митина любовь»",
+            "C": "«Темные аллеи»",
+            "D": "«Окаянные дни»",
+        },
+    },
+    2018: {
+        26: {
+            "A": "уделялось",
+            "B": "отводилось",
+            "C": "оставалось",
+            "D": "придавалось",
+        },
+        27: {
+            "A": "влияет",
+            "B": "сказывается",
+            "C": "отражает",
+            "D": "воздействует",
+        },
+        37: {
+            "A": "классицизм",
+            "B": "сентиментализм",
+            "C": "романтизм",
+            "D": "реализм",
+        },
+        38: {
+            "A": "Евгений Базаров",
+            "B": "Петр Гринев",
+            "C": "Григорий Мелехов",
+            "D": "Андрей Соколов",
+        },
+    },
 }
 
 
@@ -28,6 +122,13 @@ class QuestionChunk:
 
 def normalize_option_key(value: str) -> str:
     return OPTION_KEY_MAP.get(value, value)
+
+
+def apply_option_override(source_year: int, number: int, options: list[dict]) -> list[dict]:
+    override = OPTION_OVERRIDES.get(source_year, {}).get(number)
+    if not override:
+        return options
+    return [{"key": key, "text": text} for key, text in override.items()]
 
 
 def normalize_lines(text: str) -> list[str]:
@@ -56,6 +157,39 @@ def section_between(text: str, start: str, end: str) -> str:
     return text[start_index:end_index]
 
 
+def section_between_question_numbers(text: str, start_number: int, end_number: int) -> str:
+    start_match = re.search(rf"(?m)^\s*{start_number}[\.)]\s+", text)
+    end_match = re.search(rf"(?m)^\s*{end_number}[\.)]\s+", text)
+    if not start_match:
+        return ""
+    end_index = end_match.start() if end_match else len(text)
+    return text[start_match.start() : end_index]
+
+
+def reading_section_text(text: str) -> str:
+    section = section_between(text, "阅读理解", "翻译")
+    if section:
+        return section
+
+    section = section_between(text, "Чтение", "Переведите")
+    if section:
+        return section
+
+    first_question = re.search(r"(?m)^\s*46[\.)]\s+", text)
+    if not first_question:
+        return ""
+
+    start = text.rfind("Текст", 0, first_question.start())
+    if start < 0:
+        start = text.rfind("екст", 0, first_question.start())
+    if start < 0:
+        start = first_question.start()
+
+    end_match = re.search(r"(?m)^\s*1[\.)]\s+Переведите", text[first_question.start() :])
+    end = first_question.start() + end_match.start() if end_match else len(text)
+    return text[start:end]
+
+
 def current_page_from_marker(line: str) -> int | None:
     match = re.match(r"^--- Page (\d+) \([^)]+\) ---$", line)
     if not match:
@@ -75,7 +209,7 @@ def split_numbered_questions(
     active_page: int | None = None
     buffer: list[str] = []
 
-    question_start = re.compile(r"^(\d{1,2})(?:\s+(.*))?$")
+    question_start = re.compile(r"^(\d{1,2})[\.)]?(?:\s+(.*))?$")
 
     for line in normalize_lines(section_text):
         page_number = current_page_from_marker(line)
@@ -120,31 +254,30 @@ def split_numbered_questions(
 
 
 def extract_options(raw_text: str) -> tuple[str, list[dict]]:
-    option_marker = re.compile(r"^([AАBВCСDД])[\.)]\s*(.*)$")
-    stem_lines: list[str] = []
-    options: list[dict] = []
-    current_option: dict | None = None
+    option_marker = re.compile(r"(?:^|[\s`'|\\])([AАBВCСDДОO02Рра])[\.)]\s*")
+    normalized_text = "\n".join(line for line in normalize_lines(raw_text) if line)
+    matches = list(option_marker.finditer(normalized_text))
+    if matches:
+        stem = " ".join(normalized_text[: matches[0].start()].split())
+        options: list[dict] = []
+        for index, match in enumerate(matches):
+            end = matches[index + 1].start() if index + 1 < len(matches) else len(normalized_text)
+            options.append(
+                {
+                    "key": normalize_option_key(match.group(1)),
+                    "text": " ".join(normalized_text[match.end() : end].split()),
+                }
+            )
+        deduped_options: list[dict] = []
+        seen_keys: set[str] = set()
+        for option in options:
+            if option["key"] in seen_keys:
+                continue
+            seen_keys.add(option["key"])
+            deduped_options.append(option)
+        return stem, deduped_options
 
-    for line in normalize_lines(raw_text):
-        if not line:
-            continue
-
-        match = option_marker.match(line)
-        if match:
-            current_option = {
-                "key": normalize_option_key(match.group(1)),
-                "text": match.group(2).strip(),
-            }
-            options.append(current_option)
-            continue
-
-        if current_option is None:
-            stem_lines.append(line)
-        else:
-            current_option["text"] = (current_option["text"] + " " + line).strip()
-
-    stem = " ".join(stem_lines).strip()
-    return stem, options
+    return " ".join(normalized_text.split()), []
 
 
 def classify_comprehensive_question(number: int) -> str:
@@ -157,13 +290,18 @@ def classify_comprehensive_question(number: int) -> str:
 
 def parse_answers(text: str) -> dict[int, str]:
     answer_section = section_between(text, "答案", "翻译")
+    if not answer_section:
+        answer_section = text
     tokens = [
         line.strip()
         for line in answer_section.splitlines()
-        if re.match(r"^\d{1,2}$", line.strip()) or re.match(r"^[AАBВCСDД]$", line.strip())
+        if re.match(r"^\d{1,2}$", line.strip()) or re.match(r"^[AАBВCСDДОO02]$", line.strip())
     ]
 
     answers: dict[int, str] = {}
+    for number, answer in re.findall(r"(?<!\d)(\d{1,2})\.\s*([AАBВCСDДОO02])(?:\b|$)", answer_section):
+        answers[int(number)] = normalize_option_key(answer)
+
     index = 0
     while index < len(tokens):
         numbers: list[int] = []
@@ -181,16 +319,35 @@ def parse_answers(text: str) -> dict[int, str]:
         for number, answer in zip(numbers, letters):
             answers[number] = answer
 
+    for number in range(16, 46):
+        block_start = re.search(rf"(?m)^\s*{number}\.\s+", answer_section)
+        if not block_start:
+            continue
+        next_start = re.search(rf"(?m)^\s*{number + 1}\.\s+", answer_section[block_start.end() :])
+        block_end = block_start.end() + next_start.start() if next_start else len(answer_section)
+        block = answer_section[block_start.end() : block_end]
+        match = re.search(r"(?m)^\[[^\]\n]*\]\s*([AАBВCСDДОO02])(?:\s|$)", block)
+        if not match:
+            match = re.search(r"(?m)^\[[^\n]*\s+([AАBВCСDДОO02])(?:\s|$)", block)
+        if match:
+            answers[number] = normalize_option_key(match.group(1))
+
     return answers
 
 
 def parse_comprehensive_questions(text: str, answers: dict[int, str], source_year: int) -> list[dict]:
     section = section_between(text, "综合知识", "阅读理解")
+    if not section:
+        section = section_between_question_numbers(text, 16, 46)
+        reading_heading = re.search(r"(?mi)^.*Чтение.*$", section)
+        if reading_heading:
+            section = section[: reading_heading.start()]
     chunks = split_numbered_questions(section, 16, 45, first_number=16)
     questions: list[dict] = []
 
     for chunk in chunks:
         stem, options = extract_options(chunk.raw_text)
+        options = apply_option_override(source_year, chunk.number, options)
         questions.append(
             {
                 "source_year": source_year,
@@ -218,26 +375,43 @@ def parse_comprehensive_questions(text: str, answers: dict[int, str], source_yea
 
 
 def split_reading_passages(reading_section: str) -> list[tuple[str, str]]:
-    pattern = re.compile(r"(?m)^文章(\d+)\s*$")
-    matches = list(pattern.finditer(reading_section))
+    marker_pattern = re.compile(r"(?:文章|Текст|текст|екст)")
+    offset = 0
+    matches: list[tuple[int, int, str | None]] = []
+    for line in reading_section.splitlines(keepends=True):
+        stripped = line.strip()
+        marker_number: str | None = None
+        is_marker = False
+        if len(stripped) <= 50 and marker_pattern.search(stripped):
+            is_marker = True
+            number_match = re.search(r"([1-5])", stripped)
+            marker_number = number_match.group(1) if number_match else None
+        elif re.match(r"^[\\|]\s*([1-5])\s+\S{2,10}\s*$", stripped):
+            is_marker = True
+            marker_number = re.match(r"^[\\|]\s*([1-5])", stripped).group(1)
+        if is_marker:
+            matches.append((offset, offset + len(line), marker_number))
+        offset += len(line)
+
     passages: list[tuple[str, str]] = []
 
     for index, match in enumerate(matches):
-        title = f"文章{match.group(1)}"
-        start = match.end()
-        end = matches[index + 1].start() if index + 1 < len(matches) else len(reading_section)
+        passage_number = match[2] or str(index + 1)
+        title = f"文章{passage_number}"
+        start = match[1]
+        end = matches[index + 1][0] if index + 1 < len(matches) else len(reading_section)
         passages.append((title, reading_section[start:end].strip()))
 
     return passages
 
 
 def first_question_position(passage_text: str, expected_start: int) -> int | None:
-    match = re.search(rf"(?m)^{expected_start}(?:\s+|$)", passage_text)
+    match = re.search(rf"(?m)^\s*{expected_start}[\.)]?(?:\s+|$)", passage_text)
     return match.start() if match else None
 
 
 def parse_reading_questions(text: str, answers: dict[int, str], source_year: int) -> list[dict]:
-    reading_section = section_between(text, "阅读理解", "翻译")
+    reading_section = reading_section_text(text)
     questions: list[dict] = []
 
     for passage_title, passage_text in split_reading_passages(reading_section):
@@ -263,6 +437,7 @@ def parse_reading_questions(text: str, answers: dict[int, str], source_year: int
 
         for chunk in chunks:
             stem, options = extract_options(chunk.raw_text)
+            options = apply_option_override(source_year, chunk.number, options)
             questions.append(
                 {
                     "source_year": source_year,
@@ -322,15 +497,28 @@ def main() -> None:
     parser.add_argument("input", type=Path)
     parser.add_argument("output", type=Path)
     parser.add_argument("--year", type=int, required=True)
+    parser.add_argument(
+        "--answers-input",
+        type=Path,
+        help="Optional extracted answers text when questions and answers are stored in separate PDFs.",
+    )
     args = parser.parse_args()
 
     text = args.input.read_text(encoding="utf-8", errors="replace")
-    answers = parse_answers(text)
+    answers_text = (
+        args.answers_input.read_text(encoding="utf-8", errors="replace")
+        if args.answers_input
+        else text
+    )
+    answers = parse_answers(answers_text)
+    for number, answer in ANSWER_OVERRIDES.get(args.year, {}).items():
+        answers.setdefault(number, answer)
     questions = parse_comprehensive_questions(text, answers, args.year)
     questions.extend(parse_reading_questions(text, answers, args.year))
 
     payload = {
         "source_file": str(args.input).replace("\\", "/"),
+        "answers_source_file": str(args.answers_input).replace("\\", "/") if args.answers_input else None,
         "source_year": args.year,
         "review_status": "needs_review",
         "source_usage": "practice",

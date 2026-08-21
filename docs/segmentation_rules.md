@@ -145,6 +145,8 @@ eligible_for_quiz_after_approval = true
 .venv\Scripts\python.exe scripts\segment_tem8_review_json.py data\processed\tem8_russian_2019_full.txt data\processed\structured\tem8_russian_2019_review.json --year 2019
 .venv\Scripts\python.exe scripts\segment_tem8_review_json.py data\processed\tem8_russian_2021_full.txt data\processed\structured\tem8_russian_2021_review.json --year 2021
 .venv\Scripts\python.exe scripts\segment_tem8_review_json.py data\processed\tem8_russian_2023_full.txt data\processed\structured\tem8_russian_2023_review.json --year 2023
+.venv\Scripts\python.exe scripts\segment_tem8_review_json.py data\processed\tem8_russian_2017_questions.txt data\processed\structured\tem8_russian_2017_review.json --year 2017 --answers-input data\processed\tem8_russian_2017_answers.txt
+.venv\Scripts\python.exe scripts\segment_tem8_review_json.py data\processed\tem8_russian_2018_questions.txt data\processed\structured\tem8_russian_2018_review.json --year 2018 --answers-input data\processed\tem8_russian_2018_answers.txt
 ```
 
 2019、2021、2023 当前结果均为：
@@ -167,9 +169,22 @@ questions_per_passage: 4
 data/processed/structured/tem8_russian_2019_review.json
 data/processed/structured/tem8_russian_2021_review.json
 data/processed/structured/tem8_russian_2023_review.json
+data/processed/structured/tem8_russian_2017_review.json
+data/processed/structured/tem8_russian_2018_review.json
 ```
 
 这些文件是中间处理结果，不提交到 Git；人工审核后才能导入可组卷题库。
+
+2017、2018 年是“试题 PDF + 答案 PDF”分离来源，切题时必须传入 `--answers-input`。
+
+2026-08-21 导入结果：
+
+```text
+2017: total_questions 50, missing_answers 0, missing_options 0
+2018: total_questions 50, missing_answers 0, missing_options 0
+```
+
+少数缺选项最初来自 OCR 把选项字母吞掉或识别成乱码，已根据渲染后的 PDF 页面人工核对并写入覆盖表。导入数据库后仍保持 `needs_review`，人工审核前不得标记为可练题。
 
 验证脚本：
 
@@ -181,6 +196,9 @@ data/processed/structured/tem8_russian_2023_review.json
 
 - 俄语句首 `В ...` 可能被误识别成 `B` 选项；规则已改为选项字母后必须紧跟 `.` 或 `)`。
 - 阅读文章正文中的数字，例如 `48 странах мира`，可能被误识别成题号；规则已改为每篇文章按预期起始题号切分：46、50、54、58、62。
+- 2017、2018 年支持分离答案文件：`--answers-input`。
+- 入库脚本优先关联 `full` 来源文件，没有整卷文件时关联同年份 `questions` 来源文件。
+- 题号格式 `16.`、选项同一行并排、`D)` 被 OCR 为 `0)` / `О)` / `2)` / `р)` / `а)` 的情况已做标准化。
 
 ## 11. OCR / 新版排版待处理
 
