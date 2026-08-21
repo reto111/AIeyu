@@ -147,6 +147,7 @@ eligible_for_quiz_after_approval = true
 .venv\Scripts\python.exe scripts\segment_tem8_review_json.py data\processed\tem8_russian_2023_full.txt data\processed\structured\tem8_russian_2023_review.json --year 2023
 .venv\Scripts\python.exe scripts\segment_tem8_review_json.py data\processed\tem8_russian_2017_questions.txt data\processed\structured\tem8_russian_2017_review.json --year 2017 --answers-input data\processed\tem8_russian_2017_answers.txt
 .venv\Scripts\python.exe scripts\segment_tem8_review_json.py data\processed\tem8_russian_2018_questions.txt data\processed\structured\tem8_russian_2018_review.json --year 2018 --answers-input data\processed\tem8_russian_2018_answers.txt
+.venv\Scripts\python.exe scripts\segment_tem8_review_json.py data\processed\tem8_russian_2024_full.txt data\processed\structured\tem8_russian_2024_review.json --year 2024
 ```
 
 2019、2021、2023 当前结果均为：
@@ -171,6 +172,7 @@ data/processed/structured/tem8_russian_2021_review.json
 data/processed/structured/tem8_russian_2023_review.json
 data/processed/structured/tem8_russian_2017_review.json
 data/processed/structured/tem8_russian_2018_review.json
+data/processed/structured/tem8_russian_2024_review.json
 ```
 
 这些文件是中间处理结果，不提交到 Git；人工审核后才能导入可组卷题库。
@@ -182,9 +184,17 @@ data/processed/structured/tem8_russian_2018_review.json
 ```text
 2017: total_questions 50, missing_answers 0, missing_options 0
 2018: total_questions 50, missing_answers 0, missing_options 0
+2024: total_questions 50, missing_answers 0, missing_options 0
 ```
 
 少数缺选项最初来自 OCR 把选项字母吞掉或识别成乱码，已根据渲染后的 PDF 页面人工核对并写入覆盖表。导入数据库后仍保持 `needs_review`，人工审核前不得标记为可练题。
+
+2024 年特殊说明：
+
+- 2024 年综合选择仍为 16-45。
+- 2024 年 `46-55` 是 `ЗАПОЛНЕНИЕ ПРОПУСКОВ` 填空/完形题，第一版暂不导入。
+- 2024 年阅读理解为 56-75，而不是往年的 46-65。
+- 切题脚本按年份切换阅读题号范围：2024 使用 56-75，其余当前年份使用 46-65。
 
 验证脚本：
 
@@ -199,6 +209,7 @@ data/processed/structured/tem8_russian_2018_review.json
 - 2017、2018 年支持分离答案文件：`--answers-input`。
 - 入库脚本优先关联 `full` 来源文件，没有整卷文件时关联同年份 `questions` 来源文件。
 - 题号格式 `16.`、选项同一行并排、`D)` 被 OCR 为 `0)` / `О)` / `2)` / `р)` / `а)` 的情况已做标准化。
+- 2024 年支持跳过 46-55 填空/完形题，并将阅读题按 56-75 切分为 5 篇、每篇 4 题。
 
 ## 11. OCR / 新版排版待处理
 

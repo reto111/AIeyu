@@ -33,6 +33,7 @@ DEFAULT_BASE_URL = "https://api.deepseek.com"
 DEFAULT_MODEL = "deepseek-v4-flash"
 DEFAULT_RANDOM_QUESTION_TYPES = ["grammar_choice", "literature_choice", "culture_choice"]
 DIAGNOSTIC_QUESTION_TYPES = ["grammar_choice", "literature_choice", "culture_choice", "reading_choice"]
+READING_QUESTION_TYPE = "reading_choice"
 
 
 QUESTION_TYPE_NAMES = {
@@ -238,6 +239,65 @@ def adaptive_selection_score(exposure: sqlite3.Row | None, rng: random.Random) -
     return score
 
 
+def source_question_number(row: sqlite3.Row) -> int:
+    try:
+        return int(row["source_question_number"])
+    except (TypeError, ValueError):
+        return 0
+
+
+def question_unit_score(
+    unit: list[sqlite3.Row],
+    exposures: dict[int, sqlite3.Row],
+    rng: random.Random,
+) -> float:
+    if not unit:
+        return 0
+    scores = [
+        adaptive_selection_score(exposures.get(int(row["id"])), rng)
+        for row in unit
+    ]
+    return sum(scores) / len(scores)
+
+
+def complete_question_units(rows: list[sqlite3.Row]) -> list[list[sqlite3.Row]]:
+    units: list[list[sqlite3.Row]] = []
+    reading_groups: dict[int, list[sqlite3.Row]] = {}
+
+    for row in rows:
+        if row["question_type"] == READING_QUESTION_TYPE and row["passage_id"]:
+            reading_groups.setdefault(int(row["passage_id"]), []).append(row)
+        else:
+            units.append([row])
+
+    for group in reading_groups.values():
+        units.append(sorted(group, key=source_question_number))
+
+    return units
+
+
+def select_complete_units(
+    rows: list[sqlite3.Row],
+    target_count: int,
+    exposures: dict[int, sqlite3.Row],
+    rng: random.Random,
+) -> list[sqlite3.Row]:
+    if target_count <= 0:
+        return []
+
+    selected: list[sqlite3.Row] = []
+    units = sorted(
+        complete_question_units(rows),
+        key=lambda unit: question_unit_score(unit, exposures, rng),
+        reverse=True,
+    )
+    for unit in units:
+        selected.extend(unit)
+        if len(selected) >= target_count:
+            break
+    return selected
+
+
 def select_balanced_by_type(
     rows: list[sqlite3.Row],
     count: int,
@@ -256,24 +316,32 @@ def select_balanced_by_type(
 
     for index, code in enumerate(question_types):
         target = base + (1 if index < remainder else 0)
-        candidates = sorted(
-            grouped.get(code, []),
-            key=lambda row: adaptive_selection_score(exposures.get(int(row["id"])), rng),
-            reverse=True,
-        )
-        selected.extend(candidates[:target])
-        remaining_pool.extend(candidates[target:])
+        candidates = grouped.get(code, [])
+        if code == READING_QUESTION_TYPE:
+            picked = select_complete_units(candidates, target, exposures, rng)
+            picked_ids = {int(row["id"]) for row in picked}
+            selected.extend(picked)
+            remaining_pool.extend([row for row in candidates if int(row["id"]) not in picked_ids])
+        else:
+            sorted_candidates = sorted(
+                candidates,
+                key=lambda row: adaptive_selection_score(exposures.get(int(row["id"])), rng),
+                reverse=True,
+            )
+            selected.extend(sorted_candidates[:target])
+            remaining_pool.extend(sorted_candidates[target:])
 
     if len(selected) < count:
         selected_ids = {int(row["id"]) for row in selected}
-        fallback = sorted(
+        fallback = select_complete_units(
             [row for row in remaining_pool if int(row["id"]) not in selected_ids],
-            key=lambda row: adaptive_selection_score(exposures.get(int(row["id"])), rng),
-            reverse=True,
+            count - len(selected),
+            exposures,
+            rng,
         )
-        selected.extend(fallback[: count - len(selected)])
+        selected.extend(fallback)
 
-    return selected[:count]
+    return selected
 
 
 def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
@@ -328,14 +396,15 @@ def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
         if mode == "diagnostic":
             selected = select_balanced_by_type(rows, count, question_types, exposures, rng)
         else:
-            selected = sorted(
+            selected = select_complete_units(
                 rows,
-                key=lambda row: adaptive_selection_score(exposures.get(int(row["id"])), rng),
-                reverse=True,
+                count,
+                exposures,
+                rng,
             )
         questions = [
             public_question(conn, row, index)
-            for index, row in enumerate(selected[:count], start=1)
+            for index, row in enumerate(selected, start=1)
         ]
     return {
         "exam_system": "TEM8_RU",

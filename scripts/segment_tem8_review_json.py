@@ -48,6 +48,58 @@ ANSWER_OVERRIDES = {
         45: "C",
         54: "D",
     },
+    2024: {
+        16: "C",
+        17: "A",
+        18: "B",
+        19: "B",
+        20: "A",
+        21: "D",
+        22: "C",
+        23: "B",
+        24: "C",
+        25: "D",
+        26: "A",
+        27: "C",
+        28: "B",
+        29: "C",
+        30: "B",
+        31: "A",
+        32: "D",
+        33: "B",
+        34: "A",
+        35: "B",
+        36: "D",
+        37: "C",
+        38: "D",
+        39: "B",
+        40: "C",
+        41: "A",
+        42: "D",
+        43: "B",
+        44: "C",
+        45: "A",
+        56: "B",
+        57: "A",
+        58: "B",
+        59: "D",
+        60: "C",
+        61: "C",
+        62: "D",
+        63: "A",
+        64: "D",
+        65: "C",
+        66: "B",
+        67: "A",
+        68: "B",
+        69: "A",
+        70: "B",
+        71: "A",
+        72: "A",
+        73: "B",
+        74: "C",
+        75: "D",
+    },
 }
 
 
@@ -158,8 +210,8 @@ def section_between(text: str, start: str, end: str) -> str:
 
 
 def section_between_question_numbers(text: str, start_number: int, end_number: int) -> str:
-    start_match = re.search(rf"(?m)^\s*{start_number}[\.)]\s+", text)
-    end_match = re.search(rf"(?m)^\s*{end_number}[\.)]\s+", text)
+    start_match = re.search(rf"(?m)^[^\wА-Яа-яA-Za-z]*{start_number}[\.)]\s+", text)
+    end_match = re.search(rf"(?m)^[^\wА-Яа-яA-Za-z]*{end_number}[\.)]\s+", text)
     if not start_match:
         return ""
     end_index = end_match.start() if end_match else len(text)
@@ -190,6 +242,12 @@ def reading_section_text(text: str) -> str:
     return text[start:end]
 
 
+def reading_number_range(source_year: int) -> tuple[int, int]:
+    if source_year == 2024:
+        return 56, 75
+    return 46, 65
+
+
 def current_page_from_marker(line: str) -> int | None:
     match = re.match(r"^--- Page (\d+) \([^)]+\) ---$", line)
     if not match:
@@ -209,7 +267,7 @@ def split_numbered_questions(
     active_page: int | None = None
     buffer: list[str] = []
 
-    question_start = re.compile(r"^(\d{1,2})[\.)]?(?:\s+(.*))?$")
+    question_start = re.compile(r"^[^\wА-Яа-яA-Za-z]*(\d{1,2})[\.)]?(?:\s+(.*))?$")
 
     for line in normalize_lines(section_text):
         page_number = current_page_from_marker(line)
@@ -342,6 +400,9 @@ def parse_comprehensive_questions(text: str, answers: dict[int, str], source_yea
         reading_heading = re.search(r"(?mi)^.*Чтение.*$", section)
         if reading_heading:
             section = section[: reading_heading.start()]
+        cloze_heading = re.search(r"(?mi)^.*ЗАПОЛНЕНИЕ ПРОПУСКОВ.*$", section)
+        if cloze_heading:
+            section = section[: cloze_heading.start()]
     chunks = split_numbered_questions(section, 16, 45, first_number=16)
     questions: list[dict] = []
 
@@ -413,14 +474,15 @@ def first_question_position(passage_text: str, expected_start: int) -> int | Non
 def parse_reading_questions(text: str, answers: dict[int, str], source_year: int) -> list[dict]:
     reading_section = reading_section_text(text)
     questions: list[dict] = []
+    reading_start, reading_end = reading_number_range(source_year)
 
     for passage_title, passage_text in split_reading_passages(reading_section):
         passage_number_match = re.search(r"(\d+)", passage_title)
         if not passage_number_match:
             continue
         passage_number = int(passage_number_match.group(1))
-        expected_start = 46 + (passage_number - 1) * 4
-        expected_end = min(expected_start + 3, 65)
+        expected_start = reading_start + (passage_number - 1) * 4
+        expected_end = min(expected_start + 3, reading_end)
 
         question_start = first_question_position(passage_text, expected_start)
         if question_start is None:

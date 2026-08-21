@@ -166,11 +166,17 @@ function renderQuiz(quiz) {
   $("#quizMeta").textContent = `${quiz.count} 题 · ${quiz.mode === "diagnostic" ? "入门诊断" : "俄语专八"}`;
   $("#answerHint").textContent = "";
 
+  const renderedPassages = new Set();
   $("#questionList").innerHTML = quiz.questions
     .map((question) => {
-      const passage = question.passage
-        ? `<div class="passage"><strong>${question.passage.title || "阅读文章"}</strong>\n${question.passage.body}</div>`
-        : "";
+      let passage = "";
+      if (question.passage) {
+        const passageKey = question.passage.id || `${question.passage.title}-${question.passage.body}`;
+        if (!renderedPassages.has(passageKey)) {
+          renderedPassages.add(passageKey);
+          passage = `<div class="passage"><strong>${question.passage.title || "阅读文章"}</strong>\n${question.passage.body}</div>`;
+        }
+      }
       return `
         <article class="question" data-question-id="${question.question_id}" data-quiz-number="${question.quiz_number}">
           <div class="qhead">

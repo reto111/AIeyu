@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "database" / "russian_ai_tutor.sqlite"
 DEFAULT_OUTPUT_DIR = ROOT / "data" / "processed" / "quizzes"
 DEFAULT_RANDOM_QUESTION_TYPES = ["grammar_choice", "literature_choice", "culture_choice"]
+READING_QUESTION_TYPE = "reading_choice"
 
 
 def parse_csv(value: str | None) -> list[str]:
@@ -46,6 +47,44 @@ def knowledge_codes(conn: sqlite3.Connection, question_id: int) -> list[str]:
         (question_id,),
     ).fetchall()
     return [row[0] for row in rows]
+
+
+def source_question_number(row: sqlite3.Row) -> int:
+    try:
+        return int(row["source_question_number"])
+    except (TypeError, ValueError):
+        return 0
+
+
+def complete_question_units(rows: list[sqlite3.Row]) -> list[list[sqlite3.Row]]:
+    units: list[list[sqlite3.Row]] = []
+    reading_groups: dict[int, list[sqlite3.Row]] = {}
+
+    for row in rows:
+        if row["question_type"] == READING_QUESTION_TYPE and row["passage_id"]:
+            reading_groups.setdefault(int(row["passage_id"]), []).append(row)
+        else:
+            units.append([row])
+
+    for group in reading_groups.values():
+        units.append(sorted(group, key=source_question_number))
+
+    return units
+
+
+def select_complete_units(
+    rows: list[sqlite3.Row],
+    target_count: int,
+    rng: random.Random,
+) -> list[sqlite3.Row]:
+    selected: list[sqlite3.Row] = []
+    units = complete_question_units(rows)
+    rng.shuffle(units)
+    for unit in units:
+        selected.extend(unit)
+        if len(selected) >= target_count:
+            break
+    return selected
 
 
 def candidate_rows(
@@ -112,9 +151,7 @@ def generate_quiz(
         candidates = candidate_rows(conn, effective_question_types, years, include_needs_review)
         if len(candidates) < count:
             raise ValueError(f"Only {len(candidates)} candidate question(s), cannot generate {count}.")
-        selected = list(candidates)
-        rng.shuffle(selected)
-        selected = selected[:count]
+        selected = select_complete_units(list(candidates), count, rng)
 
         questions = []
         for index, row in enumerate(selected, start=1):
@@ -148,7 +185,8 @@ def generate_quiz(
     return {
         "exam_system": "TEM8_RU",
         "level": "TEM8",
-        "count": count,
+        "count": len(questions),
+        "requested_count": count,
         "question_types": effective_question_types,
         "years": years or "all",
         "include_needs_review": include_needs_review,
