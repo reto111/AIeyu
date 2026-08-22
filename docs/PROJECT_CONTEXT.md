@@ -159,6 +159,34 @@ AI 生成题目的推荐状态设计：
 - 追踪学生学习历史
 - 支持个人学习画像和长期备考数据分析
 
+### 5.1 题库质量审计约定
+
+2026-08-23 对俄语专八结构化题库做过一次系统质量审计，主要问题来源如下：
+
+- OCR 将俄文字母、拉丁字母、罗马数字和页脚混淆，例如 `ХУ`/`XV`、`TOM`/`том`。
+- 作者缩写或姓名缩写被切题规则误识别为选项编号，例如 `В.Г. Распутин` 被误切成 B 选项。
+- PDF 页脚、页码、栏目标题进入选项，例如 `ЛИТЕРАТУРА`、`СТРАНОВЕДЕНИЕ`、年份页脚。
+- 原题中的填空位置在抽取后丢失，前端展示时学生不知道选项应放在何处。
+- 断行连字符和扫描版排版导致题干不完整。
+- 阅读题风险更高，因为一篇文章和多道题绑定；如果阅读题干或选项损坏，应优先下架复核，不应硬猜。
+
+当前处理原则：
+
+- 能从原始 OCR 残片、正确答案、固定俄语搭配和题目常识高置信复原的，允许本地修正。
+- 无法可靠复原的历年真题不删除，改为 `review_status = needs_review` 且 `source_usage = source_reference_only`，临时移出学生练习池。
+- 学生练习池默认只抽 `review_status = approved` 且 `source_usage = practice` 的题。
+- 审计脚本应以学生可见的题干和选项为主，原始 `raw_text` 只做追溯，不直接作为展示错误。
+- 人工复核表必须包含所有已下架的历年真题疑难项，避免“规则不再报错但仍需人工看原 PDF”的题漏掉。
+
+相关脚本与输出：
+
+- `scripts/audit_question_bank_quality.py`：扫描题干、选项、阅读文章长度和常见 OCR/切分风险。
+- `scripts/apply_question_quality_fixes.py`：应用高置信题库修正，并自动备份数据库。
+- `scripts/export_question_quality_review_context.py`：导出带完整题干、选项和人工复核字段的复核表。
+- `data/processed/question_quality/question_quality_audit.csv`：完整审计明细。
+- `data/processed/question_quality/question_quality_manual_review_context.csv`：最终人工复核工作表。
+- `data/processed/question_quality/question_quality_auto_fixes.csv`：自动修正记录。
+
 RAG 更适合用于：
 
 - 语法讲解
