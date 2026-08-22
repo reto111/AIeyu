@@ -7,6 +7,9 @@ const state = {
   explanation: null,
   profile: null,
   wrongbook: null,
+  wordStatus: null,
+  wordSession: null,
+  currentWordIndex: 0,
   latestThreadId: 1,
 };
 
@@ -42,7 +45,7 @@ function queryForActiveUser() {
 }
 
 function showView(view) {
-  const nextView = ["practice", "wrongbook"].includes(view) ? view : "practice";
+  const nextView = ["practice", "words", "wrongbook"].includes(view) ? view : "practice";
   state.activeView = nextView;
   localStorage.setItem("aieyu.activeView", nextView);
   for (const page of document.querySelectorAll(".page")) {
@@ -53,6 +56,9 @@ function showView(view) {
   }
   if (nextView === "wrongbook") {
     loadWrongbook();
+  }
+  if (nextView === "words") {
+    loadWordStatus();
   }
 }
 
@@ -164,6 +170,9 @@ async function switchUser(userId) {
   state.quiz = null;
   state.result = null;
   state.explanation = null;
+  state.wordStatus = null;
+  state.wordSession = null;
+  state.currentWordIndex = 0;
   state.latestThreadId = null;
   $("#emptyState").classList.remove("hidden");
   $("#quizForm").classList.add("hidden");
@@ -172,6 +181,13 @@ async function switchUser(userId) {
   $("#resultBox").textContent = "提交后显示正确率和薄弱点。";
   $("#threadBox").classList.add("muted");
   $("#threadBox").textContent = "批改后自动生成薄弱点、复习方案和可追问问题。";
+  $("#wordCard").classList.add("hidden");
+  $("#wordEmpty").classList.remove("hidden");
+  $("#wordEmpty").innerHTML = `
+    <h2>开始一次单词打卡</h2>
+    <p>优先复习到期词，不够时自动补充新词。</p>
+  `;
+  $("#wordSessionMeta").textContent = "尚未开始";
   renderUsers({ users: state.users, default_user_id: 1 });
   await refreshStudentData();
 }
@@ -262,6 +278,142 @@ async function loadWrongbook() {
   renderWrongbook(payload);
 }
 
+function renderWordStatus(payload) {
+  state.wordStatus = payload;
+  $("#wordMeta").textContent = `${payload.reviewed_today} 个今日已打卡 · ${payload.due_count} 个待复习`;
+
+  const statusRows = payload.by_status || [];
+  $("#wordStats").classList.remove("muted");
+  $("#wordStats").innerHTML = `
+    <div class="word-stat-grid">
+      <div><strong>${payload.total_words}</strong><span>正式词库</span></div>
+      <div><strong>${payload.new_count}</strong><span>未开始</span></div>
+      <div><strong>${payload.reviewed_today}</strong><span>今日打卡</span></div>
+      <div><strong>${payload.due_count}</strong><span>待复习</span></div>
+    </div>
+    <div class="word-status-list">
+      ${statusRows
+        .map(
+          (item) => `
+            <p>
+              <span>${escapeHtml(item.name_zh)}</span>
+              <strong>${item.count}</strong>
+            </p>
+          `
+        )
+        .join("")}
+    </div>
+  `;
+}
+
+async function loadWordStatus() {
+  try {
+    const payload = await requestJson(`/api/words/status?${queryForActiveUser()}`);
+    renderWordStatus(payload);
+  } catch (error) {
+    $("#wordStats").textContent = error.message;
+    $("#wordMeta").textContent = "读取失败";
+  }
+}
+
+function currentWord() {
+  return state.wordSession?.words?.[state.currentWordIndex] || null;
+}
+
+function setWordActionLoading(isLoading) {
+  for (const button of document.querySelectorAll("[data-word-result]")) {
+    button.disabled = isLoading;
+  }
+  $("#revealWordBtn").disabled = isLoading;
+}
+
+function renderCurrentWord() {
+  const words = state.wordSession?.words || [];
+  const word = currentWord();
+  if (!word) {
+    $("#wordCard").classList.add("hidden");
+    $("#wordEmpty").classList.remove("hidden");
+    $("#wordEmpty").innerHTML = `
+      <h2>${words.length ? "本次打卡完成" : "暂无可打卡单词"}</h2>
+      <p>${words.length ? "今天的记录已经写入当前学生账号。" : "当前没有可抽取的已审核单词。"}</p>
+    `;
+    $("#wordSessionMeta").textContent = words.length ? `完成 ${words.length}/${words.length}` : "无单词";
+    return;
+  }
+
+  $("#wordEmpty").classList.add("hidden");
+  $("#wordCard").classList.remove("hidden");
+  $("#wordIndex").textContent = `${state.currentWordIndex + 1}/${words.length}`;
+  $("#wordProgressTag").textContent = word.progress_status_zh || "未开始";
+  $("#wordText").textContent = word.word;
+  $("#wordPart").textContent = [word.part_of_speech, word.source_page ? `来源页 ${word.source_page}` : ""]
+    .filter(Boolean)
+    .join(" · ");
+  $("#wordMeaning").classList.add("hidden");
+  $("#wordMeaning").textContent = word.meaning_zh;
+  $("#revealWordBtn").textContent = "显示释义";
+  $("#wordHint").textContent = "";
+  $("#wordSessionMeta").textContent = `${state.currentWordIndex + 1}/${words.length}`;
+  setWordActionLoading(false);
+}
+
+async function startWordSession() {
+  $("#startWordsBtn").disabled = true;
+  $("#startWordsBtn").textContent = "抽取中...";
+  try {
+    const payload = await requestJson("/api/words/session", {
+      method: "POST",
+      body: JSON.stringify({
+        user_id: activeUserId(),
+        count: Number($("#wordCountInput").value || 20),
+      }),
+    });
+    state.wordSession = payload;
+    state.currentWordIndex = 0;
+    if (payload.status) {
+      renderWordStatus(payload.status);
+    }
+    renderCurrentWord();
+  } catch (error) {
+    $("#wordHint").textContent = error.message;
+  } finally {
+    $("#startWordsBtn").disabled = false;
+    $("#startWordsBtn").textContent = "开始打卡";
+  }
+}
+
+function revealCurrentWord() {
+  const box = $("#wordMeaning");
+  box.classList.remove("hidden");
+  $("#revealWordBtn").textContent = "已显示释义";
+}
+
+async function reviewCurrentWord(result) {
+  const word = currentWord();
+  if (!word) return;
+  revealCurrentWord();
+  setWordActionLoading(true);
+  $("#wordHint").textContent = "正在记录...";
+  try {
+    const payload = await requestJson("/api/words/review", {
+      method: "POST",
+      body: JSON.stringify({
+        user_id: activeUserId(),
+        vocabulary_item_id: word.vocabulary_item_id,
+        result,
+      }),
+    });
+    if (payload.status) {
+      renderWordStatus(payload.status);
+    }
+    state.currentWordIndex += 1;
+    renderCurrentWord();
+  } catch (error) {
+    $("#wordHint").textContent = error.message;
+    setWordActionLoading(false);
+  }
+}
+
 async function refreshStudentData() {
   try {
     await loadProfile();
@@ -272,6 +424,9 @@ async function refreshStudentData() {
     await loadWrongbook();
   } catch (error) {
     $("#wrongbookBox").textContent = error.message;
+  }
+  if (state.activeView === "words") {
+    await loadWordStatus();
   }
 }
 
@@ -568,6 +723,11 @@ for (const button of document.querySelectorAll(".navbtn")) {
 $("#userSelect").addEventListener("change", (event) => switchUser(event.target.value));
 $("#createUserBtn").addEventListener("click", createUser);
 $("#refreshWrongbookBtn").addEventListener("click", loadWrongbook);
+$("#startWordsBtn").addEventListener("click", startWordSession);
+$("#revealWordBtn").addEventListener("click", revealCurrentWord);
+for (const button of document.querySelectorAll("[data-word-result]")) {
+  button.addEventListener("click", () => reviewCurrentWord(button.dataset.wordResult));
+}
 $("#profileSummary").addEventListener("click", (event) => {
   const button = event.target.closest("[data-practice-type]");
   if (!button) return;

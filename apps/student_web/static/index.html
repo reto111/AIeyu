@@ -19,6 +19,7 @@
 
         <nav class="mainnav" aria-label="主要页面">
           <button type="button" class="navbtn active" data-view="practice">练习</button>
+          <button type="button" class="navbtn" data-view="words">单词</button>
           <button type="button" class="navbtn" data-view="wrongbook">错题本</button>
         </nav>
 
@@ -120,6 +121,73 @@
               </section>
             </aside>
           </div>
+        </section>
+
+        <section id="wordsPage" class="page">
+          <section class="workspace page-workspace">
+            <header class="topbar">
+              <div>
+                <p class="eyebrow">Vocabulary</p>
+                <h2>单词打卡</h2>
+              </div>
+              <div id="wordMeta" class="meta">正在读取</div>
+            </header>
+
+            <div class="word-layout">
+              <section class="panel word-main">
+                <div class="panel-titleline">
+                  <h2>今日单词</h2>
+                  <span id="wordSessionMeta" class="mini muted">尚未开始</span>
+                </div>
+                <div class="word-controls">
+                  <label class="field">
+                    <span>本次数量</span>
+                    <input id="wordCountInput" type="number" min="1" max="50" value="20" />
+                  </label>
+                  <button id="startWordsBtn" class="primary" type="button">开始打卡</button>
+                </div>
+
+                <div id="wordEmpty" class="empty compact">
+                  <h2>开始一次单词打卡</h2>
+                  <p>优先复习到期词，不够时自动补充新词。</p>
+                </div>
+
+                <article id="wordCard" class="word-card hidden">
+                  <div class="word-card-head">
+                    <span id="wordIndex" class="badge">1/20</span>
+                    <span id="wordProgressTag" class="badge">未开始</span>
+                  </div>
+                  <h3 id="wordText"></h3>
+                  <p id="wordPart" class="mini"></p>
+                  <div id="wordMeaning" class="word-meaning hidden"></div>
+                  <button id="revealWordBtn" class="secondary" type="button">显示释义</button>
+                  <div class="word-actions">
+                    <button type="button" data-word-result="unknown">不认识</button>
+                    <button type="button" data-word-result="fuzzy">模糊</button>
+                    <button type="button" data-word-result="known">认识</button>
+                    <button type="button" data-word-result="mastered">已掌握</button>
+                  </div>
+                  <p id="wordHint" class="mini muted"></p>
+                </article>
+              </section>
+
+              <aside class="word-side">
+                <section class="panel">
+                  <h2>单词进度</h2>
+                  <div id="wordStats" class="word-stats muted">正在读取单词进度...</div>
+                </section>
+                <section class="panel">
+                  <h2>复习规则</h2>
+                  <div class="review-rules">
+                    <p><strong>不认识</strong><span>明天复习</span></p>
+                    <p><strong>模糊</strong><span>2 天后复习</span></p>
+                    <p><strong>认识</strong><span>4 天后复习</span></p>
+                    <p><strong>已掌握</strong><span>10 天后复习</span></p>
+                  </div>
+                </section>
+              </aside>
+            </div>
+          </section>
         </section>
 
         <section id="wrongbookPage" class="page">

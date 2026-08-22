@@ -372,6 +372,10 @@ textarea {
   text-align: center;
 }
 
+.empty.compact {
+  min-height: 300px;
+}
+
 .empty h2 {
   margin-bottom: 10px;
   font-size: 24px;
@@ -566,6 +570,134 @@ textarea {
   font-size: 13px;
 }
 
+.word-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 18px;
+  padding: 18px;
+  align-items: start;
+}
+
+.word-main {
+  min-height: 520px;
+}
+
+.word-side {
+  display: grid;
+  gap: 14px;
+}
+
+.word-controls {
+  display: grid;
+  grid-template-columns: 180px 160px;
+  gap: 12px;
+  align-items: end;
+  margin-bottom: 16px;
+}
+
+.word-controls .field {
+  margin-bottom: 0;
+}
+
+.word-card {
+  display: grid;
+  gap: 14px;
+  max-width: 680px;
+  min-height: 360px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 20px;
+  background: #fbfcfa;
+}
+
+.word-card-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.word-card h3 {
+  margin: 8px 0 0;
+  font-size: 42px;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.word-meaning {
+  min-height: 74px;
+  border: 1px solid #bfd7cc;
+  border-radius: 6px;
+  padding: 14px;
+  background: #f2faf6;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.word-actions {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.word-actions button {
+  min-height: 42px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.word-actions button:nth-child(1) {
+  border-color: #e0b8b7;
+  color: var(--red);
+}
+
+.word-actions button:nth-child(4) {
+  border-color: #b9d7cb;
+  color: var(--green-dark);
+}
+
+.word-stat-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.word-stat-grid div {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 10px;
+  background: #fbfcfa;
+}
+
+.word-stat-grid strong {
+  display: block;
+  font-size: 24px;
+}
+
+.word-stat-grid span,
+.word-status-list span,
+.review-rules span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.word-status-list,
+.review-rules {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.word-status-list p,
+.review-rules p {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 0;
+}
+
 .followup {
   margin-top: 12px;
 }
@@ -626,7 +758,11 @@ textarea {
   }
 
   .checkgrid,
-  .score {
+  .score,
+  .word-layout,
+  .word-controls,
+  .word-actions,
+  .word-stat-grid {
     grid-template-columns: 1fr;
   }
 }

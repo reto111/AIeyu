@@ -514,6 +514,8 @@ data/processed/backups/russian_ai_tutor_before_final_vocab_import_20260822_18193
 
 ## 7. 下一步执行顺序
 
+2026-08-22 更新：第一版“单词”页面已接入学生端，支持按学生账号抽词、显示释义、自评掌握程度，并写入 `user_word_progress` / `word_review_logs`。后续可继续做拼写测试、例句、词根词缀和 AI 生成小测。
+
 建议下一轮开发按这个顺序：
 
 1. 新增单词数据库表。

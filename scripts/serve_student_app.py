@@ -5,10 +5,11 @@ import json
 import mimetypes
 import os
 import random
+import re
 import sqlite3
 import urllib.error
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta
 from http import HTTPStatus
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -34,6 +35,21 @@ DEFAULT_MODEL = "deepseek-v4-flash"
 DEFAULT_RANDOM_QUESTION_TYPES = ["grammar_choice", "literature_choice", "culture_choice"]
 DIAGNOSTIC_QUESTION_TYPES = ["grammar_choice", "literature_choice", "culture_choice", "reading_choice"]
 READING_QUESTION_TYPE = "reading_choice"
+
+WORD_REVIEW_CONFIG = {
+    "unknown": {"status": "learning", "correct": 0, "wrong": 1, "days": 1, "label": "不认识"},
+    "fuzzy": {"status": "fuzzy", "correct": 0, "wrong": 1, "days": 2, "label": "模糊"},
+    "known": {"status": "known", "correct": 1, "wrong": 0, "days": 4, "label": "认识"},
+    "mastered": {"status": "mastered", "correct": 1, "wrong": 0, "days": 10, "label": "已掌握"},
+}
+
+WORD_STATUS_NAMES = {
+    "new": "未开始",
+    "learning": "学习中",
+    "fuzzy": "模糊",
+    "known": "认识",
+    "mastered": "已掌握",
+}
 
 
 QUESTION_TYPE_NAMES = {
@@ -273,6 +289,279 @@ def api_status() -> dict[str, Any]:
         "latest_thread": dict(latest_thread) if latest_thread else None,
         "deepseek_configured": bool(os.environ.get("DEEPSEEK_API_KEY")),
     }
+
+
+def clean_word_meaning_for_display(value: str | None) -> str:
+    text = re.sub(r"\s+", " ", str(value or "").strip())
+    text = re.sub(r"^[^\u4e00-\u9fff]*(?:未|完)[；;，,\s、-]*", "", text)
+    text = re.sub(r"^[‚,，;；、\-\s()（）《》【】\\[\\]]+", "", text)
+    text = text.replace("...", "某物")
+    text = text.replace("…", "某物")
+    text = re.sub(r"\s+", " ", text).strip(" ;；,，、")
+    return text
+
+
+def public_word(row: sqlite3.Row) -> dict[str, Any]:
+    return {
+        "vocabulary_item_id": row["id"],
+        "word": row["word"],
+        "lemma": row["lemma"],
+        "part_of_speech": row["part_of_speech"],
+        "meaning_zh": clean_word_meaning_for_display(row["meaning_zh"]),
+        "source_page": row["source_page"],
+        "progress_status": row["progress_status"] or "new",
+        "progress_status_zh": WORD_STATUS_NAMES.get(row["progress_status"] or "new", "未开始"),
+        "seen_count": row["seen_count"] or 0,
+        "correct_count": row["correct_count"] or 0,
+        "wrong_count": row["wrong_count"] or 0,
+        "next_review_at": row["next_review_at"],
+    }
+
+
+def api_word_status(user_id: int = DEFAULT_USER_ID) -> dict[str, Any]:
+    with db() as conn:
+        user = ensure_user_exists(conn, user_id)
+        total = conn.execute(
+            "SELECT COUNT(*) FROM vocabulary_items WHERE review_status = 'approved'"
+        ).fetchone()[0]
+        progress_total = conn.execute(
+            "SELECT COUNT(*) FROM user_word_progress WHERE user_id = ?",
+            (user_id,),
+        ).fetchone()[0]
+        reviewed_today = conn.execute(
+            """
+            SELECT COUNT(*)
+            FROM word_review_logs
+            WHERE user_id = ?
+              AND date(reviewed_at) = date('now', 'localtime')
+            """,
+            (user_id,),
+        ).fetchone()[0]
+        due_count = conn.execute(
+            """
+            SELECT COUNT(*)
+            FROM user_word_progress
+            WHERE user_id = ?
+              AND next_review_at IS NOT NULL
+              AND datetime(next_review_at) <= datetime('now', 'localtime')
+            """,
+            (user_id,),
+        ).fetchone()[0]
+        by_status = {
+            row["status"]: row["count"]
+            for row in conn.execute(
+                """
+                SELECT status, COUNT(*) AS count
+                FROM user_word_progress
+                WHERE user_id = ?
+                GROUP BY status
+                """,
+                (user_id,),
+            ).fetchall()
+        }
+    return {
+        "user": public_user(user),
+        "total_words": total,
+        "new_count": max(total - progress_total, 0),
+        "progress_total": progress_total,
+        "reviewed_today": reviewed_today,
+        "due_count": due_count,
+        "by_status": [
+            {
+                "status": status,
+                "name_zh": WORD_STATUS_NAMES[status],
+                "count": int(by_status.get(status, 0)),
+            }
+            for status in ["learning", "fuzzy", "known", "mastered"]
+        ],
+    }
+
+
+def select_word_rows(conn: sqlite3.Connection, user_id: int, count: int) -> list[sqlite3.Row]:
+    selected: list[sqlite3.Row] = []
+    due_rows = conn.execute(
+        """
+        SELECT
+          vi.id, vi.word, vi.lemma, vi.part_of_speech, vi.meaning_zh, vi.source_page,
+          uwp.status AS progress_status, uwp.seen_count, uwp.correct_count, uwp.wrong_count,
+          uwp.next_review_at
+        FROM user_word_progress uwp
+        JOIN vocabulary_items vi ON vi.id = uwp.vocabulary_item_id
+        WHERE uwp.user_id = ?
+          AND vi.review_status = 'approved'
+          AND uwp.next_review_at IS NOT NULL
+          AND datetime(uwp.next_review_at) <= datetime('now', 'localtime')
+          AND NOT EXISTS (
+            SELECT 1
+            FROM word_review_logs wrl
+            WHERE wrl.user_id = uwp.user_id
+              AND wrl.vocabulary_item_id = uwp.vocabulary_item_id
+              AND date(wrl.reviewed_at) = date('now', 'localtime')
+          )
+        ORDER BY datetime(uwp.next_review_at), uwp.wrong_count DESC, RANDOM()
+        LIMIT ?
+        """,
+        (user_id, count),
+    ).fetchall()
+    selected.extend(due_rows)
+
+    remaining = count - len(selected)
+    if remaining <= 0:
+        return selected
+    selected_ids = [int(row["id"]) for row in selected]
+    selected_filter = ""
+    params: list[Any] = [user_id]
+    if selected_ids:
+        selected_filter = f"AND vi.id NOT IN ({', '.join('?' for _ in selected_ids)})"
+        params.extend(selected_ids)
+    params.append(remaining)
+    new_rows = conn.execute(
+        f"""
+        SELECT
+          vi.id, vi.word, vi.lemma, vi.part_of_speech, vi.meaning_zh, vi.source_page,
+          NULL AS progress_status, 0 AS seen_count, 0 AS correct_count, 0 AS wrong_count,
+          NULL AS next_review_at
+        FROM vocabulary_items vi
+        LEFT JOIN user_word_progress uwp
+          ON uwp.vocabulary_item_id = vi.id AND uwp.user_id = ?
+        WHERE vi.review_status = 'approved'
+          AND uwp.id IS NULL
+          {selected_filter}
+        ORDER BY
+          CASE WHEN vi.frequency_rank IS NULL THEN 1 ELSE 0 END,
+          vi.frequency_rank,
+          RANDOM()
+        LIMIT ?
+        """,
+        params,
+    ).fetchall()
+    selected.extend(new_rows)
+    return selected
+
+
+def api_word_session(payload: dict[str, Any]) -> dict[str, Any]:
+    user_id = normalize_user_id(payload.get("user_id"))
+    count = max(1, min(int(payload.get("count") or 20), 50))
+    with db() as conn:
+        user = ensure_user_exists(conn, user_id)
+        rows = select_word_rows(conn, user_id, count)
+        user_payload = public_user(user)
+        words = [public_word(row) for row in rows]
+    status = api_word_status(user_id)
+    return {
+        "user": user_payload,
+        "count": len(words),
+        "words": words,
+        "status": status,
+    }
+
+
+def next_word_review_time(result: str) -> str:
+    days = int(WORD_REVIEW_CONFIG[result]["days"])
+    return (datetime.now() + timedelta(days=days)).strftime("%Y-%m-%d %H:%M:%S")
+
+
+def api_word_review(payload: dict[str, Any]) -> dict[str, Any]:
+    user_id = normalize_user_id(payload.get("user_id"))
+    vocabulary_item_id = int(payload.get("vocabulary_item_id") or 0)
+    result = str(payload.get("result") or "").strip()
+    if result not in WORD_REVIEW_CONFIG:
+        raise ValueError("请选择：不认识、模糊、认识或已掌握。")
+
+    config = WORD_REVIEW_CONFIG[result]
+    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    next_review_at = next_word_review_time(result)
+
+    with db() as conn:
+        ensure_user_exists(conn, user_id)
+        word = conn.execute(
+            """
+            SELECT
+              id, word, lemma, part_of_speech, meaning_zh, source_page,
+              NULL AS progress_status, 0 AS seen_count, 0 AS correct_count,
+              0 AS wrong_count, NULL AS next_review_at
+            FROM vocabulary_items
+            WHERE id = ? AND review_status = 'approved'
+            """,
+            (vocabulary_item_id,),
+        ).fetchone()
+        if word is None:
+            raise ValueError("没有找到这个已审核单词。")
+
+        current = conn.execute(
+            """
+            SELECT seen_count, correct_count, wrong_count, ease_factor
+            FROM user_word_progress
+            WHERE user_id = ? AND vocabulary_item_id = ?
+            """,
+            (user_id, vocabulary_item_id),
+        ).fetchone()
+        seen_count = int(current["seen_count"] if current else 0) + 1
+        correct_count = int(current["correct_count"] if current else 0) + int(config["correct"])
+        wrong_count = int(current["wrong_count"] if current else 0) + int(config["wrong"])
+        ease_factor = float(current["ease_factor"] if current else 2.5)
+        if result == "unknown":
+            ease_factor = max(1.3, ease_factor - 0.2)
+        elif result == "fuzzy":
+            ease_factor = max(1.3, ease_factor - 0.1)
+        elif result == "mastered":
+            ease_factor = min(3.0, ease_factor + 0.1)
+
+        conn.execute(
+            """
+            INSERT INTO user_word_progress (
+              user_id, vocabulary_item_id, status, seen_count, correct_count,
+              wrong_count, last_seen_at, next_review_at, ease_factor, updated_at
+            )
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT(user_id, vocabulary_item_id) DO UPDATE SET
+              status = excluded.status,
+              seen_count = excluded.seen_count,
+              correct_count = excluded.correct_count,
+              wrong_count = excluded.wrong_count,
+              last_seen_at = excluded.last_seen_at,
+              next_review_at = excluded.next_review_at,
+              ease_factor = excluded.ease_factor,
+              updated_at = excluded.updated_at
+            """,
+            (
+                user_id,
+                vocabulary_item_id,
+                config["status"],
+                seen_count,
+                correct_count,
+                wrong_count,
+                now,
+                next_review_at,
+                ease_factor,
+                now,
+            ),
+        )
+        conn.execute(
+            """
+            INSERT INTO word_review_logs (
+              user_id, vocabulary_item_id, review_mode, prompt_type, user_response, result, reviewed_at
+            )
+            VALUES (?, ?, 'daily_checkin', 'ru_to_zh', ?, ?, ?)
+            """,
+            (user_id, vocabulary_item_id, config["label"], result, now),
+        )
+        conn.commit()
+        updated = conn.execute(
+            """
+            SELECT
+              vi.id, vi.word, vi.lemma, vi.part_of_speech, vi.meaning_zh, vi.source_page,
+              uwp.status AS progress_status, uwp.seen_count, uwp.correct_count,
+              uwp.wrong_count, uwp.next_review_at
+            FROM vocabulary_items vi
+            JOIN user_word_progress uwp ON uwp.vocabulary_item_id = vi.id
+            WHERE vi.id = ? AND uwp.user_id = ?
+            """,
+            (vocabulary_item_id, user_id),
+        ).fetchone()
+        word_payload = public_word(updated)
+    status = api_word_status(user_id)
+    return {"word": word_payload, "status": status, "next_review_at": next_review_at}
 
 
 def exposure_rows(conn: sqlite3.Connection, user_id: int, question_ids: list[int]) -> dict[int, sqlite3.Row]:
@@ -1141,6 +1430,9 @@ class StudentAppHandler(BaseHTTPRequestHandler):
                 limit = int(query.get("limit", ["80"])[0])
                 json_response(self, HTTPStatus.OK, api_wrongbook(user_id, limit))
                 return
+            if parsed.path == "/api/words/status":
+                json_response(self, HTTPStatus.OK, api_word_status(user_id_from_query(query)))
+                return
             if parsed.path == "/api/thread":
                 thread_id = int(query.get("id", ["1"])[0])
                 json_response(self, HTTPStatus.OK, api_thread(thread_id, user_id_from_query(query)))
@@ -1161,6 +1453,12 @@ class StudentAppHandler(BaseHTTPRequestHandler):
                 return
             if self.path == "/api/grade":
                 json_response(self, HTTPStatus.OK, api_grade(payload))
+                return
+            if self.path == "/api/words/session":
+                json_response(self, HTTPStatus.OK, api_word_session(payload))
+                return
+            if self.path == "/api/words/review":
+                json_response(self, HTTPStatus.OK, api_word_review(payload))
                 return
             if self.path == "/api/explain":
                 json_response(self, HTTPStatus.OK, api_generate_explanation(payload))
