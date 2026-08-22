@@ -494,23 +494,22 @@ russian-ai-tutor/
 
 已完成结构化切分并导入本地 SQLite 的专八真题：
 
-- 2017 年：50 题，待审核
-- 2018 年：50 题，待审核
+- 2017 年：50 题
+- 2018 年：50 题
 - 2019 年：50 题
 - 2021 年：50 题
 - 2023 年：50 题
-- 2024 年：50 题，待审核
+- 2024 年：50 题
 
-2019、2021、2023 年当前数据库校验结果：
+当前数据库校验结果：
 
-- 题目总数：150
-- 选项总数：600
-- 阅读文章：15 篇
+- 题目总数：300
+- 阅读文章：30 篇
 - 题型分布：
-  - 语法选择题：51
-  - 文学选择题：21
-  - 国情选择题：18
-  - 阅读选择题：60
+  - 语法选择题：102
+  - 文学选择题：42
+  - 国情选择题：36
+  - 阅读选择题：120
 - 审核状态：已由用户明确确认批量通过，全部回写为 `approved`
 - 内容来源：全部为 `past_exam_original`
 - 来源展示：全部要求显示 `source_label`，例如 `2019 年俄语专八真题`
@@ -608,9 +607,8 @@ data/processed/review_sheets/tem8_2017_2018_2024_passages_review.csv
 
 当前回写结果：
 
-- `approved`: 150 题
-- `question_knowledge_points`: 150 条
-- `question_review_logs`: 150 条
+- 历年真题 `approved`: 300 题
+- 2017、2018、2024 本次新增审核日志：150 条
 - 本地回写前数据库备份位于 `data/processed/backups/`
 
 2026-08-22 更新：2017、2018、2024 年待审核题已预填粗知识点：
@@ -620,7 +618,14 @@ data/processed/review_sheets/tem8_2017_2018_2024_passages_review.csv
 - `literature`: 21 题
 - `culture`: 18 题
 - `reading`: 60 题
-- 题目状态仍为 `needs_review`，人工审核通过前不会进入学生正式练习池。
+- 当时题目状态仍为 `needs_review`，人工审核通过前不会进入学生正式练习池。
+
+2026-08-22 更新：用户确认 2017、2018、2024 年 150 道题已审核通过，并已批量回写为 `approved`：
+
+- 新增入正式练习池：150 题
+- 当前历年真题正式练习池：300 题
+- 回写审核日志 reviewer：`user_confirmed_review`
+- 回写前数据库备份：`data/processed/backups/russian_ai_tutor_before_approve_2017_2018_2024_20260822_113058.sqlite`
 
 ## 20. 当前组卷原型状态
 
@@ -633,7 +638,7 @@ scripts/generate_quiz.py
 当前规则：
 
 - 默认只抽 `review_status = approved` 且 `source_usage = practice` 的题。
-- 当前 150 道已入库题均为 `approved`，默认模式可以正式组卷。
+- 当前 300 道已入库真题均为 `approved`，默认模式可以正式组卷。
 - 内部测试仍可临时加 `--include-needs-review` 验证未审核题输出结构，但学生正式入口不应使用该参数。
 - 历年真题输出中保留 `source.label`，例如 `2021 年俄语专八真题`。
 
@@ -805,8 +810,8 @@ apps/student_web/static/
 当前验证：
 
 - 首页可访问。
-- 题库状态接口返回 150 道 `approved` 题。
-- 30 题入门诊断接口验证通过，四类题型分布为语法 8、文学 8、国情 7、阅读 7。
+- 题库状态接口返回 300 道 `approved` 题。
+- 约 30 题入门诊断接口验证通过；阅读按整篇文章补齐后，当前可返回 31 题左右。
 - 组卷接口可生成练习，默认不包含阅读题。
 - 批改接口可写入 `quiz_sessions`、`quiz_items`、`user_answers`、`weakness_snapshots`。
 - 已新增 `question_exposures`、`mastery_snapshots`、`training_recommendations`，支持画像计算和避重组卷。
