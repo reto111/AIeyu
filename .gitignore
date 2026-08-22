@@ -33,6 +33,7 @@ Thumbs.db
 
 # Project data that may contain copyrighted or private source materials
 data/raw_pdfs/
+data/words/
 data/processed/
 data/knowledge_sources/**/*.pdf
 data/listening/

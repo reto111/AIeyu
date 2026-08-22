@@ -9,6 +9,11 @@
 - PDF 共 292 页。
 - 抽样检测前 10 页均无可直接提取的文本层。
 - 因此第一版按扫描版 PDF 处理：先 OCR，再清洗和人工校对，最后入结构化数据库。
+- 已完成全量 OCR：292 页均生成逐页文本。
+- OCR 合并文本：`data/processed/words/ocr_text/tem8_russian_words_ocr_combined.txt`。
+- OCR manifest：`data/processed/words/ocr_text/tem8_russian_words_ocr_manifest.json`。
+- 已生成候选词校对表：`data/processed/words/tem8_words_review.csv`。
+- 当前候选词条数：4184 条，其中 3658 条自动解析，526 条需要重点人工复核。
 
 ## 2. 功能定位
 
@@ -208,6 +213,12 @@ tem8_russian_words_page_002.txt
 ...
 ```
 
+当前已完成该步骤，执行脚本：
+
+```text
+scripts/ocr_word_pdf.py
+```
+
 ### Step 3. 粗切分
 
 从 OCR 文本中提取候选词条。
@@ -225,6 +236,18 @@ source_file, source_page, raw_line, word, lemma, part_of_speech, meaning_zh, not
 ```
 
 第一版允许 `lemma`、`part_of_speech` 暂时为空，但 `word` 和 `meaning_zh` 必须尽量完整。
+
+当前已完成该步骤，执行脚本：
+
+```text
+scripts/extract_word_candidates.py
+```
+
+当前额外生成了校对用 CSV：
+
+```text
+data/processed/words/tem8_words_review.csv
+```
 
 ### Step 4. 人工校对
 
@@ -343,4 +366,3 @@ AI 生成内容进入正式展示前，建议保留人工审核状态。
 6. 导入已审核单词。
 7. 新增学生端“单词”页面。
 8. 接入每日打卡与复习记录。
-
