@@ -1,6 +1,7 @@
 const state = {
   users: [],
   activeUserId: Number(localStorage.getItem("aieyu.activeUserId") || 1),
+  activeView: localStorage.getItem("aieyu.activeView") || "practice",
   quiz: null,
   result: null,
   explanation: null,
@@ -38,6 +39,21 @@ function escapeHtml(value) {
 
 function queryForActiveUser() {
   return `user_id=${encodeURIComponent(activeUserId())}`;
+}
+
+function showView(view) {
+  const nextView = ["practice", "account", "wrongbook"].includes(view) ? view : "practice";
+  state.activeView = nextView;
+  localStorage.setItem("aieyu.activeView", nextView);
+  for (const page of document.querySelectorAll(".page")) {
+    page.classList.toggle("active", page.id === `${nextView}Page`);
+  }
+  for (const button of document.querySelectorAll(".navbtn")) {
+    button.classList.toggle("active", button.dataset.view === nextView);
+  }
+  if (nextView === "wrongbook") {
+    loadWrongbook();
+  }
 }
 
 async function requestJson(url, options = {}) {
@@ -133,6 +149,7 @@ async function createUser() {
     input.value = "";
     await loadUsers();
     await refreshStudentData();
+    showView("account");
   } catch (error) {
     $("#activeUserHint").textContent = error.message;
   } finally {
@@ -279,6 +296,7 @@ function setSubmitLoading(isLoading) {
 }
 
 async function generateQuiz(mode = "random") {
+  showView("practice");
   $("#generateBtn").disabled = true;
   $("#generateBtn").textContent = "生成中...";
   try {
@@ -524,6 +542,7 @@ async function init() {
 }
 
 async function startDiagnostic() {
+  showView("practice");
   $("#countInput").value = 30;
   for (const input of document.querySelectorAll('input[name="questionType"]')) {
     input.checked = DIAGNOSTIC_TYPES.includes(input.value);
@@ -543,6 +562,9 @@ async function startDiagnostic() {
 
 $("#generateBtn").addEventListener("click", () => generateQuiz());
 $("#diagnosticBtn").addEventListener("click", startDiagnostic);
+for (const button of document.querySelectorAll(".navbtn")) {
+  button.addEventListener("click", () => showView(button.dataset.view));
+}
 $("#userSelect").addEventListener("change", (event) => switchUser(event.target.value));
 $("#createUserBtn").addEventListener("click", createUser);
 $("#refreshWrongbookBtn").addEventListener("click", loadWrongbook);
@@ -555,3 +577,4 @@ $("#quizForm").addEventListener("submit", submitQuiz);
 $("#followupBtn").addEventListener("click", sendFollowup);
 
 init();
+showView(state.activeView);

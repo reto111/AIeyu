@@ -44,13 +44,38 @@ button:disabled {
 
 .shell {
   display: grid;
-  grid-template-columns: 280px minmax(0, 1fr) 340px;
+  grid-template-columns: 220px minmax(0, 1fr);
   gap: 18px;
   min-height: 100vh;
   padding: 18px;
 }
 
-.sidebar,
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.pagearea {
+  min-width: 0;
+}
+
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+.practice-layout {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr) 340px;
+  gap: 18px;
+  align-items: start;
+}
+
+.practice-tools,
 .results {
   display: flex;
   flex-direction: column;
@@ -82,6 +107,28 @@ button:disabled {
   background: var(--green);
   color: #fff;
   font-weight: 800;
+}
+
+.mainnav {
+  display: grid;
+  gap: 8px;
+}
+
+.navbtn {
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 10px 12px;
+  background: var(--panel);
+  color: var(--ink);
+  font-weight: 700;
+  text-align: left;
+}
+
+.navbtn.active {
+  border-color: var(--green);
+  background: #eef5f1;
+  color: var(--green-dark);
 }
 
 h1,
@@ -279,7 +326,21 @@ textarea {
 
 .workspace {
   min-width: 0;
-  overflow: hidden;
+  overflow: visible;
+}
+
+.page-workspace {
+  min-height: calc(100vh - 36px);
+}
+
+.page-content {
+  display: grid;
+  gap: 14px;
+  padding: 18px;
+}
+
+.account-panel {
+  max-width: 620px;
 }
 
 .topbar {
@@ -360,8 +421,6 @@ textarea {
   border-left: 4px solid var(--blue);
   background: #f2f6fb;
   border-radius: 6px;
-  max-height: 260px;
-  overflow: auto;
   white-space: pre-wrap;
   line-height: 1.65;
 }
@@ -472,8 +531,6 @@ textarea {
 }
 
 .wrongbook {
-  max-height: 360px;
-  overflow: auto;
   line-height: 1.6;
 }
 
@@ -528,7 +585,11 @@ textarea {
 
 @media (max-width: 1180px) {
   .shell {
-    grid-template-columns: 260px minmax(0, 1fr);
+    grid-template-columns: 200px minmax(0, 1fr);
+  }
+
+  .practice-layout {
+    grid-template-columns: 240px minmax(0, 1fr);
   }
 
   .results {
@@ -540,6 +601,18 @@ textarea {
   .shell {
     grid-template-columns: 1fr;
     padding: 10px;
+  }
+
+  .mainnav {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .navbtn {
+    text-align: center;
+  }
+
+  .practice-layout {
+    grid-template-columns: 1fr;
   }
 
   .topbar,

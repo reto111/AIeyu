@@ -17,49 +17,11 @@
           </div>
         </div>
 
-        <section class="panel">
-          <h2>学生账号</h2>
-          <label class="field">
-            <span>当前学生</span>
-            <select id="userSelect"></select>
-          </label>
-          <div class="account-create">
-            <input id="newUserName" type="text" maxlength="40" placeholder="新学生姓名" />
-            <button id="createUserBtn" class="secondary" type="button">新增</button>
-          </div>
-          <p id="activeUserHint" class="mini muted">正在读取学生...</p>
-        </section>
-
-        <section class="panel">
-          <h2>入门诊断</h2>
-          <div class="diagnostic">
-            <strong>建议新用户先做 30 题</strong>
-            <p>覆盖语法、文学、国情和阅读，用于建立第一版能力画像。</p>
-            <button id="diagnosticBtn" class="secondary">开始 30 题诊断</button>
-          </div>
-        </section>
-
-        <section class="panel">
-          <h2>能力画像</h2>
-          <div id="profileSummary" class="profile muted">正在读取画像...</div>
-        </section>
-
-        <section class="panel">
-          <h2>组卷</h2>
-          <label class="field">
-            <span>题目数量</span>
-            <input id="countInput" type="number" min="1" max="50" value="10" />
-          </label>
-          <div class="field">
-            <span>题型</span>
-            <div id="typeControls" class="checkgrid"></div>
-          </div>
-          <div class="field">
-            <span>年份</span>
-            <div id="yearControls" class="checkgrid"></div>
-          </div>
-          <button id="generateBtn" class="primary">生成练习</button>
-        </section>
+        <nav class="mainnav" aria-label="主要页面">
+          <button type="button" class="navbtn active" data-view="practice">练习</button>
+          <button type="button" class="navbtn" data-view="account">学生账号</button>
+          <button type="button" class="navbtn" data-view="wrongbook">错题本</button>
+        </nav>
 
         <section class="panel stats">
           <h2>题库</h2>
@@ -67,57 +29,140 @@
         </section>
       </aside>
 
-      <section class="workspace">
-        <header class="topbar">
-          <div>
-            <p class="eyebrow">Student Practice</p>
-            <h2>今日专八训练</h2>
-          </div>
-          <div id="quizMeta" class="meta">尚未生成练习</div>
-        </header>
+      <section class="pagearea">
+        <section id="practicePage" class="page active">
+          <div class="practice-layout">
+            <aside class="practice-tools">
+              <section class="panel">
+                <h2>入门诊断</h2>
+                <div class="diagnostic">
+                  <strong>建议新用户先做 30 题</strong>
+                  <p>覆盖语法、文学、国情和阅读，用于建立第一版能力画像。</p>
+                  <button id="diagnosticBtn" class="secondary">开始 30 题诊断</button>
+                </div>
+              </section>
 
-        <section id="emptyState" class="empty">
-          <h2>选择题型和数量后开始练习</h2>
-          <p>题目来自已审核的历年俄语专八真题，页面会保留年份来源。</p>
+              <section class="panel">
+                <h2>能力画像</h2>
+                <div id="profileSummary" class="profile muted">正在读取画像...</div>
+              </section>
+
+              <section class="panel">
+                <h2>组卷</h2>
+                <label class="field">
+                  <span>题目数量</span>
+                  <input id="countInput" type="number" min="1" max="50" value="10" />
+                </label>
+                <div class="field">
+                  <span>题型</span>
+                  <div id="typeControls" class="checkgrid"></div>
+                </div>
+                <div class="field">
+                  <span>年份</span>
+                  <div id="yearControls" class="checkgrid"></div>
+                </div>
+                <button id="generateBtn" class="primary">生成练习</button>
+              </section>
+            </aside>
+
+            <section class="workspace">
+              <header class="topbar">
+                <div>
+                  <p class="eyebrow">Student Practice</p>
+                  <h2>今日专八训练</h2>
+                </div>
+                <div id="quizMeta" class="meta">尚未生成练习</div>
+              </header>
+
+              <section id="emptyState" class="empty">
+                <h2>选择题型和数量后开始练习</h2>
+                <p>题目来自已审核的历年俄语专八真题，页面会保留年份来源。</p>
+              </section>
+
+              <form id="quizForm" class="quiz hidden">
+                <div id="questionList"></div>
+                <div class="submitbar">
+                  <button type="submit" class="primary">提交批改</button>
+                  <span id="answerHint"></span>
+                </div>
+              </form>
+            </section>
+
+            <aside class="results">
+              <section class="panel">
+                <h2>批改结果</h2>
+                <div id="resultBox" class="muted">提交后显示正确率和薄弱点。</div>
+              </section>
+
+              <section class="panel">
+                <h2>AI 讲解</h2>
+                <div id="threadBox" class="thread muted">批改后自动生成薄弱点、复习方案和可追问问题。</div>
+                <div class="followup">
+                  <textarea id="followupText" rows="3" placeholder="继续追问，例如：第2题为什么不能选A？"></textarea>
+                  <label class="consent">
+                    <input id="externalConsent" type="checkbox" />
+                    <span>同意发送本对话上下文到 DeepSeek</span>
+                  </label>
+                  <button id="followupBtn" class="secondary">发送追问</button>
+                </div>
+              </section>
+            </aside>
+          </div>
         </section>
 
-        <form id="quizForm" class="quiz hidden">
-          <div id="questionList"></div>
-          <div class="submitbar">
-            <button type="submit" class="primary">提交批改</button>
-            <span id="answerHint"></span>
-          </div>
-        </form>
+        <section id="accountPage" class="page">
+          <section class="workspace page-workspace">
+            <header class="topbar">
+              <div>
+                <p class="eyebrow">Student Account</p>
+                <h2>学生账号</h2>
+              </div>
+              <div id="activeUserHint" class="meta">正在读取学生...</div>
+            </header>
+
+            <div class="page-content">
+              <section class="panel account-panel">
+                <h2>当前学生</h2>
+                <label class="field">
+                  <span>选择学生</span>
+                  <select id="userSelect"></select>
+                </label>
+                <div class="account-create">
+                  <input id="newUserName" type="text" maxlength="40" placeholder="新学生姓名" />
+                  <button id="createUserBtn" class="secondary" type="button">新增</button>
+                </div>
+              </section>
+
+              <section class="panel">
+                <h2>账号说明</h2>
+                <div class="diagnostic">
+                  <strong>当前是本地试用账号</strong>
+                  <p>切换学生后，练习记录、能力画像、错题本和 AI 对话都会按当前学生分别保存。</p>
+                </div>
+              </section>
+            </div>
+          </section>
+        </section>
+
+        <section id="wrongbookPage" class="page">
+          <section class="workspace page-workspace">
+            <header class="topbar">
+              <div>
+                <p class="eyebrow">Wrongbook</p>
+                <h2>错题本</h2>
+              </div>
+              <div id="wrongbookMeta" class="meta">正在读取</div>
+            </header>
+
+            <div class="page-content">
+              <section class="panel">
+                <div id="wrongbookBox" class="wrongbook muted">当前学生的错题会自动汇总到这里。</div>
+                <button id="refreshWrongbookBtn" class="secondary" type="button">刷新错题本</button>
+              </section>
+            </div>
+          </section>
+        </section>
       </section>
-
-      <aside class="results">
-        <section class="panel">
-          <h2>批改结果</h2>
-          <div id="resultBox" class="muted">提交后显示正确率和薄弱点。</div>
-        </section>
-
-        <section class="panel">
-          <div class="panel-titleline">
-            <h2>错题本</h2>
-            <span id="wrongbookMeta" class="mini muted">正在读取</span>
-          </div>
-          <div id="wrongbookBox" class="wrongbook muted">当前学生的错题会自动汇总到这里。</div>
-          <button id="refreshWrongbookBtn" class="secondary" type="button">刷新错题本</button>
-        </section>
-
-        <section class="panel">
-          <h2>AI 讲解</h2>
-          <div id="threadBox" class="thread muted">批改后自动生成薄弱点、复习方案和可追问问题。</div>
-          <div class="followup">
-            <textarea id="followupText" rows="3" placeholder="继续追问，例如：第2题为什么不能选A？"></textarea>
-            <label class="consent">
-              <input id="externalConsent" type="checkbox" />
-              <span>同意发送本对话上下文到 DeepSeek</span>
-            </label>
-            <button id="followupBtn" class="secondary">发送追问</button>
-          </div>
-        </section>
-      </aside>
     </main>
     <script src="/app.js"></script>
   </body>
