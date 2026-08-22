@@ -7,7 +7,7 @@
 
 当前待审核对象包括：
 
-- 2019、2021、2023 年俄语专八文字版真题切分结果。
+- 2017、2018、2024 年俄语专八真题切分结果。
 - 后续 AI 生成题草稿。
 
 数据库状态：
@@ -18,6 +18,7 @@
 - 审核状态：全部 `needs_review`
 - 内容来源：全部 `past_exam_original`
 - 来源标签：全部必须展示，例如 `2019 年俄语专八真题`
+- 2019、2021、2023 年 150 道真题已经审核为 `approved`，不再属于当前待审核批次。
 
 AI 生成题草稿状态：
 
@@ -56,6 +57,29 @@ data\processed\review_sheets\tem8_passages_review.csv
 ```text
 .venv\Scripts\python.exe scripts\export_review_sheet.py --year 2019
 ```
+
+导出当前待审核批次：
+
+```text
+.venv\Scripts\python.exe scripts\export_review_sheet.py --year 2017 --year 2018 --year 2024 --output data\processed\review_sheets\tem8_2017_2018_2024_questions_review.csv --passages-output data\processed\review_sheets\tem8_2017_2018_2024_passages_review.csv
+```
+
+## 2.1 预填粗知识点
+
+历年真题可先按题型预填粗知识点，减少人工审核表重复填写：
+
+```text
+.venv\Scripts\python.exe scripts\assign_coarse_knowledge_points.py --year 2017 --year 2018 --year 2024
+```
+
+对应关系：
+
+- `grammar_choice` -> `grammar`
+- `literature_choice` -> `literature`
+- `culture_choice` -> `culture`
+- `reading_choice` -> `reading`
+
+该脚本只写入 `question_knowledge_points`，不会把题目改为 `approved`。
 
 ## 3. 审核表关键列
 

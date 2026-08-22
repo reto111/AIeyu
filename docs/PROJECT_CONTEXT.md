@@ -578,6 +578,7 @@ russian-ai-tutor/
 
 - 导出脚本：`scripts/export_review_sheet.py`
 - 回写脚本：`scripts/apply_review_sheet.py`
+- 粗知识点预填脚本：`scripts/assign_coarse_knowledge_points.py`
 - 审核日志迁移：`scripts/migrate_question_review_logs.py`
 - 流程文档：`docs/review_workflow.md`
 
@@ -585,6 +586,8 @@ russian-ai-tutor/
 
 ```text
 data/processed/review_sheets/tem8_questions_review.csv
+data/processed/review_sheets/tem8_2017_2018_2024_questions_review.csv
+data/processed/review_sheets/tem8_2017_2018_2024_passages_review.csv
 ```
 
 该表曾用于审核 150 道待审核题，保留题干、选项、答案、来源标签，并预留 `knowledge_point_codes`、`review_decision`、`review_notes` 三列供人工填写。
@@ -609,6 +612,15 @@ data/processed/review_sheets/tem8_questions_review.csv
 - `question_knowledge_points`: 150 条
 - `question_review_logs`: 150 条
 - 本地回写前数据库备份位于 `data/processed/backups/`
+
+2026-08-22 更新：2017、2018、2024 年待审核题已预填粗知识点：
+
+- 总数：150 题
+- `grammar`: 51 题
+- `literature`: 21 题
+- `culture`: 18 题
+- `reading`: 60 题
+- 题目状态仍为 `needs_review`，人工审核通过前不会进入学生正式练习池。
 
 ## 20. 当前组卷原型状态
 
