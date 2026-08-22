@@ -338,6 +338,33 @@ data/processed/words/tem8_words_llm_rejected_or_review.csv
 
 注意：`llm_approved` 仍是“大模型建议通过”，不是正式入库审核状态。入库前应由用户确认或至少抽查后再批量转为 `approved`。
 
+2026-08-22 更新：已对剩余 `not_checked` 的 2581 条做分层审核。
+
+输出文件：
+
+```text
+data/processed/words/tem8_words_not_checked_clean_candidates.csv
+data/processed/words/tem8_words_not_checked_needs_llm_review.csv
+data/processed/words/tem8_words_not_checked_reject_candidates.csv
+data/processed/words/tem8_words_not_checked_clean_sample_150.csv
+data/processed/words/tem8_words_not_checked_classification_summary.json
+```
+
+当前结果：
+
+- `clean_candidate`: 2186 条。
+- `needs_llm_review`: 322 条。
+- `reject_candidate`: 73 条。
+- 已从 clean 中固定随机抽样 150 条，供下一步人工抽查。
+
+本轮记录的错误与修正：
+
+- 错误：第一版分层规则只看“词头字符是否干净”，导致 `бактёрия`、`банкродство`、`батальбн`、`библог` 这类 OCR 错词被误放入 clean。
+- 修正：clean 规则增加 `ё/e` 非真实词根检查、`о` 被 OCR 为 `б` 的可疑模式检查，以及更多中文乱码/释义噪声检查。
+- 错误：真实 `ё` 判断曾使用“包含词根”，导致 `бактёрия` 因包含 `актёр` 被误当作真实 `ё`。
+- 修正：真实 `ё` 判断改为词头匹配，非明确真实 `ё` 的词进入 `needs_llm_review`。
+- 约束：`clean_candidate` 仍不是正式 `approved`，必须抽查样本后由用户确认是否批量通过。
+
 生成校对表：
 
 ```text

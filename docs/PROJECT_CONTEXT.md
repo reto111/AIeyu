@@ -206,6 +206,7 @@ RAG 更适合用于：
 - 2026-08-22 整体检查发现简化主表仍有明显 OCR 错词，例如把 `абажур` 识成 `абаж`、把 `абрикос` 识成 `абрикбс`。因此正式库采用保守策略：先导入已确认修正候选，主表另行审核后再扩充。
 - 2026-08-22 已继续审核简化主表 OCR 错词：主表 3199 条中，2580 条无明显词形风险，603 条生成修正建议，16 条建议删除或拆分，0 条仍悬空待复核。修正草稿为 `data/processed/words/tem8_words_review_simple_corrected_draft.csv`。
 - 2026-08-22 已继续用大模型语言能力复核 OCR 修正建议：生成 `data/processed/words/tem8_words_llm_corrected_candidates.csv`，其中 `llm_approved` 579 条、`llm_rejected` 36 条、`llm_needs_review` 3 条。大模型建议仍不得直接等同于正式入库审核，应经用户确认或抽查后再转为 `approved`。
+- 2026-08-22 已对剩余 `not_checked` 2581 条做分层审核：`clean_candidate` 2186 条、`needs_llm_review` 322 条、`reject_candidate` 73 条，并生成固定抽查样本 `data/processed/words/tem8_words_not_checked_clean_sample_150.csv`。本轮发现并记录错误：不能只凭词头字符干净就批量通过；`бактёрия`、`банкродство`、`батальбн`、`библог` 等已从 clean 移入复核。
 - `ё/e` 标准：不做全量替换；只修正 OCR 把普通 `е` 误识为 `ё` 的项目；真实 `ё` 保留，例如 `актёр`、`свёкла`、`решётка`、`ягнёнок`。
 - 详细流程见 `docs/word_checkin_plan.md`。
 
