@@ -19,7 +19,6 @@
 
         <nav class="mainnav" aria-label="主要页面">
           <button type="button" class="navbtn active" data-view="practice">练习</button>
-          <button type="button" class="navbtn" data-view="account">学生账号</button>
           <button type="button" class="navbtn" data-view="wrongbook">错题本</button>
         </nav>
 
@@ -33,6 +32,19 @@
         <section id="practicePage" class="page active">
           <div class="practice-layout">
             <aside class="practice-tools">
+              <section class="panel">
+                <h2>学生账号</h2>
+                <label class="field">
+                  <span>当前学生</span>
+                  <select id="userSelect"></select>
+                </label>
+                <div class="account-create">
+                  <input id="newUserName" type="text" maxlength="40" placeholder="新学生姓名" />
+                  <button id="createUserBtn" class="secondary" type="button">新增</button>
+                </div>
+                <p id="activeUserHint" class="mini muted">正在读取学生...</p>
+              </section>
+
               <section class="panel">
                 <h2>入门诊断</h2>
                 <div class="diagnostic">
@@ -108,40 +120,6 @@
               </section>
             </aside>
           </div>
-        </section>
-
-        <section id="accountPage" class="page">
-          <section class="workspace page-workspace">
-            <header class="topbar">
-              <div>
-                <p class="eyebrow">Student Account</p>
-                <h2>学生账号</h2>
-              </div>
-              <div id="activeUserHint" class="meta">正在读取学生...</div>
-            </header>
-
-            <div class="page-content">
-              <section class="panel account-panel">
-                <h2>当前学生</h2>
-                <label class="field">
-                  <span>选择学生</span>
-                  <select id="userSelect"></select>
-                </label>
-                <div class="account-create">
-                  <input id="newUserName" type="text" maxlength="40" placeholder="新学生姓名" />
-                  <button id="createUserBtn" class="secondary" type="button">新增</button>
-                </div>
-              </section>
-
-              <section class="panel">
-                <h2>账号说明</h2>
-                <div class="diagnostic">
-                  <strong>当前是本地试用账号</strong>
-                  <p>切换学生后，练习记录、能力画像、错题本和 AI 对话都会按当前学生分别保存。</p>
-                </div>
-              </section>
-            </div>
-          </section>
         </section>
 
         <section id="wrongbookPage" class="page">

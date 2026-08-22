@@ -42,7 +42,7 @@ function queryForActiveUser() {
 }
 
 function showView(view) {
-  const nextView = ["practice", "account", "wrongbook"].includes(view) ? view : "practice";
+  const nextView = ["practice", "wrongbook"].includes(view) ? view : "practice";
   state.activeView = nextView;
   localStorage.setItem("aieyu.activeView", nextView);
   for (const page of document.querySelectorAll(".page")) {
@@ -149,7 +149,7 @@ async function createUser() {
     input.value = "";
     await loadUsers();
     await refreshStudentData();
-    showView("account");
+    showView("practice");
   } catch (error) {
     $("#activeUserHint").textContent = error.message;
   } finally {
