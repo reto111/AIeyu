@@ -933,7 +933,27 @@ data/listening/raw_audio/tem8/
 
 听力选择题进入题库主表时使用题型 `listening_choice`。
 
-## 29. 后续工作规则
+## 29. 单词库当前状态
+
+2026-08-22 已完成第一批专八单词正式入库。
+
+当前标准：
+
+- 正式词库 `vocabulary_items` 共 3513 条。
+- 全部为 `review_status = approved`。
+- 本轮最终导入表为 `data/processed/words/tem8_words_final_approved_for_import.csv`。
+- 正式导入前备份为 `data/processed/backups/russian_ai_tutor_before_final_vocab_import_20260822_181938.sqlite`。
+
+本轮排除标准：
+
+- `needs_llm_review`、`reject_candidates`、`llm_rejected`、`llm_needs_review` 不进入正式词库。
+- 纯俄文字母但疑似 OCR 错词也不能默认放行，例如 `нбвшество`、`парадбкс`、`настрбенный`、`спосдбить`。
+- 句子碎片、短语碎片、例句残片不进入单词库，例如 `кает`、`пол-литрамолока`、`ряются`、`Поплатьювстречают`。
+- 中文释义必须尽量降为核心释义，不能保留明显 OCR 垃圾符号。
+
+后续继续做单词打卡前，可以先基于当前 3513 条做 MVP；剩余 322 条 `needs_llm_review` 应单独复核后再追加。
+
+## 30. 后续工作规则
 
 阿里云测试部署规则：
 
@@ -959,7 +979,7 @@ data/listening/raw_audio/tem8/
 - 如果需要做架构决策，应优先兼顾“专八第一版可落地”和“多考试体系可扩展”。
 - 如果引入 GitHub 项目作为参考，应先评估许可证、技术栈、维护状态和改造成本。
 
-## 30. 版本控制规则
+## 31. 版本控制规则
 
 项目从一开始使用 Git 做版本控制。
 

@@ -468,7 +468,51 @@ AI 可做：
 
 AI 生成内容进入正式展示前，建议保留人工审核状态。
 
-## 6. 下一步执行顺序
+## 6. 2026-08-22 词库入库 checkpoint
+
+本轮用户抽查 `clean_candidate` 样本后确认未发现明显错误，允许按当前标准批量入库。
+
+正式导入来源：
+
+- `tem8_words_approved_import.csv`: 753 条，来自前一轮人工确认修正表。
+- `tem8_words_llm_approved_only.csv`: 579 条，来自本地大模型修正后可用项。
+- `tem8_words_not_checked_clean_candidates.csv`: 2186 条，来自本轮抽样通过的干净候选项。
+
+最终生成导入表：
+
+```text
+data/processed/words/tem8_words_final_approved_for_import.csv
+```
+
+最终正式词库结果：
+
+- `vocabulary_items`: 3513 条。
+- `review_status = approved`: 3513 条。
+- 词形异常字符检查：0 条。
+- 中文释义明显乱码符号检查：0 条。
+
+本轮继续排除，不进入正式词库：
+
+- `tem8_words_not_checked_needs_llm_review.csv`: 322 条。
+- `tem8_words_not_checked_reject_candidates.csv`: 73 条。
+- `tem8_words_llm_rejected_or_review.csv`: 39 条。
+- 本轮最终导入时额外拦截 4 条非词条碎片：`кает`、`пол-литрамолока`、`ряются`、`Поплатьювстречают`。
+
+本轮发现并修正的规则漏洞：
+
+- 不能只用“是否全为俄文字母”判断词形安全，`нбвшество`、`парадбкс`、`настрбенный`、`спосдбить` 这类纯俄文字母仍可能是 OCR 错词。
+- 这类可确定错词已在最终导入脚本中加入明确修正规则：`новшество`、`парадокс`、`настроенный`、`приспособить`。
+- 中文释义若出现明显 OCR 垃圾符号，应优先降为核心释义，例如 `абажур`、`библия`、`новатор`、`плавание`、`тактика`、`таможня` 等。
+
+正式导入前数据库备份：
+
+```text
+data/processed/backups/russian_ai_tutor_before_final_vocab_import_20260822_181938.sqlite
+```
+
+后续如果继续审 322 条 `needs_llm_review`，仍必须生成单独复核表，不能自动混入正式词库。
+
+## 7. 下一步执行顺序
 
 建议下一轮开发按这个顺序：
 
