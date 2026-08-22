@@ -50,6 +50,47 @@ button:disabled {
   padding: 18px;
 }
 
+.account-menu {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  z-index: 20;
+}
+
+.account-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 8px 12px;
+  background: var(--panel);
+  color: var(--green-dark);
+  box-shadow: var(--shadow);
+  font-weight: 800;
+}
+
+.account-dropdown {
+  position: absolute;
+  top: 48px;
+  right: 0;
+  width: 300px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.account-dropdown .secondary {
+  margin-top: 0;
+}
+
+.account-dropdown .account-create {
+  margin-top: 10px;
+}
+
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -58,6 +99,7 @@ button:disabled {
 
 .pagearea {
   min-width: 0;
+  padding-top: 52px;
 }
 
 .page {
@@ -610,6 +652,22 @@ textarea {
   background: #fbfcfa;
 }
 
+.word-session-progress {
+  height: 8px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e8ece8;
+}
+
+.word-session-progress span {
+  display: block;
+  width: 0;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--green);
+  transition: width 0.2s ease;
+}
+
 .word-card-head {
   display: flex;
   flex-wrap: wrap;
@@ -639,7 +697,8 @@ textarea {
   gap: 10px;
 }
 
-.word-actions button {
+.word-actions button,
+.word-nav button {
   min-height: 42px;
   border: 1px solid var(--line);
   border-radius: 6px;
@@ -656,6 +715,52 @@ textarea {
 .word-actions button:nth-child(4) {
   border-color: #b9d7cb;
   color: var(--green-dark);
+}
+
+.word-nav {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.word-nav .secondary {
+  margin-top: 0;
+}
+
+.word-summary {
+  display: grid;
+  gap: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 20px;
+  background: #fbfcfa;
+}
+
+.word-summary h2 {
+  margin-bottom: 0;
+}
+
+.word-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.word-summary-grid div {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 10px;
+  background: #fff;
+}
+
+.word-summary-grid strong {
+  display: block;
+  font-size: 24px;
+}
+
+.word-summary-grid span {
+  color: var(--muted);
+  font-size: 13px;
 }
 
 .word-stat-grid {
@@ -732,11 +837,26 @@ textarea {
 @media (max-width: 820px) {
   .shell {
     grid-template-columns: 1fr;
-    padding: 10px;
+    padding: 64px 10px 10px;
+  }
+
+  .account-menu {
+    top: 10px;
+    right: 10px;
+    left: 10px;
+  }
+
+  .account-button,
+  .account-dropdown {
+    width: 100%;
+  }
+
+  .pagearea {
+    padding-top: 0;
   }
 
   .mainnav {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .navbtn {
@@ -762,6 +882,8 @@ textarea {
   .word-layout,
   .word-controls,
   .word-actions,
+  .word-nav,
+  .word-summary-grid,
   .word-stat-grid {
     grid-template-columns: 1fr;
   }

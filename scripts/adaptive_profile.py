@@ -11,7 +11,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "database" / "russian_ai_tutor.sqlite"
 DEFAULT_USER_ID = 1
-DEFAULT_USER_NAME = "本地学生"
+DEFAULT_USER_NAME = "测试专用"
 DEFAULT_USER_EMAIL = "local-student@aieyu.local"
 WINDOW_SIZE = 20
 MIN_ATTEMPTS = 5
@@ -51,6 +51,14 @@ def ensure_default_user(conn: sqlite3.Connection) -> int:
         VALUES (?, ?, ?)
         """,
         (DEFAULT_USER_ID, DEFAULT_USER_NAME, DEFAULT_USER_EMAIL),
+    )
+    conn.execute(
+        """
+        UPDATE users
+        SET display_name = ?, email = ?, updated_at = CURRENT_TIMESTAMP
+        WHERE id = ?
+        """,
+        (DEFAULT_USER_NAME, DEFAULT_USER_EMAIL, DEFAULT_USER_ID),
     )
     return DEFAULT_USER_ID
 

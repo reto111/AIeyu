@@ -8,6 +8,25 @@
   </head>
   <body>
     <main class="shell">
+      <div class="account-menu">
+        <button id="accountButton" class="account-button" type="button">
+          <span id="accountButtonName">学生账号</span>
+          <span aria-hidden="true">▾</span>
+        </button>
+        <div id="accountDropdown" class="account-dropdown hidden">
+          <label class="field">
+            <span>切换学生</span>
+            <select id="userSelect"></select>
+          </label>
+          <button id="switchUserBtn" class="secondary" type="button">切换用户</button>
+          <div class="account-create">
+            <input id="newUserName" type="text" maxlength="40" placeholder="输入姓名新增名单" />
+            <button id="createUserBtn" class="secondary" type="button">新增</button>
+          </div>
+          <p id="activeUserHint" class="mini muted">正在读取学生...</p>
+        </div>
+      </div>
+
       <aside class="sidebar">
         <div class="brand">
           <span class="mark">AI</span>
@@ -33,19 +52,6 @@
         <section id="practicePage" class="page active">
           <div class="practice-layout">
             <aside class="practice-tools">
-              <section class="panel">
-                <h2>学生账号</h2>
-                <label class="field">
-                  <span>当前学生</span>
-                  <select id="userSelect"></select>
-                </label>
-                <div class="account-create">
-                  <input id="newUserName" type="text" maxlength="40" placeholder="新学生姓名" />
-                  <button id="createUserBtn" class="secondary" type="button">新增</button>
-                </div>
-                <p id="activeUserHint" class="mini muted">正在读取学生...</p>
-              </section>
-
               <section class="panel">
                 <h2>入门诊断</h2>
                 <div class="diagnostic">
@@ -153,9 +159,13 @@
                 </div>
 
                 <article id="wordCard" class="word-card hidden">
+                  <div class="word-session-progress" aria-label="本次打卡进度">
+                    <span id="wordProgressBar"></span>
+                  </div>
                   <div class="word-card-head">
                     <span id="wordIndex" class="badge">1/20</span>
                     <span id="wordProgressTag" class="badge">未开始</span>
+                    <span id="wordResultTag" class="badge hidden">已记录</span>
                   </div>
                   <h3 id="wordText"></h3>
                   <p id="wordPart" class="mini"></p>
@@ -167,8 +177,15 @@
                     <button type="button" data-word-result="known">认识</button>
                     <button type="button" data-word-result="mastered">已掌握</button>
                   </div>
+                  <div class="word-nav">
+                    <button id="prevWordBtn" class="secondary" type="button">上一词</button>
+                    <button id="skipWordBtn" class="secondary" type="button">稍后再看</button>
+                    <button id="nextWordBtn" class="secondary" type="button">下一词</button>
+                  </div>
                   <p id="wordHint" class="mini muted"></p>
                 </article>
+
+                <div id="wordSessionSummary" class="word-summary hidden"></div>
               </section>
 
               <aside class="word-side">

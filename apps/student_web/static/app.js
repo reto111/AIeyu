@@ -10,6 +10,7 @@ const state = {
   wordStatus: null,
   wordSession: null,
   currentWordIndex: 0,
+  wordSessionStats: null,
   latestThreadId: 1,
 };
 
@@ -22,6 +23,14 @@ const TYPE_ORDER = [
   ["culture_choice", "国情"],
   ["reading_choice", "阅读"],
 ];
+
+const WORD_RESULT_LABELS = {
+  unknown: "不认识",
+  fuzzy: "模糊",
+  known: "认识",
+  mastered: "已掌握",
+  skipped: "稍后再看",
+};
 
 function optionLabel(item) {
   return `${item.key}. ${item.text}`;
@@ -126,6 +135,7 @@ function renderUsers(usersPayload) {
     )
     .join("");
   const current = state.users.find((user) => Number(user.id) === activeUserId());
+  $("#accountButtonName").textContent = current ? current.display_name : "学生账号";
   $("#activeUserHint").textContent = current
     ? `当前记录写入：${current.display_name}`
     : "当前使用默认学生账号";
@@ -155,7 +165,7 @@ async function createUser() {
     input.value = "";
     await loadUsers();
     await refreshStudentData();
-    showView("practice");
+    closeAccountMenu();
   } catch (error) {
     $("#activeUserHint").textContent = error.message;
   } finally {
@@ -173,6 +183,7 @@ async function switchUser(userId) {
   state.wordStatus = null;
   state.wordSession = null;
   state.currentWordIndex = 0;
+  state.wordSessionStats = null;
   state.latestThreadId = null;
   $("#emptyState").classList.remove("hidden");
   $("#quizForm").classList.add("hidden");
@@ -183,13 +194,23 @@ async function switchUser(userId) {
   $("#threadBox").textContent = "批改后自动生成薄弱点、复习方案和可追问问题。";
   $("#wordCard").classList.add("hidden");
   $("#wordEmpty").classList.remove("hidden");
-  $("#wordEmpty").innerHTML = `
-    <h2>开始一次单词打卡</h2>
-    <p>优先复习到期词，不够时自动补充新词。</p>
-  `;
+  resetWordEmpty();
   $("#wordSessionMeta").textContent = "尚未开始";
   renderUsers({ users: state.users, default_user_id: 1 });
   await refreshStudentData();
+  closeAccountMenu();
+}
+
+function openAccountMenu() {
+  $("#accountDropdown").classList.remove("hidden");
+}
+
+function closeAccountMenu() {
+  $("#accountDropdown").classList.add("hidden");
+}
+
+function toggleAccountMenu() {
+  $("#accountDropdown").classList.toggle("hidden");
 }
 
 function masteryClass(status) {
@@ -320,6 +341,14 @@ function currentWord() {
   return state.wordSession?.words?.[state.currentWordIndex] || null;
 }
 
+function freshWordStats() {
+  return { unknown: 0, fuzzy: 0, known: 0, mastered: 0, skipped: 0 };
+}
+
+function reviewedWordCount() {
+  return (state.wordSession?.words || []).filter((word) => word.session_result).length;
+}
+
 function setWordActionLoading(isLoading) {
   for (const button of document.querySelectorAll("[data-word-result]")) {
     button.disabled = isLoading;
@@ -327,12 +356,57 @@ function setWordActionLoading(isLoading) {
   $("#revealWordBtn").disabled = isLoading;
 }
 
+function setWordActionDisabled(isDisabled) {
+  for (const button of document.querySelectorAll("[data-word-result]")) {
+    button.disabled = isDisabled;
+  }
+}
+
+function resetWordEmpty() {
+  $("#wordEmpty").innerHTML = `
+    <h2>开始一次单词打卡</h2>
+    <p>优先复习到期词，不够时自动补充新词。</p>
+  `;
+  $("#wordSessionSummary").classList.add("hidden");
+  $("#wordSessionSummary").innerHTML = "";
+}
+
+function renderWordSummary() {
+  const stats = state.wordSessionStats || freshWordStats();
+  const total = state.wordSession?.words?.length || 0;
+  $("#wordCard").classList.add("hidden");
+  $("#wordEmpty").classList.add("hidden");
+  $("#wordSessionSummary").classList.remove("hidden");
+  $("#wordSessionMeta").textContent = `完成 ${reviewedWordCount()}/${total}`;
+  $("#wordSessionSummary").innerHTML = `
+    <h2>本次打卡完成</h2>
+    <div class="word-summary-grid">
+      <div><strong>${stats.unknown}</strong><span>不认识</span></div>
+      <div><strong>${stats.fuzzy}</strong><span>模糊</span></div>
+      <div><strong>${stats.known}</strong><span>认识</span></div>
+      <div><strong>${stats.mastered}</strong><span>已掌握</span></div>
+      <div><strong>${stats.skipped}</strong><span>稍后再看</span></div>
+    </div>
+    <p class="mini muted">已记录的单词会按复习间隔进入当前学生账号；稍后再看的词不会写入记录。</p>
+  `;
+}
+
+function shouldShowSummary() {
+  const words = state.wordSession?.words || [];
+  return words.length > 0 && words.every((word) => word.session_result);
+}
+
 function renderCurrentWord() {
   const words = state.wordSession?.words || [];
   const word = currentWord();
+  if (shouldShowSummary()) {
+    renderWordSummary();
+    return;
+  }
   if (!word) {
     $("#wordCard").classList.add("hidden");
     $("#wordEmpty").classList.remove("hidden");
+    $("#wordSessionSummary").classList.add("hidden");
     $("#wordEmpty").innerHTML = `
       <h2>${words.length ? "本次打卡完成" : "暂无可打卡单词"}</h2>
       <p>${words.length ? "今天的记录已经写入当前学生账号。" : "当前没有可抽取的已审核单词。"}</p>
@@ -342,24 +416,37 @@ function renderCurrentWord() {
   }
 
   $("#wordEmpty").classList.add("hidden");
+  $("#wordSessionSummary").classList.add("hidden");
   $("#wordCard").classList.remove("hidden");
   $("#wordIndex").textContent = `${state.currentWordIndex + 1}/${words.length}`;
   $("#wordProgressTag").textContent = word.progress_status_zh || "未开始";
+  const resultLabel = WORD_RESULT_LABELS[word.session_result];
+  $("#wordResultTag").classList.toggle("hidden", !resultLabel);
+  $("#wordResultTag").textContent = resultLabel ? `已记录：${resultLabel}` : "";
   $("#wordText").textContent = word.word;
   $("#wordPart").textContent = [word.part_of_speech, word.source_page ? `来源页 ${word.source_page}` : ""]
     .filter(Boolean)
     .join(" · ");
-  $("#wordMeaning").classList.add("hidden");
+  $("#wordMeaning").classList.toggle("hidden", !word.session_result);
   $("#wordMeaning").textContent = word.meaning_zh;
-  $("#revealWordBtn").textContent = "显示释义";
-  $("#wordHint").textContent = "";
-  $("#wordSessionMeta").textContent = `${state.currentWordIndex + 1}/${words.length}`;
+  $("#revealWordBtn").textContent = word.session_result ? "释义已显示" : "显示释义";
+  $("#wordHint").textContent = word.session_result
+    ? "这张卡片已处理，可以查看上一词或下一词。"
+    : "";
+  const done = reviewedWordCount();
+  $("#wordSessionMeta").textContent = `${done}/${words.length} 已处理`;
+  $("#wordProgressBar").style.width = `${Math.round((done / Math.max(words.length, 1)) * 100)}%`;
+  $("#prevWordBtn").disabled = state.currentWordIndex <= 0;
+  $("#nextWordBtn").disabled = state.currentWordIndex >= words.length - 1;
+  $("#skipWordBtn").disabled = Boolean(word.session_result);
   setWordActionLoading(false);
+  setWordActionDisabled(Boolean(word.session_result));
 }
 
 async function startWordSession() {
   $("#startWordsBtn").disabled = true;
   $("#startWordsBtn").textContent = "抽取中...";
+  resetWordEmpty();
   try {
     const payload = await requestJson("/api/words/session", {
       method: "POST",
@@ -370,6 +457,7 @@ async function startWordSession() {
     });
     state.wordSession = payload;
     state.currentWordIndex = 0;
+    state.wordSessionStats = freshWordStats();
     if (payload.status) {
       renderWordStatus(payload.status);
     }
@@ -391,6 +479,7 @@ function revealCurrentWord() {
 async function reviewCurrentWord(result) {
   const word = currentWord();
   if (!word) return;
+  if (word.session_result) return;
   revealCurrentWord();
   setWordActionLoading(true);
   $("#wordHint").textContent = "正在记录...";
@@ -403,15 +492,34 @@ async function reviewCurrentWord(result) {
         result,
       }),
     });
+    word.session_result = result;
+    word.progress_status_zh = payload.word?.progress_status_zh || word.progress_status_zh;
+    state.wordSessionStats[result] += 1;
     if (payload.status) {
       renderWordStatus(payload.status);
     }
-    state.currentWordIndex += 1;
+    state.currentWordIndex = Math.min(state.currentWordIndex + 1, state.wordSession.words.length - 1);
     renderCurrentWord();
   } catch (error) {
     $("#wordHint").textContent = error.message;
     setWordActionLoading(false);
   }
+}
+
+function moveWord(delta) {
+  const words = state.wordSession?.words || [];
+  if (!words.length) return;
+  state.currentWordIndex = Math.max(0, Math.min(words.length - 1, state.currentWordIndex + delta));
+  renderCurrentWord();
+}
+
+function skipCurrentWord() {
+  const word = currentWord();
+  if (!word || word.session_result) return;
+  word.session_result = "skipped";
+  state.wordSessionStats.skipped += 1;
+  state.currentWordIndex = Math.min(state.currentWordIndex + 1, state.wordSession.words.length - 1);
+  renderCurrentWord();
 }
 
 async function refreshStudentData() {
@@ -720,11 +828,15 @@ $("#diagnosticBtn").addEventListener("click", startDiagnostic);
 for (const button of document.querySelectorAll(".navbtn")) {
   button.addEventListener("click", () => showView(button.dataset.view));
 }
-$("#userSelect").addEventListener("change", (event) => switchUser(event.target.value));
+$("#accountButton").addEventListener("click", toggleAccountMenu);
+$("#switchUserBtn").addEventListener("click", () => switchUser($("#userSelect").value));
 $("#createUserBtn").addEventListener("click", createUser);
 $("#refreshWrongbookBtn").addEventListener("click", loadWrongbook);
 $("#startWordsBtn").addEventListener("click", startWordSession);
 $("#revealWordBtn").addEventListener("click", revealCurrentWord);
+$("#prevWordBtn").addEventListener("click", () => moveWord(-1));
+$("#nextWordBtn").addEventListener("click", () => moveWord(1));
+$("#skipWordBtn").addEventListener("click", skipCurrentWord);
 for (const button of document.querySelectorAll("[data-word-result]")) {
   button.addEventListener("click", () => reviewCurrentWord(button.dataset.wordResult));
 }
@@ -735,6 +847,11 @@ $("#profileSummary").addEventListener("click", (event) => {
 });
 $("#quizForm").addEventListener("submit", submitQuiz);
 $("#followupBtn").addEventListener("click", sendFollowup);
+document.addEventListener("click", (event) => {
+  if (!event.target.closest(".account-menu")) {
+    closeAccountMenu();
+  }
+});
 
 init();
 showView(state.activeView);
