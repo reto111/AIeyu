@@ -15,10 +15,12 @@
 - 已生成候选词校对表：`data/processed/words/tem8_words_review.csv`。
 - 当前候选词条数：4184 条，其中 3658 条自动解析，526 条需要重点人工复核。
 - 已创建单词模块数据库表。
-- 当前正式单词表 `vocabulary_items` 暂为 0 条，等待人工审核 CSV 后导入。
+- 当前正式单词表 `vocabulary_items` 已按保守策略导入 753 条，全部来自用户确认过的修正候选；不直接导入未人工审核的简化主表。
 - 已生成低风险简化校对表：`data/processed/words/tem8_words_review_simple.csv`。
 - 简化校对表当前保留 3199 条，不含拉丁字母/数字词形；`ё/e` 只做低风险纠错，真实 `ё` 保留。
 - 需人工处理表：`data/processed/words/tem8_words_needs_manual.csv`，当前 985 条，其中 402 条为 `ё/e` 不确定项。
+- 本地 AI 修正候选表：`data/processed/words/tem8_words_local_correction_candidates.csv`，共 897 条，用户已审核通过。
+- 正式入库 CSV：`data/processed/words/tem8_words_approved_import.csv`，默认由已审核修正候选生成，当前 753 条。简化主表 3199 条需单独人工审核后，才能使用 `--include-simple` 合并入库。
 
 ## 2. 功能定位
 
@@ -190,6 +192,7 @@ scripts/migrate_vocabulary.py
 人工审核后导入脚本：
 
 ```text
+scripts/build_approved_word_import_sheet.py
 scripts/import_reviewed_words.py
 ```
 
@@ -283,6 +286,8 @@ data/processed/words/tem8_words_review_simple.csv
 - 无法可靠识别的词条进入 `tem8_words_needs_manual.csv`。
 
 ### Step 4. 人工校对
+
+当前已完成：本地 AI 修正候选表已由用户确认。整体检查发现简化主表仍有少量明显 OCR 错词，因此正式库先采用更保守的导入策略，只导入用户确认过的 753 条修正候选。
 
 生成校对表：
 
