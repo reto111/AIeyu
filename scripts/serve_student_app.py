@@ -148,10 +148,10 @@ def normalize_login_name(value: Any) -> str:
 
 def normalize_password(value: Any) -> str:
     password = str(value or "").strip()
-    if len(password) < 4:
-        raise ValueError("访问码至少 4 位。")
+    if len(password) < 8:
+        raise ValueError("密码至少 8 位。")
     if len(password) > 80:
-        raise ValueError("访问码不要超过 80 位。")
+        raise ValueError("密码不要超过 80 位。")
     return password
 
 
@@ -288,7 +288,7 @@ def api_login(payload: dict[str, Any]) -> tuple[dict[str, Any], str]:
             (login_name,),
         ).fetchone()
         if auth is None or not verify_password(password, auth["password_hash"]):
-            raise ValueError("姓名或访问码不正确。")
+            raise ValueError("姓名或密码不正确。")
         token = create_session(conn, int(auth["user_id"]))
         conn.commit()
     return {"authenticated": True, "user": public_user(auth)}, session_cookie(token)
