@@ -414,7 +414,7 @@ def refresh_training_recommendations(
 def recalculate_profile(conn: sqlite3.Connection, user_id: int = DEFAULT_USER_ID) -> dict[str, Any]:
     ensure_adaptive_tables(conn)
     ensure_default_user(conn)
-    backfill_default_user(conn, user_id)
+    backfill_default_user(conn, DEFAULT_USER_ID)
     exam_system_id, level_id = fetch_tem8_ids(conn)
     now = datetime.now()
     groups = fetch_attempt_groups(conn, user_id)

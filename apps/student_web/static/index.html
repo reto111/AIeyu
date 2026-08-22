@@ -18,6 +18,19 @@
         </div>
 
         <section class="panel">
+          <h2>学生账号</h2>
+          <label class="field">
+            <span>当前学生</span>
+            <select id="userSelect"></select>
+          </label>
+          <div class="account-create">
+            <input id="newUserName" type="text" maxlength="40" placeholder="新学生姓名" />
+            <button id="createUserBtn" class="secondary" type="button">新增</button>
+          </div>
+          <p id="activeUserHint" class="mini muted">正在读取学生...</p>
+        </section>
+
+        <section class="panel">
           <h2>入门诊断</h2>
           <div class="diagnostic">
             <strong>建议新用户先做 30 题</strong>
@@ -81,6 +94,15 @@
         <section class="panel">
           <h2>批改结果</h2>
           <div id="resultBox" class="muted">提交后显示正确率和薄弱点。</div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-titleline">
+            <h2>错题本</h2>
+            <span id="wrongbookMeta" class="mini muted">正在读取</span>
+          </div>
+          <div id="wrongbookBox" class="wrongbook muted">当前学生的错题会自动汇总到这里。</div>
+          <button id="refreshWrongbookBtn" class="secondary" type="button">刷新错题本</button>
         </section>
 
         <section class="panel">

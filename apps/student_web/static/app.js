@@ -1,8 +1,11 @@
 const state = {
+  users: [],
+  activeUserId: Number(localStorage.getItem("aieyu.activeUserId") || 1),
   quiz: null,
   result: null,
   explanation: null,
   profile: null,
+  wrongbook: null,
   latestThreadId: 1,
 };
 
@@ -18,6 +21,23 @@ const TYPE_ORDER = [
 
 function optionLabel(item) {
   return `${item.key}. ${item.text}`;
+}
+
+function activeUserId() {
+  return Number(state.activeUserId || 1);
+}
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function queryForActiveUser() {
+  return `user_id=${encodeURIComponent(activeUserId())}`;
 }
 
 async function requestJson(url, options = {}) {
@@ -66,6 +86,79 @@ function renderStatus(status) {
     .join("");
 }
 
+function renderUsers(usersPayload) {
+  state.users = usersPayload.users || [];
+  const stored = activeUserId();
+  const exists = state.users.some((user) => Number(user.id) === stored);
+  state.activeUserId = exists ? stored : Number(usersPayload.default_user_id || state.users[0]?.id || 1);
+  localStorage.setItem("aieyu.activeUserId", String(state.activeUserId));
+
+  const select = $("#userSelect");
+  select.innerHTML = state.users
+    .map(
+      (user) => `
+        <option value="${user.id}" ${Number(user.id) === activeUserId() ? "selected" : ""}>
+          ${escapeHtml(user.display_name)}
+        </option>
+      `
+    )
+    .join("");
+  const current = state.users.find((user) => Number(user.id) === activeUserId());
+  $("#activeUserHint").textContent = current
+    ? `当前记录写入：${current.display_name}`
+    : "当前使用默认学生账号";
+}
+
+async function loadUsers() {
+  const payload = await requestJson("/api/users");
+  renderUsers(payload);
+}
+
+async function createUser() {
+  const input = $("#newUserName");
+  const displayName = input.value.trim();
+  if (!displayName) {
+    $("#activeUserHint").textContent = "请先填写学生姓名。";
+    return;
+  }
+  $("#createUserBtn").disabled = true;
+  $("#createUserBtn").textContent = "新增中...";
+  try {
+    const payload = await requestJson("/api/users", {
+      method: "POST",
+      body: JSON.stringify({ display_name: displayName }),
+    });
+    state.activeUserId = Number(payload.user.id);
+    localStorage.setItem("aieyu.activeUserId", String(state.activeUserId));
+    input.value = "";
+    await loadUsers();
+    await refreshStudentData();
+  } catch (error) {
+    $("#activeUserHint").textContent = error.message;
+  } finally {
+    $("#createUserBtn").disabled = false;
+    $("#createUserBtn").textContent = "新增";
+  }
+}
+
+async function switchUser(userId) {
+  state.activeUserId = Number(userId);
+  localStorage.setItem("aieyu.activeUserId", String(state.activeUserId));
+  state.quiz = null;
+  state.result = null;
+  state.explanation = null;
+  state.latestThreadId = null;
+  $("#emptyState").classList.remove("hidden");
+  $("#quizForm").classList.add("hidden");
+  $("#quizMeta").textContent = "尚未生成练习";
+  $("#resultBox").classList.add("muted");
+  $("#resultBox").textContent = "提交后显示正确率和薄弱点。";
+  $("#threadBox").classList.add("muted");
+  $("#threadBox").textContent = "批改后自动生成薄弱点、复习方案和可追问问题。";
+  renderUsers({ users: state.users, default_user_id: 1 });
+  await refreshStudentData();
+}
+
 function masteryClass(status) {
   if (status === "strong" || status === "stable") return "good";
   if (status === "unstable" || status === "insufficient_data") return "mid";
@@ -106,6 +199,65 @@ function renderProfile(profile) {
   $("#profileSummary").innerHTML = `${items}${next}`;
 }
 
+async function loadProfile() {
+  const profile = await requestJson(`/api/profile?${queryForActiveUser()}`);
+  renderProfile(profile);
+}
+
+function renderWrongbook(payload) {
+  state.wrongbook = payload;
+  const box = $("#wrongbookBox");
+  if (!payload.items || !payload.items.length) {
+    box.classList.add("muted");
+    box.innerHTML = "当前学生还没有错题。完成一次练习后会自动沉淀到这里。";
+    $("#wrongbookMeta").textContent = "0 道";
+    return;
+  }
+
+  $("#wrongbookMeta").textContent = `${payload.pending_count} 道待巩固 · ${payload.corrected_count} 道已订正`;
+  box.classList.remove("muted");
+  box.innerHTML = `
+    <div class="wrongbook-list">
+      ${payload.items
+        .map((item) => {
+          const source = item.source?.label || `${item.source?.year || ""} 年真题`;
+          const passageTitle = item.passage?.title ? `<p class="mini">阅读文章：${escapeHtml(item.passage.title)}</p>` : "";
+          return `
+            <article class="wrongbook-item ${item.status === "pending" ? "pending" : "corrected"}">
+              <div class="wrongbook-head">
+                <strong>${escapeHtml(item.status_zh)}</strong>
+                <span>${escapeHtml(item.question_type_name)} · ${escapeHtml(source)}</span>
+              </div>
+              ${passageTitle}
+              <p>${escapeHtml(item.stem)}</p>
+              <p class="mini">最近作答：${escapeHtml(item.selected_answer || "未作答")} · 正确答案：${escapeHtml(item.correct_answer)}</p>
+              <p class="mini">累计 ${item.seen_count} 次，错 ${item.wrong_count} 次</p>
+            </article>
+          `;
+        })
+        .join("")}
+    </div>
+  `;
+}
+
+async function loadWrongbook() {
+  const payload = await requestJson(`/api/wrongbook?${queryForActiveUser()}`);
+  renderWrongbook(payload);
+}
+
+async function refreshStudentData() {
+  try {
+    await loadProfile();
+  } catch (error) {
+    $("#profileSummary").textContent = error.message;
+  }
+  try {
+    await loadWrongbook();
+  } catch (error) {
+    $("#wrongbookBox").textContent = error.message;
+  }
+}
+
 function selectOnlyQuestionType(code) {
   for (const input of document.querySelectorAll('input[name="questionType"]')) {
     input.checked = input.value === code;
@@ -131,6 +283,7 @@ async function generateQuiz(mode = "random") {
   $("#generateBtn").textContent = "生成中...";
   try {
     const payload = {
+      user_id: activeUserId(),
       count: Number($("#countInput").value || 10),
       question_types: selectedValues("questionType"),
       years: selectedValues("year").map(Number),
@@ -227,7 +380,7 @@ async function submitQuiz(event) {
   try {
     state.result = await requestJson("/api/grade", {
       method: "POST",
-      body: JSON.stringify({ title: "AIeyu student practice", answers }),
+      body: JSON.stringify({ user_id: activeUserId(), title: "AIeyu student practice", answers }),
     });
     state.explanation = state.result.explanation || null;
     if (state.result.profile) {
@@ -236,6 +389,7 @@ async function submitQuiz(event) {
     renderResult(state.result);
     markAnswers(state.result);
     renderExplanation(state.explanation, state.result.explanation_error);
+    await loadWrongbook();
     $("#answerHint").textContent = "已批改";
   } catch (error) {
     $("#answerHint").textContent = error.message;
@@ -339,6 +493,7 @@ async function sendFollowup() {
       method: "POST",
       body: JSON.stringify({
         thread_id: state.latestThreadId,
+        user_id: activeUserId(),
         message,
         confirm_external_send: true,
       }),
@@ -361,10 +516,11 @@ async function init() {
     $("#statusSummary").textContent = error.message;
   }
   try {
-    renderProfile(await requestJson("/api/profile"));
+    await loadUsers();
   } catch (error) {
-    $("#profileSummary").textContent = error.message;
+    $("#activeUserHint").textContent = error.message;
   }
+  await refreshStudentData();
 }
 
 async function startDiagnostic() {
@@ -387,6 +543,9 @@ async function startDiagnostic() {
 
 $("#generateBtn").addEventListener("click", () => generateQuiz());
 $("#diagnosticBtn").addEventListener("click", startDiagnostic);
+$("#userSelect").addEventListener("change", (event) => switchUser(event.target.value));
+$("#createUserBtn").addEventListener("click", createUser);
+$("#refreshWrongbookBtn").addEventListener("click", loadWrongbook);
 $("#profileSummary").addEventListener("click", (event) => {
   const button = event.target.closest("[data-practice-type]");
   if (!button) return;

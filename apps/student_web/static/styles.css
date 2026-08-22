@@ -27,6 +27,7 @@ body {
 
 button,
 input,
+select,
 textarea {
   font: inherit;
 }
@@ -117,6 +118,18 @@ h1 {
   font-size: 17px;
 }
 
+.panel-titleline {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.panel-titleline h2 {
+  margin-bottom: 0;
+}
+
 .diagnostic {
   display: grid;
   gap: 8px;
@@ -135,6 +148,8 @@ h1 {
 }
 
 input[type="number"],
+input[type="text"],
+select,
 textarea {
   width: 100%;
   border: 1px solid var(--line);
@@ -142,6 +157,23 @@ textarea {
   padding: 10px;
   background: #fff;
   color: var(--ink);
+}
+
+.account-create {
+  display: grid;
+  grid-template-columns: 1fr 76px;
+  gap: 8px;
+  align-items: start;
+}
+
+.account-create .secondary {
+  margin-top: 0;
+}
+
+.mini {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
 }
 
 .checkgrid {
@@ -437,6 +469,44 @@ textarea {
   overflow: auto;
   white-space: pre-wrap;
   line-height: 1.65;
+}
+
+.wrongbook {
+  max-height: 360px;
+  overflow: auto;
+  line-height: 1.6;
+}
+
+.wrongbook-list {
+  display: grid;
+  gap: 10px;
+}
+
+.wrongbook-item {
+  display: grid;
+  gap: 6px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 10px;
+  background: #fbfcfa;
+}
+
+.wrongbook-item.pending {
+  border-left: 4px solid var(--red);
+}
+
+.wrongbook-item.corrected {
+  border-left: 4px solid var(--green);
+}
+
+.wrongbook-head {
+  display: grid;
+  gap: 3px;
+}
+
+.wrongbook-head span {
+  color: var(--muted);
+  font-size: 13px;
 }
 
 .followup {

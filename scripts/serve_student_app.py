@@ -71,6 +71,79 @@ def db() -> sqlite3.Connection:
     return conn
 
 
+def normalize_user_id(raw_value: Any) -> int:
+    if raw_value in (None, ""):
+        return DEFAULT_USER_ID
+    user_id = int(raw_value)
+    if user_id <= 0:
+        raise ValueError("学生账号无效。")
+    return user_id
+
+
+def user_id_from_query(query: dict[str, list[str]]) -> int:
+    return normalize_user_id(query.get("user_id", [DEFAULT_USER_ID])[0])
+
+
+def ensure_user_exists(conn: sqlite3.Connection, user_id: int) -> sqlite3.Row:
+    row = conn.execute(
+        """
+        SELECT id, display_name, email, created_at, updated_at
+        FROM users
+        WHERE id = ?
+        """,
+        (user_id,),
+    ).fetchone()
+    if row is None:
+        raise ValueError(f"没有找到学生账号 {user_id}。")
+    return row
+
+
+def public_user(row: sqlite3.Row) -> dict[str, Any]:
+    return {
+        "id": row["id"],
+        "display_name": row["display_name"],
+        "email": row["email"],
+        "created_at": row["created_at"],
+        "updated_at": row["updated_at"],
+    }
+
+
+def api_users() -> dict[str, Any]:
+    with db() as conn:
+        rows = conn.execute(
+            """
+            SELECT id, display_name, email, created_at, updated_at
+            FROM users
+            ORDER BY id
+            """
+        ).fetchall()
+    return {"default_user_id": DEFAULT_USER_ID, "users": [public_user(row) for row in rows]}
+
+
+def api_create_user(payload: dict[str, Any]) -> dict[str, Any]:
+    display_name = str(payload.get("display_name") or "").strip()
+    email = str(payload.get("email") or "").strip() or None
+    if not display_name:
+        raise ValueError("请填写学生姓名。")
+    if len(display_name) > 40:
+        raise ValueError("学生姓名不要超过 40 个字符。")
+    with db() as conn:
+        try:
+            cursor = conn.execute(
+                """
+                INSERT INTO users (display_name, email)
+                VALUES (?, ?)
+                """,
+                (display_name, email),
+            )
+        except sqlite3.IntegrityError as exc:
+            raise ValueError("这个邮箱已经被使用。") from exc
+        user_id = int(cursor.lastrowid)
+        conn.commit()
+        user = ensure_user_exists(conn, user_id)
+    return {"user": public_user(user)}
+
+
 def option_rows(conn: sqlite3.Connection, question_id: int) -> list[dict[str, str]]:
     rows = conn.execute(
         """
@@ -345,6 +418,7 @@ def select_balanced_by_type(
 
 
 def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
+    user_id = normalize_user_id(payload.get("user_id"))
     count = max(1, min(int(payload.get("count") or 10), 50))
     mode = str(payload.get("mode") or "random")
     question_types = [str(item) for item in payload.get("question_types", []) if item]
@@ -368,6 +442,7 @@ def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
         params.extend(years)
 
     with db() as conn:
+        user = ensure_user_exists(conn, user_id)
         rows = conn.execute(
             f"""
             SELECT
@@ -392,7 +467,7 @@ def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
         ).fetchall()
         if len(rows) < count:
             raise ValueError(f"当前条件下只有 {len(rows)} 道题，无法生成 {count} 道。")
-        exposures = exposure_rows(conn, DEFAULT_USER_ID, [int(row["id"]) for row in rows])
+        exposures = exposure_rows(conn, user_id, [int(row["id"]) for row in rows])
         if mode == "diagnostic":
             selected = select_balanced_by_type(rows, count, question_types, exposures, rng)
         else:
@@ -410,14 +485,113 @@ def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
         "exam_system": "TEM8_RU",
         "level": "TEM8",
         "mode": mode,
+        "user": public_user(user),
         "count": len(questions),
         "questions": questions,
     }
 
 
-def api_profile() -> dict[str, Any]:
+def api_profile(user_id: int = DEFAULT_USER_ID) -> dict[str, Any]:
     with db() as conn:
-        return recalculate_profile(conn, DEFAULT_USER_ID)
+        ensure_user_exists(conn, user_id)
+        return recalculate_profile(conn, user_id)
+
+
+def latest_answer_for_question(conn: sqlite3.Connection, user_id: int, question_id: int) -> sqlite3.Row | None:
+    return conn.execute(
+        """
+        SELECT
+          ua.selected_answer,
+          ua.is_correct,
+          ua.answered_at,
+          qi.quiz_session_id
+        FROM user_answers ua
+        JOIN quiz_items qi ON qi.id = ua.quiz_item_id
+        JOIN quiz_sessions qs ON qs.id = qi.quiz_session_id
+        WHERE qi.question_id = ?
+          AND COALESCE(ua.user_id, qs.user_id) = ?
+        ORDER BY ua.answered_at DESC, ua.id DESC
+        LIMIT 1
+        """,
+        (question_id, user_id),
+    ).fetchone()
+
+
+def api_wrongbook(user_id: int = DEFAULT_USER_ID, limit: int = 80) -> dict[str, Any]:
+    limit = max(1, min(limit, 200))
+    with db() as conn:
+        user = ensure_user_exists(conn, user_id)
+        rows = conn.execute(
+            """
+            SELECT
+              q.id,
+              q.source_year,
+              q.source_question_number,
+              q.source_label,
+              q.requires_source_label,
+              q.content_origin,
+              q.stem,
+              q.correct_answer,
+              qt.code AS question_type,
+              p.id AS passage_id,
+              p.title AS passage_title,
+              p.body AS passage_body,
+              qe.seen_count,
+              qe.correct_count,
+              qe.wrong_count,
+              qe.last_is_correct,
+              qe.last_seen_at
+            FROM question_exposures qe
+            JOIN questions q ON q.id = qe.question_id
+            JOIN question_types qt ON qt.id = q.question_type_id
+            LEFT JOIN passages p ON p.id = q.passage_id
+            WHERE qe.user_id = ?
+              AND qe.wrong_count > 0
+              AND q.review_status = 'approved'
+              AND q.source_usage = 'practice'
+            ORDER BY
+              CASE WHEN qe.last_is_correct = 0 THEN 0 ELSE 1 END,
+              datetime(qe.last_seen_at) DESC,
+              qe.wrong_count DESC,
+              q.id
+            LIMIT ?
+            """,
+            (user_id, limit),
+        ).fetchall()
+        items = []
+        pending_count = 0
+        corrected_count = 0
+        for index, row in enumerate(rows, start=1):
+            latest = latest_answer_for_question(conn, user_id, int(row["id"]))
+            item = public_question(conn, row, index)
+            last_is_correct = bool(row["last_is_correct"]) if row["last_is_correct"] is not None else False
+            if last_is_correct:
+                corrected_count += 1
+            else:
+                pending_count += 1
+            item.update(
+                {
+                    "correct_answer": row["correct_answer"],
+                    "selected_answer": latest["selected_answer"] if latest else "",
+                    "latest_is_correct": bool(latest["is_correct"]) if latest else last_is_correct,
+                    "latest_answered_at": latest["answered_at"] if latest else row["last_seen_at"],
+                    "latest_quiz_session_id": latest["quiz_session_id"] if latest else None,
+                    "seen_count": row["seen_count"],
+                    "correct_count": row["correct_count"],
+                    "wrong_count": row["wrong_count"],
+                    "last_seen_at": row["last_seen_at"],
+                    "status": "corrected" if last_is_correct else "pending",
+                    "status_zh": "已订正" if last_is_correct else "待巩固",
+                }
+            )
+            items.append(item)
+    return {
+        "user": public_user(user),
+        "count": len(items),
+        "pending_count": pending_count,
+        "corrected_count": corrected_count,
+        "items": items,
+    }
 
 
 def fetch_ids(conn: sqlite3.Connection) -> tuple[int, int]:
@@ -442,9 +616,10 @@ def api_grade(payload: dict[str, Any]) -> dict[str, Any]:
     submitted_answers = payload.get("answers") or []
     if not submitted_answers:
         raise ValueError("还没有收到答案。")
+    user_id = normalize_user_id(payload.get("user_id"))
 
     with db() as conn:
-        user_id = DEFAULT_USER_ID
+        ensure_user_exists(conn, user_id)
         exam_system_id, level_id = fetch_ids(conn)
         cursor = conn.execute(
             """
@@ -581,7 +756,7 @@ def api_grade(payload: dict[str, Any]) -> dict[str, Any]:
         "graded_questions": graded_questions,
     }
     with db() as conn:
-        result["profile"] = recalculate_profile(conn, DEFAULT_USER_ID)
+        result["profile"] = recalculate_profile(conn, user_id)
     if result["wrong_count"]:
         try:
             result["explanation"] = generate_explanation_for_session(quiz_session_id)
@@ -601,7 +776,7 @@ def api_grade(payload: dict[str, Any]) -> dict[str, Any]:
 def grading_report_for_session(conn: sqlite3.Connection, quiz_session_id: int) -> dict[str, Any]:
     session = conn.execute(
         """
-        SELECT id, total_questions, correct_count, accuracy, submitted_at
+        SELECT id, user_id, total_questions, correct_count, accuracy, submitted_at
         FROM quiz_sessions
         WHERE id = ?
         """,
@@ -658,6 +833,7 @@ def grading_report_for_session(conn: sqlite3.Connection, quiz_session_id: int) -
 
     return {
         "quiz_session_id": quiz_session_id,
+        "user_id": session["user_id"],
         "submitted_at": session["submitted_at"],
         "total_questions": session["total_questions"],
         "correct_count": session["correct_count"],
@@ -714,11 +890,12 @@ def latest_assistant_text(conn: sqlite3.Connection, thread_id: int) -> str | Non
     return row["content"] if row else None
 
 
-def api_thread(thread_id: int) -> dict[str, Any]:
+def api_thread(thread_id: int, user_id: int = DEFAULT_USER_ID) -> dict[str, Any]:
     with db() as conn:
+        ensure_user_exists(conn, user_id)
         thread = conn.execute(
             """
-            SELECT id, quiz_session_id, title, created_at, updated_at
+            SELECT id, user_id, quiz_session_id, title, created_at, updated_at
             FROM ai_tutor_threads
             WHERE id = ?
             """,
@@ -726,6 +903,8 @@ def api_thread(thread_id: int) -> dict[str, Any]:
         ).fetchone()
         if thread is None:
             raise ValueError(f"没有找到 AI 对话线程 {thread_id}。")
+        if thread["user_id"] is not None and int(thread["user_id"]) != user_id:
+            raise ValueError("这个 AI 对话不属于当前学生。")
         messages = [
             dict(row)
             for row in conn.execute(
@@ -830,10 +1009,14 @@ def generate_explanation_for_session(quiz_session_id: int) -> dict[str, Any]:
     with db() as conn:
         cursor = conn.execute(
             """
-            INSERT INTO ai_tutor_threads (quiz_session_id, title)
-            VALUES (?, ?)
+            INSERT INTO ai_tutor_threads (user_id, quiz_session_id, title)
+            VALUES (?, ?, ?)
             """,
-            (quiz_session_id, f"TEM8 student explanation {datetime.now().isoformat(timespec='minutes')}"),
+            (
+                report["user_id"] or DEFAULT_USER_ID,
+                quiz_session_id,
+                f"TEM8 student explanation {datetime.now().isoformat(timespec='minutes')}",
+            ),
         )
         thread_id = int(cursor.lastrowid)
         conn.execute(
@@ -875,11 +1058,21 @@ def api_followup(payload: dict[str, Any]) -> dict[str, Any]:
     if not payload.get("confirm_external_send"):
         raise ValueError("请先确认允许把本对话上下文发送到 DeepSeek。")
     thread_id = int(payload["thread_id"])
+    user_id = normalize_user_id(payload.get("user_id"))
     user_message = str(payload.get("message") or "").strip()
     if not user_message:
         raise ValueError("追问内容不能为空。")
 
     with db() as conn:
+        ensure_user_exists(conn, user_id)
+        thread = conn.execute(
+            "SELECT user_id FROM ai_tutor_threads WHERE id = ?",
+            (thread_id,),
+        ).fetchone()
+        if thread is None:
+            raise ValueError(f"没有找到 AI 对话线程 {thread_id}。")
+        if thread["user_id"] is not None and int(thread["user_id"]) != user_id:
+            raise ValueError("这个 AI 对话不属于当前学生。")
         rows = conn.execute(
             """
             SELECT role, content
@@ -933,16 +1126,24 @@ class StudentAppHandler(BaseHTTPRequestHandler):
     def do_GET(self) -> None:
         try:
             parsed = urlparse(self.path)
+            query = parse_qs(parsed.query)
             if parsed.path == "/api/status":
                 json_response(self, HTTPStatus.OK, api_status())
                 return
+            if parsed.path == "/api/users":
+                json_response(self, HTTPStatus.OK, api_users())
+                return
             if parsed.path == "/api/profile":
-                json_response(self, HTTPStatus.OK, api_profile())
+                json_response(self, HTTPStatus.OK, api_profile(user_id_from_query(query)))
+                return
+            if parsed.path == "/api/wrongbook":
+                user_id = user_id_from_query(query)
+                limit = int(query.get("limit", ["80"])[0])
+                json_response(self, HTTPStatus.OK, api_wrongbook(user_id, limit))
                 return
             if parsed.path == "/api/thread":
-                query = parse_qs(parsed.query)
                 thread_id = int(query.get("id", ["1"])[0])
-                json_response(self, HTTPStatus.OK, api_thread(thread_id))
+                json_response(self, HTTPStatus.OK, api_thread(thread_id, user_id_from_query(query)))
                 return
             self.serve_static(parsed.path)
         except Exception as exc:
@@ -952,6 +1153,9 @@ class StudentAppHandler(BaseHTTPRequestHandler):
         try:
             length = int(self.headers.get("Content-Length") or 0)
             payload = json.loads(self.rfile.read(length).decode("utf-8") or "{}")
+            if self.path == "/api/users":
+                json_response(self, HTTPStatus.OK, api_create_user(payload))
+                return
             if self.path == "/api/quiz":
                 json_response(self, HTTPStatus.OK, api_generate_quiz(payload))
                 return
