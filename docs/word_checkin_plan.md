@@ -21,6 +21,8 @@
 - 需人工处理表：`data/processed/words/tem8_words_needs_manual.csv`，当前 985 条，其中 402 条为 `ё/e` 不确定项。
 - 本地 AI 修正候选表：`data/processed/words/tem8_words_local_correction_candidates.csv`，共 897 条，用户已审核通过。
 - 正式入库 CSV：`data/processed/words/tem8_words_approved_import.csv`，默认由已审核修正候选生成，当前 753 条。简化主表 3199 条需单独人工审核后，才能使用 `--include-simple` 合并入库。
+- 已继续审核简化主表 OCR 错词，生成 `data/processed/words/tem8_words_simple_ocr_audit.csv` 和 `data/processed/words/tem8_words_review_simple_corrected_draft.csv`。
+- 本轮主表审核结果：2580 条无明显词形风险，603 条有修正建议，16 条建议删除或拆分，0 条仍悬空待复核。
 
 ## 2. 功能定位
 
@@ -288,6 +290,25 @@ data/processed/words/tem8_words_review_simple.csv
 ### Step 4. 人工校对
 
 当前已完成：本地 AI 修正候选表已由用户确认。整体检查发现简化主表仍有少量明显 OCR 错词，因此正式库先采用更保守的导入策略，只导入用户确认过的 753 条修正候选。
+
+2026-08-22 更新：已对简化主表继续做 OCR 错词审核。
+
+输出文件：
+
+```text
+data/processed/words/tem8_words_simple_ocr_audit.csv
+data/processed/words/tem8_words_review_simple_corrected_draft.csv
+data/processed/words/tem8_words_simple_still_needs_review.csv
+```
+
+当前结果：
+
+- 2580 条：未发现明显词形风险。
+- 603 条：生成 OCR 修正建议。
+- 16 条：例句、短语或残片，建议删除或拆分。
+- 0 条：仍悬空待复核。
+
+注意：`tem8_words_review_simple_corrected_draft.csv` 仍是草稿，不应直接导入正式库；至少应先人工抽查中置信修正，再批量改为 `approved`。
 
 生成校对表：
 
