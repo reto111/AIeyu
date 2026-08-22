@@ -496,3 +496,103 @@ CREATE INDEX IF NOT EXISTS idx_listening_assets_year
 CREATE INDEX IF NOT EXISTS idx_listening_question_links_question
   ON listening_question_links (question_id);
 
+CREATE TABLE IF NOT EXISTS word_sources (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  exam_system_id INTEGER NOT NULL,
+  level_id INTEGER,
+  title TEXT NOT NULL,
+  file_path TEXT NOT NULL,
+  file_name TEXT NOT NULL,
+  file_hash TEXT,
+  file_size_bytes INTEGER,
+  page_count INTEGER,
+  source_type TEXT NOT NULL DEFAULT 'word_list' CHECK (source_type IN ('word_list', 'textbook', 'manual', 'ocr_extract')),
+  ocr_status TEXT NOT NULL DEFAULT 'pending' CHECK (ocr_status IN ('pending', 'needs_ocr', 'ocr_done', 'failed', 'skipped')),
+  review_status TEXT NOT NULL DEFAULT 'pending' CHECK (review_status IN ('pending', 'in_review', 'reviewed', 'archived')),
+  notes TEXT,
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (exam_system_id) REFERENCES exam_systems(id),
+  FOREIGN KEY (level_id) REFERENCES exam_levels(id),
+  UNIQUE (exam_system_id, file_path)
+);
+
+CREATE TABLE IF NOT EXISTS vocabulary_items (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  exam_system_id INTEGER NOT NULL,
+  level_id INTEGER,
+  word TEXT NOT NULL,
+  lemma TEXT,
+  accent TEXT,
+  part_of_speech TEXT,
+  meaning_zh TEXT NOT NULL,
+  meaning_en TEXT,
+  difficulty INTEGER CHECK (difficulty BETWEEN 1 AND 5),
+  frequency_rank INTEGER,
+  source_id INTEGER,
+  source_page INTEGER,
+  source_line TEXT,
+  raw_text TEXT,
+  review_status TEXT NOT NULL DEFAULT 'needs_review' CHECK (review_status IN ('draft', 'needs_review', 'approved', 'rejected', 'archived')),
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (exam_system_id) REFERENCES exam_systems(id),
+  FOREIGN KEY (level_id) REFERENCES exam_levels(id),
+  FOREIGN KEY (source_id) REFERENCES word_sources(id),
+  UNIQUE (exam_system_id, level_id, word, part_of_speech)
+);
+
+CREATE TABLE IF NOT EXISTS vocabulary_forms (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  vocabulary_item_id INTEGER NOT NULL,
+  form_text TEXT NOT NULL,
+  form_type TEXT NOT NULL CHECK (form_type IN ('inflected_form', 'same_root', 'derived_word', 'collocation', 'synonym', 'antonym', 'example')),
+  meaning_zh TEXT,
+  notes TEXT,
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (vocabulary_item_id) REFERENCES vocabulary_items(id) ON DELETE CASCADE,
+  UNIQUE (vocabulary_item_id, form_text, form_type)
+);
+
+CREATE TABLE IF NOT EXISTS user_word_progress (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id INTEGER NOT NULL,
+  vocabulary_item_id INTEGER NOT NULL,
+  status TEXT NOT NULL DEFAULT 'new' CHECK (status IN ('new', 'learning', 'fuzzy', 'known', 'mastered')),
+  seen_count INTEGER NOT NULL DEFAULT 0,
+  correct_count INTEGER NOT NULL DEFAULT 0,
+  wrong_count INTEGER NOT NULL DEFAULT 0,
+  last_seen_at TEXT,
+  next_review_at TEXT,
+  ease_factor REAL NOT NULL DEFAULT 2.5,
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES users(id),
+  FOREIGN KEY (vocabulary_item_id) REFERENCES vocabulary_items(id) ON DELETE CASCADE,
+  UNIQUE (user_id, vocabulary_item_id)
+);
+
+CREATE TABLE IF NOT EXISTS word_review_logs (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id INTEGER NOT NULL,
+  vocabulary_item_id INTEGER NOT NULL,
+  review_mode TEXT NOT NULL DEFAULT 'daily_checkin' CHECK (review_mode IN ('daily_checkin', 'weak_review', 'random_review')),
+  prompt_type TEXT NOT NULL DEFAULT 'ru_to_zh' CHECK (prompt_type IN ('ru_to_zh', 'zh_to_ru', 'choice', 'spelling')),
+  user_response TEXT,
+  result TEXT NOT NULL CHECK (result IN ('unknown', 'fuzzy', 'known', 'mastered', 'wrong', 'correct')),
+  reviewed_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES users(id),
+  FOREIGN KEY (vocabulary_item_id) REFERENCES vocabulary_items(id) ON DELETE CASCADE
+);
+
+CREATE INDEX IF NOT EXISTS idx_vocabulary_items_lookup
+  ON vocabulary_items (exam_system_id, level_id, review_status, word);
+
+CREATE INDEX IF NOT EXISTS idx_user_word_progress_due
+  ON user_word_progress (user_id, status, next_review_at);
+
+CREATE INDEX IF NOT EXISTS idx_word_review_logs_user_time
+  ON word_review_logs (user_id, reviewed_at);
+

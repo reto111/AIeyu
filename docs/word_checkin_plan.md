@@ -14,6 +14,8 @@
 - OCR manifest：`data/processed/words/ocr_text/tem8_russian_words_ocr_manifest.json`。
 - 已生成候选词校对表：`data/processed/words/tem8_words_review.csv`。
 - 当前候选词条数：4184 条，其中 3658 条自动解析，526 条需要重点人工复核。
+- 已创建单词模块数据库表。
+- 当前正式单词表 `vocabulary_items` 暂为 0 条，等待人工审核 CSV 后导入。
 
 ## 2. 功能定位
 
@@ -173,6 +175,20 @@ RAG 只作为辅助：
 - `zh_to_ru`
 - `choice`
 - `spelling`
+
+当前已在 `database/schema.sql` 和本地 SQLite 中创建上述表。
+
+当前迁移脚本：
+
+```text
+scripts/migrate_vocabulary.py
+```
+
+人工审核后导入脚本：
+
+```text
+scripts/import_reviewed_words.py
+```
 
 ## 5. 建库流程
 
