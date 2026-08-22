@@ -1,6 +1,8 @@
 const state = {
   users: [],
-  activeUserId: Number(localStorage.getItem("aieyu.activeUserId") || 1),
+  authenticated: false,
+  activeUser: null,
+  activeUserId: 0,
   activeView: localStorage.getItem("aieyu.activeView") || "practice",
   quiz: null,
   result: null,
@@ -36,10 +38,6 @@ function optionLabel(item) {
   return `${item.key}. ${item.text}`;
 }
 
-function activeUserId() {
-  return Number(state.activeUserId || 1);
-}
-
 function escapeHtml(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -50,7 +48,7 @@ function escapeHtml(value) {
 }
 
 function queryForActiveUser() {
-  return `user_id=${encodeURIComponent(activeUserId())}`;
+  return "";
 }
 
 function showView(view) {
@@ -117,66 +115,7 @@ function renderStatus(status) {
     .join("");
 }
 
-function renderUsers(usersPayload) {
-  state.users = usersPayload.users || [];
-  const stored = activeUserId();
-  const exists = state.users.some((user) => Number(user.id) === stored);
-  state.activeUserId = exists ? stored : Number(usersPayload.default_user_id || state.users[0]?.id || 1);
-  localStorage.setItem("aieyu.activeUserId", String(state.activeUserId));
-
-  const select = $("#userSelect");
-  select.innerHTML = state.users
-    .map(
-      (user) => `
-        <option value="${user.id}" ${Number(user.id) === activeUserId() ? "selected" : ""}>
-          ${escapeHtml(user.display_name)}
-        </option>
-      `
-    )
-    .join("");
-  const current = state.users.find((user) => Number(user.id) === activeUserId());
-  $("#accountButtonName").textContent = current ? `用户：${current.display_name}` : "用户：学生账号";
-  $("#activeUserHint").textContent = current
-    ? `当前记录写入：${current.display_name}`
-    : "当前使用默认学生账号";
-}
-
-async function loadUsers() {
-  const payload = await requestJson("/api/users");
-  renderUsers(payload);
-}
-
-async function createUser() {
-  const input = $("#newUserName");
-  const displayName = input.value.trim();
-  if (!displayName) {
-    $("#activeUserHint").textContent = "请先填写学生姓名。";
-    return;
-  }
-  $("#createUserBtn").disabled = true;
-  $("#createUserBtn").textContent = "新增中...";
-  try {
-    const payload = await requestJson("/api/users", {
-      method: "POST",
-      body: JSON.stringify({ display_name: displayName }),
-    });
-    state.activeUserId = Number(payload.user.id);
-    localStorage.setItem("aieyu.activeUserId", String(state.activeUserId));
-    input.value = "";
-    await loadUsers();
-    await refreshStudentData();
-    closeAccountMenu();
-  } catch (error) {
-    $("#activeUserHint").textContent = error.message;
-  } finally {
-    $("#createUserBtn").disabled = false;
-    $("#createUserBtn").textContent = "新增";
-  }
-}
-
-async function switchUser(userId) {
-  state.activeUserId = Number(userId);
-  localStorage.setItem("aieyu.activeUserId", String(state.activeUserId));
+function clearStudentState() {
   state.quiz = null;
   state.result = null;
   state.explanation = null;
@@ -196,9 +135,80 @@ async function switchUser(userId) {
   $("#wordEmpty").classList.remove("hidden");
   resetWordEmpty();
   $("#wordSessionMeta").textContent = "尚未开始";
-  renderUsers({ users: state.users, default_user_id: 1 });
-  await refreshStudentData();
-  closeAccountMenu();
+}
+
+function renderAuthStatus(payload) {
+  state.authenticated = Boolean(payload.authenticated);
+  state.activeUser = payload.user || null;
+  state.activeUserId = state.activeUser ? Number(state.activeUser.id) : 0;
+  $("#accountButtonName").textContent = state.activeUser
+    ? `用户：${state.activeUser.display_name}`
+    : "用户：未登录";
+  $("#activeUserHint").textContent = state.activeUser
+    ? `当前记录写入：${state.activeUser.display_name}`
+    : "请先登录或注册。";
+  $("#logoutBtn").classList.toggle("hidden", !state.authenticated);
+  $("#loginBtn").classList.toggle("hidden", state.authenticated);
+  $("#registerBtn").classList.toggle("hidden", state.authenticated);
+  $("#authName").disabled = state.authenticated;
+  $("#authPassword").disabled = state.authenticated;
+  if (state.activeUser) {
+    $("#authName").value = state.activeUser.display_name;
+    $("#authPassword").value = "";
+  }
+}
+
+async function loadAuthStatus() {
+  const payload = await requestJson("/api/auth/status");
+  renderAuthStatus(payload);
+  if (!payload.authenticated) {
+    clearStudentState();
+  }
+  return payload;
+}
+
+function authPayload() {
+  return {
+    display_name: $("#authName").value.trim(),
+    password: $("#authPassword").value.trim(),
+  };
+}
+
+async function submitAuth(mode) {
+  const button = mode === "login" ? $("#loginBtn") : $("#registerBtn");
+  const originalText = button.textContent;
+  button.disabled = true;
+  button.textContent = mode === "login" ? "登录中..." : "注册中...";
+  try {
+    const payload = await requestJson(`/api/auth/${mode}`, {
+      method: "POST",
+      body: JSON.stringify(authPayload()),
+    });
+    renderAuthStatus(payload);
+    await refreshStudentData();
+    closeAccountMenu();
+  } catch (error) {
+    $("#activeUserHint").textContent = error.message;
+  } finally {
+    button.disabled = false;
+    button.textContent = originalText;
+  }
+}
+
+async function logoutUser() {
+  $("#logoutBtn").disabled = true;
+  $("#logoutBtn").textContent = "退出中...";
+  try {
+    const payload = await requestJson("/api/auth/logout", { method: "POST", body: "{}" });
+    renderAuthStatus(payload);
+    clearStudentState();
+    closeAccountMenu();
+  } catch (error) {
+    $("#activeUserHint").textContent = error.message;
+  } finally {
+    $("#logoutBtn").disabled = false;
+    $("#logoutBtn").textContent = "退出登录";
+  }
 }
 
 function openAccountMenu() {
@@ -295,6 +305,12 @@ function renderWrongbook(payload) {
 }
 
 async function loadWrongbook() {
+  if (!state.authenticated) {
+    $("#wrongbookBox").classList.add("muted");
+    $("#wrongbookBox").textContent = "请先登录后查看错题本。";
+    $("#wrongbookMeta").textContent = "未登录";
+    return;
+  }
   const payload = await requestJson(`/api/wrongbook?${queryForActiveUser()}`);
   renderWrongbook(payload);
 }
@@ -328,6 +344,12 @@ function renderWordStatus(payload) {
 }
 
 async function loadWordStatus() {
+  if (!state.authenticated) {
+    $("#wordStats").classList.add("muted");
+    $("#wordStats").textContent = "请先登录后开始单词打卡。";
+    $("#wordMeta").textContent = "未登录";
+    return;
+  }
   try {
     const payload = await requestJson(`/api/words/status?${queryForActiveUser()}`);
     renderWordStatus(payload);
@@ -444,6 +466,11 @@ function renderCurrentWord() {
 }
 
 async function startWordSession() {
+  if (!state.authenticated) {
+    openAccountMenu();
+    $("#activeUserHint").textContent = "请先登录或注册，再开始单词打卡。";
+    return;
+  }
   $("#startWordsBtn").disabled = true;
   $("#startWordsBtn").textContent = "抽取中...";
   resetWordEmpty();
@@ -451,7 +478,6 @@ async function startWordSession() {
     const payload = await requestJson("/api/words/session", {
       method: "POST",
       body: JSON.stringify({
-        user_id: activeUserId(),
         count: Number($("#wordCountInput").value || 20),
       }),
     });
@@ -487,7 +513,6 @@ async function reviewCurrentWord(result) {
     const payload = await requestJson("/api/words/review", {
       method: "POST",
       body: JSON.stringify({
-        user_id: activeUserId(),
         vocabulary_item_id: word.vocabulary_item_id,
         result,
       }),
@@ -523,6 +548,17 @@ function skipCurrentWord() {
 }
 
 async function refreshStudentData() {
+  if (!state.authenticated) {
+    $("#profileSummary").classList.add("muted");
+    $("#profileSummary").textContent = "请先登录后查看能力画像。";
+    $("#wrongbookBox").classList.add("muted");
+    $("#wrongbookBox").textContent = "请先登录后查看错题本。";
+    $("#wrongbookMeta").textContent = "未登录";
+    $("#wordStats").classList.add("muted");
+    $("#wordStats").textContent = "请先登录后开始单词打卡。";
+    $("#wordMeta").textContent = "未登录";
+    return;
+  }
   try {
     await loadProfile();
   } catch (error) {
@@ -559,12 +595,16 @@ function setSubmitLoading(isLoading) {
 }
 
 async function generateQuiz(mode = "random") {
+  if (!state.authenticated) {
+    openAccountMenu();
+    $("#activeUserHint").textContent = "请先登录或注册，再开始练习。";
+    return;
+  }
   showView("practice");
   $("#generateBtn").disabled = true;
   $("#generateBtn").textContent = "生成中...";
   try {
     const payload = {
-      user_id: activeUserId(),
       count: Number($("#countInput").value || 10),
       question_types: selectedValues("questionType"),
       years: selectedValues("year").map(Number),
@@ -661,7 +701,7 @@ async function submitQuiz(event) {
   try {
     state.result = await requestJson("/api/grade", {
       method: "POST",
-      body: JSON.stringify({ user_id: activeUserId(), title: "AIeyu student practice", answers }),
+      body: JSON.stringify({ title: "AIeyu student practice", answers }),
     });
     state.explanation = state.result.explanation || null;
     if (state.result.profile) {
@@ -774,7 +814,6 @@ async function sendFollowup() {
       method: "POST",
       body: JSON.stringify({
         thread_id: state.latestThreadId,
-        user_id: activeUserId(),
         message,
         confirm_external_send: true,
       }),
@@ -797,7 +836,7 @@ async function init() {
     $("#statusSummary").textContent = error.message;
   }
   try {
-    await loadUsers();
+    await loadAuthStatus();
   } catch (error) {
     $("#activeUserHint").textContent = error.message;
   }
@@ -829,8 +868,9 @@ for (const button of document.querySelectorAll(".navbtn")) {
   button.addEventListener("click", () => showView(button.dataset.view));
 }
 $("#accountButton").addEventListener("click", toggleAccountMenu);
-$("#switchUserBtn").addEventListener("click", () => switchUser($("#userSelect").value));
-$("#createUserBtn").addEventListener("click", createUser);
+$("#loginBtn").addEventListener("click", () => submitAuth("login"));
+$("#registerBtn").addEventListener("click", () => submitAuth("register"));
+$("#logoutBtn").addEventListener("click", logoutUser);
 $("#refreshWrongbookBtn").addEventListener("click", loadWrongbook);
 $("#startWordsBtn").addEventListener("click", startWordSession);
 $("#revealWordBtn").addEventListener("click", revealCurrentWord);

@@ -14,16 +14,20 @@
           <span aria-hidden="true">▾</span>
         </button>
         <div id="accountDropdown" class="account-dropdown hidden">
-          <div class="account-title">用户管理</div>
+          <div class="account-title">用户登录</div>
           <label class="field">
-            <span>切换学生</span>
-            <select id="userSelect"></select>
+            <span>姓名</span>
+            <input id="authName" type="text" maxlength="40" placeholder="输入你的姓名" />
           </label>
-          <button id="switchUserBtn" class="secondary" type="button">切换用户</button>
-          <div class="account-create">
-            <input id="newUserName" type="text" maxlength="40" placeholder="输入姓名新增名单" />
-            <button id="createUserBtn" class="secondary" type="button">新增</button>
+          <label class="field">
+            <span>访问码</span>
+            <input id="authPassword" type="password" maxlength="80" placeholder="至少 4 位" />
+          </label>
+          <div class="auth-actions">
+            <button id="loginBtn" class="secondary" type="button">登录</button>
+            <button id="registerBtn" class="secondary" type="button">注册</button>
           </div>
+          <button id="logoutBtn" class="secondary hidden" type="button">退出登录</button>
           <p id="activeUserHint" class="mini muted">正在读取学生...</p>
         </div>
       </div>

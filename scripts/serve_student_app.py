@@ -1,15 +1,19 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
+import hmac
 import json
 import mimetypes
 import os
 import random
 import re
+import secrets
 import sqlite3
 import urllib.error
 import urllib.request
 from datetime import datetime, timedelta
+from http.cookies import SimpleCookie
 from http import HTTPStatus
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -35,6 +39,9 @@ DEFAULT_MODEL = "deepseek-v4-flash"
 DEFAULT_RANDOM_QUESTION_TYPES = ["grammar_choice", "literature_choice", "culture_choice"]
 DIAGNOSTIC_QUESTION_TYPES = ["grammar_choice", "literature_choice", "culture_choice", "reading_choice"]
 READING_QUESTION_TYPE = "reading_choice"
+SESSION_COOKIE_NAME = "aieyu_session"
+SESSION_DAYS = 30
+PASSWORD_ITERATIONS = 210_000
 
 WORD_REVIEW_CONFIG = {
     "unknown": {"status": "learning", "correct": 0, "wrong": 1, "days": 1, "label": "不认识"},
@@ -84,6 +91,7 @@ def db() -> sqlite3.Connection:
     conn.execute("PRAGMA foreign_keys = ON")
     ensure_adaptive_tables(conn)
     ensure_default_user(conn)
+    ensure_auth_tables(conn)
     return conn
 
 
@@ -98,6 +106,201 @@ def normalize_user_id(raw_value: Any) -> int:
 
 def user_id_from_query(query: dict[str, list[str]]) -> int:
     return normalize_user_id(query.get("user_id", [DEFAULT_USER_ID])[0])
+
+
+def ensure_auth_tables(conn: sqlite3.Connection) -> None:
+    conn.executescript(
+        """
+        CREATE TABLE IF NOT EXISTS user_auth (
+          id INTEGER PRIMARY KEY AUTOINCREMENT,
+          user_id INTEGER NOT NULL UNIQUE,
+          login_name TEXT NOT NULL UNIQUE,
+          password_hash TEXT NOT NULL,
+          created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+          updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+          FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+        );
+
+        CREATE TABLE IF NOT EXISTS user_sessions (
+          id INTEGER PRIMARY KEY AUTOINCREMENT,
+          user_id INTEGER NOT NULL,
+          token_hash TEXT NOT NULL UNIQUE,
+          expires_at TEXT NOT NULL,
+          created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+          updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+          FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+        );
+
+        CREATE INDEX IF NOT EXISTS idx_user_sessions_token
+          ON user_sessions (token_hash, expires_at);
+        """
+    )
+
+
+def normalize_login_name(value: Any) -> str:
+    login_name = re.sub(r"\s+", " ", str(value or "").strip())
+    if not login_name:
+        raise ValueError("请填写姓名。")
+    if len(login_name) > 40:
+        raise ValueError("姓名不要超过 40 个字符。")
+    return login_name
+
+
+def normalize_password(value: Any) -> str:
+    password = str(value or "").strip()
+    if len(password) < 4:
+        raise ValueError("访问码至少 4 位。")
+    if len(password) > 80:
+        raise ValueError("访问码不要超过 80 位。")
+    return password
+
+
+def password_hash(password: str, salt_hex: str | None = None) -> str:
+    salt = bytes.fromhex(salt_hex) if salt_hex else secrets.token_bytes(16)
+    digest = hashlib.pbkdf2_hmac("sha256", password.encode("utf-8"), salt, PASSWORD_ITERATIONS)
+    return f"pbkdf2_sha256${PASSWORD_ITERATIONS}${salt.hex()}${digest.hex()}"
+
+
+def verify_password(password: str, stored_hash: str) -> bool:
+    try:
+        algorithm, iterations, salt_hex, expected_hex = stored_hash.split("$", 3)
+    except ValueError:
+        return False
+    if algorithm != "pbkdf2_sha256":
+        return False
+    digest = hashlib.pbkdf2_hmac("sha256", password.encode("utf-8"), bytes.fromhex(salt_hex), int(iterations))
+    return hmac.compare_digest(digest.hex(), expected_hex)
+
+
+def hash_session_token(token: str) -> str:
+    return hashlib.sha256(token.encode("utf-8")).hexdigest()
+
+
+def session_cookie(token: str, max_age: int = SESSION_DAYS * 24 * 60 * 60) -> str:
+    return f"{SESSION_COOKIE_NAME}={token}; Path=/; Max-Age={max_age}; HttpOnly; SameSite=Lax"
+
+
+def expired_session_cookie() -> str:
+    return f"{SESSION_COOKIE_NAME}=; Path=/; Max-Age=0; HttpOnly; SameSite=Lax"
+
+
+def create_session(conn: sqlite3.Connection, user_id: int) -> str:
+    token = secrets.token_urlsafe(32)
+    expires_at = (datetime.now() + timedelta(days=SESSION_DAYS)).strftime("%Y-%m-%d %H:%M:%S")
+    conn.execute(
+        """
+        INSERT INTO user_sessions (user_id, token_hash, expires_at)
+        VALUES (?, ?, ?)
+        """,
+        (user_id, hash_session_token(token), expires_at),
+    )
+    return token
+
+
+def cookie_token(handler: BaseHTTPRequestHandler) -> str | None:
+    raw_cookie = handler.headers.get("Cookie") or ""
+    cookie = SimpleCookie()
+    cookie.load(raw_cookie)
+    morsel = cookie.get(SESSION_COOKIE_NAME)
+    return morsel.value if morsel else None
+
+
+def authenticated_user(handler: BaseHTTPRequestHandler) -> sqlite3.Row:
+    token = cookie_token(handler)
+    if not token:
+        raise PermissionError("请先登录。")
+    with db() as conn:
+        row = conn.execute(
+            """
+            SELECT u.id, u.display_name, u.email, u.created_at, u.updated_at
+            FROM user_sessions us
+            JOIN users u ON u.id = us.user_id
+            WHERE us.token_hash = ?
+              AND datetime(us.expires_at) > datetime('now', 'localtime')
+            """,
+            (hash_session_token(token),),
+        ).fetchone()
+        if row is None:
+            raise PermissionError("登录状态已失效，请重新登录。")
+        conn.execute(
+            "UPDATE user_sessions SET updated_at = CURRENT_TIMESTAMP WHERE token_hash = ?",
+            (hash_session_token(token),),
+        )
+        conn.commit()
+        return row
+
+
+def authenticated_user_id(handler: BaseHTTPRequestHandler) -> int:
+    return int(authenticated_user(handler)["id"])
+
+
+def api_auth_status(handler: BaseHTTPRequestHandler) -> dict[str, Any]:
+    try:
+        user = authenticated_user(handler)
+    except PermissionError:
+        return {"authenticated": False, "user": None}
+    return {"authenticated": True, "user": public_user(user)}
+
+
+def api_register(payload: dict[str, Any]) -> tuple[dict[str, Any], str]:
+    display_name = normalize_login_name(payload.get("display_name"))
+    password = normalize_password(payload.get("password"))
+    email = str(payload.get("email") or "").strip() or None
+    with db() as conn:
+        existing = conn.execute(
+            "SELECT id FROM user_auth WHERE login_name = ?",
+            (display_name,),
+        ).fetchone()
+        if existing:
+            raise ValueError("这个姓名已经注册，请直接登录或换一个姓名。")
+        cursor = conn.execute(
+            """
+            INSERT INTO users (display_name, email)
+            VALUES (?, ?)
+            """,
+            (display_name, email),
+        )
+        user_id = int(cursor.lastrowid)
+        conn.execute(
+            """
+            INSERT INTO user_auth (user_id, login_name, password_hash)
+            VALUES (?, ?, ?)
+            """,
+            (user_id, display_name, password_hash(password)),
+        )
+        token = create_session(conn, user_id)
+        conn.commit()
+        user = ensure_user_exists(conn, user_id)
+    return {"authenticated": True, "user": public_user(user)}, session_cookie(token)
+
+
+def api_login(payload: dict[str, Any]) -> tuple[dict[str, Any], str]:
+    login_name = normalize_login_name(payload.get("display_name"))
+    password = normalize_password(payload.get("password"))
+    with db() as conn:
+        auth = conn.execute(
+            """
+            SELECT ua.user_id, ua.password_hash, u.id, u.display_name, u.email, u.created_at, u.updated_at
+            FROM user_auth ua
+            JOIN users u ON u.id = ua.user_id
+            WHERE ua.login_name = ?
+            """,
+            (login_name,),
+        ).fetchone()
+        if auth is None or not verify_password(password, auth["password_hash"]):
+            raise ValueError("姓名或访问码不正确。")
+        token = create_session(conn, int(auth["user_id"]))
+        conn.commit()
+    return {"authenticated": True, "user": public_user(auth)}, session_cookie(token)
+
+
+def api_logout(handler: BaseHTTPRequestHandler) -> tuple[dict[str, Any], str]:
+    token = cookie_token(handler)
+    if token:
+        with db() as conn:
+            conn.execute("DELETE FROM user_sessions WHERE token_hash = ?", (hash_session_token(token),))
+            conn.commit()
+    return {"authenticated": False, "user": None}, expired_session_cookie()
 
 
 def ensure_user_exists(conn: sqlite3.Connection, user_id: int) -> sqlite3.Row:
@@ -124,25 +327,15 @@ def public_user(row: sqlite3.Row) -> dict[str, Any]:
     }
 
 
-def api_users() -> dict[str, Any]:
+def api_users(user_id: int) -> dict[str, Any]:
     with db() as conn:
-        rows = conn.execute(
-            """
-            SELECT id, display_name, email, created_at, updated_at
-            FROM users
-            ORDER BY id
-            """
-        ).fetchall()
-    return {"default_user_id": DEFAULT_USER_ID, "users": [public_user(row) for row in rows]}
+        user = ensure_user_exists(conn, user_id)
+    return {"default_user_id": user_id, "users": [public_user(user)]}
 
 
 def api_create_user(payload: dict[str, Any]) -> dict[str, Any]:
-    display_name = str(payload.get("display_name") or "").strip()
+    display_name = normalize_login_name(payload.get("display_name"))
     email = str(payload.get("email") or "").strip() or None
-    if not display_name:
-        raise ValueError("请填写学生姓名。")
-    if len(display_name) > 40:
-        raise ValueError("学生姓名不要超过 40 个字符。")
     with db() as conn:
         try:
             cursor = conn.execute(
@@ -1340,7 +1533,18 @@ def generate_explanation_for_session(quiz_session_id: int) -> dict[str, Any]:
 def api_generate_explanation(payload: dict[str, Any]) -> dict[str, Any]:
     if not payload.get("confirm_external_send"):
         raise ValueError("请先确认允许把本次错题数据发送到 DeepSeek。")
-    return generate_explanation_for_session(int(payload["quiz_session_id"]))
+    user_id = normalize_user_id(payload.get("user_id"))
+    quiz_session_id = int(payload["quiz_session_id"])
+    with db() as conn:
+        session = conn.execute(
+            "SELECT user_id FROM quiz_sessions WHERE id = ?",
+            (quiz_session_id,),
+        ).fetchone()
+        if session is None:
+            raise ValueError(f"没有找到测试记录 {quiz_session_id}。")
+        if session["user_id"] is not None and int(session["user_id"]) != user_id:
+            raise ValueError("这个测试记录不属于当前学生。")
+    return generate_explanation_for_session(quiz_session_id)
 
 
 def api_followup(payload: dict[str, Any]) -> dict[str, Any]:
@@ -1400,10 +1604,17 @@ def api_followup(payload: dict[str, Any]) -> dict[str, Any]:
     return {"thread_id": thread_id, "assistant_text": assistant_text}
 
 
-def json_response(handler: BaseHTTPRequestHandler, status: HTTPStatus, payload: dict[str, Any]) -> None:
+def json_response(
+    handler: BaseHTTPRequestHandler,
+    status: HTTPStatus,
+    payload: dict[str, Any],
+    extra_headers: dict[str, str] | None = None,
+) -> None:
     body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
     handler.send_response(status)
     handler.send_header("Content-Type", "application/json; charset=utf-8")
+    for key, value in (extra_headers or {}).items():
+        handler.send_header(key, value)
     handler.send_header("Content-Length", str(len(body)))
     handler.end_headers()
     handler.wfile.write(body)
@@ -1419,25 +1630,30 @@ class StudentAppHandler(BaseHTTPRequestHandler):
             if parsed.path == "/api/status":
                 json_response(self, HTTPStatus.OK, api_status())
                 return
+            if parsed.path == "/api/auth/status":
+                json_response(self, HTTPStatus.OK, api_auth_status(self))
+                return
             if parsed.path == "/api/users":
-                json_response(self, HTTPStatus.OK, api_users())
+                user_id = authenticated_user_id(self)
+                json_response(self, HTTPStatus.OK, api_users(user_id))
                 return
             if parsed.path == "/api/profile":
-                json_response(self, HTTPStatus.OK, api_profile(user_id_from_query(query)))
+                json_response(self, HTTPStatus.OK, api_profile(authenticated_user_id(self)))
                 return
             if parsed.path == "/api/wrongbook":
-                user_id = user_id_from_query(query)
                 limit = int(query.get("limit", ["80"])[0])
-                json_response(self, HTTPStatus.OK, api_wrongbook(user_id, limit))
+                json_response(self, HTTPStatus.OK, api_wrongbook(authenticated_user_id(self), limit))
                 return
             if parsed.path == "/api/words/status":
-                json_response(self, HTTPStatus.OK, api_word_status(user_id_from_query(query)))
+                json_response(self, HTTPStatus.OK, api_word_status(authenticated_user_id(self)))
                 return
             if parsed.path == "/api/thread":
                 thread_id = int(query.get("id", ["1"])[0])
-                json_response(self, HTTPStatus.OK, api_thread(thread_id, user_id_from_query(query)))
+                json_response(self, HTTPStatus.OK, api_thread(thread_id, authenticated_user_id(self)))
                 return
             self.serve_static(parsed.path)
+        except PermissionError as exc:
+            json_response(self, HTTPStatus.UNAUTHORIZED, {"error": str(exc)})
         except Exception as exc:
             json_response(self, HTTPStatus.BAD_REQUEST, {"error": str(exc)})
 
@@ -1445,28 +1661,45 @@ class StudentAppHandler(BaseHTTPRequestHandler):
         try:
             length = int(self.headers.get("Content-Length") or 0)
             payload = json.loads(self.rfile.read(length).decode("utf-8") or "{}")
-            if self.path == "/api/users":
-                json_response(self, HTTPStatus.OK, api_create_user(payload))
+            if self.path == "/api/auth/register":
+                result, cookie = api_register(payload)
+                json_response(self, HTTPStatus.OK, result, {"Set-Cookie": cookie})
+                return
+            if self.path == "/api/auth/login":
+                result, cookie = api_login(payload)
+                json_response(self, HTTPStatus.OK, result, {"Set-Cookie": cookie})
+                return
+            if self.path == "/api/auth/logout":
+                result, cookie = api_logout(self)
+                json_response(self, HTTPStatus.OK, result, {"Set-Cookie": cookie})
                 return
             if self.path == "/api/quiz":
+                payload["user_id"] = authenticated_user_id(self)
                 json_response(self, HTTPStatus.OK, api_generate_quiz(payload))
                 return
             if self.path == "/api/grade":
+                payload["user_id"] = authenticated_user_id(self)
                 json_response(self, HTTPStatus.OK, api_grade(payload))
                 return
             if self.path == "/api/words/session":
+                payload["user_id"] = authenticated_user_id(self)
                 json_response(self, HTTPStatus.OK, api_word_session(payload))
                 return
             if self.path == "/api/words/review":
+                payload["user_id"] = authenticated_user_id(self)
                 json_response(self, HTTPStatus.OK, api_word_review(payload))
                 return
             if self.path == "/api/explain":
+                payload["user_id"] = authenticated_user_id(self)
                 json_response(self, HTTPStatus.OK, api_generate_explanation(payload))
                 return
             if self.path == "/api/followup":
+                payload["user_id"] = authenticated_user_id(self)
                 json_response(self, HTTPStatus.OK, api_followup(payload))
                 return
             json_response(self, HTTPStatus.NOT_FOUND, {"error": "Not found"})
+        except PermissionError as exc:
+            json_response(self, HTTPStatus.UNAUTHORIZED, {"error": str(exc)})
         except Exception as exc:
             json_response(self, HTTPStatus.BAD_REQUEST, {"error": str(exc)})
 

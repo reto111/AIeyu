@@ -97,6 +97,16 @@ button:disabled {
   margin-top: 10px;
 }
 
+.auth-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.auth-actions .secondary {
+  margin-top: 0;
+}
+
 .sidebar {
   display: flex;
   flex-direction: column;
