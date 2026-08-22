@@ -135,7 +135,7 @@ function renderUsers(usersPayload) {
     )
     .join("");
   const current = state.users.find((user) => Number(user.id) === activeUserId());
-  $("#accountButtonName").textContent = current ? current.display_name : "学生账号";
+  $("#accountButtonName").textContent = current ? `用户：${current.display_name}` : "用户：学生账号";
   $("#activeUserHint").textContent = current
     ? `当前记录写入：${current.display_name}`
     : "当前使用默认学生账号";

@@ -83,6 +83,12 @@ button:disabled {
   box-shadow: var(--shadow);
 }
 
+.account-title {
+  margin-bottom: 10px;
+  color: var(--green-dark);
+  font-weight: 800;
+}
+
 .account-dropdown .secondary {
   margin-top: 0;
 }
