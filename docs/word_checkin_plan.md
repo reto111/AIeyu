@@ -16,6 +16,9 @@
 - 当前候选词条数：4184 条，其中 3658 条自动解析，526 条需要重点人工复核。
 - 已创建单词模块数据库表。
 - 当前正式单词表 `vocabulary_items` 暂为 0 条，等待人工审核 CSV 后导入。
+- 已生成低风险简化校对表：`data/processed/words/tem8_words_review_simple.csv`。
+- 简化校对表当前保留 3199 条，不含拉丁字母/数字词形；`ё/e` 只做低风险纠错，真实 `ё` 保留。
+- 需人工处理表：`data/processed/words/tem8_words_needs_manual.csv`，当前 985 条，其中 402 条为 `ё/e` 不确定项。
 
 ## 2. 功能定位
 
@@ -264,6 +267,20 @@ scripts/extract_word_candidates.py
 ```text
 data/processed/words/tem8_words_review.csv
 ```
+
+当前建议优先使用低风险简化版：
+
+```text
+data/processed/words/tem8_words_review_simple.csv
+```
+
+简化版处理原则：
+
+- 不强行猜测中低置信 OCR 词形。
+- `ё/e` 不做全量替换，只纠正明显由重音 OCR 导致的误识别，例如 `Амёрика` 输出为 `Америка`。
+- 真实 `ё` 保留，例如 `актёр`、`берёзка`、`дирижёр`。
+- 释义只保留中文关键词，去掉后续例句、词组和长解释。
+- 无法可靠识别的词条进入 `tem8_words_needs_manual.csv`。
 
 ### Step 4. 人工校对
 

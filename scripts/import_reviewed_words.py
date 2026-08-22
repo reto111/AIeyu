@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "database" / "russian_ai_tutor.sqlite"
-DEFAULT_REVIEW_CSV = ROOT / "data" / "processed" / "words" / "tem8_words_review.csv"
+DEFAULT_REVIEW_CSV = ROOT / "data" / "processed" / "words" / "tem8_words_review_simple.csv"
 
 
 def fetch_tem8_ids(conn: sqlite3.Connection) -> tuple[int, int]:
