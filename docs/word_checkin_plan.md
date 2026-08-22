@@ -310,6 +310,34 @@ data/processed/words/tem8_words_simple_still_needs_review.csv
 
 注意：`tem8_words_review_simple_corrected_draft.csv` 仍是草稿，不应直接导入正式库；至少应先人工抽查中置信修正，再批量改为 `approved`。
 
+2026-08-22 更新：已继续用大模型语言能力复核上述 OCR 修正建议。
+
+本轮标准：
+
+- 不把规则修正自动等同于人工审核通过。
+- 只在俄语词形和中文核心意义能相互印证时标记为 `llm_approved`。
+- 词形看似可修但中文意义对不上时，标记为 `llm_rejected`。
+- 例句、谚语、格支配提示、短语碎片和乱码残片直接弃用。
+- 无法确定是否应作为词条的屈折形式，标记为 `llm_needs_review`。
+- 不做 `ё/e` 全量替换，真实 `ё` 继续保留。
+
+输出文件：
+
+```text
+data/processed/words/tem8_words_llm_corrected_candidates.csv
+data/processed/words/tem8_words_llm_approved_only.csv
+data/processed/words/tem8_words_llm_rejected_or_review.csv
+```
+
+当前结果：
+
+- `llm_approved`: 579 条。
+- `llm_rejected`: 36 条。
+- `llm_needs_review`: 3 条。
+- `not_checked`: 2581 条，主要为此前未发现明显词形风险的主表词条。
+
+注意：`llm_approved` 仍是“大模型建议通过”，不是正式入库审核状态。入库前应由用户确认或至少抽查后再批量转为 `approved`。
+
 生成校对表：
 
 ```text
