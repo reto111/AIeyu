@@ -183,9 +183,31 @@ AI 生成题目的推荐状态设计：
 - `scripts/audit_question_bank_quality.py`：扫描题干、选项、阅读文章长度和常见 OCR/切分风险。
 - `scripts/apply_question_quality_fixes.py`：应用高置信题库修正，并自动备份数据库。
 - `scripts/export_question_quality_review_context.py`：导出带完整题干、选项和人工复核字段的复核表。
+- `scripts/import_question_quality_manual_review.py`：导入人工修正后的复核表，导入前会校验题干、选项、答案和残留 OCR 噪声。
 - `data/processed/question_quality/question_quality_audit.csv`：完整审计明细。
 - `data/processed/question_quality/question_quality_manual_review_context.csv`：最终人工复核工作表。
 - `data/processed/question_quality/question_quality_auto_fixes.csv`：自动修正记录。
+
+2026-08-23 用户完成人工复核表后，已通过校验导入 13 道历年真题疑难项。导入后历年真题练习池恢复为 300 道 `approved + practice`，人工复核清单为 0。
+
+### 5.2 OCR 前水印预处理约定
+
+已确认部分 PDF 存在“沙拉俄语”斜向灰色水印，水印会干扰 OCR 和题目切分。2024 年扫描版还存在底部浅色社交平台水印。这类水印多数已经嵌入页面图像，不适合直接从 PDF 文字层删除。
+
+当前采用的稳定方案：
+
+- 原始 PDF 保留不动。
+- OCR 前先将 PDF 页面渲染成图片。
+- 使用黑白二值化保留黑色正文、抹掉浅灰水印。
+- 默认阈值为 `100`，不做自动对比度增强，避免把灰色水印压黑。
+- 对底部右侧浅色平台水印，默认擦除页面右下角非正文区域。
+- 生成的新文件只作为 OCR/切分输入，不作为原始资料替代。
+
+相关脚本与输出：
+
+- `scripts/preprocess_pdf_for_ocr.py`：生成去水印/二值化 OCR 清洁版 PDF。
+- `data/processed/ocr_clean_pdfs/`：批量生成的 OCR 清洁版 PDF。
+- 后续若重新 OCR 或重新切题，应优先使用 `ocr_clean_pdfs` 中的文件，而不是直接使用 `data/raw_pdfs`。
 
 RAG 更适合用于：
 
