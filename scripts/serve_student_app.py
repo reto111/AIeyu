@@ -46,8 +46,7 @@ PASSWORD_ITERATIONS = 210_000
 WORD_REVIEW_CONFIG = {
     "unknown": {"status": "learning", "correct": 0, "wrong": 1, "days": 1, "label": "不认识"},
     "fuzzy": {"status": "fuzzy", "correct": 0, "wrong": 1, "days": 2, "label": "模糊"},
-    "known": {"status": "known", "correct": 1, "wrong": 0, "days": 4, "label": "认识"},
-    "mastered": {"status": "mastered", "correct": 1, "wrong": 0, "days": 10, "label": "已掌握"},
+    "known": {"status": "known", "correct": 1, "wrong": 0, "days": None, "label": "认识"},
 }
 
 WORD_STATUS_NAMES = {
@@ -55,7 +54,6 @@ WORD_STATUS_NAMES = {
     "learning": "学习中",
     "fuzzy": "模糊",
     "known": "认识",
-    "mastered": "已掌握",
 }
 
 
@@ -495,12 +493,20 @@ def clean_word_meaning_for_display(value: str | None) -> str:
 
 
 def public_word(row: sqlite3.Row) -> dict[str, Any]:
+    row_keys = set(row.keys())
+    examples_raw = row["examples"] if "examples" in row_keys else ""
+    examples = [
+        clean_word_meaning_for_display(item)
+        for item in str(examples_raw or "").split("\n")
+        if clean_word_meaning_for_display(item)
+    ][:3]
     return {
         "vocabulary_item_id": row["id"],
         "word": row["word"],
         "lemma": row["lemma"],
         "part_of_speech": row["part_of_speech"],
         "meaning_zh": clean_word_meaning_for_display(row["meaning_zh"]),
+        "examples": examples,
         "source_page": row["source_page"],
         "progress_status": row["progress_status"] or "new",
         "progress_status_zh": WORD_STATUS_NAMES.get(row["progress_status"] or "new", "未开始"),
@@ -523,7 +529,7 @@ def api_word_status(user_id: int = DEFAULT_USER_ID) -> dict[str, Any]:
         ).fetchone()[0]
         reviewed_today = conn.execute(
             """
-            SELECT COUNT(*)
+            SELECT COUNT(DISTINCT vocabulary_item_id)
             FROM word_review_logs
             WHERE user_id = ?
               AND date(reviewed_at) = date('now', 'localtime')
@@ -565,7 +571,7 @@ def api_word_status(user_id: int = DEFAULT_USER_ID) -> dict[str, Any]:
                 "name_zh": WORD_STATUS_NAMES[status],
                 "count": int(by_status.get(status, 0)),
             }
-            for status in ["learning", "fuzzy", "known", "mastered"]
+            for status in ["learning", "fuzzy", "known"]
         ],
     }
 
@@ -577,7 +583,12 @@ def select_word_rows(conn: sqlite3.Connection, user_id: int, count: int) -> list
         SELECT
           vi.id, vi.word, vi.lemma, vi.part_of_speech, vi.meaning_zh, vi.source_page,
           uwp.status AS progress_status, uwp.seen_count, uwp.correct_count, uwp.wrong_count,
-          uwp.next_review_at
+          uwp.next_review_at,
+          (
+            SELECT group_concat(vf.form_text, char(10))
+            FROM vocabulary_forms vf
+            WHERE vf.vocabulary_item_id = vi.id AND vf.form_type = 'example'
+          ) AS examples
         FROM user_word_progress uwp
         JOIN vocabulary_items vi ON vi.id = uwp.vocabulary_item_id
         WHERE uwp.user_id = ?
@@ -613,7 +624,12 @@ def select_word_rows(conn: sqlite3.Connection, user_id: int, count: int) -> list
         SELECT
           vi.id, vi.word, vi.lemma, vi.part_of_speech, vi.meaning_zh, vi.source_page,
           NULL AS progress_status, 0 AS seen_count, 0 AS correct_count, 0 AS wrong_count,
-          NULL AS next_review_at
+          NULL AS next_review_at,
+          (
+            SELECT group_concat(vf.form_text, char(10))
+            FROM vocabulary_forms vf
+            WHERE vf.vocabulary_item_id = vi.id AND vf.form_type = 'example'
+          ) AS examples
         FROM vocabulary_items vi
         LEFT JOIN user_word_progress uwp
           ON uwp.vocabulary_item_id = vi.id AND uwp.user_id = ?
@@ -650,7 +666,10 @@ def api_word_session(payload: dict[str, Any]) -> dict[str, Any]:
 
 
 def next_word_review_time(result: str) -> str:
-    days = int(WORD_REVIEW_CONFIG[result]["days"])
+    days = WORD_REVIEW_CONFIG[result]["days"]
+    if days is None:
+        return ""
+    days = int(days)
     return (datetime.now() + timedelta(days=days)).strftime("%Y-%m-%d %H:%M:%S")
 
 
@@ -658,12 +677,16 @@ def api_word_review(payload: dict[str, Any]) -> dict[str, Any]:
     user_id = normalize_user_id(payload.get("user_id"))
     vocabulary_item_id = int(payload.get("vocabulary_item_id") or 0)
     result = str(payload.get("result") or "").strip()
+    previous_result = str(payload.get("previous_result") or "").strip()
+    is_correction = bool(payload.get("correction"))
     if result not in WORD_REVIEW_CONFIG:
-        raise ValueError("请选择：不认识、模糊、认识或已掌握。")
+        raise ValueError("请选择：不认识、模糊或认识。")
+    if previous_result and previous_result not in WORD_REVIEW_CONFIG:
+        previous_result = ""
 
     config = WORD_REVIEW_CONFIG[result]
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    next_review_at = next_word_review_time(result)
+    next_review_at = next_word_review_time(result) or None
 
     with db() as conn:
         ensure_user_exists(conn, user_id)
@@ -689,16 +712,20 @@ def api_word_review(payload: dict[str, Any]) -> dict[str, Any]:
             """,
             (user_id, vocabulary_item_id),
         ).fetchone()
-        seen_count = int(current["seen_count"] if current else 0) + 1
-        correct_count = int(current["correct_count"] if current else 0) + int(config["correct"])
-        wrong_count = int(current["wrong_count"] if current else 0) + int(config["wrong"])
+        seen_delta = 0 if is_correction and current else 1
+        previous_config = WORD_REVIEW_CONFIG.get(previous_result) if is_correction else None
+        correct_delta = int(config["correct"]) - int(previous_config["correct"]) if previous_config else int(config["correct"])
+        wrong_delta = int(config["wrong"]) - int(previous_config["wrong"]) if previous_config else int(config["wrong"])
+        seen_count = int(current["seen_count"] if current else 0) + seen_delta
+        correct_count = max(0, int(current["correct_count"] if current else 0) + correct_delta)
+        wrong_count = max(0, int(current["wrong_count"] if current else 0) + wrong_delta)
         ease_factor = float(current["ease_factor"] if current else 2.5)
         if result == "unknown":
             ease_factor = max(1.3, ease_factor - 0.2)
         elif result == "fuzzy":
             ease_factor = max(1.3, ease_factor - 0.1)
-        elif result == "mastered":
-            ease_factor = min(3.0, ease_factor + 0.1)
+        elif result == "known":
+            ease_factor = min(3.0, ease_factor + 0.05)
 
         conn.execute(
             """
@@ -735,9 +762,16 @@ def api_word_review(payload: dict[str, Any]) -> dict[str, Any]:
             INSERT INTO word_review_logs (
               user_id, vocabulary_item_id, review_mode, prompt_type, user_response, result, reviewed_at
             )
-            VALUES (?, ?, 'daily_checkin', 'ru_to_zh', ?, ?, ?)
+            VALUES (?, ?, ?, 'ru_to_zh', ?, ?, ?)
             """,
-            (user_id, vocabulary_item_id, config["label"], result, now),
+            (
+                user_id,
+                vocabulary_item_id,
+                "daily_checkin",
+                f"{config['label']}（校正）" if is_correction else config["label"],
+                result,
+                now,
+            ),
         )
         conn.commit()
         updated = conn.execute(
@@ -745,7 +779,12 @@ def api_word_review(payload: dict[str, Any]) -> dict[str, Any]:
             SELECT
               vi.id, vi.word, vi.lemma, vi.part_of_speech, vi.meaning_zh, vi.source_page,
               uwp.status AS progress_status, uwp.seen_count, uwp.correct_count,
-              uwp.wrong_count, uwp.next_review_at
+              uwp.wrong_count, uwp.next_review_at,
+              (
+                SELECT group_concat(vf.form_text, char(10))
+                FROM vocabulary_forms vf
+                WHERE vf.vocabulary_item_id = vi.id AND vf.form_type = 'example'
+              ) AS examples
             FROM vocabulary_items vi
             JOIN user_word_progress uwp ON uwp.vocabulary_item_id = vi.id
             WHERE vi.id = ? AND uwp.user_id = ?

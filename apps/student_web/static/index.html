@@ -175,17 +175,15 @@
                   <h3 id="wordText"></h3>
                   <p id="wordPart" class="mini"></p>
                   <div id="wordMeaning" class="word-meaning hidden"></div>
-                  <button id="revealWordBtn" class="secondary" type="button">显示释义</button>
+                  <div id="wordExamples" class="word-examples hidden"></div>
                   <div class="word-actions">
-                    <button type="button" data-word-result="unknown">不认识</button>
-                    <button type="button" data-word-result="fuzzy">模糊</button>
                     <button type="button" data-word-result="known">认识</button>
-                    <button type="button" data-word-result="mastered">已掌握</button>
+                    <button type="button" data-word-result="fuzzy">模糊</button>
+                    <button type="button" data-word-result="unknown">不认识</button>
                   </div>
                   <div class="word-nav">
-                    <button id="prevWordBtn" class="secondary" type="button">上一词</button>
-                    <button id="skipWordBtn" class="secondary" type="button">稍后再看</button>
                     <button id="nextWordBtn" class="secondary" type="button">下一词</button>
+                    <button id="markWordWrongBtn" class="secondary danger" type="button">记错了</button>
                   </div>
                   <p id="wordHint" class="mini muted"></p>
                 </article>
@@ -201,10 +199,9 @@
                 <section class="panel">
                   <h2>复习规则</h2>
                   <div class="review-rules">
-                    <p><strong>不认识</strong><span>明天复习</span></p>
+                    <p><strong>认识</strong><span>不进入复习词库</span></p>
                     <p><strong>模糊</strong><span>2 天后复习</span></p>
-                    <p><strong>认识</strong><span>4 天后复习</span></p>
-                    <p><strong>已掌握</strong><span>10 天后复习</span></p>
+                    <p><strong>不认识</strong><span>每天复习直到认识</span></p>
                   </div>
                 </section>
               </aside>

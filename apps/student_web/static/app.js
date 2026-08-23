@@ -30,8 +30,6 @@ const WORD_RESULT_LABELS = {
   unknown: "不认识",
   fuzzy: "模糊",
   known: "认识",
-  mastered: "已掌握",
-  skipped: "稍后再看",
 };
 
 function optionLabel(item) {
@@ -364,18 +362,26 @@ function currentWord() {
 }
 
 function freshWordStats() {
-  return { unknown: 0, fuzzy: 0, known: 0, mastered: 0, skipped: 0 };
+  return { unknown: 0, fuzzy: 0, known: 0 };
 }
 
 function reviewedWordCount() {
   return (state.wordSession?.words || []).filter((word) => word.session_result).length;
 }
 
+function reviewHintForResult(result) {
+  if (result === "known") return "已记录为认识：这个词不会进入复习词库。";
+  if (result === "fuzzy") return "已记录为模糊：2 天后会再次复习。";
+  if (result === "unknown") return "已记录为不认识：会每天复习，直到你标记为认识。";
+  return "";
+}
+
 function setWordActionLoading(isLoading) {
   for (const button of document.querySelectorAll("[data-word-result]")) {
     button.disabled = isLoading;
   }
-  $("#revealWordBtn").disabled = isLoading;
+  $("#nextWordBtn").disabled = isLoading;
+  $("#markWordWrongBtn").disabled = isLoading;
 }
 
 function setWordActionDisabled(isDisabled) {
@@ -403,19 +409,17 @@ function renderWordSummary() {
   $("#wordSessionSummary").innerHTML = `
     <h2>本次打卡完成</h2>
     <div class="word-summary-grid">
-      <div><strong>${stats.unknown}</strong><span>不认识</span></div>
-      <div><strong>${stats.fuzzy}</strong><span>模糊</span></div>
       <div><strong>${stats.known}</strong><span>认识</span></div>
-      <div><strong>${stats.mastered}</strong><span>已掌握</span></div>
-      <div><strong>${stats.skipped}</strong><span>稍后再看</span></div>
+      <div><strong>${stats.fuzzy}</strong><span>模糊</span></div>
+      <div><strong>${stats.unknown}</strong><span>不认识</span></div>
     </div>
-    <p class="mini muted">已记录的单词会按复习间隔进入当前学生账号；稍后再看的词不会写入记录。</p>
+    <p class="mini muted">认识的词不进入复习词库；模糊词 2 天后复习；不认识的词每天复习直到认识。</p>
   `;
 }
 
 function shouldShowSummary() {
   const words = state.wordSession?.words || [];
-  return words.length > 0 && words.every((word) => word.session_result);
+  return words.length > 0 && state.currentWordIndex >= words.length && words.every((word) => word.session_result);
 }
 
 function renderCurrentWord() {
@@ -449,20 +453,32 @@ function renderCurrentWord() {
   $("#wordPart").textContent = [word.part_of_speech, word.source_page ? `来源页 ${word.source_page}` : ""]
     .filter(Boolean)
     .join(" · ");
-  $("#wordMeaning").classList.toggle("hidden", !word.session_result);
-  $("#wordMeaning").textContent = word.meaning_zh;
-  $("#revealWordBtn").textContent = word.session_result ? "释义已显示" : "显示释义";
-  $("#wordHint").textContent = word.session_result
-    ? "这张卡片已处理，可以查看上一词或下一词。"
+  const hasReviewed = Boolean(word.session_result);
+  $("#wordMeaning").classList.toggle("hidden", !hasReviewed);
+  $("#wordMeaning").innerHTML = hasReviewed
+    ? `<strong>词义</strong><p>${escapeHtml(word.meaning_zh || "暂无释义")}</p>`
     : "";
+  const examples = word.examples || [];
+  $("#wordExamples").classList.toggle("hidden", !hasReviewed || examples.length === 0);
+  $("#wordExamples").innerHTML = examples.length
+    ? `
+      <strong>例句</strong>
+      ${examples.map((example) => `<p>${escapeHtml(example)}</p>`).join("")}
+    `
+    : "";
+  $(".word-actions").classList.toggle("hidden", hasReviewed);
+  $(".word-nav").classList.toggle("hidden", !hasReviewed);
+  $("#wordHint").textContent = hasReviewed
+    ? reviewHintForResult(word.session_result)
+    : "先判断自己是否认识这个词。选择后会显示释义。";
   const done = reviewedWordCount();
   $("#wordSessionMeta").textContent = `${done}/${words.length} 已处理`;
   $("#wordProgressBar").style.width = `${Math.round((done / Math.max(words.length, 1)) * 100)}%`;
-  $("#prevWordBtn").disabled = state.currentWordIndex <= 0;
-  $("#nextWordBtn").disabled = state.currentWordIndex >= words.length - 1;
-  $("#skipWordBtn").disabled = Boolean(word.session_result);
   setWordActionLoading(false);
-  setWordActionDisabled(Boolean(word.session_result));
+  setWordActionDisabled(hasReviewed);
+  $("#nextWordBtn").textContent = state.currentWordIndex >= words.length - 1 ? "完成本次" : "下一词";
+  $("#nextWordBtn").disabled = !hasReviewed;
+  $("#markWordWrongBtn").disabled = !hasReviewed || word.session_result === "unknown";
 }
 
 async function startWordSession() {
@@ -496,17 +512,10 @@ async function startWordSession() {
   }
 }
 
-function revealCurrentWord() {
-  const box = $("#wordMeaning");
-  box.classList.remove("hidden");
-  $("#revealWordBtn").textContent = "已显示释义";
-}
-
 async function reviewCurrentWord(result) {
   const word = currentWord();
   if (!word) return;
   if (word.session_result) return;
-  revealCurrentWord();
   setWordActionLoading(true);
   $("#wordHint").textContent = "正在记录...";
   try {
@@ -523,7 +532,6 @@ async function reviewCurrentWord(result) {
     if (payload.status) {
       renderWordStatus(payload.status);
     }
-    state.currentWordIndex = Math.min(state.currentWordIndex + 1, state.wordSession.words.length - 1);
     renderCurrentWord();
   } catch (error) {
     $("#wordHint").textContent = error.message;
@@ -531,20 +539,43 @@ async function reviewCurrentWord(result) {
   }
 }
 
-function moveWord(delta) {
+function showNextWord() {
   const words = state.wordSession?.words || [];
   if (!words.length) return;
-  state.currentWordIndex = Math.max(0, Math.min(words.length - 1, state.currentWordIndex + delta));
+  const word = currentWord();
+  if (word && !word.session_result) return;
+  state.currentWordIndex += 1;
   renderCurrentWord();
 }
 
-function skipCurrentWord() {
+async function markCurrentWordWrong() {
   const word = currentWord();
-  if (!word || word.session_result) return;
-  word.session_result = "skipped";
-  state.wordSessionStats.skipped += 1;
-  state.currentWordIndex = Math.min(state.currentWordIndex + 1, state.wordSession.words.length - 1);
-  renderCurrentWord();
+  if (!word || !word.session_result || word.session_result === "unknown") return;
+  const previousResult = word.session_result;
+  setWordActionLoading(true);
+  $("#wordHint").textContent = "正在改为不认识...";
+  try {
+    const payload = await requestJson("/api/words/review", {
+      method: "POST",
+      body: JSON.stringify({
+        vocabulary_item_id: word.vocabulary_item_id,
+        result: "unknown",
+        previous_result: previousResult,
+        correction: true,
+      }),
+    });
+    state.wordSessionStats[previousResult] = Math.max(0, state.wordSessionStats[previousResult] - 1);
+    state.wordSessionStats.unknown += 1;
+    word.session_result = "unknown";
+    word.progress_status_zh = payload.word?.progress_status_zh || "学习中";
+    if (payload.status) {
+      renderWordStatus(payload.status);
+    }
+    renderCurrentWord();
+  } catch (error) {
+    $("#wordHint").textContent = error.message;
+    setWordActionLoading(false);
+  }
 }
 
 async function refreshStudentData() {
@@ -873,10 +904,8 @@ $("#registerBtn").addEventListener("click", () => submitAuth("register"));
 $("#logoutBtn").addEventListener("click", logoutUser);
 $("#refreshWrongbookBtn").addEventListener("click", loadWrongbook);
 $("#startWordsBtn").addEventListener("click", startWordSession);
-$("#revealWordBtn").addEventListener("click", revealCurrentWord);
-$("#prevWordBtn").addEventListener("click", () => moveWord(-1));
-$("#nextWordBtn").addEventListener("click", () => moveWord(1));
-$("#skipWordBtn").addEventListener("click", skipCurrentWord);
+$("#nextWordBtn").addEventListener("click", showNextWord);
+$("#markWordWrongBtn").addEventListener("click", markCurrentWordWrong);
 for (const button of document.querySelectorAll("[data-word-result]")) {
   button.addEventListener("click", () => reviewCurrentWord(button.dataset.wordResult));
 }
