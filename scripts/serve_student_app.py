@@ -546,6 +546,16 @@ def api_word_status(user_id: int = DEFAULT_USER_ID) -> dict[str, Any]:
             """,
             (user_id,),
         ).fetchone()[0]
+        review_pool_count = conn.execute(
+            """
+            SELECT COUNT(*)
+            FROM user_word_progress
+            WHERE user_id = ?
+              AND status IN ('learning', 'fuzzy')
+              AND next_review_at IS NOT NULL
+            """,
+            (user_id,),
+        ).fetchone()[0]
         by_status = {
             row["status"]: row["count"]
             for row in conn.execute(
@@ -565,6 +575,7 @@ def api_word_status(user_id: int = DEFAULT_USER_ID) -> dict[str, Any]:
         "progress_total": progress_total,
         "reviewed_today": reviewed_today,
         "due_count": due_count,
+        "review_pool_count": review_pool_count,
         "by_status": [
             {
                 "status": status,
@@ -573,6 +584,70 @@ def api_word_status(user_id: int = DEFAULT_USER_ID) -> dict[str, Any]:
             }
             for status in ["learning", "fuzzy", "known"]
         ],
+    }
+
+
+def select_review_pool_rows(conn: sqlite3.Connection, user_id: int, count: int) -> list[sqlite3.Row]:
+    return conn.execute(
+        """
+        SELECT
+          vi.id, vi.word, vi.lemma, vi.part_of_speech, vi.meaning_zh, vi.source_page,
+          uwp.status AS progress_status, uwp.seen_count, uwp.correct_count, uwp.wrong_count,
+          uwp.next_review_at,
+          (
+            SELECT group_concat(vf.form_text, char(10))
+            FROM vocabulary_forms vf
+            WHERE vf.vocabulary_item_id = vi.id AND vf.form_type = 'example'
+          ) AS examples
+        FROM user_word_progress uwp
+        JOIN vocabulary_items vi ON vi.id = uwp.vocabulary_item_id
+        WHERE uwp.user_id = ?
+          AND vi.review_status = 'approved'
+          AND uwp.status IN ('learning', 'fuzzy')
+          AND uwp.next_review_at IS NOT NULL
+        ORDER BY
+          CASE WHEN datetime(uwp.next_review_at) <= datetime('now', 'localtime') THEN 0 ELSE 1 END,
+          datetime(uwp.next_review_at),
+          uwp.wrong_count DESC,
+          RANDOM()
+        LIMIT ?
+        """,
+        (user_id, count),
+    ).fetchall()
+
+
+def api_word_review_pool(user_id: int = DEFAULT_USER_ID, limit: int = 80) -> dict[str, Any]:
+    limit = max(1, min(int(limit or 80), 200))
+    with db() as conn:
+        user = ensure_user_exists(conn, user_id)
+        total = conn.execute(
+            """
+            SELECT COUNT(*)
+            FROM user_word_progress
+            WHERE user_id = ?
+              AND status IN ('learning', 'fuzzy')
+              AND next_review_at IS NOT NULL
+            """,
+            (user_id,),
+        ).fetchone()[0]
+        due_count = conn.execute(
+            """
+            SELECT COUNT(*)
+            FROM user_word_progress
+            WHERE user_id = ?
+              AND status IN ('learning', 'fuzzy')
+              AND next_review_at IS NOT NULL
+              AND datetime(next_review_at) <= datetime('now', 'localtime')
+            """,
+            (user_id,),
+        ).fetchone()[0]
+        rows = select_review_pool_rows(conn, user_id, limit)
+        words = [public_word(row) for row in rows]
+    return {
+        "user": public_user(user),
+        "total": total,
+        "due_count": due_count,
+        "words": words,
     }
 
 
@@ -651,15 +726,17 @@ def select_word_rows(conn: sqlite3.Connection, user_id: int, count: int) -> list
 def api_word_session(payload: dict[str, Any]) -> dict[str, Any]:
     user_id = normalize_user_id(payload.get("user_id"))
     count = max(1, min(int(payload.get("count") or 20), 50))
+    mode = str(payload.get("mode") or "mixed").strip()
     with db() as conn:
         user = ensure_user_exists(conn, user_id)
-        rows = select_word_rows(conn, user_id, count)
+        rows = select_review_pool_rows(conn, user_id, count) if mode == "review" else select_word_rows(conn, user_id, count)
         user_payload = public_user(user)
         words = [public_word(row) for row in rows]
     status = api_word_status(user_id)
     return {
         "user": user_payload,
         "count": len(words),
+        "mode": "review" if mode == "review" else "mixed",
         "words": words,
         "status": status,
     }
@@ -1685,6 +1762,10 @@ class StudentAppHandler(BaseHTTPRequestHandler):
                 return
             if parsed.path == "/api/words/status":
                 json_response(self, HTTPStatus.OK, api_word_status(authenticated_user_id(self)))
+                return
+            if parsed.path == "/api/words/review-pool":
+                limit = int(query.get("limit", ["80"])[0])
+                json_response(self, HTTPStatus.OK, api_word_review_pool(authenticated_user_id(self), limit))
                 return
             if parsed.path == "/api/thread":
                 thread_id = int(query.get("id", ["1"])[0])

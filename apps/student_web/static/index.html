@@ -182,6 +182,7 @@
                     <button type="button" data-word-result="unknown">不认识</button>
                   </div>
                   <div class="word-nav">
+                    <button id="prevWordBtn" class="secondary" type="button">上一词</button>
                     <button id="nextWordBtn" class="secondary" type="button">下一词</button>
                     <button id="markWordWrongBtn" class="secondary danger" type="button">记错了</button>
                   </div>
@@ -197,12 +198,12 @@
                   <div id="wordStats" class="word-stats muted">正在读取单词进度...</div>
                 </section>
                 <section class="panel">
-                  <h2>复习规则</h2>
-                  <div class="review-rules">
-                    <p><strong>认识</strong><span>不进入复习词库</span></p>
-                    <p><strong>模糊</strong><span>2 天后复习</span></p>
-                    <p><strong>不认识</strong><span>每天复习直到认识</span></p>
+                  <div class="panel-titleline">
+                    <h2>复习词库</h2>
+                    <span id="reviewPoolMeta" class="mini muted">正在读取</span>
                   </div>
+                  <div id="reviewPoolBox" class="review-pool muted">正在读取复习词库...</div>
+                  <button id="startReviewWordsBtn" class="secondary fullwidth" type="button">立即复习</button>
                 </section>
               </aside>
             </div>

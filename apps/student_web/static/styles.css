@@ -769,7 +769,7 @@ textarea {
 
 .word-nav {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
   align-self: end;
 }
@@ -849,6 +849,41 @@ textarea {
   display: grid;
   gap: 8px;
   margin-top: 12px;
+}
+
+.review-pool {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+  max-height: 340px;
+  overflow: auto;
+}
+
+.review-pool-list {
+  display: grid;
+  gap: 8px;
+}
+
+.review-pool-item {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.review-pool-item:last-child {
+  border-bottom: 0;
+}
+
+.review-pool-item strong {
+  color: var(--text);
+}
+
+.review-pool-item span {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
 }
 
 .word-status-list p,

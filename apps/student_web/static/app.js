@@ -10,6 +10,7 @@ const state = {
   profile: null,
   wrongbook: null,
   wordStatus: null,
+  wordReviewPool: null,
   wordSession: null,
   currentWordIndex: 0,
   wordSessionStats: null,
@@ -118,6 +119,7 @@ function clearStudentState() {
   state.result = null;
   state.explanation = null;
   state.wordStatus = null;
+  state.wordReviewPool = null;
   state.wordSession = null;
   state.currentWordIndex = 0;
   state.wordSessionStats = null;
@@ -133,6 +135,10 @@ function clearStudentState() {
   $("#wordEmpty").classList.remove("hidden");
   resetWordEmpty();
   $("#wordSessionMeta").textContent = "尚未开始";
+  $("#reviewPoolBox").classList.add("muted");
+  $("#reviewPoolBox").textContent = "请先登录后查看复习词库。";
+  $("#reviewPoolMeta").textContent = "未登录";
+  $("#startReviewWordsBtn").disabled = true;
 }
 
 function renderAuthStatus(payload) {
@@ -315,7 +321,7 @@ async function loadWrongbook() {
 
 function renderWordStatus(payload) {
   state.wordStatus = payload;
-  $("#wordMeta").textContent = `${payload.reviewed_today} 个今日已打卡 · ${payload.due_count} 个待复习`;
+  $("#wordMeta").textContent = `${payload.reviewed_today} 个今日已打卡 · ${payload.review_pool_count || 0} 个复习词`;
 
   const statusRows = payload.by_status || [];
   $("#wordStats").classList.remove("muted");
@@ -341,16 +347,65 @@ function renderWordStatus(payload) {
   `;
 }
 
+function renderWordReviewPool(payload) {
+  state.wordReviewPool = payload;
+  const words = payload.words || [];
+  $("#reviewPoolMeta").textContent = `${payload.total} 个词`;
+  $("#startReviewWordsBtn").disabled = !payload.total;
+  if (!payload.total) {
+    $("#reviewPoolBox").classList.add("muted");
+    $("#reviewPoolBox").textContent = "暂无复习词。";
+    return;
+  }
+  $("#reviewPoolBox").classList.remove("muted");
+  $("#reviewPoolBox").innerHTML = `
+    <div class="review-pool-list">
+      ${words
+        .slice(0, 12)
+        .map(
+          (word) => `
+            <p class="review-pool-item">
+              <strong>${escapeHtml(word.word)}</strong>
+              <span>${escapeHtml(word.meaning_zh || "暂无释义")}</span>
+            </p>
+          `
+        )
+        .join("")}
+    </div>
+  `;
+}
+
+async function loadWordReviewPool() {
+  if (!state.authenticated) {
+    $("#reviewPoolBox").classList.add("muted");
+    $("#reviewPoolBox").textContent = "请先登录后查看复习词库。";
+    $("#reviewPoolMeta").textContent = "未登录";
+    $("#startReviewWordsBtn").disabled = true;
+    return;
+  }
+  try {
+    const payload = await requestJson(`/api/words/review-pool?limit=80&${queryForActiveUser()}`);
+    renderWordReviewPool(payload);
+  } catch (error) {
+    $("#reviewPoolBox").classList.add("muted");
+    $("#reviewPoolBox").textContent = error.message;
+    $("#reviewPoolMeta").textContent = "读取失败";
+    $("#startReviewWordsBtn").disabled = true;
+  }
+}
+
 async function loadWordStatus() {
   if (!state.authenticated) {
     $("#wordStats").classList.add("muted");
     $("#wordStats").textContent = "请先登录后开始单词打卡。";
     $("#wordMeta").textContent = "未登录";
+    await loadWordReviewPool();
     return;
   }
   try {
     const payload = await requestJson(`/api/words/status?${queryForActiveUser()}`);
     renderWordStatus(payload);
+    await loadWordReviewPool();
   } catch (error) {
     $("#wordStats").textContent = error.message;
     $("#wordMeta").textContent = "读取失败";
@@ -370,9 +425,9 @@ function reviewedWordCount() {
 }
 
 function reviewHintForResult(result) {
-  if (result === "known") return "已记录为认识：这个词不会进入复习词库。";
-  if (result === "fuzzy") return "已记录为模糊：2 天后会再次复习。";
-  if (result === "unknown") return "已记录为不认识：会每天复习，直到你标记为认识。";
+  if (result === "known") return "已记录为认识。";
+  if (result === "fuzzy") return "已记录为模糊。";
+  if (result === "unknown") return "已记录为不认识。";
   return "";
 }
 
@@ -380,6 +435,7 @@ function setWordActionLoading(isLoading) {
   for (const button of document.querySelectorAll("[data-word-result]")) {
     button.disabled = isLoading;
   }
+  $("#prevWordBtn").disabled = isLoading;
   $("#nextWordBtn").disabled = isLoading;
   $("#markWordWrongBtn").disabled = isLoading;
 }
@@ -413,7 +469,7 @@ function renderWordSummary() {
       <div><strong>${stats.fuzzy}</strong><span>模糊</span></div>
       <div><strong>${stats.unknown}</strong><span>不认识</span></div>
     </div>
-    <p class="mini muted">认识的词不进入复习词库；模糊词 2 天后复习；不认识的词每天复习直到认识。</p>
+    <button class="secondary" type="button" data-word-summary-prev>回到上一词</button>
   `;
 }
 
@@ -476,12 +532,13 @@ function renderCurrentWord() {
   $("#wordProgressBar").style.width = `${Math.round((done / Math.max(words.length, 1)) * 100)}%`;
   setWordActionLoading(false);
   setWordActionDisabled(hasReviewed);
+  $("#prevWordBtn").disabled = state.currentWordIndex <= 0;
   $("#nextWordBtn").textContent = state.currentWordIndex >= words.length - 1 ? "完成本次" : "下一词";
   $("#nextWordBtn").disabled = !hasReviewed;
   $("#markWordWrongBtn").disabled = !hasReviewed || word.session_result === "unknown";
 }
 
-async function startWordSession() {
+async function startWordSession(mode = "mixed") {
   if (!state.authenticated) {
     openAccountMenu();
     $("#activeUserHint").textContent = "请先登录或注册，再开始单词打卡。";
@@ -495,6 +552,7 @@ async function startWordSession() {
       method: "POST",
       body: JSON.stringify({
         count: Number($("#wordCountInput").value || 20),
+        mode,
       }),
     });
     state.wordSession = payload;
@@ -503,6 +561,7 @@ async function startWordSession() {
     if (payload.status) {
       renderWordStatus(payload.status);
     }
+    await loadWordReviewPool();
     renderCurrentWord();
   } catch (error) {
     $("#wordHint").textContent = error.message;
@@ -532,11 +591,19 @@ async function reviewCurrentWord(result) {
     if (payload.status) {
       renderWordStatus(payload.status);
     }
+    await loadWordReviewPool();
     renderCurrentWord();
   } catch (error) {
     $("#wordHint").textContent = error.message;
     setWordActionLoading(false);
   }
+}
+
+function showPreviousWord() {
+  const words = state.wordSession?.words || [];
+  if (!words.length) return;
+  state.currentWordIndex = Math.max(0, state.currentWordIndex - 1);
+  renderCurrentWord();
 }
 
 function showNextWord() {
@@ -571,6 +638,7 @@ async function markCurrentWordWrong() {
     if (payload.status) {
       renderWordStatus(payload.status);
     }
+    await loadWordReviewPool();
     renderCurrentWord();
   } catch (error) {
     $("#wordHint").textContent = error.message;
@@ -588,6 +656,7 @@ async function refreshStudentData() {
     $("#wordStats").classList.add("muted");
     $("#wordStats").textContent = "请先登录后开始单词打卡。";
     $("#wordMeta").textContent = "未登录";
+    await loadWordReviewPool();
     return;
   }
   try {
@@ -903,12 +972,21 @@ $("#loginBtn").addEventListener("click", () => submitAuth("login"));
 $("#registerBtn").addEventListener("click", () => submitAuth("register"));
 $("#logoutBtn").addEventListener("click", logoutUser);
 $("#refreshWrongbookBtn").addEventListener("click", loadWrongbook);
-$("#startWordsBtn").addEventListener("click", startWordSession);
+$("#startWordsBtn").addEventListener("click", () => startWordSession());
+$("#startReviewWordsBtn").addEventListener("click", () => startWordSession("review"));
+$("#prevWordBtn").addEventListener("click", showPreviousWord);
 $("#nextWordBtn").addEventListener("click", showNextWord);
 $("#markWordWrongBtn").addEventListener("click", markCurrentWordWrong);
 for (const button of document.querySelectorAll("[data-word-result]")) {
   button.addEventListener("click", () => reviewCurrentWord(button.dataset.wordResult));
 }
+$("#wordSessionSummary").addEventListener("click", (event) => {
+  if (!event.target.closest("[data-word-summary-prev]")) return;
+  const words = state.wordSession?.words || [];
+  if (!words.length) return;
+  state.currentWordIndex = words.length - 1;
+  renderCurrentWord();
+});
 $("#profileSummary").addEventListener("click", (event) => {
   const button = event.target.closest("[data-practice-type]");
   if (!button) return;
