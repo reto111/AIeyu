@@ -783,6 +783,40 @@ textarea {
   color: var(--red);
 }
 
+.word-feedback {
+  display: grid;
+  gap: 10px;
+}
+
+.linkbtn {
+  justify-self: start;
+  padding: 0;
+  min-height: auto;
+  background: transparent;
+  color: var(--green-dark);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.feedback-form {
+  display: grid;
+  gap: 10px;
+}
+
+.feedback-form textarea {
+  min-height: 88px;
+  resize: vertical;
+}
+
+.feedback-form .secondary {
+  margin-top: 0;
+}
+
+.compact-form {
+  margin-top: 12px;
+}
+
 .word-summary {
   display: grid;
   gap: 14px;

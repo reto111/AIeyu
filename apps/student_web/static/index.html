@@ -186,6 +186,13 @@
                     <button id="nextWordBtn" class="secondary" type="button">下一词</button>
                     <button id="markWordWrongBtn" class="secondary danger" type="button">记错了</button>
                   </div>
+                  <div class="word-feedback">
+                    <button id="toggleWordFeedbackBtn" class="linkbtn" type="button">单词报错</button>
+                    <div id="wordFeedbackForm" class="feedback-form hidden">
+                      <textarea id="wordFeedbackText" rows="3" maxlength="1000" placeholder="例如：俄文识别错了、词义不完整、中文释义有错字"></textarea>
+                      <button id="submitWordFeedbackBtn" class="secondary" type="button">提交报错</button>
+                    </div>
+                  </div>
                   <p id="wordHint" class="mini muted"></p>
                 </article>
 
@@ -204,6 +211,16 @@
                   </div>
                   <div id="reviewPoolBox" class="review-pool muted">正在读取复习词库...</div>
                   <button id="startReviewWordsBtn" class="secondary fullwidth" type="button">立即复习</button>
+                </section>
+                <section class="panel">
+                  <div class="panel-titleline">
+                    <h2>提建议</h2>
+                    <span id="productFeedbackMeta" class="mini muted">欢迎反馈</span>
+                  </div>
+                  <div class="feedback-form compact-form">
+                    <textarea id="productFeedbackText" rows="4" maxlength="1000" placeholder="哪里不好用、想增加什么功能，都可以写在这里"></textarea>
+                    <button id="submitProductFeedbackBtn" class="secondary fullwidth" type="button">提交建议</button>
+                  </div>
                 </section>
               </aside>
             </div>

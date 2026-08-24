@@ -431,6 +431,13 @@ function reviewHintForResult(result) {
   return "";
 }
 
+function resetWordFeedbackForm() {
+  $("#wordFeedbackForm").classList.add("hidden");
+  $("#wordFeedbackText").value = "";
+  $("#submitWordFeedbackBtn").disabled = false;
+  $("#submitWordFeedbackBtn").textContent = "提交报错";
+}
+
 function setWordActionLoading(isLoading) {
   for (const button of document.querySelectorAll("[data-word-result]")) {
     button.disabled = isLoading;
@@ -506,6 +513,7 @@ function renderCurrentWord() {
   $("#wordResultTag").classList.toggle("hidden", !resultLabel);
   $("#wordResultTag").textContent = resultLabel ? `已记录：${resultLabel}` : "";
   $("#wordText").textContent = word.word;
+  resetWordFeedbackForm();
   $("#wordPart").textContent = [word.part_of_speech, word.source_page ? `来源页 ${word.source_page}` : ""]
     .filter(Boolean)
     .join(" · ");
@@ -643,6 +651,77 @@ async function markCurrentWordWrong() {
   } catch (error) {
     $("#wordHint").textContent = error.message;
     setWordActionLoading(false);
+  }
+}
+
+function toggleWordFeedbackForm() {
+  if (!currentWord()) return;
+  $("#wordFeedbackForm").classList.toggle("hidden");
+  if (!$("#wordFeedbackForm").classList.contains("hidden")) {
+    $("#wordFeedbackText").focus();
+  }
+}
+
+async function submitWordFeedback() {
+  if (!state.authenticated) {
+    openAccountMenu();
+    $("#activeUserHint").textContent = "请先登录后提交单词报错。";
+    return;
+  }
+  const word = currentWord();
+  if (!word) return;
+  const feedbackText = $("#wordFeedbackText").value.trim();
+  if (!feedbackText) {
+    $("#wordHint").textContent = "请先写一下这个单词哪里有问题。";
+    return;
+  }
+  $("#submitWordFeedbackBtn").disabled = true;
+  $("#submitWordFeedbackBtn").textContent = "提交中...";
+  try {
+    await requestJson("/api/words/feedback", {
+      method: "POST",
+      body: JSON.stringify({
+        vocabulary_item_id: word.vocabulary_item_id,
+        feedback_text: feedbackText,
+      }),
+    });
+    $("#wordHint").textContent = "已收到单词报错，我会在词库清洗时优先处理。";
+    resetWordFeedbackForm();
+  } catch (error) {
+    $("#wordHint").textContent = error.message;
+    $("#submitWordFeedbackBtn").disabled = false;
+    $("#submitWordFeedbackBtn").textContent = "提交报错";
+  }
+}
+
+async function submitProductFeedback() {
+  if (!state.authenticated) {
+    openAccountMenu();
+    $("#activeUserHint").textContent = "请先登录后提交建议。";
+    return;
+  }
+  const feedbackText = $("#productFeedbackText").value.trim();
+  if (!feedbackText) {
+    $("#productFeedbackMeta").textContent = "请先填写";
+    return;
+  }
+  $("#submitProductFeedbackBtn").disabled = true;
+  $("#submitProductFeedbackBtn").textContent = "提交中...";
+  try {
+    await requestJson("/api/feedback", {
+      method: "POST",
+      body: JSON.stringify({
+        page: state.activeView,
+        feedback_text: feedbackText,
+      }),
+    });
+    $("#productFeedbackText").value = "";
+    $("#productFeedbackMeta").textContent = "已收到";
+  } catch (error) {
+    $("#productFeedbackMeta").textContent = error.message;
+  } finally {
+    $("#submitProductFeedbackBtn").disabled = false;
+    $("#submitProductFeedbackBtn").textContent = "提交建议";
   }
 }
 
@@ -977,6 +1056,9 @@ $("#startReviewWordsBtn").addEventListener("click", () => startWordSession("revi
 $("#prevWordBtn").addEventListener("click", showPreviousWord);
 $("#nextWordBtn").addEventListener("click", showNextWord);
 $("#markWordWrongBtn").addEventListener("click", markCurrentWordWrong);
+$("#toggleWordFeedbackBtn").addEventListener("click", toggleWordFeedbackForm);
+$("#submitWordFeedbackBtn").addEventListener("click", submitWordFeedback);
+$("#submitProductFeedbackBtn").addEventListener("click", submitProductFeedback);
 for (const button of document.querySelectorAll("[data-word-result]")) {
   button.addEventListener("click", () => reviewCurrentWord(button.dataset.wordResult));
 }

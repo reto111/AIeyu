@@ -90,6 +90,7 @@ def db() -> sqlite3.Connection:
     ensure_adaptive_tables(conn)
     ensure_default_user(conn)
     ensure_auth_tables(conn)
+    ensure_feedback_tables(conn)
     return conn
 
 
@@ -131,6 +132,43 @@ def ensure_auth_tables(conn: sqlite3.Connection) -> None:
 
         CREATE INDEX IF NOT EXISTS idx_user_sessions_token
           ON user_sessions (token_hash, expires_at);
+        """
+    )
+
+
+def ensure_feedback_tables(conn: sqlite3.Connection) -> None:
+    conn.executescript(
+        """
+        CREATE TABLE IF NOT EXISTS word_feedback (
+          id INTEGER PRIMARY KEY AUTOINCREMENT,
+          user_id INTEGER NOT NULL,
+          vocabulary_item_id INTEGER NOT NULL,
+          feedback_text TEXT NOT NULL,
+          word_snapshot TEXT,
+          meaning_snapshot TEXT,
+          status TEXT NOT NULL DEFAULT 'open',
+          created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+          updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+          FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+          FOREIGN KEY (vocabulary_item_id) REFERENCES vocabulary_items(id) ON DELETE CASCADE
+        );
+
+        CREATE INDEX IF NOT EXISTS idx_word_feedback_status
+          ON word_feedback (status, created_at);
+
+        CREATE TABLE IF NOT EXISTS product_feedback (
+          id INTEGER PRIMARY KEY AUTOINCREMENT,
+          user_id INTEGER NOT NULL,
+          feedback_text TEXT NOT NULL,
+          page TEXT,
+          status TEXT NOT NULL DEFAULT 'open',
+          created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+          updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+          FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+        );
+
+        CREATE INDEX IF NOT EXISTS idx_product_feedback_status
+          ON product_feedback (status, created_at);
         """
     )
 
@@ -871,6 +909,61 @@ def api_word_review(payload: dict[str, Any]) -> dict[str, Any]:
         word_payload = public_word(updated)
     status = api_word_status(user_id)
     return {"word": word_payload, "status": status, "next_review_at": next_review_at}
+
+
+def clean_feedback_text(value: Any, field_name: str = "反馈内容") -> str:
+    text = re.sub(r"\s+", " ", str(value or "").strip())
+    if not text:
+        raise ValueError(f"请填写{field_name}。")
+    if len(text) > 1000:
+        raise ValueError(f"{field_name}请控制在 1000 字以内。")
+    return text
+
+
+def api_word_feedback(payload: dict[str, Any]) -> dict[str, Any]:
+    user_id = normalize_user_id(payload.get("user_id"))
+    vocabulary_item_id = int(payload.get("vocabulary_item_id") or 0)
+    feedback_text = clean_feedback_text(payload.get("feedback_text"), "单词问题")
+    with db() as conn:
+        ensure_user_exists(conn, user_id)
+        word = conn.execute(
+            """
+            SELECT id, word, meaning_zh
+            FROM vocabulary_items
+            WHERE id = ? AND review_status = 'approved'
+            """,
+            (vocabulary_item_id,),
+        ).fetchone()
+        if not word:
+            raise ValueError("没有找到这个单词。")
+        cursor = conn.execute(
+            """
+            INSERT INTO word_feedback (
+              user_id, vocabulary_item_id, feedback_text, word_snapshot, meaning_snapshot
+            )
+            VALUES (?, ?, ?, ?, ?)
+            """,
+            (user_id, vocabulary_item_id, feedback_text, word["word"], word["meaning_zh"]),
+        )
+        conn.commit()
+    return {"status": "ok", "feedback_id": cursor.lastrowid}
+
+
+def api_product_feedback(payload: dict[str, Any]) -> dict[str, Any]:
+    user_id = normalize_user_id(payload.get("user_id"))
+    feedback_text = clean_feedback_text(payload.get("feedback_text"), "建议")
+    page = re.sub(r"\s+", " ", str(payload.get("page") or "").strip())[:80]
+    with db() as conn:
+        ensure_user_exists(conn, user_id)
+        cursor = conn.execute(
+            """
+            INSERT INTO product_feedback (user_id, feedback_text, page)
+            VALUES (?, ?, ?)
+            """,
+            (user_id, feedback_text, page),
+        )
+        conn.commit()
+    return {"status": "ok", "feedback_id": cursor.lastrowid}
 
 
 def exposure_rows(conn: sqlite3.Connection, user_id: int, question_ids: list[int]) -> dict[int, sqlite3.Row]:
@@ -1808,6 +1901,14 @@ class StudentAppHandler(BaseHTTPRequestHandler):
             if self.path == "/api/words/review":
                 payload["user_id"] = authenticated_user_id(self)
                 json_response(self, HTTPStatus.OK, api_word_review(payload))
+                return
+            if self.path == "/api/words/feedback":
+                payload["user_id"] = authenticated_user_id(self)
+                json_response(self, HTTPStatus.OK, api_word_feedback(payload))
+                return
+            if self.path == "/api/feedback":
+                payload["user_id"] = authenticated_user_id(self)
+                json_response(self, HTTPStatus.OK, api_product_feedback(payload))
                 return
             if self.path == "/api/explain":
                 payload["user_id"] = authenticated_user_id(self)
