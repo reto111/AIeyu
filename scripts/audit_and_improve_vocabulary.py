@@ -106,10 +106,8 @@ def is_thin_meaning(meaning: str) -> bool:
         return True
     if text in {"(书)", "（书）", "(口)", "（口）"}:
         return True
-    without_marks = re.sub(r"[()（）书口转俗旧雅]", "", text)
-    if len(without_marks) <= 1:
-        return True
-    if len(text) <= 3 and has_chinese(text):
+    without_marks = re.sub(r"[()（）书口转俗旧雅,，;；.\s]", "", text)
+    if without_marks in {"", "未", "完", "及", "或", "第", "传", "阳", "阴", "中", "形", "副"}:
         return True
     return False
 
@@ -119,8 +117,17 @@ def audit_row(row: sqlite3.Row) -> dict[str, str] | None:
     meaning = clean(row["meaning_zh"])
     issues: list[str] = []
     suggested = KNOWN_FIXES.get(word)
+    needs_known_fix = bool(
+        suggested
+        and (
+            word != suggested["word"]
+            or clean(row["lemma"]) != suggested["lemma"]
+            or clean(row["part_of_speech"]) != suggested["part_of_speech"]
+            or meaning != suggested["meaning_zh"]
+        )
+    )
 
-    if suggested:
+    if needs_known_fix:
         issues.append("known_fix")
     if is_thin_meaning(meaning):
         issues.append("meaning_too_thin")
@@ -142,12 +149,12 @@ def audit_row(row: sqlite3.Row) -> dict[str, str] | None:
         "part_of_speech": clean(row["part_of_speech"]),
         "meaning_zh": meaning,
         "issues": "；".join(issues),
-        "suggested_word": suggested["word"] if suggested else "",
-        "suggested_lemma": suggested["lemma"] if suggested else "",
-        "suggested_part_of_speech": suggested["part_of_speech"] if suggested else "",
-        "suggested_meaning_zh": suggested["meaning_zh"] if suggested else "",
-        "suggestion_reason": suggested["reason"] if suggested else "",
-        "review_decision": "auto_fix_available" if suggested else "needs_llm_or_manual_review",
+        "suggested_word": suggested["word"] if needs_known_fix else "",
+        "suggested_lemma": suggested["lemma"] if needs_known_fix else "",
+        "suggested_part_of_speech": suggested["part_of_speech"] if needs_known_fix else "",
+        "suggested_meaning_zh": suggested["meaning_zh"] if needs_known_fix else "",
+        "suggestion_reason": suggested["reason"] if needs_known_fix else "",
+        "review_decision": "auto_fix_available" if needs_known_fix else "needs_llm_or_manual_review",
     }
 
 
