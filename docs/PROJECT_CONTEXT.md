@@ -1054,6 +1054,13 @@ data/listening/raw_audio/tem8/
 - 修正后重新运行 `scripts/audit_and_improve_vocabulary.py`，正式词库 3513 条中，当前高置信审计规则下 `flagged_rows=0`。
 - 注意：`flagged_rows=0` 只代表当前规则下没有明显 OCR/释义薄弱项，不等同于权威词典级全量校订。后续继续优先处理学生 `word_feedback` 和新审计规则发现的问题。
 
+2026-08-24 词性标记泄漏修正 checkpoint：
+
+- 用户发现 `пылесос` 释义显示为 `阳吸尘器`，确认问题是词性标记进入 `meaning_zh`，不是用户学习记录问题。
+- 新增审计规则 `pos_marker_leaked_into_meaning`：检测 `阳/阴/形/未/完` 等词性或体标记混入中文释义。
+- 本轮修正 32 条结构性污染词条，代表例：`пылесос` -> `part_of_speech=阳, meaning_zh=吸尘器`；`волейболист` -> `part_of_speech=阳/阴, meaning_zh=排球运动员`；`смывать` -> `洗掉；冲掉；冲走`。
+- 修正后重新审计正式词库 3513 条，新增规则下 `flagged_rows=0`。
+
 2026-08-22 已完成服务器端学生账号隔离：
 
 - 学生端账号入口改为注册/登录/退出，不再展示全体学生名单。

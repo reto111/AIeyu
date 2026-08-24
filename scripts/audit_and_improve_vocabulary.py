@@ -86,6 +86,20 @@ BAD_WORD_PATTERNS = [
 ]
 
 
+def has_pos_marker_leak(part_of_speech: str, meaning: str) -> bool:
+    pos = clean(part_of_speech)
+    text = clean(meaning)
+    if not text:
+        return False
+    if not pos and re.match(r"^(阳阴|阳|阴|形|未)(?=[\u4e00-\u9fff])", text):
+        return True
+    if not pos and re.match(r"^中\s*[〕）)\]】\s]+", text):
+        return True
+    if "未" in pos and re.match(r"^完(?:\s|[，,；;、.。‚(（])", text):
+        return True
+    return False
+
+
 def connect(path: Path) -> sqlite3.Connection:
     conn = sqlite3.connect(path)
     conn.row_factory = sqlite3.Row
@@ -139,6 +153,8 @@ def audit_row(row: sqlite3.Row) -> dict[str, str] | None:
             issues.append(f"bad_word_pattern:{pattern}:{note}")
     if not has_chinese(meaning):
         issues.append("meaning_has_no_chinese")
+    if has_pos_marker_leak(row["part_of_speech"], meaning):
+        issues.append("pos_marker_leaked_into_meaning")
     if not issues:
         return None
 
