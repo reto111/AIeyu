@@ -1158,3 +1158,21 @@ data/listening/raw_audio/tem8/
 - 不因答案矩阵缺失而推测答案；答案为空必须进入人工审核。
 - 阅读题必须同时检查文章、题干、选项和答案的对应关系；任一关键部分损坏就下架复核。
 - 每篇阅读文章固定核对题目数量和绑定关系，不能只看单道题。
+
+### 5.6 水印清理与专四题目本地 LLM 复核 checkpoint（2026-08-26）
+
+用户确认原始资料中的“沙拉俄语”斜向水印会影响文章识别、题干切分和选项恢复。本轮处理规则如下：
+
+- 原始 PDF 不修改，继续保存在 data/raw_pdfs/tem4/。
+- 已为专四 9 份 PDF 生成 OCR 清洁版，输出在 data/processed/ocr_clean_pdfs/tem4/。
+- 清洁版采用页面渲染、黑白阈值处理和底部非正文区域清理，目标是降低浅色水印对 OCR 的干扰；清洁版只作为识别辅助，不替代原始资料。
+- 2024 年扫描版已用清洁版重新 OCR，输出为 data/processed/tem4_text_clean/tem4_russian_2024_full.txt，并重新切分为 90 道题。
+- 修正了切题防线：不能把完形题中的“Чтение (71)”误认为阅读章节标题；OCR 将题号句号识别为逗号时仍应识别为题号。
+- 清洁 OCR 与原结构化结果逐题对比。由于清洁 OCR 并非每一处都优于原文，不允许整篇文章、整套题目或所有选项批量覆盖。
+- 本地 LLM 只应用高置信的局部修正：2024 年第 3、26、40 题恢复选项结构；第 66、67、68、69、70、86 题补充经题干和知识事实交叉核对的答案，共 9 道。
+- 上述 9 道题仍全部保持 review_status = needs_review；不能可靠恢复的题干、选项、阅读文章和答案继续进入人工审核表，不因模型判断自动放行。
+- 本轮数据库修改前备份为 data/processed/backups/russian_ai_tutor_before_tem4_llm_ocr_review_20260826_212321.sqlite。
+- 本轮审核记录和复核结果：scripts/apply_tem4_llm_ocr_review.py、data/processed/structured/tem4/tem4_russian_2024_review_llm_checked.json、data/processed/question_quality/tem4/tem4_2024_llm_ocr_audit.csv。
+- 专四人工审核表已根据本轮结果刷新：data/processed/review_sheets/tem4_questions_review.csv 和 data/processed/review_sheets/tem4_passages_review.csv。
+
+后续原则：阅读题必须同时核对原文、题干、选项、答案和文章绑定关系。任何一个关键部分无法从原 PDF 或清晰 OCR 可靠确认，都只能保留 needs_review，不能为了提高入库数量而猜测补全。

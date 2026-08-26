@@ -115,7 +115,7 @@ def split_numbered_questions(section_text: str, first_number: int, last_number: 
     current_page_number: int | None = None
     active_page: int | None = None
     buffer: list[str] = []
-    question_start = re.compile(r"^\s*(?:Задание\s+)?(\d{1,3})(?:[.)]|(?=\s|$))(?:\s*(.*))?$", re.I)
+    question_start = re.compile(r"^\s*(?:Задание\s+)?(\d{1,3})(?:[.,)]|(?=\s|$))(?:\s*(.*))?$", re.I)
 
     for line in normalize_lines(section_text):
         page = current_page(line)
@@ -212,13 +212,17 @@ def classify(number: int, config: dict[str, Any]) -> str | None:
 
 
 def locate_reading_start(text: str, reading_start: int) -> int:
-    heading = re.search(r"(?mi)^\s*(?:ЧТЕНИЕ|Чтение|阅读理解)\b", text)
+    # A cloze passage can contain a sentence beginning with "Чтение (71)".
+    # Accept an independent section heading first, then a heading carrying the
+    # reading score; only use the first question number as a last resort.
+    heading = re.search(r"(?mi)^\s*(?:ЧТЕНИЕ|Чтение|阅读理解)\s*(?:\r?\n|$)", text)
     if heading:
         return heading.start()
-    # Some text-layer PDFs label sections in Chinese and omit Russian headings.
+    scored_heading = re.search(r"(?mi)^.*(?:ЧТЕНИЕ|Чтение|阅读理解).*20\s*балл", text)
+    if scored_heading:
+        return scored_heading.start()
     match = re.search(rf"(?m)^\s*{reading_start}(?:[.)]|\s)", text)
     return match.start() if match else len(text)
-
 
 def locate_grammar_start(text: str) -> int:
     match = re.search(r"(?mi)^.*грамматика.*$", text)
