@@ -36,7 +36,7 @@ ANSWER_OVERRIDES: dict[int, dict[int, str]] = {
     2017: {
         1: "C", 2: "B", 3: "A", 4: "A", 5: "B", 6: "C", 7: "D", 8: "D", 9: "A", 10: "D",
         16: "C", 17: "A", 18: "B", 19: "A", 20: "C", 21: "D", 22: "B", 23: "C", 24: "B", 25: "C",
-        26: "A", 27: "B", 28: "A", 29: "C", 30: "A", 36: "B", 37: "C", 38: "D", 39: "B", 40: "C",
+        26: "A", 27: "B", 28: "A", 29: "C", 30: "A", 31: "C", 32: "B", 33: "B", 34: "C", 35: "A", 36: "B", 37: "C", 38: "D", 39: "B", 40: "C",
         41: "B", 42: "A", 43: "C", 44: "D", 45: "A", 46: "D", 47: "B", 48: "C", 49: "B", 50: "A",
         51: "D", 52: "C", 53: "D", 54: "C", 55: "D", 56: "A", 57: "C", 58: "D", 59: "A", 60: "B",
         61: "A", 62: "C", 63: "D", 64: "B", 65: "C", 66: "B", 67: "B", 68: "C", 69: "C", 70: "D",
@@ -189,16 +189,47 @@ def extract_options(raw_text: str) -> tuple[str, list[dict[str, str]]]:
 
 def answer_map(answer_text: str, year: int) -> dict[int, str]:
     answers = dict(ANSWER_OVERRIDES.get(year, {}))
-    normalized = answer_text.translate(str.maketrans({"А": "A", "В": "B", "С": "C", "О": "D", "Д": "D", "Р": "D", "р": "D"}))
-    # Only parse compact matrix rows. Never scan ordinary question text for
-    # `number + letter`, because that creates false answer keys.
+    normalized = answer_text.translate(
+        str.maketrans({"А": "A", "В": "B", "С": "C", "О": "D", "Д": "D", "Р": "D", "р": "D"})
+    )
+    lines = [line.strip() for line in normalized.splitlines()]
     pair_pattern = re.compile(r"(?<!\d)(\d{1,3})\s*[.)]?\s*([ABCD])(?=\s|$)")
-    for line in normalized.splitlines():
+    for line in lines:
         pairs = pair_pattern.findall(line)
         if len(pairs) < 5:
             continue
         for number, letter in pairs:
             answers.setdefault(int(number), letter)
+
+    number_line = re.compile(r"^(\d{1,3})\s*[.)、]?$")
+    letter_line = re.compile(r"^([ABCD])\s*[.)、]?$")
+    index = 0
+    while index < len(lines):
+        numbers: list[int] = []
+        cursor = index
+        while cursor < len(lines):
+            match = number_line.fullmatch(lines[cursor])
+            if not match:
+                break
+            numbers.append(int(match.group(1)))
+            cursor += 1
+        if len(numbers) < 5:
+            index += 1
+            continue
+        letters: list[str] = []
+        letter_cursor = cursor
+        while letter_cursor < len(lines) and len(letters) < len(numbers):
+            match = letter_line.fullmatch(lines[letter_cursor])
+            if not match:
+                break
+            letters.append(match.group(1))
+            letter_cursor += 1
+        if len(letters) == len(numbers):
+            for number, letter in zip(numbers, letters):
+                answers.setdefault(number, letter)
+            index = letter_cursor
+        else:
+            index += 1
     return answers
 
 
@@ -383,6 +414,8 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
 
 
 

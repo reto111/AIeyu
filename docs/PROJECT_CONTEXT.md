@@ -1194,3 +1194,20 @@ data/listening/raw_audio/tem8/
 - 数据库写入前备份：data/processed/backups/russian_ai_tutor_before_tem4_batch_review_20260826_225717.sqlite。
 
 后续只有在补齐答案、人工确认清洁 OCR 或完成听力材料绑定后，才能将对应题目从 needs_review 改为 approved + practice。不得因为模型能够推测答案，就跳过来源核验。
+
+### 5.8 直接文字层重建与答案矩阵解析纠正 checkpoint（2026-08-26）
+
+复核发现：除 2024 扫描版外，2017、2018、2019、2021、2022、2023 的 PDF 都有可直接提取的俄文文字层，不应使用 OCR 作为主数据源。此前批量 OCR 造成文字噪声增加；此前答案缺失的主要原因是答案矩阵在文字层中按“连续题号行 + 连续答案行”排版，而解析器只支持题号和答案同一行。
+
+- 2017–2023 已改用 data/processed/tem4_text_direct/ 的直接文字层重建题目、选项、答案和阅读文章。
+- 2017、2018 使用独立答案 PDF；2019、2021、2022、2023 使用整套 PDF 末尾的答案章节。
+- answer_map 已支持答案矩阵的纵向排版；2019–2023 的答案已经恢复，不再视为资料缺答案。
+- 2024 仍使用去水印 OCR 清洁版；原始 PDF 不修改。
+- 直接文字层重建脚本：scripts/sync_tem4_direct_text.py；切题脚本：scripts/segment_tem4_review_json.py。
+- 重建前备份：data/processed/backups/russian_ai_tutor_before_tem4_direct_text_resync_20260826_231212.sqlite。
+- 重建并批量审核后，专四 570 道题中 263 道已 approved + practice，307 道保持 needs_review + source_reference_only。
+- 当前 307 道待审核的真实原因：听力 105 道缺少题干/音频绑定；阅读 140 道需要逐篇核对文章；语法填空位置不明确 44 道；另有 18 道存在页脚、拉丁字符、特殊符号或选项数量异常。
+- 批量审核报告：data/processed/question_quality/tem4/tem4_llm_review_report.csv；无法自动补全清单：data/processed/question_quality/tem4/tem4_uncompletable.csv。
+- 批量审核写入前备份：data/processed/backups/russian_ai_tutor_before_tem4_batch_review_20260826_231228.sqlite。
+
+后续规则：文字层可用时禁止用 OCR 替代文字层；答案章节必须先识别其排版结构再解析；除非能从原 PDF 或清晰文字层核验，否则不允许模型猜答案。
