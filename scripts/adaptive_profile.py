@@ -136,16 +136,15 @@ def ensure_adaptive_tables(conn: sqlite3.Connection) -> None:
     )
 
 
-def fetch_tem8_ids(conn: sqlite3.Connection) -> tuple[int, int]:
-    exam_system_id = int(conn.execute("SELECT id FROM exam_systems WHERE code = 'TEM8_RU'").fetchone()[0])
-    level_id = int(
-        conn.execute(
-            "SELECT id FROM exam_levels WHERE exam_system_id = ? AND code = 'TEM8'",
-            (exam_system_id,),
-        ).fetchone()[0]
-    )
-    return exam_system_id, level_id
-
+def fetch_exam_ids(conn: sqlite3.Connection, exam_system_code: str = "TEM8_RU", level_code: str = "TEM8") -> tuple[int, int]:
+    row = conn.execute("SELECT id FROM exam_systems WHERE code = ?", (exam_system_code,)).fetchone()
+    if row is None:
+        raise ValueError(f"Unknown exam system: {exam_system_code}")
+    exam_system_id = int(row[0])
+    row = conn.execute("SELECT id FROM exam_levels WHERE exam_system_id = ? AND code = ?", (exam_system_id, level_code)).fetchone()
+    if row is None:
+        raise ValueError(f"Unknown exam level: {level_code}")
+    return exam_system_id, int(row[0])
 
 def record_question_exposure(
     conn: sqlite3.Connection,
@@ -305,7 +304,7 @@ def calculate_target(
     }
 
 
-def fetch_attempt_groups(conn: sqlite3.Connection, user_id: int) -> dict[tuple[str, str, str], list[Attempt]]:
+def fetch_attempt_groups(conn: sqlite3.Connection, user_id: int, exam_system_id: int, level_id: int) -> dict[tuple[str, str, str], list[Attempt]]:
     groups: dict[tuple[str, str, str], list[Attempt]] = defaultdict(list)
     rows = conn.execute(
         """
@@ -323,9 +322,11 @@ def fetch_attempt_groups(conn: sqlite3.Connection, user_id: int) -> dict[tuple[s
         LEFT JOIN question_knowledge_points qkp ON qkp.question_id = q.id
         LEFT JOIN knowledge_points kp ON kp.id = qkp.knowledge_point_id
         WHERE ua.user_id = ?
+          AND q.exam_system_id = ?
+          AND q.level_id = ?
         ORDER BY ua.answered_at DESC, ua.id DESC
         """,
-        (user_id,),
+        (user_id, exam_system_id, level_id),
     ).fetchall()
     for row in rows:
         attempt = Attempt(bool(row["is_correct"]), parse_datetime(row["answered_at"]))
@@ -419,45 +420,45 @@ def refresh_training_recommendations(
     }
 
 
-def recalculate_profile(conn: sqlite3.Connection, user_id: int = DEFAULT_USER_ID) -> dict[str, Any]:
+def recalculate_profile(
+    conn: sqlite3.Connection,
+    user_id: int = DEFAULT_USER_ID,
+    exam_system_code: str = "TEM8_RU",
+    level_code: str = "TEM8",
+) -> dict[str, Any]:
     ensure_adaptive_tables(conn)
     ensure_default_user(conn)
     backfill_default_user(conn, DEFAULT_USER_ID)
-    exam_system_id, level_id = fetch_tem8_ids(conn)
+    exam_system_id, level_id = fetch_exam_ids(conn, exam_system_code, level_code)
     now = datetime.now()
-    groups = fetch_attempt_groups(conn, user_id)
-    profile_items = [
-        calculate_target(target_type, code, name, attempts, now)
-        for (target_type, code, name), attempts in groups.items()
-    ]
+    groups = fetch_attempt_groups(conn, user_id, exam_system_id, level_id)
+    profile_items = [calculate_target(target_type, code, name, attempts, now) for (target_type, code, name), attempts in groups.items()]
     for item in profile_items:
         insert_mastery_snapshot(conn, user_id, exam_system_id, level_id, item)
     next_training = refresh_training_recommendations(conn, user_id, exam_system_id, level_id, profile_items)
     conn.commit()
-    return profile_payload(user_id, profile_items, next_training)
+    return profile_payload(user_id, profile_items, next_training, exam_system_code, level_code)
 
 
 def profile_payload(
     user_id: int,
     profile_items: list[dict[str, Any]],
     next_training: dict[str, Any] | None,
+    exam_system_code: str = "TEM8_RU",
+    level_code: str = "TEM8",
 ) -> dict[str, Any]:
     question_type_mastery = [item for item in profile_items if item["target_type"] == "question_type"]
     knowledge_mastery = [item for item in profile_items if item["target_type"] == "knowledge_point"]
-    top_weaknesses = sorted(
-        [item for item in profile_items if item["mastery_status"] != "insufficient_data"],
-        key=lambda item: -item["weakness_priority"],
-    )[:3]
+    top_weaknesses = sorted([item for item in profile_items if item["mastery_status"] != "insufficient_data"], key=lambda item: -item["weakness_priority"])[:3]
     return {
         "user_id": user_id,
-        "exam_system": "TEM8_RU",
-        "level": "TEM8",
+        "exam_system": exam_system_code,
+        "level": level_code,
         "question_type_mastery": question_type_mastery,
         "knowledge_mastery": knowledge_mastery,
         "top_weaknesses": top_weaknesses,
         "next_training": next_training,
     }
-
 
 def connect() -> sqlite3.Connection:
     conn = sqlite3.connect(DB_PATH)

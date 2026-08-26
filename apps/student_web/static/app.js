@@ -3,6 +3,7 @@ const state = {
   authenticated: false,
   activeUser: null,
   activeUserId: 0,
+  selectedExam: localStorage.getItem("aieyu.selectedExam") || "TEM8_RU",
   activeView: localStorage.getItem("aieyu.activeView") || "practice",
   quiz: null,
   result: null,
@@ -47,9 +48,27 @@ function escapeHtml(value) {
 }
 
 function queryForActiveUser() {
-  return "";
+  const exam = state.selectedExam === "TEM4_RU" ? "TEM4" : "TEM8";
+  return new URLSearchParams({ exam_system: state.selectedExam, level: exam }).toString();
 }
 
+function currentExam() {
+  return state.selectedExam === "TEM4_RU"
+    ? { system: "TEM4_RU", level: "TEM4", label: "俄语专四" }
+    : { system: "TEM8_RU", level: "TEM8", label: "俄语专八" };
+}
+
+function renderExamContext() {
+  const exam = currentExam();
+  document.querySelectorAll("[data-exam-system]").forEach((button) => {
+    button.classList.toggle("active", button.dataset.examSystem === exam.system);
+    button.setAttribute("aria-selected", button.dataset.examSystem === exam.system ? "true" : "false");
+  });
+  const brand = document.querySelector("#brandExamLabel");
+  if (brand) brand.textContent = `${exam.label}练习`;
+  const title = document.querySelector("#practiceTitle");
+  if (title) title.textContent = `今日${exam.label}训练`;
+}
 function showView(view) {
   const nextView = ["practice", "words", "wrongbook"].includes(view) ? view : "practice";
   state.activeView = nextView;
@@ -233,10 +252,15 @@ function masteryClass(status) {
   return "low";
 }
 
+function profileTypeOrder() {
+  return state.selectedExam === "TEM4_RU"
+    ? [["listening_choice", "听力"], ["grammar_choice", "语法"], ["culture_choice", "国情"], ["reading_choice", "阅读"]]
+    : TYPE_ORDER;
+}
 function renderProfile(profile) {
   state.profile = profile;
   const byType = new Map((profile.question_type_mastery || []).map((item) => [item.target_code, item]));
-  const items = TYPE_ORDER.map(([code, name]) => {
+  const items = profileTypeOrder().map(([code, name]) => {
     const item = byType.get(code);
     const score = item ? Number(item.mastery_score || 0) : 0;
     const status = item?.mastery_status || "insufficient_data";
@@ -787,6 +811,8 @@ async function generateQuiz(mode = "random") {
       count: Number($("#countInput").value || 10),
       question_types: selectedValues("questionType"),
       years: selectedValues("year").map(Number),
+      exam_system: currentExam().system,
+      level: currentExam().level,
       seed: Date.now(),
     };
     if (mode === "diagnostic") {
@@ -816,7 +842,7 @@ async function generateQuiz(mode = "random") {
 function renderQuiz(quiz) {
   $("#emptyState").classList.add("hidden");
   $("#quizForm").classList.remove("hidden");
-  $("#quizMeta").textContent = `${quiz.count} 题 · ${quiz.mode === "diagnostic" ? "入门诊断" : "俄语专八"}`;
+  $("#quizMeta").textContent = quiz.count + " 题 · " + (quiz.mode === "diagnostic" ? "入门诊断" : currentExam().label);
   $("#answerHint").textContent = "";
 
   const renderedPassages = new Set();
@@ -880,7 +906,7 @@ async function submitQuiz(event) {
   try {
     state.result = await requestJson("/api/grade", {
       method: "POST",
-      body: JSON.stringify({ title: "AIeyu student practice", answers }),
+      body: JSON.stringify({ title: currentExam().label + " student practice", exam_system: currentExam().system, level: currentExam().level, answers }),
     });
     state.explanation = state.result.explanation || null;
     if (state.result.profile) {
@@ -1008,9 +1034,24 @@ async function sendFollowup() {
   }
 }
 
-async function init() {
+async function selectExam(system) {
+  if (!["TEM8_RU", "TEM4_RU"].includes(system) || system === state.selectedExam) return;
+  state.selectedExam = system;
+  localStorage.setItem("aieyu.selectedExam", system);
+  renderExamContext();
+  clearStudentState();
   try {
-    renderStatus(await requestJson("/api/status"));
+    renderStatus(await requestJson("/api/status?" + queryForActiveUser()));
+    await refreshStudentData();
+  } catch (error) {
+    $("#statusSummary").textContent = error.message;
+  }
+}
+
+async function init() {
+  renderExamContext();
+  try {
+    renderStatus(await requestJson("/api/status?" + queryForActiveUser()));
   } catch (error) {
     $("#statusSummary").textContent = error.message;
   }
@@ -1020,6 +1061,10 @@ async function init() {
     $("#activeUserHint").textContent = error.message;
   }
   await refreshStudentData();
+}
+
+for (const button of document.querySelectorAll("[data-exam-system]")) {
+  button.addEventListener("click", () => selectExam(button.dataset.examSystem));
 }
 
 async function startDiagnostic() {

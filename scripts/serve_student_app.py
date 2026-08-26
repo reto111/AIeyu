@@ -447,6 +447,8 @@ def fetch_question(conn: sqlite3.Connection, question_id: int) -> sqlite3.Row:
         """
         SELECT
           q.id,
+          q.exam_system_id,
+          q.level_id,
           q.source_year,
           q.source_question_number,
           q.source_label,
@@ -472,53 +474,24 @@ def fetch_question(conn: sqlite3.Connection, question_id: int) -> sqlite3.Row:
     return row
 
 
-def api_status() -> dict[str, Any]:
+def api_status(exam_system_code: str = "TEM8_RU", level_code: str = "TEM8") -> dict[str, Any]:
     with db() as conn:
-        by_type = [
-            {
-                "code": row["code"],
-                "name": QUESTION_TYPE_NAMES.get(row["code"], row["name_zh"]),
-                "count": row["count"],
-            }
-            for row in conn.execute(
-                """
-                SELECT qt.code, qt.name_zh, COUNT(*) AS count
-                FROM questions q
-                JOIN question_types qt ON qt.id = q.question_type_id
-                WHERE q.review_status = 'approved' AND q.source_usage = 'practice'
-                GROUP BY qt.code, qt.name_zh
-                ORDER BY qt.code
-                """
-            ).fetchall()
-        ]
-        years = [
-            {"year": row["source_year"], "count": row["count"]}
-            for row in conn.execute(
-                """
-                SELECT source_year, COUNT(*) AS count
-                FROM questions
-                WHERE review_status = 'approved' AND source_usage = 'practice'
-                GROUP BY source_year
-                ORDER BY source_year
-                """
-            ).fetchall()
-        ]
-        latest_thread = conn.execute(
-            """
-            SELECT id, quiz_session_id, title, updated_at
-            FROM ai_tutor_threads
-            ORDER BY id DESC
-            LIMIT 1
-            """
-        ).fetchone()
-    return {
-        "question_count": sum(item["count"] for item in by_type),
-        "question_types": by_type,
-        "years": years,
-        "latest_thread": dict(latest_thread) if latest_thread else None,
-        "deepseek_configured": bool(os.environ.get("DEEPSEEK_API_KEY")),
-    }
-
+        exam_system_id, level_id = fetch_ids(conn, exam_system_code, level_code)
+        by_type = [{"code": row["code"], "name": QUESTION_TYPE_NAMES.get(row["code"], row["name_zh"]), "count": row["count"]} for row in conn.execute("""
+            SELECT qt.code, qt.name_zh, COUNT(*) AS count
+            FROM questions q JOIN question_types qt ON qt.id = q.question_type_id
+            WHERE q.review_status = 'approved' AND q.source_usage = 'practice'
+              AND q.exam_system_id = ? AND q.level_id = ?
+            GROUP BY qt.code, qt.name_zh ORDER BY qt.code
+        """, (exam_system_id, level_id)).fetchall()]
+        years = [{"year": row["source_year"], "count": row["count"]} for row in conn.execute("""
+            SELECT source_year, COUNT(*) AS count FROM questions
+            WHERE review_status = 'approved' AND source_usage = 'practice'
+              AND exam_system_id = ? AND level_id = ?
+            GROUP BY source_year ORDER BY source_year
+        """, (exam_system_id, level_id)).fetchall()]
+        latest_thread = conn.execute("SELECT id, quiz_session_id, title, updated_at FROM ai_tutor_threads ORDER BY id DESC LIMIT 1").fetchone()
+    return {"exam_system": exam_system_code, "level": level_code, "question_count": sum(item["count"] for item in by_type), "question_types": by_type, "years": years, "latest_thread": dict(latest_thread) if latest_thread else None, "deepseek_configured": bool(os.environ.get("DEEPSEEK_API_KEY"))}
 
 def clean_word_meaning_for_display(value: str | None) -> str:
     text = re.sub(r"\s+", " ", str(value or "").strip())
@@ -1112,6 +1085,8 @@ def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
     user_id = normalize_user_id(payload.get("user_id"))
     count = max(1, min(int(payload.get("count") or 10), 50))
     mode = str(payload.get("mode") or "random")
+    exam_system_code = str(payload.get("exam_system") or "TEM8_RU")
+    level_code = str(payload.get("level") or "TEM8")
     question_types = [str(item) for item in payload.get("question_types", []) if item]
     if mode == "diagnostic" and not question_types:
         question_types = DIAGNOSTIC_QUESTION_TYPES
@@ -1134,6 +1109,9 @@ def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
 
     with db() as conn:
         user = ensure_user_exists(conn, user_id)
+        exam_system_id, level_id = fetch_ids(conn, exam_system_code, level_code)
+        filters.extend(["q.exam_system_id = ?", "q.level_id = ?"])
+        params.extend([exam_system_id, level_id])
         rows = conn.execute(
             f"""
             SELECT
@@ -1173,8 +1151,8 @@ def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
             for index, row in enumerate(selected, start=1)
         ]
     return {
-        "exam_system": "TEM8_RU",
-        "level": "TEM8",
+        "exam_system": exam_system_code,
+        "level": level_code,
         "mode": mode,
         "user": public_user(user),
         "count": len(questions),
@@ -1182,10 +1160,10 @@ def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def api_profile(user_id: int = DEFAULT_USER_ID) -> dict[str, Any]:
+def api_profile(user_id: int = DEFAULT_USER_ID, exam_system_code: str = "TEM8_RU", level_code: str = "TEM8") -> dict[str, Any]:
     with db() as conn:
         ensure_user_exists(conn, user_id)
-        return recalculate_profile(conn, user_id)
+        return recalculate_profile(conn, user_id, exam_system_code, level_code)
 
 
 def latest_answer_for_question(conn: sqlite3.Connection, user_id: int, question_id: int) -> sqlite3.Row | None:
@@ -1208,10 +1186,16 @@ def latest_answer_for_question(conn: sqlite3.Connection, user_id: int, question_
     ).fetchone()
 
 
-def api_wrongbook(user_id: int = DEFAULT_USER_ID, limit: int = 80) -> dict[str, Any]:
+def api_wrongbook(
+    user_id: int = DEFAULT_USER_ID,
+    limit: int = 80,
+    exam_system_code: str = "TEM8_RU",
+    level_code: str = "TEM8",
+) -> dict[str, Any]:
     limit = max(1, min(limit, 200))
     with db() as conn:
         user = ensure_user_exists(conn, user_id)
+        exam_system_id, level_id = fetch_ids(conn, exam_system_code, level_code)
         rows = conn.execute(
             """
             SELECT
@@ -1240,6 +1224,8 @@ def api_wrongbook(user_id: int = DEFAULT_USER_ID, limit: int = 80) -> dict[str, 
               AND qe.wrong_count > 0
               AND q.review_status = 'approved'
               AND q.source_usage = 'practice'
+              AND q.exam_system_id = ?
+              AND q.level_id = ?
             ORDER BY
               CASE WHEN qe.last_is_correct = 0 THEN 0 ELSE 1 END,
               datetime(qe.last_seen_at) DESC,
@@ -1247,7 +1233,7 @@ def api_wrongbook(user_id: int = DEFAULT_USER_ID, limit: int = 80) -> dict[str, 
               q.id
             LIMIT ?
             """,
-            (user_id, limit),
+            (user_id, exam_system_id, level_id, limit),
         ).fetchall()
         items = []
         pending_count = 0
@@ -1278,6 +1264,8 @@ def api_wrongbook(user_id: int = DEFAULT_USER_ID, limit: int = 80) -> dict[str, 
             items.append(item)
     return {
         "user": public_user(user),
+        "exam_system": exam_system_code,
+        "level": level_code,
         "count": len(items),
         "pending_count": pending_count,
         "corrected_count": corrected_count,
@@ -1285,16 +1273,15 @@ def api_wrongbook(user_id: int = DEFAULT_USER_ID, limit: int = 80) -> dict[str, 
     }
 
 
-def fetch_ids(conn: sqlite3.Connection) -> tuple[int, int]:
-    exam_system_id = int(conn.execute("SELECT id FROM exam_systems WHERE code = 'TEM8_RU'").fetchone()[0])
-    level_id = int(
-        conn.execute(
-            "SELECT id FROM exam_levels WHERE exam_system_id = ? AND code = 'TEM8'",
-            (exam_system_id,),
-        ).fetchone()[0]
-    )
-    return exam_system_id, level_id
-
+def fetch_ids(conn: sqlite3.Connection, exam_system_code: str = "TEM8_RU", level_code: str = "TEM8") -> tuple[int, int]:
+    row = conn.execute("SELECT id FROM exam_systems WHERE code = ?", (exam_system_code,)).fetchone()
+    if row is None:
+        raise ValueError(f"Unknown exam system: {exam_system_code}")
+    exam_system_id = int(row[0])
+    row = conn.execute("SELECT id FROM exam_levels WHERE exam_system_id = ? AND code = ?", (exam_system_id, level_code)).fetchone()
+    if row is None:
+        raise ValueError(f"Unknown exam level: {level_code}")
+    return exam_system_id, int(row[0])
 
 def summary_for_code(code: str, attempted: int, wrong: int) -> str:
     name = KNOWLEDGE_NAMES.get(code, code)
@@ -1311,7 +1298,9 @@ def api_grade(payload: dict[str, Any]) -> dict[str, Any]:
 
     with db() as conn:
         ensure_user_exists(conn, user_id)
-        exam_system_id, level_id = fetch_ids(conn)
+        exam_system_code = str(payload.get("exam_system") or "TEM8_RU")
+        level_code = str(payload.get("level") or "TEM8")
+        exam_system_id, level_id = fetch_ids(conn, exam_system_code, level_code)
         cursor = conn.execute(
             """
             INSERT INTO quiz_sessions (
@@ -1339,6 +1328,8 @@ def api_grade(payload: dict[str, Any]) -> dict[str, Any]:
             question_id = int(item["question_id"])
             selected_answer = str(item.get("selected_answer") or "").strip().upper()
             row = fetch_question(conn, question_id)
+            if int(row["exam_system_id"]) != exam_system_id or int(row["level_id"]) != level_id:
+                raise ValueError("提交的题目不属于当前考试范围。")
             correct_answer = str(row["correct_answer"] or "").strip().upper()
             is_correct = selected_answer == correct_answer
             if is_correct:
@@ -1447,7 +1438,7 @@ def api_grade(payload: dict[str, Any]) -> dict[str, Any]:
         "graded_questions": graded_questions,
     }
     with db() as conn:
-        result["profile"] = recalculate_profile(conn, user_id)
+        result["profile"] = recalculate_profile(conn, user_id, exam_system_code, level_code)
     if result["wrong_count"]:
         try:
             result["explanation"] = generate_explanation_for_session(quiz_session_id)
@@ -1837,7 +1828,7 @@ class StudentAppHandler(BaseHTTPRequestHandler):
             parsed = urlparse(self.path)
             query = parse_qs(parsed.query)
             if parsed.path == "/api/status":
-                json_response(self, HTTPStatus.OK, api_status())
+                json_response(self, HTTPStatus.OK, api_status(query.get("exam_system", ["TEM8_RU"])[0], query.get("level", ["TEM8"])[0]))
                 return
             if parsed.path == "/api/auth/status":
                 json_response(self, HTTPStatus.OK, api_auth_status(self))
@@ -1847,11 +1838,11 @@ class StudentAppHandler(BaseHTTPRequestHandler):
                 json_response(self, HTTPStatus.OK, api_users(user_id))
                 return
             if parsed.path == "/api/profile":
-                json_response(self, HTTPStatus.OK, api_profile(authenticated_user_id(self)))
+                json_response(self, HTTPStatus.OK, api_profile(authenticated_user_id(self), query.get("exam_system", ["TEM8_RU"])[0], query.get("level", ["TEM8"])[0]))
                 return
             if parsed.path == "/api/wrongbook":
                 limit = int(query.get("limit", ["80"])[0])
-                json_response(self, HTTPStatus.OK, api_wrongbook(authenticated_user_id(self), limit))
+                json_response(self, HTTPStatus.OK, api_wrongbook(authenticated_user_id(self), limit, query.get("exam_system", ["TEM8_RU"])[0], query.get("level", ["TEM8"])[0]))
                 return
             if parsed.path == "/api/words/status":
                 json_response(self, HTTPStatus.OK, api_word_status(authenticated_user_id(self)))

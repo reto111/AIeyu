@@ -1124,9 +1124,37 @@ data/listening/raw_audio/tem8/
 - `feat: add question bank schema`
 - `feat: add quiz generation flow`
 - `fix: correct pdf parsing edge case`
+### 5.3 专四题库接入 checkpoint（2026-08-26）
 
+已按专八相同的“原始资料保留、结构化切分、人工审核后入池”流程接入专四资料：
 
+- 原始 PDF 目录：data/raw_pdfs/tem4/
+- 已登记来源 PDF：9 份，覆盖 2017、2018、2019、2021、2022、2023、2024。
+- 已生成结构化待审核题目：570 道。
+- 题型分布：听力 105、语法 290、国情/礼仪 35、阅读 140。
+- 阅读按文章绑定，每年 4 篇文章、每篇 5 道题；组卷时由完整文章单元统一选择。
+- 目前不导入完形填空，因为数据库尚未建立独立的 cloze 题型；不得把完形题误归为语法题。
+- 2017-2023 优先使用 PDF 文字层；2024 扫描版使用去水印 OCR 临时结果。原始 PDF 不修改。
+- 所有专四题目当前为 needs_review，尚未进入学生正式练习池；缺答案、缺选项、题干不完整或填空位置不明确的内容不得自动猜测。
+- 待审核表：data/processed/review_sheets/tem4_questions_review.csv、data/processed/review_sheets/tem4_passages_review.csv
+- 校验脚本：scripts/validate_tem4_review_json.py
+- 导入脚本：scripts/import_tem4_review_json.py
+- 数据库导入前备份：data/processed/backups/russian_ai_tutor_before_tem4_import_20260826_200449.sqlite
 
+审核通过后，必须先完成校验，再将明确可用的题目改为 approved + practice。无法从 PDF 可靠确认的题目保留 needs_review + source_reference_only，不进入学生组卷。
 
+### 5.4 专四/专八分页约定（2026-08-26）
 
+- 学生端练习页提供“俄语专八 / 俄语专四”分页。
+- 当前考试选择保存于浏览器本地；切换考试会清空当前试卷显示，并重新读取题库、画像和错题本。
+- 组卷、批改、画像、错题本均携带 exam_system 和 level，学习数据按考试范围隔离。
+- 默认随机组卷继续排除阅读题；阅读题后续按文章完整单元处理。
+- 页面只显示当前考试中已审核、可练习的题目；待审核专四题不会被学生端看到。
 
+### 5.5 专四题库处理错误防线
+
+- 不把 OCR 乱码直接当成题干或选项。
+- 不把作者姓名缩写、页码、栏目标题误判为选项。
+- 不因答案矩阵缺失而推测答案；答案为空必须进入人工审核。
+- 阅读题必须同时检查文章、题干、选项和答案的对应关系；任一关键部分损坏就下架复核。
+- 每篇阅读文章固定核对题目数量和绑定关系，不能只看单道题。

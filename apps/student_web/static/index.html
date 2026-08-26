@@ -37,7 +37,7 @@
           <span class="mark">AI</span>
           <div>
             <h1>AIeyu</h1>
-            <p>俄语专八练习</p>
+            <p id="brandExamLabel">俄语专八练习</p>
           </div>
         </div>
 
@@ -55,6 +55,10 @@
 
       <section class="pagearea">
         <section id="practicePage" class="page active">
+          <div id="examTabs" class="exam-tabs" role="tablist" aria-label="选择考试">
+            <button type="button" class="exam-tab active" data-exam-system="TEM8_RU" role="tab" aria-selected="true">俄语专八</button>
+            <button type="button" class="exam-tab" data-exam-system="TEM4_RU" role="tab" aria-selected="false">俄语专四</button>
+          </div>
           <div class="practice-layout">
             <aside class="practice-tools">
               <section class="panel">
@@ -93,14 +97,14 @@
               <header class="topbar">
                 <div>
                   <p class="eyebrow">Student Practice</p>
-                  <h2>今日专八训练</h2>
+                  <h2 id="practiceTitle">今日专八训练</h2>
                 </div>
                 <div id="quizMeta" class="meta">尚未生成练习</div>
               </header>
 
               <section id="emptyState" class="empty">
                 <h2>选择题型和数量后开始练习</h2>
-                <p>题目来自已审核的历年俄语专八真题，页面会保留年份来源。</p>
+                <p>题目来自已审核的历年真题，页面会保留年份来源。</p>
               </section>
 
               <form id="quizForm" class="quiz hidden">

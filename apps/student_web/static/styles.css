@@ -113,6 +113,31 @@ button:disabled {
   gap: 14px;
 }
 
+.exam-tabs {
+  display: inline-flex;
+  gap: 6px;
+  margin-bottom: 14px;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.exam-tab {
+  min-height: 36px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 7px 14px;
+  background: transparent;
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.exam-tab.active {
+  border-color: var(--green);
+  background: var(--green);
+  color: #fff;
+}
 .pagearea {
   min-width: 0;
   padding-top: 52px;
