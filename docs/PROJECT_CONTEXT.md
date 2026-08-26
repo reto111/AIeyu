@@ -1176,3 +1176,21 @@ data/listening/raw_audio/tem8/
 - 专四人工审核表已根据本轮结果刷新：data/processed/review_sheets/tem4_questions_review.csv 和 data/processed/review_sheets/tem4_passages_review.csv。
 
 后续原则：阅读题必须同时核对原文、题干、选项、答案和文章绑定关系。任何一个关键部分无法从原 PDF 或清晰 OCR 可靠确认，都只能保留 needs_review，不能为了提高入库数量而猜测补全。
+
+### 5.7 专四逐题本地 LLM 批量审核 checkpoint（2026-08-26）
+
+已按专八审核规则完成专四 570 道题的第一轮保守审核。审核不是只看题目数量，而是同时检查题干、四个选项、答案、题型、阅读文章绑定和 OCR 噪声。
+
+- 93 道题已标记为 approved + practice，进入正式题库：2017 年 45 道、2018 年 44 道、2024 年 4 道。
+- 477 道题继续保持 needs_review + source_reference_only，不会被学生端组卷抽取。
+- 待审核原因统计：听力 100 道缺少可核验题干和音频绑定；阅读 132 道需要逐篇核对清洁 OCR 与文章绑定；177 道缺少可靠答案或答案不在完整选项中；43 道语法题填空位置不明确；其余为页脚、OCR 字符或选项结构异常。
+- 2017、2018 年中能根据题干、固定搭配和选项高置信确认的少量答案已修正；不确定答案没有猜测补入。
+- 2019、2021、2022、2023 的整套 PDF 没有可直接核验的答案表，因此相关题目不能仅靠模型推断后自动放行。
+- 阅读题即使选项和题号完整，只要正文存在乱码、拉丁噪声、页脚或文章未逐篇核对，仍不得自动放行。
+- 批量审核脚本：scripts/review_tem4_llm_batch.py。
+- 全量审核报告：data/processed/question_quality/tem4/tem4_llm_review_report.csv。
+- 无法自动补全清单：data/processed/question_quality/tem4/tem4_uncompletable.csv。
+- 已刷新人工审核表：data/processed/review_sheets/tem4_questions_review.csv 和 data/processed/review_sheets/tem4_passages_review.csv。
+- 数据库写入前备份：data/processed/backups/russian_ai_tutor_before_tem4_batch_review_20260826_225717.sqlite。
+
+后续只有在补齐答案、人工确认清洁 OCR 或完成听力材料绑定后，才能将对应题目从 needs_review 改为 approved + practice。不得因为模型能够推测答案，就跳过来源核验。

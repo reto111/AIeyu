@@ -72,7 +72,7 @@ def normalize_lines(text: str) -> list[str]:
 
 
 def current_page(line: str) -> int | None:
-    match = re.match(r"^--- Page (\d+) \([^)]+\) ---$", line)
+    match = re.match(r"^--- Page (\d+)(?: \([^)]+\))? ---$", line)
     return int(match.group(1)) if match else None
 
 
@@ -383,6 +383,7 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
 
 
 
