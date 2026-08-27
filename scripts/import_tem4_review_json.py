@@ -64,7 +64,7 @@ def insert_one(conn: sqlite3.Connection, question: dict[str, Any], system_id: in
     return qid
 
 
-def import_file(conn: sqlite3.Connection, path: Path) -> dict[str, Any]:
+def import_file(conn: sqlite3.Connection, path: Path, excluded_types: set[str]) -> dict[str, Any]:
     payload = json.loads(path.read_text(encoding='utf-8'))
     year = int(payload['source_year'])
     source_id = source_document_id(conn, year)
@@ -73,7 +73,11 @@ def import_file(conn: sqlite3.Connection, path: Path) -> dict[str, Any]:
     cache: dict[tuple[str, str], int] = {}
     inserted = 0
     skipped = 0
+    excluded = 0
     for question in payload.get('questions', []):
+        if question.get('question_type') in excluded_types:
+            excluded += 1
+            continue
         existing = conn.execute("SELECT id FROM questions WHERE source_document_id=? AND source_question_number=? AND content_origin='past_exam_original'", (source_id,question.get('source_question_number'))).fetchone()
         if existing:
             skipped += 1
@@ -81,17 +85,19 @@ def import_file(conn: sqlite3.Connection, path: Path) -> dict[str, Any]:
         passage_id = get_or_create_passage(conn, source_id, question.get('passage'), cache)
         insert_one(conn, question, system_id, level_id, source_id, passage_id)
         inserted += 1
-    return {'file': str(path), 'source_year': year, 'inserted': inserted, 'skipped_existing': skipped}
+    return {'file': str(path), 'source_year': year, 'inserted': inserted, 'skipped_existing': skipped, 'excluded': excluded}
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description='Import TEM4 review JSON into TEM4-only SQLite rows.')
     parser.add_argument('paths', nargs='+', type=Path)
     parser.add_argument('--db', type=Path, default=DB_PATH)
+    parser.add_argument('--exclude-question-type', action='append', default=[], help='Question type code to keep out of the database; repeatable.')
     args = parser.parse_args()
+    excluded_types = set(args.exclude_question_type)
     with sqlite3.connect(args.db) as conn:
         conn.execute('PRAGMA foreign_keys = ON')
-        results = [import_file(conn, path) for path in args.paths]
+        results = [import_file(conn, path, excluded_types) for path in args.paths]
         conn.commit()
     print(json.dumps(results, ensure_ascii=False, indent=2))
 

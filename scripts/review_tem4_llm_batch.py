@@ -39,6 +39,7 @@ SECTION_MARKERS = (
     "ЗАПОЛНЕНИЕ ПРОПУСКОВ", "ПЕРЕВОД", "СОЧИНЕНИЕ", "--- Page",
 )
 EXPECTED_KEYS = {"A", "B", "C", "D"}
+OCR_YEARS = {2024}
 LATIN_RE = re.compile(r"[A-Za-z]{2,}")
 OCR_SYMBOL_RE = re.compile(r"[{}<>@#$^&*+=~|\\]")
 BLANK_RE = re.compile(r"_{2,}|\.{3,}|…")
@@ -109,6 +110,8 @@ def readiness(row: sqlite3.Row, option_rows: list[sqlite3.Row]) -> tuple[str, st
     type_code = row["type_code"]
     if type_code == "listening_choice":
         return "keep_needs_review", "听力题缺少可核验的题干和音频绑定，需完成听力材料与转写审核"
+    if int(row["source_year"]) in OCR_YEARS:
+        return "keep_needs_review", "2024 年题目来自 OCR，需人工逐题核对原 PDF 后才能进入练习"
     if type_code == "reading_choice":
         return "keep_needs_review", "阅读文章需逐篇核对清洁 OCR、题干、选项和答案，当前不能只凭结构放行"
 

@@ -1211,3 +1211,21 @@ data/listening/raw_audio/tem8/
 - 批量审核写入前备份：data/processed/backups/russian_ai_tutor_before_tem4_batch_review_20260826_231228.sqlite。
 
 后续规则：文字层可用时禁止用 OCR 替代文字层；答案章节必须先识别其排版结构再解析；除非能从原 PDF 或清晰文字层核验，否则不允许模型猜答案。
+
+### 5.9 专四干净回退与重新接入 checkpoint（2026-08-27）
+
+为纠正上一轮“所有年份都走 OCR”造成的污染，本轮按专四接入前的干净数据库重新开始。此前 5.3–5.8 的专四数量和审核统计仅作为历史记录，不代表当前数据库状态。
+
+- 当前工作分支：codex/tem4-clean-rebuild。
+- 回退基线：data/processed/backups/russian_ai_tutor_before_tem4_import_20260826_200449.sqlite；该基线保留 300 道专八 approved、13 道专八 needs_review 和 3513 个正式词条。
+- 回退前当前库另存为 data/processed/backups/russian_ai_tutor_before_clean_tem4_rebuild_20260827.sqlite，后续批量审核前另有自动备份。
+- 2017、2018、2019、2021、2022、2023 只使用 data/processed/tem4_text_direct/ 的 PDF 文字层，禁止用 OCR 替代；2017、2018 的答案来自独立答案 PDF，2019、2021、2022、2023 使用 PDF 内答案矩阵，已支持“题号列 + 答案列”的排版。
+- 2024 因无可用文字层，只使用 data/processed/tem4_text_clean/tem4_russian_2024_full.txt 的清洁 OCR；2024 题目统一保留 needs_review，必须人工逐题对照原 PDF 后才能开放练习。
+- 新结构化文件统一放在 data/processed/structured/tem4_clean_rebuild/；听力题单独导出到 data/processed/tem4_listening_separate/，不写入 questions 表、不参与随机组卷。
+- 完形填空继续不导入，因为当前数据库没有独立 cloze 题型；本轮正式题库仅包含语法、国情和阅读。
+- 当前专四正式数据库题目：465 道，其中 grammar_choice 290、culture_choice 35、reading_choice 140、listening_choice 0；其中 259 道为 approved + practice，206 道为 needs_review + source_reference_only。
+- 2017–2023 的阅读题仍按文章整体绑定并待逐篇核对；2019 第 16、50 题、2023 第 20 题等结构异常项不猜测补全。2024 OCR 题全部待人工审核。
+- 导入脚本已支持 `--exclude-question-type listening_choice`；独立听力导出脚本为 scripts/export_tem4_listening_separate.py。
+- 当前人工审核表：data/processed/review_sheets/tem4_questions_review.csv、data/processed/review_sheets/tem4_passages_review.csv；质量报告：data/processed/question_quality/tem4/tem4_llm_review_report.csv；无法自动放行清单：data/processed/question_quality/tem4/tem4_uncompletable.csv。
+
+本 checkpoint 的不可变规则：文字层可用年份绝不 OCR；听力绝不混入正式题库；2024 OCR 不因结构完整而自动放行；任何题干、选项、答案、文章绑定无法从原 PDF 可靠核验时，保留 needs_review，不用模型猜测。
