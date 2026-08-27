@@ -103,3 +103,29 @@ http://服务器公网IP:8765/
 - 登录状态保存在浏览器 Cookie 中；服务器必须使用同一个 `database\russian_ai_tutor.sqlite` 才能保留学生账号和学习记录。
 - 小范围测试仍建议只发给可信学生，因为当前还没有 HTTPS、找回密码、管理员后台和风控。
 - 真实商业化前需要升级 HTTPS、邮箱/手机号验证、密码找回、管理员权限、调用额度限制和日志监控。
+
+## 9. 服务器更新包使用方式
+
+更新包会排除 `.env` 和 `database\russian_ai_tutor.sqlite`，因此不会自动覆盖服务器密钥和学生数据。上传后按以下顺序操作：
+
+1. 停止当前 Python 服务。
+2. 备份服务器数据库：
+
+```powershell
+Copy-Item .\database\russian_ai_tutor.sqlite .\database\russian_ai_tutor_before_update.sqlite
+```
+
+3. 将更新包解压并覆盖到项目目录，保留服务器原有的 `.env` 和 `database\russian_ai_tutor.sqlite`。
+4. 执行包内数据库补丁：
+
+```powershell
+python -c "import sqlite3; c=sqlite3.connect(r'database\russian_ai_tutor.sqlite'); c.executescript(open(r'database\migrations\20260827_tem4_review_state.sql',encoding='utf-8').read()); c.close()"
+```
+
+5. 重新启动服务：
+
+```powershell
+python scripts\serve_student_app.py --host 0.0.0.0 --port 8765
+```
+
+如果服务器数据库已经包含本次 71、88 题修正，补丁重复执行也只会重新写入相同内容，不会删除学生账号和学习记录。
