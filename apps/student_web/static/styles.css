@@ -138,6 +138,53 @@ button:disabled {
   background: var(--green);
   color: #fff;
 }
+
+.exam-overview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px 20px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.exam-overview-copy {
+  min-width: 0;
+}
+
+.exam-overview-copy h2 {
+  margin: 2px 0 5px;
+  font-size: 24px;
+}
+
+.exam-overview-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(78px, 1fr));
+  gap: 8px;
+  min-width: 270px;
+}
+
+.exam-overview-stats div {
+  display: grid;
+  gap: 3px;
+  border-left: 1px solid var(--line);
+  padding-left: 14px;
+}
+
+.exam-overview-stats strong {
+  font-size: 22px;
+  color: var(--green-dark);
+}
+
+.exam-overview-stats span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
 .pagearea {
   min-width: 0;
   padding-top: 52px;
@@ -435,6 +482,38 @@ textarea {
   border-bottom: 1px solid var(--line);
 }
 
+.topbar-status {
+  display: grid;
+  justify-items: end;
+  gap: 7px;
+  min-width: 150px;
+}
+
+.quiz-progress {
+  display: grid;
+  grid-template-columns: minmax(80px, 120px) auto;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.quiz-progress-track {
+  height: 7px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e8ece8;
+}
+
+.quiz-progress-track span {
+  display: block;
+  width: 0;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--green);
+  transition: width 0.2s ease;
+}
+
 .topbar h2 {
   font-size: 25px;
 }
@@ -508,8 +587,26 @@ textarea {
   border-left: 4px solid var(--blue);
   background: #f2f6fb;
   border-radius: 6px;
-  white-space: pre-wrap;
   line-height: 1.65;
+}
+
+.passage-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+  color: var(--blue);
+}
+
+.passage-head span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.passage-body {
+  white-space: pre-wrap;
 }
 
 .stem {
@@ -569,10 +666,15 @@ textarea {
 }
 
 .submitbar {
+  position: sticky;
+  bottom: 0;
+  z-index: 3;
   display: flex;
   align-items: center;
   gap: 12px;
   padding: 18px 4px 4px;
+  background: rgba(255, 255, 255, 0.96);
+  border-top: 1px solid var(--line);
 }
 
 .submitbar .primary {
@@ -1021,6 +1123,19 @@ textarea {
   .submitbar {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .exam-overview {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .exam-overview-stats {
+    min-width: 0;
+  }
+
+  .topbar-status {
+    justify-items: start;
   }
 
   .submitbar .primary {

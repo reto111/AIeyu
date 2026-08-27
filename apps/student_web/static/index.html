@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>AIeyu 专八练习</title>
+    <title>AIeyu 俄语备考</title>
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
@@ -59,6 +59,18 @@
             <button type="button" class="exam-tab active" data-exam-system="TEM8_RU" role="tab" aria-selected="true">俄语专八</button>
             <button type="button" class="exam-tab" data-exam-system="TEM4_RU" role="tab" aria-selected="false">俄语专四</button>
           </div>
+          <section id="examOverview" class="exam-overview" aria-live="polite">
+            <div class="exam-overview-copy">
+              <p class="eyebrow">当前考试</p>
+              <h2 id="examOverviewTitle">俄语专八</h2>
+              <p id="examOverviewDescription" class="muted">正在读取可用题库...</p>
+            </div>
+            <div class="exam-overview-stats">
+              <div><strong id="examPoolCount">0</strong><span>可练题</span></div>
+              <div><strong id="examYearCount">0</strong><span>年份</span></div>
+              <div><strong id="examTypeCount">0</strong><span>题型</span></div>
+            </div>
+          </section>
           <div class="practice-layout">
             <aside class="practice-tools">
               <section class="panel">
@@ -99,7 +111,13 @@
                   <p class="eyebrow">Student Practice</p>
                   <h2 id="practiceTitle">今日专八训练</h2>
                 </div>
-                <div id="quizMeta" class="meta">尚未生成练习</div>
+                <div class="topbar-status">
+                  <div id="quizMeta" class="meta">尚未生成练习</div>
+                  <div id="quizProgressWrap" class="quiz-progress hidden" aria-live="polite">
+                    <div class="quiz-progress-track"><span id="quizProgressBar"></span></div>
+                    <span id="quizProgressText">0/0 已作答</span>
+                  </div>
+                </div>
               </header>
 
               <section id="emptyState" class="empty">

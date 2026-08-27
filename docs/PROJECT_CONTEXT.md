@@ -1281,3 +1281,11 @@ data/listening/raw_audio/tem8/
 - 两题均已标记 `approved + practice`，专四正式练习题从 442 道增至 444 道。
 - 2024 OCR 阅读题 81–100 仍为 20 道 `needs_review + source_reference_only`，继续不进入练习池。
 - 本轮数据库回退备份：`data/processed/backups/russian_ai_tutor_before_tem4_71_88_approve_20260827_202031.sqlite`；审核表回退备份：`data/processed/review_sheets/tem4_questions_review_before_71_88_approve_20260827_202031.csv`。
+
+### 5.14 学生端专四测试界面优化 checkpoint（2026-08-27）
+
+- 学生端增加当前考试概览，动态显示可练题量、年份数量和题型数量；切换专四、专八时沿用同一套组件。
+- 试卷生成后显示已作答进度，选择任意选项会实时更新进度条；长试卷提交栏保持可见。
+- 阅读文章继续按文章整组返回，页面在文章标题处显示“整篇文章”，并保留完整正文排版。
+- 题干、选项、来源和阅读正文统一进行 HTML 转义，避免题库文本中的特殊字符破坏页面结构。
+- 本地验证地址：`http://127.0.0.1:8789/`；专四状态接口返回 444 道正式题，页面资源和 JavaScript 校验通过。

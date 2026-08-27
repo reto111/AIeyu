@@ -58,6 +58,23 @@ function currentExam() {
     : { system: "TEM8_RU", level: "TEM8", label: "俄语专八" };
 }
 
+function examDescription(exam, status) {
+  const typeNames = (status.question_types || []).map((item) => item.name).join("、");
+  if (exam.system === "TEM4_RU") {
+    return `${typeNames || "语法、国情、阅读"} · 阅读题按文章整组展示`;
+  }
+  return `${typeNames || "语法、文学、国情、阅读"} · 已审核题库`;
+}
+
+function renderExamOverview(status) {
+  const exam = currentExam();
+  $("#examOverviewTitle").textContent = exam.label;
+  $("#examOverviewDescription").textContent = examDescription(exam, status);
+  $("#examPoolCount").textContent = status.question_count;
+  $("#examYearCount").textContent = (status.years || []).length;
+  $("#examTypeCount").textContent = (status.question_types || []).length;
+}
+
 function renderExamContext() {
   const exam = currentExam();
   document.querySelectorAll("[data-exam-system]").forEach((button) => {
@@ -101,6 +118,7 @@ async function requestJson(url, options = {}) {
 
 function renderStatus(status) {
   state.latestThreadId = status.latest_thread?.id || 1;
+  renderExamOverview(status);
   $("#statusSummary").innerHTML = `
     <p><strong>${status.question_count}</strong> 道已审核题</p>
     <p>${status.years.map((item) => `${item.year} 年 ${item.count} 题`).join(" · ")}</p>
@@ -146,6 +164,9 @@ function clearStudentState() {
   $("#emptyState").classList.remove("hidden");
   $("#quizForm").classList.add("hidden");
   $("#quizMeta").textContent = "尚未生成练习";
+  $("#quizProgressWrap").classList.add("hidden");
+  $("#quizProgressBar").style.width = "0%";
+  $("#quizProgressText").textContent = "0/0 已作答";
   $("#resultBox").classList.add("muted");
   $("#resultBox").textContent = "提交后显示正确率和薄弱点。";
   $("#threadBox").classList.add("muted");
@@ -797,6 +818,19 @@ function setSubmitLoading(isLoading) {
   }
 }
 
+function updateQuizProgress() {
+  const questions = state.quiz?.questions || [];
+  if (!questions.length) {
+    $("#quizProgressWrap").classList.add("hidden");
+    return;
+  }
+  const answered = questions.filter((question) => document.querySelector(`input[name="q${question.quiz_number}"]:checked`)).length;
+  const percentage = Math.round((answered / questions.length) * 100);
+  $("#quizProgressWrap").classList.remove("hidden");
+  $("#quizProgressBar").style.width = `${percentage}%`;
+  $("#quizProgressText").textContent = `${answered}/${questions.length} 已作答`;
+}
+
 async function generateQuiz(mode = "random") {
   if (!state.authenticated) {
     openAccountMenu();
@@ -853,25 +887,25 @@ function renderQuiz(quiz) {
         const passageKey = question.passage.id || `${question.passage.title}-${question.passage.body}`;
         if (!renderedPassages.has(passageKey)) {
           renderedPassages.add(passageKey);
-          passage = `<div class="passage"><strong>${question.passage.title || "阅读文章"}</strong>\n${question.passage.body}</div>`;
+          passage = `<div class="passage"><div class="passage-head"><strong>${escapeHtml(question.passage.title || "阅读文章")}</strong><span>整篇文章</span></div><div class="passage-body">${escapeHtml(question.passage.body || "")}</div></div>`;
         }
       }
       return `
         <article class="question" data-question-id="${question.question_id}" data-quiz-number="${question.quiz_number}">
           <div class="qhead">
-            <span class="badge">${question.quiz_number}</span>
-            <span class="badge">${question.question_type_name}</span>
-            <span class="source">${question.source.label} · 原题 ${question.source.question_number}</span>
+            <span class="badge">${escapeHtml(question.quiz_number)}</span>
+            <span class="badge">${escapeHtml(question.question_type_name)}</span>
+            <span class="source">${escapeHtml(question.source.label)} · 原题 ${escapeHtml(question.source.question_number)}</span>
           </div>
           ${passage}
-          <p class="stem">${question.stem}</p>
+          <p class="stem">${escapeHtml(question.stem)}</p>
           <div class="options">
             ${question.options
               .map(
                 (option) => `
-                  <label class="option" data-option="${option.key}">
-                    <input type="radio" name="q${question.quiz_number}" value="${option.key}" />
-                    <span>${optionLabel(option)}</span>
+                  <label class="option" data-option="${escapeHtml(option.key)}">
+                    <input type="radio" name="q${question.quiz_number}" value="${escapeHtml(option.key)}" />
+                    <span>${escapeHtml(option.key)}. ${escapeHtml(option.text)}</span>
                   </label>
                 `
               )
@@ -882,6 +916,10 @@ function renderQuiz(quiz) {
       `;
     })
     .join("");
+  for (const input of $("#questionList").querySelectorAll('input[type="radio"]')) {
+    input.addEventListener("change", updateQuizProgress);
+  }
+  updateQuizProgress();
 }
 
 async function submitQuiz(event) {
