@@ -30,7 +30,7 @@ OPTION_CUTS = {
     (2018, 60, "D"): " ЗАПОЛНЕНИЕ ПРОПУСКОВ",
     (2024, 26, "B"): " --- Page",
     (2024, 65, "D"): " У НИР",
-    (2024, 70, "D"): " Заполнение",
+    (2024, 70, "D"): " У ЛЕНЕ»",
     (2019, 60, "D"): " 完型填空",
     (2021, 60, "D"): " 完型填空",
     (2022, 60, "D"): " 完型填空",
@@ -44,8 +44,10 @@ SECTION_MARKERS = (
 )
 EXPECTED_KEYS = {"A", "B", "C", "D"}
 OCR_YEARS = {2024}
+READING_HOLD = {(2021, 71), (2021, 74), (2021, 88)}
 LATIN_RE = re.compile(r"[A-Za-z]{2,}")
 ROMAN_TOKEN_RE = re.compile(r"^[IVXLCDM]+$", re.I)
+LATIN_ALLOWED = {"cheerleading", "cheer", "lead"}
 OCR_SYMBOL_RE = re.compile(r"[{}<>@#$^&*+=~|\\]")
 BLANK_RE = re.compile(r"_{2,}|\.{3,}|…")
 
@@ -63,7 +65,7 @@ def clean_text(text: str, cut: str | None = None) -> str:
 
 
 def has_latin_noise(text: str) -> bool:
-    return any(not ROMAN_TOKEN_RE.fullmatch(token) for token in LATIN_RE.findall(text or ""))
+    return any(token.lower() not in LATIN_ALLOWED and not ROMAN_TOKEN_RE.fullmatch(token) for token in LATIN_RE.findall(text or ""))
 
 
 def get_questions(conn: sqlite3.Connection) -> list[sqlite3.Row]:
@@ -119,10 +121,19 @@ def readiness(row: sqlite3.Row, option_rows: list[sqlite3.Row]) -> tuple[str, st
     type_code = row["type_code"]
     if type_code == "listening_choice":
         return "keep_needs_review", "听力题缺少可核验的题干和音频绑定，需完成听力材料与转写审核"
-    if int(row["source_year"]) in OCR_YEARS:
-        return "keep_needs_review", "2024 年题目来自 OCR，需人工逐题核对原 PDF 后才能进入练习"
+    if int(row["source_year"]) in OCR_YEARS and type_code == "reading_choice":
+        return "keep_needs_review", "2024 年阅读题来自 OCR，需人工逐篇核对原 PDF 后才能进入练习"
     if type_code == "reading_choice":
-        return "keep_needs_review", "阅读文章需逐篇核对清洁 OCR、题干、选项和答案，当前不能只凭结构放行"
+        reading_key = (int(row["source_year"]), int(row["source_question_number"]))
+        if reading_key in READING_HOLD:
+            return "keep_needs_review", "原文字层缺少关键题干或选项内容，无法可靠补全"
+        passage = row["passage_body"] or ""
+        if not passage.strip():
+            return "keep_needs_review", "缺少阅读文章正文"
+        if "沙拉俄语" in passage or "--- Page" in passage:
+            return "keep_needs_review", "文章仍含水印或分页标记"
+        if "�" in passage or has_latin_noise(passage):
+            return "keep_needs_review", "文章正文存在替换乱码或非俄语噪声"
 
     texts = [row["stem"] or ""] + [(x["option_text"] or "") for x in option_rows]
     stem = row["stem"] or ""
@@ -136,7 +147,7 @@ def readiness(row: sqlite3.Row, option_rows: list[sqlite3.Row]) -> tuple[str, st
         return "keep_needs_review", "存在空选项"
     if not answer or answer not in EXPECTED_KEYS or answer not in keys:
         return "keep_needs_review", "缺少可靠答案或答案不在选项中"
-    if len(stem.strip()) < 18:
+    if len(stem.strip()) < (8 if type_code == "reading_choice" else 18):
         return "keep_needs_review", "题干过短，疑似切分失败"
     joined = " ".join(texts)
     if "�" in joined:

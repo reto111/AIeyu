@@ -1244,3 +1244,19 @@ data/listening/raw_audio/tem8/
 - 本轮审核前数据库备份：data/processed/backups/russian_ai_tutor_before_tem4_batch_review_20260827_190117.sqlite。
 
 后续人工审核时：表中 `review_decision` 填 `approve` 才能进入练习，填 `reject` 或留空都保持下架；阅读必须以整篇文章为单位确认，2024 OCR 必须对照原始 PDF。
+
+### 5.11 2024 OCR 与阅读题复核 checkpoint（2026-08-27）
+
+根据用户确认的三道专四缺选项题，以及本轮大模型辅助的高置信文字修正，完成了第二轮专四复核：
+
+- 用户确认的 2019 第 16、50 题和 2023 第 20 题均已补齐为四个选项，绑定 grammar 知识点并进入 approved + practice。
+- 2024 OCR 的语法和国情题中，55 道完成高置信题干、选项、答案修正后进入练习；修正保留填空位置，不把正确答案直接写进题干。
+- 2024 OCR 阅读正文仍有多处混合字符和词形噪声，20 道阅读题全部保留 needs_review，不能只凭模型猜测放行。
+- 2017、2018、2019、2022、2023 阅读题经文章正文、题干、选项和答案检查后，117 道进入练习；2021 第 71、74、88 题因原文字层缺少关键数字或选项内容，3 道保留人工确认。
+- 当前专四数据库：442 道 approved + practice，23 道 needs_review + source_reference_only；其中 grammar 290、culture 35、reading approved 117、reading pending 23；listening_choice 仍为 0。
+- 阅读正文中的分页标记和“沙拉俄语”水印残留已清除；仅对可明确确认的混淆字符做了局部修正，未整篇猜测改写。
+- 2024 高置信修正脚本：scripts/apply_tem4_llm_ocr_review.py；阅读修正脚本：scripts/apply_tem4_reading_llm_review.py。
+- 最终人工确认表：data/processed/review_sheets/tem4_questions_review.csv（23 道题）、data/processed/review_sheets/tem4_passages_review.csv（6 篇文章）。
+- 本轮关键回退备份：data/processed/backups/russian_ai_tutor_before_tem4_batch_review_20260827_194413.sqlite、data/processed/backups/russian_ai_tutor_before_tem4_reading_review_20260827_194401.sqlite。
+
+不可变规则继续有效：文字层可用年份不 OCR；听力不入正式题库；2024 OCR 阅读必须人工对照原 PDF；任何无法可靠确认的内容保持下架。
