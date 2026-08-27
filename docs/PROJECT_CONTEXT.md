@@ -1260,3 +1260,24 @@ data/listening/raw_audio/tem8/
 - 本轮关键回退备份：data/processed/backups/russian_ai_tutor_before_tem4_batch_review_20260827_194413.sqlite、data/processed/backups/russian_ai_tutor_before_tem4_reading_review_20260827_194401.sqlite。
 
 不可变规则继续有效：文字层可用年份不 OCR；听力不入正式题库；2024 OCR 阅读必须人工对照原 PDF；任何无法可靠确认的内容保持下架。
+
+### 5.12 专四人工补全结果与 2024 OCR 阅读暂缓 checkpoint（2026-08-27）
+
+根据用户最新确认，2021 年第 74 题无法可靠补全，已从练习范围下架；数据库保留该原始记录并标记为 `rejected + source_reference_only`，便于审计和回退。2024 年 OCR 阅读题噪声较多，本阶段不纳入正式题库，20 道题统一保持 `needs_review + source_reference_only`，不得随机组卷。
+
+- 当前专四正式练习池：442 道 `approved + practice`。
+- 当前专四待审核表：22 道，包括 2021 年第 71、88 题及 2024 年阅读题 81–100。
+- 最新审核表中 2021 年第 71 题 A 选项仍缺年份、88 题题干仍缺年份，且 `review_decision` 为空；本轮不猜测放行，继续等待人工确认。
+- 本轮数据库回退备份：`data/processed/backups/russian_ai_tutor_before_tem4_hold_20260827_20260827_200259.sqlite`。
+
+本 checkpoint 的处理规则：用户明确删除或判定无法补全的题目从练习池下架但默认保留记录；2024 OCR 阅读不因答案看似完整而入库；只有题干、选项、答案和阅读文章均可可靠核验时，才允许标记 `approved + practice`。
+
+### 5.13 专四 2021 阅读第 71、88 题补全入库 checkpoint（2026-08-27）
+
+根据绑定文章原文完成核验并入库：
+
+- 第 71 题 A 选项补为 `Он начал играть на скрипке в 14 лет.`；同时修正数据库中 B 选项被错误切分的残留文本为 `Он научился играть на инструментах.`；答案 C。
+- 第 88 题题干补为 `Какая команда стала чемпионом мира по черлидингу в 2011 году?`；答案 C。
+- 两题均已标记 `approved + practice`，专四正式练习题从 442 道增至 444 道。
+- 2024 OCR 阅读题 81–100 仍为 20 道 `needs_review + source_reference_only`，继续不进入练习池。
+- 本轮数据库回退备份：`data/processed/backups/russian_ai_tutor_before_tem4_71_88_approve_20260827_202031.sqlite`；审核表回退备份：`data/processed/review_sheets/tem4_questions_review_before_71_88_approve_20260827_202031.csv`。
