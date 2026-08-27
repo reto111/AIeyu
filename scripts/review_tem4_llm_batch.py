@@ -31,6 +31,10 @@ OPTION_CUTS = {
     (2024, 26, "B"): " --- Page",
     (2024, 65, "D"): " У НИР",
     (2024, 70, "D"): " Заполнение",
+    (2019, 60, "D"): " 完型填空",
+    (2021, 60, "D"): " 完型填空",
+    (2022, 60, "D"): " 完型填空",
+    (2023, 60, "D"): " 完型填空",
 }
 
 STEM_CUTS = {(2018, 60): " 沙拉俄语"}
@@ -41,6 +45,7 @@ SECTION_MARKERS = (
 EXPECTED_KEYS = {"A", "B", "C", "D"}
 OCR_YEARS = {2024}
 LATIN_RE = re.compile(r"[A-Za-z]{2,}")
+ROMAN_TOKEN_RE = re.compile(r"^[IVXLCDM]+$", re.I)
 OCR_SYMBOL_RE = re.compile(r"[{}<>@#$^&*+=~|\\]")
 BLANK_RE = re.compile(r"_{2,}|\.{3,}|…")
 
@@ -55,6 +60,10 @@ def clean_text(text: str, cut: str | None = None) -> str:
     if cut and cut in value:
         value = value.split(cut, 1)[0].rstrip()
     return value
+
+
+def has_latin_noise(text: str) -> bool:
+    return any(not ROMAN_TOKEN_RE.fullmatch(token) for token in LATIN_RE.findall(text or ""))
 
 
 def get_questions(conn: sqlite3.Connection) -> list[sqlite3.Row]:
@@ -134,9 +143,9 @@ def readiness(row: sqlite3.Row, option_rows: list[sqlite3.Row]) -> tuple[str, st
         return "keep_needs_review", "存在替换乱码字符"
     if "沙拉俄语" in joined:
         return "keep_needs_review", "仍残留水印文本"
-    if any(marker.lower() in joined.lower() for marker in SECTION_MARKERS):
+    if any(marker in joined for marker in SECTION_MARKERS):
         return "keep_needs_review", "仍含页脚、章节标题或分页标记"
-    if LATIN_RE.search(joined):
+    if has_latin_noise(joined):
         return "keep_needs_review", "俄语题目中混入连续拉丁字符，需人工核对"
     if OCR_SYMBOL_RE.search(joined):
         return "keep_needs_review", "存在疑似 OCR 特殊符号"

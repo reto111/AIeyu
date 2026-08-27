@@ -1229,3 +1229,18 @@ data/listening/raw_audio/tem8/
 - 当前人工审核表：data/processed/review_sheets/tem4_questions_review.csv、data/processed/review_sheets/tem4_passages_review.csv；质量报告：data/processed/question_quality/tem4/tem4_llm_review_report.csv；无法自动放行清单：data/processed/question_quality/tem4/tem4_uncompletable.csv。
 
 本 checkpoint 的不可变规则：文字层可用年份绝不 OCR；听力绝不混入正式题库；2024 OCR 不因结构完整而自动放行；任何题干、选项、答案、文章绑定无法从原 PDF 可靠核验时，保留 needs_review，不用模型猜测。
+
+### 5.10 专四逐题审核 checkpoint（2026-08-27）
+
+在 5.9 的干净重建基础上，按年份和题号顺序完成了一轮保守逐题审核。审核先检查题干、四个选项、答案、题型和阅读文章绑定，再应用有明确来源依据的局部切分修正；不能从资料可靠确认的内容不猜测。
+
+- 2017–2023 的直接文字层题目中，267 道已标记 approved + practice，可进入学生练习；其中 120 道阅读题继续待逐篇人工核对。
+- 2019 第 16、50 题和 2023 第 20 题只有 3 个选项，无法从当前文字层确认缺失选项，已列入人工确认表。
+- 2019、2021、2022、2023 第 60 题 D 选项误吸收下一部分完形填空，已按明确章节边界截断并复核通过。
+- 2024 的 75 道非听力题全部来自 OCR，统一保留 needs_review；不能因为题目结构看似完整就自动进入练习。
+- 当前专四状态：267 approved + practice，198 needs_review + source_reference_only；listening_choice 仍为 0。
+- 最终人工确认表已刷新：data/processed/review_sheets/tem4_questions_review.csv（198 道题）；阅读文章表：data/processed/review_sheets/tem4_passages_review.csv（28 篇）。
+- 本轮审核报告：data/processed/question_quality/tem4/tem4_llm_review_report.csv；无法确认清单：data/processed/question_quality/tem4/tem4_uncompletable.csv。
+- 本轮审核前数据库备份：data/processed/backups/russian_ai_tutor_before_tem4_batch_review_20260827_190117.sqlite。
+
+后续人工审核时：表中 `review_decision` 填 `approve` 才能进入练习，填 `reject` 或留空都保持下架；阅读必须以整篇文章为单位确认，2024 OCR 必须对照原始 PDF。
