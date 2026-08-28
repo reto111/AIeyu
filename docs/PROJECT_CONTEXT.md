@@ -1,5 +1,16 @@
 # AI Russian Tutor Project Context
 
+### Latest checkpoint: TEM4 pending vocabulary LLM review batch 12 (2026-08-28)
+
+- The twelfth pending batch was reviewed directly with the assistant model. OCR headwords were corrected per word, actual `ё` was preserved, and letters were changed to `е` only where Russian spelling required it.
+- The batch covered 102 page/block coordinates from `p108/b3` through `p116/b14`. Cross-page continuations and example fragments were rejected, including the continuation rows around `изучать`, `интонация`, `исправлять`, `казаться`, `к`, `какой-то`, `календарь`, `карандаш`, and `касаться`.
+- Important OCR recoveries included `изобретение`, `именно`, `иметь`, `иметься`, `имя`, `инженер`, `инструмент`, `интеллигент`, `интеллигенция`, `интервенция`, `интерес`, `интересно`, `интересный`, `информация`, `искусство`, `исследование`, `истина`, `кабинет`, `кассир`, `каток`, and `кафе`. The false `обёду` and `прислониться` rows were correctly rejected as continuations of the preceding `к` entry.
+- Review sheet status after this batch: `approved` = 1114, `rejected` = 155, `needs_review` = 1, `pending` = 2654. The only unresolved manual-review coordinate remains `p154/b2`, which is intentionally excluded per the user's decision.
+- Formal vocabulary counts after import: `TEM4_RU/TEM4` = 1113 unique words; `TEM8_RU/TEM8` = 3513. Import reported `inserted` = 83, `updated` = 1031, `invalid_approved` = 0, and `skipped` = 0.
+- Review-sheet backup: `data/processed/words/tem4_words_review_simple_before_pending_batch12_20260828_210805.csv`.
+- Database backup: `data/processed/backups/russian_ai_tutor_before_tem4_pending_batch12_20260828_210907.sqlite`.
+- Post-apply audit found `missing = [('154', '2')]` only, and zero Cyrillic characters in approved Chinese meanings.
+
 ### Latest checkpoint: TEM4 pending vocabulary LLM review batch 11 (2026-08-28)
 
 - The eleventh pending batch was reviewed directly with the assistant model. Russian headwords were corrected per word, actual `ё` was preserved, and incorrect OCR marks were changed to `е` only where required.
