@@ -48,7 +48,7 @@ DECISIONS: dict[tuple[str, str], dict[str, str]] = {
     ("125", "5"): {"word": "кормить", "meaning_zh": "喂养；给……吃；供养；赡养", "status": "approved", "note": "ocr_headword_recovered_from_infinitive"},
     ("130", "2"): {"status": "rejected", "note": "example_phrase_not_headword"},
     ("133", "1"): {"status": "rejected", "note": "page_number_or_layout_noise"},
-    ("134", "1"): {"status": "needs_review", "note": "headword_missing_cannot_reliably_recover"},
+    ("134", "1"): {"word": "лишать", "lemma": "лишать", "part_of_speech": "未", "meaning_zh": "剥夺……的权利；使……失去……（完成体：лишить）", "status": "approved", "note": "user_confirmed_lishat_and_lishit_aspect_pair"},
     ("138", "2"): {"status": "rejected", "note": "fixed_expression_not_single_headword"},
     ("143", "6"): {"status": "needs_review", "note": "headword_missing_cannot_reliably_recover_from_meaning_only"},
     ("148", "2"): {"word": "мыслить", "meaning_zh": "思考；想；认为", "status": "approved", "note": "ocr_headword_recovered_from_collocations"},
@@ -85,7 +85,7 @@ DECISIONS: dict[tuple[str, str], dict[str, str]] = {
     ("315", "11"): {"word": "узкий", "meaning_zh": "狭窄的；窄的；有限的；狭义的", "status": "approved", "note": "ocr_headword_recovered_from_definition"},
     ("325", "13"): {"word": "форма", "meaning_zh": "形式；形状；制服；表格", "status": "approved", "note": "ocr_headword_recovered_from_collocations"},
     ("326", "6"): {"word": "фронт", "meaning_zh": "前线；战线；统一战线；（转）活动领域", "status": "approved", "note": "ocr_headword_confirmed_from_raw_entry"},
-    ("332", "2"): {"status": "needs_review", "note": "multiple_entries_merged_headword_missing"},
+    ("332", "2"): {"word": "центральный", "part_of_speech": "形", "meaning_zh": "中心的；中央的；核心的；中央空调、集中供暖、中央委员会、中心思想等", "status": "approved", "note": "user_confirmed_headword_from_adjacent_page"},
     ("340", "1"): {"status": "rejected", "note": "page_number_or_layout_noise"},
     ("342", "3"): {"word": "экономия", "meaning_zh": "节约；节省；节约的办法；经济（学）", "status": "approved", "note": "ocr_o_and_b_shape_correction"},
     ("346", "10"): {"word": "отложить", "meaning_zh": "推迟；延期；搁置；把……放到一边", "status": "approved", "note": "ocr_headword_recovered_from_infinitive"},
@@ -141,6 +141,8 @@ def main() -> None:
             continue
         if decision.get("word"):
             row["word"] = decision["word"]
+        if decision.get("lemma"):
+            row["lemma"] = decision["lemma"]
         if decision.get("meaning_zh"):
             row["meaning_zh"] = decision["meaning_zh"]
         if decision.get("part_of_speech"):

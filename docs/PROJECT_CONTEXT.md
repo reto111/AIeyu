@@ -1313,4 +1313,11 @@ data/listening/raw_audio/tem8/
 - 预览导入结果为 41 条新增、0 条更新、0 条跳过；尚未执行正式数据库导入，专四正式词条仍为 0。
 - 复核脚本：`scripts/apply_tem4_word_llm_review.py`；复核报告：`data/processed/words/tem4_words_llm_review_report.json`；人工复核子表已同步为 3 条：`data/processed/words/tem4_words_review_only.csv`；删除记录：`data/processed/words/tem4_words_removed_by_llm.csv`。
 - 正式导入增加内容闸门：词头含替换字符或非俄文字母、中文释义为空、释义开头混入孤立词性标记时，即使状态误为 `approved` 也会拦截；`ё/е` 仍只允许逐词核对，禁止全局替换。
+
+### 5.17 专四剩余 OCR 人工确认更新 checkpoint（2026-08-28）
+
+- 用户确认第 134 页第 1 块为 `лишать`，并要求保留完成体 `лишить`；已作为“未完成体 `лишать` / 完成体 `лишить`”写入词条释义。
+- 用户确认第 332 页第 2 块为 `центральный`；已修正为形容词并补全中心、中央、核心及相关搭配释义。
+- 第 143 页第 6 块仍无法判断，继续保留 `needs_review`，不猜测入库。
+- 当前专四审核表 3924 条：43 条 `approved`、28 条 `rejected`、1 条 `needs_review`、3852 条 `pending`；正式数据库尚未导入。
 - 审核表回退备份：`data/processed/backups/tem4_words_review_simple_before_llm_review_20260828_181452.csv`。
