@@ -1,5 +1,16 @@
 # AI Russian Tutor Project Context
 
+### Latest checkpoint: TEM4 pending vocabulary LLM review batch 26 (2026-08-28)
+
+- The twenty-sixth pending batch was reviewed directly with the assistant model. OCR symbols, mixed-language fragments, inflection-only rows, page continuations, and examples were removed; approved rows retain concise Chinese core meanings.
+- The batch covered exactly 100 pending coordinates from `p228/b6` through `p237/b1`. Eighty-eight entries were approved and 12 page fragments, inflection fragments, example continuations, or incomplete page blocks were rejected. The only unresolved coordinate remains `p154/b2`.
+- Important recoveries included `принцип`, `приход`, `проблема`, `продавец`, `проект`, `проигрывать`, `произведение`, `произношение`, `происходить`, `происхождение`, `промышленность`, `промышленный`, `просвещение`, `просить`, `проспект`, `проспать`, and `протест`. False OCR `ё` was corrected to `е` only where the standard word requires `е`; true `ё` was retained.
+- Review sheet status after this batch: `approved` = 2380, `rejected` = 289, `needs_review` = 1, `pending` = 1254. The unresolved manual-review coordinate remains `p154/b2`, intentionally excluded per the user's decision.
+- Formal vocabulary counts after import: `TEM4_RU/TEM4` = 2377 unique words; `TEM8_RU/TEM8` = 3513. Import reported `inserted` = 88, `updated` = 2292, `invalid_approved` = 0, and `skipped` = 0.
+- Review-sheet backup: `data/processed/backups/tem4_words_review_simple_before_pending_batch26_20260828_231623.csv`.
+- Database backup: `data/processed/backups/russian_ai_tutor_before_tem4_pending_batch26_20260828_231757.sqlite`.
+- Post-apply audit found `missing = [('154', '2')]` only, zero Cyrillic characters in approved Chinese meanings, zero invalid TEM4 word heads, and all 100 batch coordinates were matched before applying.
+
 ### Latest checkpoint: TEM4 pending vocabulary LLM review batch 25 (2026-08-28)
 
 - The twenty-fifth pending batch was reviewed directly with the assistant model. Symbol/language noise, OCR examples, inflection fragments, and non-core text were removed; only concise Chinese core meanings were retained for approved entries.
