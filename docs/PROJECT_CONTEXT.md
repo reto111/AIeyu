@@ -1,5 +1,15 @@
 # AI Russian Tutor Project Context
 
+### Latest checkpoint: TEM4 pending vocabulary LLM review batch 5 (2026-08-28)
+
+- The fifth pending batch was reviewed directly with the assistant model. Incorrect OCR headwords were corrected per word, and actual `ё` was retained only where it belongs; incorrect `ё` marks were changed to `е`.
+- Continuation fragments and layout noise were rejected, including the fixed phrase fragments around `вручать`, `выгонять`, `выдавать`, `вызывать`, `выразительный`, and `вопрос`. Complete entries were rebuilt with Chinese core meanings only.
+- Review sheet status after this batch: `approved` = 493, `rejected` = 74, `needs_review` = 1, `pending` = 3356. The unresolved manual-review coordinate remains `p143/b6`; `p154/b2` was intentionally removed per the user's decision.
+- Formal vocabulary counts after import: `TEM4_RU/TEM4` = 493; `TEM8_RU/TEM8` = 3513. Import reported `inserted` = 92, `updated` = 401, `invalid_approved` = 0, and `skipped` = 0.
+- Review-sheet backup: `data/processed/words/tem4_words_review_simple_before_pending_batch5_20260828_201836.csv`.
+- Database backup: `data/processed/backups/russian_ai_tutor_before_tem4_pending_batch5_20260828_201836.sqlite`.
+- Three earlier approved meanings with OCR/example contamination were also trimmed to Chinese core meanings: `коренной`, `лишать`, and `танец`.
+
 ### Latest checkpoint: TEM4 pending vocabulary LLM review batch 4 (2026-08-28)
 
 - The fourth pending batch was reviewed directly with the assistant model. OCR headwords were corrected only when supported by the source shape and meaning; actual `ё` was retained, while incorrect OCR/stress marks were corrected per word.
