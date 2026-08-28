@@ -1,5 +1,16 @@
 # AI Russian Tutor Project Context
 
+### Latest checkpoint: TEM4 pending vocabulary LLM review batch 22 (2026-08-28)
+
+- The twenty-second pending batch was reviewed directly with the assistant model. OCR headwords were corrected per word, true `ё` was preserved, and `е`/`ё` changes were made only according to verified Russian spelling.
+- The batch covered exactly 100 pending coordinates from `p192/b12` through `p201/b7`. Continuation, duplicate, fixed-phrase, and merged fragments were rejected at `p194/b1`, `p195/b2`, `p195/b4`, `p195/b7`, `p195/b13`, `p196/b1`, `p197/b1`, `p198/b1`, `p199/b1`, and `p200/b1`.
+- Important OCR recoveries included `перед`, `передний`, `перемена`, `перо`, `песня`, `петух`, `печенье`, `пища`, `платок`, `плащ`, `площадь`, `плыть`, `по`, `победа`, `поведение`, and `поверхность`. False `ё` was corrected to `е` in `передний`, `песня`, `печенье`, `победа`, and `поверхность`; the `питание`/`питаться` and `по`/`поворачивать` boundaries were checked explicitly.
+- Review sheet status after this batch: `approved` = 2024, `rejected` = 245, `needs_review` = 1, `pending` = 1654. The only unresolved manual-review coordinate remains `p154/b2`, intentionally excluded per the user's decision.
+- Formal vocabulary counts after import: `TEM4_RU/TEM4` = 2021 unique words; `TEM8_RU/TEM8` = 3513. Import reported `inserted` = 90, `updated` = 1934, `invalid_approved` = 0, and `skipped` = 0.
+- Review-sheet backup: `data/processed/words/tem4_words_review_simple_before_pending_batch22_20260828_222314.csv`.
+- Database backup: `data/processed/backups/russian_ai_tutor_before_tem4_pending_batch22_20260828_222329.sqlite`.
+- Post-apply audit found `missing = [('154', '2')]` only, zero Cyrillic characters in approved Chinese meanings, and verified the corrected headwords in the formal database.
+
 ### Latest checkpoint: TEM4 pending vocabulary LLM review batch 21 (2026-08-28)
 
 - The twenty-first pending batch was reviewed directly with the assistant model. OCR headwords were corrected per word, true `ё` was preserved, and `е`/`ё` changes were made only according to verified Russian spelling.
