@@ -1,5 +1,14 @@
 # AI Russian Tutor Project Context
 
+### Latest checkpoint: TEM4 pending vocabulary LLM review batch 4 (2026-08-28)
+
+- The fourth pending batch was reviewed directly with the assistant model. OCR headwords were corrected only when supported by the source shape and meaning; actual `ё` was retained, while incorrect OCR/stress marks were corrected per word.
+- Cross-page continuations and fixed-phrase fragments were rejected. In particular, the continuation blocks for `виноватый`, `власть`, `вопрос`, and `возможный` were not imported as duplicate words; their complete entries were reconstructed or retained at the preceding coordinate.
+- Review sheet status after this batch: `approved` = 401, `rejected` = 66, `needs_review` = 1, `pending` = 3456. The unresolved manual-review coordinate remains `p143/b6`; `p154/b2` was intentionally removed per the user's decision.
+- Formal vocabulary counts after import: `TEM4_RU/TEM4` = 401; `TEM8_RU/TEM8` = 3513. Import dry-run and formal import both reported `invalid_approved` = 0 and `skipped` = 0.
+- Review-sheet backup: `data/processed/words/tem4_words_review_simple_before_pending_batch4_20260828_201244.csv`.
+- Database backup: `data/processed/backups/russian_ai_tutor_before_tem4_pending_batch4_20260828_201346.sqlite`.
+
 ### Latest checkpoint: TEM4 pending vocabulary LLM review batch 3 (2026-08-28)
 
 - The third pending batch was reviewed directly with the assistant model. OCR headwords were corrected only when the Russian shape and Chinese meaning supported the correction; true `ё` was preserved, while stress/OCR artifacts were changed to `е` per word.
