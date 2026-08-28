@@ -1,5 +1,16 @@
 # AI Russian Tutor Project Context
 
+### Latest checkpoint: TEM4 pending vocabulary LLM review batch 14 (2026-08-28)
+
+- The fourteenth pending batch was reviewed directly with the assistant model. OCR headwords were corrected per word, true `ё` was preserved, and `е`/`ё` changes were made only according to verified Russian spelling.
+- The batch covered exactly 100 pending coordinates from `p124/b8` through `p132/b6`. Three continuation fragments were rejected: `p125/b1` from `корень`, `p127/b1` from `красть`, and `p129/b7` from `куда`.
+- Important recoveries included `копейка`, `корреспондент`, `косой`, `краснеть`, `красть`, `крепкий`, `кружок`, `кто-нибудь`, `кулак`, `лев`, `легкомысленный`, `лекция`, `ленинский`, `лента`, and `лестница`. The incomplete but certain `критиковать` entry received a concise reconstructed core meaning.
+- Review sheet status after this batch: `approved` = 1305, `rejected` = 164, `needs_review` = 1, `pending` = 2454. The only unresolved manual-review coordinate remains `p154/b2`, intentionally excluded per the user's decision.
+- Formal vocabulary counts after import: `TEM4_RU/TEM4` = 1304 unique words; `TEM8_RU/TEM8` = 3513. Import reported `inserted` = 97, `updated` = 1208, `invalid_approved` = 0, and `skipped` = 0.
+- Review-sheet backup: `data/processed/words/tem4_words_review_simple_before_pending_batch14_20260828_212440.csv`.
+- Database backup: `data/processed/backups/russian_ai_tutor_before_tem4_pending_batch14_20260828_212522.sqlite`.
+- Post-apply audit found `missing = [('154', '2')]` only, and zero Cyrillic characters in approved Chinese meanings.
+
 ### Latest checkpoint: TEM4 pending vocabulary LLM review batch 13 (2026-08-28)
 
 - The thirteenth pending batch was reviewed directly with the assistant model. OCR headwords were corrected per word, actual `ё` was preserved, and `е`/`ё` changes were made only according to the verified Russian spelling.
