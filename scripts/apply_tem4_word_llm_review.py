@@ -115,6 +115,7 @@ def main() -> None:
         key = ((row.get("source_page") or "").strip(), (row.get("block_index") or "").strip())
         decision = DECISIONS.get(key)
         if decision is None:
+            output_rows.append(row)
             continue
         seen.add(key)
         old_word = row.get("word", "")
