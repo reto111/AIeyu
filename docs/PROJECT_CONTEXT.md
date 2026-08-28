@@ -1,5 +1,15 @@
 # AI Russian Tutor Project Context
 
+### Latest checkpoint: TEM4 pending vocabulary LLM review batch 7 (2026-08-28)
+
+- The seventh pending batch was reviewed directly with the assistant model. Word forms were corrected per word, with real `ё` retained and incorrect OCR marks changed to `е`.
+- Cross-page continuations, fixed phrases, and duplicate fragments were rejected, including fragments around `гриб`, `давать`, `даваться`, `двигаться`, `голос`, `гореть`, `дело`, and `дедушка`.
+- Review sheet status after this batch: `approved` = 675, `rejected` = 92, `needs_review` = 1, `pending` = 3156. The unresolved manual-review coordinate remains `p143/b6`; `p154/b2` was intentionally removed per the user's decision.
+- Formal vocabulary counts after import: `TEM4_RU/TEM4` = 674 unique words; `TEM8_RU/TEM8` = 3513. The review sheet has 675 approved rows because one approved row duplicates an existing word and is updated. Import reported `inserted` = 90, `updated` = 585, `invalid_approved` = 0, and `skipped` = 0.
+- Review-sheet backup: `data/processed/words/tem4_words_review_simple_before_pending_batch7_20260828_203029.csv`.
+- Database backup: `data/processed/backups/russian_ai_tutor_before_tem4_pending_batch7_20260828_203122.sqlite`.
+- Approved-meaning audit again found zero Cyrillic characters in Chinese meanings.
+
 ### Latest checkpoint: TEM4 pending vocabulary LLM review batch 6 (2026-08-28)
 
 - The sixth pending batch was reviewed directly with the assistant model. Headwords were corrected per word, with real `ё` retained and incorrect OCR `ё` marks changed to `е`.
