@@ -1,5 +1,16 @@
 # AI Russian Tutor Project Context
 
+### Latest checkpoint: TEM4 pending vocabulary LLM review batch 13 (2026-08-28)
+
+- The thirteenth pending batch was reviewed directly with the assistant model. OCR headwords were corrected per word, actual `ё` was preserved, and `е`/`ё` changes were made only according to the verified Russian spelling.
+- The batch covered exactly 100 pending coordinates from `p117/b1` through `p124/b7`. A pre-apply coordinate audit caught a potential one-row shift caused by the missing `p117/b5`; it was corrected before applying decisions. This preserved the correct mapping `b8=кашлять`, `b9=квадратный`, `b10=квалифицированный`, `b11=квартал`, `b12=квартира`, `b13=кепка`, `b14=керосин`.
+- Continuation/example fragments were rejected at `p117/b1`, `p121/b1`, `p121/b10`, `p122/b1`, `p123/b1`, and `p124/b1`. OCR recoveries included `квалифицированный`, `кепка`, `километр`, `кипятить`, `кое-кто`, `кое-что`, `коллега`, `колыбель`, `команда`, `комедия`, `комитет`, `компас`, `комсомол`, `комсомолец`, `конгресс`, `конец`, `конечный`, `конкретный`, `конспект`, `континент`, `конференция`, `конфета`, and `концерт`.
+- Review sheet status after this batch: `approved` = 1208, `rejected` = 161, `needs_review` = 1, `pending` = 2554. The only unresolved manual-review coordinate remains `p154/b2`, intentionally excluded per the user's decision.
+- Formal vocabulary counts after import: `TEM4_RU/TEM4` = 1207 unique words; `TEM8_RU/TEM8` = 3513. Import reported `inserted` = 94, `updated` = 1114, `invalid_approved` = 0, and `skipped` = 0.
+- Review-sheet backup: `data/processed/words/tem4_words_review_simple_before_pending_batch13_20260828_211744.csv`.
+- Database backup: `data/processed/backups/russian_ai_tutor_before_tem4_pending_batch13_20260828_211841.sqlite`.
+- Post-apply audit found `missing = [('154', '2')]` only, and zero Cyrillic characters in approved Chinese meanings.
+
 ### Latest checkpoint: TEM4 pending vocabulary LLM review batch 12 (2026-08-28)
 
 - The twelfth pending batch was reviewed directly with the assistant model. OCR headwords were corrected per word, actual `ё` was preserved, and letters were changed to `е` only where Russian spelling required it.
