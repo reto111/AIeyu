@@ -1,5 +1,15 @@
 # AI Russian Tutor Project Context
 
+### Latest checkpoint: TEM4 pending vocabulary LLM review batch 11 (2026-08-28)
+
+- The eleventh pending batch was reviewed directly with the assistant model. Russian headwords were corrected per word, actual `ё` was preserved, and incorrect OCR marks were changed to `е` only where required.
+- Cross-page continuations, fixed phrases, and false word heads were rejected, including fragments around `здание`, `здесь`, `знакомый`, `зрение`, `изба`, `известно`, `извинить`, and `издавать`. The preposition `из` and the reconstructable noun `дядя` were retained as proper entries in earlier boundaries.
+- Review sheet status after this batch: `approved` = 1031, `rejected` = 136, `needs_review` = 1, `pending` = 2756. The only unresolved manual-review coordinate remains `p154/b2`.
+- Formal vocabulary counts after import: `TEM4_RU/TEM4` = 1030 unique words; `TEM8_RU/TEM8` = 3513. The review sheet has 1031 approved rows because one approved row duplicates an existing word and is updated. Import reported `inserted` = 87, `updated` = 944, `invalid_approved` = 0, and `skipped` = 0.
+- Review-sheet backup: `data/processed/words/tem4_words_review_simple_before_pending_batch11_20260828_205701.csv`.
+- Database backup: `data/processed/backups/russian_ai_tutor_before_tem4_pending_batch11_20260828_205811.sqlite`.
+- Approved-meaning audit found zero Cyrillic characters in Chinese meanings.
+
 ### Latest checkpoint: TEM4 pending vocabulary LLM review batch 10 (2026-08-28)
 
 - The tenth pending batch was reviewed directly with the assistant model. Headwords were corrected per word, actual `ё` was preserved, and incorrect OCR marks were changed to `е` only where required by Russian spelling.
