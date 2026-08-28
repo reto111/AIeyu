@@ -79,6 +79,14 @@ NOISE_WORDS = {
     "isbn",
     "cip",
     "email",
+    # Inflection labels that OCR may mistake for a headword.
+    "кого-что",
+    "кем-чем",
+    "кого-чего",
+    "го-что",
+    "го-чего",
+    "кому-чему",
+    "чего-что",
 }
 
 NONWORD_HEADINGS = (

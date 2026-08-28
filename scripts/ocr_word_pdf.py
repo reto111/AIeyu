@@ -77,9 +77,14 @@ def run_tesseract(
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="OCR the TEM8 Russian word PDF.")
+    parser = argparse.ArgumentParser(description="OCR a Russian vocabulary PDF.")
     parser.add_argument("--pdf", type=Path, default=DEFAULT_PDF)
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
+    parser.add_argument(
+        "--prefix",
+        default="tem8_russian_words",
+        help="Output filename prefix, e.g. tem4_russian_words.",
+    )
     parser.add_argument("--tesseract", type=Path, default=DEFAULT_TESSERACT)
     parser.add_argument("--tessdata", type=Path, default=DEFAULT_TESSDATA)
     parser.add_argument("--lang", default="rus+chi_sim")
@@ -122,7 +127,7 @@ def main() -> None:
         tmp_dir = Path(tmp)
         for page_index in pages:
             page_no = page_index + 1
-            text_path = page_dir / f"tem8_russian_words_page_{page_no:03d}.txt"
+            text_path = page_dir / f"{args.prefix}_page_{page_no:03d}.txt"
             if text_path.exists() and not args.force:
                 text = text_path.read_text(encoding="utf-8", errors="replace")
                 manifest["outputs"].append(
@@ -141,11 +146,11 @@ def main() -> None:
             )
             print(f"OCR page {page_no}/{len(pdf)} -> {len(raw_text.strip())} chars")
 
-    combined_path = output_dir / "tem8_russian_words_ocr_combined.txt"
+    combined_path = output_dir / f"{args.prefix}_ocr_combined.txt"
     with combined_path.open("w", encoding="utf-8") as stream:
         for page_index in pages:
             page_no = page_index + 1
-            text_path = page_dir / f"tem8_russian_words_page_{page_no:03d}.txt"
+            text_path = page_dir / f"{args.prefix}_page_{page_no:03d}.txt"
             if not text_path.exists():
                 continue
             stream.write(f"\n\n===== PAGE {page_no:03d} =====\n")
@@ -153,7 +158,7 @@ def main() -> None:
 
     manifest["combined_path"] = str(combined_path)
     manifest["finished_at"] = datetime.now().isoformat(timespec="seconds")
-    manifest_path = output_dir / "tem8_russian_words_ocr_manifest.json"
+    manifest_path = output_dir / f"{args.prefix}_ocr_manifest.json"
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps({"pages_done": len(pages), "combined": str(combined_path)}, ensure_ascii=False))
 

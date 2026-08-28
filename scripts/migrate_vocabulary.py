@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import argparse
 import sqlite3
 from pathlib import Path
 
@@ -123,38 +124,55 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def fetch_tem8_ids(conn: sqlite3.Connection) -> tuple[int, int]:
-    exam_system_id = int(conn.execute("SELECT id FROM exam_systems WHERE code = 'TEM8_RU'").fetchone()[0])
+def fetch_ids(conn: sqlite3.Connection, exam_system_code: str, level_code: str) -> tuple[int, int]:
+    system_row = conn.execute(
+        "SELECT id FROM exam_systems WHERE code = ?",
+        (exam_system_code,),
+    ).fetchone()
+    if system_row is None:
+        raise ValueError(f"Exam system not found: {exam_system_code}")
+    exam_system_id = int(system_row[0])
     level_id = int(
         conn.execute(
-            "SELECT id FROM exam_levels WHERE exam_system_id = ? AND code = 'TEM8'",
-            (exam_system_id,),
+            "SELECT id FROM exam_levels WHERE exam_system_id = ? AND code = ?",
+            (exam_system_id, level_code),
         ).fetchone()[0]
     )
     return exam_system_id, level_id
 
 
-def register_word_source(conn: sqlite3.Connection) -> int | None:
-    if not WORD_PDF.exists():
+def register_word_source(
+    conn: sqlite3.Connection,
+    word_pdf: Path,
+    manifest_path: Path,
+    exam_system_code: str,
+    level_code: str,
+    title: str,
+) -> int | None:
+    if not word_pdf.exists():
         return None
-    exam_system_id, level_id = fetch_tem8_ids(conn)
+    exam_system_id, level_id = fetch_ids(conn, exam_system_code, level_code)
     page_count = None
     manifest_notes = {}
-    if MANIFEST_PATH.exists():
-        manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
+    if manifest_path.exists():
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
         page_count = int(manifest.get("page_count") or 0) or None
         manifest_notes = {
             "ocr_combined_path": manifest.get("combined_path"),
             "ocr_lang": manifest.get("lang"),
             "ocr_dpi": manifest.get("dpi"),
         }
+    try:
+        relative_pdf = str(word_pdf.relative_to(ROOT)).replace("\\", "/")
+    except ValueError:
+        relative_pdf = str(word_pdf)
     conn.execute(
         """
         INSERT INTO word_sources (
           exam_system_id, level_id, title, file_path, file_name, file_hash,
           file_size_bytes, page_count, source_type, ocr_status, review_status, notes
         )
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'word_list', 'ocr_done', 'in_review', ?)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'word_list', ?, 'in_review', ?)
         ON CONFLICT(exam_system_id, file_path) DO UPDATE SET
           file_hash = excluded.file_hash,
           file_size_bytes = excluded.file_size_bytes,
@@ -167,27 +185,42 @@ def register_word_source(conn: sqlite3.Connection) -> int | None:
         (
             exam_system_id,
             level_id,
-            "俄语专八词汇 OCR 词库",
-            str(WORD_PDF.relative_to(ROOT)).replace("\\", "/"),
-            WORD_PDF.name,
-            sha256(WORD_PDF),
-            WORD_PDF.stat().st_size,
+            title,
+            relative_pdf,
+            word_pdf.name,
+            sha256(word_pdf),
+            word_pdf.stat().st_size,
             page_count,
+            "ocr_done" if manifest_path.exists() else "needs_ocr",
             json.dumps(manifest_notes, ensure_ascii=False),
         ),
     )
     row = conn.execute(
         "SELECT id FROM word_sources WHERE exam_system_id = ? AND file_path = ?",
-        (exam_system_id, str(WORD_PDF.relative_to(ROOT)).replace("\\", "/")),
+        (exam_system_id, relative_pdf),
     ).fetchone()
     return int(row[0]) if row else None
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Register a Russian vocabulary source in the database.")
+    parser.add_argument("--pdf", type=Path, default=WORD_PDF)
+    parser.add_argument("--manifest", type=Path, default=MANIFEST_PATH)
+    parser.add_argument("--exam-system", default="TEM8_RU")
+    parser.add_argument("--level", default="TEM8")
+    parser.add_argument("--title", default="俄语专八词汇 OCR 词库")
+    args = parser.parse_args()
     with sqlite3.connect(DB_PATH) as conn:
         conn.execute("PRAGMA foreign_keys = ON")
         conn.executescript(DDL)
-        source_id = register_word_source(conn)
+        source_id = register_word_source(
+            conn,
+            args.pdf.resolve(),
+            args.manifest.resolve(),
+            args.exam_system,
+            args.level,
+            args.title,
+        )
         conn.commit()
         counts = {
             "word_sources": conn.execute("SELECT COUNT(*) FROM word_sources").fetchone()[0],

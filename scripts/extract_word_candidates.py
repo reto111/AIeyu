@@ -127,9 +127,9 @@ def first_meaning_zh(block: str) -> str:
     return meaning[:500]
 
 
-def iter_candidates(ocr_dir: Path) -> list[dict[str, str]]:
+def iter_candidates(ocr_dir: Path, prefix: str, source_file: str) -> list[dict[str, str]]:
     rows: list[dict[str, str]] = []
-    for path in sorted(ocr_dir.glob("tem8_russian_words_page_*.txt")):
+    for path in sorted(ocr_dir.glob(f"{prefix}_page_*.txt")):
         page_no = int(path.stem.rsplit("_", 1)[-1])
         text = path.read_text(encoding="utf-8", errors="replace")
         for block_index, block in enumerate(split_blocks(text), start=1):
@@ -140,7 +140,7 @@ def iter_candidates(ocr_dir: Path) -> list[dict[str, str]]:
                 continue
             rows.append(
                 {
-                    "source_file": "tem8_russian_words.pdf",
+                    "source_file": source_file,
                     "source_page": str(page_no),
                     "block_index": str(block_index),
                     "raw_headword": block.splitlines()[0].strip()[:160],
@@ -184,9 +184,11 @@ def main() -> None:
     parser.add_argument("--ocr-dir", type=Path, default=DEFAULT_OCR_DIR)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--review-output", type=Path, default=DEFAULT_REVIEW_OUTPUT)
+    parser.add_argument("--prefix", default="tem8_russian_words")
+    parser.add_argument("--source-file", default="tem8_russian_words.pdf")
     args = parser.parse_args()
 
-    rows = iter_candidates(args.ocr_dir)
+    rows = iter_candidates(args.ocr_dir, args.prefix, args.source_file)
     write_csv(args.output, rows)
     write_csv(args.review_output, rows)
 

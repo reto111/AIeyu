@@ -12,12 +12,18 @@ DB_PATH = ROOT / "database" / "russian_ai_tutor.sqlite"
 DEFAULT_REVIEW_CSV = ROOT / "data" / "processed" / "words" / "tem8_words_review_simple.csv"
 
 
-def fetch_tem8_ids(conn: sqlite3.Connection) -> tuple[int, int]:
-    exam_system_id = int(conn.execute("SELECT id FROM exam_systems WHERE code = 'TEM8_RU'").fetchone()[0])
+def fetch_ids(conn: sqlite3.Connection, exam_system_code: str, level_code: str) -> tuple[int, int]:
+    system_row = conn.execute(
+        "SELECT id FROM exam_systems WHERE code = ?",
+        (exam_system_code,),
+    ).fetchone()
+    if system_row is None:
+        raise ValueError(f"Exam system not found: {exam_system_code}")
+    exam_system_id = int(system_row[0])
     level_id = int(
         conn.execute(
-            "SELECT id FROM exam_levels WHERE exam_system_id = ? AND code = 'TEM8'",
-            (exam_system_id,),
+            "SELECT id FROM exam_levels WHERE exam_system_id = ? AND code = ?",
+            (exam_system_id, level_code),
         ).fetchone()[0]
     )
     return exam_system_id, level_id
@@ -50,14 +56,20 @@ def approved_rows(path: Path) -> list[dict[str, str]]:
     return [row for row in rows if normalized_review_status(row.get("review_status", "")) == "approved"]
 
 
-def import_words(path: Path, dry_run: bool) -> dict[str, int]:
+def import_words(
+    path: Path,
+    dry_run: bool,
+    exam_system_code: str,
+    level_code: str,
+    default_source_file: str,
+) -> dict[str, int]:
     rows = approved_rows(path)
     inserted = 0
     updated = 0
     skipped = 0
     with sqlite3.connect(DB_PATH) as conn:
         conn.execute("PRAGMA foreign_keys = ON")
-        exam_system_id, level_id = fetch_tem8_ids(conn)
+        exam_system_id, level_id = fetch_ids(conn, exam_system_code, level_code)
         source_cache: dict[str, int] = {}
         for row in rows:
             word = (row.get("word") or "").strip()
@@ -65,7 +77,7 @@ def import_words(path: Path, dry_run: bool) -> dict[str, int]:
             if not word or not meaning_zh:
                 skipped += 1
                 continue
-            source_file = (row.get("source_file") or "tem8_russian_words.pdf").strip()
+            source_file = (row.get("source_file") or default_source_file).strip()
             if source_file not in source_cache:
                 source_cache[source_file] = fetch_source_id(conn, exam_system_id, source_file)
             source_id = source_cache[source_file]
@@ -144,9 +156,18 @@ def import_words(path: Path, dry_run: bool) -> dict[str, int]:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Import manually approved vocabulary rows.")
     parser.add_argument("--review-csv", type=Path, default=DEFAULT_REVIEW_CSV)
+    parser.add_argument("--exam-system", default="TEM8_RU")
+    parser.add_argument("--level", default="TEM8")
+    parser.add_argument("--default-source-file", default="tem8_russian_words.pdf")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
-    stats = import_words(args.review_csv, args.dry_run)
+    stats = import_words(
+        args.review_csv,
+        args.dry_run,
+        args.exam_system,
+        args.level,
+        args.default_source_file,
+    )
     print(json.dumps(stats, ensure_ascii=False, indent=2))
 
 

@@ -1289,3 +1289,16 @@ data/listening/raw_audio/tem8/
 - 阅读文章继续按文章整组返回，页面在文章标题处显示“整篇文章”，并保留完整正文排版。
 - 题干、选项、来源和阅读正文统一进行 HTML 转义，避免题库文本中的特殊字符破坏页面结构。
 - 本地验证地址：`http://127.0.0.1:8789/`；专四状态接口返回 444 道正式题，页面资源和 JavaScript 校验通过。
+
+### 5.15 专四词汇 OCR 接入 checkpoint（2026-08-28）
+
+本轮开始接入专四背单词词库。用户提供的文件实际路径为 `data/words/tem4_russian_words.pdf`；用户消息中的下划线是 Markdown 转义，不代表真实目录名。
+
+- OCR 使用与专八相同的 `pypdfium2 + Tesseract` 流程，专四 PDF 共 354 页，逐页原文输出到 `data/processed/words/tem4_ocr_text/`。
+- 已将 `scripts/ocr_word_pdf.py`、`scripts/extract_word_candidates.py` 改为支持 `--prefix` 和来源文件参数，专八默认参数保持不变。
+- 已将 `scripts/migrate_vocabulary.py`、`scripts/import_reviewed_words.py` 改为支持考试系统和等级参数；专四使用 `TEM4_RU/TEM4`，来源 `word_sources.id=2`，不得写入专八记录。
+- OCR 候选共 3999 条；按专八清洗规则保留 3925 条，剔除 74 条封面、标题、格变化标记、重复候选或明显非词条。OCR 风险审核发现 369 条，包含 296 条建议修正、35 条疑似词组/句子、38 条需人工确认。
+- 审核文件：`data/processed/words/tem4_words_review_simple.csv`；人工复核子表：`data/processed/words/tem4_words_review_only.csv`；剔除记录：`data/processed/words/tem4_words_removed_nonwords.csv`。
+- 专四词源已登记为 `ocr_done + in_review`，但尚未把任何未审核词条写入正式 `vocabulary_items`；正式入库只能使用用户审核后标为 `approved` 的行。
+- 数据库回退备份：`data/processed/backups/russian_ai_tutor_before_tem4_words_source_20260828_175512.sqlite`、`data/processed/backups/russian_ai_tutor_before_tem4_words_source_refresh_20260828_175701.sqlite`。
+- 本机 OCR 依赖为 `pypdfium2` 和 `Pillow`；Tesseract 语言包使用 `rus+chi_sim`。继续遵守既有规则：不全局替换 `ё/е`，不凭猜测补齐无法识别词条，正式词库只收审核通过项。
