@@ -1,5 +1,16 @@
 # AI Russian Tutor Project Context
 
+### Latest checkpoint: TEM4 pending vocabulary LLM review batch 27 (2026-08-28)
+
+- The twenty-seventh pending batch was reviewed directly with the assistant model. Symbol/language noise, OCR examples, inflection fragments, page continuations, and merged entries were removed; approved rows retain concise Chinese core meanings.
+- The batch covered exactly 100 pending coordinates from `p237/b2` through `p245/b5`. Ninety entries were approved and 10 page fragments, inflection fragments, example continuations, or incomplete page blocks were rejected. The only unresolved coordinate remains `p154/b2`.
+- Important recoveries included `противоречие`, `протяжение`, `профессия`, `профессор`, `прощать`, `против`, `процент`, `процесс`, `пятница`, `равнодушный`, and `раздаваться`. False OCR `ё` was corrected to `е` only where the standard word requires `е`; true `ё` was retained.
+- Review sheet status after this batch: `approved` = 2470, `rejected` = 299, `needs_review` = 1, `pending` = 1154. The unresolved manual-review coordinate remains `p154/b2`, intentionally excluded per the user's decision.
+- Formal vocabulary counts after import: `TEM4_RU/TEM4` = 2467 unique words; `TEM8_RU/TEM8` = 3513. Import reported `inserted` = 90, `updated` = 2380, `invalid_approved` = 0, and `skipped` = 0.
+- Review-sheet backup: `data/processed/backups/tem4_words_review_simple_before_pending_batch27_20260828_232234.csv`.
+- Database backup: `data/processed/backups/russian_ai_tutor_before_tem4_pending_batch27_correction_20260828_232403.sqlite`.
+- Post-apply audit found `missing = [('154', '2')]` only, zero Cyrillic characters in approved Chinese meanings, zero invalid TEM4 word heads, and all 100 batch coordinates were matched before applying. A duplicate `ALL_DECISIONS` assignment was removed after pre-import verification caught that it had masked batch 27.
+
 ### Latest checkpoint: TEM4 pending vocabulary LLM review batch 26 (2026-08-28)
 
 - The twenty-sixth pending batch was reviewed directly with the assistant model. OCR symbols, mixed-language fragments, inflection-only rows, page continuations, and examples were removed; approved rows retain concise Chinese core meanings.
