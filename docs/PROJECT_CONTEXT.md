@@ -1311,5 +1311,5 @@ data/listening/raw_audio/tem8/
 - 28 条确认是例句、固定短语、格变化标记、页码或版式噪声，标为 `rejected`，不进入背词库。
 - 4 条仅凭当前 OCR 无法安全还原，继续标为 `needs_review`。
 - 预览导入结果为 41 条新增、0 条更新、0 条跳过；尚未执行正式数据库导入，专四正式词条仍为 0。
-- 复核脚本：`scripts/apply_tem4_word_llm_review.py`；复核报告：`data/processed/words/tem4_words_llm_review_report.json`。
+- 复核脚本：`scripts/apply_tem4_word_llm_review.py`；复核报告：`data/processed/words/tem4_words_llm_review_report.json`；人工复核子表已同步为 4 条：`data/processed/words/tem4_words_review_only.csv`。
 - 审核表回退备份：`data/processed/backups/tem4_words_review_simple_before_llm_review_20260828_181452.csv`。

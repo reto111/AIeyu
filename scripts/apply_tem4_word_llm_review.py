@@ -9,6 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_INPUT = ROOT / "data" / "processed" / "words" / "tem4_words_review_simple.csv"
 DEFAULT_OUTPUT = DEFAULT_INPUT
+DEFAULT_REVIEW_ONLY = ROOT / "data" / "processed" / "words" / "tem4_words_review_only.csv"
 DEFAULT_REPORT = ROOT / "data" / "processed" / "words" / "tem4_words_llm_review_report.json"
 
 
@@ -95,6 +96,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Apply local LLM review decisions to TEM4 OCR vocabulary.")
     parser.add_argument("--input", type=Path, default=DEFAULT_INPUT)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument("--review-only", type=Path, default=DEFAULT_REVIEW_ONLY)
     parser.add_argument("--report", type=Path, default=DEFAULT_REPORT)
     args = parser.parse_args()
 
@@ -144,6 +146,11 @@ def main() -> None:
         writer = csv.DictWriter(stream, fieldnames=fieldnames, extrasaction="ignore")
         writer.writeheader()
         writer.writerows(rows)
+    args.review_only.parent.mkdir(parents=True, exist_ok=True)
+    with args.review_only.open("w", encoding="utf-8-sig", newline="") as stream:
+        writer = csv.DictWriter(stream, fieldnames=fieldnames, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(row for row in rows if row.get("review_status") == "needs_review")
     args.report.parent.mkdir(parents=True, exist_ok=True)
     args.report.write_text(json.dumps({"counts": counts, "missing_keys": missing, "rows": report}, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(counts, ensure_ascii=False, indent=2))
