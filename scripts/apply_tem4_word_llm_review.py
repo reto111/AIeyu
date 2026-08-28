@@ -2643,6 +2643,7 @@ PENDING_BATCH25_DECISIONS: dict[tuple[str, str], dict[str, str]] = {
     ("223", "10"): {"part_of_speech": "阳/阴", "meaning_zh": "教师；讲师；教员", "status": "approved", "note": "local_llm_removed_examples_and_ocr_noise"},
     ("223", "11"): {"part_of_speech": "未", "meaning_zh": "教授；讲授；教", "status": "approved", "note": "local_llm_reconstructed_missing_core_meaning"},
     ("223", "13"): {"status": "rejected", "note": "inflection_fragment_of_prepodavat_entry"},
+    ("223", "14"): {"part_of_speech": "中", "meaning_zh": "障碍；障碍物；阻碍", "status": "approved", "note": "local_llm_removed_examples_and_ocr_noise"},
     ("224", "1"): {"status": "rejected", "note": "page_fragment_and_continuation_noise"},
     ("224", "2"): {"part_of_speech": "阳", "meaning_zh": "罪犯；犯人", "status": "approved", "note": "local_llm_removed_examples_and_ocr_noise"},
     ("224", "3"): {"part_of_speech": "前", "meaning_zh": "在……旁边；在……附近；在……时；在……情况下；伴随", "status": "approved", "note": "local_llm_removed_examples_and_ocr_noise"},

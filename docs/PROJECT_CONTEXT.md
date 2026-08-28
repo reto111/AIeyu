@@ -3,12 +3,12 @@
 ### Latest checkpoint: TEM4 pending vocabulary LLM review batch 25 (2026-08-28)
 
 - The twenty-fifth pending batch was reviewed directly with the assistant model. Symbol/language noise, OCR examples, inflection fragments, and non-core text were removed; only concise Chinese core meanings were retained for approved entries.
-- The batch covered the next 100 pending coordinates from `p219/b5` through `p228/b5`. Twelve page fragments, duplicate continuations, inflection fragments, or merged blocks were rejected. The unresolved pre-existing manual coordinate remains `p154/b2`; no new unresolved coordinate was introduced.
+- The batch covered the next 100 pending records from `p219/b5` through `p228/b5` (including the non-contiguous `p223/b14`). Twelve page fragments, duplicate continuations, inflection fragments, or merged blocks were rejected; 88 entries were approved. The unresolved pre-existing manual coordinate remains `p154/b2`; no new unresolved coordinate was introduced.
 - Important recoveries included `право`, `праздник`, `практический`, `преданный`, `предмет`, `представление`, `прекращать`, `приезд`, `привет`, `приветливый`, `приветствие`, `приветствовать`, `привлекать`, `прилежный`, `пример`, and `приносить`. False OCR `ё` was corrected to `е` only where the standard word requires `е`; true `ё` was retained.
-- Review sheet status after this batch: `approved` = 2291, `rejected` = 277, `needs_review` = 1, `pending` = 1354. The only unresolved manual-review coordinate remains `p154/b2`, intentionally excluded per the user's decision.
-- Formal vocabulary counts after import: `TEM4_RU/TEM4` = 2288 unique words; `TEM8_RU/TEM8` = 3513. Import reported `inserted` = 87, `updated` = 2204, `invalid_approved` = 0, and `skipped` = 0.
+- Review sheet status after this batch: `approved` = 2292, `rejected` = 277, `needs_review` = 1, `pending` = 1354. The only unresolved manual-review coordinate remains `p154/b2`, intentionally excluded per the user's decision.
+- Formal vocabulary counts after import: `TEM4_RU/TEM4` = 2289 unique words; `TEM8_RU/TEM8` = 3513. The final correction import reported `inserted` = 1, `updated` = 2291, `invalid_approved` = 0, and `skipped` = 0; the first batch import had already written the other 87 approved rows.
 - Review-sheet backup: `data/processed/backups/tem4_words_review_simple_before_pending_batch25_20260828_230522.csv`.
-- Database backup: `data/processed/backups/russian_ai_tutor_before_tem4_pending_batch25_20260828_230805.sqlite`.
+- Database backups: `data/processed/backups/russian_ai_tutor_before_tem4_pending_batch25_20260828_230805.sqlite` and `data/processed/backups/russian_ai_tutor_before_tem4_pending_batch25_correction_20260828_231112.sqlite`.
 - Post-apply audit found `missing = [('154', '2')]` only, zero Cyrillic characters in approved Chinese meanings, zero invalid TEM4 word heads, and the corrected `p227` coordinate mapping was verified after a pre-apply offset correction.
 
 ### Latest checkpoint: TEM4 pending vocabulary LLM review batch 24 (2026-08-28)
