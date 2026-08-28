@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_INPUT = ROOT / "data" / "processed" / "words" / "tem4_words_review_simple.csv"
 DEFAULT_OUTPUT = DEFAULT_INPUT
 DEFAULT_REVIEW_ONLY = ROOT / "data" / "processed" / "words" / "tem4_words_review_only.csv"
+DEFAULT_REMOVED = ROOT / "data" / "processed" / "words" / "tem4_words_removed_by_llm.csv"
 DEFAULT_REPORT = ROOT / "data" / "processed" / "words" / "tem4_words_llm_review_report.json"
 
 
@@ -52,7 +53,7 @@ DECISIONS: dict[tuple[str, str], dict[str, str]] = {
     ("143", "6"): {"status": "needs_review", "note": "headword_missing_cannot_reliably_recover_from_meaning_only"},
     ("148", "2"): {"word": "мыслить", "meaning_zh": "思考；想；认为", "status": "approved", "note": "ocr_headword_recovered_from_collocations"},
     ("152", "6"): {"word": "наизусть", "meaning_zh": "熟记；背熟；凭记忆", "status": "approved", "note": "ocr_headword_confirmed_from_raw_entry"},
-    ("154", "2"): {"status": "needs_review", "note": "headword_missing_cannot_reliably_recover"},
+    ("154", "2"): {"remove": "true", "status": "rejected", "note": "user_confirmed_unrecoverable_ocr"},
     ("159", "3"): {"word": "по-русски", "meaning_zh": "用俄语；俄语地", "status": "approved", "note": "ocr_headword_confirmed_from_raw_entry"},
     ("167", "2"): {"word": "облик", "meaning_zh": "外貌；面貌；形象；景象", "status": "approved", "note": "ocr_o_and_b_shape_correction"},
     ("209", "8"): {"word": "поливать", "meaning_zh": "浇水；浇灌；（液体）洒到或冲到", "status": "approved", "note": "ocr_headword_recovered_from_raw_entry"},
@@ -97,6 +98,7 @@ def main() -> None:
     parser.add_argument("--input", type=Path, default=DEFAULT_INPUT)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--review-only", type=Path, default=DEFAULT_REVIEW_ONLY)
+    parser.add_argument("--removed", type=Path, default=DEFAULT_REMOVED)
     parser.add_argument("--report", type=Path, default=DEFAULT_REPORT)
     args = parser.parse_args()
 
@@ -105,6 +107,8 @@ def main() -> None:
     fieldnames = list(rows[0]) if rows else []
     counts = {"approved": 0, "rejected": 0, "needs_review": 0, "not_found": 0}
     report: list[dict[str, str]] = []
+    removed_rows: list[dict[str, str]] = []
+    output_rows: list[dict[str, str]] = []
     seen: set[tuple[str, str]] = set()
 
     for row in rows:
@@ -115,6 +119,25 @@ def main() -> None:
         seen.add(key)
         old_word = row.get("word", "")
         old_meaning = row.get("meaning_zh", "")
+        if decision.get("remove") == "true":
+            counts["rejected"] += 1
+            counts["removed"] = counts.get("removed", 0) + 1
+            removed = dict(row)
+            removed["remove_reason"] = decision.get("note", "")
+            removed_rows.append(removed)
+            report.append(
+                {
+                    "source_page": key[0],
+                    "block_index": key[1],
+                    "old_word": old_word,
+                    "new_word": "",
+                    "old_meaning_zh": old_meaning,
+                    "new_meaning_zh": "",
+                    "status": "removed",
+                    "note": decision.get("note", ""),
+                }
+            )
+            continue
         if decision.get("word"):
             row["word"] = decision["word"]
         if decision.get("meaning_zh"):
@@ -138,6 +161,7 @@ def main() -> None:
                 "note": decision.get("note", ""),
             }
         )
+        output_rows.append(row)
 
     missing = sorted(set(DECISIONS) - seen)
     counts["not_found"] = len(missing)
@@ -145,12 +169,18 @@ def main() -> None:
     with args.output.open("w", encoding="utf-8-sig", newline="") as stream:
         writer = csv.DictWriter(stream, fieldnames=fieldnames, extrasaction="ignore")
         writer.writeheader()
-        writer.writerows(rows)
+        writer.writerows(output_rows)
     args.review_only.parent.mkdir(parents=True, exist_ok=True)
     with args.review_only.open("w", encoding="utf-8-sig", newline="") as stream:
         writer = csv.DictWriter(stream, fieldnames=fieldnames, extrasaction="ignore")
         writer.writeheader()
-        writer.writerows(row for row in rows if row.get("review_status") == "needs_review")
+        writer.writerows(row for row in output_rows if row.get("review_status") == "needs_review")
+    args.removed.parent.mkdir(parents=True, exist_ok=True)
+    removed_fields = fieldnames + (["remove_reason"] if "remove_reason" not in fieldnames else [])
+    with args.removed.open("w", encoding="utf-8-sig", newline="") as stream:
+        writer = csv.DictWriter(stream, fieldnames=removed_fields, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(removed_rows)
     args.report.parent.mkdir(parents=True, exist_ok=True)
     args.report.write_text(json.dumps({"counts": counts, "missing_keys": missing, "rows": report}, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(counts, ensure_ascii=False, indent=2))

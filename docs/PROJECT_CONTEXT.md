@@ -1309,7 +1309,8 @@ data/listening/raw_audio/tem8/
 
 - 41 条可可靠还原并标为 `approved`，例如 `Щв`→`в`、`кнгск`→`киоск`、`эконбомия`→`экономия`、`капля B M6pe`→`капля в море`。
 - 28 条确认是例句、固定短语、格变化标记、页码或版式噪声，标为 `rejected`，不进入背词库。
-- 4 条仅凭当前 OCR 无法安全还原，继续标为 `needs_review`。
+- 3 条仅凭当前 OCR 无法安全还原，继续标为 `needs_review`；用户确认第 154 页第 2 块无法确认，已直接移除并保留删除审计记录。
 - 预览导入结果为 41 条新增、0 条更新、0 条跳过；尚未执行正式数据库导入，专四正式词条仍为 0。
-- 复核脚本：`scripts/apply_tem4_word_llm_review.py`；复核报告：`data/processed/words/tem4_words_llm_review_report.json`；人工复核子表已同步为 4 条：`data/processed/words/tem4_words_review_only.csv`。
+- 复核脚本：`scripts/apply_tem4_word_llm_review.py`；复核报告：`data/processed/words/tem4_words_llm_review_report.json`；人工复核子表已同步为 3 条：`data/processed/words/tem4_words_review_only.csv`；删除记录：`data/processed/words/tem4_words_removed_by_llm.csv`。
+- 正式导入增加内容闸门：词头含替换字符或非俄文字母、中文释义为空、释义开头混入孤立词性标记时，即使状态误为 `approved` 也会拦截；`ё/е` 仍只允许逐词核对，禁止全局替换。
 - 审核表回退备份：`data/processed/backups/tem4_words_review_simple_before_llm_review_20260828_181452.csv`。

@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import re
 import sqlite3
 from pathlib import Path
 
@@ -10,6 +11,18 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "database" / "russian_ai_tutor.sqlite"
 DEFAULT_REVIEW_CSV = ROOT / "data" / "processed" / "words" / "tem8_words_review_simple.csv"
+CYRILLIC_WORD_RE = re.compile(r"^[А-Яа-яЁё][А-Яа-яЁё -]*$")
+POS_MARKER_RE = re.compile(r"^\s*[\(\[【]?\s*(阳|阴|中|形|副|代|前|连|插|数|动|名)\s*[\)\]】]?\s*(?=$|[,，;；:：])")
+
+
+def invalid_approved_content(word: str, meaning_zh: str) -> str:
+    if "�" in word or not CYRILLIC_WORD_RE.fullmatch(word):
+        return "word_contains_ocr_replacement_or_non_cyrillic"
+    if not re.search(r"[\u4e00-\u9fff]", meaning_zh):
+        return "meaning_has_no_chinese"
+    if POS_MARKER_RE.search(meaning_zh):
+        return "meaning_contains_pos_marker"
+    return ""
 
 
 def fetch_ids(conn: sqlite3.Connection, exam_system_code: str, level_code: str) -> tuple[int, int]:
@@ -67,6 +80,7 @@ def import_words(
     inserted = 0
     updated = 0
     skipped = 0
+    invalid_approved = 0
     with sqlite3.connect(DB_PATH) as conn:
         conn.execute("PRAGMA foreign_keys = ON")
         exam_system_id, level_id = fetch_ids(conn, exam_system_code, level_code)
@@ -76,6 +90,11 @@ def import_words(
             meaning_zh = (row.get("meaning_zh") or "").strip()
             if not word or not meaning_zh:
                 skipped += 1
+                continue
+            invalid_reason = invalid_approved_content(word, meaning_zh)
+            if invalid_reason:
+                skipped += 1
+                invalid_approved += 1
                 continue
             source_file = (row.get("source_file") or default_source_file).strip()
             if source_file not in source_cache:
@@ -150,7 +169,13 @@ def import_words(
                 inserted += 1
         if not dry_run:
             conn.commit()
-    return {"approved_rows": len(rows), "inserted": inserted, "updated": updated, "skipped": skipped}
+    return {
+        "approved_rows": len(rows),
+        "inserted": inserted,
+        "updated": updated,
+        "skipped": skipped,
+        "invalid_approved": invalid_approved,
+    }
 
 
 def main() -> None:
