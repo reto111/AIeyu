@@ -1,5 +1,16 @@
 # AI Russian Tutor Project Context
 
+### Latest checkpoint: TEM4 pending vocabulary LLM review batch 10 (2026-08-28)
+
+- The tenth pending batch was reviewed directly with the assistant model. Headwords were corrected per word, actual `ё` was preserved, and incorrect OCR marks were changed to `е` only where required by Russian spelling.
+- A post-apply coordinate audit caught and corrected a real alignment error: `затём` was not an independent row, so its meaning had shifted onto `затылок`, `захватчик`, and `захватывать`. The corrected rows now contain their own meanings, and the nonexistent `p97/b13` decision was removed. This correction was applied before database import.
+- Other continuation fragments were rejected around `задавать`, `задерживать`, `закалять`, `заключать`, `закрытый`, `замечание`, `замечать`, `заниматься`, `запах`, `запоминать`, and `захватывать`.
+- Review sheet status after this batch: `approved` = 944, `rejected` = 123, `needs_review` = 1, `pending` = 2856. The only unresolved manual-review coordinate remains `p154/b2`; it was intentionally removed per the user's decision.
+- Formal vocabulary counts after import: `TEM4_RU/TEM4` = 943 unique words; `TEM8_RU/TEM8` = 3513. The review sheet has 944 approved rows because one approved row duplicates an existing word and is updated. Import reported `inserted` = 89, `updated` = 855, `invalid_approved` = 0, and `skipped` = 0.
+- Review-sheet backup: `data/processed/words/tem4_words_review_simple_before_pending_batch10_20260828_204952.csv`.
+- Database backup: `data/processed/backups/russian_ai_tutor_before_tem4_pending_batch10_20260828_205201.sqlite`.
+- Approved-meaning audit found zero Cyrillic characters in Chinese meanings; the remaining `not_found` report entry is the intentionally removed `p154/b2` coordinate.
+
 ### Latest checkpoint: TEM4 pending vocabulary LLM review batch 9 (2026-08-28)
 
 - The ninth pending batch was reviewed directly with the assistant model. Headwords were corrected per word, actual `ё` was preserved, and incorrect OCR marks were changed to `е` only where required by the Russian spelling.
