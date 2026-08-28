@@ -1,5 +1,15 @@
 # AI Russian Tutor Project Context
 
+### Latest checkpoint: TEM4 pending vocabulary LLM review batch 6 (2026-08-28)
+
+- The sixth pending batch was reviewed directly with the assistant model. Headwords were corrected per word, with real `ё` retained and incorrect OCR `ё` marks changed to `е`.
+- Cross-page continuations and layout fragments were rejected, including fragments around `вытирать`, `выходить`, `гибель`, `глотать`, `голос`, and `гореть`. Duplicate `год` entries were merged into one core entry.
+- Review sheet status after this batch: `approved` = 584, `rejected` = 83, `needs_review` = 1, `pending` = 3256. The unresolved manual-review coordinate remains `p143/b6`; `p154/b2` was intentionally removed per the user's decision.
+- Formal vocabulary counts after import: `TEM4_RU/TEM4` = 584; `TEM8_RU/TEM8` = 3513. Import reported `inserted` = 91, `updated` = 493, `invalid_approved` = 0, and `skipped` = 0.
+- Review-sheet backup: `data/processed/words/tem4_words_review_simple_before_pending_batch6_20260828_202500.csv`.
+- Database backup: `data/processed/backups/russian_ai_tutor_before_tem4_pending_batch6_20260828_202552.sqlite`.
+- A post-batch audit found zero approved meanings containing Cyrillic characters or retained OCR example text.
+
 ### Latest checkpoint: TEM4 pending vocabulary LLM review batch 5 (2026-08-28)
 
 - The fifth pending batch was reviewed directly with the assistant model. Incorrect OCR headwords were corrected per word, and actual `ё` was retained only where it belongs; incorrect `ё` marks were changed to `е`.
