@@ -1,6 +1,25 @@
 # AI Russian Tutor Project Context
 
+### Latest checkpoint: TEM4 pending vocabulary LLM review batch 3 (2026-08-28)
+
+- The third pending batch was reviewed directly with the assistant model. OCR headwords were corrected only when the Russian shape and Chinese meaning supported the correction; true `ё` was preserved, while stress/OCR artifacts were changed to `е` per word.
+- Layout fragments, page continuations, duplicate entries, and unusable OCR blocks were rejected. A cross-page continuation at `p35/b1` was rejected; the complete `видеться` entry at `p35/b3` was retained.
+- Review sheet status after this batch: `approved` = 305, `rejected` = 62, `needs_review` = 1, `pending` = 3556. The single unresolved coordinate remains `p143/b6`; `p154/b2` was intentionally removed per the user's decision.
+- Formal vocabulary counts after import: `TEM4_RU/TEM4` = 305; `TEM8_RU/TEM8` = 3513. Import dry-run and formal import both reported `invalid_approved` = 0 and `skipped` = 0.
+- Review-sheet backup: `data/processed/words/tem4_words_review_simple_before_pending_batch3_20260828_200430.csv`.
+- Database backup: `data/processed/backups/russian_ai_tutor_before_tem4_pending_batch3_20260828_200523.sqlite`.
+- Coordinate corrections for `p21/b6` and `p21/b7` were re-applied in this batch so `большевик` means “布尔什维克” and `большинство` means “多数；大多数”.
+
 ### Latest checkpoint: TEM4 vocabulary import and exam isolation (2026-08-28)
+
+### Latest checkpoint: TEM4 pending vocabulary LLM review batches 1-2 (2026-08-28)
+
+- The first 200 pending OCR blocks were reviewed directly with the assistant model. Clear headwords and meanings were corrected, while layout fragments and example continuations were rejected.
+- Review sheet status after these batches: `approved` = 219, `rejected` = 49, `needs_review` = 1, `pending` = 3655.
+- Formal TEM4 vocabulary import now contains 219 rows. The second import added 84 rows and updated 135 existing same-word entries; the import safety gate skipped 0 rows.
+- Review-sheet backups: `data/processed/words/tem4_words_review_simple_before_pending_batch1_20260828_195224.csv` and `data/processed/words/tem4_words_review_simple_before_pending_batch2_20260828_195628.csv`.
+- Database backups: `data/processed/backups/russian_ai_tutor_before_tem4_pending_batch1_20260828_195256.sqlite` and `data/processed/backups/russian_ai_tutor_before_tem4_pending_batch2_20260828_195641.sqlite`.
+- Continue the same rule: do not import remaining pending rows without checking word shape, `е/ё`, source-block alignment, part of speech, and Chinese meaning consistency.
 
 - 43 approved TEM4 vocabulary rows have been imported into the formal vocabulary database. Pending, needs_review, and rejected rows were not imported.
 - Import backup: `data/processed/backups/russian_ai_tutor_before_tem4_vocab_import_20260828_183735.sqlite`.
