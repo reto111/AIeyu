@@ -1302,3 +1302,14 @@ data/listening/raw_audio/tem8/
 - 专四词源已登记为 `ocr_done + in_review`，但尚未把任何未审核词条写入正式 `vocabulary_items`；正式入库只能使用用户审核后标为 `approved` 的行。
 - 数据库回退备份：`data/processed/backups/russian_ai_tutor_before_tem4_words_source_20260828_175512.sqlite`、`data/processed/backups/russian_ai_tutor_before_tem4_words_source_refresh_20260828_175701.sqlite`。
 - 本机 OCR 依赖为 `pypdfium2` 和 `Pillow`；Tesseract 语言包使用 `rus+chi_sim`。继续遵守既有规则：不全局替换 `ё/е`，不凭猜测补齐无法识别词条，正式词库只收审核通过项。
+
+### 5.16 专四词汇高风险 OCR 本地模型复核 checkpoint（2026-08-28）
+
+对专四审核表中 73 条高风险记录进行逐页、逐块复核：结合俄文词形、词性、中文释义和原始 OCR 块进行保守修正。
+
+- 41 条可可靠还原并标为 `approved`，例如 `Щв`→`в`、`кнгск`→`киоск`、`эконбомия`→`экономия`、`капля B M6pe`→`капля в море`。
+- 28 条确认是例句、固定短语、格变化标记、页码或版式噪声，标为 `rejected`，不进入背词库。
+- 4 条仅凭当前 OCR 无法安全还原，继续标为 `needs_review`。
+- 预览导入结果为 41 条新增、0 条更新、0 条跳过；尚未执行正式数据库导入，专四正式词条仍为 0。
+- 复核脚本：`scripts/apply_tem4_word_llm_review.py`；复核报告：`data/processed/words/tem4_words_llm_review_report.json`。
+- 审核表回退备份：`data/processed/backups/tem4_words_review_simple_before_llm_review_20260828_181452.csv`。
