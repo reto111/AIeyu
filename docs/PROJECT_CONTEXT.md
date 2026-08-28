@@ -1,5 +1,16 @@
 # AI Russian Tutor Project Context
 
+### Latest checkpoint: TEM4 pending vocabulary LLM review batch 8 (2026-08-28)
+
+- The eighth pending batch was reviewed directly with the assistant model. Headwords were corrected per word, actual `ё` was preserved, and incorrect OCR marks were changed to `е` only where the word required it.
+- Cross-page continuations, fixed-phrase fragments, and duplicate forms were rejected, including fragments around `дети`, `дисциплина`, `дневник`, `доверие`, `доклад`, `доска`, `доставать`, `доходить`, `дочка`, and `дожидаться`.
+- One omitted boundary row (`p79/b4`, `доставлять`) was caught by the post-apply pending audit and added before import.
+- Review sheet status after this batch: `approved` = 765, `rejected` = 102, `needs_review` = 1, `pending` = 3056. The unresolved manual-review coordinate remains `p143/b6`; `p154/b2` was intentionally removed per the user's decision.
+- Formal vocabulary counts after import: `TEM4_RU/TEM4` = 764 unique words; `TEM8_RU/TEM8` = 3513. The review sheet has 765 approved rows because one approved row duplicates an existing word and is updated. Import reported `inserted` = 90, `updated` = 675, `invalid_approved` = 0, and `skipped` = 0.
+- Review-sheet backup: `data/processed/words/tem4_words_review_simple_before_pending_batch8_20260828_203645.csv`.
+- Database backup: `data/processed/backups/russian_ai_tutor_before_tem4_pending_batch8_20260828_203645.sqlite`.
+- Approved-meaning audit found zero Cyrillic characters in Chinese meanings.
+
 ### Latest checkpoint: TEM4 pending vocabulary LLM review batch 7 (2026-08-28)
 
 - The seventh pending batch was reviewed directly with the assistant model. Word forms were corrected per word, with real `ё` retained and incorrect OCR marks changed to `е`.
