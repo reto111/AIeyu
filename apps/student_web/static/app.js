@@ -83,6 +83,8 @@ function renderExamContext() {
   });
   const brand = document.querySelector("#brandExamLabel");
   if (brand) brand.textContent = `${exam.label}练习`;
+  const wordExam = document.querySelector("#wordExamLabel");
+  if (wordExam) wordExam.textContent = exam.label;
   const title = document.querySelector("#practiceTitle");
   if (title) title.textContent = `今日${exam.label}训练`;
 }
@@ -606,6 +608,8 @@ async function startWordSession(mode = "mixed") {
       body: JSON.stringify({
         count: Number($("#wordCountInput").value || 20),
         mode,
+        exam_system: currentExam().system,
+        level: currentExam().level,
       }),
     });
     state.wordSession = payload;
@@ -636,6 +640,8 @@ async function reviewCurrentWord(result) {
       body: JSON.stringify({
         vocabulary_item_id: word.vocabulary_item_id,
         result,
+        exam_system: currentExam().system,
+        level: currentExam().level,
       }),
     });
     word.session_result = result;
@@ -682,6 +688,8 @@ async function markCurrentWordWrong() {
         result: "unknown",
         previous_result: previousResult,
         correction: true,
+        exam_system: currentExam().system,
+        level: currentExam().level,
       }),
     });
     state.wordSessionStats[previousResult] = Math.max(0, state.wordSessionStats[previousResult] - 1);

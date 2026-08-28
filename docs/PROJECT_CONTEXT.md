@@ -1,5 +1,14 @@
 # AI Russian Tutor Project Context
 
+### Latest checkpoint: TEM4 vocabulary import and exam isolation (2026-08-28)
+
+- 43 approved TEM4 vocabulary rows have been imported into the formal vocabulary database. Pending, needs_review, and rejected rows were not imported.
+- Import backup: `data/processed/backups/russian_ai_tutor_before_tem4_vocab_import_20260828_183735.sqlite`.
+- Formal vocabulary counts: `TEM4_RU/TEM4` = 43; `TEM8_RU/TEM8` = 3513. TEM8 data was unchanged.
+- Student word status, review pool, session, and review APIs now filter by `exam_system + level`, keeping TEM4 and TEM8 words, progress, review pools, and check-in records separate.
+- The word page displays the active exam level and reloads its vocabulary and review statistics after switching exams.
+- Read-only smoke test: TEM4 session returned only TEM4 words; TEM8 session returned only TEM8 words. Python and JavaScript syntax checks passed.
+
 > 本文档用于记录项目共识、已确认标准、待确认问题和后续开发约束。
 > 后续设计、编码、数据库建模、提示词编写、版本规划，都应优先参考本文档，避免遗漏、误解或凭空假设。
 
