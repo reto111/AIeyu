@@ -1,5 +1,16 @@
 # AI Russian Tutor Project Context
 
+### Latest checkpoint: TEM4 pending vocabulary LLM review batch 15 (2026-08-28)
+
+- The fifteenth pending batch was reviewed directly with the assistant model. OCR headwords were corrected per word, true `ё` was preserved, and `е`/`ё` changes were made only according to verified Russian spelling.
+- The batch covered exactly 100 pending coordinates from `p132/b7` through `p140/b6`. Continuation and merged-fragment handling included rejecting `p135/b12` from `лучше`, `p136/b1` from `любитель`, `p139/b1` from `материя`, and `p140/b1` from `медленный`; `p133/b3` was trimmed to keep only `лиса` and remove the merged `лист` entry.
+- Important recoveries included `лететь`, `летний`, `лето`, `летом`, `лечение`, `линейка`, `лицо`, `ловкий`, `ложка`, `луг`, `любимый`, `люди`, `мавзолей`, `майор`, `материя`, `мебель`, `медведь`, `медленный`, and `лестница`. The certain but truncated `критиковать`-style case in this batch was supplemented only when the headword and core meaning were unambiguous.
+- Review sheet status after this batch: `approved` = 1401, `rejected` = 168, `needs_review` = 1, `pending` = 2354. The only unresolved manual-review coordinate remains `p154/b2`, intentionally excluded per the user's decision.
+- Formal vocabulary counts after import: `TEM4_RU/TEM4` = 1399 unique words; `TEM8_RU/TEM8` = 3513. Import reported `inserted` = 95, `updated` = 1306, `invalid_approved` = 0, and `skipped` = 0.
+- Review-sheet backup: `data/processed/words/tem4_words_review_simple_before_pending_batch15_20260828_213113.csv`.
+- Database backup: `data/processed/backups/russian_ai_tutor_before_tem4_pending_batch15_20260828_213144.sqlite`.
+- Post-apply audit found `missing = [('154', '2')]` only, and zero Cyrillic characters in approved Chinese meanings.
+
 ### Latest checkpoint: TEM4 pending vocabulary LLM review batch 14 (2026-08-28)
 
 - The fourteenth pending batch was reviewed directly with the assistant model. OCR headwords were corrected per word, true `ё` was preserved, and `е`/`ё` changes were made only according to verified Russian spelling.
