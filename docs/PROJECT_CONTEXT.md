@@ -1,5 +1,17 @@
 # AI Russian Tutor Project Context
 
+### Latest checkpoint: TEM4 pending vocabulary LLM review batch 38 (2026-08-29)
+
+- The thirty-eighth pending batch was reviewed directly with the assistant model. Russian headwords and Chinese meanings were cross-checked by meaning and word shape; false OCR `ё` was corrected to `е` only where standard spelling requires `е`, and true `ё` was retained. Examples, mixed-language OCR, page fragments, continuations, and inflection-only rows were removed; approved rows keep concise Chinese core meanings.
+- The batch covered exactly 100 pending coordinates from `p333/b14` through `p341/b14`. Ninety-three entries were approved and seven continuation, boundary, or unusable OCR rows were rejected. Clear recoveries included `еоведесство→человечество`, `чемпибдн→чемпион`, `чёрпать→черпать`, `чёстный→честный`, `четвёрг→четверг`, `чтёние→чтение`, `узко→чужой`, `чулбк→чулок`, `ткестнатикать→шестнадцать`, `шёя→шея`, `шинёль→шинель`, `шитьь→шить`, `тиляпа→шляпа`, `титн→щи`, and `ехозяйства` was correctly rejected as an `экономика` continuation.
+- True `ё` was preserved in verified words such as `чёрный`, `чёрт`, `чертёж`, `четвёрка`, `четвёртый`, `чёткий`, `шахтёр`, `шёлк`, and `щётка`; false OCR `ё` was corrected only after checking the meaning. One importer rule collision on `число` was corrected from a Chinese meaning beginning with the part-of-speech marker `数` to `数字；数值；数量；日期` before import.
+- Review sheet status after this batch: `approved` = 3464, `rejected` = 405, `needs_review` = 1, `pending` = 54. The unresolved manual-review coordinate remains `p154/b2`, intentionally excluded per the user's decision.
+- Formal vocabulary counts after import: `TEM4_RU/TEM4` = 3457 unique words; `TEM8_RU/TEM8` = 3513. Dry-run and real import both reported `inserted` = 93, `updated` = 3371, `invalid_approved` = 0, and `skipped` = 0.
+- Review-sheet backup: `data/processed/backups/tem4_words_review_simple_before_pending_batch38_20260829_125907.csv`.
+- Database backup: `data/processed/backups/russian_ai_tutor_before_tem4_pending_batch38_20260829_125907.sqlite`.
+- Correction backups: `data/processed/backups/tem4_words_review_simple_before_batch38_import_validation_fix_20260829_130042.csv` and `data/processed/backups/russian_ai_tutor_before_batch38_import_validation_fix_20260829_130042.sqlite`.
+- Pre-apply coverage audit matched all 100 batch coordinates exactly. Final post-import audit found zero Cyrillic characters in approved Chinese meanings, zero importer-invalid approved rows, zero invalid TEM4 word heads, and only the pre-agreed `p154/b2` unresolved coordinate.
+
 ### Latest checkpoint: TEM4 pending vocabulary LLM review batch 37 (2026-08-29)
 
 - The thirty-seventh pending batch was reviewed directly with the assistant model. Russian headwords and Chinese meanings were cross-checked by meaning and word shape; false OCR `ё` was corrected to `е` only where standard spelling requires `е`, and true `ё` was retained. Examples, mixed-language OCR, page fragments, continuations, and inflection-only rows were removed; approved rows keep concise Chinese core meanings.
