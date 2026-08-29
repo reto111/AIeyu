@@ -4063,6 +4063,71 @@ ALL_DECISIONS.update(PENDING_BATCH36_DECISIONS)
 ALL_DECISIONS.update(PENDING_BATCH37_DECISIONS)
 ALL_DECISIONS.update(PENDING_BATCH37_COORDINATE_CORRECTIONS)
 ALL_DECISIONS.update(PENDING_BATCH38_DECISIONS)
+
+PENDING_BATCH39_DECISIONS: dict[tuple[str, str], dict[str, str]] = {
+    ("342", "1"): {"status": "rejected", "note": "continuation_of_ekonomit_entry"},
+    ("342", "2"): {"word": "экономический", "part_of_speech": "形", "meaning_zh": "经济的；经济学的", "status": "approved", "note": "llm_trimmed_examples"},
+    ("342", "4"): {"word": "экран", "part_of_speech": "阳", "meaning_zh": "屏幕；银幕", "status": "approved", "note": "llm_trimmed_examples"},
+    ("342", "5"): {"word": "экскурсия", "part_of_speech": "阴", "meaning_zh": "游览；参观", "status": "approved", "note": "llm_trimmed_examples"},
+    ("342", "7"): {"word": "экспедиция", "part_of_speech": "阴", "meaning_zh": "考察；探险；考察队", "status": "approved", "note": "llm_trimmed_examples"},
+    ("342", "8"): {"word": "эксперимент", "part_of_speech": "阳", "meaning_zh": "实验；试验；尝试", "status": "approved", "note": "llm_corrected_false_yo_and_trimmed_examples"},
+    ("342", "9"): {"word": "эксплуатация", "part_of_speech": "阴", "meaning_zh": "剥削；使用；启用；经营", "status": "approved", "note": "llm_trimmed_examples"},
+    ("342", "10"): {"word": "эксплуатировать", "part_of_speech": "未", "meaning_zh": "剥削；使用；操作", "status": "approved", "note": "llm_corrected_pos_and_trimmed_examples"},
+    ("342", "11"): {"word": "электрический", "part_of_speech": "形", "meaning_zh": "电的；电力的；电气的", "status": "approved", "note": "llm_trimmed_examples"},
+    ("342", "12"): {"word": "электричество", "part_of_speech": "中", "meaning_zh": "电；电力；电学", "status": "approved", "note": "llm_trimmed_examples"},
+    ("343", "1"): {"word": "электронный", "part_of_speech": "形", "meaning_zh": "电子的", "status": "approved", "note": "llm_trimmed_examples"},
+    ("343", "2"): {"word": "электростанция", "part_of_speech": "阴", "meaning_zh": "发电站；发电厂", "status": "approved", "note": "llm_trimmed_examples"},
+    ("343", "3"): {"word": "электроэнергия", "part_of_speech": "阴", "meaning_zh": "电能；电力", "status": "approved", "note": "llm_verified_core_meaning"},
+    ("343", "4"): {"word": "элемент", "part_of_speech": "阳", "meaning_zh": "元素；成分；部件；代表人物", "status": "approved", "note": "llm_trimmed_examples"},
+    ("343", "5"): {"word": "энергичный", "part_of_speech": "形", "meaning_zh": "精力充沛的；有毅力的；有力的", "status": "approved", "note": "llm_trimmed_examples"},
+    ("343", "6"): {"word": "энтузиазм", "part_of_speech": "阳", "meaning_zh": "热情；热忱；积极性", "status": "approved", "note": "llm_trimmed_examples"},
+    ("343", "7"): {"word": "эпоха", "part_of_speech": "阴", "meaning_zh": "时代；时期", "status": "approved", "note": "llm_trimmed_examples"},
+    ("343", "8"): {"word": "эра", "part_of_speech": "阴", "meaning_zh": "纪元；时代", "status": "approved", "note": "llm_corrected_visual_uppercase"},
+    ("343", "9"): {"word": "эстрада", "part_of_speech": "阴", "meaning_zh": "舞台；演艺节目；轻音乐舞台", "status": "approved", "note": "llm_trimmed_examples"},
+    ("343", "10"): {"word": "этаж", "part_of_speech": "阳", "meaning_zh": "层；楼层", "status": "approved", "note": "llm_trimmed_examples"},
+    ("343", "11"): {"word": "этап", "part_of_speech": "阳", "meaning_zh": "阶段；步骤", "status": "approved", "note": "llm_trimmed_next_entry"},
+    ("343", "12"): {"word": "этот", "part_of_speech": "代", "meaning_zh": "这个；这一个；上述的", "status": "approved", "note": "llm_corrected_visual_uppercase_and_trimmed_examples"},
+    ("344", "1"): {"status": "rejected", "note": "continuation_of_etot_entry"},
+    ("344", "2"): {"word": "юбилей", "part_of_speech": "阳", "meaning_zh": "周年纪念；纪念活动", "status": "approved", "note": "llm_corrected_false_yo_and_trimmed_examples"},
+    ("344", "3"): {"word": "юбка", "part_of_speech": "阴", "meaning_zh": "裙子", "status": "approved", "note": "llm_trimmed_examples"},
+    ("344", "4"): {"word": "юг", "part_of_speech": "阳", "meaning_zh": "南方；南部", "status": "approved", "note": "llm_trimmed_examples"},
+    ("344", "5"): {"word": "южный", "part_of_speech": "形", "meaning_zh": "南方的；南部的", "status": "approved", "note": "llm_trimmed_examples"},
+    ("344", "6"): {"word": "юмор", "part_of_speech": "阳", "meaning_zh": "幽默；幽默感；幽默作品", "status": "approved", "note": "llm_corrected_visual_uppercase_and_trimmed_examples"},
+    ("344", "7"): {"word": "юность", "part_of_speech": "阴", "meaning_zh": "少年时代；青春时代", "status": "approved", "note": "llm_trimmed_examples"},
+    ("344", "8"): {"word": "юноша", "part_of_speech": "阳", "meaning_zh": "青年；少年", "status": "approved", "note": "llm_trimmed_examples"},
+    ("344", "9"): {"word": "юный", "part_of_speech": "形", "meaning_zh": "年轻的；少年的；青春的", "status": "approved", "note": "llm_trimmed_examples"},
+    ("344", "10"): {"word": "юрист", "part_of_speech": "阳", "meaning_zh": "法学家；律师；法律专家", "status": "approved", "note": "llm_trimmed_examples"},
+    ("345", "2"): {"word": "яблоко", "part_of_speech": "中", "meaning_zh": "苹果；苹果树的果实", "status": "approved", "note": "llm_corrected_visual_uppercase_and_trimmed_examples"},
+    ("345", "3"): {"word": "явление", "part_of_speech": "中", "meaning_zh": "现象；表象", "status": "approved", "note": "llm_corrected_false_yo_and_trimmed_examples"},
+    ("345", "4"): {"word": "являться", "part_of_speech": "未", "meaning_zh": "来；到；出庭；上班；是", "status": "approved", "note": "llm_trimmed_examples"},
+    ("345", "5"): {"word": "явный", "part_of_speech": "形", "meaning_zh": "明显的；公开的；显然的", "status": "approved", "note": "llm_trimmed_examples"},
+    ("345", "6"): {"word": "ягода", "part_of_speech": "阴", "meaning_zh": "浆果；野果", "status": "approved", "note": "llm_trimmed_examples"},
+    ("345", "7"): {"word": "ядерный", "part_of_speech": "形", "meaning_zh": "核的；核反应的；核能的", "status": "approved", "note": "llm_corrected_ocr_headword_from_meaning"},
+    ("345", "8"): {"word": "ядро", "part_of_speech": "中", "meaning_zh": "核；果仁；核心；中心", "status": "approved", "note": "llm_corrected_ocr_headword_and_trimmed_examples"},
+    ("345", "9"): {"word": "язык", "part_of_speech": "阳", "meaning_zh": "舌头；语言；说法；俘虏", "status": "approved", "note": "llm_trimmed_examples"},
+    ("345", "10"): {"status": "rejected", "note": "continuation_of_yazyk_entry"},
+    ("346", "2"): {"status": "rejected", "note": "continuation_of_yazyk_entry"},
+    ("346", "3"): {"word": "яйцо", "part_of_speech": "中", "meaning_zh": "蛋；卵；鸡蛋", "status": "approved", "note": "llm_trimmed_examples"},
+    ("346", "4"): {"word": "яма", "part_of_speech": "阴", "meaning_zh": "坑；穴", "status": "approved", "note": "llm_corrected_visual_uppercase_and_trimmed_examples"},
+    ("346", "5"): {"word": "январь", "part_of_speech": "阳", "meaning_zh": "一月", "status": "approved", "note": "llm_trimmed_examples"},
+    ("346", "6"): {"word": "японский", "part_of_speech": "形", "meaning_zh": "日本的；日语的", "status": "approved", "note": "llm_corrected_ocr_headword_from_meaning"},
+    ("346", "7"): {"word": "яркий", "part_of_speech": "形", "meaning_zh": "明亮的；鲜艳的；突出的", "status": "approved", "note": "llm_trimmed_examples"},
+    ("346", "8"): {"word": "ясный", "part_of_speech": "形", "meaning_zh": "明亮的；晴朗的；清楚的；明确的", "status": "approved", "note": "llm_corrected_ocr_headword_from_meaning"},
+    ("346", "9"): {"word": "ящик", "part_of_speech": "阳", "meaning_zh": "箱子；匣子；抽屉；信箱", "status": "approved", "note": "llm_corrected_ocr_headword_from_meaning"},
+    ("347", "1"): {"status": "rejected", "note": "proverbs_section_without_single_headword"},
+    ("348", "1"): {"word": "более или менее", "part_of_speech": "短语", "meaning_zh": "或多或少；大致", "status": "approved", "note": "llm_recovered_clear_fixed_expression"},
+    ("349", "2"): {"word": "иметь в виду", "part_of_speech": "短语", "meaning_zh": "指的是；意思是；考虑到", "status": "approved", "note": "llm_recovered_clear_fixed_expression"},
+    ("350", "2"): {"word": "ломать голову над чем", "part_of_speech": "短语", "meaning_zh": "为某事绞尽脑汁；苦苦思考", "status": "approved", "note": "llm_recovered_clear_fixed_expression"},
+    ("352", "1"): {"word": "сказать своё слово", "part_of_speech": "短语", "meaning_zh": "发挥作用；产生影响", "status": "approved", "note": "llm_recovered_clear_fixed_expression"},
+}
+
+ALL_DECISIONS.update(PENDING_BATCH39_DECISIONS)
+
+FINAL_UNRESOLVED_CLEANUP: dict[tuple[str, str], dict[str, str]] = {
+    ("143", "6"): {"status": "rejected", "note": "user_confirmed_unrecoverable_single_letter_continuation"},
+}
+
+ALL_DECISIONS.update(FINAL_UNRESOLVED_CLEANUP)
 def main() -> None:
     parser = argparse.ArgumentParser(description="Apply local LLM review decisions to TEM4 OCR vocabulary.")
     parser.add_argument("--input", type=Path, default=DEFAULT_INPUT)

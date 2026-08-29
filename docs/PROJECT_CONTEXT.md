@@ -1,5 +1,16 @@
 # AI Russian Tutor Project Context
 
+### Final checkpoint: TEM4 vocabulary review completed (2026-08-29)
+
+- The thirty-ninth and final ordinary pending batch covered exactly 54 coordinates from `p342/b1` through `p352/b1`. Forty-nine entries were approved and five section headings, page continuations, or unusable OCR fragments were rejected. Clear fixed expressions were recovered only when the Russian phrase and Chinese meaning were both unambiguous: `более или менее`, `иметь в виду`, `ломать голову над чем`, and `сказать своё слово`.
+- The last unresolved coordinate, `p143/b6`, contained only an isolated `ш` followed by a continuation of the preceding definition (`народы третьего мира`); it could not be recovered as an independent headword and was rejected. The previously user-removed `p154/b2` is absent from the review table.
+- Final review sheet status: `approved` = 3513, `rejected` = 411, `needs_review` = 0, `pending` = 0.
+- Formal vocabulary counts after final import: `TEM4_RU/TEM4` = 3506 unique words; `TEM8_RU/TEM8` = 3513. Final dry-run and real import both reported `approved_rows` = 3513, `inserted` = 0, `updated` = 3513, `invalid_approved` = 0, and `skipped` = 0; the seven-row difference is existing duplicate word/part-of-speech entries represented once in the formal table.
+- Review-sheet backup: `data/processed/backups/tem4_words_review_simple_before_pending_batch39_20260829_130724.csv`.
+- Database backup: `data/processed/backups/russian_ai_tutor_before_tem4_pending_batch39_20260829_130724.sqlite`.
+- Final unresolved-cleanup backups: `data/processed/backups/tem4_words_review_simple_before_final_unresolved_cleanup_20260829_130939.csv` and `data/processed/backups/russian_ai_tutor_before_final_unresolved_cleanup_20260829_130939.sqlite`.
+- Final audit: ordinary pending report is empty; all 3506 formal TEM4 rows have non-empty Chinese meanings, zero Cyrillic characters in `meaning_zh`, zero importer-invalid part-of-speech markers, and valid Cyrillic word heads. No manual-review rows remain.
+
 ### Latest checkpoint: TEM4 pending vocabulary LLM review batch 38 (2026-08-29)
 
 - The thirty-eighth pending batch was reviewed directly with the assistant model. Russian headwords and Chinese meanings were cross-checked by meaning and word shape; false OCR `ё` was corrected to `е` only where standard spelling requires `е`, and true `ё` was retained. Examples, mixed-language OCR, page fragments, continuations, and inflection-only rows were removed; approved rows keep concise Chinese core meanings.
