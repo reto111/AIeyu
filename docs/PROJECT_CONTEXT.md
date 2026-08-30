@@ -1,5 +1,12 @@
 # AI Russian Tutor Project Context
 
+### Latest checkpoint: 独立单词考试选择与学生端视觉优化（2026-08-30）
+
+- 练习页和单词页分别维护考试选择：练习页使用 `aieyu.practiceExam`，单词页使用 `aieyu.wordExam`；单词页切换专四/专八只刷新对应词库、打卡进度和复习词库，不再被练习页的考试选择覆盖。
+- 单词接口请求统一使用单词页当前考试的 `exam_system` 和 `level`，单词学习记录按用户与考试隔离。
+- 学生端单词页增加明确的“单词词库”专四/专八切换，调整为中文学习场景文案，降低后台技术感；错题结果区域统一使用“错题解析”“解析服务”等用户可理解的表达。
+- 本次变更仅涉及前端状态、请求参数、文案和样式，不修改正式题库、词库或用户数据库；发布前仍需将三个前端静态文件与项目数据库一起打包部署。
+
 ### Final checkpoint: TEM4 vocabulary review completed (2026-08-29)
 
 - The thirty-ninth and final ordinary pending batch covered exactly 54 coordinates from `p342/b1` through `p352/b1`. Forty-nine entries were approved and five section headings, page continuations, or unusable OCR fragments were rejected. Clear fixed expressions were recovered only when the Russian phrase and Chinese meaning were both unambiguous: `более или менее`, `иметь в виду`, `ломать голову над чем`, and `сказать своё слово`.

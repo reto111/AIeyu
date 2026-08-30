@@ -3,7 +3,8 @@ const state = {
   authenticated: false,
   activeUser: null,
   activeUserId: 0,
-  selectedExam: localStorage.getItem("aieyu.selectedExam") || "TEM8_RU",
+  selectedExam: localStorage.getItem("aieyu.practiceExam") || localStorage.getItem("aieyu.selectedExam") || "TEM8_RU",
+  selectedWordExam: localStorage.getItem("aieyu.wordExam") || "TEM8_RU",
   activeView: localStorage.getItem("aieyu.activeView") || "practice",
   quiz: null,
   result: null,
@@ -47,13 +48,19 @@ function escapeHtml(value) {
     .replaceAll("'", "&#039;");
 }
 
-function queryForActiveUser() {
-  const exam = state.selectedExam === "TEM4_RU" ? "TEM4" : "TEM8";
-  return new URLSearchParams({ exam_system: state.selectedExam, level: exam }).toString();
+function queryForActiveUser(scope = "practice") {
+  const exam = scope === "words" ? currentWordExam() : currentExam();
+  return new URLSearchParams({ exam_system: exam.system, level: exam.level }).toString();
 }
 
 function currentExam() {
   return state.selectedExam === "TEM4_RU"
+    ? { system: "TEM4_RU", level: "TEM4", label: "俄语专四" }
+    : { system: "TEM8_RU", level: "TEM8", label: "俄语专八" };
+}
+
+function currentWordExam() {
+  return state.selectedWordExam === "TEM4_RU"
     ? { system: "TEM4_RU", level: "TEM4", label: "俄语专四" }
     : { system: "TEM8_RU", level: "TEM8", label: "俄语专八" };
 }
@@ -76,17 +83,20 @@ function renderExamOverview(status) {
 }
 
 function renderExamContext() {
-  const exam = currentExam();
+  const practiceExam = currentExam();
+  const wordExamSelection = currentWordExam();
   document.querySelectorAll("[data-exam-system]").forEach((button) => {
-    button.classList.toggle("active", button.dataset.examSystem === exam.system);
-    button.setAttribute("aria-selected", button.dataset.examSystem === exam.system ? "true" : "false");
+    const exam = button.dataset.examScope === "words" ? wordExamSelection : practiceExam;
+    const active = button.dataset.examSystem === exam.system;
+    button.classList.toggle("active", active);
+    button.setAttribute("aria-selected", active ? "true" : "false");
   });
   const brand = document.querySelector("#brandExamLabel");
-  if (brand) brand.textContent = `${exam.label}练习`;
-  const wordExam = document.querySelector("#wordExamLabel");
-  if (wordExam) wordExam.textContent = exam.label;
+  if (brand) brand.textContent = `${practiceExam.label}练习`;
+  const wordExamLabel = document.querySelector("#wordExamLabel");
+  if (wordExamLabel) wordExamLabel.textContent = wordExamSelection.label;
   const title = document.querySelector("#practiceTitle");
-  if (title) title.textContent = `今日${exam.label}训练`;
+  if (title) title.textContent = `今日${practiceExam.label}训练`;
 }
 function showView(view) {
   const nextView = ["practice", "words", "wrongbook"].includes(view) ? view : "practice";
@@ -124,7 +134,7 @@ function renderStatus(status) {
   $("#statusSummary").innerHTML = `
     <p><strong>${status.question_count}</strong> 道已审核题</p>
     <p>${status.years.map((item) => `${item.year} 年 ${item.count} 题`).join(" · ")}</p>
-    <p>DeepSeek：${status.deepseek_configured ? "已配置" : "未配置"}</p>
+    <p>解析服务：${status.deepseek_configured ? "已连接" : "未连接"}</p>
   `;
 
   const typeControls = $("#typeControls");
@@ -431,7 +441,7 @@ async function loadWordReviewPool() {
     return;
   }
   try {
-    const payload = await requestJson(`/api/words/review-pool?limit=80&${queryForActiveUser()}`);
+    const payload = await requestJson(`/api/words/review-pool?limit=80&${queryForActiveUser("words")}`);
     renderWordReviewPool(payload);
   } catch (error) {
     $("#reviewPoolBox").classList.add("muted");
@@ -450,7 +460,7 @@ async function loadWordStatus() {
     return;
   }
   try {
-    const payload = await requestJson(`/api/words/status?${queryForActiveUser()}`);
+    const payload = await requestJson(`/api/words/status?${queryForActiveUser("words")}`);
     renderWordStatus(payload);
     await loadWordReviewPool();
   } catch (error) {
@@ -608,8 +618,8 @@ async function startWordSession(mode = "mixed") {
       body: JSON.stringify({
         count: Number($("#wordCountInput").value || 20),
         mode,
-        exam_system: currentExam().system,
-        level: currentExam().level,
+        exam_system: currentWordExam().system,
+        level: currentWordExam().level,
       }),
     });
     state.wordSession = payload;
@@ -640,8 +650,8 @@ async function reviewCurrentWord(result) {
       body: JSON.stringify({
         vocabulary_item_id: word.vocabulary_item_id,
         result,
-        exam_system: currentExam().system,
-        level: currentExam().level,
+        exam_system: currentWordExam().system,
+        level: currentWordExam().level,
       }),
     });
     word.session_result = result;
@@ -688,8 +698,8 @@ async function markCurrentWordWrong() {
         result: "unknown",
         previous_result: previousResult,
         correction: true,
-        exam_system: currentExam().system,
-        level: currentExam().level,
+        exam_system: currentWordExam().system,
+        level: currentWordExam().level,
       }),
     });
     state.wordSessionStats[previousResult] = Math.max(0, state.wordSessionStats[previousResult] - 1);
@@ -1027,12 +1037,12 @@ function applyQuestionExplanations(explanations) {
 function renderExplanation(explanation, error) {
   if (error) {
     $("#threadBox").classList.remove("muted");
-    $("#threadBox").textContent = `批改已完成，但 AI 讲解生成失败：${error}`;
+    $("#threadBox").textContent = `批改已完成，但错题解析生成失败：${error}`;
     return;
   }
   if (!explanation) {
     $("#threadBox").classList.add("muted");
-    $("#threadBox").textContent = "本次没有生成 AI 讲解。";
+    $("#threadBox").textContent = "本次没有生成错题解析。";
     return;
   }
   if (explanation.thread_id) {
@@ -1046,7 +1056,7 @@ function renderExplanation(explanation, error) {
 async function sendFollowup() {
   const message = $("#followupText").value.trim();
   if (!state.latestThreadId) {
-    $("#threadBox").textContent = "请先完成一次带 AI 讲解的批改。";
+    $("#threadBox").textContent = "请先完成一次带错题解析的批改。";
     return;
   }
   if (!message) {
@@ -1080,10 +1090,27 @@ async function sendFollowup() {
   }
 }
 
-async function selectExam(system) {
-  if (!["TEM8_RU", "TEM4_RU"].includes(system) || system === state.selectedExam) return;
+async function selectExam(system, scope = "practice") {
+  const currentSystem = scope === "words" ? state.selectedWordExam : state.selectedExam;
+  if (!["TEM8_RU", "TEM4_RU"].includes(system) || system === currentSystem) return;
+  if (scope === "words") {
+    state.selectedWordExam = system;
+    localStorage.setItem("aieyu.wordExam", system);
+    state.wordStatus = null;
+    state.wordReviewPool = null;
+    state.wordSession = null;
+    state.currentWordIndex = 0;
+    state.wordSessionStats = null;
+    $("#wordCard").classList.add("hidden");
+    $("#wordEmpty").classList.remove("hidden");
+    resetWordEmpty();
+    $("#wordSessionMeta").textContent = "尚未开始";
+    renderExamContext();
+    await loadWordStatus();
+    return;
+  }
   state.selectedExam = system;
-  localStorage.setItem("aieyu.selectedExam", system);
+  localStorage.setItem("aieyu.practiceExam", system);
   renderExamContext();
   clearStudentState();
   try {
@@ -1110,7 +1137,7 @@ async function init() {
 }
 
 for (const button of document.querySelectorAll("[data-exam-system]")) {
-  button.addEventListener("click", () => selectExam(button.dataset.examSystem));
+  button.addEventListener("click", () => selectExam(button.dataset.examSystem, button.dataset.examScope || "practice"));
 }
 
 async function startDiagnostic() {

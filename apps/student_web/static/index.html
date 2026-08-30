@@ -56,8 +56,8 @@
       <section class="pagearea">
         <section id="practicePage" class="page active">
           <div id="examTabs" class="exam-tabs" role="tablist" aria-label="选择考试">
-            <button type="button" class="exam-tab active" data-exam-system="TEM8_RU" role="tab" aria-selected="true">俄语专八</button>
-            <button type="button" class="exam-tab" data-exam-system="TEM4_RU" role="tab" aria-selected="false">俄语专四</button>
+            <button type="button" class="exam-tab active" data-exam-system="TEM8_RU" data-exam-scope="practice" role="tab" aria-selected="true">俄语专八</button>
+            <button type="button" class="exam-tab" data-exam-system="TEM4_RU" data-exam-scope="practice" role="tab" aria-selected="false">俄语专四</button>
           </div>
           <section id="examOverview" class="exam-overview" aria-live="polite">
             <div class="exam-overview-copy">
@@ -108,7 +108,7 @@
             <section class="workspace">
               <header class="topbar">
                 <div>
-                  <p class="eyebrow">Student Practice</p>
+                  <p class="eyebrow">练习安排</p>
                   <h2 id="practiceTitle">今日专八训练</h2>
                 </div>
                 <div class="topbar-status">
@@ -141,7 +141,7 @@
               </section>
 
               <section class="panel">
-                <h2>AI 讲解</h2>
+                <h2>错题解析</h2>
                 <div id="threadBox" class="thread muted">批改后自动生成薄弱点、复习方案和可追问问题。</div>
                 <div class="followup">
                   <textarea id="followupText" rows="3" placeholder="继续追问，例如：第2题为什么不能选A？"></textarea>
@@ -160,11 +160,20 @@
           <section class="workspace page-workspace">
             <header class="topbar">
               <div>
-                <p class="eyebrow">Vocabulary · <span id="wordExamLabel">俄语专八</span></p>
+                <p class="eyebrow">单词训练 · <span id="wordExamLabel">俄语专八</span></p>
                 <h2>单词打卡</h2>
+                <p class="topbar-subtitle">选择考试后，打卡进度和复习词库分别记录</p>
               </div>
               <div id="wordMeta" class="meta">正在读取</div>
             </header>
+
+            <div class="word-exam-switch" role="tablist" aria-label="单词考试选择">
+              <span class="switch-label">单词词库</span>
+              <div class="exam-tabs" aria-label="单词词库考试">
+                <button type="button" class="exam-tab" data-exam-system="TEM8_RU" data-exam-scope="words" role="tab" aria-selected="false">俄语专八</button>
+                <button type="button" class="exam-tab" data-exam-system="TEM4_RU" data-exam-scope="words" role="tab" aria-selected="false">俄语专四</button>
+              </div>
+            </div>
 
             <div class="word-layout">
               <section class="panel word-main">
