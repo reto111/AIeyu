@@ -329,6 +329,38 @@ h1 {
   line-height: 1.5;
 }
 
+.profile-recommendation {
+  display: grid;
+  gap: 5px;
+  padding: 11px;
+  border: 1px solid #b9d7cb;
+  border-radius: 6px;
+  background: #f1faf6;
+}
+
+.profile-recommendation > span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.profile-recommendation > strong {
+  color: var(--green-dark);
+  font-size: 15px;
+}
+
+.profile-recommendation p {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.profile-recommendation .secondary {
+  min-height: 36px;
+  margin-top: 3px;
+  padding: 7px 10px;
+}
+
 .field {
   display: grid;
   gap: 8px;

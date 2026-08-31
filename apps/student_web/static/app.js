@@ -317,7 +317,14 @@ function renderProfile(profile) {
   }).join("");
 
   const next = profile.next_training
-    ? `<p class="profile-next">建议优先：${profile.next_training.target_name_zh}</p>`
+    ? `
+      <div class="profile-recommendation">
+        <span>下一步训练</span>
+        <strong>${escapeHtml(profile.next_training.target_name_zh)}</strong>
+        <p>${profile.next_training.target_code.startsWith("grammar") ? "优先巩固语法、词汇与实际运用。" : "根据近期作答表现安排。"}</p>
+        <button type="button" class="secondary" data-start-weakness>开始专项训练</button>
+      </div>
+    `
     : `<p class="profile-next">数据还不够，建议先完成入门诊断。</p>`;
 
   $("#profileSummary").classList.remove("muted");
@@ -856,19 +863,27 @@ async function generateQuiz(mode = "random") {
     return;
   }
   showView("practice");
-  $("#generateBtn").disabled = true;
-  $("#generateBtn").textContent = "生成中...";
+  const regularButton = $("#generateBtn");
+  const weaknessButton = document.querySelector("[data-start-weakness]");
+  regularButton.disabled = true;
+  regularButton.textContent = "生成中...";
+  if (weaknessButton && mode === "weakness_review") {
+    weaknessButton.disabled = true;
+    weaknessButton.textContent = "正在准备...";
+  }
   try {
     const payload = {
-      count: Number($("#countInput").value || 10),
-      question_types: selectedValues("questionType"),
-      years: selectedValues("year").map(Number),
+      count: mode === "weakness_review"
+        ? Number(state.profile?.next_training?.count || 10)
+        : Number($("#countInput").value || 10),
       exam_system: currentExam().system,
       level: currentExam().level,
       seed: Date.now(),
+      mode,
     };
-    if (mode === "diagnostic") {
-      payload.mode = "diagnostic";
+    if (mode !== "weakness_review") {
+      payload.question_types = selectedValues("questionType");
+      payload.years = selectedValues("year").map(Number);
     }
     state.quiz = await requestJson("/api/quiz", {
       method: "POST",
@@ -886,15 +901,25 @@ async function generateQuiz(mode = "random") {
     $("#resultBox").classList.remove("muted");
     $("#resultBox").textContent = error.message;
   } finally {
-    $("#generateBtn").disabled = false;
-    $("#generateBtn").textContent = "生成练习";
+    regularButton.disabled = false;
+    regularButton.textContent = "生成练习";
+    if (weaknessButton) {
+      weaknessButton.disabled = false;
+      weaknessButton.textContent = "开始专项训练";
+    }
   }
 }
 
 function renderQuiz(quiz) {
   $("#emptyState").classList.add("hidden");
   $("#quizForm").classList.remove("hidden");
-  $("#quizMeta").textContent = quiz.count + " 题 · " + (quiz.mode === "diagnostic" ? "入门诊断" : currentExam().label);
+  const quizLabel = quiz.mode === "diagnostic"
+    ? "入门诊断"
+    : quiz.mode === "weakness_review"
+      ? `专项 · ${quiz.training?.target_name_zh || "薄弱点训练"}`
+      : currentExam().label;
+  const fallbackLabel = quiz.training?.fallback_used ? " · 含同类补充" : "";
+  $("#quizMeta").textContent = `${quiz.count} 题 · ${quizLabel}${fallbackLabel}`;
   $("#answerHint").textContent = "";
 
   const renderedPassages = new Set();
@@ -960,9 +985,20 @@ async function submitQuiz(event) {
   $("#threadBox").classList.add("muted");
   $("#threadBox").textContent = "正在同步生成错题讲解...";
   try {
+    const sessionMode = state.quiz.mode === "diagnostic"
+      ? "mock_exam"
+      : state.quiz.mode === "weakness_review"
+        ? "weakness_review"
+        : "random";
     state.result = await requestJson("/api/grade", {
       method: "POST",
-      body: JSON.stringify({ title: currentExam().label + " student practice", exam_system: currentExam().system, level: currentExam().level, answers }),
+      body: JSON.stringify({
+        title: currentExam().label + " student practice",
+        mode: sessionMode,
+        exam_system: currentExam().system,
+        level: currentExam().level,
+        answers,
+      }),
     });
     state.explanation = state.result.explanation || null;
     if (state.result.profile) {
@@ -1188,6 +1224,11 @@ $("#wordSessionSummary").addEventListener("click", (event) => {
   renderCurrentWord();
 });
 $("#profileSummary").addEventListener("click", (event) => {
+  const weaknessButton = event.target.closest("[data-start-weakness]");
+  if (weaknessButton) {
+    generateQuiz("weakness_review");
+    return;
+  }
   const button = event.target.closest("[data-practice-type]");
   if (!button) return;
   selectOnlyQuestionType(button.dataset.practiceType);

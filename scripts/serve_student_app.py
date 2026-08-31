@@ -12,12 +12,13 @@ import secrets
 import sqlite3
 import urllib.error
 import urllib.request
+from contextlib import contextmanager
 from datetime import datetime, timedelta
 from http.cookies import SimpleCookie
 from http import HTTPStatus
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from typing import Any
+from typing import Any, Iterator
 from urllib.parse import parse_qs, urlparse
 
 from adaptive_profile import (
@@ -83,15 +84,23 @@ def load_dotenv(path: Path) -> None:
         os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
 
 
-def db() -> sqlite3.Connection:
+@contextmanager
+def db() -> Iterator[sqlite3.Connection]:
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA foreign_keys = ON")
-    ensure_adaptive_tables(conn)
-    ensure_default_user(conn)
-    ensure_auth_tables(conn)
-    ensure_feedback_tables(conn)
-    return conn
+    try:
+        ensure_adaptive_tables(conn)
+        ensure_default_user(conn)
+        ensure_auth_tables(conn)
+        ensure_feedback_tables(conn)
+        yield conn
+        conn.commit()
+    except Exception:
+        conn.rollback()
+        raise
+    finally:
+        conn.close()
 
 
 def normalize_user_id(raw_value: Any) -> int:
@@ -1139,10 +1148,59 @@ def select_balanced_by_type(
     return selected
 
 
+def question_type_for_target(target_type: str, target_code: str) -> str:
+    if target_type == "question_type":
+        if target_code not in QUESTION_TYPE_NAMES:
+            raise ValueError(f"不支持的专项题型：{target_code}")
+        return target_code
+    prefix = target_code.split(".", 1)[0]
+    mapping = {
+        "grammar": "grammar_choice",
+        "literature": "literature_choice",
+        "culture": "culture_choice",
+        "reading": "reading_choice",
+        "listening": "listening_choice",
+    }
+    if prefix not in mapping:
+        raise ValueError(f"不支持的专项知识点：{target_code}")
+    return mapping[prefix]
+
+
+def fetch_quiz_rows(
+    conn: sqlite3.Connection,
+    filters: list[str],
+    params: list[Any],
+) -> list[sqlite3.Row]:
+    return conn.execute(
+        f"""
+        SELECT
+          q.id,
+          q.source_year,
+          q.source_question_number,
+          q.source_label,
+          q.requires_source_label,
+          q.content_origin,
+          q.stem,
+          qt.code AS question_type,
+          p.id AS passage_id,
+          p.title AS passage_title,
+          p.body AS passage_body
+        FROM questions q
+        JOIN question_types qt ON qt.id = q.question_type_id
+        LEFT JOIN passages p ON p.id = q.passage_id
+        WHERE {" AND ".join(filters)}
+        ORDER BY q.source_year, CAST(q.source_question_number AS INTEGER), q.id
+        """,
+        params,
+    ).fetchall()
+
+
 def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
     user_id = normalize_user_id(payload.get("user_id"))
     count = max(1, min(int(payload.get("count") or 10), 50))
     mode = str(payload.get("mode") or "random")
+    if mode not in {"random", "diagnostic", "weakness_review"}:
+        raise ValueError(f"不支持的组卷模式：{mode}")
     exam_system_code = str(payload.get("exam_system") or "TEM8_RU")
     level_code = str(payload.get("level") or "TEM8")
     question_types = [str(item) for item in payload.get("question_types", []) if item]
@@ -1153,57 +1211,103 @@ def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
     years = [int(item) for item in payload.get("years", []) if item]
     seed = payload.get("seed")
     rng = random.Random(seed)
-
-    params: list[Any] = []
-    filters = ["q.review_status = 'approved'", "q.source_usage = 'practice'"]
-    if question_types:
-        placeholders = ", ".join("?" for _ in question_types)
-        filters.append(f"qt.code IN ({placeholders})")
-        params.extend(question_types)
-    if years:
-        placeholders = ", ".join("?" for _ in years)
-        filters.append(f"q.source_year IN ({placeholders})")
-        params.extend(years)
+    training: dict[str, Any] | None = None
 
     with db() as conn:
         user = ensure_user_exists(conn, user_id)
         exam_system_id, level_id = fetch_ids(conn, exam_system_code, level_code)
-        filters.extend(["q.exam_system_id = ?", "q.level_id = ?"])
-        params.extend([exam_system_id, level_id])
-        rows = conn.execute(
-            f"""
-            SELECT
-              q.id,
-              q.source_year,
-              q.source_question_number,
-              q.source_label,
-              q.requires_source_label,
-              q.content_origin,
-              q.stem,
-              qt.code AS question_type,
-              p.id AS passage_id,
-              p.title AS passage_title,
-              p.body AS passage_body
-            FROM questions q
-            JOIN question_types qt ON qt.id = q.question_type_id
-            LEFT JOIN passages p ON p.id = q.passage_id
-            WHERE {" AND ".join(filters)}
-            ORDER BY q.source_year, CAST(q.source_question_number AS INTEGER), q.id
-            """,
-            params,
-        ).fetchall()
-        if len(rows) < count:
-            raise ValueError(f"当前条件下只有 {len(rows)} 道题，无法生成 {count} 道。")
-        exposures = exposure_rows(conn, user_id, [int(row["id"]) for row in rows])
-        if mode == "diagnostic":
-            selected = select_balanced_by_type(rows, count, question_types, exposures, rng)
+        base_filters = [
+            "q.review_status = 'approved'",
+            "q.source_usage = 'practice'",
+            "q.exam_system_id = ?",
+            "q.level_id = ?",
+        ]
+        base_params: list[Any] = [exam_system_id, level_id]
+
+        if mode == "weakness_review":
+            profile = recalculate_profile(conn, user_id, exam_system_code, level_code)
+            recommendation = profile.get("next_training")
+            if not recommendation:
+                raise ValueError("当前作答数据还不足以生成薄弱专项，请先完成入门诊断。")
+            target_type = str(recommendation["target_type"])
+            target_code = str(recommendation["target_code"])
+            target_question_type = question_type_for_target(target_type, target_code)
+
+            broad_filters = [*base_filters, "qt.code = ?"]
+            broad_params = [*base_params, target_question_type]
+            broad_rows = fetch_quiz_rows(conn, broad_filters, broad_params)
+            if not broad_rows:
+                raise ValueError("当前专项没有可用的已审核题目。")
+
+            exact_filters = list(base_filters)
+            exact_params = list(base_params)
+            if target_type == "knowledge_point":
+                if target_question_type == READING_QUESTION_TYPE:
+                    exact_filters.append(
+                        """
+                        q.passage_id IN (
+                          SELECT DISTINCT q2.passage_id
+                          FROM questions q2
+                          JOIN question_knowledge_points qkp2 ON qkp2.question_id = q2.id
+                          JOIN knowledge_points kp2 ON kp2.id = qkp2.knowledge_point_id
+                          WHERE q2.exam_system_id = ? AND q2.level_id = ?
+                            AND q2.passage_id IS NOT NULL AND kp2.code = ?
+                        )
+                        """
+                    )
+                    exact_params.extend([exam_system_id, level_id, target_code])
+                else:
+                    exact_filters.append(
+                        """
+                        EXISTS (
+                          SELECT 1
+                          FROM question_knowledge_points qkp2
+                          JOIN knowledge_points kp2 ON kp2.id = qkp2.knowledge_point_id
+                          WHERE qkp2.question_id = q.id AND kp2.code = ?
+                        )
+                        """
+                    )
+                    exact_params.append(target_code)
+            else:
+                exact_filters.append("qt.code = ?")
+                exact_params.append(target_question_type)
+
+            exact_rows = fetch_quiz_rows(conn, exact_filters, exact_params)
+            all_rows_by_id = {int(row["id"]): row for row in [*exact_rows, *broad_rows]}
+            exposures = exposure_rows(conn, user_id, list(all_rows_by_id))
+            selected = select_complete_units(exact_rows, count, exposures, rng)
+            exact_ids = {int(row["id"]) for row in exact_rows}
+            if len(selected) < count:
+                selected_ids = {int(row["id"]) for row in selected}
+                fallback_rows = [row for row in broad_rows if int(row["id"]) not in selected_ids]
+                selected.extend(select_complete_units(fallback_rows, count - len(selected), exposures, rng))
+            fallback_used = any(int(row["id"]) not in exact_ids for row in selected)
+            training = {
+                **recommendation,
+                "question_type": target_question_type,
+                "fallback_used": fallback_used,
+                "exact_pool_count": len(exact_rows),
+                "available_type_count": len(broad_rows),
+            }
         else:
-            selected = select_complete_units(
-                rows,
-                count,
-                exposures,
-                rng,
-            )
+            filters = list(base_filters)
+            params = list(base_params)
+            if question_types:
+                placeholders = ", ".join("?" for _ in question_types)
+                filters.append(f"qt.code IN ({placeholders})")
+                params.extend(question_types)
+            if years:
+                placeholders = ", ".join("?" for _ in years)
+                filters.append(f"q.source_year IN ({placeholders})")
+                params.extend(years)
+            rows = fetch_quiz_rows(conn, filters, params)
+            if len(rows) < count:
+                raise ValueError(f"当前条件下只有 {len(rows)} 道题，无法生成 {count} 道。")
+            exposures = exposure_rows(conn, user_id, [int(row["id"]) for row in rows])
+            if mode == "diagnostic":
+                selected = select_balanced_by_type(rows, count, question_types, exposures, rng)
+            else:
+                selected = select_complete_units(rows, count, exposures, rng)
         questions = [
             public_question(conn, row, index)
             for index, row in enumerate(selected, start=1)
@@ -1215,6 +1319,7 @@ def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
         "user": public_user(user),
         "count": len(questions),
         "questions": questions,
+        "training": training,
     }
 
 
@@ -1353,6 +1458,9 @@ def api_grade(payload: dict[str, Any]) -> dict[str, Any]:
     if not submitted_answers:
         raise ValueError("还没有收到答案。")
     user_id = normalize_user_id(payload.get("user_id"))
+    session_mode = str(payload.get("mode") or "random")
+    if session_mode not in {"random", "knowledge_point", "weakness_review", "mock_exam"}:
+        raise ValueError(f"不支持的练习记录类型：{session_mode}")
 
     with db() as conn:
         ensure_user_exists(conn, user_id)
@@ -1364,13 +1472,14 @@ def api_grade(payload: dict[str, Any]) -> dict[str, Any]:
             INSERT INTO quiz_sessions (
               user_id, exam_system_id, level_id, title, mode, status, total_questions
             )
-            VALUES (?, ?, ?, ?, 'random', 'submitted', ?)
+            VALUES (?, ?, ?, ?, ?, 'submitted', ?)
             """,
             (
                 user_id,
                 exam_system_id,
                 level_id,
                 payload.get("title") or "TEM8 student practice",
+                session_mode,
                 len(submitted_answers),
             ),
         )

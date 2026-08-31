@@ -22,6 +22,7 @@ POINTS: list[tuple[str, str | None, str, str, str, str, int]] = [
     ("grammar.adverbial_participle", "grammar", "副动词", "Деепричастие", "grammar", "副动词形式、逻辑主语一致、时间和方式意义。", 170),
     ("grammar.numeral", "grammar", "数词与数量结构", "Числительные", "grammar", "数词变格、集合数词、数量短语和谓语配合。", 180),
     ("grammar.pronoun", "grammar", "代词与指代", "Местоимения", "grammar", "人称、反身、指示、不定、否定代词及其指代关系。", 190),
+    ("grammar.adjective_adverb", "grammar", "形容词、副词与比较级", "Прилагательные, наречия и степени сравнения", "grammar", "形容词长短尾、副词形式、比较级和最高级，以及相关谓语结构。", 195),
     ("grammar.syntax_simple", "grammar", "简单句句法", "Синтаксис простого предложения", "grammar", "主谓一致、无主句、不定人称句、句子成分和词序。", 200),
     ("grammar.syntax_complex", "grammar", "复合句与连接词", "Сложное предложение и союзы", "grammar", "从句类型、连接词选择、并列和主从复合句逻辑。", 210),
     ("grammar.lexical_choice", "grammar", "词义辨析与固定搭配", "Лексическая сочетаемость", "grammar", "近义词、固定搭配、惯用表达和语义色彩。", 220),
@@ -100,8 +101,8 @@ def upsert_point(
     return int(cursor.lastrowid)
 
 
-def seed(reset: bool) -> dict[str, Any]:
-    with sqlite3.connect(DB_PATH) as conn:
+def seed(reset: bool, db_path: Path = DB_PATH) -> dict[str, Any]:
+    with sqlite3.connect(db_path) as conn:
         conn.execute("PRAGMA foreign_keys = ON")
         exam_system_id = get_tem8_exam_system_id(conn)
 

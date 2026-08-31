@@ -31,6 +31,7 @@
 - `grammar.adverbial_participle`: 副动词
 - `grammar.numeral`: 数词与数量结构
 - `grammar.pronoun`: 代词与指代
+- `grammar.adjective_adverb`: 形容词、副词与比较级
 - `grammar.syntax_simple`: 简单句句法
 - `grammar.syntax_complex`: 复合句与连接词
 - `grammar.lexical_choice`: 词义辨析与固定搭配

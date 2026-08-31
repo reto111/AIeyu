@@ -1,5 +1,16 @@
 # AI Russian Tutor Project Context
 
+### Latest checkpoint: 细粒度知识画像与一键薄弱专项训练（2026-08-31）
+
+- 专四与专八正式练习题已完成细粒度知识点标注：`TEM4_RU` 444/444、`TEM8_RU` 300/300 均绑定叶级知识点。专四知识树扩充为听力父级以及语法、国情、阅读的完整细分体系；语法树新增 `grammar.adjective_adverb`（形容词、副词与比较级）。
+- 新增 `scripts/tag_question_knowledge_points.py`：默认 dry-run，支持正式写入前自动备份数据库并导出 UTF-8 BOM 复核表。自动规则低置信项不直接下结论；本轮 41 道模糊题已由本地模型逐题对照题干和全部选项后写入可追踪覆盖规则。
+- 正式标注复核表：`data/processed/knowledge_tags/question_knowledge_tagging_review.csv`。写入前数据库备份：`data/processed/backups/russian_ai_tutor_before_fine_knowledge_tags_20260831_185248.sqlite`。
+- 用户画像的训练推荐加入产品权重：语法 `1.35`、词义辨析与固定搭配 `1.45`、阅读 `1.0`、听力 `0.9`、文学与国情 `0.72`。原始掌握度和薄弱度不被篡改，权重只影响“下一步练什么”的排序；同等薄弱时优先训练更依赖语言能力积累的语法、词汇与阅读。
+- `/api/quiz` 新增 `weakness_review` 模式。服务器重新读取当前账号画像后按具体知识点组卷，继续优先未做题、旧错题和较久未做题；细分题不足时只放宽到同一题型，不跨到文学或国情凑数。阅读专项通过命中文章扩展到完整 `passage_id` 题组。
+- 批改时同步保存练习模式：薄弱专项记为 `weakness_review`，入门诊断记为 `mock_exam`，普通组卷记为 `random`，为后续学习报告区分训练来源。
+- 学生端能力画像新增“一键开始专项训练”，专项卷显示具体目标；发生同题型放宽时显示“含同类补充”。
+- 新增 `tests/test_adaptive_training.py`，覆盖语法优先于国情、细分题不足只回退同题型、阅读保持整篇文章，以及原随机组卷、入门诊断不回归共五项规则。2026-08-31 五项测试全部通过，数据库 `PRAGMA integrity_check = ok`。
+
 ### Latest checkpoint: 独立单词考试选择与学生端视觉优化（2026-08-30）
 
 - 练习页和单词页分别维护考试选择：练习页使用 `aieyu.practiceExam`，单词页使用 `aieyu.wordExam`；单词页切换专四/专八只刷新对应词库、打卡进度和复习词库，不再被练习页的考试选择覆盖。

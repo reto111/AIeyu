@@ -16,6 +16,20 @@ DEFAULT_USER_EMAIL = "local-student@aieyu.local"
 WINDOW_SIZE = 20
 MIN_ATTEMPTS = 5
 
+# Product policy: language ability is harder to improve through mechanical
+# memorisation, so grammar, vocabulary and reading receive more training weight
+# than literature and culture at the same raw weakness level.
+TRAINING_FOCUS_WEIGHTS = {
+    "grammar": 1.35,
+    "reading": 1.00,
+    "literature": 0.72,
+    "culture": 0.72,
+    "listening": 0.90,
+}
+TRAINING_TARGET_WEIGHTS = {
+    "grammar.lexical_choice": 1.45,
+}
+
 
 STATUS_ORDER = ["weak", "unstable", "stable", "strong"]
 STATUS_ZH = {
@@ -387,7 +401,22 @@ def refresh_training_recommendations(
         for item in profile_items
         if item["mastery_status"] != "insufficient_data" and item["weakness_priority"] > 0
     ]
-    candidates.sort(key=lambda item: (-item["weakness_priority"], item["mastery_status"], item["target_type"]))
+    for item in candidates:
+        prefix = str(item["target_code"]).split(".", 1)[0].replace("_choice", "")
+        focus_weight = TRAINING_TARGET_WEIGHTS.get(
+            str(item["target_code"]),
+            TRAINING_FOCUS_WEIGHTS.get(prefix, 1.0),
+        )
+        specificity_bonus = 4 if item["target_type"] == "knowledge_point" and "." in str(item["target_code"]) else 0
+        item["training_focus_weight"] = focus_weight
+        item["training_priority"] = round(item["weakness_priority"] * focus_weight) + specificity_bonus
+    candidates.sort(
+        key=lambda item: (
+            -item["training_priority"],
+            item["mastery_status"],
+            0 if item["target_type"] == "knowledge_point" else 1,
+        )
+    )
     if not candidates:
         return None
     top = candidates[0]
@@ -407,7 +436,7 @@ def refresh_training_recommendations(
             top["target_code"],
             top["target_name_zh"],
             "highest_weakness_priority",
-            top["weakness_priority"],
+            top["training_priority"],
         ),
     )
     return {
@@ -415,8 +444,11 @@ def refresh_training_recommendations(
         "target_type": top["target_type"],
         "target_code": top["target_code"],
         "target_name_zh": top["target_name_zh"],
-        "reason": "当前弱项优先级最高",
+        "reason": "结合薄弱程度与语言能力训练优先级推荐",
         "count": 10,
+        "raw_weakness_priority": top["weakness_priority"],
+        "training_priority": top["training_priority"],
+        "focus_weight": top["training_focus_weight"],
     }
 
 
