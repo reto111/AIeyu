@@ -18,6 +18,7 @@ import serve_student_app as app  # noqa: E402
 
 class AdaptiveTrainingTests(unittest.TestCase):
     user_id = 99001
+    other_user_id = 99002
 
     def setUp(self) -> None:
         self.temp_dir = Path(tempfile.mkdtemp(prefix="aieyu_adaptive_test_"))
@@ -30,6 +31,10 @@ class AdaptiveTrainingTests(unittest.TestCase):
             conn.execute(
                 "INSERT INTO users (id, display_name, email) VALUES (?, ?, ?)",
                 (self.user_id, "专项训练测试", "adaptive-test@aieyu.local"),
+            )
+            conn.execute(
+                "INSERT INTO users (id, display_name, email) VALUES (?, ?, ?)",
+                (self.other_user_id, "隔离账号测试", "adaptive-isolation@aieyu.local"),
             )
             conn.commit()
 
@@ -200,6 +205,35 @@ class AdaptiveTrainingTests(unittest.TestCase):
             {item["question_type"] for item in quiz["questions"]},
             {"grammar_choice", "literature_choice", "culture_choice", "reading_choice"},
         )
+
+    def test_student_can_start_an_explicit_knowledge_point(self) -> None:
+        quiz = app.api_generate_quiz(
+            {
+                "user_id": self.user_id,
+                "mode": "knowledge_point",
+                "target_code": "grammar.aspect",
+                "exam_system": "TEM4_RU",
+                "level": "TEM4",
+                "count": 10,
+                "seed": 20260831,
+            }
+        )
+
+        self.assertEqual(quiz["mode"], "knowledge_point")
+        self.assertEqual(quiz["training"]["target_code"], "grammar.aspect")
+        self.assertEqual({item["question_type"] for item in quiz["questions"]}, {"grammar_choice"})
+
+    def test_study_center_is_isolated_by_user(self) -> None:
+        grammar_id = self.question_id("TEM4_RU", "grammar.aspect")
+        self.add_attempts("TEM4_RU", "TEM4", grammar_id, [True, False, True, False, True])
+
+        current = app.api_study_center(self.user_id, "TEM4_RU", "TEM4")
+        other = app.api_study_center(self.other_user_id, "TEM4_RU", "TEM4")
+
+        self.assertEqual(current["periods"]["seven_days"]["attempted"], 5)
+        self.assertEqual(other["periods"]["seven_days"]["attempted"], 0)
+        self.assertEqual(len(current["daily_trend"]), 7)
+        self.assertTrue(any(item["target_code"] == "grammar.aspect" for item in current["knowledge_mastery"]))
 
 
 if __name__ == "__main__":

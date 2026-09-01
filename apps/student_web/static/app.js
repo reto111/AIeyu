@@ -5,11 +5,12 @@ const state = {
   activeUserId: 0,
   selectedExam: localStorage.getItem("aieyu.practiceExam") || localStorage.getItem("aieyu.selectedExam") || "TEM8_RU",
   selectedWordExam: localStorage.getItem("aieyu.wordExam") || "TEM8_RU",
-  activeView: localStorage.getItem("aieyu.activeView") || "practice",
+  activeView: localStorage.getItem("aieyu.activeView") || "study",
   quiz: null,
   result: null,
   explanation: null,
   profile: null,
+  studyCenter: null,
   wrongbook: null,
   wordStatus: null,
   wordReviewPool: null,
@@ -97,9 +98,15 @@ function renderExamContext() {
   if (wordExamLabel) wordExamLabel.textContent = wordExamSelection.label;
   const title = document.querySelector("#practiceTitle");
   if (title) title.textContent = `今日${practiceExam.label}训练`;
+  const diagnosticDescription = document.querySelector("#diagnosticDescription");
+  if (diagnosticDescription) {
+    diagnosticDescription.textContent = practiceExam.system === "TEM4_RU"
+      ? "覆盖语法、国情和阅读，用于建立第一版能力画像。"
+      : "覆盖语法、文学、国情和阅读，用于建立第一版能力画像。";
+  }
 }
 function showView(view) {
-  const nextView = ["practice", "words", "wrongbook"].includes(view) ? view : "practice";
+  const nextView = ["study", "practice", "words", "wrongbook"].includes(view) ? view : "study";
   state.activeView = nextView;
   localStorage.setItem("aieyu.activeView", nextView);
   for (const page of document.querySelectorAll(".page")) {
@@ -113,6 +120,9 @@ function showView(view) {
   }
   if (nextView === "words") {
     loadWordStatus();
+  }
+  if (nextView === "study") {
+    loadStudyCenter();
   }
 }
 
@@ -167,6 +177,7 @@ function clearStudentState() {
   state.quiz = null;
   state.result = null;
   state.explanation = null;
+  state.studyCenter = null;
   state.wordStatus = null;
   state.wordReviewPool = null;
   state.wordSession = null;
@@ -191,6 +202,16 @@ function clearStudentState() {
   $("#reviewPoolBox").textContent = "请先登录后查看复习词库。";
   $("#reviewPoolMeta").textContent = "未登录";
   $("#startReviewWordsBtn").disabled = true;
+  $("#todayTasks").classList.add("muted");
+  $("#todayTasks").textContent = "请先登录后查看今日学习安排。";
+  $("#todayPlanMeta").textContent = "未登录";
+  $("#periodSummary").classList.add("muted");
+  $("#periodSummary").textContent = "登录后显示学习记录。";
+  $("#dailyTrend").innerHTML = "";
+  $("#studyTypeMastery").classList.add("muted");
+  $("#studyTypeMastery").textContent = "登录后显示能力概览。";
+  $("#knowledgeMap").classList.add("muted");
+  $("#knowledgeMap").textContent = "登录后查看可练知识点。";
 }
 
 function renderAuthStatus(payload) {
@@ -808,6 +829,9 @@ async function refreshStudentData() {
     await loadWordReviewPool();
     return;
   }
+  if (state.activeView === "study") {
+    await loadStudyCenter();
+  }
   try {
     await loadProfile();
   } catch (error) {
@@ -843,6 +867,140 @@ function setSubmitLoading(isLoading) {
   }
 }
 
+const KNOWLEDGE_CATEGORY_NAMES = {
+  grammar: "语法与词汇",
+  reading: "阅读理解",
+  listening: "听力",
+  literature: "俄罗斯文学",
+  culture: "俄罗斯国情",
+};
+
+function percentageText(value) {
+  return value === null || value === undefined ? "暂无" : `${Math.round(Number(value) * 100)}%`;
+}
+
+function renderStudyCenter(payload) {
+  state.studyCenter = payload;
+  const name = state.activeUser?.display_name || "同学";
+  $("#studyGreeting").textContent = `${name}，今天从最需要的地方开始`;
+
+  const questionTask = payload.today.questions;
+  const wordTask = payload.today.words;
+  const wrongTask = payload.today.wrongbook;
+  const questionDone = questionTask.remaining === 0;
+  const wordDone = wordTask.due_count === 0 && wordTask.completed > 0;
+  const wrongDone = wrongTask.pending_count === 0;
+  $("#todayPlanMeta").textContent = `${[questionDone, wordDone, wrongDone].filter(Boolean).length}/3 已完成`;
+  $("#todayTasks").classList.remove("muted");
+  $("#todayTasks").innerHTML = `
+    <article class="today-task ${questionDone ? "done" : ""}">
+      <div class="task-index">1</div>
+      <div class="task-copy">
+        <strong>${escapeHtml(questionTask.label)}${questionTask.target_name_zh ? ` · ${escapeHtml(questionTask.target_name_zh)}` : ""}</strong>
+        <span>${questionTask.completed}/${questionTask.target} 题${questionDone ? " · 今日已完成" : ""}</span>
+      </div>
+      <div class="task-progress"><span style="width:${Math.min(questionTask.completed / Math.max(questionTask.target, 1) * 100, 100)}%"></span></div>
+      <button type="button" class="secondary" data-study-action="questions" data-study-mode="${escapeHtml(questionTask.mode)}">${questionDone ? "再练一组" : "开始训练"}</button>
+    </article>
+    <article class="today-task ${wordDone ? "done" : ""}">
+      <div class="task-index">2</div>
+      <div class="task-copy">
+        <strong>${wordTask.due_count ? `复习 ${wordTask.due_count} 个到期词` : "完成今日单词打卡"}</strong>
+        <span>今日已学习 ${wordTask.completed} 个 · ${wordTask.new_count} 个未开始</span>
+      </div>
+      <div class="task-progress"><span style="width:${Math.min(wordTask.completed / Math.max(wordTask.target, 1) * 100, 100)}%"></span></div>
+      <button type="button" class="secondary" data-study-action="words">${wordTask.due_count ? "立即复习" : "开始打卡"}</button>
+    </article>
+    <article class="today-task ${wrongDone ? "done" : ""}">
+      <div class="task-index">3</div>
+      <div class="task-copy">
+        <strong>订正错题</strong>
+        <span>${wrongDone ? "当前没有待巩固错题" : `${wrongTask.pending_count} 道仍需巩固`}</span>
+      </div>
+      <div class="task-progress"><span style="width:${wrongDone ? 100 : 0}%"></span></div>
+      <button type="button" class="secondary" data-study-action="wrongbook">${wrongDone ? "查看错题本" : "去订正"}</button>
+    </article>
+  `;
+
+  const seven = payload.periods.seven_days;
+  const thirty = payload.periods.thirty_days;
+  $("#periodSummary").classList.remove("muted");
+  $("#periodSummary").innerHTML = `
+    <div><strong>${seven.attempted}</strong><span>近 7 天答题</span><small>${percentageText(seven.accuracy)} 正确率</small></div>
+    <div><strong>${thirty.attempted}</strong><span>近 30 天答题</span><small>${percentageText(thirty.accuracy)} 正确率</small></div>
+    <div><strong>${thirty.sessions}</strong><span>近 30 天练习</span><small>次完整提交</small></div>
+  `;
+
+  const maxAttempts = Math.max(...payload.daily_trend.map((item) => item.attempted), 1);
+  $("#dailyTrend").innerHTML = payload.daily_trend.map((item) => {
+    const date = new Date(`${item.date}T00:00:00`);
+    const label = `${date.getMonth() + 1}/${date.getDate()}`;
+    const height = Math.max(Math.round(item.attempted / maxAttempts * 100), item.attempted ? 8 : 2);
+    return `
+      <div class="trend-day" title="${label} · ${item.attempted} 题 · ${percentageText(item.accuracy)}">
+        <div class="trend-bar"><span style="height:${height}%"></span></div>
+        <strong>${item.attempted}</strong>
+        <span>${label}</span>
+      </div>
+    `;
+  }).join("");
+
+  const byType = new Map((payload.question_type_mastery || []).map((item) => [item.target_code, item]));
+  $("#studyTypeMastery").classList.remove("muted");
+  $("#studyTypeMastery").innerHTML = profileTypeOrder().map(([code, name]) => {
+    const item = byType.get(code);
+    const score = Number(item?.mastery_score || 0);
+    return `
+      <div class="study-type-row">
+        <div><strong>${name}</strong><span>${item?.mastery_status_zh || "数据不足"} · ${item?.attempt_count || 0} 题</span></div>
+        <div class="meter"><span style="width:${Math.max(score, 3)}%"></span></div>
+        <b>${score}</b>
+      </div>
+    `;
+  }).join("");
+
+  const grouped = new Map();
+  for (const item of payload.knowledge_mastery || []) {
+    if (!grouped.has(item.category)) grouped.set(item.category, []);
+    grouped.get(item.category).push(item);
+  }
+  $("#knowledgeMap").classList.remove("muted");
+  const categoryOrder = ["grammar", "reading", "listening", "literature", "culture"];
+  const orderedGroups = Array.from(grouped.entries()).sort(
+    ([left], [right]) => categoryOrder.indexOf(left) - categoryOrder.indexOf(right)
+  );
+  $("#knowledgeMap").innerHTML = orderedGroups.map(([category, items]) => `
+    <section class="knowledge-group">
+      <div class="knowledge-group-head">
+        <h3>${escapeHtml(KNOWLEDGE_CATEGORY_NAMES[category] || category)}</h3>
+        <span>${items.length} 个知识点</span>
+      </div>
+      <div class="knowledge-list">
+        ${items.map((item) => `
+          <button type="button" class="knowledge-item ${masteryClass(item.mastery_status)}" data-knowledge-code="${escapeHtml(item.target_code)}">
+            <span><strong>${escapeHtml(item.target_name_zh)}</strong><small>${item.attempt_count} 次作答 · ${item.question_count} 道可练 · ${escapeHtml(item.mastery_status_zh)}</small></span>
+            <b>${item.attempt_count ? item.mastery_score : "--"}</b>
+          </button>
+        `).join("")}
+      </div>
+    </section>
+  `).join("");
+}
+
+async function loadStudyCenter() {
+  if (!state.authenticated) {
+    $("#todayTasks").classList.add("muted");
+    $("#todayTasks").textContent = "请先登录后查看今日学习安排。";
+    return;
+  }
+  try {
+    renderStudyCenter(await requestJson(`/api/study-center?${queryForActiveUser()}`));
+  } catch (error) {
+    $("#todayTasks").classList.add("muted");
+    $("#todayTasks").textContent = error.message;
+  }
+}
+
 function updateQuizProgress() {
   const questions = state.quiz?.questions || [];
   if (!questions.length) {
@@ -856,7 +1014,7 @@ function updateQuizProgress() {
   $("#quizProgressText").textContent = `${answered}/${questions.length} 已作答`;
 }
 
-async function generateQuiz(mode = "random") {
+async function generateQuiz(mode = "random", targetCode = "") {
   if (!state.authenticated) {
     openAccountMenu();
     $("#activeUserHint").textContent = "请先登录或注册，再开始练习。";
@@ -873,7 +1031,7 @@ async function generateQuiz(mode = "random") {
   }
   try {
     const payload = {
-      count: mode === "weakness_review"
+      count: ["weakness_review", "knowledge_point"].includes(mode)
         ? Number(state.profile?.next_training?.count || 10)
         : Number($("#countInput").value || 10),
       exam_system: currentExam().system,
@@ -881,7 +1039,9 @@ async function generateQuiz(mode = "random") {
       seed: Date.now(),
       mode,
     };
-    if (mode !== "weakness_review") {
+    if (mode === "knowledge_point") {
+      payload.target_code = targetCode;
+    } else if (mode !== "weakness_review") {
       payload.question_types = selectedValues("questionType");
       payload.years = selectedValues("year").map(Number);
     }
@@ -917,6 +1077,8 @@ function renderQuiz(quiz) {
     ? "入门诊断"
     : quiz.mode === "weakness_review"
       ? `专项 · ${quiz.training?.target_name_zh || "薄弱点训练"}`
+      : quiz.mode === "knowledge_point"
+        ? `专项 · ${quiz.training?.target_name_zh || "知识点训练"}`
       : currentExam().label;
   const fallbackLabel = quiz.training?.fallback_used ? " · 含同类补充" : "";
   $("#quizMeta").textContent = `${quiz.count} 题 · ${quizLabel}${fallbackLabel}`;
@@ -989,6 +1151,8 @@ async function submitQuiz(event) {
       ? "mock_exam"
       : state.quiz.mode === "weakness_review"
         ? "weakness_review"
+        : state.quiz.mode === "knowledge_point"
+          ? "knowledge_point"
         : "random";
     state.result = await requestJson("/api/grade", {
       method: "POST",
@@ -1157,6 +1321,34 @@ async function selectExam(system, scope = "practice") {
   }
 }
 
+async function startStudyWords() {
+  state.selectedWordExam = state.selectedExam;
+  localStorage.setItem("aieyu.wordExam", state.selectedWordExam);
+  renderExamContext();
+  showView("words");
+  await loadWordStatus();
+  const mode = state.wordStatus?.due_count ? "review" : "mixed";
+  await startWordSession(mode);
+}
+
+function handleStudyAction(action, mode) {
+  if (action === "questions") {
+    if (mode === "diagnostic") {
+      startDiagnostic();
+    } else {
+      generateQuiz("weakness_review");
+    }
+    return;
+  }
+  if (action === "words") {
+    startStudyWords();
+    return;
+  }
+  if (action === "wrongbook") {
+    showView("wrongbook");
+  }
+}
+
 async function init() {
   renderExamContext();
   try {
@@ -1232,6 +1424,16 @@ $("#profileSummary").addEventListener("click", (event) => {
   const button = event.target.closest("[data-practice-type]");
   if (!button) return;
   selectOnlyQuestionType(button.dataset.practiceType);
+});
+$("#todayTasks").addEventListener("click", (event) => {
+  const button = event.target.closest("[data-study-action]");
+  if (!button) return;
+  handleStudyAction(button.dataset.studyAction, button.dataset.studyMode || "");
+});
+$("#knowledgeMap").addEventListener("click", (event) => {
+  const button = event.target.closest("[data-knowledge-code]");
+  if (!button) return;
+  generateQuiz("knowledge_point", button.dataset.knowledgeCode);
 });
 $("#quizForm").addEventListener("submit", submitQuiz);
 $("#followupBtn").addEventListener("click", sendFollowup);

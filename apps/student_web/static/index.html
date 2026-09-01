@@ -42,7 +42,8 @@
         </div>
 
         <nav class="mainnav" aria-label="主要页面">
-          <button type="button" class="navbtn active" data-view="practice">练习</button>
+          <button type="button" class="navbtn active" data-view="study">学习</button>
+          <button type="button" class="navbtn" data-view="practice">练习</button>
           <button type="button" class="navbtn" data-view="words">单词</button>
           <button type="button" class="navbtn" data-view="wrongbook">错题本</button>
         </nav>
@@ -54,7 +55,69 @@
       </aside>
 
       <section class="pagearea">
-        <section id="practicePage" class="page active">
+        <section id="studyPage" class="page active">
+          <section class="workspace page-workspace study-workspace">
+            <header class="topbar study-header">
+              <div>
+                <p class="eyebrow">个人学习中心</p>
+                <h2 id="studyGreeting">今天从最需要的地方开始</h2>
+                <p class="topbar-subtitle">任务、进度和知识点都按当前账号独立记录</p>
+              </div>
+              <div class="exam-tabs study-exam-tabs" role="tablist" aria-label="学习中心考试选择">
+                <button type="button" class="exam-tab active" data-exam-system="TEM8_RU" data-exam-scope="practice" role="tab" aria-selected="true">俄语专八</button>
+                <button type="button" class="exam-tab" data-exam-system="TEM4_RU" data-exam-scope="practice" role="tab" aria-selected="false">俄语专四</button>
+              </div>
+            </header>
+
+            <div class="study-content">
+              <section aria-labelledby="todayPlanTitle">
+                <div class="section-heading">
+                  <div>
+                    <p class="eyebrow">今日安排</p>
+                    <h2 id="todayPlanTitle">按顺序完成三件事</h2>
+                  </div>
+                  <span id="todayPlanMeta" class="meta">正在读取</span>
+                </div>
+                <div id="todayTasks" class="today-tasks muted">登录后生成今日学习安排。</div>
+              </section>
+
+              <section class="study-split">
+                <div aria-labelledby="trendTitle">
+                  <div class="section-heading compact-heading">
+                    <div>
+                      <p class="eyebrow">学习记录</p>
+                      <h2 id="trendTitle">近期状态</h2>
+                    </div>
+                  </div>
+                  <div id="periodSummary" class="period-summary muted">暂无学习记录。</div>
+                  <div id="dailyTrend" class="daily-trend" aria-label="近七天答题趋势"></div>
+                </div>
+                <div aria-labelledby="typeMasteryTitle">
+                  <div class="section-heading compact-heading">
+                    <div>
+                      <p class="eyebrow">题型掌握</p>
+                      <h2 id="typeMasteryTitle">能力概览</h2>
+                    </div>
+                  </div>
+                  <div id="studyTypeMastery" class="study-type-mastery muted">完成练习后显示。</div>
+                </div>
+              </section>
+
+              <section aria-labelledby="knowledgeTitle">
+                <div class="section-heading">
+                  <div>
+                    <p class="eyebrow">专项训练</p>
+                    <h2 id="knowledgeTitle">细分知识点</h2>
+                  </div>
+                  <span class="meta">点击任意知识点开始 10 题训练</span>
+                </div>
+                <div id="knowledgeMap" class="knowledge-map muted">正在读取知识点...</div>
+              </section>
+            </div>
+          </section>
+        </section>
+
+        <section id="practicePage" class="page">
           <div id="examTabs" class="exam-tabs" role="tablist" aria-label="选择考试">
             <button type="button" class="exam-tab active" data-exam-system="TEM8_RU" data-exam-scope="practice" role="tab" aria-selected="true">俄语专八</button>
             <button type="button" class="exam-tab" data-exam-system="TEM4_RU" data-exam-scope="practice" role="tab" aria-selected="false">俄语专四</button>
@@ -77,7 +140,7 @@
                 <h2>入门诊断</h2>
                 <div class="diagnostic">
                   <strong>建议新用户先做 30 题</strong>
-                  <p>覆盖语法、文学、国情和阅读，用于建立第一版能力画像。</p>
+                  <p id="diagnosticDescription">覆盖语法、文学、国情和阅读，用于建立第一版能力画像。</p>
                   <button id="diagnosticBtn" class="secondary">开始 30 题诊断</button>
                 </div>
               </section>

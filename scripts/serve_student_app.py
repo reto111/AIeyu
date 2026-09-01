@@ -1166,6 +1166,42 @@ def question_type_for_target(target_type: str, target_code: str) -> str:
     return mapping[prefix]
 
 
+def resolve_knowledge_target(
+    conn: sqlite3.Connection,
+    exam_system_id: int,
+    level_id: int,
+    target_code: str,
+) -> dict[str, Any]:
+    row = conn.execute(
+        """
+        SELECT kp.code, kp.name_zh
+        FROM knowledge_points kp
+        WHERE kp.code = ?
+          AND (kp.exam_system_id = ? OR kp.exam_system_id IS NULL)
+          AND EXISTS (
+            SELECT 1
+            FROM question_knowledge_points qkp
+            JOIN questions q ON q.id = qkp.question_id
+            WHERE qkp.knowledge_point_id = kp.id
+              AND q.exam_system_id = ? AND q.level_id = ?
+              AND q.review_status = 'approved' AND q.source_usage = 'practice'
+          )
+        ORDER BY CASE WHEN kp.exam_system_id = ? THEN 0 ELSE 1 END
+        LIMIT 1
+        """,
+        (target_code, exam_system_id, exam_system_id, level_id, exam_system_id),
+    ).fetchone()
+    if row is None:
+        raise ValueError("当前考试没有这个可练知识点。")
+    return {
+        "target_type": "knowledge_point",
+        "target_code": row["code"],
+        "target_name_zh": row["name_zh"],
+        "reason": "由学生从知识画像中选择",
+        "count": 10,
+    }
+
+
 def fetch_quiz_rows(
     conn: sqlite3.Connection,
     filters: list[str],
@@ -1199,7 +1235,7 @@ def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
     user_id = normalize_user_id(payload.get("user_id"))
     count = max(1, min(int(payload.get("count") or 10), 50))
     mode = str(payload.get("mode") or "random")
-    if mode not in {"random", "diagnostic", "weakness_review"}:
+    if mode not in {"random", "diagnostic", "weakness_review", "knowledge_point"}:
         raise ValueError(f"不支持的组卷模式：{mode}")
     exam_system_code = str(payload.get("exam_system") or "TEM8_RU")
     level_code = str(payload.get("level") or "TEM8")
@@ -1224,11 +1260,22 @@ def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
         ]
         base_params: list[Any] = [exam_system_id, level_id]
 
-        if mode == "weakness_review":
-            profile = recalculate_profile(conn, user_id, exam_system_code, level_code)
-            recommendation = profile.get("next_training")
-            if not recommendation:
-                raise ValueError("当前作答数据还不足以生成薄弱专项，请先完成入门诊断。")
+        if mode in {"weakness_review", "knowledge_point"}:
+            if mode == "weakness_review":
+                profile = recalculate_profile(conn, user_id, exam_system_code, level_code)
+                recommendation = profile.get("next_training")
+                if not recommendation:
+                    raise ValueError("当前作答数据还不足以生成薄弱专项，请先完成入门诊断。")
+            else:
+                target_code_value = str(payload.get("target_code") or "").strip()
+                if not target_code_value:
+                    raise ValueError("请选择要训练的知识点。")
+                recommendation = resolve_knowledge_target(
+                    conn,
+                    exam_system_id,
+                    level_id,
+                    target_code_value,
+                )
             target_type = str(recommendation["target_type"])
             target_code = str(recommendation["target_code"])
             target_question_type = question_type_for_target(target_type, target_code)
@@ -1320,6 +1367,195 @@ def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
         "count": len(questions),
         "questions": questions,
         "training": training,
+    }
+
+
+def period_answer_summary(
+    conn: sqlite3.Connection,
+    user_id: int,
+    exam_system_id: int,
+    level_id: int,
+    days: int,
+) -> dict[str, Any]:
+    row = conn.execute(
+        """
+        SELECT
+          COUNT(*) AS attempted,
+          COALESCE(SUM(CASE WHEN ua.is_correct = 1 THEN 1 ELSE 0 END), 0) AS correct,
+          COUNT(DISTINCT qi.quiz_session_id) AS sessions
+        FROM user_answers ua
+        JOIN quiz_items qi ON qi.id = ua.quiz_item_id
+        JOIN quiz_sessions qs ON qs.id = qi.quiz_session_id
+        WHERE ua.user_id = ?
+          AND qs.exam_system_id = ? AND qs.level_id = ?
+          AND datetime(ua.answered_at) >= datetime('now', 'localtime', ?)
+        """,
+        (user_id, exam_system_id, level_id, f"-{days} days"),
+    ).fetchone()
+    attempted = int(row["attempted"] or 0)
+    correct = int(row["correct"] or 0)
+    return {
+        "days": days,
+        "attempted": attempted,
+        "correct": correct,
+        "sessions": int(row["sessions"] or 0),
+        "accuracy": round(correct / attempted, 4) if attempted else None,
+    }
+
+
+def daily_answer_trend(
+    conn: sqlite3.Connection,
+    user_id: int,
+    exam_system_id: int,
+    level_id: int,
+    days: int = 7,
+) -> list[dict[str, Any]]:
+    rows = conn.execute(
+        """
+        WITH RECURSIVE dates(day, offset) AS (
+          SELECT date('now', 'localtime', ?), 0
+          UNION ALL
+          SELECT date(day, '+1 day'), offset + 1 FROM dates WHERE offset < ?
+        ), answers AS (
+          SELECT
+            date(ua.answered_at, 'localtime') AS day,
+            COUNT(*) AS attempted,
+            SUM(CASE WHEN ua.is_correct = 1 THEN 1 ELSE 0 END) AS correct
+          FROM user_answers ua
+          JOIN quiz_items qi ON qi.id = ua.quiz_item_id
+          JOIN quiz_sessions qs ON qs.id = qi.quiz_session_id
+          WHERE ua.user_id = ?
+            AND qs.exam_system_id = ? AND qs.level_id = ?
+            AND date(ua.answered_at, 'localtime') >= date('now', 'localtime', ?)
+          GROUP BY date(ua.answered_at, 'localtime')
+        )
+        SELECT dates.day, COALESCE(answers.attempted, 0) AS attempted,
+               COALESCE(answers.correct, 0) AS correct
+        FROM dates
+        LEFT JOIN answers ON answers.day = dates.day
+        ORDER BY dates.day
+        """,
+        (f"-{days - 1} days", days - 1, user_id, exam_system_id, level_id, f"-{days - 1} days"),
+    ).fetchall()
+    return [
+        {
+            "date": row["day"],
+            "attempted": int(row["attempted"] or 0),
+            "correct": int(row["correct"] or 0),
+            "accuracy": round(int(row["correct"] or 0) / int(row["attempted"]), 4)
+            if int(row["attempted"] or 0)
+            else None,
+        }
+        for row in rows
+    ]
+
+
+def api_study_center(
+    user_id: int = DEFAULT_USER_ID,
+    exam_system_code: str = "TEM8_RU",
+    level_code: str = "TEM8",
+) -> dict[str, Any]:
+    with db() as conn:
+        user = ensure_user_exists(conn, user_id)
+        exam_system_id, level_id = fetch_ids(conn, exam_system_code, level_code)
+        profile = recalculate_profile(conn, user_id, exam_system_code, level_code)
+        mastery_by_code = {
+            item["target_code"]: item for item in profile.get("knowledge_mastery", [])
+        }
+        knowledge_rows = conn.execute(
+            """
+            SELECT
+              kp.code, kp.name_zh, kp.category, kp.sort_order,
+              COUNT(DISTINCT q.id) AS question_count
+            FROM knowledge_points kp
+            JOIN question_knowledge_points qkp ON qkp.knowledge_point_id = kp.id
+            JOIN questions q ON q.id = qkp.question_id
+            WHERE q.exam_system_id = ? AND q.level_id = ?
+              AND q.review_status = 'approved' AND q.source_usage = 'practice'
+            GROUP BY kp.code, kp.name_zh, kp.category, kp.sort_order
+            ORDER BY kp.category, kp.sort_order, kp.name_zh
+            """,
+            (exam_system_id, level_id),
+        ).fetchall()
+        knowledge_mastery = []
+        for row in knowledge_rows:
+            current = mastery_by_code.get(row["code"], {})
+            knowledge_mastery.append(
+                {
+                    "target_code": row["code"],
+                    "target_name_zh": row["name_zh"],
+                    "category": row["category"],
+                    "question_count": int(row["question_count"] or 0),
+                    "attempt_count": int(current.get("attempt_count", 0)),
+                    "wrong_count": int(current.get("wrong_count", 0)),
+                    "mastery_score": int(current.get("mastery_score", 0)),
+                    "mastery_status": current.get("mastery_status", "insufficient_data"),
+                    "mastery_status_zh": current.get("mastery_status_zh", "数据不足"),
+                }
+            )
+
+        today_attempted = int(
+            conn.execute(
+                """
+                SELECT COUNT(*)
+                FROM user_answers ua
+                JOIN quiz_items qi ON qi.id = ua.quiz_item_id
+                JOIN quiz_sessions qs ON qs.id = qi.quiz_session_id
+                WHERE ua.user_id = ? AND qs.exam_system_id = ? AND qs.level_id = ?
+                  AND date(ua.answered_at, 'localtime') = date('now', 'localtime')
+                """,
+                (user_id, exam_system_id, level_id),
+            ).fetchone()[0]
+        )
+        word_status = api_word_status(user_id, exam_system_code, level_code)
+        pending_wrong = int(
+            conn.execute(
+                """
+                SELECT COUNT(*)
+                FROM question_exposures qe
+                JOIN questions q ON q.id = qe.question_id
+                WHERE qe.user_id = ? AND qe.wrong_count > 0 AND qe.last_is_correct = 0
+                  AND q.exam_system_id = ? AND q.level_id = ?
+                  AND q.review_status = 'approved' AND q.source_usage = 'practice'
+                """,
+                (user_id, exam_system_id, level_id),
+            ).fetchone()[0]
+        )
+        seven_days = period_answer_summary(conn, user_id, exam_system_id, level_id, 7)
+        thirty_days = period_answer_summary(conn, user_id, exam_system_id, level_id, 30)
+        trend = daily_answer_trend(conn, user_id, exam_system_id, level_id)
+
+    recommended = profile.get("next_training")
+    question_target = int(recommended.get("count", 10)) if recommended else 30
+    return {
+        "user": public_user(user),
+        "exam_system": exam_system_code,
+        "level": level_code,
+        "today": {
+            "questions": {
+                "label": "薄弱专项" if recommended else "入门诊断",
+                "target": question_target,
+                "completed": min(today_attempted, question_target),
+                "remaining": max(question_target - today_attempted, 0),
+                "mode": "weakness_review" if recommended else "diagnostic",
+                "target_name_zh": recommended.get("target_name_zh") if recommended else None,
+            },
+            "words": {
+                "target": int(word_status["due_count"] or 20),
+                "completed": int(word_status["reviewed_today"] or 0),
+                "due_count": int(word_status["due_count"] or 0),
+                "new_count": int(word_status["new_count"] or 0),
+            },
+            "wrongbook": {"pending_count": pending_wrong},
+        },
+        "periods": {
+            "seven_days": seven_days,
+            "thirty_days": thirty_days,
+        },
+        "daily_trend": trend,
+        "question_type_mastery": profile.get("question_type_mastery", []),
+        "knowledge_mastery": knowledge_mastery,
+        "next_training": recommended,
     }
 
 
@@ -2006,6 +2242,9 @@ class StudentAppHandler(BaseHTTPRequestHandler):
                 return
             if parsed.path == "/api/profile":
                 json_response(self, HTTPStatus.OK, api_profile(authenticated_user_id(self), query.get("exam_system", ["TEM8_RU"])[0], query.get("level", ["TEM8"])[0]))
+                return
+            if parsed.path == "/api/study-center":
+                json_response(self, HTTPStatus.OK, api_study_center(authenticated_user_id(self), query.get("exam_system", ["TEM8_RU"])[0], query.get("level", ["TEM8"])[0]))
                 return
             if parsed.path == "/api/wrongbook":
                 limit = int(query.get("limit", ["80"])[0])
