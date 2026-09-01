@@ -268,17 +268,13 @@ def classify_culture(stem: str, options: list[str]) -> Decision:
 
 def classify_literature(stem: str, options: list[str]) -> Decision:
     text = " ".join([stem, *options]).lower()
-    if any(marker in text for marker in ("жанр", "направлен", "реализм", "романтизм", "символизм", "акмеизм", "футуризм")):
-        return Decision("literature.genre_terms", 0.87, "文学体裁、流派或术语")
-    if any(marker in text for marker in ("серебрян", "блок", "ахматов", "цветаев", "маяковск", "есенин")):
-        return Decision("literature.silver_age", 0.84, "白银时代或现代主义作家作品")
-    if any(marker in text for marker in ("советск", "шолохов", "булгаков", "пастернак", "солжениц", "распутин")):
-        return Decision("literature.soviet", 0.83, "苏联时期文学")
-    if any(marker in text for marker in ("пушкин", "лермонтов", "гоголь", "тургенев", "достоевск", "толстой", "чехов", "некрасов")):
-        return Decision("literature.classical_19c", 0.84, "19 世纪经典作家作品")
-    if any(marker in text for marker in ("век", "период", "эпох", "древнерус")):
-        return Decision("literature.periods", 0.78, "文学史时期判断")
-    return Decision("literature.author_work", 0.77, "作家、作品或人物对应")
+    if any(marker in text for marker in ("стилистическ", "прием", "приём", "метафор", "метоним", "синекдох", "олицетвор", "антитез", "оксюморон", "гипербол", "перифраз")):
+        return Decision("literature.genre_terms", 0.91, "修辞手法或文学术语")
+    if any(marker in text for marker in ("направлен", "реализм", "романтизм", "символизм", "акмеизм", "футуризм", "модернизм", "школ", "деревенской проз", "представител")):
+        return Decision("literature.history_movements", 0.89, "文学史、流派或代表群体")
+    if any(marker in text for marker in ("главн", "геро", "образ", "персонаж", "судьб", "смысл произвед", "рассказывает о", "изображается")):
+        return Decision("literature.work_content", 0.88, "作品人物、情节或主题内容")
+    return Decision("literature.author_work", 0.86, "作家、作品、名句出处或创作信息")
 
 
 def classify(question_type: str, stem: str, options: list[str]) -> Decision:

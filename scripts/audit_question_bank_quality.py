@@ -23,6 +23,7 @@ SECTION_NOISE_RE = re.compile(
 )
 PAGE_NOISE_RE = re.compile(r"(\b\d{3,4}\b\s+[A-Za-z]{2,}|\b[A-Za-z]{2,}\s+\d{3,4}\b)")
 OPTION_MARKER_LINE_RE = re.compile(r"(?m)^\s*([АAВBСCДD]\)|[АAВBСCДD]\.)\s+")
+INITIAL_ONLY_RE = re.compile(r"^[А-ЯЁA-Z]\.?$")
 
 
 def normalize_key(key: str) -> str:
@@ -40,7 +41,7 @@ def has_latin_noise(text: str | None) -> bool:
         upper = token.upper()
         if re.fullmatch(r"[IVXLCDM]+", upper):
             continue
-        if upper in {"RF", "USA", "USSR", "TV", "DVD", "CD"}:
+        if upper in {"RF", "USA", "USSR", "TV", "DVD", "CD", "USB"}:
             continue
         return True
     return False
@@ -133,12 +134,16 @@ def audit_question(row: sqlite3.Row, options: list[sqlite3.Row]) -> list[dict]:
         text = opt["option_text"] or ""
         if text_len(text) == 0:
             add_issue(issues, row, "high", "empty_option_text", f"{key} 选项为空。")
+        if type_code in {"literature_choice", "culture_choice"} and INITIAL_ONLY_RE.fullmatch(text.strip()):
+            add_issue(issues, row, "high", "option_author_initial_fragment", f"{key} 选项只有单个首字母，作者姓名可能被切断。")
         if text_len(text) > 140:
             add_issue(issues, row, "medium", "option_text_too_long", f"{key} 选项过长，可能吸收题干或页脚。")
         if SECTION_NOISE_RE.search(text) or PAGE_NOISE_RE.search(text):
             add_issue(issues, row, "medium", "option_contains_noise", f"{key} 选项含页码、栏目标题或页脚噪声。")
         if OCR_SYMBOL_RE.search(text):
             add_issue(issues, row, "medium", "option_has_ocr_symbols", f"{key} 选项含常见 OCR 噪声。")
+        if has_latin_noise(text) and CYRILLIC_RE.search(text):
+            add_issue(issues, row, "medium", "option_has_latin_noise", f"{key} 俄语选项夹杂拉丁字母，疑似 OCR 乱码。")
 
     if text_len(stem) < 16 and any(text_len(text) > 50 for text in option_texts):
         add_issue(issues, row, "high", "author_initial_split_risk", "题干极短且选项过长，可能把 В.Г. 等作者缩写误切成 B 选项。")

@@ -30,6 +30,11 @@ TRAINING_TARGET_WEIGHTS = {
     "grammar.lexical_choice": 1.45,
 }
 
+# Reading remains a broad question-type ability. Its mechanical subtypes are
+# kept as internal question metadata but do not become student-facing mastery
+# targets or compete for fine-grained weakness recommendations.
+FINE_PROFILE_EXCLUDED_CATEGORIES = {"reading"}
+
 
 STATUS_ORDER = ["weak", "unstable", "stable", "strong"]
 STATUS_ZH = {
@@ -327,6 +332,7 @@ def fetch_attempt_groups(conn: sqlite3.Connection, user_id: int, exam_system_id:
           qt.name_zh AS question_type_name,
           kp.code AS knowledge_code,
           kp.name_zh AS knowledge_name,
+          kp.category AS knowledge_category,
           ua.is_correct,
           ua.answered_at
         FROM user_answers ua
@@ -345,7 +351,7 @@ def fetch_attempt_groups(conn: sqlite3.Connection, user_id: int, exam_system_id:
     for row in rows:
         attempt = Attempt(bool(row["is_correct"]), parse_datetime(row["answered_at"]))
         groups[("question_type", row["question_type_code"], row["question_type_name"])].append(attempt)
-        if row["knowledge_code"]:
+        if row["knowledge_code"] and row["knowledge_category"] not in FINE_PROFILE_EXCLUDED_CATEGORIES:
             groups[("knowledge_point", row["knowledge_code"], row["knowledge_name"])].append(attempt)
     return groups
 

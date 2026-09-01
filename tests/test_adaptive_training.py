@@ -14,6 +14,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import serve_student_app as app  # noqa: E402
+import audit_question_bank_quality as quality_audit  # noqa: E402
+import tag_question_knowledge_points as tagger  # noqa: E402
 
 
 class AdaptiveTrainingTests(unittest.TestCase):
@@ -141,6 +143,10 @@ class AdaptiveTrainingTests(unittest.TestCase):
         reading_id = self.question_id("TEM4_RU", "reading.main_idea")
         self.add_attempts("TEM4_RU", "TEM4", reading_id, [False] * 5)
 
+        profile = app.api_profile(self.user_id, "TEM4_RU", "TEM4")
+        self.assertFalse(any(item["target_code"].startswith("reading.") for item in profile["knowledge_mastery"]))
+        self.assertEqual(profile["next_training"]["target_code"], "reading_choice")
+
         quiz = app.api_generate_quiz(
             {
                 "user_id": self.user_id,
@@ -234,6 +240,41 @@ class AdaptiveTrainingTests(unittest.TestCase):
         self.assertEqual(other["periods"]["seven_days"]["attempted"], 0)
         self.assertEqual(len(current["daily_trend"]), 7)
         self.assertTrue(any(item["target_code"] == "grammar.aspect" for item in current["knowledge_mastery"]))
+        self.assertFalse(any(item["category"] == "reading" for item in current["knowledge_mastery"]))
+
+    def test_literature_tags_follow_learning_task_instead_of_era(self) -> None:
+        author = tagger.classify_literature(
+            "Знаменитый роман «Белая гвардия» написал ____.",
+            ["А. Н. Толстой", "М. Горький", "М. А. Булгаков", "А. П. Чехов"],
+        )
+        content = tagger.classify_literature(
+            "Главными героями романа «Доктор Живаго» являются ____.",
+            ["Евгений и Татьяна", "Юрий и Лара", "Родион и Сонечка", "Андрей и Наташа"],
+        )
+        history = tagger.classify_literature(
+            "Как литературное направление модернизм появился в России ____.",
+            ["в XIX веке", "на рубеже XIX-XX веков"],
+        )
+
+        self.assertEqual(author.code, "literature.author_work")
+        self.assertEqual(content.code, "literature.work_content")
+        self.assertEqual(history.code, "literature.history_movements")
+
+    def test_approved_practice_questions_have_no_high_or_medium_audit_issues(self) -> None:
+        with closing(sqlite3.connect(self.db_path)) as conn:
+            conn.row_factory = sqlite3.Row
+            questions = quality_audit.load_questions(conn)
+            options = quality_audit.load_options(conn)
+            issues = [
+                issue
+                for question in questions
+                for issue in quality_audit.audit_question(question, options.get(question["id"], []))
+                if question["review_status"] == "approved"
+                and question["source_usage"] == "practice"
+                and issue["severity"] in {"high", "medium"}
+            ]
+
+        self.assertEqual(issues, [])
 
 
 if __name__ == "__main__":

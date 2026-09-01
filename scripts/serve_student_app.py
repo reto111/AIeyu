@@ -1472,6 +1472,7 @@ def api_study_center(
             JOIN questions q ON q.id = qkp.question_id
             WHERE q.exam_system_id = ? AND q.level_id = ?
               AND q.review_status = 'approved' AND q.source_usage = 'practice'
+              AND kp.category <> 'reading'
             GROUP BY kp.code, kp.name_zh, kp.category, kp.sort_order
             ORDER BY kp.category, kp.sort_order, kp.name_zh
             """,
