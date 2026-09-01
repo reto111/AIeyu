@@ -20,7 +20,7 @@ const state = {
   currentWordIndex: 0,
   wordSessionStats: null,
   latestThreadId: 1,
-  selectionTranslation: { requestId: 0, text: "", context: "", interacting: false },
+  selectionTranslation: { requestId: 0, text: "", context: "", rect: null, interacting: false },
 };
 
 const $ = (selector) => document.querySelector(selector);
@@ -83,15 +83,46 @@ function selectionContext(element, selectedText) {
 
 function hideSelectionTranslator() {
   $("#selectionTranslator").classList.add("hidden");
+  $("#selectionTranslateTrigger").classList.add("hidden");
 }
 
-function placeSelectionTranslator(rect) {
+function placeSelectionTrigger(rect) {
+  const trigger = $("#selectionTranslateTrigger");
+  const size = 36;
+  const gap = 6;
+  let left = rect.right + gap;
+  if (left + size > window.innerWidth - 8) left = rect.left - size - gap;
+  const top = Math.max(8, Math.min(rect.top + rect.height / 2 - size / 2, window.innerHeight - size - 8));
+  trigger.style.left = `${Math.max(left, 8)}px`;
+  trigger.style.top = `${top}px`;
+}
+
+function placeSelectionTranslator() {
   const panel = $("#selectionTranslator");
-  const width = 340;
-  const left = Math.max(12, Math.min(rect.left, window.innerWidth - width - 12));
-  const top = Math.min(rect.bottom + 10, window.innerHeight - 180);
+  const rect = state.selectionTranslation.rect;
+  if (!rect || panel.classList.contains("hidden")) return;
+  const gap = 10;
+  const padding = 8;
+  const width = panel.offsetWidth || 340;
+  const height = panel.offsetHeight || 180;
+  const wide = window.innerWidth >= 700;
+  let left;
+  let top;
+  if (wide && rect.right + gap + width <= window.innerWidth - padding) {
+    left = rect.right + gap;
+    top = rect.top;
+  } else if (wide && rect.left - gap - width >= padding) {
+    left = rect.left - gap - width;
+    top = rect.top;
+  } else {
+    left = rect.left + rect.width / 2 - width / 2;
+    top = rect.top - gap - height;
+    if (top < padding) top = rect.bottom + gap;
+  }
+  left = Math.max(padding, Math.min(left, window.innerWidth - width - padding));
+  top = Math.max(padding, Math.min(top, window.innerHeight - height - padding));
   panel.style.left = `${left}px`;
-  panel.style.top = `${Math.max(top, 12)}px`;
+  panel.style.top = `${top}px`;
 }
 
 function renderSelectionTranslation(payload) {
@@ -102,6 +133,7 @@ function renderSelectionTranslation(payload) {
       <p class="translator-notice">${escapeHtml(payload.ai_notice || "将选中内容和所在句子发送给 DeepSeek 进行语境翻译。")}</p>
       <button type="button" class="primary translator-ai-btn" data-translate-with-ai>使用 AI 语境翻译</button>
     `;
+    window.requestAnimationFrame(placeSelectionTranslator);
     return;
   }
   const details = [payload.lemma, payload.part_of_speech].filter(Boolean).join(" · ");
@@ -112,6 +144,7 @@ function renderSelectionTranslation(payload) {
     ${payload.note_zh ? `<p class="translator-note">${escapeHtml(payload.note_zh)}</p>` : ""}
     <div class="translator-source">${escapeHtml(payload.source_label || "翻译结果")}${payload.matched_by_morphology ? " · 已还原词形" : ""}${payload.cached ? " · 已缓存" : ""}</div>
   `;
+  window.requestAnimationFrame(placeSelectionTranslator);
 }
 
 async function translateCurrentSelection(allowAi = false) {
@@ -119,6 +152,7 @@ async function translateCurrentSelection(allowAi = false) {
   if (!current.text || !state.authenticated) return;
   const requestId = ++current.requestId;
   $("#translatorBody").innerHTML = `<div class="translator-loading"><span class="loader"></span><span>${allowAi ? "正在进行语境翻译..." : "正在查询词库..."}</span></div>`;
+  window.requestAnimationFrame(placeSelectionTranslator);
   try {
     const exam = currentExam();
     const payload = await requestJson("/api/translate-selection", {
@@ -136,6 +170,7 @@ async function translateCurrentSelection(allowAi = false) {
   } catch (error) {
     if (requestId !== current.requestId) return;
     $("#translatorBody").innerHTML = `<p class="translator-error">${escapeHtml(error.message)}</p>`;
+    window.requestAnimationFrame(placeSelectionTranslator);
   }
 }
 
@@ -163,10 +198,18 @@ function inspectTextSelection() {
   if (!rect.width && !rect.height) return;
   state.selectionTranslation.text = selectedText;
   state.selectionTranslation.context = selectionContext(anchor, selectedText);
+  state.selectionTranslation.rect = {
+    left: rect.left,
+    right: rect.right,
+    top: rect.top,
+    bottom: rect.bottom,
+    width: rect.width,
+    height: rect.height,
+  };
   $("#translatorWord").textContent = selectedText;
-  placeSelectionTranslator(rect);
-  $("#selectionTranslator").classList.remove("hidden");
-  translateCurrentSelection(false);
+  $("#selectionTranslator").classList.add("hidden");
+  placeSelectionTrigger(rect);
+  $("#selectionTranslateTrigger").classList.remove("hidden");
 }
 
 let selectionTimer = 0;
@@ -1730,6 +1773,16 @@ $("#closeTranslatorBtn").addEventListener("click", () => {
   window.getSelection()?.removeAllRanges();
   hideSelectionTranslator();
 });
+$("#selectionTranslateTrigger").addEventListener("pointerdown", () => {
+  state.selectionTranslation.interacting = true;
+  window.setTimeout(() => { state.selectionTranslation.interacting = false; }, 500);
+});
+$("#selectionTranslateTrigger").addEventListener("click", () => {
+  $("#selectionTranslateTrigger").classList.add("hidden");
+  $("#selectionTranslator").classList.remove("hidden");
+  placeSelectionTranslator();
+  translateCurrentSelection(false);
+});
 $("#selectionTranslator").addEventListener("pointerdown", () => {
   state.selectionTranslation.interacting = true;
   window.setTimeout(() => { state.selectionTranslation.interacting = false; }, 500);
@@ -1781,6 +1834,8 @@ document.addEventListener("click", (event) => {
 document.addEventListener("selectionchange", scheduleSelectionInspection);
 document.addEventListener("mouseup", scheduleSelectionInspection);
 document.addEventListener("touchend", scheduleSelectionInspection, { passive: true });
+window.addEventListener("scroll", hideSelectionTranslator, { passive: true, capture: true });
+window.addEventListener("resize", hideSelectionTranslator, { passive: true });
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape") hideSelectionTranslator();
 });

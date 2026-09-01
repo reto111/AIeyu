@@ -138,6 +138,27 @@ button:disabled {
   box-shadow: 0 16px 42px rgba(22, 48, 39, 0.2);
 }
 
+.selection-translate-trigger {
+  position: fixed;
+  z-index: 81;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #0f6958;
+  border-radius: 50%;
+  background: var(--green);
+  color: #fff;
+  box-shadow: 0 8px 22px rgba(22, 48, 39, 0.24);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.selection-translate-trigger:hover,
+.selection-translate-trigger:focus-visible {
+  background: var(--green-dark);
+}
+
 .translator-head {
   display: flex;
   align-items: flex-start;
@@ -1803,12 +1824,8 @@ textarea {
 
 @media (max-width: 820px) {
   .selection-translator {
-    top: auto !important;
-    right: 10px;
-    bottom: 10px;
-    left: 10px !important;
-    width: auto;
-    max-height: min(52vh, 420px);
+    width: min(320px, calc(100vw - 16px));
+    max-height: min(46vh, 390px);
   }
 
   .shell {
