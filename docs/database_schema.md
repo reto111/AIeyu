@@ -343,6 +343,15 @@ AI 私教对话记录。
 - 完成度不由学生手工勾选，而是根据真实答题、错题状态和单词复习记录动态计算。
 - 点击推荐专项时，服务器再次校验任务属于当前登录账号和当天考试，防止跨账号读取任务。
 
+### 4.18.2 selection_translation_cache
+
+网页内部划词翻译的 AI 结果缓存。
+
+- 正式专四/专八词库命中时直接读取 `vocabulary_items` 与 `vocabulary_forms`，不写入缓存，也不调用外部模型。
+- 本地未命中时先返回授权提示；只有学生主动点击“使用 AI 语境翻译”后，才发送选中内容和最多 500 字符的所在句子。
+- AI 结果按规范化选中文本与上下文哈希唯一保存，重复查询直接读取缓存，减少 API 费用。
+- 缓存不保存用户账号、作答记录或整篇文章。
+
 ### 4.19 listening_assets / listening_transcripts / listening_segments / listening_question_links
 
 听力音频和转写链路。

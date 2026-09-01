@@ -57,6 +57,9 @@ WORD_STATUS_NAMES = {
     "known": "认识",
 }
 
+_MORPH_ANALYZER: Any = None
+_MORPH_UNAVAILABLE = False
+
 
 QUESTION_TYPE_NAMES = {
     "grammar_choice": "语法",
@@ -96,6 +99,7 @@ def db() -> Iterator[sqlite3.Connection]:
         ensure_feedback_tables(conn)
         ensure_wrongbook_tables(conn)
         ensure_daily_study_tables(conn)
+        ensure_translation_tables(conn)
         yield conn
         conn.commit()
     except Exception:
@@ -248,6 +252,27 @@ def ensure_daily_study_tables(conn: sqlite3.Connection) -> None:
           ON daily_study_plans (user_id, plan_date, exam_system_id, level_id);
         CREATE INDEX IF NOT EXISTS idx_daily_study_tasks_plan
           ON daily_study_tasks (plan_id, sort_order);
+        """
+    )
+
+
+def ensure_translation_tables(conn: sqlite3.Connection) -> None:
+    conn.executescript(
+        """
+        CREATE TABLE IF NOT EXISTS selection_translation_cache (
+          id INTEGER PRIMARY KEY AUTOINCREMENT,
+          selected_text TEXT NOT NULL,
+          context_hash TEXT NOT NULL,
+          result_json TEXT NOT NULL,
+          provider TEXT NOT NULL DEFAULT 'deepseek',
+          hit_count INTEGER NOT NULL DEFAULT 0,
+          created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+          updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+          UNIQUE (selected_text, context_hash)
+        );
+
+        CREATE INDEX IF NOT EXISTS idx_selection_translation_cache_lookup
+          ON selection_translation_cache (selected_text, context_hash);
         """
     )
 
@@ -2494,6 +2519,222 @@ def parse_assistant_json(text: str) -> dict[str, Any]:
     return parsed if isinstance(parsed, dict) else {}
 
 
+def clean_selection_text(value: Any) -> str:
+    text = re.sub(r"\s+", " ", str(value or "").strip())
+    text = text.strip(".,!?;:()[]{}<>\"'«»„“”`—–…")
+    if not text:
+        raise ValueError("请先选中一个俄语单词或短语。")
+    if len(text) > 80 or len(text.split()) > 6:
+        raise ValueError("一次最多翻译 6 个词。")
+    if not re.search(r"[А-Яа-яЁё]", text):
+        raise ValueError("当前只支持俄语单词和短语。")
+    if re.search(r"[^А-Яа-яЁё\-\s]", text):
+        raise ValueError("请选择完整的俄语单词或短语。")
+    return text
+
+
+def clean_selection_context(value: Any, selected_text: str) -> str:
+    context = re.sub(r"\s+", " ", str(value or "").strip())
+    if not context:
+        return selected_text
+    if len(context) <= 500:
+        return context
+    position = context.casefold().find(selected_text.casefold())
+    if position < 0:
+        return context[:500]
+    start = max(position - 220, 0)
+    end = min(position + len(selected_text) + 220, len(context))
+    return context[start:end]
+
+
+def russian_normal_forms(selected_text: str) -> list[str]:
+    global _MORPH_ANALYZER, _MORPH_UNAVAILABLE
+    if " " in selected_text or _MORPH_UNAVAILABLE:
+        return []
+    if _MORPH_ANALYZER is None:
+        try:
+            import pymorphy3
+        except ImportError:
+            _MORPH_UNAVAILABLE = True
+            return []
+        _MORPH_ANALYZER = pymorphy3.MorphAnalyzer()
+    forms = []
+    for parsed in _MORPH_ANALYZER.parse(selected_text.lower())[:4]:
+        normal_form = str(parsed.normal_form or "").strip()
+        if normal_form and normal_form not in forms:
+            forms.append(normal_form)
+    return forms
+
+
+def local_selection_translation(
+    conn: sqlite3.Connection,
+    selected_text: str,
+    exam_system_id: int,
+    level_id: int,
+) -> dict[str, Any] | None:
+    candidates = list(
+        dict.fromkeys(
+            [selected_text, selected_text.lower(), selected_text.capitalize(), *russian_normal_forms(selected_text)]
+        )
+    )
+    placeholders = ", ".join("?" for _ in candidates)
+    rows = conn.execute(
+        f"""
+        SELECT DISTINCT
+          vi.id, vi.word, vi.lemma, vi.part_of_speech, vi.meaning_zh,
+          CASE
+            WHEN vi.word IN ({placeholders}) THEN 0
+            WHEN COALESCE(vi.lemma, '') IN ({placeholders}) THEN 1
+            ELSE 2
+          END AS match_rank
+        FROM vocabulary_items vi
+        LEFT JOIN vocabulary_forms vf
+          ON vf.vocabulary_item_id = vi.id AND vf.form_type = 'inflected_form'
+        WHERE vi.exam_system_id = ? AND vi.level_id = ?
+          AND vi.review_status = 'approved'
+          AND (
+            vi.word IN ({placeholders})
+            OR COALESCE(vi.lemma, '') IN ({placeholders})
+            OR COALESCE(vf.form_text, '') IN ({placeholders})
+          )
+        ORDER BY match_rank, vi.id
+        LIMIT 4
+        """,
+        [
+            *candidates,
+            *candidates,
+            exam_system_id,
+            level_id,
+            *candidates,
+            *candidates,
+            *candidates,
+        ],
+    ).fetchall()
+    if not rows:
+        return None
+    meanings = []
+    for row in rows:
+        meaning = clean_word_meaning_for_display(row["meaning_zh"])
+        if meaning and meaning not in meanings:
+            meanings.append(meaning)
+    best = rows[0]
+    return {
+        "selected_text": selected_text,
+        "lemma": best["lemma"] or best["word"],
+        "part_of_speech": best["part_of_speech"] or "",
+        "meaning_zh": "；".join(meanings),
+        "context_meaning_zh": "",
+        "note_zh": "",
+        "matched_by_morphology": best["word"].casefold() != selected_text.casefold(),
+        "source": "local_dictionary",
+        "source_label": "AIeyu 已审核词库",
+        "vocabulary_item_id": int(best["id"]),
+        "cached": False,
+        "requires_ai_confirmation": False,
+    }
+
+
+def deepseek_selection_translation(selected_text: str, context: str) -> dict[str, Any]:
+    messages = [
+        {
+            "role": "system",
+            "content": (
+                "你是俄汉词典编辑。根据俄语词或短语及上下文返回严格 JSON，不要使用 Markdown。"
+                "字段必须为 lemma、part_of_speech、meaning_zh、context_meaning_zh、note_zh。"
+                "释义使用简洁准确的中文；不确定时如实说明，不罗列无关义项；"
+                "note_zh 最多一句，只写必要的词形或搭配提示。"
+            ),
+        },
+        {
+            "role": "user",
+            "content": json.dumps(
+                {"selected_text": selected_text, "context": context},
+                ensure_ascii=False,
+            ),
+        },
+    ]
+    parsed = parse_assistant_json(assistant_text_from_response(deepseek_chat(messages)))
+    meaning = re.sub(r"\s+", " ", str(parsed.get("meaning_zh") or "").strip())
+    context_meaning = re.sub(r"\s+", " ", str(parsed.get("context_meaning_zh") or "").strip())
+    if not meaning and not context_meaning:
+        raise ValueError("翻译服务没有返回有效释义。")
+    return {
+        "selected_text": selected_text,
+        "lemma": re.sub(r"\s+", " ", str(parsed.get("lemma") or selected_text).strip())[:100],
+        "part_of_speech": re.sub(r"\s+", " ", str(parsed.get("part_of_speech") or "").strip())[:60],
+        "meaning_zh": meaning[:500],
+        "context_meaning_zh": context_meaning[:500],
+        "note_zh": re.sub(r"\s+", " ", str(parsed.get("note_zh") or "").strip())[:300],
+        "source": "deepseek",
+        "source_label": "AI 语境翻译",
+        "vocabulary_item_id": None,
+        "cached": False,
+        "requires_ai_confirmation": False,
+    }
+
+
+def api_translate_selection(payload: dict[str, Any]) -> dict[str, Any]:
+    user_id = normalize_user_id(payload.get("user_id"))
+    selected_text = clean_selection_text(payload.get("selected_text"))
+    context = clean_selection_context(payload.get("context"), selected_text)
+    exam_system_code = str(payload.get("exam_system") or "TEM8_RU")
+    level_code = str(payload.get("level") or "TEM8")
+    allow_ai = payload.get("allow_ai") is True
+    context_hash = hashlib.sha256(context.casefold().encode("utf-8")).hexdigest()
+
+    with db() as conn:
+        ensure_user_exists(conn, user_id)
+        exam_system_id, level_id = fetch_ids(conn, exam_system_code, level_code)
+        local_result = local_selection_translation(conn, selected_text, exam_system_id, level_id)
+        if local_result:
+            return local_result
+        cached = conn.execute(
+            """
+            SELECT id, result_json
+            FROM selection_translation_cache
+            WHERE selected_text = ? AND context_hash = ?
+            """,
+            (selected_text.casefold(), context_hash),
+        ).fetchone()
+        if cached:
+            conn.execute(
+                """
+                UPDATE selection_translation_cache
+                SET hit_count = hit_count + 1, updated_at = CURRENT_TIMESTAMP
+                WHERE id = ?
+                """,
+                (cached["id"],),
+            )
+            result = json.loads(cached["result_json"])
+            result["cached"] = True
+            return result
+
+    if not allow_ai:
+        return {
+            "selected_text": selected_text,
+            "source": "not_found",
+            "source_label": "本地词库未收录",
+            "requires_ai_confirmation": True,
+            "ai_notice": "将选中内容和所在句子发送给 DeepSeek 进行语境翻译。",
+        }
+
+    result = deepseek_selection_translation(selected_text, context)
+    with db() as conn:
+        conn.execute(
+            """
+            INSERT INTO selection_translation_cache (
+              selected_text, context_hash, result_json, provider
+            )
+            VALUES (?, ?, ?, 'deepseek')
+            ON CONFLICT(selected_text, context_hash) DO UPDATE SET
+              result_json = excluded.result_json,
+              updated_at = CURRENT_TIMESTAMP
+            """,
+            (selected_text.casefold(), context_hash, json.dumps(result, ensure_ascii=False)),
+        )
+    return result
+
+
 def generate_explanation_for_session(quiz_session_id: int) -> dict[str, Any]:
     system_prompt = PROMPT_PATH.read_text(encoding="utf-8")
 
@@ -2759,6 +3000,10 @@ class StudentAppHandler(BaseHTTPRequestHandler):
             if self.path == "/api/feedback":
                 payload["user_id"] = authenticated_user_id(self)
                 json_response(self, HTTPStatus.OK, api_product_feedback(payload))
+                return
+            if self.path == "/api/translate-selection":
+                payload["user_id"] = authenticated_user_id(self)
+                json_response(self, HTTPStatus.OK, api_translate_selection(payload))
                 return
             if self.path == "/api/explain":
                 payload["user_id"] = authenticated_user_id(self)

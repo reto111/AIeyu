@@ -8,6 +8,7 @@ import tempfile
 import unittest
 from contextlib import closing
 from pathlib import Path
+from unittest.mock import patch
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -316,6 +317,97 @@ class AdaptiveTrainingTests(unittest.TestCase):
                     "exam_system": "TEM4_RU",
                     "level": "TEM4",
                     "count": 10,
+                }
+            )
+
+    def test_selection_translation_prefers_local_dictionary_and_requires_ai_opt_in(self) -> None:
+        local = app.api_translate_selection(
+            {
+                "user_id": self.user_id,
+                "selected_text": "пылесос",
+                "context": "В комнате работает пылесос.",
+                "exam_system": "TEM8_RU",
+                "level": "TEM8",
+                "allow_ai": False,
+            }
+        )
+        self.assertEqual(local["source"], "local_dictionary")
+        self.assertTrue(local["meaning_zh"])
+        self.assertFalse(local["requires_ai_confirmation"])
+
+        inflected = app.api_translate_selection(
+            {
+                "user_id": self.user_id,
+                "selected_text": "студентами",
+                "context": "Преподаватель беседует со студентами.",
+                "exam_system": "TEM4_RU",
+                "level": "TEM4",
+                "allow_ai": False,
+            }
+        )
+        self.assertEqual(inflected["source"], "local_dictionary")
+        self.assertEqual(inflected["lemma"], "студент")
+        self.assertTrue(inflected["matched_by_morphology"])
+
+        missing = app.api_translate_selection(
+            {
+                "user_id": self.user_id,
+                "selected_text": "сверхэкспериментальный",
+                "context": "Это сверхэкспериментальный подход.",
+                "exam_system": "TEM8_RU",
+                "level": "TEM8",
+                "allow_ai": False,
+            }
+        )
+        self.assertEqual(missing["source"], "not_found")
+        self.assertTrue(missing["requires_ai_confirmation"])
+
+        ai_result = {
+            "selected_text": "сверхэкспериментальный",
+            "lemma": "сверхэкспериментальный",
+            "part_of_speech": "形容词",
+            "meaning_zh": "超实验性的",
+            "context_meaning_zh": "高度实验性的",
+            "note_zh": "",
+            "source": "deepseek",
+            "source_label": "AI 语境翻译",
+            "vocabulary_item_id": None,
+            "cached": False,
+            "requires_ai_confirmation": False,
+        }
+        with patch.object(app, "deepseek_selection_translation", return_value=ai_result) as translate:
+            confirmed = app.api_translate_selection(
+                {
+                    "user_id": self.user_id,
+                    "selected_text": "сверхэкспериментальный",
+                    "context": "Это сверхэкспериментальный подход.",
+                    "exam_system": "TEM8_RU",
+                    "level": "TEM8",
+                    "allow_ai": True,
+                }
+            )
+            translate.assert_called_once()
+        self.assertEqual(confirmed["source"], "deepseek")
+
+        cached = app.api_translate_selection(
+            {
+                "user_id": self.user_id,
+                "selected_text": "сверхэкспериментальный",
+                "context": "Это сверхэкспериментальный подход.",
+                "exam_system": "TEM8_RU",
+                "level": "TEM8",
+                "allow_ai": False,
+            }
+        )
+        self.assertTrue(cached["cached"])
+
+        with self.assertRaisesRegex(ValueError, "只支持俄语"):
+            app.api_translate_selection(
+                {
+                    "user_id": self.user_id,
+                    "selected_text": "吸尘器",
+                    "exam_system": "TEM8_RU",
+                    "level": "TEM8",
                 }
             )
 

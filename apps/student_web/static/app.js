@@ -20,6 +20,7 @@ const state = {
   currentWordIndex: 0,
   wordSessionStats: null,
   latestThreadId: 1,
+  selectionTranslation: { requestId: 0, text: "", context: "", interacting: false },
 };
 
 const $ = (selector) => document.querySelector(selector);
@@ -66,6 +67,112 @@ function currentWordExam() {
   return state.selectedWordExam === "TEM4_RU"
     ? { system: "TEM4_RU", level: "TEM4", label: "俄语专四" }
     : { system: "TEM8_RU", level: "TEM8", label: "俄语专八" };
+}
+
+function selectionContext(element, selectedText) {
+  const container = element.closest(
+    ".passage-body, .question, .wrongbook-item, .question-explanation, .word-card, .thread, .results, .page",
+  );
+  const text = String(container?.innerText || selectedText).replace(/\s+/g, " ").trim();
+  const position = text.toLocaleLowerCase("ru").indexOf(selectedText.toLocaleLowerCase("ru"));
+  if (position < 0 || text.length <= 500) return text.slice(0, 500);
+  const start = Math.max(position - 220, 0);
+  const end = Math.min(position + selectedText.length + 220, text.length);
+  return text.slice(start, end);
+}
+
+function hideSelectionTranslator() {
+  $("#selectionTranslator").classList.add("hidden");
+}
+
+function placeSelectionTranslator(rect) {
+  const panel = $("#selectionTranslator");
+  const width = 340;
+  const left = Math.max(12, Math.min(rect.left, window.innerWidth - width - 12));
+  const top = Math.min(rect.bottom + 10, window.innerHeight - 180);
+  panel.style.left = `${left}px`;
+  panel.style.top = `${Math.max(top, 12)}px`;
+}
+
+function renderSelectionTranslation(payload) {
+  const body = $("#translatorBody");
+  if (payload.requires_ai_confirmation) {
+    body.innerHTML = `
+      <p class="translator-empty">本地词库暂未收录这个词或短语。</p>
+      <p class="translator-notice">${escapeHtml(payload.ai_notice || "将选中内容和所在句子发送给 DeepSeek 进行语境翻译。")}</p>
+      <button type="button" class="primary translator-ai-btn" data-translate-with-ai>使用 AI 语境翻译</button>
+    `;
+    return;
+  }
+  const details = [payload.lemma, payload.part_of_speech].filter(Boolean).join(" · ");
+  body.innerHTML = `
+    ${details ? `<p class="translator-meta">${escapeHtml(details)}</p>` : ""}
+    ${payload.context_meaning_zh ? `<div class="translator-context"><span>本句含义</span><strong>${escapeHtml(payload.context_meaning_zh)}</strong></div>` : ""}
+    ${payload.meaning_zh ? `<p class="translator-meaning">${escapeHtml(payload.meaning_zh)}</p>` : ""}
+    ${payload.note_zh ? `<p class="translator-note">${escapeHtml(payload.note_zh)}</p>` : ""}
+    <div class="translator-source">${escapeHtml(payload.source_label || "翻译结果")}${payload.matched_by_morphology ? " · 已还原词形" : ""}${payload.cached ? " · 已缓存" : ""}</div>
+  `;
+}
+
+async function translateCurrentSelection(allowAi = false) {
+  const current = state.selectionTranslation;
+  if (!current.text || !state.authenticated) return;
+  const requestId = ++current.requestId;
+  $("#translatorBody").innerHTML = `<div class="translator-loading"><span class="loader"></span><span>${allowAi ? "正在进行语境翻译..." : "正在查询词库..."}</span></div>`;
+  try {
+    const exam = currentExam();
+    const payload = await requestJson("/api/translate-selection", {
+      method: "POST",
+      body: JSON.stringify({
+        selected_text: current.text,
+        context: current.context,
+        exam_system: exam.system,
+        level: exam.level,
+        allow_ai: allowAi,
+      }),
+    });
+    if (requestId !== current.requestId) return;
+    renderSelectionTranslation(payload);
+  } catch (error) {
+    if (requestId !== current.requestId) return;
+    $("#translatorBody").innerHTML = `<p class="translator-error">${escapeHtml(error.message)}</p>`;
+  }
+}
+
+function inspectTextSelection() {
+  if (state.selectionTranslation.interacting || !state.authenticated) return;
+  const selection = window.getSelection();
+  if (!selection || selection.rangeCount === 0 || selection.isCollapsed) {
+    hideSelectionTranslator();
+    return;
+  }
+  const rawText = selection.toString().replace(/\s+/g, " ").trim();
+  const selectedText = rawText.replace(/^[.,!?;:()\[\]{}<>"'«»„“”`—–…]+|[.,!?;:()\[\]{}<>"'«»„“”`—–…]+$/g, "");
+  if (!selectedText || selectedText.length > 80 || selectedText.split(/\s+/).length > 6 || !/[А-Яа-яЁё]/.test(selectedText)) {
+    hideSelectionTranslator();
+    return;
+  }
+  const anchor = selection.anchorNode?.nodeType === Node.ELEMENT_NODE
+    ? selection.anchorNode
+    : selection.anchorNode?.parentElement;
+  if (!anchor?.closest(".pagearea") || anchor.closest("input, textarea, select, button, .selection-translator")) {
+    hideSelectionTranslator();
+    return;
+  }
+  const rect = selection.getRangeAt(0).getBoundingClientRect();
+  if (!rect.width && !rect.height) return;
+  state.selectionTranslation.text = selectedText;
+  state.selectionTranslation.context = selectionContext(anchor, selectedText);
+  $("#translatorWord").textContent = selectedText;
+  placeSelectionTranslator(rect);
+  $("#selectionTranslator").classList.remove("hidden");
+  translateCurrentSelection(false);
+}
+
+let selectionTimer = 0;
+function scheduleSelectionInspection() {
+  window.clearTimeout(selectionTimer);
+  selectionTimer = window.setTimeout(inspectTextSelection, 280);
 }
 
 function examDescription(exam, status) {
@@ -1619,6 +1726,17 @@ $("#markWordWrongBtn").addEventListener("click", markCurrentWordWrong);
 $("#toggleWordFeedbackBtn").addEventListener("click", toggleWordFeedbackForm);
 $("#submitWordFeedbackBtn").addEventListener("click", submitWordFeedback);
 $("#submitProductFeedbackBtn").addEventListener("click", submitProductFeedback);
+$("#closeTranslatorBtn").addEventListener("click", () => {
+  window.getSelection()?.removeAllRanges();
+  hideSelectionTranslator();
+});
+$("#selectionTranslator").addEventListener("pointerdown", () => {
+  state.selectionTranslation.interacting = true;
+  window.setTimeout(() => { state.selectionTranslation.interacting = false; }, 500);
+});
+$("#selectionTranslator").addEventListener("click", (event) => {
+  if (event.target.closest("[data-translate-with-ai]")) translateCurrentSelection(true);
+});
 for (const button of document.querySelectorAll("[data-word-result]")) {
   button.addEventListener("click", () => reviewCurrentWord(button.dataset.wordResult));
 }
@@ -1659,6 +1777,12 @@ document.addEventListener("click", (event) => {
   if (!event.target.closest(".account-menu")) {
     closeAccountMenu();
   }
+});
+document.addEventListener("selectionchange", scheduleSelectionInspection);
+document.addEventListener("mouseup", scheduleSelectionInspection);
+document.addEventListener("touchend", scheduleSelectionInspection, { passive: true });
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") hideSelectionTranslator();
 });
 
 init();

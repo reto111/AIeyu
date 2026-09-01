@@ -1,5 +1,14 @@
 # AI Russian Tutor Project Context
 
+### Latest checkpoint: PC / 手机内部划词翻译 1.0（2026-09-01）
+
+- AIeyu 页面内的阅读原文、题干、选项和错题解析支持俄语划词翻译。PC 浮层靠近选区，手机端固定为底部面板；一次最多选择 6 个词，输入控件和导航不触发。
+- 查询顺序为 `pymorphy3` 本地词形还原、当前考试已审核 `vocabulary_items` 词头/原形、已登记 `inflected_form`、本地 AI 缓存。上述步骤均不调用外部服务；已验证 `студентами -> студент` 后命中专四词库。
+- 本地未命中时显示“使用 AI 语境翻译”和明确传输说明；只有学生主动点击后才把选中内容与最多 500 字符上下文发送给 DeepSeek，不发送整篇文章、账号或作答数据。
+- 新增 `/api/translate-selection` 和 `selection_translation_cache`。相同选区与上下文复用缓存以降低费用；接口仍从登录会话确定用户，服务端限制俄语字符、长度和词数。
+- 新增 `requirements-web.txt`，固定使用支持 Python 3.13/3.14 的 `pymorphy3==2.0.6`。自动化测试增至 12 项，覆盖本地词库优先、屈折词形还原、未命中不得自动调用 AI、显式确认后调用与缓存、非法中文选区拒绝。Node 语法、数据库 schema、桌面/390px 无横向溢出和浏览器控制台均通过。
+- 迁移前数据库备份：`data/processed/backups/russian_ai_tutor_before_selection_translation_20260901_212144.sqlite`。迁移后 `PRAGMA integrity_check = ok`，正式题量保持 `TEM4_RU=444`、`TEM8_RU=300`；本地测试地址为 `http://127.0.0.1:8795/`。
+
 ### Latest checkpoint: 每日自适应学习计划 1.0（2026-09-01）
 
 - 学习首页的三项任务升级为持久化计划：推荐专项、错题回炉、单词学习按 `账号 + 考试 + 日期` 独立保存，同一天刷新不会因画像重算而改变目标。

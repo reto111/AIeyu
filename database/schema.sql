@@ -383,6 +383,18 @@ CREATE TABLE IF NOT EXISTS daily_study_tasks (
   UNIQUE (plan_id, task_type)
 );
 
+CREATE TABLE IF NOT EXISTS selection_translation_cache (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  selected_text TEXT NOT NULL,
+  context_hash TEXT NOT NULL,
+  result_json TEXT NOT NULL,
+  provider TEXT NOT NULL DEFAULT 'deepseek',
+  hit_count INTEGER NOT NULL DEFAULT 0,
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE (selected_text, context_hash)
+);
+
 CREATE TABLE IF NOT EXISTS ai_tutor_threads (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   user_id INTEGER,
@@ -456,6 +468,9 @@ CREATE INDEX IF NOT EXISTS idx_daily_study_plans_user_date
 
 CREATE INDEX IF NOT EXISTS idx_daily_study_tasks_plan
   ON daily_study_tasks (plan_id, sort_order);
+
+CREATE INDEX IF NOT EXISTS idx_selection_translation_cache_lookup
+  ON selection_translation_cache (selected_text, context_hash);
 
 CREATE INDEX IF NOT EXISTS idx_user_sessions_token
   ON user_sessions (token_hash, expires_at);
