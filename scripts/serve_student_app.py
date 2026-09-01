@@ -94,6 +94,7 @@ def db() -> Iterator[sqlite3.Connection]:
         ensure_default_user(conn)
         ensure_auth_tables(conn)
         ensure_feedback_tables(conn)
+        ensure_wrongbook_tables(conn)
         yield conn
         conn.commit()
     except Exception:
@@ -178,6 +179,28 @@ def ensure_feedback_tables(conn: sqlite3.Connection) -> None:
 
         CREATE INDEX IF NOT EXISTS idx_product_feedback_status
           ON product_feedback (status, created_at);
+        """
+    )
+
+
+def ensure_wrongbook_tables(conn: sqlite3.Connection) -> None:
+    conn.executescript(
+        """
+        CREATE TABLE IF NOT EXISTS wrongbook_preferences (
+          id INTEGER PRIMARY KEY AUTOINCREMENT,
+          user_id INTEGER NOT NULL,
+          question_id INTEGER NOT NULL,
+          note_text TEXT,
+          is_favorite INTEGER NOT NULL DEFAULT 0 CHECK (is_favorite IN (0, 1)),
+          created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+          updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+          FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+          FOREIGN KEY (question_id) REFERENCES questions(id) ON DELETE CASCADE,
+          UNIQUE (user_id, question_id)
+        );
+
+        CREATE INDEX IF NOT EXISTS idx_wrongbook_preferences_user
+          ON wrongbook_preferences (user_id, is_favorite, updated_at);
         """
     )
 
@@ -1235,7 +1258,7 @@ def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
     user_id = normalize_user_id(payload.get("user_id"))
     count = max(1, min(int(payload.get("count") or 10), 50))
     mode = str(payload.get("mode") or "random")
-    if mode not in {"random", "diagnostic", "weakness_review", "knowledge_point"}:
+    if mode not in {"random", "diagnostic", "weakness_review", "knowledge_point", "wrongbook_review"}:
         raise ValueError(f"不支持的组卷模式：{mode}")
     exam_system_code = str(payload.get("exam_system") or "TEM8_RU")
     level_code = str(payload.get("level") or "TEM8")
@@ -1260,7 +1283,85 @@ def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
         ]
         base_params: list[Any] = [exam_system_id, level_id]
 
-        if mode in {"weakness_review", "knowledge_point"}:
+        if mode == "wrongbook_review":
+            requested_ids = list(
+                dict.fromkeys(
+                    int(item)
+                    for item in payload.get("question_ids", [])
+                    if str(item).strip().isdigit() and int(item) > 0
+                )
+            )
+            wrongbook_filters = [
+                *base_filters,
+                """
+                EXISTS (
+                  SELECT 1 FROM question_exposures qe
+                  WHERE qe.user_id = ? AND qe.question_id = q.id AND qe.wrong_count > 0
+                )
+                """,
+            ]
+            wrongbook_params = [*base_params, user_id]
+            if requested_ids:
+                placeholders = ", ".join("?" for _ in requested_ids)
+                wrongbook_filters.append(f"q.id IN ({placeholders})")
+                wrongbook_params.extend(requested_ids)
+            else:
+                wrongbook_filters.append(
+                    """
+                    EXISTS (
+                      SELECT 1 FROM question_exposures qe2
+                      WHERE qe2.user_id = ? AND qe2.question_id = q.id
+                        AND qe2.last_is_correct = 0
+                    )
+                    """
+                )
+                wrongbook_params.append(user_id)
+            wrong_rows = fetch_quiz_rows(conn, wrongbook_filters, wrongbook_params)
+            found_ids = {int(row["id"]) for row in wrong_rows}
+            if requested_ids and found_ids != set(requested_ids):
+                raise ValueError("所选题目中包含不属于当前账号或当前考试的错题。")
+            if not wrong_rows:
+                raise ValueError("当前条件下没有可重练的错题。")
+
+            exposures = exposure_rows(conn, user_id, list(found_ids))
+            selected_wrong = select_complete_units(wrong_rows, min(count, len(wrong_rows)), exposures, rng)
+            reading_passage_ids = sorted(
+                {
+                    int(row["passage_id"])
+                    for row in selected_wrong
+                    if row["question_type"] == READING_QUESTION_TYPE and row["passage_id"]
+                }
+            )
+            selected_by_id = {int(row["id"]): row for row in selected_wrong}
+            if reading_passage_ids:
+                placeholders = ", ".join("?" for _ in reading_passage_ids)
+                passage_rows = fetch_quiz_rows(
+                    conn,
+                    [*base_filters, f"q.passage_id IN ({placeholders})"],
+                    [*base_params, *reading_passage_ids],
+                )
+                selected_by_id.update({int(row["id"]): row for row in passage_rows})
+            selected = sorted(
+                selected_by_id.values(),
+                key=lambda row: (
+                    row["source_year"] or 9999,
+                    int(row["passage_id"] or 0),
+                    source_question_number(row),
+                    int(row["id"]),
+                ),
+            )
+            training = {
+                "target_type": "wrongbook",
+                "target_code": "wrongbook.pending",
+                "target_name_zh": "错题重练",
+                "reason": "由学生错题本生成",
+                "count": len(selected),
+                "question_type": "mixed",
+                "fallback_used": False,
+                "selected_wrong_count": len(selected_wrong),
+                "expanded_reading_count": len(selected) - len(selected_wrong),
+            }
+        elif mode in {"weakness_review", "knowledge_point"}:
             if mode == "weakness_review":
                 profile = recalculate_profile(conn, user_id, exam_system_code, level_code)
                 recommendation = profile.get("next_training")
@@ -1615,11 +1716,16 @@ def api_wrongbook(
               qe.correct_count,
               qe.wrong_count,
               qe.last_is_correct,
-              qe.last_seen_at
+              qe.first_seen_at,
+              qe.last_seen_at,
+              COALESCE(wp.note_text, '') AS note_text,
+              COALESCE(wp.is_favorite, 0) AS is_favorite
             FROM question_exposures qe
             JOIN questions q ON q.id = qe.question_id
             JOIN question_types qt ON qt.id = q.question_type_id
             LEFT JOIN passages p ON p.id = q.passage_id
+            LEFT JOIN wrongbook_preferences wp
+              ON wp.user_id = qe.user_id AND wp.question_id = qe.question_id
             WHERE qe.user_id = ?
               AND qe.wrong_count > 0
               AND q.review_status = 'approved'
@@ -1638,6 +1744,8 @@ def api_wrongbook(
         items = []
         pending_count = 0
         corrected_count = 0
+        favorite_count = 0
+        repeat_wrong_count = 0
         for index, row in enumerate(rows, start=1):
             latest = latest_answer_for_question(conn, user_id, int(row["id"]))
             item = public_question(conn, row, index)
@@ -1646,6 +1754,18 @@ def api_wrongbook(
                 corrected_count += 1
             else:
                 pending_count += 1
+            favorite_count += int(bool(row["is_favorite"]))
+            repeat_wrong_count += int(int(row["wrong_count"] or 0) >= 2)
+            knowledge = conn.execute(
+                """
+                SELECT kp.code, kp.name_zh, kp.category
+                FROM question_knowledge_points qkp
+                JOIN knowledge_points kp ON kp.id = qkp.knowledge_point_id
+                WHERE qkp.question_id = ?
+                ORDER BY kp.sort_order, kp.code
+                """,
+                (int(row["id"]),),
+            ).fetchall()
             item.update(
                 {
                     "correct_answer": row["correct_answer"],
@@ -1656,12 +1776,37 @@ def api_wrongbook(
                     "seen_count": row["seen_count"],
                     "correct_count": row["correct_count"],
                     "wrong_count": row["wrong_count"],
+                    "first_seen_at": row["first_seen_at"],
                     "last_seen_at": row["last_seen_at"],
                     "status": "corrected" if last_is_correct else "pending",
                     "status_zh": "已订正" if last_is_correct else "待巩固",
+                    "is_repeat_wrong": int(row["wrong_count"] or 0) >= 2,
+                    "is_favorite": bool(row["is_favorite"]),
+                    "note_text": row["note_text"] or "",
+                    "knowledge_points": [
+                        {
+                            "code": point["code"],
+                            "name_zh": point["name_zh"],
+                            "category": point["category"],
+                        }
+                        for point in knowledge
+                    ],
                 }
             )
             items.append(item)
+        type_filters = []
+        for code, name in QUESTION_TYPE_NAMES.items():
+            count = sum(1 for item in items if item["question_type"] == code)
+            if count:
+                type_filters.append({"code": code, "name_zh": name, "count": count})
+        knowledge_filters: dict[str, dict[str, Any]] = {}
+        for item in items:
+            for point in item["knowledge_points"]:
+                current = knowledge_filters.setdefault(
+                    point["code"],
+                    {**point, "count": 0},
+                )
+                current["count"] += 1
     return {
         "user": public_user(user),
         "exam_system": exam_system_code,
@@ -1669,7 +1814,55 @@ def api_wrongbook(
         "count": len(items),
         "pending_count": pending_count,
         "corrected_count": corrected_count,
+        "favorite_count": favorite_count,
+        "repeat_wrong_count": repeat_wrong_count,
+        "filters": {
+            "question_types": type_filters,
+            "knowledge_points": sorted(
+                knowledge_filters.values(),
+                key=lambda item: (item["category"], item["name_zh"]),
+            ),
+        },
         "items": items,
+    }
+
+
+def api_update_wrongbook_item(payload: dict[str, Any]) -> dict[str, Any]:
+    user_id = normalize_user_id(payload.get("user_id"))
+    question_id = int(payload.get("question_id") or 0)
+    if question_id <= 0:
+        raise ValueError("错题编号无效。")
+    note_text = str(payload.get("note_text") or "").strip()
+    if len(note_text) > 1000:
+        raise ValueError("错题笔记不要超过 1000 字。")
+    is_favorite = 1 if bool(payload.get("is_favorite")) else 0
+    with db() as conn:
+        exists = conn.execute(
+            """
+            SELECT 1
+            FROM question_exposures
+            WHERE user_id = ? AND question_id = ? AND wrong_count > 0
+            """,
+            (user_id, question_id),
+        ).fetchone()
+        if exists is None:
+            raise ValueError("这道题不在当前账号的错题本中。")
+        conn.execute(
+            """
+            INSERT INTO wrongbook_preferences (user_id, question_id, note_text, is_favorite)
+            VALUES (?, ?, ?, ?)
+            ON CONFLICT(user_id, question_id) DO UPDATE SET
+              note_text = excluded.note_text,
+              is_favorite = excluded.is_favorite,
+              updated_at = CURRENT_TIMESTAMP
+            """,
+            (user_id, question_id, note_text or None, is_favorite),
+        )
+    return {
+        "status": "ok",
+        "question_id": question_id,
+        "note_text": note_text,
+        "is_favorite": bool(is_favorite),
     }
 
 
@@ -2320,6 +2513,10 @@ class StudentAppHandler(BaseHTTPRequestHandler):
             if self.path == "/api/words/feedback":
                 payload["user_id"] = authenticated_user_id(self)
                 json_response(self, HTTPStatus.OK, api_word_feedback(payload))
+                return
+            if self.path == "/api/wrongbook/item":
+                payload["user_id"] = authenticated_user_id(self)
+                json_response(self, HTTPStatus.OK, api_update_wrongbook_item(payload))
                 return
             if self.path == "/api/feedback":
                 payload["user_id"] = authenticated_user_id(self)

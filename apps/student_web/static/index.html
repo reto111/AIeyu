@@ -325,17 +325,50 @@
           <section class="workspace page-workspace">
             <header class="topbar">
               <div>
-                <p class="eyebrow">Wrongbook</p>
+                <p class="eyebrow">复盘与重练</p>
                 <h2>错题本</h2>
               </div>
               <div id="wrongbookMeta" class="meta">正在读取</div>
             </header>
 
-            <div class="page-content">
-              <section class="panel">
-                <div id="wrongbookBox" class="wrongbook muted">当前学生的错题会自动汇总到这里。</div>
-                <button id="refreshWrongbookBtn" class="secondary" type="button">刷新错题本</button>
+            <div class="wrongbook-exam-switch">
+              <span class="switch-label">错题范围</span>
+              <div class="exam-tabs compact" role="tablist" aria-label="错题本考试选择">
+                <button type="button" class="exam-tab" data-exam-system="TEM8_RU" data-exam-scope="practice" role="tab">俄语专八</button>
+                <button type="button" class="exam-tab" data-exam-system="TEM4_RU" data-exam-scope="practice" role="tab">俄语专四</button>
+              </div>
+            </div>
+
+            <div class="page-content wrongbook-content">
+              <div id="wrongbookStats" class="wrongbook-stats muted">登录后显示错题概况。</div>
+
+              <section class="wrongbook-toolbar" aria-label="错题筛选和重练">
+                <div id="wrongbookStatusFilters" class="segmented" role="group" aria-label="错题状态">
+                  <button type="button" class="active" data-wrong-status="all">全部</button>
+                  <button type="button" data-wrong-status="pending">待巩固</button>
+                  <button type="button" data-wrong-status="corrected">已订正</button>
+                  <button type="button" data-wrong-status="favorite">已收藏</button>
+                </div>
+                <label>
+                  <span>题型</span>
+                  <select id="wrongbookTypeFilter"><option value="all">全部题型</option></select>
+                </label>
+                <label>
+                  <span>知识点</span>
+                  <select id="wrongbookKnowledgeFilter"><option value="all">全部知识点</option></select>
+                </label>
+                <label class="wrongbook-search">
+                  <span>搜索</span>
+                  <input id="wrongbookSearch" type="search" placeholder="题干或笔记关键词" />
+                </label>
+                <div class="wrongbook-actions">
+                  <button id="reviewPendingBtn" class="primary" type="button">重练待巩固</button>
+                  <button id="reviewSelectedBtn" class="secondary" type="button" disabled>重练已选 · 0</button>
+                  <button id="refreshWrongbookBtn" class="iconbtn" type="button" title="刷新错题本" aria-label="刷新错题本">↻</button>
+                </div>
               </section>
+
+              <div id="wrongbookBox" class="wrongbook muted">当前学生的错题会自动汇总到这里。</div>
             </div>
           </section>
         </section>

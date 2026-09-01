@@ -12,6 +12,8 @@ const state = {
   profile: null,
   studyCenter: null,
   wrongbook: null,
+  wrongbookSelected: new Set(),
+  wrongbookFilters: { status: "all", type: "all", knowledge: "all", search: "" },
   wordStatus: null,
   wordReviewPool: null,
   wordSession: null,
@@ -178,6 +180,8 @@ function clearStudentState() {
   state.result = null;
   state.explanation = null;
   state.studyCenter = null;
+  state.wrongbook = null;
+  state.wrongbookSelected.clear();
   state.wordStatus = null;
   state.wordReviewPool = null;
   state.wordSession = null;
@@ -212,6 +216,9 @@ function clearStudentState() {
   $("#studyTypeMastery").textContent = "登录后显示能力概览。";
   $("#knowledgeMap").classList.add("muted");
   $("#knowledgeMap").textContent = "登录后查看可练知识点。";
+  $("#wrongbookStats").classList.add("muted");
+  $("#wrongbookStats").textContent = "登录后显示错题概况。";
+  updateWrongbookSelection();
 }
 
 function renderAuthStatus(payload) {
@@ -357,40 +364,154 @@ async function loadProfile() {
   renderProfile(profile);
 }
 
+function wrongbookVisibleItems() {
+  const items = state.wrongbook?.items || [];
+  const filters = state.wrongbookFilters;
+  const search = filters.search.trim().toLocaleLowerCase();
+  return items.filter((item) => {
+    if (filters.status === "favorite" && !item.is_favorite) return false;
+    if (["pending", "corrected"].includes(filters.status) && item.status !== filters.status) return false;
+    if (filters.type !== "all" && item.question_type !== filters.type) return false;
+    if (filters.knowledge !== "all" && !(item.knowledge_points || []).some((point) => point.code === filters.knowledge)) return false;
+    if (search && !`${item.stem} ${item.note_text || ""}`.toLocaleLowerCase().includes(search)) return false;
+    return true;
+  });
+}
+
+function updateWrongbookSelection() {
+  const availableIds = new Set((state.wrongbook?.items || []).map((item) => Number(item.question_id)));
+  for (const id of state.wrongbookSelected) {
+    if (!availableIds.has(id)) state.wrongbookSelected.delete(id);
+  }
+  const count = state.wrongbookSelected.size;
+  $("#reviewSelectedBtn").textContent = `重练已选 · ${count}`;
+  $("#reviewSelectedBtn").disabled = count === 0;
+  const pendingCount = state.wrongbook?.pending_count || 0;
+  $("#reviewPendingBtn").disabled = pendingCount === 0;
+  for (const checkbox of document.querySelectorAll("[data-wrongbook-select]")) {
+    checkbox.checked = state.wrongbookSelected.has(Number(checkbox.dataset.wrongbookSelect));
+  }
+}
+
+function renderWrongbookFilters(payload) {
+  const typeSelect = $("#wrongbookTypeFilter");
+  const knowledgeSelect = $("#wrongbookKnowledgeFilter");
+  typeSelect.innerHTML = `<option value="all">全部题型</option>${(payload.filters?.question_types || [])
+    .map((item) => `<option value="${escapeHtml(item.code)}">${escapeHtml(item.name_zh)} · ${item.count}</option>`)
+    .join("")}`;
+  knowledgeSelect.innerHTML = `<option value="all">全部知识点</option>${(payload.filters?.knowledge_points || [])
+    .filter((item) => item.category !== "reading")
+    .map((item) => `<option value="${escapeHtml(item.code)}">${escapeHtml(item.name_zh)} · ${item.count}</option>`)
+    .join("")}`;
+  typeSelect.value = [...typeSelect.options].some((option) => option.value === state.wrongbookFilters.type)
+    ? state.wrongbookFilters.type
+    : "all";
+  knowledgeSelect.value = [...knowledgeSelect.options].some((option) => option.value === state.wrongbookFilters.knowledge)
+    ? state.wrongbookFilters.knowledge
+    : "all";
+}
+
+function renderWrongbookList() {
+  const box = $("#wrongbookBox");
+  const items = wrongbookVisibleItems();
+  for (const button of document.querySelectorAll("[data-wrong-status]")) {
+    const active = button.dataset.wrongStatus === state.wrongbookFilters.status;
+    button.classList.toggle("active", active);
+    button.setAttribute("aria-pressed", active ? "true" : "false");
+  }
+  if (!items.length) {
+    box.classList.remove("muted");
+    box.innerHTML = `<div class="wrongbook-empty"><strong>当前筛选下没有错题</strong><p class="mini">可以切换状态、题型或知识点继续查看。</p></div>`;
+    updateWrongbookSelection();
+    return;
+  }
+
+  box.classList.remove("muted");
+  box.innerHTML = `
+    <div class="wrongbook-list">
+      ${items.map((item) => {
+        const source = item.source?.label || `${item.source?.year || ""} 年真题`;
+        const knowledgePoints = (item.knowledge_points || []).filter((point) => point.category !== "reading");
+        const tags = item.question_type === "reading_choice"
+          ? [{ code: "reading", name_zh: "阅读理解" }]
+          : knowledgePoints;
+        const passage = item.passage?.body
+          ? `<div class="passage"><div class="passage-head"><strong>${escapeHtml(item.passage.title || "阅读文章")}</strong><span>原文</span></div><div class="passage-body">${escapeHtml(item.passage.body)}</div></div>`
+          : "";
+        return `
+          <article class="wrongbook-item ${item.status}" data-wrongbook-id="${item.question_id}">
+            <div class="wrongbook-head">
+              <div class="wrongbook-heading">
+                <label class="wrongbook-select">
+                  <input type="checkbox" data-wrongbook-select="${item.question_id}" />
+                  <span>选择</span>
+                </label>
+                <strong>${escapeHtml(item.status_zh)}</strong>
+                <span>${escapeHtml(item.question_type_name)} · ${escapeHtml(source)}</span>
+                ${item.is_repeat_wrong ? `<span class="wrongbook-alert">反复错 ${item.wrong_count} 次</span>` : ""}
+              </div>
+              <button class="favorite-btn ${item.is_favorite ? "active" : ""}" type="button" data-wrongbook-favorite="${item.question_id}" aria-label="${item.is_favorite ? "取消收藏" : "收藏错题"}" title="${item.is_favorite ? "取消收藏" : "收藏错题"}">${item.is_favorite ? "★" : "☆"}</button>
+            </div>
+            <div class="wrongbook-tags">
+              ${tags.map((point) => `<span class="wrongbook-tag">${escapeHtml(point.name_zh)}</span>`).join("")}
+            </div>
+            <p class="wrongbook-stem">${escapeHtml(item.stem)}</p>
+            <p class="wrongbook-history">最近作答 ${escapeHtml(item.selected_answer || "未作答")} · 累计作答 ${item.seen_count} 次 · 答错 ${item.wrong_count} 次</p>
+            <details class="wrongbook-detail">
+              <summary>查看选项与复盘笔记</summary>
+              ${passage}
+              <div class="wrongbook-options">
+                ${(item.options || []).map((option) => {
+                  const optionClass = option.key === item.correct_answer
+                    ? "correct"
+                    : option.key === item.selected_answer && item.selected_answer !== item.correct_answer
+                      ? "selected-wrong"
+                      : "";
+                  return `<p class="wrongbook-option ${optionClass}"><strong>${escapeHtml(option.key)}.</strong> ${escapeHtml(option.text)}</p>`;
+                }).join("")}
+              </div>
+              <p class="mini">你的最近答案：${escapeHtml(item.selected_answer || "未作答")} · 正确答案：${escapeHtml(item.correct_answer)}</p>
+              <div class="wrongbook-note">
+                <label for="wrongbookNote${item.question_id}">我的复盘笔记</label>
+                <textarea id="wrongbookNote${item.question_id}" rows="3" maxlength="1000" placeholder="记录错因、规则或仍不理解的地方">${escapeHtml(item.note_text || "")}</textarea>
+                <div class="wrongbook-note-actions">
+                  <span class="mini" data-wrongbook-save-status="${item.question_id}"></span>
+                  <button type="button" class="secondary" data-wrongbook-save="${item.question_id}">保存笔记</button>
+                </div>
+              </div>
+            </details>
+          </article>
+        `;
+      }).join("")}
+    </div>
+  `;
+  updateWrongbookSelection();
+}
+
 function renderWrongbook(payload) {
   state.wrongbook = payload;
-  const box = $("#wrongbookBox");
+  state.wrongbookSelected.clear();
   if (!payload.items || !payload.items.length) {
-    box.classList.add("muted");
-    box.innerHTML = "当前学生还没有错题。完成一次练习后会自动沉淀到这里。";
+    $("#wrongbookBox").classList.remove("muted");
+    $("#wrongbookBox").innerHTML = `<div class="wrongbook-empty"><strong>还没有错题</strong><p class="mini">完成练习后，答错的题会自动进入这里。</p></div>`;
     $("#wrongbookMeta").textContent = "0 道";
+    $("#wrongbookStats").classList.add("muted");
+    $("#wrongbookStats").textContent = "完成一次练习后显示错题概况。";
+    renderWrongbookFilters(payload);
+    updateWrongbookSelection();
     return;
   }
 
   $("#wrongbookMeta").textContent = `${payload.pending_count} 道待巩固 · ${payload.corrected_count} 道已订正`;
-  box.classList.remove("muted");
-  box.innerHTML = `
-    <div class="wrongbook-list">
-      ${payload.items
-        .map((item) => {
-          const source = item.source?.label || `${item.source?.year || ""} 年真题`;
-          const passageTitle = item.passage?.title ? `<p class="mini">阅读文章：${escapeHtml(item.passage.title)}</p>` : "";
-          return `
-            <article class="wrongbook-item ${item.status === "pending" ? "pending" : "corrected"}">
-              <div class="wrongbook-head">
-                <strong>${escapeHtml(item.status_zh)}</strong>
-                <span>${escapeHtml(item.question_type_name)} · ${escapeHtml(source)}</span>
-              </div>
-              ${passageTitle}
-              <p>${escapeHtml(item.stem)}</p>
-              <p class="mini">最近作答：${escapeHtml(item.selected_answer || "未作答")} · 正确答案：${escapeHtml(item.correct_answer)}</p>
-              <p class="mini">累计 ${item.seen_count} 次，错 ${item.wrong_count} 次</p>
-            </article>
-          `;
-        })
-        .join("")}
-    </div>
+  $("#wrongbookStats").classList.remove("muted");
+  $("#wrongbookStats").innerHTML = `
+    <div class="wrongbook-stat"><strong>${payload.count}</strong><span>累计错题</span></div>
+    <div class="wrongbook-stat"><strong>${payload.pending_count}</strong><span>待巩固</span></div>
+    <div class="wrongbook-stat"><strong>${payload.repeat_wrong_count}</strong><span>反复出错</span></div>
+    <div class="wrongbook-stat"><strong>${payload.favorite_count}</strong><span>已收藏</span></div>
   `;
+  renderWrongbookFilters(payload);
+  renderWrongbookList();
 }
 
 async function loadWrongbook() {
@@ -402,6 +523,68 @@ async function loadWrongbook() {
   }
   const payload = await requestJson(`/api/wrongbook?${queryForActiveUser()}`);
   renderWrongbook(payload);
+}
+
+async function saveWrongbookPreference(questionId, favoriteOverride = null) {
+  const item = (state.wrongbook?.items || []).find((entry) => Number(entry.question_id) === Number(questionId));
+  if (!item) return;
+  const note = $(`#wrongbookNote${questionId}`)?.value ?? item.note_text ?? "";
+  const isFavorite = favoriteOverride === null ? Boolean(item.is_favorite) : Boolean(favoriteOverride);
+  const statusBox = document.querySelector(`[data-wrongbook-save-status="${questionId}"]`);
+  if (statusBox) statusBox.textContent = "保存中...";
+  try {
+    const result = await requestJson("/api/wrongbook/item", {
+      method: "POST",
+      body: JSON.stringify({ question_id: Number(questionId), note_text: note, is_favorite: isFavorite }),
+    });
+    item.note_text = result.note_text;
+    item.is_favorite = result.is_favorite;
+    await loadWrongbook();
+  } catch (error) {
+    if (statusBox) statusBox.textContent = error.message;
+  }
+}
+
+async function startWrongbookReview(questionIds = []) {
+  if (!state.authenticated) return;
+  const pendingIds = (state.wrongbook?.items || [])
+    .filter((item) => item.status === "pending")
+    .map((item) => Number(item.question_id));
+  const selectedIds = questionIds.length ? questionIds : pendingIds.slice(0, 50);
+  if (!selectedIds.length) return;
+  const button = questionIds.length ? $("#reviewSelectedBtn") : $("#reviewPendingBtn");
+  const original = button.textContent;
+  button.disabled = true;
+  button.textContent = "正在准备...";
+  try {
+    state.quiz = await requestJson("/api/quiz", {
+      method: "POST",
+      body: JSON.stringify({
+        mode: "wrongbook_review",
+        question_ids: selectedIds,
+        count: selectedIds.length,
+        exam_system: currentExam().system,
+        level: currentExam().level,
+        seed: Date.now(),
+      }),
+    });
+    state.result = null;
+    state.explanation = null;
+    state.latestThreadId = null;
+    showView("practice");
+    renderQuiz(state.quiz);
+    $("#resultBox").classList.add("muted");
+    $("#resultBox").textContent = "提交后显示正确率和薄弱点。";
+    $("#threadBox").classList.add("muted");
+    $("#threadBox").textContent = "批改后自动生成错题讲解。";
+  } catch (error) {
+    $("#wrongbookBox").classList.remove("muted");
+    $("#wrongbookBox").textContent = error.message;
+  } finally {
+    button.disabled = false;
+    button.textContent = original;
+    updateWrongbookSelection();
+  }
 }
 
 function renderWordStatus(payload) {
@@ -1079,6 +1262,8 @@ function renderQuiz(quiz) {
       ? `专项 · ${quiz.training?.target_name_zh || "薄弱点训练"}`
       : quiz.mode === "knowledge_point"
         ? `专项 · ${quiz.training?.target_name_zh || "知识点训练"}`
+        : quiz.mode === "wrongbook_review"
+          ? "错题重练"
       : currentExam().label;
   const fallbackLabel = quiz.training?.fallback_used ? " · 含同类补充" : "";
   $("#quizMeta").textContent = `${quiz.count} 题 · ${quizLabel}${fallbackLabel}`;
@@ -1153,6 +1338,8 @@ async function submitQuiz(event) {
         ? "weakness_review"
         : state.quiz.mode === "knowledge_point"
           ? "knowledge_point"
+          : state.quiz.mode === "wrongbook_review"
+            ? "weakness_review"
         : "random";
     state.result = await requestJson("/api/grade", {
       method: "POST",
@@ -1397,6 +1584,45 @@ $("#loginBtn").addEventListener("click", () => submitAuth("login"));
 $("#registerBtn").addEventListener("click", () => submitAuth("register"));
 $("#logoutBtn").addEventListener("click", logoutUser);
 $("#refreshWrongbookBtn").addEventListener("click", loadWrongbook);
+$("#reviewPendingBtn").addEventListener("click", () => startWrongbookReview());
+$("#reviewSelectedBtn").addEventListener("click", () => startWrongbookReview([...state.wrongbookSelected]));
+$("#wrongbookTypeFilter").addEventListener("change", (event) => {
+  state.wrongbookFilters.type = event.target.value;
+  renderWrongbookList();
+});
+$("#wrongbookKnowledgeFilter").addEventListener("change", (event) => {
+  state.wrongbookFilters.knowledge = event.target.value;
+  renderWrongbookList();
+});
+$("#wrongbookSearch").addEventListener("input", (event) => {
+  state.wrongbookFilters.search = event.target.value;
+  renderWrongbookList();
+});
+$("#wrongbookStatusFilters").addEventListener("click", (event) => {
+  const button = event.target.closest("[data-wrong-status]");
+  if (!button) return;
+  state.wrongbookFilters.status = button.dataset.wrongStatus;
+  renderWrongbookList();
+});
+$("#wrongbookBox").addEventListener("change", (event) => {
+  const checkbox = event.target.closest("[data-wrongbook-select]");
+  if (!checkbox) return;
+  const questionId = Number(checkbox.dataset.wrongbookSelect);
+  if (checkbox.checked) state.wrongbookSelected.add(questionId);
+  else state.wrongbookSelected.delete(questionId);
+  updateWrongbookSelection();
+});
+$("#wrongbookBox").addEventListener("click", (event) => {
+  const favorite = event.target.closest("[data-wrongbook-favorite]");
+  if (favorite) {
+    const questionId = Number(favorite.dataset.wrongbookFavorite);
+    const item = state.wrongbook?.items?.find((entry) => Number(entry.question_id) === questionId);
+    if (item) saveWrongbookPreference(questionId, !item.is_favorite);
+    return;
+  }
+  const save = event.target.closest("[data-wrongbook-save]");
+  if (save) saveWrongbookPreference(Number(save.dataset.wrongbookSave));
+});
 $("#startWordsBtn").addEventListener("click", () => startWordSession());
 $("#startReviewWordsBtn").addEventListener("click", () => startWordSession("review"));
 $("#prevWordBtn").addEventListener("click", showPreviousWord);

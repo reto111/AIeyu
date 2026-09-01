@@ -369,6 +369,7 @@ h1 {
 
 input[type="number"],
 input[type="text"],
+input[type="search"],
 select,
 textarea {
   width: 100%;
@@ -1052,18 +1053,138 @@ textarea {
   line-height: 1.6;
 }
 
+.wrongbook-exam-switch {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 22px;
+  border-bottom: 1px solid var(--line);
+  background: #fafcfb;
+}
+
+.wrongbook-exam-switch .exam-tabs {
+  margin: 0;
+}
+
+.wrongbook-content {
+  display: grid;
+  gap: 14px;
+}
+
+.wrongbook-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.wrongbook-stat {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+  padding: 16px 18px;
+}
+
+.wrongbook-stat + .wrongbook-stat {
+  border-left: 1px solid var(--line);
+}
+
+.wrongbook-stat strong {
+  font-size: 25px;
+}
+
+.wrongbook-stat span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.wrongbook-toolbar {
+  display: grid;
+  grid-template-columns: auto minmax(130px, 0.65fr) minmax(170px, 0.9fr) minmax(190px, 1fr);
+  gap: 10px;
+  align-items: end;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.wrongbook-toolbar label {
+  display: grid;
+  gap: 5px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.segmented {
+  display: inline-flex;
+  align-self: end;
+  gap: 2px;
+  min-height: 42px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  padding: 3px;
+  background: #f5f8f6;
+}
+
+.segmented button {
+  min-width: 68px;
+  border-radius: 5px;
+  padding: 8px 10px;
+  background: transparent;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.segmented button.active {
+  background: var(--panel);
+  color: var(--green-dark);
+  box-shadow: 0 1px 5px rgba(28, 48, 41, 0.12);
+}
+
+.wrongbook-actions {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.wrongbook-actions .primary,
+.wrongbook-actions .secondary {
+  width: auto;
+  min-width: 146px;
+  margin: 0;
+}
+
+.iconbtn {
+  width: 42px;
+  min-width: 42px;
+  height: 42px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #edf2ef;
+  color: var(--green-dark);
+  font-size: 20px;
+  font-weight: 700;
+}
+
 .wrongbook-list {
   display: grid;
-  gap: 10px;
+  gap: 12px;
 }
 
 .wrongbook-item {
   display: grid;
-  gap: 6px;
+  gap: 10px;
   border: 1px solid var(--line);
   border-radius: 6px;
-  padding: 10px;
-  background: #fbfcfa;
+  padding: 16px;
+  background: var(--panel);
+  box-shadow: 0 5px 16px rgba(28, 48, 41, 0.05);
 }
 
 .wrongbook-item.pending {
@@ -1075,13 +1196,141 @@ textarea {
 }
 
 .wrongbook-head {
-  display: grid;
-  gap: 3px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
 }
 
-.wrongbook-head span {
+.wrongbook-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.wrongbook-heading span,
+.wrongbook-history {
   color: var(--muted);
   font-size: 13px;
+}
+
+.wrongbook-select {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.wrongbook-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.wrongbook-tag,
+.wrongbook-alert {
+  border-radius: 4px;
+  padding: 3px 7px;
+  background: #edf4f0;
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.wrongbook-alert {
+  background: #fff2e2;
+  color: #875718;
+}
+
+.wrongbook-stem {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 650;
+  line-height: 1.65;
+}
+
+.favorite-btn {
+  width: 38px;
+  min-width: 38px;
+  height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #f8faf8;
+  color: var(--amber);
+  font-size: 21px;
+}
+
+.favorite-btn.active {
+  border-color: #ddc184;
+  background: #fff8e8;
+}
+
+.wrongbook-detail {
+  border-top: 1px solid var(--line);
+  padding-top: 9px;
+}
+
+.wrongbook-detail summary {
+  cursor: pointer;
+  color: var(--green-dark);
+  font-weight: 700;
+}
+
+.wrongbook-options {
+  display: grid;
+  gap: 7px;
+  margin: 12px 0;
+}
+
+.wrongbook-option {
+  margin: 0;
+  border-left: 3px solid transparent;
+  padding: 7px 9px;
+  background: #f7f9f7;
+}
+
+.wrongbook-option.correct {
+  border-left-color: var(--green);
+  background: #eef8f3;
+}
+
+.wrongbook-option.selected-wrong {
+  border-left-color: var(--red);
+  background: #fff3f2;
+}
+
+.wrongbook-note {
+  display: grid;
+  gap: 7px;
+  margin-top: 12px;
+}
+
+.wrongbook-note label {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.wrongbook-note-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.wrongbook-note-actions .secondary {
+  width: auto;
+  min-height: 36px;
+  margin: 0;
+  padding: 7px 12px;
+}
+
+.wrongbook-empty {
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+  padding: 42px 20px;
+  background: rgba(255, 255, 255, 0.6);
+  text-align: center;
 }
 
 .word-layout {
@@ -1509,6 +1758,53 @@ textarea {
     flex-direction: column;
   }
 
+  .wrongbook-exam-switch {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .wrongbook-exam-switch .exam-tabs {
+    width: 100%;
+  }
+
+  .wrongbook-exam-switch .exam-tab {
+    flex: 1;
+  }
+
+  .wrongbook-stats,
+  .wrongbook-toolbar {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .wrongbook-stat:nth-child(3) {
+    border-left: 0;
+  }
+
+  .wrongbook-stat:nth-child(n + 3) {
+    border-top: 1px solid var(--line);
+  }
+
+  .segmented,
+  .wrongbook-search,
+  .wrongbook-actions {
+    grid-column: 1 / -1;
+  }
+
+  .segmented button {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .wrongbook-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 42px;
+  }
+
+  .wrongbook-actions .primary,
+  .wrongbook-actions .secondary {
+    min-width: 0;
+  }
+
   .study-header,
   .section-heading {
     align-items: stretch;
@@ -1563,5 +1859,41 @@ textarea {
   .word-summary-grid,
   .word-stat-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .wrongbook-stats,
+  .wrongbook-toolbar {
+    grid-template-columns: 1fr;
+  }
+
+  .wrongbook-stat + .wrongbook-stat {
+    border-top: 1px solid var(--line);
+    border-left: 0;
+  }
+
+  .segmented,
+  .wrongbook-search,
+  .wrongbook-actions {
+    grid-column: 1;
+  }
+
+  .segmented {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .wrongbook-actions {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .wrongbook-actions .iconbtn {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+
+  .wrongbook-head {
+    align-items: stretch;
   }
 }

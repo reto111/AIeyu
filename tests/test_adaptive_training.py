@@ -106,6 +106,13 @@ class AdaptiveTrainingTests(unittest.TestCase):
                     """,
                     (item_id, self.user_id, int(is_correct)),
                 )
+                app.record_question_exposure(
+                    conn,
+                    self.user_id,
+                    session_id,
+                    question_id,
+                    is_correct,
+                )
             conn.commit()
 
     def test_language_weakness_is_prioritized_over_culture(self) -> None:
@@ -177,6 +184,32 @@ class AdaptiveTrainingTests(unittest.TestCase):
                     )
                 }
                 self.assertEqual(returned_ids, full_ids)
+
+        wrongbook_quiz = app.api_generate_quiz(
+            {
+                "user_id": self.user_id,
+                "mode": "wrongbook_review",
+                "question_ids": [reading_id],
+                "exam_system": "TEM4_RU",
+                "level": "TEM4",
+                "count": 1,
+                "seed": 20260901,
+            }
+        )
+        passage_id = int(wrongbook_quiz["questions"][0]["passage"]["id"])
+        returned_ids = {int(item["question_id"]) for item in wrongbook_quiz["questions"]}
+        with closing(sqlite3.connect(self.db_path)) as conn:
+            full_ids = {
+                int(row[0])
+                for row in conn.execute(
+                    """
+                    SELECT id FROM questions
+                    WHERE passage_id = ? AND review_status = 'approved' AND source_usage = 'practice'
+                    """,
+                    (passage_id,),
+                )
+            }
+        self.assertEqual(returned_ids, full_ids)
 
     def test_existing_random_quiz_path_still_works(self) -> None:
         quiz = app.api_generate_quiz(
@@ -275,6 +308,74 @@ class AdaptiveTrainingTests(unittest.TestCase):
             ]
 
         self.assertEqual(issues, [])
+
+    def test_wrongbook_preferences_and_review_are_isolated_by_user(self) -> None:
+        question_id = self.question_id("TEM4_RU", "grammar.aspect")
+        self.add_attempts("TEM4_RU", "TEM4", question_id, [False, False])
+
+        wrongbook = app.api_wrongbook(self.user_id, 80, "TEM4_RU", "TEM4")
+        item = next(entry for entry in wrongbook["items"] if entry["question_id"] == question_id)
+        self.assertEqual(item["status"], "pending")
+        self.assertTrue(item["is_repeat_wrong"])
+        self.assertEqual(wrongbook["repeat_wrong_count"], 1)
+        self.assertTrue(item["options"])
+        self.assertTrue(item["knowledge_points"])
+
+        saved = app.api_update_wrongbook_item(
+            {
+                "user_id": self.user_id,
+                "question_id": question_id,
+                "note_text": "动词体要结合上下文判断。",
+                "is_favorite": True,
+            }
+        )
+        self.assertTrue(saved["is_favorite"])
+        refreshed = app.api_wrongbook(self.user_id, 80, "TEM4_RU", "TEM4")
+        refreshed_item = next(entry for entry in refreshed["items"] if entry["question_id"] == question_id)
+        self.assertEqual(refreshed_item["note_text"], "动词体要结合上下文判断。")
+        self.assertEqual(refreshed["favorite_count"], 1)
+
+        other = app.api_wrongbook(self.other_user_id, 80, "TEM4_RU", "TEM4")
+        self.assertEqual(other["count"], 0)
+        with self.assertRaisesRegex(ValueError, "不在当前账号"):
+            app.api_update_wrongbook_item(
+                {
+                    "user_id": self.other_user_id,
+                    "question_id": question_id,
+                    "note_text": "不应写入",
+                    "is_favorite": True,
+                }
+            )
+
+        quiz = app.api_generate_quiz(
+            {
+                "user_id": self.user_id,
+                "mode": "wrongbook_review",
+                "question_ids": [question_id],
+                "exam_system": "TEM4_RU",
+                "level": "TEM4",
+                "count": 1,
+                "seed": 20260901,
+            }
+        )
+        self.assertEqual(quiz["mode"], "wrongbook_review")
+        self.assertEqual([entry["question_id"] for entry in quiz["questions"]], [question_id])
+        with self.assertRaisesRegex(ValueError, "不属于当前账号"):
+            app.api_generate_quiz(
+                {
+                    "user_id": self.other_user_id,
+                    "mode": "wrongbook_review",
+                    "question_ids": [question_id],
+                    "exam_system": "TEM4_RU",
+                    "level": "TEM4",
+                    "count": 1,
+                }
+            )
+
+        self.add_attempts("TEM4_RU", "TEM4", question_id, [True])
+        corrected = app.api_wrongbook(self.user_id, 80, "TEM4_RU", "TEM4")
+        corrected_item = next(entry for entry in corrected["items"] if entry["question_id"] == question_id)
+        self.assertEqual(corrected_item["status"], "corrected")
 
 
 if __name__ == "__main__":
