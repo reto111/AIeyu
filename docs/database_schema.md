@@ -331,7 +331,17 @@ AI 私教对话记录。
 
 用于保存当前最高优先级弱项和建议专项训练数量。
 
-第一版只生成本地默认用户的 active 推荐；后续接入多用户后，每个学生独立生成。
+推荐按学生、考试和等级隔离。画像每次重算会更新 active 推荐；已经生成的当日任务仍使用计划快照，不在页面刷新时改变方向。
+
+### 4.18.1 daily_study_plans / daily_study_tasks
+
+每日自适应学习计划。
+
+- `daily_study_plans` 按 `user_id + exam_system_id + level_id + plan_date` 唯一，保存某名学生当天某项考试的计划。
+- `daily_study_tasks` 保存推荐专项、错题回炉和单词学习三项任务的目标数量、训练模式、知识点、推荐原因及生成时基线。
+- 同一天重复读取直接返回原计划，避免画像重算后任务目标在刷新页面时变化。
+- 完成度不由学生手工勾选，而是根据真实答题、错题状态和单词复习记录动态计算。
+- 点击推荐专项时，服务器再次校验任务属于当前登录账号和当天考试，防止跨账号读取任务。
 
 ### 4.19 listening_assets / listening_transcripts / listening_segments / listening_question_links
 

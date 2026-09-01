@@ -600,6 +600,12 @@ textarea {
   font-size: 13px;
 }
 
+.task-copy small {
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 700;
+}
+
 .task-progress {
   height: 7px;
   overflow: hidden;

@@ -95,6 +95,7 @@ def db() -> Iterator[sqlite3.Connection]:
         ensure_auth_tables(conn)
         ensure_feedback_tables(conn)
         ensure_wrongbook_tables(conn)
+        ensure_daily_study_tables(conn)
         yield conn
         conn.commit()
     except Exception:
@@ -201,6 +202,52 @@ def ensure_wrongbook_tables(conn: sqlite3.Connection) -> None:
 
         CREATE INDEX IF NOT EXISTS idx_wrongbook_preferences_user
           ON wrongbook_preferences (user_id, is_favorite, updated_at);
+        """
+    )
+
+
+def ensure_daily_study_tables(conn: sqlite3.Connection) -> None:
+    conn.executescript(
+        """
+        CREATE TABLE IF NOT EXISTS daily_study_plans (
+          id INTEGER PRIMARY KEY AUTOINCREMENT,
+          user_id INTEGER NOT NULL,
+          exam_system_id INTEGER NOT NULL,
+          level_id INTEGER NOT NULL,
+          plan_date TEXT NOT NULL,
+          status TEXT NOT NULL DEFAULT 'active' CHECK (status IN ('active', 'completed')),
+          created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+          updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+          FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+          FOREIGN KEY (exam_system_id) REFERENCES exam_systems(id),
+          FOREIGN KEY (level_id) REFERENCES exam_levels(id),
+          UNIQUE (user_id, exam_system_id, level_id, plan_date)
+        );
+
+        CREATE TABLE IF NOT EXISTS daily_study_tasks (
+          id INTEGER PRIMARY KEY AUTOINCREMENT,
+          plan_id INTEGER NOT NULL,
+          task_type TEXT NOT NULL CHECK (task_type IN ('questions', 'wrongbook', 'words')),
+          sort_order INTEGER NOT NULL DEFAULT 0,
+          label TEXT NOT NULL,
+          target_count INTEGER NOT NULL DEFAULT 0,
+          training_mode TEXT,
+          target_type TEXT,
+          target_code TEXT,
+          target_name_zh TEXT,
+          target_question_type TEXT,
+          reason TEXT,
+          baseline_count INTEGER NOT NULL DEFAULT 0,
+          created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+          updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+          FOREIGN KEY (plan_id) REFERENCES daily_study_plans(id) ON DELETE CASCADE,
+          UNIQUE (plan_id, task_type)
+        );
+
+        CREATE INDEX IF NOT EXISTS idx_daily_study_plans_user_date
+          ON daily_study_plans (user_id, plan_date, exam_system_id, level_id);
+        CREATE INDEX IF NOT EXISTS idx_daily_study_tasks_plan
+          ON daily_study_tasks (plan_id, sort_order);
         """
     )
 
@@ -1363,10 +1410,34 @@ def api_generate_quiz(payload: dict[str, Any]) -> dict[str, Any]:
             }
         elif mode in {"weakness_review", "knowledge_point"}:
             if mode == "weakness_review":
-                profile = recalculate_profile(conn, user_id, exam_system_code, level_code)
-                recommendation = profile.get("next_training")
-                if not recommendation:
-                    raise ValueError("当前作答数据还不足以生成薄弱专项，请先完成入门诊断。")
+                daily_task_id = int(payload.get("daily_task_id") or 0)
+                if daily_task_id:
+                    daily_task = conn.execute(
+                        """
+                        SELECT dst.*
+                        FROM daily_study_tasks dst
+                        JOIN daily_study_plans dsp ON dsp.id = dst.plan_id
+                        WHERE dst.id = ? AND dst.task_type = 'questions'
+                          AND dsp.user_id = ? AND dsp.exam_system_id = ? AND dsp.level_id = ?
+                          AND dsp.plan_date = date('now', 'localtime')
+                        """,
+                        (daily_task_id, user_id, exam_system_id, level_id),
+                    ).fetchone()
+                    if daily_task is None:
+                        raise ValueError("今日学习任务不存在或不属于当前账号。")
+                    recommendation = {
+                        "target_type": daily_task["target_type"],
+                        "target_code": daily_task["target_code"],
+                        "target_name_zh": daily_task["target_name_zh"],
+                        "reason": daily_task["reason"],
+                        "count": int(daily_task["target_count"] or count),
+                        "daily_task_id": daily_task_id,
+                    }
+                else:
+                    profile = recalculate_profile(conn, user_id, exam_system_code, level_code)
+                    recommendation = profile.get("next_training")
+                    if not recommendation:
+                        raise ValueError("当前作答数据还不足以生成薄弱专项，请先完成入门诊断。")
             else:
                 target_code_value = str(payload.get("target_code") or "").strip()
                 if not target_code_value:
@@ -1551,6 +1622,186 @@ def daily_answer_trend(
     ]
 
 
+def create_or_load_daily_plan(
+    conn: sqlite3.Connection,
+    user_id: int,
+    exam_system_id: int,
+    level_id: int,
+    profile: dict[str, Any],
+    word_status: dict[str, Any],
+    pending_wrong: int,
+) -> sqlite3.Row:
+    plan_date = datetime.now().strftime("%Y-%m-%d")
+    plan = conn.execute(
+        """
+        SELECT * FROM daily_study_plans
+        WHERE user_id = ? AND exam_system_id = ? AND level_id = ? AND plan_date = ?
+        """,
+        (user_id, exam_system_id, level_id, plan_date),
+    ).fetchone()
+    if plan is not None:
+        return plan
+
+    cursor = conn.execute(
+        """
+        INSERT INTO daily_study_plans (user_id, exam_system_id, level_id, plan_date)
+        VALUES (?, ?, ?, ?)
+        """,
+        (user_id, exam_system_id, level_id, plan_date),
+    )
+    plan_id = int(cursor.lastrowid)
+    recommended = profile.get("next_training")
+    if recommended:
+        target_type = str(recommended["target_type"])
+        target_code = str(recommended["target_code"])
+        target_question_type = question_type_for_target(target_type, target_code)
+        question_task = (
+            "薄弱专项",
+            int(recommended.get("count", 10)),
+            "weakness_review",
+            target_type,
+            target_code,
+            str(recommended.get("target_name_zh") or "薄弱知识点"),
+            target_question_type,
+            str(recommended.get("reason") or "根据近期作答表现推荐"),
+        )
+    else:
+        question_task = (
+            "入门诊断",
+            30,
+            "diagnostic",
+            "diagnostic",
+            "diagnostic.initial",
+            "建立初始能力画像",
+            None,
+            "当前作答数据不足，先用四类题目建立能力基线",
+        )
+
+    due_count = int(word_status.get("due_count") or 0)
+    new_count = int(word_status.get("new_count") or 0)
+    word_target = min(due_count, 20) if due_count else min(new_count, 20)
+    word_label = "到期单词复习" if due_count else "今日新词"
+    word_reason = (
+        f"有 {due_count} 个单词到达复习时间"
+        if due_count
+        else "用少量新词保持稳定积累" if word_target else "当前词库任务已完成"
+    )
+    wrong_target = min(pending_wrong, 5)
+    wrong_reason = (
+        f"优先消化最近仍未答对的 {pending_wrong} 道错题"
+        if pending_wrong
+        else "当前没有待巩固错题"
+    )
+    rows = [
+        (
+            plan_id, "questions", 1, question_task[0], question_task[1], question_task[2],
+            question_task[3], question_task[4], question_task[5], question_task[6],
+            question_task[7], 0,
+        ),
+        (
+            plan_id, "wrongbook", 2, "错题回炉", wrong_target, "wrongbook_review",
+            "wrongbook", "wrongbook.pending", "待巩固错题", None,
+            wrong_reason, pending_wrong,
+        ),
+        (
+            plan_id, "words", 3, word_label, word_target,
+            "review" if due_count else "mixed", "vocabulary", "vocabulary.daily",
+            "到期复习" if due_count else "新词积累", None, word_reason, due_count,
+        ),
+    ]
+    conn.executemany(
+        """
+        INSERT INTO daily_study_tasks (
+          plan_id, task_type, sort_order, label, target_count, training_mode,
+          target_type, target_code, target_name_zh, target_question_type,
+          reason, baseline_count
+        )
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """,
+        rows,
+    )
+    return conn.execute("SELECT * FROM daily_study_plans WHERE id = ?", (plan_id,)).fetchone()
+
+
+def daily_question_progress(
+    conn: sqlite3.Connection,
+    plan: sqlite3.Row,
+    task: sqlite3.Row,
+) -> int:
+    filters = [
+        "ua.user_id = ?",
+        "q.exam_system_id = ?",
+        "q.level_id = ?",
+        "date(ua.answered_at, 'localtime') = ?",
+    ]
+    params: list[Any] = [
+        int(plan["user_id"]),
+        int(plan["exam_system_id"]),
+        int(plan["level_id"]),
+        plan["plan_date"],
+    ]
+    if task["target_question_type"]:
+        filters.append("qt.code = ?")
+        params.append(task["target_question_type"])
+    return int(
+        conn.execute(
+            f"""
+            SELECT COUNT(*)
+            FROM user_answers ua
+            JOIN quiz_items qi ON qi.id = ua.quiz_item_id
+            JOIN questions q ON q.id = qi.question_id
+            JOIN question_types qt ON qt.id = q.question_type_id
+            WHERE {" AND ".join(filters)}
+            """,
+            params,
+        ).fetchone()[0]
+    )
+
+
+def daily_task_payloads(
+    conn: sqlite3.Connection,
+    plan: sqlite3.Row,
+    word_status: dict[str, Any],
+    pending_wrong: int,
+) -> list[dict[str, Any]]:
+    tasks = conn.execute(
+        "SELECT * FROM daily_study_tasks WHERE plan_id = ? ORDER BY sort_order, id",
+        (plan["id"],),
+    ).fetchall()
+    payloads = []
+    for task in tasks:
+        target = int(task["target_count"] or 0)
+        if task["task_type"] == "questions":
+            completed = daily_question_progress(conn, plan, task)
+        elif task["task_type"] == "words":
+            completed = int(word_status.get("reviewed_today") or 0)
+        else:
+            completed = max(int(task["baseline_count"] or 0) - pending_wrong, 0)
+        completed = min(completed, target) if target else 0
+        is_completed = target == 0 or completed >= target
+        payloads.append(
+            {
+                "task_id": int(task["id"]),
+                "task_type": task["task_type"],
+                "label": task["label"],
+                "target": target,
+                "completed": completed,
+                "remaining": max(target - completed, 0),
+                "is_completed": is_completed,
+                "mode": task["training_mode"],
+                "target_code": task["target_code"],
+                "target_name_zh": task["target_name_zh"],
+                "reason": task["reason"],
+            }
+        )
+    if payloads and all(item["is_completed"] for item in payloads):
+        conn.execute(
+            "UPDATE daily_study_plans SET status = 'completed', updated_at = CURRENT_TIMESTAMP WHERE id = ?",
+            (plan["id"],),
+        )
+    return payloads
+
+
 def api_study_center(
     user_id: int = DEFAULT_USER_ID,
     exam_system_code: str = "TEM8_RU",
@@ -1596,19 +1847,6 @@ def api_study_center(
                 }
             )
 
-        today_attempted = int(
-            conn.execute(
-                """
-                SELECT COUNT(*)
-                FROM user_answers ua
-                JOIN quiz_items qi ON qi.id = ua.quiz_item_id
-                JOIN quiz_sessions qs ON qs.id = qi.quiz_session_id
-                WHERE ua.user_id = ? AND qs.exam_system_id = ? AND qs.level_id = ?
-                  AND date(ua.answered_at, 'localtime') = date('now', 'localtime')
-                """,
-                (user_id, exam_system_id, level_id),
-            ).fetchone()[0]
-        )
         word_status = api_word_status(user_id, exam_system_code, level_code)
         pending_wrong = int(
             conn.execute(
@@ -1626,29 +1864,29 @@ def api_study_center(
         seven_days = period_answer_summary(conn, user_id, exam_system_id, level_id, 7)
         thirty_days = period_answer_summary(conn, user_id, exam_system_id, level_id, 30)
         trend = daily_answer_trend(conn, user_id, exam_system_id, level_id)
+        plan = create_or_load_daily_plan(
+            conn,
+            user_id,
+            exam_system_id,
+            level_id,
+            profile,
+            word_status,
+            pending_wrong,
+        )
+        daily_tasks = daily_task_payloads(conn, plan, word_status, pending_wrong)
 
     recommended = profile.get("next_training")
-    question_target = int(recommended.get("count", 10)) if recommended else 30
     return {
         "user": public_user(user),
         "exam_system": exam_system_code,
         "level": level_code,
         "today": {
-            "questions": {
-                "label": "薄弱专项" if recommended else "入门诊断",
-                "target": question_target,
-                "completed": min(today_attempted, question_target),
-                "remaining": max(question_target - today_attempted, 0),
-                "mode": "weakness_review" if recommended else "diagnostic",
-                "target_name_zh": recommended.get("target_name_zh") if recommended else None,
-            },
-            "words": {
-                "target": int(word_status["due_count"] or 20),
-                "completed": int(word_status["reviewed_today"] or 0),
-                "due_count": int(word_status["due_count"] or 0),
-                "new_count": int(word_status["new_count"] or 0),
-            },
-            "wrongbook": {"pending_count": pending_wrong},
+            "plan_id": int(plan["id"]),
+            "plan_date": plan["plan_date"],
+            "status": "completed" if daily_tasks and all(item["is_completed"] for item in daily_tasks) else "active",
+            "completed_tasks": sum(1 for item in daily_tasks if item["is_completed"]),
+            "task_count": len(daily_tasks),
+            "tasks": daily_tasks,
         },
         "periods": {
             "seven_days": seven_days,

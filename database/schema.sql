@@ -348,6 +348,41 @@ CREATE TABLE IF NOT EXISTS training_recommendations (
   FOREIGN KEY (level_id) REFERENCES exam_levels(id)
 );
 
+CREATE TABLE IF NOT EXISTS daily_study_plans (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id INTEGER NOT NULL,
+  exam_system_id INTEGER NOT NULL,
+  level_id INTEGER NOT NULL,
+  plan_date TEXT NOT NULL,
+  status TEXT NOT NULL DEFAULT 'active' CHECK (status IN ('active', 'completed')),
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+  FOREIGN KEY (exam_system_id) REFERENCES exam_systems(id),
+  FOREIGN KEY (level_id) REFERENCES exam_levels(id),
+  UNIQUE (user_id, exam_system_id, level_id, plan_date)
+);
+
+CREATE TABLE IF NOT EXISTS daily_study_tasks (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  plan_id INTEGER NOT NULL,
+  task_type TEXT NOT NULL CHECK (task_type IN ('questions', 'wrongbook', 'words')),
+  sort_order INTEGER NOT NULL DEFAULT 0,
+  label TEXT NOT NULL,
+  target_count INTEGER NOT NULL DEFAULT 0,
+  training_mode TEXT,
+  target_type TEXT,
+  target_code TEXT,
+  target_name_zh TEXT,
+  target_question_type TEXT,
+  reason TEXT,
+  baseline_count INTEGER NOT NULL DEFAULT 0,
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (plan_id) REFERENCES daily_study_plans(id) ON DELETE CASCADE,
+  UNIQUE (plan_id, task_type)
+);
+
 CREATE TABLE IF NOT EXISTS ai_tutor_threads (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   user_id INTEGER,
@@ -415,6 +450,12 @@ CREATE INDEX IF NOT EXISTS idx_mastery_snapshots_user_target
 
 CREATE INDEX IF NOT EXISTS idx_training_recommendations_user_status
   ON training_recommendations (user_id, status, priority);
+
+CREATE INDEX IF NOT EXISTS idx_daily_study_plans_user_date
+  ON daily_study_plans (user_id, plan_date, exam_system_id, level_id);
+
+CREATE INDEX IF NOT EXISTS idx_daily_study_tasks_plan
+  ON daily_study_tasks (plan_id, sort_order);
 
 CREATE INDEX IF NOT EXISTS idx_user_sessions_token
   ON user_sessions (token_hash, expires_at);

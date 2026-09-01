@@ -1067,43 +1067,28 @@ function renderStudyCenter(payload) {
   const name = state.activeUser?.display_name || "同学";
   $("#studyGreeting").textContent = `${name}，今天从最需要的地方开始`;
 
-  const questionTask = payload.today.questions;
-  const wordTask = payload.today.words;
-  const wrongTask = payload.today.wrongbook;
-  const questionDone = questionTask.remaining === 0;
-  const wordDone = wordTask.due_count === 0 && wordTask.completed > 0;
-  const wrongDone = wrongTask.pending_count === 0;
-  $("#todayPlanMeta").textContent = `${[questionDone, wordDone, wrongDone].filter(Boolean).length}/3 已完成`;
+  const tasks = payload.today.tasks || [];
+  $("#todayPlanMeta").textContent = `${payload.today.completed_tasks}/${payload.today.task_count} 已完成`;
   $("#todayTasks").classList.remove("muted");
-  $("#todayTasks").innerHTML = `
-    <article class="today-task ${questionDone ? "done" : ""}">
-      <div class="task-index">1</div>
-      <div class="task-copy">
-        <strong>${escapeHtml(questionTask.label)}${questionTask.target_name_zh ? ` · ${escapeHtml(questionTask.target_name_zh)}` : ""}</strong>
-        <span>${questionTask.completed}/${questionTask.target} 题${questionDone ? " · 今日已完成" : ""}</span>
-      </div>
-      <div class="task-progress"><span style="width:${Math.min(questionTask.completed / Math.max(questionTask.target, 1) * 100, 100)}%"></span></div>
-      <button type="button" class="secondary" data-study-action="questions" data-study-mode="${escapeHtml(questionTask.mode)}">${questionDone ? "再练一组" : "开始训练"}</button>
-    </article>
-    <article class="today-task ${wordDone ? "done" : ""}">
-      <div class="task-index">2</div>
-      <div class="task-copy">
-        <strong>${wordTask.due_count ? `复习 ${wordTask.due_count} 个到期词` : "完成今日单词打卡"}</strong>
-        <span>今日已学习 ${wordTask.completed} 个 · ${wordTask.new_count} 个未开始</span>
-      </div>
-      <div class="task-progress"><span style="width:${Math.min(wordTask.completed / Math.max(wordTask.target, 1) * 100, 100)}%"></span></div>
-      <button type="button" class="secondary" data-study-action="words">${wordTask.due_count ? "立即复习" : "开始打卡"}</button>
-    </article>
-    <article class="today-task ${wrongDone ? "done" : ""}">
-      <div class="task-index">3</div>
-      <div class="task-copy">
-        <strong>订正错题</strong>
-        <span>${wrongDone ? "当前没有待巩固错题" : `${wrongTask.pending_count} 道仍需巩固`}</span>
-      </div>
-      <div class="task-progress"><span style="width:${wrongDone ? 100 : 0}%"></span></div>
-      <button type="button" class="secondary" data-study-action="wrongbook">${wrongDone ? "查看错题本" : "去订正"}</button>
-    </article>
-  `;
+  $("#todayTasks").innerHTML = tasks.map((task, index) => {
+    const unit = task.task_type === "words" ? "词" : "题";
+    const progress = task.target ? Math.min(task.completed / task.target * 100, 100) : 100;
+    const actionText = task.is_completed
+      ? task.task_type === "wrongbook" ? "查看错题本" : "再练一组"
+      : task.task_type === "words" ? "开始学习" : task.task_type === "wrongbook" ? "开始订正" : "开始训练";
+    return `
+      <article class="today-task ${task.is_completed ? "done" : ""}">
+        <div class="task-index">${task.is_completed ? "✓" : index + 1}</div>
+        <div class="task-copy">
+          <strong>${escapeHtml(task.label)}${task.target_name_zh ? ` · ${escapeHtml(task.target_name_zh)}` : ""}</strong>
+          <span>${escapeHtml(task.reason || "根据今日学习状态安排")}</span>
+          <small>${task.target ? `${task.completed}/${task.target} ${unit}` : "今日无需处理"}${task.is_completed ? " · 已完成" : ""}</small>
+        </div>
+        <div class="task-progress" aria-label="完成 ${Math.round(progress)}%"><span style="width:${progress}%"></span></div>
+        <button type="button" class="secondary" data-study-action="${escapeHtml(task.task_type)}" data-study-mode="${escapeHtml(task.mode || "")}" data-daily-task-id="${task.task_id}">${actionText}</button>
+      </article>
+    `;
+  }).join("");
 
   const seven = payload.periods.seven_days;
   const thirty = payload.periods.thirty_days;
@@ -1197,7 +1182,7 @@ function updateQuizProgress() {
   $("#quizProgressText").textContent = `${answered}/${questions.length} 已作答`;
 }
 
-async function generateQuiz(mode = "random", targetCode = "") {
+async function generateQuiz(mode = "random", targetCode = "", dailyTaskId = 0) {
   if (!state.authenticated) {
     openAccountMenu();
     $("#activeUserHint").textContent = "请先登录或注册，再开始练习。";
@@ -1228,6 +1213,7 @@ async function generateQuiz(mode = "random", targetCode = "") {
       payload.question_types = selectedValues("questionType");
       payload.years = selectedValues("year").map(Number);
     }
+    if (dailyTaskId) payload.daily_task_id = Number(dailyTaskId);
     state.quiz = await requestJson("/api/quiz", {
       method: "POST",
       body: JSON.stringify(payload),
@@ -1518,12 +1504,12 @@ async function startStudyWords() {
   await startWordSession(mode);
 }
 
-function handleStudyAction(action, mode) {
+async function handleStudyAction(action, mode, dailyTaskId = 0) {
   if (action === "questions") {
     if (mode === "diagnostic") {
       startDiagnostic();
     } else {
-      generateQuiz("weakness_review");
+      generateQuiz("weakness_review", "", dailyTaskId);
     }
     return;
   }
@@ -1533,6 +1519,8 @@ function handleStudyAction(action, mode) {
   }
   if (action === "wrongbook") {
     showView("wrongbook");
+    await loadWrongbook();
+    if ((state.wrongbook?.pending_count || 0) > 0) await startWrongbookReview();
   }
 }
 
@@ -1654,7 +1642,11 @@ $("#profileSummary").addEventListener("click", (event) => {
 $("#todayTasks").addEventListener("click", (event) => {
   const button = event.target.closest("[data-study-action]");
   if (!button) return;
-  handleStudyAction(button.dataset.studyAction, button.dataset.studyMode || "");
+  handleStudyAction(
+    button.dataset.studyAction,
+    button.dataset.studyMode || "",
+    Number(button.dataset.dailyTaskId || 0),
+  );
 });
 $("#knowledgeMap").addEventListener("click", (event) => {
   const button = event.target.closest("[data-knowledge-code]");

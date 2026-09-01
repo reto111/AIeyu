@@ -274,6 +274,50 @@ class AdaptiveTrainingTests(unittest.TestCase):
         self.assertEqual(len(current["daily_trend"]), 7)
         self.assertTrue(any(item["target_code"] == "grammar.aspect" for item in current["knowledge_mastery"]))
         self.assertFalse(any(item["category"] == "reading" for item in current["knowledge_mastery"]))
+        self.assertNotEqual(current["today"]["plan_id"], other["today"]["plan_id"])
+        self.assertEqual([item["task_type"] for item in current["today"]["tasks"]], ["questions", "wrongbook", "words"])
+
+    def test_daily_plan_is_stable_and_counts_only_recommended_question_type(self) -> None:
+        grammar_id = self.question_id("TEM4_RU", "grammar.aspect")
+        culture_id = self.question_id("TEM4_RU", "culture.history")
+        self.add_attempts("TEM4_RU", "TEM4", grammar_id, [False] * 5)
+
+        first = app.api_study_center(self.user_id, "TEM4_RU", "TEM4")
+        question_task = first["today"]["tasks"][0]
+        self.assertEqual(question_task["target_code"], "grammar.aspect")
+        self.assertEqual(question_task["completed"], 5)
+
+        self.add_attempts("TEM4_RU", "TEM4", culture_id, [False] * 5)
+        second = app.api_study_center(self.user_id, "TEM4_RU", "TEM4")
+        second_task = second["today"]["tasks"][0]
+        self.assertEqual(second["today"]["plan_id"], first["today"]["plan_id"])
+        self.assertEqual(second_task["target_code"], "grammar.aspect")
+        self.assertEqual(second_task["completed"], 5)
+
+        quiz = app.api_generate_quiz(
+            {
+                "user_id": self.user_id,
+                "mode": "weakness_review",
+                "daily_task_id": question_task["task_id"],
+                "exam_system": "TEM4_RU",
+                "level": "TEM4",
+                "count": 10,
+                "seed": 20260901,
+            }
+        )
+        self.assertEqual(quiz["training"]["target_code"], "grammar.aspect")
+
+        with self.assertRaisesRegex(ValueError, "不属于当前账号"):
+            app.api_generate_quiz(
+                {
+                    "user_id": self.other_user_id,
+                    "mode": "weakness_review",
+                    "daily_task_id": question_task["task_id"],
+                    "exam_system": "TEM4_RU",
+                    "level": "TEM4",
+                    "count": 10,
+                }
+            )
 
     def test_literature_tags_follow_learning_task_instead_of_era(self) -> None:
         author = tagger.classify_literature(
