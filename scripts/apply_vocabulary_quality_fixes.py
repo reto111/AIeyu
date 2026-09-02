@@ -40,6 +40,16 @@ MEANING_FIXES = [
         "meaning_zh": "岗亭；小室",
         "reason": "中文释义 OCR 串入错字。",
     },
+    {
+        "word": "набор",
+        "meaning_zh": "招收；一套",
+        "reason": "中文释义末尾重复混入俄语词头。",
+    },
+    {
+        "word": "претензия",
+        "meaning_zh": "要求；主张",
+        "reason": "中文释义末尾重复混入俄语词头。",
+    },
 ]
 
 SUSPICIOUS_MEANING_MARKERS = ["哨里", "晨里", "岗楹", "哨史"]

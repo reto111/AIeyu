@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import hmac
+import importlib.util
 import json
 import mimetypes
 import os
@@ -73,6 +74,11 @@ KNOWLEDGE_NAMES = {
     "literature": "俄罗斯文学",
     "culture": "俄罗斯国情",
     "reading": "阅读理解",
+}
+
+EXPECTED_CONTENT_MINIMUMS = {
+    "TEM4_RU": {"questions": 444, "words": 3000},
+    "TEM8_RU": {"questions": 300, "words": 3000},
 }
 
 
@@ -596,6 +602,111 @@ def api_status(exam_system_code: str = "TEM8_RU", level_code: str = "TEM8") -> d
         """, (exam_system_id, level_id)).fetchall()]
         latest_thread = conn.execute("SELECT id, quiz_session_id, title, updated_at FROM ai_tutor_threads ORDER BY id DESC LIMIT 1").fetchone()
     return {"exam_system": exam_system_code, "level": level_code, "question_count": sum(item["count"] for item in by_type), "question_types": by_type, "years": years, "latest_thread": dict(latest_thread) if latest_thread else None, "deepseek_configured": bool(os.environ.get("DEEPSEEK_API_KEY"))}
+
+
+def api_health() -> dict[str, Any]:
+    required_tables = {
+        "users",
+        "user_auth",
+        "questions",
+        "question_options",
+        "passages",
+        "vocabulary_items",
+        "quiz_sessions",
+        "user_answers",
+        "question_exposures",
+        "mastery_snapshots",
+        "daily_study_plans",
+        "wrongbook_preferences",
+        "selection_translation_cache",
+    }
+    checks: list[dict[str, Any]] = []
+    pools: dict[str, dict[str, int]] = {}
+    try:
+        with db() as conn:
+            integrity = str(conn.execute("PRAGMA quick_check").fetchone()[0])
+            checks.append({"code": "database_integrity", "ok": integrity == "ok", "detail": integrity})
+            available_tables = {
+                str(row[0])
+                for row in conn.execute("SELECT name FROM sqlite_master WHERE type = 'table'").fetchall()
+            }
+            missing_tables = sorted(required_tables - available_tables)
+            checks.append(
+                {
+                    "code": "required_tables",
+                    "ok": not missing_tables,
+                    "detail": "ok" if not missing_tables else "缺少: " + ", ".join(missing_tables),
+                }
+            )
+            for exam_code, level_code in (("TEM4_RU", "TEM4"), ("TEM8_RU", "TEM8")):
+                exam_system_id, level_id = fetch_ids(conn, exam_code, level_code)
+                question_count = int(
+                    conn.execute(
+                        """
+                        SELECT COUNT(*) FROM questions
+                        WHERE exam_system_id = ? AND level_id = ?
+                          AND review_status = 'approved' AND source_usage = 'practice'
+                        """,
+                        (exam_system_id, level_id),
+                    ).fetchone()[0]
+                )
+                word_count = int(
+                    conn.execute(
+                        """
+                        SELECT COUNT(*) FROM vocabulary_items
+                        WHERE exam_system_id = ? AND level_id = ? AND review_status = 'approved'
+                        """,
+                        (exam_system_id, level_id),
+                    ).fetchone()[0]
+                )
+                pools[exam_code] = {"questions": question_count, "words": word_count}
+                minimum = EXPECTED_CONTENT_MINIMUMS[exam_code]
+                checks.append(
+                    {
+                        "code": f"{exam_code.lower()}_content_pool",
+                        "ok": question_count >= minimum["questions"] and word_count >= minimum["words"],
+                        "detail": (
+                            f"{question_count} 题 / {word_count} 词；"
+                            f"最低 {minimum['questions']} 题 / {minimum['words']} 词"
+                        ),
+                    }
+                )
+    except Exception as exc:
+        checks.append({"code": "database_access", "ok": False, "detail": str(exc)})
+
+    static_missing = [name for name in ("index.html", "app.js", "styles.css") if not (STATIC_DIR / name).exists()]
+    checks.append(
+        {
+            "code": "student_web_files",
+            "ok": not static_missing,
+            "detail": "ok" if not static_missing else "缺少: " + ", ".join(static_missing),
+        }
+    )
+    deepseek_configured = bool(os.environ.get("DEEPSEEK_API_KEY"))
+    morphology_available = importlib.util.find_spec("pymorphy3") is not None
+    checks.append(
+        {
+            "code": "deepseek_configuration",
+            "ok": deepseek_configured,
+            "detail": "已配置" if deepseek_configured else "未配置",
+        }
+    )
+    checks.append(
+        {
+            "code": "russian_morphology",
+            "ok": morphology_available,
+            "detail": "pymorphy3 可用" if morphology_available else "请安装 requirements-web.txt",
+        }
+    )
+    ready = all(bool(item["ok"]) for item in checks)
+    return {
+        "status": "ok" if ready else "degraded",
+        "ready": ready,
+        "service": "AIeyu student app",
+        "checks": checks,
+        "content_pools": pools,
+        "checked_at": datetime.now().isoformat(timespec="seconds"),
+    }
 
 def clean_word_meaning_for_display(value: str | None) -> str:
     text = re.sub(r"\s+", " ", str(value or "").strip())
@@ -2903,6 +3014,10 @@ class StudentAppHandler(BaseHTTPRequestHandler):
         try:
             parsed = urlparse(self.path)
             query = parse_qs(parsed.query)
+            if parsed.path == "/api/health":
+                health = api_health()
+                json_response(self, HTTPStatus.OK if health["ready"] else HTTPStatus.SERVICE_UNAVAILABLE, health)
+                return
             if parsed.path == "/api/status":
                 json_response(self, HTTPStatus.OK, api_status(query.get("exam_system", ["TEM8_RU"])[0], query.get("level", ["TEM8"])[0]))
                 return

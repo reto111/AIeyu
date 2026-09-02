@@ -56,7 +56,13 @@ Windows Server 上需要安装：
 - Python 3.11 或 3.12
 - 可选：VS Code
 
-学生端本地服务目前只依赖 Python 标准库，部署网页原型不需要安装复杂后端依赖。
+进入项目目录后安装网页端依赖：
+
+```powershell
+python -m pip install -r requirements-web.txt
+```
+
+其中 `pymorphy3` 用于俄语词形还原；缺少它时网页仍可能启动，但发布前健康检查不会通过。
 
 ## 5. 服务器启动方式
 
@@ -129,3 +135,19 @@ python scripts\serve_student_app.py --host 0.0.0.0 --port 8765
 ```
 
 如果服务器数据库已经包含本次 71、88 题修正，补丁重复执行也只会重新写入相同内容，不会删除学生账号和学习记录。
+
+## 10. 发布前一键验收
+
+服务启动后，另开一个 PowerShell 窗口执行：
+
+```powershell
+cd C:\AIeyu
+python -B scripts\check_mvp_readiness.py --base-url http://127.0.0.1:8765
+```
+
+脚本会检查数据库完整性、必要数据表、专四/专八正式题量和词量、题库高风险项、词库基础异常、静态文件、DeepSeek 配置、俄语词形还原、网页健康状态、核心接口和自动化回归测试。
+
+- 全部显示 `PASS` 且进程退出码为 `0` 时才可发布。
+- 任一项显示 `FAIL` 时先修复，不要直接对外开放新版本。
+- 完整结果保存在 `data\processed\health\mvp_readiness_latest.json`。
+- `http://127.0.0.1:8765/api/health` 可用于快速查看当前服务是否就绪；响应只包含状态，不返回 API Key 或密码。

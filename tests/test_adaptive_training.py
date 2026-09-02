@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import gc
+import json
 import shutil
 import sqlite3
 import sys
@@ -410,6 +411,16 @@ class AdaptiveTrainingTests(unittest.TestCase):
                     "level": "TEM8",
                 }
             )
+
+    def test_health_check_reports_core_content_without_exposing_secrets(self) -> None:
+        health = app.api_health()
+        check_by_code = {item["code"]: item for item in health["checks"]}
+        self.assertTrue(check_by_code["database_integrity"]["ok"])
+        self.assertTrue(check_by_code["required_tables"]["ok"])
+        self.assertEqual(health["content_pools"]["TEM4_RU"]["questions"], 444)
+        self.assertEqual(health["content_pools"]["TEM8_RU"]["questions"], 300)
+        serialized = json.dumps(health, ensure_ascii=False)
+        self.assertNotIn("DEEPSEEK_API_KEY", serialized)
 
     def test_literature_tags_follow_learning_task_instead_of_era(self) -> None:
         author = tagger.classify_literature(
