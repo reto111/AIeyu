@@ -1,0 +1,905 @@
+from __future__ import annotations
+
+import argparse
+import json
+import re
+import shutil
+import sqlite3
+from datetime import datetime
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+DB_PATH = ROOT / "database" / "russian_ai_tutor.sqlite"
+BACKUP_DIR = ROOT / "data" / "processed" / "backups"
+REPORT_DIR = ROOT / "data" / "processed" / "question_quality"
+REVIEWER = "local_multimodal_source_review"
+
+
+# Every value below was checked against the rendered source page. Keep fixes
+# explicit so database changes remain reviewable and reversible.
+FIXES: dict[tuple[str, int, str], dict] = {
+    ("TEM8_RU", 2017, "16"): {
+        "stem": "_____ ты ни был, хоть и на краю света, моя любовь останется в каждом закате.",
+        "source_page": 3,
+        "note": "原图恢复句首填空位。",
+    },
+    ("TEM8_RU", 2017, "17"): {
+        "stem": "Нам есть чему поучиться у вас, _____ с организации процесса производства.",
+        "source_page": 3,
+        "note": "原图恢复逗号后的填空位。",
+    },
+    ("TEM8_RU", 2017, "21"): {
+        "stem": "Жизнь коротка, но _____ тебе не хватало времени на вежливость.",
+        "source_page": 4,
+        "note": "原图恢复 но 后的填空位。",
+    },
+    ("TEM8_RU", 2017, "22"): {
+        "stem": "И дня не проходило, _____ я не мечтал о родной земле, о ее цветущих лугах и полноводных реках.",
+        "source_page": 4,
+        "note": "原图恢复逗号后的填空位并合并断词。",
+    },
+    ("TEM8_RU", 2017, "25"): {
+        "stem": "Колоссальные убытки _____ сельское хозяйство: половина полей засохла, гибнет рыба.",
+        "source_page": 4,
+        "note": "原图恢复主谓之间的填空位并修复被水印干扰的题干。",
+    },
+    ("TEM8_RU", 2017, "26"): {
+        "stem": "Россия и Китай объективно заинтересованы _____ и важны друг для друга.",
+        "source_page": 4,
+        "note": "原图恢复填空位并修复被水印干扰的单词。",
+    },
+    ("TEM8_RU", 2017, "28"): {
+        "stem": "_____ этого преступного дела ведется уже несколько месяцев.",
+        "source_page": 4,
+        "note": "原图恢复句首填空位并清除 OCR 乱码。",
+    },
+    ("TEM8_RU", 2017, "30"): {
+        "stem": "Судьба Эрмитажа неотделима от истории России. В XX веке на долю ее _____ немало испытаний.",
+        "source_page": 4,
+        "note": "原图恢复填空位并合并断词。",
+    },
+    ("TEM8_RU", 2017, "32"): {
+        "stem": "Ветер был такой сильный, что машины _____ от земли.",
+        "source_page": 5,
+        "note": "原图恢复 машины 后的填空位。",
+    },
+    ("TEM8_RU", 2017, "44"): {
+        "stem": "В 2016 году «Договору о добрососедстве, дружбе и сотрудничестве между КНР и РФ» исполнилось _____ лет.",
+        "source_page": 6,
+        "note": "原图恢复 исполнилось 后的填空位并合并断词。",
+    },
+    ("TEM8_RU", 2018, "17"): {
+        "stem": "Ночью порывом ветра _____ крышу четырехэтажного дома.",
+        "source_page": 3,
+        "note": "原图恢复主语后的填空位。",
+    },
+    ("TEM8_RU", 2018, "18"): {
+        "stem": "Уже _____ бабушкой, жена решила рассказать мужу свой секрет.",
+        "source_page": 3,
+        "note": "原图恢复 Уже 后的填空位。",
+    },
+    ("TEM8_RU", 2018, "19"): {
+        "stem": "Стоило Вите прийти в школу, _____ все начали расспрашивать его о путешествии.",
+        "source_page": 3,
+        "note": "原图恢复逗号后的填空位并修复 расспрашивать。",
+    },
+    ("TEM8_RU", 2018, "21"): {
+        "stem": "_____ Ирина накрывала на стол, Андрей заваривал чай.",
+        "source_page": 4,
+        "note": "原图恢复句首填空位。",
+    },
+    ("TEM8_RU", 2018, "23"): {
+        "stem": "Кого ни _____, никто не верит в честность выборов в этой маленькой стране.",
+        "source_page": 4,
+        "note": "原图恢复 ни 后的填空位并清除异常标点。",
+    },
+    ("TEM8_RU", 2018, "24"): {
+        "stem": "На Рижском проспекте автомобиль наехал на дерево, _____ погибли водитель и два пассажира.",
+        "source_page": 4,
+        "note": "原图恢复逗号后的填空位并合并断词。",
+    },
+    ("TEM8_RU", 2018, "29"): {
+        "stem": "Пусть ваша жизнь всегда будет _____ теплом и любовью родных и близких.",
+        "source_page": 4,
+        "note": "原图恢复 будет 后的填空位并清除 OCR 乱码。",
+    },
+    ("TEM8_RU", 2018, "30"): {
+        "stem": "В Международное бюро выставки была подана заявка _____ Всемирной выставки ЭКСПО-2025 в Екатеринбурге.",
+        "source_page": 4,
+        "note": "原图恢复 заявка 后的填空位并合并 ЭКСПО 断词。",
+    },
+    ("TEM8_RU", 2018, "31"): {
+        "stem": "На Гале было белое платье, _____ по случаю сегодняшнего праздника.",
+        "source_page": 4,
+        "note": "原图恢复逗号后的填空位。",
+    },
+    ("TEM8_RU", 2018, "44"): {
+        "stem": "2018 год объявлен президентом России Годом _____.",
+        "source_page": 6,
+        "note": "原图恢复句末填空位。",
+    },
+    ("TEM8_RU", 2018, "45"): {
+        "stem": "По традиции _____ в Москве проходит торжественная церемония возложения цветов к памятнику Минину и Пожарскому.",
+        "source_page": 6,
+        "note": "原图恢复 По традиции 后的填空位并合并断词。",
+    },
+    ("TEM8_RU", 2024, "16"): {
+        "stem": "— Не _____ билеты в театр. Положи их в свою сумочку.",
+        "source_page": 4,
+        "note": "原图恢复 Не 后的填空位。",
+    },
+    ("TEM8_RU", 2024, "17"): {
+        "stem": "Это стихотворение вполне _____ рассматриваться как предисловие к роману.",
+        "source_page": 4,
+        "note": "原图恢复 вполне 后的填空位。",
+    },
+    ("TEM8_RU", 2024, "18"): {
+        "stem": "Светлана собралась _____ позвонить подруге и передумала, когда уже вытащила телефон.",
+        "source_page": 4,
+        "note": "原图恢复 собралась 后的填空位。",
+    },
+    ("TEM8_RU", 2024, "21"): {
+        "stem": "_____ принять решение завести кошку, необходимо подумать, есть ли возможность создать для неё подходящие условия.",
+        "source_page": 5,
+        "note": "原图恢复句首填空位。",
+    },
+    ("TEM8_RU", 2024, "22"): {
+        "stem": "Ваза была тяжёлая, и я боялся, _____ не уронить её.",
+        "source_page": 5,
+        "note": "原图恢复 боялся 后的填空位。",
+    },
+    ("TEM8_RU", 2024, "24"): {
+        "stem": "Всё в этом мире есть идеологическая картина, построенная человеком для себя и _____ подобных.",
+        "source_page": 5,
+        "note": "原图恢复 и 后的填空位。",
+    },
+    ("TEM8_RU", 2024, "27"): {
+        "stem": "Сбор _____ пошёл на приобретение аппаратуры для детской больницы.",
+        "source_page": 5,
+        "note": "原图恢复 Сбор 后的填空位。",
+    },
+    ("TEM8_RU", 2024, "29"): {
+        "stem": "Мы радуемся победам и огорчаемся _____, но надо научиться принимать с благодарностью всё, что выпадает на нашу долю.",
+        "source_page": 6,
+        "note": "原图恢复填空位并清除错误标点与断词。",
+    },
+    ("TEM8_RU", 2024, "30"): {
+        "stem": "Ежегодно российские суды _____ более 20 тысяч дел о лишении родительских прав, и это не может не вызывать беспокойства.",
+        "source_page": 6,
+        "note": "原图恢复 суды 后的填空位。",
+    },
+    ("TEM8_RU", 2024, "31"): {
+        "stem": "Тебе не стоит _____ меня от поездки: я и сам не хочу ехать.",
+        "source_page": 6,
+        "note": "原图恢复 стоит 后的填空位。",
+    },
+    ("TEM8_RU", 2024, "32"): {
+        "stem": "Вместо того чтобы _____, ты бы лучше занимался.",
+        "source_page": 6,
+        "note": "原图恢复 чтобы 后的填空位并清除 OCR 符号。",
+    },
+    ("TEM8_RU", 2024, "34"): {
+        "stem": "_____ — это первая социально-политическая комедия, поставленная на русской сцене.",
+        "source_page": 6,
+        "note": "原图恢复句首作品名填空位。",
+    },
+    ("TEM8_RU", 2024, "35"): {
+        "stem": "«Стихотворения в прозе» — цикл из нескольких десятков стихотворений в прозе, созданных _____ в последние годы жизни.",
+        "source_page": 6,
+        "note": "原图恢复作者填空位，并修复 годы 的 OCR 错字。",
+    },
+    ("TEM8_RU", 2024, "38"): {
+        "stem": "Роман «Чевенгур» был написан _____ в 1927—1929 годах. Это единственный завершённый роман в творчестве писателя.",
+        "options": {"C": "А.Т. Твардовским"},
+        "source_page": 7,
+        "note": "原图恢复作者填空位，并修复 C 选项作者缩写。",
+    },
+    ("TEM8_RU", 2024, "40"): {
+        "stem": "Территорию России на востоке омывают моря Тихого океана: _____.",
+        "source_page": 7,
+        "note": "原图恢复冒号后的填空位。",
+    },
+    ("TEM8_RU", 2024, "41"): {
+        "stem": "Основоположником теории русского классического балета является _____.",
+        "options": {"B": "Г.С. Уланова"},
+        "source_page": 7,
+        "note": "原图恢复句末填空位，并修复 B 选项姓名缩写。",
+    },
+    ("TEM8_RU", 2024, "43"): {
+        "stem": "_____ — опера М.П. Мусоргского, сюжет которой заимствован из одноимённой повести Н.В. Гоголя.",
+        "source_page": 8,
+        "note": "原图恢复句首歌剧名填空位。",
+    },
+    ("TEM8_RU", 2024, "44"): {
+        "stem": "12 декабря 2023 года отмечалось _____ принятия Конституции Российской Федерации.",
+        "source_page": 8,
+        "note": "原图恢复 отмечалось 后的填空位。",
+    },
+    ("TEM8_RU", 2024, "45"): {
+        "stem": "Перекрёстные годы России и Китая, которые пройдут в 2024—2025 годах, будут посвящены _____.",
+        "source_page": 8,
+        "note": "原图恢复 посвящены 后的填空位。",
+    },
+    ("TEM8_RU", 2024, "66"): {
+        "options": {"B": "Смартфон."},
+        "source_page": 16,
+        "note": "原图确认 B 选项为 Смартфон，修复漏字母 т。",
+    },
+    ("TEM8_RU", 2024, "72"): {
+        "options": {"B": "При Екатерине II."},
+        "source_page": 20,
+        "note": "原图确认 B 选项为罗马数字 II，不是西里尔字母 П。",
+    },
+    ("TEM4_RU", 2024, "21"): {
+        "options": {"D": "с тем, что"},
+        "source_page": 3,
+        "note": "原图确认 D 选项被粘连为 стем。",
+    },
+    ("TEM4_RU", 2024, "28"): {
+        "stem": "Дом старый, но в окнах горит свет, значит, там _____ живёт.",
+        "source_page": 4,
+        "note": "原图确认填空位位于 там 与 живёт 之间。",
+    },
+    ("TEM4_RU", 2024, "30"): {
+        "stem": "_____ мы вошли в лес, сразу стало прохладно и летний день остался позади.",
+        "source_page": 4,
+        "note": "原图确认 прохладно 后无逗号。",
+    },
+    ("TEM4_RU", 2024, "31"): {
+        "options": {"A": "как ни"},
+        "source_page": 4,
+        "note": "原图确认 A 选项漏掉 ни。",
+    },
+    ("TEM4_RU", 2024, "32"): {
+        "stem": "Не _____ громко разговаривать во время спектакля.",
+        "source_page": 4,
+        "note": "原图确认题干开头漏掉 Не。",
+    },
+    ("TEM4_RU", 2024, "36"): {
+        "stem": "Знания — бесконечны, поэтому человеку всегда _____ учиться.",
+        "source_page": 4,
+        "note": "原图确认 Знания 后有破折号。",
+    },
+    ("TEM4_RU", 2024, "38"): {
+        "stem": "Семён всё лето работал над новой книгой, иногда _____ не выходил из дома.",
+        "options": {"A": "целого дня", "B": "целых дней"},
+        "source_page": 5,
+        "note": "原图恢复 работал、正确填空位置及 A/B 选项。",
+    },
+    ("TEM4_RU", 2024, "41"): {
+        "stem": "Несколько часов стоял густой туман, _____ мы не смогли вовремя вылететь.",
+        "source_page": 5,
+        "note": "原图确认末词为 вылететь，不是 выехать。",
+    },
+    ("TEM4_RU", 2024, "42"): {
+        "stem": "Мы с Николаем стали редко встречаться _____, как он перешёл на другую работу.",
+        "source_page": 5,
+        "note": "原图确认填空后保留逗号和 как。",
+    },
+    ("TEM4_RU", 2024, "46"): {
+        "options": {"B": "каким"},
+        "source_page": 5,
+        "note": "原图确认 B 选项没有 бы。",
+    },
+    ("TEM4_RU", 2024, "48"): {
+        "options": {"B": "от которых"},
+        "source_page": 6,
+        "note": "原图修复 которых 的 OCR 错字。",
+    },
+    ("TEM4_RU", 2024, "49"): {
+        "stem": "Хирургу удалось вернуть зрение человеку, не _____ 20 лет.",
+        "source_page": 6,
+        "note": "原图确认填空前漏掉 не。",
+    },
+    ("TEM4_RU", 2024, "52"): {
+        "options": {"D": "к молодежи"},
+        "source_page": 6,
+        "note": "原图确认介词与名词之间应有空格。",
+    },
+    ("TEM4_RU", 2024, "53"): {
+        "options": {"B": "к просьбе"},
+        "source_page": 6,
+        "note": "原图确认介词与名词之间应有空格。",
+    },
+    ("TEM4_RU", 2024, "59"): {
+        "options": {"A": "в руки"},
+        "source_page": 7,
+        "note": "原图确认介词与名词之间应有空格。",
+    },
+    ("TEM4_RU", 2024, "81"): {
+        "options": {"B": "Она нашла новую работу."},
+        "correct_answer": "A",
+        "source_page": 11,
+        "note": "原图修复 B 选项拉丁字母，并从原卷答案页补回答案。",
+    },
+    ("TEM4_RU", 2024, "82"): {
+        "options": {"A": "Когда они учились в школе."},
+        "source_page": 11,
+        "note": "原图修复 A 选项形近字。",
+    },
+    ("TEM4_RU", 2024, "83"): {
+        "options": {"A": "Елена Ивановна.", "C": "Родители Андрея."},
+        "correct_answer": "D",
+        "source_page": 11,
+        "note": "原图修复 A/C 选项的人名 OCR，并从原卷答案页补回答案。",
+    },
+    ("TEM4_RU", 2024, "84"): {
+        "stem": "Почему Андрей не хотел отвечать на письма Ани?",
+        "options": {
+            "A": "Он на неё обиделся.",
+            "B": "Он не получал от неё писем.",
+            "D": "Он чувствовал себя недостойным её любви.",
+        },
+        "correct_answer": "D",
+        "source_page": 11,
+        "note": "原图修复问号、代词和被页眉污染的 D 选项，并从原卷答案页补回答案。",
+    },
+    ("TEM4_RU", 2024, "85"): {
+        "options": {
+            "A": "Аня и Андрей расстались.",
+            "B": "Аня и Андрей поженились.",
+            "C": "Андрей погиб, и Аня вышла замуж за врача.",
+        },
+        "source_page": 12,
+        "note": "原图修复姓名、漏空格及 C 选项标点。",
+    },
+    ("TEM4_RU", 2024, "86"): {
+        "stem": "Как называют XVIII век?",
+        "options": {"A": "Веком литературы."},
+        "source_page": 13,
+        "note": "原图确认罗马数字 XVIII，并修复 A 选项。",
+    },
+    ("TEM4_RU", 2024, "87"): {
+        "stem": "В каком году была создана Российская Академия наук?",
+        "options": {"C": "В 1728 году.", "D": "В 1783 году."},
+        "source_page": 13,
+        "note": "原图修复题干及 C/D 选项形近字与标点。",
+    },
+    ("TEM4_RU", 2024, "88"): {
+        "stem": "Чем Российская Академия наук отличалась от европейских?",
+        "options": {
+            "A": "В ней обучалось много молодых учёных.",
+            "D": "Она выполняла самые важные государственные задачи.",
+        },
+        "source_page": 13,
+        "note": "原图修复题干和 A/D 选项形近字。",
+    },
+    ("TEM4_RU", 2024, "89"): {
+        "options": {"A": "Она улучшила просветительскую работу."},
+        "source_page": 13,
+        "note": "原图移除 A 选项吸收的页眉噪声。",
+    },
+    ("TEM4_RU", 2024, "90"): {
+        "stem": "Сколько академиков сейчас насчитывается в Российской Академии наук?",
+        "options": {"B": "Более 1 000."},
+        "source_page": 14,
+        "note": "原图修复题干和 B 选项形近字。",
+    },
+    ("TEM4_RU", 2024, "91"): {
+        "stem": "Благодаря чему Грибоедов пользуется бессмертной славой?",
+        "source_page": 15,
+        "note": "原图修复作家姓氏。",
+    },
+    ("TEM4_RU", 2024, "92"): {
+        "options": {
+            "A": "Кто будет достоин её любви.",
+            "B": "Выйдет ли она замуж когда-нибудь.",
+            "D": "Согласится ли Грибоедов заниматься с ней музыкой.",
+        },
+        "source_page": 15,
+        "note": "原图修复代词、连字符和 D 选项动词。",
+    },
+    ("TEM4_RU", 2024, "93"): {
+        "stem": "Что Нина поняла, когда у неё снова начались уроки с Грибоедовым?",
+        "options": {
+            "A": "Он слишком стар для неё.",
+            "C": "Он самый лучший в мире человек.",
+            "D": "Он никогда не сможет полюбить её.",
+        },
+        "source_page": 15,
+        "note": "原图修复题干、代词和被页眉污染的 C 选项。",
+    },
+    ("TEM4_RU", 2024, "94"): {
+        "source_page": 16,
+        "note": "多模态逐项核对，题干与选项和原图一致。",
+    },
+    ("TEM4_RU", 2024, "95"): {
+        "options": {"A": "Князю Чавчавадзе."},
+        "correct_answer": "D",
+        "source_page": 16,
+        "note": "原图修复 A 选项人名，并从原卷答案页补回答案。",
+    },
+    ("TEM4_RU", 2024, "96"): {
+        "options": {
+            "C": "Родной край автора текста.",
+            "D": "Литературный музей им. А.С. Пушкина.",
+        },
+        "source_page": 17,
+        "note": "原图补全 D 选项并修复 C 选项标点。",
+    },
+    ("TEM4_RU", 2024, "97"): {
+        "stem": "Где автор впервые встретил внучку Анны Керн?",
+        "options": {"C": "Там, где росли когда-то три пушкинские сосны."},
+        "source_page": 17,
+        "note": "原图修复人名和 C 选项形近字。",
+    },
+    ("TEM4_RU", 2024, "98"): {
+        "options": {"D": "Там всегда стоят пасмурные дни."},
+        "source_page": 17,
+        "note": "原图移除 D 选项吸收的页眉噪声。",
+    },
+    ("TEM4_RU", 2024, "99"): {
+        "stem": "Что в Михайловском парке сохранилось с пушкинских времён?",
+        "options": {
+            "A": "Дом деда Пушкина.",
+            "B": "Домик няни Пушкина.",
+            "C": "Скамья Евгения Онегина.",
+        },
+        "source_page": 18,
+        "note": "原图修复题干和 A/B/C 三个选项的 OCR 错字。",
+    },
+    ("TEM4_RU", 2024, "100"): {
+        "options": {"D": "В нескольких километрах от Петербурга."},
+        "source_page": 18,
+        "note": "原图截断 D 选项后的翻译、作文及答案页噪声。",
+    },
+}
+
+
+PASSAGE_REPLACEMENTS: dict[tuple[str, int, str], list[tuple[str, str]]] = {
+    ("TEM4_RU", 2024, "81"): [
+        ("отнуск", "отпуск"),
+        ("посхать", "поехать"),
+        ("сс елинственная", "ее единственная"),
+        ("это. она", "это, она"),
+        ("об Андрес", "об Андрее"),
+        ("усхал", "уехал"),
+        ("присзжал", "приезжал"),
+        ("любит ce", "любит ее"),
+        ("любит ее, «Вы", "любит ее. «Вы"),
+        ("Иванов-\nHa", "Ивановна"),
+        ("Опа сказала", "Она сказала"),
+        ("Hi вот", "И вот"),
+        ("He было", "Не было"),
+        ("Пишст Вам", "Пишет Вам"),
+        ("скоро ero выпишут", "скоро его выпишут"),
+        ("пишете сму письма", "пишете ему письма"),
+        ("он He хочет", "он не хочет"),
+        ("прохо-\nдил", "проходил"),
+        ("ожог\nCHET)", "ожог"),
+        ("«Здравствуйте. незнакомая Аня!", "«Здравствуйте, незнакомая Аня!"),
+        ("медсестра больницы. в которой", "медсестра больницы, в которой"),
+        ("несколь-\nко", "несколько"),
+        ("«Мой внук. —", "«Мой внук, —"),
+        ("показать мие", "показать мне"),
+        ("фотографию Андрея. она", "фотографию Андрея, она"),
+        ("сейчас on фотографирует", "сейчас он фотографирует"),
+    ],
+    ("TEM4_RU", 2024, "86"): [
+        ("XVII столетие", "XVIII столетие"),
+        ("ХУШ веке", "XVIII веке"),
+        ("ХУШ вске", "XVIII веке"),
+        ("книги, Первый", "книги. Первый"),
+        ("библнотску", "библиотеку"),
+        ("Россия\nHe станет", "Россия\nне станет"),
+        ("матемагики", "математики"),
+        ("на-\nучных", "научных"),
+        ("изученнем", "изучением"),
+        ("странах. но", "странах, но"),
+        ("гуманитарное (AL\nХ В) ) отделение", "гуманитарное отделение"),
+        ("просторон", "просторов"),
+        ("философии и тд.", "философии и т.д."),
+        ("ископаемых (Я)", "ископаемых"),
+        ("обсерваторию CA FF),", "обсерваторию,"),
+        ("Российской Академии, Он", "Российской Академии. Он"),
+        ("России\nХУНГ века", "России\nXVIII века"),
+        ("Академии паук", "Академии наук"),
+        ("писала ньесы", "писала пьесы"),
+        ("свронейских", "европейских"),
+        ("дирсктором", "директором"),
+        ("течение |1 лет", "течение 11 лет"),
+        ("проевети-\nтельская", "просветительская"),
+        ("технологий (1.2)", "технологий"),
+        ("энергетики ( fei)", "энергетики"),
+        ("присуждение (FZ T°)", "присуждение"),
+        ("лауреатами ( {№ М)стали", "лауреатами стали"),
+    ],
+    ("TEM4_RU", 2024, "91"): [
+        ("ода-\nренный (WAFL EG AY)", "одаренный"),
+        ("дипломатом (4b 2é FY)", "дипломатом"),
+        ("болес", "более"),
+        ("сегодия", "сегодня"),
+        ("пролол-\nжалась", "продолжалась"),
+        ("Чавчавалзе", "Чавчавадзе"),
+        ("У князя (7)\nЧавчавадзе", "У князя\nЧавчавадзе"),
+        ("на инанино ( #4 28)", "на пианино"),
+        ("рассказывала сму", "рассказывала ему"),
+        ("очаровательную ( 34 A fy)", "очаровательную"),
+        ("прекраснсе", "прекраснее"),
+        ("Грибосдову", "Грибоедову"),
+        ("полюбить сто", "полюбить его"),
+        ("К cro удивлению", "К его удивлению"),
+        ("Грибосдова", "Грибоедова"),
+        ("compa усхала", "семья уехала"),
+        ("\nrie Грибоедов", "\nгде Грибоедов"),
+        ("усхать", "уехать"),
+        ("Алексаидр", "Александр"),
+        ("буита (24 2} )", "бунта"),
+        ("озверевшей (A SEAY ) толпой", "озверевшей толпой"),
+        ("Ee уговорили", "Ее уговорили"),
+        ("от Hee", "от нее"),
+        ("похоронила ( $} )", "похоронила"),
+        ("на rope", "на горе"),
+        ("Свя-\nтого", "Святого"),
+        ("прекрас-\nные", "прекрасные"),
+        ("русской.\nно", "русской,\nно"),
+        ("семналцать", "семнадцать"),
+        ("опасной,", "опасной."),
+        ("осталась в Тавризе. имея", "осталась в Тавризе, имея"),
+        ("Прошел месяц. но", "Прошел месяц, но"),
+    ],
+    ("TEM4_RU", 2024, "96"): [
+        ("лирической (FF |1 AY) силой", "лирической силой"),
+        ("Пчелы (3 )", "Пчелы"),
+        ("аллее (Е ИННИУЙЙ )", "аллее"),
+        ("заповедника ( [| А (PIX )", "заповедника"),
+        ("изгородь ( #4)", "изгородь"),
+        ("неутомима (ASAE ЕЙУ)", "неутомима"),
+        ("Вероничах", "Вороничах"),
+        ("заповелникс", "заповеднике"),
+        ("Михай-\nловское", "Михайловское"),
+        ("Михай-\nловский", "Михайловский"),
+        ("внечтление", "впечатление"),
+        ("насмурные", "пасмурные"),
+        ("Свег", "Свет"),
+        ("золопими", "золотыми"),
+        ("On полон Пупщиным", "Он полон Пушкиным"),
+        ("Михайлонский", "Михайловский"),
+        ("размьнилений", "размышлений"),
+        ("парк. где", "парк, где"),
+        ("Главная cro прелесть (47)", "Главная его прелесть"),
+        ("Пушки-\nна", "Пушкина"),
+        ("сдинственном", "единственном"),
+        ("со премен", "со времен"),
+        ("раныше", "раньше"),
+        ("дом леда", "дом деда"),
+        ("Ее Geperyt", "Ее берегут"),
+        ("монастырь ( И\nbe)", "монастырь"),
+        ("Здесь TOT", "Здесь тот"),
+        ("«милый предел Ci #2)»", "«милый предел»"),
+        ("блестя-\nщей", "блестящей"),
+        ("взволнованиой", "взволнованной"),
+        ("взволнованной жизни, И здесь", "взволнованной жизни. И здесь"),
+    ],
+    ("TEM8_RU", 2024, "56"): [
+        ("при-\nняла", "приняла"),
+        (": любовью", "любовью"),
+        (", HO инженер", ", но инженер"),
+        ("\n\nлюбовью", "\nлюбовью"),
+    ],
+    ("TEM8_RU", 2024, "60"): [
+        ("пиа-\nнистом", "пианистом"),
+        ("Большую 30-\nлотую", "Большую золотую"),
+        ("олноактную", "одноактную"),
+        ("оцеику", "оценку"),
+        ("\nHo в 1897", "\nНо в 1897"),
+        ("депрессию (38 )", "депрессию"),
+        ("\n° концерте", "\nконцерте"),
+        ("\n| Первые 10", "\nПервые 10"),
+        ("\n\nконцерте", "\nконцерте"),
+    ],
+    ("TEM8_RU", 2024, "64"): [
+        ("(K3C )", "(КЗС)"),
+        ("(КЗС)— комплекс симптомов ,", "(КЗС) — комплекс симптомов,"),
+        ("(ЛЕ)", ""),
+        ("тако-\nго", "такого"),
+        ("развивающих-\nся", "развивающихся"),
+        ("По-\nскольку", "Поскольку"),
+        ("распространен-\nность", "распространенность"),
+        ("зритель-\nной", "зрительной"),
+        ("рекомен-\nдуется", "рекомендуется"),
+        ("папряжепием", "напряжением"),
+        ("HIOLITONILIM использовапием", "избыточным использованием"),
+        ("гаджетоманят ( Х] 9/74 ЕЛЕ)", "гаджетоманят"),
+        ("КЗС'", "КЗС"),
+        ("нарушений CO стороны", "нарушений со стороны"),
+        (": OT\nсимптомов", ": от\nсимптомов"),
+        ("\n| сухого глаза", "\nсухого глаза"),
+        ("\n. близкое", "\nблизкое"),
+        ("\n\nсухого", "\nсухого"),
+        ("\n\nблизкое", "\nблизкое"),
+        ("\n\nфутов", "\nфутов"),
+        ("сутулиться (819 )", "сутулиться"),
+        ("моргания ( 7 В )", "моргания"),
+    ],
+    ("TEM8_RU", 2024, "68"): [
+        ("А я лоблю свото школу", "А я люблю свою школу"),
+        ("че-\n\n293\n\nго-нибудь", "чего-нибудь"),
+        ("че-\n\nго-нибудь", "чего-нибудь"),
+        ("об-\nратно", "обратно"),
+        ("произве-\nдениями", "произведениями"),
+        ("по-ино-\nму", "по-иному"),
+        ("отправить-\nся", "отправиться"),
+        ("отклады-\nвать", "откладывать"),
+        ("деликатности\n(%[9Я )", "деликатности"),
+        ("адресата (FEF )", "адресата"),
+        ("без адресата »", "без адресата»"),
+    ],
+    ("TEM8_RU", 2024, "72"): [
+        ("проблема нс слишком", "проблема не слишком"),
+        ("по\nсохранению", "по сохранению"),
+        ("ипициативу", "инициативу"),
+        ("пришлось браль", "пришлось брать"),
+        ("Екатерины П.", "Екатерины II."),
+        ("строительство было,\nсначала", "строительство было\nсначала"),
+        ("археологические (21)", "археологические"),
+        ("правом вето (—-32 797%)", "правом вето"),
+        ("инстанции (2 |)", "инстанции"),
+        ("организа-\nЦИЯМ", "организациям"),
+        ("под\n\nзащиту", "под защиту"),
+        ("столи-\nцах", "столицах"),
+        ("с\n\nвозрастом", "с возрастом"),
+        ("определялась\n\nвозрастом", "определялась возрастом"),
+        ("до революции )", "до революции)"),
+    ],
+}
+
+
+PAGE_BLOCK_RE = re.compile(
+    r"\n*\d{3}\s*\n+--- Page \d+ \(ocr\) ---\n+[^\n]*\n+",
+    re.IGNORECASE,
+)
+
+SCANNED_PAGE_BREAK_RE = re.compile(
+    r"\n+\d{3}\s*\n+(?:[^\n]*[A-Za-zА-Яа-яЁё][^\n]*)\n+",
+)
+
+
+def clean_passage_body(body: str, replacements: list[tuple[str, str]]) -> str:
+    cleaned = PAGE_BLOCK_RE.sub("\n\n", body)
+    cleaned = SCANNED_PAGE_BREAK_RE.sub("\n\n", cleaned)
+    for old, new in replacements:
+        cleaned = cleaned.replace(old, new)
+    cleaned = re.sub(r"[ \t]+\n", "\n", cleaned)
+    cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
+    return cleaned.strip()
+
+
+def load_question(con: sqlite3.Connection, exam: str, year: int, number: str) -> sqlite3.Row:
+    row = con.execute(
+        """
+        SELECT q.id, q.stem, q.correct_answer, q.source_page,
+               q.review_status, q.source_usage
+        FROM questions q
+        JOIN exam_systems es ON es.id = q.exam_system_id
+        WHERE es.code = ? AND q.source_year = ? AND q.source_question_number = ?
+          AND q.content_origin = 'past_exam_original'
+        """,
+        (exam, year, number),
+    ).fetchone()
+    if row is None:
+        raise RuntimeError(f"Question not found: {exam} {year} #{number}")
+    return row
+
+
+def current_options(con: sqlite3.Connection, question_id: int) -> dict[str, str]:
+    return dict(
+        con.execute(
+            "SELECT option_key, option_text FROM question_options WHERE question_id = ?",
+            (question_id,),
+        ).fetchall()
+    )
+
+
+def add_review_log(
+    con: sqlite3.Connection,
+    question_id: int,
+    note: str,
+    review_decision: str,
+) -> None:
+    con.execute(
+        """
+        INSERT INTO question_review_logs
+          (question_id, review_decision, review_notes, knowledge_point_codes, reviewer)
+        VALUES (?, ?, ?, NULL, ?)
+        """,
+        (question_id, review_decision, "multimodal_source_fix: " + note, REVIEWER),
+    )
+
+
+def build_changes(con: sqlite3.Connection) -> list[dict]:
+    changes = []
+    for (exam, year, number), fix in FIXES.items():
+        row = load_question(con, exam, year, number)
+        old_options = current_options(con, row["id"])
+        new_stem = fix.get("stem", row["stem"])
+        new_correct_answer = fix.get("correct_answer", row["correct_answer"])
+        option_changes = {
+            key: {"old": old_options.get(key), "new": value}
+            for key, value in fix.get("options", {}).items()
+            if old_options.get(key) != value
+        }
+        if (
+            new_stem == row["stem"]
+            and new_correct_answer == row["correct_answer"]
+            and not option_changes
+            and row["source_page"] == fix.get("source_page")
+        ):
+            continue
+        changes.append(
+            {
+                "exam": exam,
+                "year": year,
+                "number": number,
+                "question_id": row["id"],
+                "old_stem": row["stem"],
+                "new_stem": new_stem,
+                "old_correct_answer": row["correct_answer"],
+                "new_correct_answer": new_correct_answer,
+                "option_changes": option_changes,
+                "old_source_page": row["source_page"],
+                "new_source_page": fix.get("source_page", row["source_page"]),
+                "review_status": row["review_status"],
+                "note": fix["note"],
+            }
+        )
+    return changes
+
+
+def build_passage_changes(con: sqlite3.Connection) -> list[dict]:
+    changes = []
+    for (exam, year, first_number), replacements in PASSAGE_REPLACEMENTS.items():
+        row = con.execute(
+            """
+            SELECT p.id, p.title, p.body, p.source_page_start, p.source_page_end
+            FROM questions q
+            JOIN exam_systems es ON es.id = q.exam_system_id
+            JOIN passages p ON p.id = q.passage_id
+            WHERE es.code = ? AND q.source_year = ? AND q.source_question_number = ?
+            """,
+            (exam, year, first_number),
+        ).fetchone()
+        if row is None:
+            raise RuntimeError(f"Passage not found: {exam} {year} starting at #{first_number}")
+        new_body = clean_passage_body(row["body"], replacements)
+        if new_body == row["body"]:
+            continue
+        changes.append(
+            {
+                "exam": exam,
+                "year": year,
+                "first_question_number": first_number,
+                "passage_id": row["id"],
+                "title": row["title"],
+                "old_body": row["body"],
+                "new_body": new_body,
+                "old_length": len(row["body"]),
+                "new_length": len(new_body),
+            }
+        )
+    return changes
+
+
+def apply_changes(con: sqlite3.Connection, changes: list[dict]) -> None:
+    for change in changes:
+        con.execute(
+            """
+            UPDATE questions
+            SET stem = ?, correct_answer = ?, source_page = ?,
+                updated_at = CURRENT_TIMESTAMP
+            WHERE id = ?
+            """,
+            (
+                change["new_stem"],
+                change["new_correct_answer"],
+                change["new_source_page"],
+                change["question_id"],
+            ),
+        )
+        for key, values in change["option_changes"].items():
+            con.execute(
+                """
+                UPDATE question_options
+                SET option_text = ?, updated_at = CURRENT_TIMESTAMP
+                WHERE question_id = ? AND option_key = ?
+                """,
+                (values["new"], change["question_id"], key),
+            )
+        add_review_log(
+            con,
+            change["question_id"],
+            change["note"],
+            change["review_status"],
+        )
+
+
+def apply_passage_changes(con: sqlite3.Connection, changes: list[dict]) -> None:
+    for change in changes:
+        con.execute(
+            "UPDATE passages SET body = ?, updated_at = CURRENT_TIMESTAMP WHERE id = ?",
+            (change["new_body"], change["passage_id"]),
+        )
+
+
+def inconsistent_review_log_ids(con: sqlite3.Connection) -> list[int]:
+    return [
+        row["id"]
+        for row in con.execute(
+            """
+            SELECT l.id
+            FROM question_review_logs l
+            JOIN questions q ON q.id = l.question_id
+            WHERE l.reviewer = ?
+              AND l.review_decision != q.review_status
+            """,
+            (REVIEWER,),
+        )
+    ]
+
+
+def normalize_review_logs(con: sqlite3.Connection, log_ids: list[int]) -> None:
+    for log_id in log_ids:
+        con.execute(
+            """
+            UPDATE question_review_logs
+            SET review_decision = (
+                SELECT q.review_status
+                FROM questions q
+                WHERE q.id = question_review_logs.question_id
+            )
+            WHERE id = ?
+            """,
+            (log_id,),
+        )
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Apply source-verified multimodal question fixes.")
+    parser.add_argument("--db", default=str(DB_PATH))
+    parser.add_argument("--apply", action="store_true", help="Apply changes; default is dry-run.")
+    args = parser.parse_args()
+
+    db_path = Path(args.db)
+    con = sqlite3.connect(db_path)
+    con.row_factory = sqlite3.Row
+    changes = build_changes(con)
+    passage_changes = build_passage_changes(con)
+    review_log_ids = inconsistent_review_log_ids(con)
+
+    stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    backup_path = None
+    if args.apply and (changes or passage_changes or review_log_ids):
+        BACKUP_DIR.mkdir(parents=True, exist_ok=True)
+        backup_path = BACKUP_DIR / f"{db_path.stem}_before_multimodal_fixes_{stamp}{db_path.suffix}"
+        shutil.copy2(db_path, backup_path)
+        with con:
+            apply_changes(con, changes)
+            apply_passage_changes(con, passage_changes)
+            normalize_review_logs(con, review_log_ids)
+    con.close()
+
+    report = {
+        "mode": "apply" if args.apply else "dry_run",
+        "database": str(db_path.resolve()),
+        "backup": str(backup_path) if backup_path else None,
+        "change_count": len(changes),
+        "passage_change_count": len(passage_changes),
+        "review_log_normalization_count": len(review_log_ids),
+        "changes": changes,
+        "passage_changes": passage_changes,
+    }
+    REPORT_DIR.mkdir(parents=True, exist_ok=True)
+    report_path = REPORT_DIR / "multimodal_question_fixes_latest.json"
+    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(
+        json.dumps(
+            {k: v for k, v in report.items() if k not in {"changes", "passage_changes"}},
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
+
+
+if __name__ == "__main__":
+    main()
