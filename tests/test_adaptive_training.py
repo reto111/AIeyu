@@ -118,18 +118,18 @@ class AdaptiveTrainingTests(unittest.TestCase):
             conn.commit()
 
     def test_language_weakness_is_prioritized_over_culture(self) -> None:
-        grammar_id = self.question_id("TEM4_RU", "grammar.aspect")
-        culture_id = self.question_id("TEM4_RU", "culture.history")
+        grammar_id = self.question_id("TEM4_RU", "grammar.forms")
+        culture_id = self.question_id("TEM4_RU", "culture.knowledge")
         self.add_attempts("TEM4_RU", "TEM4", grammar_id, [False] * 5)
         self.add_attempts("TEM4_RU", "TEM4", culture_id, [False] * 5)
 
         profile = app.api_profile(self.user_id, "TEM4_RU", "TEM4")
 
-        self.assertEqual(profile["next_training"]["target_code"], "grammar.aspect")
+        self.assertEqual(profile["next_training"]["target_code"], "grammar.forms")
         self.assertGreater(profile["next_training"]["focus_weight"], 1)
 
-    def test_fine_shortage_falls_back_only_within_same_type(self) -> None:
-        grammar_id = self.question_id("TEM4_RU", "grammar.aspect")
+    def test_coarse_pool_supplies_full_specialization_without_fallback(self) -> None:
+        grammar_id = self.question_id("TEM4_RU", "grammar.forms")
         self.add_attempts("TEM4_RU", "TEM4", grammar_id, [False] * 5)
 
         quiz = app.api_generate_quiz(
@@ -143,13 +143,13 @@ class AdaptiveTrainingTests(unittest.TestCase):
             }
         )
 
-        self.assertEqual(quiz["training"]["target_code"], "grammar.aspect")
-        self.assertTrue(quiz["training"]["fallback_used"])
+        self.assertEqual(quiz["training"]["target_code"], "grammar.forms")
+        self.assertFalse(quiz["training"]["fallback_used"])
         self.assertEqual({item["question_type"] for item in quiz["questions"]}, {"grammar_choice"})
         self.assertEqual(quiz["count"], 10)
 
     def test_reading_specialization_keeps_complete_passages(self) -> None:
-        reading_id = self.question_id("TEM4_RU", "reading.main_idea")
+        reading_id = self.question_id("TEM4_RU", "reading.comprehension")
         self.add_attempts("TEM4_RU", "TEM4", reading_id, [False] * 5)
 
         profile = app.api_profile(self.user_id, "TEM4_RU", "TEM4")
@@ -252,7 +252,7 @@ class AdaptiveTrainingTests(unittest.TestCase):
             {
                 "user_id": self.user_id,
                 "mode": "knowledge_point",
-                "target_code": "grammar.aspect",
+                "target_code": "grammar.forms",
                 "exam_system": "TEM4_RU",
                 "level": "TEM4",
                 "count": 10,
@@ -261,11 +261,11 @@ class AdaptiveTrainingTests(unittest.TestCase):
         )
 
         self.assertEqual(quiz["mode"], "knowledge_point")
-        self.assertEqual(quiz["training"]["target_code"], "grammar.aspect")
+        self.assertEqual(quiz["training"]["target_code"], "grammar.forms")
         self.assertEqual({item["question_type"] for item in quiz["questions"]}, {"grammar_choice"})
 
     def test_study_center_is_isolated_by_user(self) -> None:
-        grammar_id = self.question_id("TEM4_RU", "grammar.aspect")
+        grammar_id = self.question_id("TEM4_RU", "grammar.forms")
         self.add_attempts("TEM4_RU", "TEM4", grammar_id, [True, False, True, False, True])
 
         current = app.api_study_center(self.user_id, "TEM4_RU", "TEM4")
@@ -274,26 +274,26 @@ class AdaptiveTrainingTests(unittest.TestCase):
         self.assertEqual(current["periods"]["seven_days"]["attempted"], 5)
         self.assertEqual(other["periods"]["seven_days"]["attempted"], 0)
         self.assertEqual(len(current["daily_trend"]), 7)
-        self.assertTrue(any(item["target_code"] == "grammar.aspect" for item in current["knowledge_mastery"]))
+        self.assertTrue(any(item["target_code"] == "grammar.forms" for item in current["knowledge_mastery"]))
         self.assertFalse(any(item["category"] == "reading" for item in current["knowledge_mastery"]))
         self.assertNotEqual(current["today"]["plan_id"], other["today"]["plan_id"])
         self.assertEqual([item["task_type"] for item in current["today"]["tasks"]], ["questions", "wrongbook", "words"])
 
     def test_daily_plan_is_stable_and_counts_only_recommended_question_type(self) -> None:
-        grammar_id = self.question_id("TEM4_RU", "grammar.aspect")
-        culture_id = self.question_id("TEM4_RU", "culture.history")
+        grammar_id = self.question_id("TEM4_RU", "grammar.forms")
+        culture_id = self.question_id("TEM4_RU", "culture.knowledge")
         self.add_attempts("TEM4_RU", "TEM4", grammar_id, [False] * 5)
 
         first = app.api_study_center(self.user_id, "TEM4_RU", "TEM4")
         question_task = first["today"]["tasks"][0]
-        self.assertEqual(question_task["target_code"], "grammar.aspect")
+        self.assertEqual(question_task["target_code"], "grammar.forms")
         self.assertEqual(question_task["completed"], 5)
 
         self.add_attempts("TEM4_RU", "TEM4", culture_id, [False] * 5)
         second = app.api_study_center(self.user_id, "TEM4_RU", "TEM4")
         second_task = second["today"]["tasks"][0]
         self.assertEqual(second["today"]["plan_id"], first["today"]["plan_id"])
-        self.assertEqual(second_task["target_code"], "grammar.aspect")
+        self.assertEqual(second_task["target_code"], "grammar.forms")
         self.assertEqual(second_task["completed"], 5)
 
         quiz = app.api_generate_quiz(
@@ -307,7 +307,7 @@ class AdaptiveTrainingTests(unittest.TestCase):
                 "seed": 20260901,
             }
         )
-        self.assertEqual(quiz["training"]["target_code"], "grammar.aspect")
+        self.assertEqual(quiz["training"]["target_code"], "grammar.forms")
 
         with self.assertRaisesRegex(ValueError, "不属于当前账号"):
             app.api_generate_quiz(
@@ -440,6 +440,42 @@ class AdaptiveTrainingTests(unittest.TestCase):
         self.assertEqual(content.code, "literature.work_content")
         self.assertEqual(history.code, "literature.history_movements")
 
+    def test_student_training_directions_have_stable_question_pools(self) -> None:
+        expected = {
+            "TEM4_RU": {
+                "grammar.forms",
+                "grammar.collocation",
+                "grammar.sentence",
+                "culture.knowledge",
+                "reading.comprehension",
+            },
+            "TEM8_RU": {
+                "grammar.forms",
+                "grammar.collocation",
+                "grammar.sentence",
+                "literature.knowledge",
+                "culture.knowledge",
+                "reading.comprehension",
+            },
+        }
+        with closing(sqlite3.connect(self.db_path)) as conn:
+            for exam_code, expected_codes in expected.items():
+                rows = conn.execute(
+                    """
+                    SELECT kp.code, COUNT(DISTINCT q.id)
+                    FROM question_knowledge_points qkp
+                    JOIN questions q ON q.id = qkp.question_id
+                    JOIN knowledge_points kp ON kp.id = qkp.knowledge_point_id
+                    JOIN exam_systems es ON es.id = q.exam_system_id
+                    WHERE es.code = ? AND q.review_status = 'approved'
+                      AND q.source_usage = 'practice'
+                    GROUP BY kp.code
+                    """,
+                    (exam_code,),
+                ).fetchall()
+                self.assertEqual({row[0] for row in rows}, expected_codes)
+                self.assertTrue(all(int(row[1]) >= 20 for row in rows))
+
     def test_approved_practice_questions_have_no_high_or_medium_audit_issues(self) -> None:
         with closing(sqlite3.connect(self.db_path)) as conn:
             conn.row_factory = sqlite3.Row
@@ -457,7 +493,7 @@ class AdaptiveTrainingTests(unittest.TestCase):
         self.assertEqual(issues, [])
 
     def test_wrongbook_preferences_and_review_are_isolated_by_user(self) -> None:
-        question_id = self.question_id("TEM4_RU", "grammar.aspect")
+        question_id = self.question_id("TEM4_RU", "grammar.forms")
         self.add_attempts("TEM4_RU", "TEM4", question_id, [False, False])
 
         wrongbook = app.api_wrongbook(self.user_id, 80, "TEM4_RU", "TEM4")

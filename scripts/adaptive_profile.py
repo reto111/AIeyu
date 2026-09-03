@@ -27,7 +27,7 @@ TRAINING_FOCUS_WEIGHTS = {
     "listening": 0.90,
 }
 TRAINING_TARGET_WEIGHTS = {
-    "grammar.lexical_choice": 1.45,
+    "grammar.collocation": 1.45,
 }
 
 # Reading remains a broad question-type ability. Its mechanical subtypes are

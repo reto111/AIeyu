@@ -1291,7 +1291,7 @@ function renderStudyCenter(payload) {
     <section class="knowledge-group">
       <div class="knowledge-group-head">
         <h3>${escapeHtml(KNOWLEDGE_CATEGORY_NAMES[category] || category)}</h3>
-        <span>${items.length} 个知识点</span>
+        <span>${items.length} 个方向</span>
       </div>
       <div class="knowledge-list">
         ${items.map((item) => `

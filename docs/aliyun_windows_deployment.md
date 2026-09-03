@@ -122,11 +122,15 @@ Copy-Item .\database\russian_ai_tutor.sqlite .\database\russian_ai_tutor_before_
 ```
 
 3. 将更新包解压并覆盖到项目目录，保留服务器原有的 `.env` 和 `database\russian_ai_tutor.sqlite`。
-4. 执行包内数据库补丁：
+4. 依次执行当前版本的确定性内容修正和知识点重标：
 
 ```powershell
-python -c "import sqlite3; c=sqlite3.connect(r'database\russian_ai_tutor.sqlite'); c.executescript(open(r'database\migrations\20260827_tem4_review_state.sql',encoding='utf-8').read()); c.close()"
+python -B scripts\apply_question_quality_fixes.py
+python -B scripts\tag_question_knowledge_points.py --apply
+python -B scripts\apply_vocabulary_quality_fixes.py
 ```
+
+这些脚本都会在写入前备份数据库，只修改题目文本、知识点关系和已确认词义，不删除学生账号、作答、错题或单词进度。请保持上述顺序：先修题目，再按修正后的题目重标，最后修词义。
 
 5. 重新启动服务：
 
@@ -134,7 +138,7 @@ python -c "import sqlite3; c=sqlite3.connect(r'database\russian_ai_tutor.sqlite'
 python scripts\serve_student_app.py --host 0.0.0.0 --port 8765
 ```
 
-如果服务器数据库已经包含本次 71、88 题修正，补丁重复执行也只会重新写入相同内容，不会删除学生账号和学习记录。
+这些修正脚本可重复执行；再次运行会重写相同的确定性结果，不会删除学生账号和学习记录。
 
 ## 10. 发布前一键验收
 

@@ -27,6 +27,50 @@ TYPE_PARENT = {
     "reading_choice": "reading",
 }
 
+# Keep detailed classifications in the review report, but use broader pools for
+# student mastery and practice so each score is based on enough questions.
+COARSE_CODE_MAP = {
+    "grammar.case": "grammar.forms",
+    "grammar.aspect": "grammar.forms",
+    "grammar.motion_verbs": "grammar.forms",
+    "grammar.verb_form": "grammar.forms",
+    "grammar.participle": "grammar.forms",
+    "grammar.adverbial_participle": "grammar.forms",
+    "grammar.numeral": "grammar.forms",
+    "grammar.pronoun": "grammar.forms",
+    "grammar.adjective_adverb": "grammar.forms",
+    "grammar.preposition": "grammar.collocation",
+    "grammar.lexical_choice": "grammar.collocation",
+    "grammar.syntax_simple": "grammar.sentence",
+    "grammar.syntax_complex": "grammar.sentence",
+    "grammar.style": "grammar.sentence",
+    "literature.author_work": "literature.knowledge",
+    "literature.work_content": "literature.knowledge",
+    "literature.history_movements": "literature.knowledge",
+    "literature.genre_terms": "literature.knowledge",
+    "culture.geography": "culture.knowledge",
+    "culture.history": "culture.knowledge",
+    "culture.politics": "culture.knowledge",
+    "culture.symbols": "culture.knowledge",
+    "culture.education_science": "culture.knowledge",
+    "culture.society": "culture.knowledge",
+    "reading.main_idea": "reading.comprehension",
+    "reading.detail": "reading.comprehension",
+    "reading.inference": "reading.comprehension",
+    "reading.vocabulary_context": "reading.comprehension",
+    "reading.structure": "reading.comprehension",
+    "reading.attitude": "reading.comprehension",
+}
+
+COARSE_NAMES_ZH = {
+    "grammar.forms": "词形与动词系统",
+    "grammar.collocation": "词义、前置词与搭配",
+    "grammar.sentence": "句法、连接与表达",
+    "literature.knowledge": "作家、作品与文学常识",
+    "culture.knowledge": "俄罗斯国情常识",
+    "reading.comprehension": "阅读理解",
+}
+
 PREPOSITIONS = {
     "без", "в", "во", "для", "до", "за", "из", "из-за", "из-под", "к", "ко", "между",
     "на", "над", "о", "об", "обо", "около", "от", "перед", "по", "под", "при", "про",
@@ -289,6 +333,31 @@ def classify(question_type: str, stem: str, options: list[str]) -> Decision:
     raise ValueError(f"Unsupported formal question type: {question_type}")
 
 
+def student_training_code(question_type: str, decision: Decision) -> str:
+    return COARSE_CODE_MAP.get(decision.code, TYPE_PARENT[question_type])
+
+
+def migrate_saved_training_targets(conn: sqlite3.Connection) -> None:
+    tables = {
+        str(row[0])
+        for row in conn.execute("SELECT name FROM sqlite_master WHERE type = 'table'").fetchall()
+    }
+    if "daily_study_tasks" in tables:
+        for old_code, new_code in COARSE_CODE_MAP.items():
+            conn.execute(
+                """
+                UPDATE daily_study_tasks
+                SET target_code = ?, target_name_zh = ?, updated_at = CURRENT_TIMESTAMP
+                WHERE target_type = 'knowledge_point' AND target_code = ?
+                """,
+                (new_code, COARSE_NAMES_ZH[new_code], old_code),
+            )
+    if "training_recommendations" in tables:
+        conn.execute(
+            "UPDATE training_recommendations SET status = 'used', updated_at = CURRENT_TIMESTAMP WHERE status = 'active'"
+        )
+
+
 def load_questions(conn: sqlite3.Connection, exam_codes: list[str]) -> list[sqlite3.Row]:
     placeholders = ", ".join("?" for _ in exam_codes)
     return conn.execute(
@@ -330,7 +399,7 @@ def point_ids(conn: sqlite3.Connection, exam_system: str) -> dict[str, int]:
 def backup_database(db_path: Path) -> Path:
     BACKUP_DIR.mkdir(parents=True, exist_ok=True)
     stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    target = BACKUP_DIR / f"russian_ai_tutor_before_fine_knowledge_tags_{stamp}.sqlite"
+    target = BACKUP_DIR / f"russian_ai_tutor_before_training_knowledge_tags_{stamp}.sqlite"
     shutil.copy2(db_path, target)
     return target
 
@@ -356,7 +425,7 @@ def run(db_path: Path, exam_codes: list[str], apply: bool, report_path: Path) ->
             identity = (str(row["exam_system"]), int(row["source_year"]), str(row["source_question_number"]))
             manual_decision = MANUAL_OVERRIDES.get(identity)
             decision = manual_decision or classify(str(row["question_type"]), str(row["stem"]), options)
-            final_code = TYPE_PARENT[str(row["question_type"])] if decision.needs_review else decision.code
+            final_code = student_training_code(str(row["question_type"]), decision)
             status = "needs_review" if decision.needs_review else "manual_approved" if manual_decision else "auto_approved"
             if apply and final_code not in ids_by_exam[str(row["exam_system"])]:
                 raise ValueError(f"Missing {row['exam_system']} knowledge point: {final_code}")
@@ -394,6 +463,7 @@ def run(db_path: Path, exam_codes: list[str], apply: bool, report_path: Path) ->
                 )
 
         if apply:
+            migrate_saved_training_targets(conn)
             conn.commit()
         else:
             conn.rollback()
@@ -408,8 +478,8 @@ def run(db_path: Path, exam_codes: list[str], apply: bool, report_path: Path) ->
         "dry_run": not apply,
         "exam_systems": exam_codes,
         "formal_questions": len(rows),
-        "fine_tagged": len(rows) - review_count,
-        "needs_review_parent_only": review_count,
+        "training_tagged": len(rows),
+        "detailed_needs_review": review_count,
         "report": str(report_path),
         "backup": str(backup_path) if backup_path else None,
         "by_applied_code": dict(sorted(summary.items())),
@@ -417,7 +487,7 @@ def run(db_path: Path, exam_codes: list[str], apply: bool, report_path: Path) ->
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Conservatively assign fine knowledge tags to formal TEM4/TEM8 questions.")
+    parser = argparse.ArgumentParser(description="Assign stable student training directions to formal TEM4/TEM8 questions.")
     parser.add_argument("--db", type=Path, default=DB_PATH)
     parser.add_argument("--exam", action="append", choices=["TEM4_RU", "TEM8_RU"], default=[])
     parser.add_argument("--apply", action="store_true", help="Write tags to the database. Default is dry-run.")
