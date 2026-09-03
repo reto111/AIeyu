@@ -8,6 +8,7 @@ env/
 # Build outputs
 dist/
 build/
+packages/
 .next/
 out/
 
