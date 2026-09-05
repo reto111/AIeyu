@@ -1,6 +1,7 @@
 # AIeyu Word Check-in Plan
 
 > 本文档记录单词数据库与单词打卡功能的建设流程。
+> 这是累计建设记录，各阶段数量、人工审批和“下一步”只适用于其对应阶段。当前规则及数量见 `CURRENT_STATE.md`；不得重新询问用户已批准的批次。
 > 当前词库来源：`data/words/tem8_russian_words.pdf`。
 
 ## 1. 当前判断

@@ -19,7 +19,7 @@
 本地 Git 提交
 -> GitHub 私有仓库
 -> 服务器 git clone
--> 服务器复制本地数据库和 .env
+-> 首次空库部署时初始化数据库并配置 .env
 -> 启动学生端服务
 -> 开放安全组和 Windows 防火墙端口
 ```
@@ -74,9 +74,9 @@ python scripts\serve_student_app.py --host 0.0.0.0 --port 8765
 
 注意：服务器上不能只监听 `127.0.0.1`，否则外部访问不到。
 
-## 6. 必须单独复制的本地文件
+## 6. 首次空库部署所需文件
 
-这些文件不会进入 GitHub，需要手动复制到服务器：
+这些文件不会进入 GitHub。仅首次空库部署准备数据库并在服务器配置密钥；已有学生账号与学习记录时按第 9 节更新，不能用本地整库覆盖：
 
 ```text
 database\russian_ai_tutor.sqlite
@@ -122,7 +122,7 @@ Copy-Item .\database\russian_ai_tutor.sqlite .\database\russian_ai_tutor_before_
 ```
 
 3. 将更新包解压并覆盖到项目目录，保留服务器原有的 `.env` 和 `database\russian_ai_tutor.sqlite`。
-4. 依次执行当前版本的确定性内容修正和知识点重标：
+4. 在服务器数据库副本上先验证本次发布指定的迁移与内容补丁，确认不会回退人工修正或损坏学生记录后，才在正式库执行。以下是历史脚本顺序示例，不是每次更新均可直接照抄的命令：
 
 ```powershell
 python -B scripts\apply_question_quality_fixes.py
@@ -130,7 +130,7 @@ python -B scripts\tag_question_knowledge_points.py --apply
 python -B scripts\apply_vocabulary_quality_fixes.py
 ```
 
-这些脚本都会在写入前备份数据库，只修改题目文本、知识点关系和已确认词义，不删除学生账号、作答、错题或单词进度。请保持上述顺序：先修题目，再按修正后的题目重标，最后修词义。
+历史补丁可能重写已修正字段，故须核对本次包内清单和副本差异。2026-09-03 的多模态补丁为 `scripts/apply_multimodal_question_fixes.py`，目前需要先验证与旧脚本的覆盖顺序；不能仅凭脚本可重复运行就保证不会覆盖后续人工修改。
 
 5. 重新启动服务：
 
@@ -138,7 +138,7 @@ python -B scripts\apply_vocabulary_quality_fixes.py
 python scripts\serve_student_app.py --host 0.0.0.0 --port 8765
 ```
 
-这些修正脚本可重复执行；再次运行会重写相同的确定性结果，不会删除学生账号和学习记录。
+发布验证至少比较账号、作答、错题、单词进度数量和关键关联，检查内容修改范围及数据库完整性。数据库备份与代码 Git checkpoint 分别保留。
 
 ## 10. 发布前一键验收
 

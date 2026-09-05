@@ -48,7 +48,7 @@ retrieved_chunk_ids = ...
 
 ## 4. 真实调用
 
-只有在确认允许把检索到的知识块发送给 DeepSeek 后，才运行：
+在既有授权覆盖当前知识块类别、用途和生成数量/预算时直接运行；只有范围缺失或变化才补充授权。预览并不要求每批重新批准，`--confirm-external-send` 用于表达已取得的授权：
 
 ```text
 .venv\Scripts\python.exe scripts\generate_ai_question_drafts.py --question-type culture_choice --knowledge-point culture --query "卫国战争" --count 2 --chunks-limit 3 --confirm-external-send --persist
