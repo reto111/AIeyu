@@ -674,7 +674,7 @@ def api_health() -> dict[str, Any]:
     except Exception as exc:
         checks.append({"code": "database_access", "ok": False, "detail": str(exc)})
 
-    static_missing = [name for name in ("index.html", "app.js", "styles.css") if not (STATIC_DIR / name).exists()]
+    static_missing = [name for name in ("index.html", "app.js", "styles.css", "student-refinement.css") if not (STATIC_DIR / name).exists()]
     checks.append(
         {
             "code": "student_web_files",

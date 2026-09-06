@@ -204,7 +204,7 @@ def check_database(db_path: Path, checks: list[Check]) -> None:
 
 
 def check_runtime(checks: list[Check]) -> None:
-    missing_static = [name for name in ("index.html", "app.js", "styles.css") if not (STATIC_DIR / name).exists()]
+    missing_static = [name for name in ("index.html", "app.js", "styles.css", "student-refinement.css") if not (STATIC_DIR / name).exists()]
     add(
         checks,
         "student_web_files",

@@ -952,7 +952,7 @@ function renderCurrentWord() {
   $(".word-nav").classList.toggle("hidden", !hasReviewed);
   $("#wordHint").textContent = hasReviewed
     ? reviewHintForResult(word.session_result)
-    : "先判断自己是否认识这个词。选择后会显示释义。";
+    : "";
   const done = reviewedWordCount();
   $("#wordSessionMeta").textContent = `${done}/${words.length} 已处理`;
   $("#wordProgressBar").style.width = `${Math.round((done / Math.max(words.length, 1)) * 100)}%`;
@@ -1215,7 +1215,7 @@ function percentageText(value) {
 function renderStudyCenter(payload) {
   state.studyCenter = payload;
   const name = state.activeUser?.display_name || "同学";
-  $("#studyGreeting").textContent = `${name}，今天从最需要的地方开始`;
+  $("#studyGreeting").textContent = `${name}的学习进度`;
 
   const tasks = payload.today.tasks || [];
   $("#todayPlanMeta").textContent = `${payload.today.completed_tasks}/${payload.today.task_count} 已完成`;
