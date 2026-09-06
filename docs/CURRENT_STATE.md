@@ -54,6 +54,8 @@
 
 ## 文档导航
 
+- 2026-09-06 用户要求打包：本次为已有服务器代码更新包，最新产品功能提交为 `82eb56b`。排除 `.env`、SQLite 和本地数据；保留服务器题库与学生记录，不执行历史内容补丁。本次操作入口见根目录 `UPDATE_README.md`。未代为上传或部署。
+
 - 产品范围：`product_requirements.md`。
 - 规则审查与优化依据：`agent_instruction_review.md`。
 - 内容处理：`../.agents/skills/aieyu-content-review/SKILL.md`。
