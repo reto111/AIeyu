@@ -245,7 +245,7 @@ function renderExamContext() {
     button.setAttribute("aria-selected", active ? "true" : "false");
   });
   const brand = document.querySelector("#brandExamLabel");
-  if (brand) brand.textContent = `${practiceExam.label}练习`;
+  if (brand) brand.textContent = "俄语备考助手";
   const wordExamLabel = document.querySelector("#wordExamLabel");
   if (wordExamLabel) wordExamLabel.textContent = wordExamSelection.label;
   const title = document.querySelector("#practiceTitle");
@@ -1120,6 +1120,7 @@ async function submitWordFeedback() {
 
 async function submitProductFeedback() {
   if (!state.authenticated) {
+    $("#productFeedbackDialog").close();
     openAccountMenu();
     $("#activeUserHint").textContent = "请先登录后提交建议。";
     return;
@@ -1127,6 +1128,7 @@ async function submitProductFeedback() {
   const feedbackText = $("#productFeedbackText").value.trim();
   if (!feedbackText) {
     $("#productFeedbackMeta").textContent = "请先填写";
+    $("#productFeedbackText").focus();
     return;
   }
   $("#submitProductFeedbackBtn").disabled = true;
@@ -1140,7 +1142,7 @@ async function submitProductFeedback() {
       }),
     });
     $("#productFeedbackText").value = "";
-    $("#productFeedbackMeta").textContent = "已收到";
+    $("#productFeedbackMeta").textContent = "已收到，谢谢你的建议。";
   } catch (error) {
     $("#productFeedbackMeta").textContent = error.message;
   } finally {
@@ -1148,6 +1150,13 @@ async function submitProductFeedback() {
     $("#submitProductFeedbackBtn").textContent = "提交建议";
   }
 }
+
+$("#openProductFeedbackBtn").addEventListener("click", () => {
+  $("#accountDropdown").classList.add("hidden");
+  $("#productFeedbackDialog").showModal();
+  $("#productFeedbackText").focus();
+});
+$("#closeProductFeedbackBtn").addEventListener("click", () => $("#productFeedbackDialog").close());
 
 async function refreshStudentData() {
   if (!state.authenticated) {

@@ -112,3 +112,40 @@ input[type="password"] { width: 100%; min-height: 42px; border: 1px solid var(--
 
 /* State visibility must win over the responsive layout declarations. */
 .hidden { display: none !important; }
+
+/* Cyrillic identity stays secondary to the student's Chinese navigation. */
+.mark { background: #344d70; font-family: Georgia, "Times New Roman", serif; font-size: 32px; font-weight: 400; }
+.brand { align-items: flex-start; }
+.brand-russian { display: block; margin-top: 3px; color: #526583; font-family: Georgia, "Times New Roman", serif; font-size: 14px; }
+.navbtn { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.navbtn small { font-family: "Segoe UI", Arial, sans-serif; font-size: 12px; font-weight: 400; color: var(--muted); }
+.word-card h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; }
+.account-menu { display: flex; align-items: center; gap: 10px; }
+.feedback-entry { min-height: 40px; border: 1px solid #a9bad0; border-radius: 6px; padding: 8px 16px; color: #294c78; background: #eaf0f8; font-weight: 700; white-space: nowrap; }
+.feedback-entry:hover { background: #dae6f5; border-color: #54779e; }
+.product-feedback-dialog { width: min(520px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); overflow: auto; margin: auto; padding: 24px; border: 1px solid var(--line); border-radius: 8px; color: var(--ink); background: #fff; box-shadow: 0 20px 70px rgba(20, 30, 45, .18); }
+.product-feedback-dialog::backdrop { background: rgba(25, 35, 48, .32); }
+.feedback-dialog-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; margin-bottom: 24px; }
+.feedback-dialog-head h2 { margin: 0; font-size: 24px; }
+.feedback-dialog-head .eyebrow { color: #526583; font-family: Georgia, "Times New Roman", serif; font-size: 15px; }
+.feedback-dialog-head .secondary { margin: 0; min-height: 40px; width: auto; min-width: 64px; flex-shrink: 0; }
+.feedback-dialog-head > div { min-width: 0; }
+.feedback-dialog-footer { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.feedback-dialog-footer .primary { flex-shrink: 0; }
+.product-feedback-dialog textarea { min-height: 150px; resize: vertical; }
+body:has(.product-feedback-dialog[open]) { overflow: hidden; }
+@media (max-width: 820px) {
+  .brand { padding-right: 0; min-height: 62px; }
+  .brand p { display: block; font-size: 12px; }
+  .brand-russian { position: absolute; right: 0; top: 8px; font-size: 15px; }
+  .sidebar { position: relative; top: auto; }
+  .account-menu { top: 78px; left: 12px; right: 12px; justify-content: space-between; }
+  .account-button { max-width: 185px; }
+  .account-dropdown { top: 48px; }
+  .mainnav { margin-top: 52px; }
+  .navbtn { flex-direction: column; justify-content: center; gap: 2px; }
+  .navbtn small { font-size: 11px; }
+  .product-feedback-dialog { padding: 20px; }
+  .feedback-dialog-footer { flex-wrap: wrap; }
+  .feedback-dialog-footer .primary { margin-left: auto; }
+}

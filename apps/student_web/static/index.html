@@ -10,6 +10,7 @@
   <body>
     <main class="shell">
       <div class="account-menu">
+        <button id="openProductFeedbackBtn" class="feedback-entry" type="button" aria-haspopup="dialog">提建议</button>
         <button id="accountButton" class="account-button" type="button">
           <span id="accountButtonName">用户：学生账号</span>
           <span aria-hidden="true">▾</span>
@@ -35,18 +36,19 @@
 
       <aside class="sidebar">
         <div class="brand">
-          <span class="mark">AI</span>
+          <span class="mark" lang="ru" aria-hidden="true">Я</span>
           <div>
             <h1>AIeyu</h1>
-            <p id="brandExamLabel">俄语专八练习</p>
+            <p id="brandExamLabel">俄语备考助手</p>
+            <span class="brand-russian" lang="ru">Русский язык</span>
           </div>
         </div>
 
         <nav class="mainnav" aria-label="主要页面">
-          <button type="button" class="navbtn active" data-view="study">学习</button>
-          <button type="button" class="navbtn" data-view="practice">练习</button>
-          <button type="button" class="navbtn" data-view="words">单词</button>
-          <button type="button" class="navbtn" data-view="wrongbook">错题本</button>
+          <button type="button" class="navbtn active" data-view="study" aria-label="学习"><span>学习</span><small lang="ru" aria-hidden="true">Учёба</small></button>
+          <button type="button" class="navbtn" data-view="practice" aria-label="练习"><span>练习</span><small lang="ru" aria-hidden="true">Практика</small></button>
+          <button type="button" class="navbtn" data-view="words" aria-label="单词"><span>单词</span><small lang="ru" aria-hidden="true">Слова</small></button>
+          <button type="button" class="navbtn" data-view="wrongbook" aria-label="错题本"><span>错题本</span><small lang="ru" aria-hidden="true">Ошибки</small></button>
         </nav>
 
         <section class="panel stats">
@@ -304,16 +306,6 @@
                   <div id="reviewPoolBox" class="review-pool muted">正在读取复习词库...</div>
                   <button id="startReviewWordsBtn" class="secondary fullwidth" type="button">立即复习</button>
                 </section>
-                <section class="panel">
-                  <div class="panel-titleline">
-                    <h2>提建议</h2>
-                    <span id="productFeedbackMeta" class="mini muted">欢迎反馈</span>
-                  </div>
-                  <div class="feedback-form compact-form">
-                    <textarea id="productFeedbackText" rows="4" maxlength="1000" placeholder="哪里不好用、想增加什么功能，都可以写在这里"></textarea>
-                    <button id="submitProductFeedbackBtn" class="secondary fullwidth" type="button">提交建议</button>
-                  </div>
-                </section>
               </aside>
             </div>
           </section>
@@ -372,6 +364,23 @@
         </section>
       </section>
     </main>
+    <dialog id="productFeedbackDialog" class="product-feedback-dialog" aria-labelledby="feedbackTitle">
+      <div class="feedback-dialog-head">
+        <div>
+          <p class="eyebrow" lang="ru">Обратная связь</p>
+          <h2 id="feedbackTitle">你的建议</h2>
+        </div>
+        <button id="closeProductFeedbackBtn" class="secondary" type="button">关闭</button>
+      </div>
+      <label class="field" for="productFeedbackText">
+        <span>哪里可以做得更好？</span>
+        <textarea id="productFeedbackText" rows="6" maxlength="1000" placeholder="例如：阅读字号太小，或背词时操作不方便。"></textarea>
+      </label>
+      <div class="feedback-dialog-footer">
+        <span id="productFeedbackMeta" class="mini muted" role="status" aria-live="polite"></span>
+        <button id="submitProductFeedbackBtn" class="primary" type="button">提交建议</button>
+      </div>
+    </dialog>
     <button id="selectionTranslateTrigger" class="selection-translate-trigger hidden" type="button" aria-label="翻译选中内容">译</button>
     <aside id="selectionTranslator" class="selection-translator hidden" aria-live="polite" aria-label="划词翻译">
       <div class="translator-head">
