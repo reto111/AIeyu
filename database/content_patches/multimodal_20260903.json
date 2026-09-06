@@ -1,0 +1,1884 @@
+{
+  "schema_version": 1,
+  "patch_id": "multimodal_20260903_v1",
+  "baseline": "russian_ai_tutor_before_multimodal_fixes_20260903_191321.sqlite",
+  "items": [
+    {
+      "key": [
+        "TEM8_RU",
+        2017,
+        "16"
+      ],
+      "field": "stem",
+      "old_hash": "de73a423f8c67f2887476a3db623960f0b07ba3e597f85e5e41da56f56d9ae74",
+      "new": "_____ ты ни был, хоть и на краю света, моя любовь останется в каждом закате.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复句首填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2017,
+        "16"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 3,
+      "evidence": "historical_source_fix",
+      "note": "原图恢复句首填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2017,
+        "17"
+      ],
+      "field": "stem",
+      "old_hash": "05dd3d4d97ccf8edd291dfa66f3f45f15ba11120ed89e33cb1f6939e58da18c9",
+      "new": "Нам есть чему поучиться у вас, _____ с организации процесса производства.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复逗号后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2017,
+        "17"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 3,
+      "evidence": "historical_source_fix",
+      "note": "原图恢复逗号后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2017,
+        "21"
+      ],
+      "field": "stem",
+      "old_hash": "430e54a802e8f3c2e07a3bfa1eb23759423797bad176e4272373394eb9f140f6",
+      "new": "Жизнь коротка, но _____ тебе не хватало времени на вежливость.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 но 后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2017,
+        "22"
+      ],
+      "field": "stem",
+      "old_hash": "d531343895877226ceb870df9e2c3bb48fb256e69bbe537f470610082c830cb0",
+      "new": "И дня не проходило, _____ я не мечтал о родной земле, о ее цветущих лугах и полноводных реках.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复逗号后的填空位并合并断词。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2017,
+        "25"
+      ],
+      "field": "stem",
+      "old_hash": "048351e6c71b3369fec3ac8ca0fc646b17dffd94cb26a2860881b5b400c5a9ad",
+      "new": "Колоссальные убытки _____ сельское хозяйство: половина полей засохла, гибнет рыба.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复主谓之间的填空位并修复被水印干扰的题干。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2017,
+        "26"
+      ],
+      "field": "stem",
+      "old_hash": "abc6524017437fdc8c78a9b349af062bc3f79c795401d547c9d7ec0fda604092",
+      "new": "Россия и Китай объективно заинтересованы _____ и важны друг для друга.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复填空位并修复被水印干扰的单词。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2017,
+        "28"
+      ],
+      "field": "stem",
+      "old_hash": "7d4fd324cde8b5e7958c1b13ad6224d7bc988004588ad0bfb35e01e214578301",
+      "new": "_____ этого преступного дела ведется уже несколько месяцев.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复句首填空位并清除 OCR 乱码。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2017,
+        "30"
+      ],
+      "field": "stem",
+      "old_hash": "6d18392ad5abcd31e08b42917ada9e0646cf0156f1d0fd904319b9533ebe14de",
+      "new": "Судьба Эрмитажа неотделима от истории России. В XX веке на долю ее _____ немало испытаний.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复填空位并合并断词。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2017,
+        "32"
+      ],
+      "field": "stem",
+      "old_hash": "7b550328823d615da0e8249442f226bcda38f426b92e5ccacf5665e58d6bc10f",
+      "new": "Ветер был такой сильный, что машины _____ от земли.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 машины 后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2017,
+        "44"
+      ],
+      "field": "stem",
+      "old_hash": "8025531adc79afdbadaebf92f28d7d2227e693f5f48646d925e2ebe704f8e231",
+      "new": "В 2016 году «Договору о добрососедстве, дружбе и сотрудничестве между КНР и РФ» исполнилось _____ лет.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 исполнилось 后的填空位并合并断词。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2018,
+        "17"
+      ],
+      "field": "stem",
+      "old_hash": "17b0afbd8d1caed97081b55b9937efbe605b2fe389831931a08cc385ff8ff408",
+      "new": "Ночью порывом ветра _____ крышу четырехэтажного дома.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复主语后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2018,
+        "17"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 3,
+      "evidence": "historical_source_fix",
+      "note": "原图恢复主语后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2018,
+        "18"
+      ],
+      "field": "stem",
+      "old_hash": "1f5cfd3f7318d73776222f42b6911417ec38266c81e2a6ad48895da0e8285e30",
+      "new": "Уже _____ бабушкой, жена решила рассказать мужу свой секрет.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 Уже 后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2018,
+        "18"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 3,
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 Уже 后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2018,
+        "19"
+      ],
+      "field": "stem",
+      "old_hash": "84710d2a361e19a93167b8f0f2a9ae9f2ee831b650fd7f6e77f7ee1a5a907a70",
+      "new": "Стоило Вите прийти в школу, _____ все начали расспрашивать его о путешествии.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复逗号后的填空位并修复 расспрашивать。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2018,
+        "19"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 3,
+      "evidence": "historical_source_fix",
+      "note": "原图恢复逗号后的填空位并修复 расспрашивать。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2018,
+        "21"
+      ],
+      "field": "stem",
+      "old_hash": "befc938c9a3b124e1452acb59506db22fa557ad65362dd113439d6c787ddba01",
+      "new": "_____ Ирина накрывала на стол, Андрей заваривал чай.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复句首填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2018,
+        "23"
+      ],
+      "field": "stem",
+      "old_hash": "0b2fb47ede162d3e2bb60547dabee53955ef38058bb5693c4509700efc790d89",
+      "new": "Кого ни _____, никто не верит в честность выборов в этой маленькой стране.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 ни 后的填空位并清除异常标点。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2018,
+        "24"
+      ],
+      "field": "stem",
+      "old_hash": "db54c61fea8b93222c4f562bf0cfffc9733b00d021909dc359f1bc2b9cfef5b9",
+      "new": "На Рижском проспекте автомобиль наехал на дерево, _____ погибли водитель и два пассажира.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复逗号后的填空位并合并断词。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2018,
+        "29"
+      ],
+      "field": "stem",
+      "old_hash": "52542eac5841b097a8d0ca7bb987ae199f38d5f4a05e39360867966bdf422fb0",
+      "new": "Пусть ваша жизнь всегда будет _____ теплом и любовью родных и близких.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 будет 后的填空位并清除 OCR 乱码。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2018,
+        "30"
+      ],
+      "field": "stem",
+      "old_hash": "2c200c74abbc433aafca30707ad0daabbf9079d9d83f9d985ac26b17492403cb",
+      "new": "В Международное бюро выставки была подана заявка _____ Всемирной выставки ЭКСПО-2025 в Екатеринбурге.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 заявка 后的填空位并合并 ЭКСПО 断词。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2018,
+        "31"
+      ],
+      "field": "stem",
+      "old_hash": "b9fed828c4c36ad767ef224d20e90e5473c7a4191f96d6dc8efe63818723bc0d",
+      "new": "На Гале было белое платье, _____ по случаю сегодняшнего праздника.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复逗号后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2018,
+        "44"
+      ],
+      "field": "stem",
+      "old_hash": "9b82cde1537a165063996880194eec3c9b7d7e5fce24de099173cf15d4f6dbf0",
+      "new": "2018 год объявлен президентом России Годом _____.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复句末填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2018,
+        "45"
+      ],
+      "field": "stem",
+      "old_hash": "3184b505cec5c84ffbaccf49780e2f9fc1014e7f116e2efdf372630539739404",
+      "new": "По традиции _____ в Москве проходит торжественная церемония возложения цветов к памятнику Минину и Пожарскому.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 По традиции 后的填空位并合并断词。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "16"
+      ],
+      "field": "stem",
+      "old_hash": "2b24f7d215ac7c33f28aa6418647da87796992cb30a31d8e4b9204ee307432ac",
+      "new": "— Не _____ билеты в театр. Положи их в свою сумочку.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 Не 后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "16"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 4,
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 Не 后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "17"
+      ],
+      "field": "stem",
+      "old_hash": "ec7dd6ad6dcfe600bbdde2cdab9e4e5f0cb09ad14fbc95b217cdbcb4d0b224bc",
+      "new": "Это стихотворение вполне _____ рассматриваться как предисловие к роману.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 вполне 后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "17"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 4,
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 вполне 后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "18"
+      ],
+      "field": "stem",
+      "old_hash": "31aa8545bf08703246d1a23b5b7e0d43682eacf452e0a9ad4f31b10ba149a41d",
+      "new": "Светлана собралась _____ позвонить подруге и передумала, когда уже вытащила телефон.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 собралась 后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "18"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 4,
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 собралась 后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "21"
+      ],
+      "field": "stem",
+      "old_hash": "07369b2f0867757b0c1905acc707b6bea10b3a7743c7736ab03c3742920964cc",
+      "new": "_____ принять решение завести кошку, необходимо подумать, есть ли возможность создать для неё подходящие условия.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复句首填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "22"
+      ],
+      "field": "stem",
+      "old_hash": "4ed6aa2d782a1fa5ca220c282f22868b4855af36fe7c8e899ff2cdde038ccc8a",
+      "new": "Ваза была тяжёлая, и я боялся, _____ не уронить её.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 боялся 后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "24"
+      ],
+      "field": "stem",
+      "old_hash": "a54fd6a0b4b13c00cb08bc048fc92e8e246df7e9c745d9c37669b00783bee593",
+      "new": "Всё в этом мире есть идеологическая картина, построенная человеком для себя и _____ подобных.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 и 后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "27"
+      ],
+      "field": "stem",
+      "old_hash": "a9cd95171734d2830db9a110253c7fc8908c7cde47a48b49b4f30a1aba5d987c",
+      "new": "Сбор _____ пошёл на приобретение аппаратуры для детской больницы.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 Сбор 后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "29"
+      ],
+      "field": "stem",
+      "old_hash": "5444cffa925d4dd9c30cbe751547dd8867f7d9f78570f9304a70f93ceb29adb3",
+      "new": "Мы радуемся победам и огорчаемся _____, но надо научиться принимать с благодарностью всё, что выпадает на нашу долю.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复填空位并清除错误标点与断词。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "30"
+      ],
+      "field": "stem",
+      "old_hash": "265370517f21d8e8c29e51dce5052b25ae57a07de58b6bc99bf5aa700053f6c1",
+      "new": "Ежегодно российские суды _____ более 20 тысяч дел о лишении родительских прав, и это не может не вызывать беспокойства.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 суды 后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "31"
+      ],
+      "field": "stem",
+      "old_hash": "70d533d191a8cca4b24ca7318e4ef04d810cfa9da5ce277e9ddd9ad083388da5",
+      "new": "Тебе не стоит _____ меня от поездки: я и сам не хочу ехать.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 стоит 后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "32"
+      ],
+      "field": "stem",
+      "old_hash": "7c3a3cfc546737d98aa483adfd80ca2432347cce16ec602454a89461c66491bb",
+      "new": "Вместо того чтобы _____, ты бы лучше занимался.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 чтобы 后的填空位并清除 OCR 符号。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "34"
+      ],
+      "field": "stem",
+      "old_hash": "3135af31e76a54c6946e79a50310a9d8e82f417b432d497bc8120dff2d99ef03",
+      "new": "_____ — это первая социально-политическая комедия, поставленная на русской сцене.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复句首作品名填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "35"
+      ],
+      "field": "stem",
+      "old_hash": "9da6f62b07cc54c822f92f150d7f665f9e7ec4a9b49d3cddf72094c1d62381eb",
+      "new": "«Стихотворения в прозе» — цикл из нескольких десятков стихотворений в прозе, созданных _____ в последние годы жизни.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复作者填空位，并修复 годы 的 OCR 错字。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "38"
+      ],
+      "field": "stem",
+      "old_hash": "b489e98bbd456c2b17f0a068be8ab80f61b98697c5e7711c28383d318af5ffed",
+      "new": "Роман «Чевенгур» был написан _____ в 1927—1929 годах. Это единственный завершённый роман в творчестве писателя.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复作者填空位，并修复 C 选项作者缩写。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "38"
+      ],
+      "field": "option:C",
+      "old_hash": "795569a16d065d522dc3322aacf6f127324976cffbff992edb1d56092c1def16",
+      "new": "А.Т. Твардовским",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复作者填空位，并修复 C 选项作者缩写。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "40"
+      ],
+      "field": "stem",
+      "old_hash": "30fbd3d2adfd5110de2fe2164fc77c7a9d9af41a1c5d1718f32ba23c67cdc858",
+      "new": "Территорию России на востоке омывают моря Тихого океана: _____.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复冒号后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "41"
+      ],
+      "field": "stem",
+      "old_hash": "f7203ee362b093c360073ba31a10dd8b9dafe6612a1afb33257026fde6278abd",
+      "new": "Основоположником теории русского классического балета является _____.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复句末填空位，并修复 B 选项姓名缩写。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "41"
+      ],
+      "field": "option:B",
+      "old_hash": "b185cc893bd5459b9c14e046cadbb2eeb0f8b1295efe99640e78c950223da4a2",
+      "new": "Г.С. Уланова",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复句末填空位，并修复 B 选项姓名缩写。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "43"
+      ],
+      "field": "stem",
+      "old_hash": "8eebcf675dea82d78f0402857081770295018e0e3b2fbf99337764ae38b62bc4",
+      "new": "_____ — опера М.П. Мусоргского, сюжет которой заимствован из одноимённой повести Н.В. Гоголя.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复句首歌剧名填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "44"
+      ],
+      "field": "stem",
+      "old_hash": "ea4093fdd90cae01f32baa0507f99ae7e4e75d10332ddc00f0da403b6b910c19",
+      "new": "12 декабря 2023 года отмечалось _____ принятия Конституции Российской Федерации.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 отмечалось 后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "45"
+      ],
+      "field": "stem",
+      "old_hash": "63cdd168481eb4102233fe45ff2da0f9b1f73aa125864defc7f17cf05036d7f7",
+      "new": "Перекрёстные годы России и Китая, которые пройдут в 2024—2025 годах, будут посвящены _____.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 посвящены 后的填空位。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "66"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 16,
+      "evidence": "historical_source_fix",
+      "note": "原图确认 B 选项为 Смартфон，修复漏字母 т。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "66"
+      ],
+      "field": "option:B",
+      "old_hash": "5cf5faa19025a3dc4413320742f449e89017a0029c56bbe02c1399830b2e1fb7",
+      "new": "Смартфон.",
+      "evidence": "historical_source_fix",
+      "note": "原图确认 B 选项为 Смартфон，修复漏字母 т。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "72"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 20,
+      "evidence": "historical_source_fix",
+      "note": "原图确认 B 选项为罗马数字 II，不是西里尔字母 П。"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "72"
+      ],
+      "field": "option:B",
+      "old_hash": "21e2337f27ee69dbe611a3a64ff031242c0cd0cbc6278cebefef44ac35ecbfec",
+      "new": "При Екатерине II.",
+      "evidence": "historical_source_fix",
+      "note": "原图确认 B 选项为罗马数字 II，不是西里尔字母 П。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "21"
+      ],
+      "field": "option:D",
+      "old_hash": "f5bc5cf3adaafd30c66f9c7b447779bf4fbb43650076b0735145e99e4c0d9518",
+      "new": "с тем, что",
+      "evidence": "historical_source_fix",
+      "note": "原图确认 D 选项被粘连为 стем。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "28"
+      ],
+      "field": "stem",
+      "old_hash": "324edb4ed6ece8d24aac0692f4e8d76e89762d69a0ef5c8cb56171c2a2908e12",
+      "new": "Дом старый, но в окнах горит свет, значит, там _____ живёт.",
+      "evidence": "historical_source_fix",
+      "note": "原图确认填空位位于 там 与 живёт 之间。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "30"
+      ],
+      "field": "stem",
+      "old_hash": "1cba300a1d8b5664e10bcc6882ed225303b9f70fc6b4cdad268b4173a3869a99",
+      "new": "_____ мы вошли в лес, сразу стало прохладно и летний день остался позади.",
+      "evidence": "historical_source_fix",
+      "note": "原图确认 прохладно 后无逗号。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "31"
+      ],
+      "field": "option:A",
+      "old_hash": "6fe45fa4f161393940e9ec294b444e0a5f19e260aeecf9db1b2b9132d15ca0ef",
+      "new": "как ни",
+      "evidence": "historical_source_fix",
+      "note": "原图确认 A 选项漏掉 ни。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "32"
+      ],
+      "field": "stem",
+      "old_hash": "aabd631d570e2ec888f53721264f04cd104755482997d9a4c23852c819e797e7",
+      "new": "Не _____ громко разговаривать во время спектакля.",
+      "evidence": "historical_source_fix",
+      "note": "原图确认题干开头漏掉 Не。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "36"
+      ],
+      "field": "stem",
+      "old_hash": "64f424e7aad4b0f85133646cb0788cb7b920f4f4b01159d375e031857197f638",
+      "new": "Знания — бесконечны, поэтому человеку всегда _____ учиться.",
+      "evidence": "historical_source_fix",
+      "note": "原图确认 Знания 后有破折号。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "38"
+      ],
+      "field": "stem",
+      "old_hash": "9f1805a275d7c881e2683bafef3dba9bfc1f6cf0cd3981a06d99664dcda2030c",
+      "new": "Семён всё лето работал над новой книгой, иногда _____ не выходил из дома.",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 работал、正确填空位置及 A/B 选项。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "38"
+      ],
+      "field": "option:A",
+      "old_hash": "0dc79b4b57f729b2f9cc5f051d2ed6a3b6c23a93286c9111030ad3992be4af34",
+      "new": "целого дня",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 работал、正确填空位置及 A/B 选项。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "38"
+      ],
+      "field": "option:B",
+      "old_hash": "9bd383ef868886464348fd46b1d1ce4f0a72e7fcdd135fee85f246d9a846887b",
+      "new": "целых дней",
+      "evidence": "historical_source_fix",
+      "note": "原图恢复 работал、正确填空位置及 A/B 选项。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "41"
+      ],
+      "field": "stem",
+      "old_hash": "d0703e9ab70a0962e6bc4aabf6a00d0e21426553eacb541e13ea8044a79be3e1",
+      "new": "Несколько часов стоял густой туман, _____ мы не смогли вовремя вылететь.",
+      "evidence": "historical_source_fix",
+      "note": "原图确认末词为 вылететь，不是 выехать。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "42"
+      ],
+      "field": "stem",
+      "old_hash": "7162cc63f820b815db303dbc390a2ad86f145697cabf96c3e7c02653b2d9d8f2",
+      "new": "Мы с Николаем стали редко встречаться _____, как он перешёл на другую работу.",
+      "evidence": "historical_source_fix",
+      "note": "原图确认填空后保留逗号和 как。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "46"
+      ],
+      "field": "option:B",
+      "old_hash": "b4aa01944d80003814db5fc397fc8ad85ec8130305607a489fb5bfd016b1126b",
+      "new": "каким",
+      "evidence": "historical_source_fix",
+      "note": "原图确认 B 选项没有 бы。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "48"
+      ],
+      "field": "option:B",
+      "old_hash": "78b4f8534f6a90b2d8c706392f20158c171281ee11b292415cc00829bd7815cf",
+      "new": "от которых",
+      "evidence": "historical_source_fix",
+      "note": "原图修复 которых 的 OCR 错字。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "49"
+      ],
+      "field": "stem",
+      "old_hash": "2ce12c1a4d0ea58564f9b271a3b746d3da63800eade9c83345c96b345e37203c",
+      "new": "Хирургу удалось вернуть зрение человеку, не _____ 20 лет.",
+      "evidence": "historical_source_fix",
+      "note": "原图确认填空前漏掉 не。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "52"
+      ],
+      "field": "option:D",
+      "old_hash": "558e0e9b69f95e5f4cbfb307b211fb2f96e4f9b156b334311ed9c47b48a7612c",
+      "new": "к молодежи",
+      "evidence": "historical_source_fix",
+      "note": "原图确认介词与名词之间应有空格。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "53"
+      ],
+      "field": "option:B",
+      "old_hash": "5bda95f3d49c1308fffb0d963262b564585f6f653ceb56e4c9a2c7763379fa14",
+      "new": "к просьбе",
+      "evidence": "historical_source_fix",
+      "note": "原图确认介词与名词之间应有空格。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "59"
+      ],
+      "field": "option:A",
+      "old_hash": "a56024e375f51edc6905378d3317058e70fe093a33c1e27f0bddf2e04be51bc7",
+      "new": "в руки",
+      "evidence": "historical_source_fix",
+      "note": "原图确认介词与名词之间应有空格。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "81"
+      ],
+      "field": "correct_answer",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": "A",
+      "evidence": "historical_source_fix",
+      "note": "原图修复 B 选项拉丁字母，并从原卷答案页补回答案。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "81"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 11,
+      "evidence": "historical_source_fix",
+      "note": "原图修复 B 选项拉丁字母，并从原卷答案页补回答案。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "81"
+      ],
+      "field": "option:B",
+      "old_hash": "e81a4081cb208d757cd3c107dfccbcb5b67ae5526c4993413c45f41021286342",
+      "new": "Она нашла новую работу.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复 B 选项拉丁字母，并从原卷答案页补回答案。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "82"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 11,
+      "evidence": "historical_source_fix",
+      "note": "原图修复 A 选项形近字。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "82"
+      ],
+      "field": "option:A",
+      "old_hash": "7c1312da117a3b3ba4d4d8f479263f57486211dff2e68bbfb2555c7d447a6c65",
+      "new": "Когда они учились в школе.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复 A 选项形近字。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "83"
+      ],
+      "field": "correct_answer",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": "D",
+      "evidence": "historical_source_fix",
+      "note": "原图修复 A/C 选项的人名 OCR，并从原卷答案页补回答案。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "83"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 11,
+      "evidence": "historical_source_fix",
+      "note": "原图修复 A/C 选项的人名 OCR，并从原卷答案页补回答案。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "83"
+      ],
+      "field": "option:A",
+      "old_hash": "9a62db13c07b21717f3c3969efaf3ebccc5eac6382bb3400be51cacd921080df",
+      "new": "Елена Ивановна.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复 A/C 选项的人名 OCR，并从原卷答案页补回答案。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "83"
+      ],
+      "field": "option:C",
+      "old_hash": "61f2e4fb40b9a8874dcca579ffffac54119bb50cdfe702e7a347fb638206f6c9",
+      "new": "Родители Андрея.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复 A/C 选项的人名 OCR，并从原卷答案页补回答案。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "84"
+      ],
+      "field": "stem",
+      "old_hash": "e7de5ab2828cc55c6dc3593763032f2066cba341e0007ae5775a2c378cb9b1cd",
+      "new": "Почему Андрей не хотел отвечать на письма Ани?",
+      "evidence": "historical_source_fix",
+      "note": "原图修复问号、代词和被页眉污染的 D 选项，并从原卷答案页补回答案。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "84"
+      ],
+      "field": "correct_answer",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": "D",
+      "evidence": "historical_source_fix",
+      "note": "原图修复问号、代词和被页眉污染的 D 选项，并从原卷答案页补回答案。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "84"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 11,
+      "evidence": "historical_source_fix",
+      "note": "原图修复问号、代词和被页眉污染的 D 选项，并从原卷答案页补回答案。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "84"
+      ],
+      "field": "option:A",
+      "old_hash": "2c403b8b938cbf59d57f4b2b9889997dfafcd5d84d0d10915362ce839b9b7a4e",
+      "new": "Он на неё обиделся.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复问号、代词和被页眉污染的 D 选项，并从原卷答案页补回答案。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "84"
+      ],
+      "field": "option:B",
+      "old_hash": "3da14f2765aa0c28a504fc642661f6c6637c789c3a1adc07bec6666bb696abb4",
+      "new": "Он не получал от неё писем.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复问号、代词和被页眉污染的 D 选项，并从原卷答案页补回答案。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "84"
+      ],
+      "field": "option:D",
+      "old_hash": "788d070ef9ac821502dd0eade55037fd2a88ea36ce6d9c3b702e59b865f103c5",
+      "new": "Он чувствовал себя недостойным её любви.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复问号、代词和被页眉污染的 D 选项，并从原卷答案页补回答案。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "85"
+      ],
+      "field": "option:A",
+      "old_hash": "89887f34e0059ce18e7d1f69a8b8d3f67b8b0bed78a9d38bf42bf692c7386de4",
+      "new": "Аня и Андрей расстались.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复姓名、漏空格及 C 选项标点。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "85"
+      ],
+      "field": "option:B",
+      "old_hash": "d478401af27671e7ad2e58ba87d15ed333d854f4a922ade807c63e2dfeb84240",
+      "new": "Аня и Андрей поженились.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复姓名、漏空格及 C 选项标点。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "85"
+      ],
+      "field": "option:C",
+      "old_hash": "ce7238de44cc5a927f291f76f2ac8c17e6eed673998fc57b1269d8eb5e6686ff",
+      "new": "Андрей погиб, и Аня вышла замуж за врача.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复姓名、漏空格及 C 选项标点。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "86"
+      ],
+      "field": "stem",
+      "old_hash": "83f748e87757b8419633108198c12e95bfb9f3ff7732dc4816528a8a80d5c67d",
+      "new": "Как называют XVIII век?",
+      "evidence": "historical_source_fix",
+      "note": "原图确认罗马数字 XVIII，并修复 A 选项。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "86"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 13,
+      "evidence": "historical_source_fix",
+      "note": "原图确认罗马数字 XVIII，并修复 A 选项。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "86"
+      ],
+      "field": "option:A",
+      "old_hash": "b739e5b0c23e05856115a969ad29ce6a05cb0b9a28d5dba100194f5d6290ec6c",
+      "new": "Веком литературы.",
+      "evidence": "historical_source_fix",
+      "note": "原图确认罗马数字 XVIII，并修复 A 选项。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "87"
+      ],
+      "field": "stem",
+      "old_hash": "9dc1c7c9eb59efb4e9c17c8b3aefaeda539069076560d8494cf23249db51af83",
+      "new": "В каком году была создана Российская Академия наук?",
+      "evidence": "historical_source_fix",
+      "note": "原图修复题干及 C/D 选项形近字与标点。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "87"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 13,
+      "evidence": "historical_source_fix",
+      "note": "原图修复题干及 C/D 选项形近字与标点。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "87"
+      ],
+      "field": "option:C",
+      "old_hash": "1d0ea287aee1c6f30f1ececc4d957e18c9d7dfb49e8be557ddd31d65529dff5d",
+      "new": "В 1728 году.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复题干及 C/D 选项形近字与标点。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "87"
+      ],
+      "field": "option:D",
+      "old_hash": "eabb5e6bdf296a3a47948fb438371ad843bc133c6814fef4456cbb125fa3fa9d",
+      "new": "В 1783 году.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复题干及 C/D 选项形近字与标点。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "88"
+      ],
+      "field": "stem",
+      "old_hash": "701a416165eae762c18754c102395d82241cbbfeddf34ad6363bfaa57dfad52d",
+      "new": "Чем Российская Академия наук отличалась от европейских?",
+      "evidence": "historical_source_fix",
+      "note": "原图修复题干和 A/D 选项形近字。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "88"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 13,
+      "evidence": "historical_source_fix",
+      "note": "原图修复题干和 A/D 选项形近字。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "88"
+      ],
+      "field": "option:A",
+      "old_hash": "a9aef334fe3ceebc57fb65ad4226438a5b93a5804d6e146edbca22ad62c70d9a",
+      "new": "В ней обучалось много молодых учёных.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复题干和 A/D 选项形近字。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "88"
+      ],
+      "field": "option:D",
+      "old_hash": "9e854535651f97e54210c269bcabdaf833056f1f47e6d0b836e10be9d1b2d503",
+      "new": "Она выполняла самые важные государственные задачи.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复题干和 A/D 选项形近字。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "89"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 13,
+      "evidence": "historical_source_fix",
+      "note": "原图移除 A 选项吸收的页眉噪声。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "89"
+      ],
+      "field": "option:A",
+      "old_hash": "c6a5fe9bb1f2c40374c31074abd066ba1b0bb95ea1fa61048cba559d6a88cd76",
+      "new": "Она улучшила просветительскую работу.",
+      "evidence": "historical_source_fix",
+      "note": "原图移除 A 选项吸收的页眉噪声。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "90"
+      ],
+      "field": "stem",
+      "old_hash": "9f209e2f11ad9f966ef30569265c8bc2e21e97aaf1b62e106627d6caace52b37",
+      "new": "Сколько академиков сейчас насчитывается в Российской Академии наук?",
+      "evidence": "historical_source_fix",
+      "note": "原图修复题干和 B 选项形近字。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "90"
+      ],
+      "field": "option:B",
+      "old_hash": "09c972495d6dacacaf8caee9da9b402c98ee8666d0a666dcbee6905159caf1e3",
+      "new": "Более 1 000.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复题干和 B 选项形近字。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "91"
+      ],
+      "field": "stem",
+      "old_hash": "6b76ef5da9a99c6837188f81800338050275db35bbcd424d8077fcb7fe7622df",
+      "new": "Благодаря чему Грибоедов пользуется бессмертной славой?",
+      "evidence": "historical_source_fix",
+      "note": "原图修复作家姓氏。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "91"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 15,
+      "evidence": "historical_source_fix",
+      "note": "原图修复作家姓氏。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "92"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 15,
+      "evidence": "historical_source_fix",
+      "note": "原图修复代词、连字符和 D 选项动词。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "92"
+      ],
+      "field": "option:A",
+      "old_hash": "1bef7f1186e4fb719052161cf00fac132e25d6cd77cf5dd8822c7d74069c2d7b",
+      "new": "Кто будет достоин её любви.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复代词、连字符和 D 选项动词。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "92"
+      ],
+      "field": "option:B",
+      "old_hash": "cdda503b986ace38154eff8fd5e1965c306d56c82d627e69ed6c7cce591308f7",
+      "new": "Выйдет ли она замуж когда-нибудь.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复代词、连字符和 D 选项动词。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "92"
+      ],
+      "field": "option:D",
+      "old_hash": "0adb0d3fb95d8784c5572d9abae89df6b088ff3d6dbefc67017e14216d74632c",
+      "new": "Согласится ли Грибоедов заниматься с ней музыкой.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复代词、连字符和 D 选项动词。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "93"
+      ],
+      "field": "stem",
+      "old_hash": "597de2ce51c13f39b76bae6266e769d8bdc6fc809ca3229afac93cfa616f0973",
+      "new": "Что Нина поняла, когда у неё снова начались уроки с Грибоедовым?",
+      "evidence": "historical_source_fix",
+      "note": "原图修复题干、代词和被页眉污染的 C 选项。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "93"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 15,
+      "evidence": "historical_source_fix",
+      "note": "原图修复题干、代词和被页眉污染的 C 选项。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "93"
+      ],
+      "field": "option:A",
+      "old_hash": "de3a28808a924ca7cc573f2efb6b39994f986f89b1879f630812032ccc1f50fd",
+      "new": "Он слишком стар для неё.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复题干、代词和被页眉污染的 C 选项。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "93"
+      ],
+      "field": "option:C",
+      "old_hash": "28c7c066ad4393999e7ad8f06708daaa5182f269566c46686bfdadd770e8da37",
+      "new": "Он самый лучший в мире человек.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复题干、代词和被页眉污染的 C 选项。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "93"
+      ],
+      "field": "option:D",
+      "old_hash": "eb0f1507acfe882ba717f9d953764d11bd826525d20989b4c0895817dd954131",
+      "new": "Он никогда не сможет полюбить её.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复题干、代词和被页眉污染的 C 选项。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "95"
+      ],
+      "field": "correct_answer",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": "D",
+      "evidence": "historical_source_fix",
+      "note": "原图修复 A 选项人名，并从原卷答案页补回答案。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "95"
+      ],
+      "field": "option:A",
+      "old_hash": "075a8840899a75a15883f2b31e5f3bb19894a23e604de2f4b506afc034e70090",
+      "new": "Князю Чавчавадзе.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复 A 选项人名，并从原卷答案页补回答案。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "96"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 17,
+      "evidence": "historical_source_fix",
+      "note": "原图补全 D 选项并修复 C 选项标点。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "96"
+      ],
+      "field": "option:C",
+      "old_hash": "c38d0de71c18d96cc422a205e076641799e86d325c09ed3ff55d983ade61c1d7",
+      "new": "Родной край автора текста.",
+      "evidence": "historical_source_fix",
+      "note": "原图补全 D 选项并修复 C 选项标点。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "96"
+      ],
+      "field": "option:D",
+      "old_hash": "90563bd2259f32a88dea3258ae4ab0be7298acd6105ea4f3dca31cc69828e95c",
+      "new": "Литературный музей им. А.С. Пушкина.",
+      "evidence": "historical_source_fix",
+      "note": "原图补全 D 选项并修复 C 选项标点。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "97"
+      ],
+      "field": "stem",
+      "old_hash": "94629d262d62f3fd1b25a95ba86d67b083bd9ad19313eeb64460ab57a7a088a9",
+      "new": "Где автор впервые встретил внучку Анны Керн?",
+      "evidence": "historical_source_fix",
+      "note": "原图修复人名和 C 选项形近字。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "97"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 17,
+      "evidence": "historical_source_fix",
+      "note": "原图修复人名和 C 选项形近字。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "97"
+      ],
+      "field": "option:C",
+      "old_hash": "a0aee5b91f730f9a626944749eac3914d7d4e26071f7b75fbfb518f813b2512e",
+      "new": "Там, где росли когда-то три пушкинские сосны.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复人名和 C 选项形近字。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "98"
+      ],
+      "field": "source_page",
+      "old_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "new": 17,
+      "evidence": "historical_source_fix",
+      "note": "原图移除 D 选项吸收的页眉噪声。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "98"
+      ],
+      "field": "option:D",
+      "old_hash": "30f2f22bd7614ff51351343c0ddfed562fbc476d77e380ccd4f4bdd73146487a",
+      "new": "Там всегда стоят пасмурные дни.",
+      "evidence": "historical_source_fix",
+      "note": "原图移除 D 选项吸收的页眉噪声。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "99"
+      ],
+      "field": "stem",
+      "old_hash": "a8242b4827840b9a145a85b3d61532f4be666db2f147720990831c5c9818be2b",
+      "new": "Что в Михайловском парке сохранилось с пушкинских времён?",
+      "evidence": "historical_source_fix",
+      "note": "原图修复题干和 A/B/C 三个选项的 OCR 错字。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "99"
+      ],
+      "field": "option:A",
+      "old_hash": "2b9aa0b61485add91636e89c914ae4bd23b187472c3b4e85a17bf3d64b76c1e3",
+      "new": "Дом деда Пушкина.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复题干和 A/B/C 三个选项的 OCR 错字。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "99"
+      ],
+      "field": "option:B",
+      "old_hash": "61eb56e6415683a0da84bbaa08a3d93e74c8b719823915cbe632133cec4e0e20",
+      "new": "Домик няни Пушкина.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复题干和 A/B/C 三个选项的 OCR 错字。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "99"
+      ],
+      "field": "option:C",
+      "old_hash": "f0dbadd4e70dbdf58174b0aba47bf2ee62cbb0f902d36c19d9f79b15d6d74116",
+      "new": "Скамья Евгения Онегина.",
+      "evidence": "historical_source_fix",
+      "note": "原图修复题干和 A/B/C 三个选项的 OCR 错字。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "100"
+      ],
+      "field": "option:D",
+      "old_hash": "554ca1c61b30f43abe1c557f696c48c0ddd34d07e8193fcefcfedf806a3ef4a9",
+      "new": "В нескольких километрах от Петербурга.",
+      "evidence": "historical_source_fix",
+      "note": "原图截断 D 选项后的翻译、作文及答案页噪声。"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "81"
+      ],
+      "field": "body",
+      "old_hash": "ec4a03585be8d8c3fbf2e6dbc792dd563a4cfdc7035d3b7cf6302ff3f97451f8",
+      "new": "Несколько лет назад, получив отпуск летом, я решил поехать на Волгу.\n\nЦелый месяц я прожил в доме, стоящем на высоком берегу реки. Хозяйку дома, где я\nснял комнату, звали Елена Ивановна. Почти каждый вечер мы долго разговаривали с ней.\n\nЕлена Ивановна сказала мне, что ее единственная дочь Аня — медсестра, сейчас\nживет в другом городе, куда она переехала, после того как вышла замуж.\n\nЕлена Ивановна показала мне несколько старых фотографий. На них рядом с Аней\nможно было увидеть красивого молодого человека. Когда я спросил Елену Ивановну, кто\nэто, она ответила одним словом «Андрей». А через несколько дней она сказала мне: «Если\nхотите, я расскажу вам об Андрее».\n\nАндрей учился с Аней в одном классе. С детства он мечтал стать механиком\nбольшого теплохода, чтобы плавать не только по рекам, но и по морям. Окончив школу,\nон уехал в другой город и поступил учиться в училище, где готовят механиков. А Аня\nосталась в родном городе и поступила в медицинское училище. Андрей и Аня стали\nпереписываться.\n\nНа каникулы Андрей всегда приезжал в родной город. И однажды Андрей сказал\nАне, что любит ее. «Вы хотите знать, что ответила ему дочь? — спросила Елена Ивановна, — Она сказала Андрею те слова, которые девушки говорят любимым». Аня и Андрей\nдоговорились пожениться осенью, после его возвращения с последней практики.\n\nИ вот прошло лето, наступила осень. После окончания училища Аня начала работать\nв поликлинике.\n\nВ одном из писем она спросила Андрея, когда он приедет, но ответа на это письмо\nона не получила. Не было ответа и на следующее письмо.\n\nОднажды утром, когда Аня шла на работу, встретившаяся ей женщина-почтальон,\nкоторая знала девушку с самого детства, сказала ей, давая конверт: «Радуйся, Аня, тебе\nписьмо».\n\nДевушка быстро достала письмо из конверта и прочитала первые слова:\n\n«Здравствуйте, незнакомая Аня! Пишет Вам медсестра больницы, в которой сейчас\nлежит Андрей. Не волнуйтесь, скоро его выпишут... Я знаю, что Вы пишете ему письма,\nно он не хочет отвечать Вам. Товарищи Андрея рассказали, что на теплоходе, где он проходил практику, произошел взрыв, горячий пар ударил Андрею в лицо. Потом была сложная\nоперация, продолжавшаяся несколько часов. Врачи сделали все, что могли. Андрей видит,\nон сможет работать. Но у него все лицо красное, как у людей, получивших сильный ожог».\n\n«А продолжение этой истории вы знаете», — сказала Елена Ивановна через несколько минут. И она показала мне несколько фотографий. На них я увидел красивую Аню,\nмальчика лет 5-6 и совсем маленькую девочку. «Мой внук, — с гордостью сказала Елена\nИвановна. — Их фотографировал Андрей».\n\nА когда я попросил Елену Ивановну показать мне фотографию Андрея, она сказала,\nчто сейчас он фотографирует, но сам никогда не фотографируется.",
+      "members": [
+        [
+          "TEM4_RU",
+          2024,
+          "81"
+        ],
+        [
+          "TEM4_RU",
+          2024,
+          "82"
+        ],
+        [
+          "TEM4_RU",
+          2024,
+          "83"
+        ],
+        [
+          "TEM4_RU",
+          2024,
+          "84"
+        ],
+        [
+          "TEM4_RU",
+          2024,
+          "85"
+        ]
+      ],
+      "evidence": "historical_passage_fix"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "86"
+      ],
+      "field": "body",
+      "old_hash": "4f224cc8d18513c66ba42610b1f070298b88fae8ddf293610b600cdae9309206",
+      "new": "XVIII столетие считают эпохой просвещения. Именно в XVIII веке началась огромная\nработа по выпуску книг, поэтому его называют и веком книги. Первый Толковый словарь\nрусского языка вышел в XVIII веке, с 1702 года в России начали выпускать газеты и\nжурналы. Открылись школы, в которых изучали общеобразовательные предметы. В 1728\nгоду открыли первую публичную библиотеку. Но главной особенностью этого времени\nбыли быстрые изменения в общественной жизни страны, в экономике, в науке.\n\nТак в январе 1725 года в Петербурге была основана Российская Академия наук. Это\nбыло сделано по указу Петра Первого, который понимал, что без развития науки Россия\nне станет великой европейской державой. Русский император серьезно заботился о\nрусской науке и образовании. Академии выделяли деньги для разработки многих научных\nпроектов.\n\nЧленами Академии стали талантливые ученые, которые занимались решением и научных, и практических задач в области физики, химии, математики, геологии, географии,\nистории, языкознания. Российская Академия не ограничивалась изучением естественных\nнаук, как это было в европейских странах, но имела в своем составе и гуманитарное отделение. Там занимались вопросами истории, языкознания, философии и т.д.\nОднако самой важной государственной задачей было исследование огромных российских\nпросторов, открытие полезных ископаемых, которые использовались для развития\nзарождающейся промышленности.\n\nСамых талантливых молодых людей посылали учиться в Европу: так, в Германии\nучился первый академик России, будущий основатель Московского университета М.В.\nЛомоносов, который внес большой вклад в развитие Российской Академии. Он открыл\nздесь первые лаборатории, обсерваторию, музей.\n\nКогда говорят о людях, сыгравших большую роль в научной жизни России\nXVIII века, обязательно вспоминают Екатерину Дашкову. Первая женщина в России,\nзанявшая пост президента Российской Академии наук, писала пьесы, стихи, статьи,\n\nпереводила произведения европейских авторов, говорила на четырех языках.\n\nЕкатерина Вторая назначила Е.Р. Дашкову директором Академии в январе 1783 года.\nДашкова возглавляла Академию в течение 11 лет; с ее приходом улучшилась просветительская работа. При Дашковой открыли три новых курса — по математике, географии,\nистории.\n\nСейчас Российская Академия наук насчитывает около девятисот академиков, более\nтысячи членов-корреспондентов. Усилия ученых направлены на создание современных\nтехнологий, новой техники, на решение проблем энергетики и экологии,\nа также на обучение молодежи; ежегодно здесь готовят тысячи аспирантов.\n\nРоссийская наука достигла огромных успехов во всех областях знаний о природе и\nчеловеке. Знаком международного признания этих достижений было присуждение\nНобелевской премии выдающимся русским ученым. Первым ученым России, которому\nв 1904 году была присуждена Нобелевская премия за открытия в области биологии и\nмедицины, стал И.П. Павлов. Нобелевскими лауреатами стали также русский\nученый-химик Н.Н. Семенов, биолог И.И. Мечников, физики П.Л. Капица, Л.Д. Ландау и\nмногие другие.",
+      "members": [
+        [
+          "TEM4_RU",
+          2024,
+          "86"
+        ],
+        [
+          "TEM4_RU",
+          2024,
+          "87"
+        ],
+        [
+          "TEM4_RU",
+          2024,
+          "88"
+        ],
+        [
+          "TEM4_RU",
+          2024,
+          "89"
+        ],
+        [
+          "TEM4_RU",
+          2024,
+          "90"
+        ]
+      ],
+      "evidence": "historical_passage_fix"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "91"
+      ],
+      "field": "body",
+      "old_hash": "0a9f9d7639b2bec92765edf97e716aaf755cd939f2a10e22ed4bda0f8f91e0ea",
+      "new": "Грибоедов... Имя, известное каждому русскому. Человек умный, необыкновенно одаренный: он был дипломатом, он писал пьесы, научные статьи,\nмузыку. Он написал бессмертную комедию «Горе от ума», которая идет на сценах русских\nи иностранных театров уже более 190 лет.\n\nНо сегодня мы хотим рассказать о другом: о его жене, об их любви, которая продолжалась много лет даже после смерти Грибоедова.\n\nГостеприимный дом Чавчавадзе в XIX веке был знаменит на весь Тифлис. У князя\nЧавчавадзе были хорошие дети. Чавчавадзе смотрел на старшую дочь — красавицу Нину —\nи с тревогой думал: кого может полюбить такая прекрасная и талантливая девушка? Кто будет\nее достоин?\n\nВ 1822 году в Тифлис приехал Александр Грибоедов. Его сразу пригласили в гости\nв семью Чавчавадзе. Игра Грибоедова на пианино очень понравилась князю, и\nон попросил Грибоедова заниматься музыкой с его дочерью Ниной. Тогда ей было только\nодиннадцать лет. Нина с удовольствием занималась музыкой со своим новым учителем и\nрассказывала ему свои детские секреты.\n\nЧерез год Грибоедов уехал в Петербург, а вернувшись в Тифлис через несколько\nлет, встретил уже совсем другую Нину: умную и очаровательную девушку.\nСнова начались уроки музыки. Нина скоро поняла, что она не знает человека умнее и\nпрекраснее, чем Грибоедов. Ей казалось, что она не сможет понравиться этому самому\nлучшему в мире человеку. А Грибоедову казалось, что он уже слишком стар для своей\nпрекрасной ученицы и она никогда не сможет полюбить его.\n\nНаконец Грибоедов решился сказать Нине о своей любви. К его удивлению, Нина\nответила радостным согласием. Довольны были также родители Нины. 22 августа 1828\n\nгода состоялась свадьба Грибоедова и Нины Чавчавадзе. Молодая семья уехала в Персию,\nгде Грибоедов получил высокий дипломатический пост. Отношения между Россией и\nПерсией были в это время очень напряженными, и работа Грибоедова была сложной и\nопасной.\n\nСкоро Грибоедов должен был уехать в Тегеран, как он думал, на месяц. Нина\nосталась в Тавризе, имея там только несколько друзей. Прошел месяц, но Александр не\nвозвращался.\n\nНеожиданно в Тавриз пришло страшное известие: во время бунта Грибоедов\nбыл убит озверевшей толпой. Нине решили ничего не говорить об этом: она ждала\nребенка. Ее уговорили вернуться домой в Грузию, к отцу, и там ждать возвращения мужа.\nНо долго скрывать от нее правду не смогли. Когда Нина узнала о страшной смерти мужа,\nона тяжело заболела и потеряла своего ребенка.\n\nКогда тело Грибоедова привезли в Грузию, Нина похоронила его на горе Святого Давида — Грибоедову очень нравилось это место. На памятнике написаны прекрасные слова Нины, ставшие знаменитыми: «Имя и дела твои бессмертны в памяти русской,\nно для чего пережила тебя любовь моя?» Нине было в это время только семнадцать лет.\n\nПосле смерти мужа Нина прожила еще тридцать лет. Замуж она больше не вышла.\nВсе, кто слышал ее рассказы о Грибоедове, понимали: равных ему для нее нет и не может\nбыть.",
+      "members": [
+        [
+          "TEM4_RU",
+          2024,
+          "91"
+        ],
+        [
+          "TEM4_RU",
+          2024,
+          "92"
+        ],
+        [
+          "TEM4_RU",
+          2024,
+          "93"
+        ],
+        [
+          "TEM4_RU",
+          2024,
+          "94"
+        ],
+        [
+          "TEM4_RU",
+          2024,
+          "95"
+        ]
+      ],
+      "evidence": "historical_passage_fix"
+    },
+    {
+      "key": [
+        "TEM4_RU",
+        2024,
+        "96"
+      ],
+      "field": "body",
+      "old_hash": "10471e080cd151ea25a3a481191a9ee1c743b9d1112808c4fdc5fcf2a9851a41",
+      "new": "Когда приезжаешь в эти места, то точно понимаешь, что «поэзия здесь всюду, даже в\nтраве».\n\n— Михайловское, — улыбнулся сопровождающий меня крестьянин. — Отсюда\nначинается земля Александра Сергеевича.\n\nЯ ездил почти по всей стране, видел много мест, удивительных и волнующих сердце,\nно ни одно из них не обладало такой внезапной лирической силой, как Михайловское. Здесь было тихо и спокойно. Пчелы собирали мед в высокой липовой\nаллее, где Пушкин встретился с Анной Керн. На скамейке под липами часто\nсидела с книгой в руках маленькая веселая старушка. Это была внучка Анны Керн.\n\nПервый раз я встретил ее там, где росли когда-то три знаменитые пушкинские сосны.\nРаботники Пушкинского заповедника решили посадить на месте старых\nтри новые, молодые сосны. Когда я встретил внучку Керн около трех недавно посаженных\nмолодых сосен, она поправляла изгородь, сломанную коровой.\n\nВнучка Керн была неутомима. Я встречал ее то в Михайловском, то в\nТригорском, то в Вороничах, на окраине Тригорского, где я жил в пустой прохладной избе.\nВсюду она ходила пешком — в дождь, в жару, на рассвете и в сумерки.\n\nЛетний праздник бывает в Михайловском каждый год в день рождения Пушкина.\nСотни людей приезжают на луг за Соротью, против Пушкинского парка.\n\nВ Пушкинском заповеднике три огромных парка: Тригорский, Петровский и Михайловский. Все они отличаются друг от друга.\n\nТригорский парк полон солнечного света. Такое впечатление остается почему-то даже\nв пасмурные дни. Свет лежит золотыми пятнами на веселой траве, зелени лип и на скамье\nЕвгения Онегина. Этот парк как будто создан для семейных праздников и дружеских\nбесед. Он полон Пушкиным...\n\nНапротив, Михайловский парк — это место для одиночества и размышлений. Это\nпарк, где трудно веселиться. Главная его прелесть — в домике няни Пушкина, единственном домике, оставшемся со времен поэта. Домик этот так мал и трогателен,\nчто даже страшно подняться на его старое крыльцо.\n\nИз Михайловского хорошо виден Петровский парк. Здесь раньше был дом деда\nПушкина.\n\nЯ вспоминаю леса, озера, парки и небо. Природа здесь не тронута никем. Ее берегут\nкак самое ценное и дорогое на свете.\n\nВ нескольких километрах от Михайловского стоит Святогорский монастырь. Под стеной монастыря могила Пушкина, известная всему человечеству. Здесь тот\n«милый предел», о котором Пушкин говорил еще при жизни. Здесь конец блестящей и взволнованной жизни. И здесь, на этой простой могиле, где слышны нежные крики\nптиц, становится особенно ясно, что Пушкин был у нас действительно великим народным\nпоэтом.",
+      "members": [
+        [
+          "TEM4_RU",
+          2024,
+          "100"
+        ],
+        [
+          "TEM4_RU",
+          2024,
+          "96"
+        ],
+        [
+          "TEM4_RU",
+          2024,
+          "97"
+        ],
+        [
+          "TEM4_RU",
+          2024,
+          "98"
+        ],
+        [
+          "TEM4_RU",
+          2024,
+          "99"
+        ]
+      ],
+      "evidence": "historical_passage_fix"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "56"
+      ],
+      "field": "body",
+      "old_hash": "613dae18611a9990ac616a392a897d7b93c7ed02dca29fa5459a226e6cfc0ab9",
+      "new": "Летом 1940 года ленинградский художник Балашов уехал охотиться и работать\nна Север. В первой же понравившейся ему деревне Балашов сошел со старого речного\nпарохода и поселился в доме сельского учителя. В этой деревне жила со своим отцом —\nлесным сторожем — красавица Настя.\n\nОднажды на охоте отец Насти неосторожным выстрелом ранил Балашова в грудь.\nРаненого принесли в дом сельского учителя. Старик-сторож послал Настю ухаживать за\nраненым. Из жалости к раненому родилась первая ее девичья любовь. Но проявления этой\nлюбви были так застенчивы, что Балашов ничего не заметил.\n\nУ Балашова в Ленинграде была жена, но он ни разу никому не рассказывал о ней. Все\nв деревне были убеждены, что Балашов человек одинокий.\n\nКак только рана зажила, Балашов уехал в Ленинград. Перед отъездом он пришел без\nприглашения в избу к Насте поблагодарить ее за заботу и принес ей подарки. Настя приняла их. Балашов не знал местных обычаев: мужчина, который пришел без приглашения в\nизбу к девушке и принес ей подарок, считается, если подарок принят, ее женихом. Так на\nСевере говорят о любви.\n\nНастя робко спросила Балашова, когда же он вернется из Ленинграда. Балашов\nшутливо ответил, что вернется очень скоро.\n\nБалашов уехал. Настя ждала его. Прошло светлое лето, прошла сырая и горькая\nосень, но Балашов не возвращался. Настя решила тайком от отца бежать в Ленинград\nи разыскать там Балашова. Ночью она ушла из деревни. По дороге Настя узнала, что\nначалась война.\n\nНастя добралась до Ленинграда и разыскала квартиру Балашова. Насте открыла\nдверь жена Балашова. Она с недоумением оглядела Настю с ног до головы и сказала, что\nБалашов на фронте.\n\nНастя узнала, что Балашов был женат. Значит, он обманул ее, посмеялся над ее\nлюбовью. В отчаянии она хотела лишить себя жизни, но инженер Трофимов остановил ее.\nТрофимов и его жена помогли Насте.\n\nОт жены Трофимова Настя впервые услышала, что Балашов ни в чем не виноват, что\nникто не обязан знать их северные обычаи. Настя радовалась, что она не обманута, и все\nеще надеялась увидеть Балашова.\n\nТрофимова вскоре взяли в армию. Через некоторое время Настя выучилась на\nмедсестру и ее отправили на фронт. На фронте Настя встретила Трофимова, и охотливый\nэтот человек рассказал бойцам из своей части о девушке-северянке, ищущей на фронте\nлюбимого человека. Слух об этой девушке начал быстро расти.\n\nСлучилось так, что Настя нашла наконец батарею, где служил Балашов, но не нашла\nБалашова: он был убит за два дня до этого.\n\nПосле смерти Балашова Настя отдала всю свою заботу раненым и стала лучшей\nсестрой на участке фронта, где она служила.",
+      "members": [
+        [
+          "TEM8_RU",
+          2024,
+          "56"
+        ],
+        [
+          "TEM8_RU",
+          2024,
+          "57"
+        ],
+        [
+          "TEM8_RU",
+          2024,
+          "58"
+        ],
+        [
+          "TEM8_RU",
+          2024,
+          "59"
+        ]
+      ],
+      "evidence": "historical_passage_fix"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "60"
+      ],
+      "field": "body",
+      "old_hash": "d866a4de332408a9599a60dcc5317618914d3ac3243c78540af80b7007e947b3",
+      "new": "В 2023 году в России прошли торжества в честь 150-летия со дня рождения Сергея\nРахманинова — русского гения, воплотившего в музыке все лучшее, что есть в природе,\nкультуре и характере России. Он был одним из самых исполняемых русских композиторов\nнаравне с Чайковским.\n\nКогда Рахманинову было 9 лет, он поступил на младшее отделение Петербургской\nконсерватории. Поначалу юный музыкант часто прогуливал занятия. Но позже он\nвстретился со своим двоюродным братом — молодым, но уже известным московским пианистом Александром Зилоти. Зилоти послушал игру Рахманинова и убедил его родителей\nотправить мальчика в Москву, в ученики к Николаю Звереву.\n\nВ 1892 году Рахманинов окончил Московскую консерваторию, получив Большую золотую медаль за дипломную работу — одноактную оперу «Алеко». Чайковский, который\nпринимал экзамен у юного композитора, поставил опере оценку «пять с тремя плюсами»\nи рекомендовал ее к постановке в Большом театре. Молодой Рахманинов быстро стал\nлюбимцем московской публики: его знали как талантливого пианиста, композитора и\nдирижера.\n\nНо в 1897 году музыкант потерпел настоящий провал: композитор Александр Глазунов\nкрайне неудачно исполнил его Первую симфонию в Петербурге. Новаторское сочинение\nРахманинова не приняли ни критики, ни публика. Композитор впал в депрессию и на\nпротяжении почти четырех лет ничего не сочинял и практически не выходил из дома.\n\nНовый этап в его жизни и карьере наступил в 1901 году, когда композитор завершил\nВторой фортепианный концерт. Сочинение вернуло Рахманинову статус известного\nроссийского музыканта. Его пригласили на должность дирижера в Большом театре, так же\nон возглавил художественный совет Российского музыкального издательства.\n\nВ 1902 году Рахманинов обвенчался со своей двоюродной сестрой. У них родились\nдве дочери. Вскоре после революции 1917 года композитора пригласили выступить на\nконцерте в Стокгольме. Рахманинов покинул Россию — вместе с семьей, практически без\nсредств к существованию. Революция, гибель имперской России стали для него настоящей\nтрагедией. Однако Рахманинов должен был обеспечивать семью, поэтому вновь стал\nвыступать с концертами. Пианист покорил европейскую публику, а в 1918 году уехал в\nАмерику, где продолжал давать концерты. Критики и слушатели признавали его одним из\nвеличайших пианистов и дирижеров эпохи.\n\nПервые 10 лет эмиграции Рахманинов не мог писать: «Уехав из России, я потерял\nжелание сочинять. Лишившись Родины, я потерял самого себя...». Первое сочинение —\nЧетвертый концерт и русские песни — он создал только в 1926—1927 годах.\n\nХотя Рахманинов находился вдали от своей Родины, он не был равнодушен к своим\nбывшим соотечественникам. В годы Второй мировой войны он перечислял доходы от\nконцертов в фонд Красной армии и в фонд обороны СССР — на эти деньги в России\nпостроили военный самолет.\n\nВ последние годы жизни Рахманинов продолжал выступать, свой последний концерт\nдал за 6 недель до смерти. Композитора не стало в 1943 году, он всего несколько дней не\nдожил до 70-летнего юбилея. Рахманинова похоронили на кладбище Кенсико в Нью-Йорке\nрядом с женой и дочерью.",
+      "members": [
+        [
+          "TEM8_RU",
+          2024,
+          "60"
+        ],
+        [
+          "TEM8_RU",
+          2024,
+          "61"
+        ],
+        [
+          "TEM8_RU",
+          2024,
+          "62"
+        ],
+        [
+          "TEM8_RU",
+          2024,
+          "63"
+        ]
+      ],
+      "evidence": "historical_passage_fix"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "64"
+      ],
+      "field": "body",
+      "old_hash": "e36b63b4ec74107f08cb04497f7abcae4a25831abf2483c4fd87fe0f2f46ebed",
+      "new": "Компьютерный зрительный синдром (КЗС) — комплекс симптомов, развивающихся при длительном использовании цифровых устройств. В официальном перечне болезней такого диагноза нет, однако он активно изучается исследователями. В чем причины компьютерного\nсиндрома и как его предотвратить?\n\nВ современных зарубежных медицинских источниках КЗС также называется цифровым\nнапряжением глаз и ассоциируется с избыточным использованием цифровых устройств. Поскольку сегодня гаджетоманят и дети, и пенсионеры, КЗС может развиться\nв любом возрасте. Риск его возникновения связан с количеством времени, проведенного за\nцифровыми устройствами. У тех, кто пользуется цифровыми устройствами более трех часов в\nдень, КЗС возникает в 90% случаев.\n\nКЗС проявляется широким спектром нарушений со стороны органов зрения: от\nсимптомов зрительного переутомления до близорукости. У 67% людей с цифровым\nнапряжением глаз возникают нарушения сна. Неотъемлемая часть КЗС — синдром сухого\nглаза, который называют болезнью цивилизации. Он диагностируется у каждого второго\nпациента. За последние 30 лет это заболевание очень «помолодело», а его распространенность увеличилась в 4,5 раза. Отмечается четкая связь синдрома с повышенной зрительной нагрузкой. В группу риска входят программисты, офисные работники, школьники и\nстуденты.\n\nКроме того, это заболевание ассоциируется с ухудшением психического здоровья,\nснижением профессиональной активности и качества жизни. У людей с синдромом\nсухого глаза легкой, средней и тяжелой степени нарушение психологического комфорта\nсоставляет 23%, 97% и 100% соответственно.\n\nБолее трети случаев КЗС возникает из-за неправильной организации рабочего места:\nнеравномерного, тусклого или слишком яркого освещения, недостаточного расстояния\nмежду монитором и глазами. Анализ 49 исследований продемонстрировал, что слишком\nблизкое расположение монитора повышает риск компьютерного синдрома в 4,24 раза.\n\nПоэтому для профилактики КЗС рекомендуется:\n\nВо-первых, ограничивать время просиживания за гаджетами, особенно у детей.\nМладшие школьники не должны гаджетоманить более часа в день, в возрасте 10 лет —\nболее двух часов. При этом чем меньше экран, тем больше нагрузка на зрение. Из всех\nцифровых устройств смартфоны наиболее часто провоцируют КЗС у детей.\n\nВо-вторых, создавать равномерное и достаточное освещение помещения. Если\nиспользуется дополнительное освещение, оно не должно быть ярким и направленным\nв глаза или на монитор. Попадание света на экран приводит к быстрому зрительному\nутомлению. Естественное освещение должно находиться сбоку от рабочего места.\n\nВ-третьих, не сутулиться во время использования цифровых устройств. При\nнарушении осанки замедляется кровоток в затылочных отделах мозга, где формируется\nзрительное изображение. Это приводит к головокружению и быстрой утомляемости глаз.\n\nВ завершение запомните правило «20-20-20». При использовании гаджетов рекомендуется каждые 20 минут делать 20-секундный перерыв и смотреть вдаль на расстояние 20\nфутов (6 метров). Снизить риск синдрома сухого глаза помогает регулярная гимнастика\nглаз в виде частого моргания.",
+      "members": [
+        [
+          "TEM8_RU",
+          2024,
+          "64"
+        ],
+        [
+          "TEM8_RU",
+          2024,
+          "65"
+        ],
+        [
+          "TEM8_RU",
+          2024,
+          "66"
+        ],
+        [
+          "TEM8_RU",
+          2024,
+          "67"
+        ]
+      ],
+      "evidence": "historical_passage_fix"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "68"
+      ],
+      "field": "body",
+      "old_hash": "c70857a4fc0af5a3df7c2864e781f1e9cba68e0bd5f113108ec70bcdc269d2ec",
+      "new": "Некоторые, к моему изумлению, вспоминают свои школьные годы с враждебностью.\nА я люблю свою школу, приятелей детства. Были у меня и любимые учителя. Вообще, я\nбольше всего ценю две профессии: учителя и врача. Эти призвания в чем-то схожи: один\nи другой заботятся о человеческом здоровье — только первый о здоровье нравственном,\nа второй — о физическом... Помню, всегда я ждал встреч с уроками литературы. Мария\nФедоровна Смирнова не «проходила литературу» (ибо «проходить» можно лишь мимо чего-нибудь), а знакомила нас с великими творениями. То были не только уроки литературы,\nно и уроки гуманизма.\n\nМария Федоровна говорила, к примеру:\n\n— Ванька Жуков написал письмо «на деревню дедушке». Но, допустим, оно все же\nдошло... Что бы дедушка ответил Ваньке?\n\nИ мы все, ученики 4-го класса «Г», отвечали Ваньке от имени дедушки и звали его обратно в деревню и обещали, что все будет хорошо. Да, это были воистину уроки доброты...\n\nМария Федоровна первой знакомилась с моими незрелыми литературными произведениями — и давала строгие, бесценные советы.\n\nА потом все мы расстаемся со своими учителями... В круговороте жизни, увы, не так\nуж часто вспоминаем о них и уж совсем редко с ними видимся. Бывает, конечно, и по-иному. Но, что греха таить, случается это как исключение... Мария Федоровна сама прислала\nмне письмо. Сообщила, что внимательно «следит» за мной, не пропускает ни одной моей\nповести, ни одного моего спектакля. Обозначила в конце номер своего телефона, свой\nадрес. Я немедленно отозвался... И договорились мы непременно встретиться. «Только не\nнадо надолго откладывать», — словно извиняясь, проговорила она. Следовало отправиться к ней в тот же вечер... Но были съемки очередной моей телепередачи «Лица друзей».\nСейчас я думаю: почему так часто повседневная суета, и в том числе «Лица друзей», как\nбы отстраняли от меня лица моих личных друзей, не позволяли порой к ним прорваться?\nХотя друзьями своими я всегда искренне и безмерно дорожил... После передачи проходили\nи репетиции спектаклей в других городах, на которых я обязан был присутствовать. А еще\nпозже... Не хочется перечислять.\n\nНаконец я позвонил, чтобы встретиться со своей самой любимой учительницей. И\nмне ответили... что ее уже нет. Она же предупреждала: «Только не надо надолго откладывать». Наверно, была больна. Но не настаивала... из-за неизменной своей деликатности. Куда же девалась моя деликатность? Почему мы порою откладываем именно то,\nчто касается самых близких, самых любимых? А потом рвем на себе волосы... Всю жизнь\nя, честное слово, старался откликаться на просьбы, помогать, «протягивать руку». Но все\nже случалось: туда, куда необходимо было устремиться немедленно, в первую очередь, не\nустремлялся. Суета, суета...\n\n«С добром надо спешить, а то оно может остаться без адресата», — говорит\nодин из моих персонажей. Он прав.",
+      "members": [
+        [
+          "TEM8_RU",
+          2024,
+          "68"
+        ],
+        [
+          "TEM8_RU",
+          2024,
+          "69"
+        ],
+        [
+          "TEM8_RU",
+          2024,
+          "70"
+        ],
+        [
+          "TEM8_RU",
+          2024,
+          "71"
+        ]
+      ],
+      "evidence": "historical_passage_fix"
+    },
+    {
+      "key": [
+        "TEM8_RU",
+        2024,
+        "72"
+      ],
+      "field": "body",
+      "old_hash": "ae01ef49cb2ac096473536f2523f05c21c6357cc65112167b21fb78eb427c83b",
+      "new": "Идея, что памятники архитектуры следует охранять, возникла в России довольно\nпоздно. Государство эта проблема не слишком беспокоила, поэтому инициативу по сохранению памятников архитектуры пришлось брать в руки частным лицам и организациям.\n\nВ допетровские времена сохранять исторические здания никому не приходило в\nголову. Только при Петре I объекты культурного наследия впервые попытались взять под защиту государства. Но архитектурные объекты по-прежнему не считались достойными\nохраны: законодательство их не защищало, поэтому бесконтрольно разрушались и\nперестраивались даже ценнейшие старинные здания. Например, очень показателен проект\nБольшого Кремлевского дворца, который архитектор Василий Баженов разработал для\nЕкатерины II. Для постройки этого гигантского комплекса архитектор планировал снести\nзначительную часть древних построек Кремля.\n\nБолее того, для расчистки места под дворец успели разобрать несколько дворцов,\nцерквей и часть Кремлевской стены с шестью башнями. К счастью, строительство было\nсначала заморожено, а потом и вовсе остановлено. Снесенные стены и башни позже\nвосстановили, а вот церкви и дворцы оказались утрачены навсегда.\n\nВ XIX веке наконец-то появилась законодательная база, защищающая памятники\nархитектуры. 31 декабря 1826 года вышло распоряжение о «собирании по всем губерниям\nсведений об остатках древних замков и крепостей или других зданий древности». Но\nэтот документ не устанавливал ни критериев для выявления древности построек, ни\nответственности за нарушения. Старинные здания продолжали разрушаться — особенно\nв крупных городах, где во второй половине XIX века шло бурное строительство. Словом,\nгосударство не слишком заботилось о защите исторических зданий.\n\nКак часто бывает в России, если государство не справляется с проблемой, инициатива\nпереходит в частные руки. Так же случилось и с градозащитой. Эту функцию в XIX —\nначале ХХ века взяли на себя научные общества: сначала археологические, а\nпотом и архитектурно-художественные.\n\nАрхеологические общества начали активно появляться с середины XIX века в столицах и в регионах. Они взяли на себя защиту архитектурных памятников: рассматривали\nпроекты их реставрации, контролировали реставрационные работы, а самые влиятельные\nобщества даже обладали правом вето и могли запретить снос или перестройку\nздания. А главное — они влияли на общественное мнение, приучая людей к мысли, что\nархитектурные памятники нуждаются в защите.\n\nПозже к градозащите присоединились и архитектурно-художественные общества. С\nпоявлением этих обществ и развитием архитектурной критики начинает меняться подход к\nохране архитектурных объектов: если раньше их необходимость сохранения определялась возрастом, то теперь все более важную роль стал играть эстетический критерий.\n\nНадо сказать, что в те годы к градозащитникам прислушивались — кажется, не в\nпример больше, чем сейчас. Вероятно, дело было и в том, что градозащитой в те годы\nзанимались люди очень влиятельные: при необходимости они могли обратиться за\nподдержкой в самые высшие инстанции, вплоть до членов императорской семьи.\nРезультаты их деятельности впечатляют: всего за несколько лет активной работы (с начала\n1900-х до революции) они отстояли множество исторических зданий и архитектурных\nпамятников.",
+      "members": [
+        [
+          "TEM8_RU",
+          2024,
+          "72"
+        ],
+        [
+          "TEM8_RU",
+          2024,
+          "73"
+        ],
+        [
+          "TEM8_RU",
+          2024,
+          "74"
+        ],
+        [
+          "TEM8_RU",
+          2024,
+          "75"
+        ]
+      ],
+      "evidence": "historical_passage_fix"
+    }
+  ]
+}

@@ -43,6 +43,7 @@ data/listening/
 database/*.sqlite
 database/*.sqlite3
 database/*.db
+database/content_update_reports/
 
 # Local tools and temporary downloads
 tools/

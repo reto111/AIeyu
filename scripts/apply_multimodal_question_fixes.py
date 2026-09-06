@@ -1,11 +1,7 @@
 from __future__ import annotations
 
-import argparse
-import json
 import re
-import shutil
 import sqlite3
-from datetime import datetime
 from pathlib import Path
 
 
@@ -692,22 +688,6 @@ def current_options(con: sqlite3.Connection, question_id: int) -> dict[str, str]
     )
 
 
-def add_review_log(
-    con: sqlite3.Connection,
-    question_id: int,
-    note: str,
-    review_decision: str,
-) -> None:
-    con.execute(
-        """
-        INSERT INTO question_review_logs
-          (question_id, review_decision, review_notes, knowledge_point_codes, reviewer)
-        VALUES (?, ?, ?, NULL, ?)
-        """,
-        (question_id, review_decision, "multimodal_source_fix: " + note, REVIEWER),
-    )
-
-
 def build_changes(con: sqlite3.Connection) -> list[dict]:
     changes = []
     for (exam, year, number), fix in FIXES.items():
@@ -781,124 +761,10 @@ def build_passage_changes(con: sqlite3.Connection) -> list[dict]:
     return changes
 
 
-def apply_changes(con: sqlite3.Connection, changes: list[dict]) -> None:
-    for change in changes:
-        con.execute(
-            """
-            UPDATE questions
-            SET stem = ?, correct_answer = ?, source_page = ?,
-                updated_at = CURRENT_TIMESTAMP
-            WHERE id = ?
-            """,
-            (
-                change["new_stem"],
-                change["new_correct_answer"],
-                change["new_source_page"],
-                change["question_id"],
-            ),
-        )
-        for key, values in change["option_changes"].items():
-            con.execute(
-                """
-                UPDATE question_options
-                SET option_text = ?, updated_at = CURRENT_TIMESTAMP
-                WHERE question_id = ? AND option_key = ?
-                """,
-                (values["new"], change["question_id"], key),
-            )
-        add_review_log(
-            con,
-            change["question_id"],
-            change["note"],
-            change["review_status"],
-        )
-
-
-def apply_passage_changes(con: sqlite3.Connection, changes: list[dict]) -> None:
-    for change in changes:
-        con.execute(
-            "UPDATE passages SET body = ?, updated_at = CURRENT_TIMESTAMP WHERE id = ?",
-            (change["new_body"], change["passage_id"]),
-        )
-
-
-def inconsistent_review_log_ids(con: sqlite3.Connection) -> list[int]:
-    return [
-        row["id"]
-        for row in con.execute(
-            """
-            SELECT l.id
-            FROM question_review_logs l
-            JOIN questions q ON q.id = l.question_id
-            WHERE l.reviewer = ?
-              AND l.review_decision != q.review_status
-            """,
-            (REVIEWER,),
-        )
-    ]
-
-
-def normalize_review_logs(con: sqlite3.Connection, log_ids: list[int]) -> None:
-    for log_id in log_ids:
-        con.execute(
-            """
-            UPDATE question_review_logs
-            SET review_decision = (
-                SELECT q.review_status
-                FROM questions q
-                WHERE q.id = question_review_logs.question_id
-            )
-            WHERE id = ?
-            """,
-            (log_id,),
-        )
-
-
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Apply source-verified multimodal question fixes.")
-    parser.add_argument("--db", default=str(DB_PATH))
-    parser.add_argument("--apply", action="store_true", help="Apply changes; default is dry-run.")
-    args = parser.parse_args()
-
-    db_path = Path(args.db)
-    con = sqlite3.connect(db_path)
-    con.row_factory = sqlite3.Row
-    changes = build_changes(con)
-    passage_changes = build_passage_changes(con)
-    review_log_ids = inconsistent_review_log_ids(con)
-
-    stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    backup_path = None
-    if args.apply and (changes or passage_changes or review_log_ids):
-        BACKUP_DIR.mkdir(parents=True, exist_ok=True)
-        backup_path = BACKUP_DIR / f"{db_path.stem}_before_multimodal_fixes_{stamp}{db_path.suffix}"
-        shutil.copy2(db_path, backup_path)
-        with con:
-            apply_changes(con, changes)
-            apply_passage_changes(con, passage_changes)
-            normalize_review_logs(con, review_log_ids)
-    con.close()
-
-    report = {
-        "mode": "apply" if args.apply else "dry_run",
-        "database": str(db_path.resolve()),
-        "backup": str(backup_path) if backup_path else None,
-        "change_count": len(changes),
-        "passage_change_count": len(passage_changes),
-        "review_log_normalization_count": len(review_log_ids),
-        "changes": changes,
-        "passage_changes": passage_changes,
-    }
-    REPORT_DIR.mkdir(parents=True, exist_ok=True)
-    report_path = REPORT_DIR / "multimodal_question_fixes_latest.json"
-    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(
-        json.dumps(
-            {k: v for k, v in report.items() if k not in {"changes", "passage_changes"}},
-            ensure_ascii=False,
-            indent=2,
-        )
-    )
+    # Keep the historical command while routing writes through preconditions.
+    from content_patch import main as guarded_main
+    guarded_main()
 
 
 if __name__ == "__main__":

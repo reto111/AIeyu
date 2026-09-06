@@ -122,15 +122,14 @@ Copy-Item .\database\russian_ai_tutor.sqlite .\database\russian_ai_tutor_before_
 ```
 
 3. 将更新包解压并覆盖到项目目录，保留服务器原有的 `.env` 和 `database\russian_ai_tutor.sqlite`。
-4. 在服务器数据库副本上先验证本次发布指定的迁移与内容补丁，确认不会回退人工修正或损坏学生记录后，才在正式库执行。以下是历史脚本顺序示例，不是每次更新均可直接照抄的命令：
+4. 在服务器数据库副本上先验证本次发布指定的迁移与内容补丁，确认不会回退人工修正或损坏学生记录后，才在正式库执行。2026-09-03 多模态修正使用以下入口，详见 `content_update_workflow.md`：
 
 ```powershell
-python -B scripts\apply_question_quality_fixes.py
-python -B scripts\tag_question_knowledge_points.py --apply
-python -B scripts\apply_vocabulary_quality_fixes.py
+python -B scripts\content_patch.py
+python -B scripts\content_patch.py --apply
 ```
 
-历史补丁可能重写已修正字段，故须核对本次包内清单和副本差异。2026-09-03 的多模态补丁为 `scripts/apply_multimodal_question_fixes.py`，目前需要先验证与旧脚本的覆盖顺序；不能仅凭脚本可重复运行就保证不会覆盖后续人工修改。
+预览冲突必须为空才继续应用；存在冲突则整批不写入。不要再把旧 `apply_question_quality_fixes.py`、重标和词汇脚本串行作为通用更新步骤，它们不属于本次定向补丁。
 
 5. 重新启动服务：
 

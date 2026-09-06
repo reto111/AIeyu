@@ -19,6 +19,6 @@ AIeyu 服务器上传包
 - 先停止旧 Python 服务。
 - 备份服务器的 database\russian_ai_tutor.sqlite。
 - 覆盖代码文件时保留服务器 .env 和服务器数据库，以保留账号、错题和学习记录。
-- 如果需要使用本包最新数据库，确认已备份服务器旧数据库后，再用包内数据库覆盖。
+- 已有学生数据时不要用包内数据库覆盖。内容更新使用本次发布指定的补丁；2026-09-03 多模态修正先运行 python -B scripts\content_patch.py 预览，冲突为空才加 --apply 执行。完整步骤及回滚条件见 docs\content_update_workflow.md。
 
 本包不包含：.env、.git、.venv、原始 PDF、处理过程备份和本地缓存。
