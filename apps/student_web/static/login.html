@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>登录 · AIeyu 俄语备考</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/student-refinement.css">
+</head>
+<body class="auth-page" data-auth-mode="login">
+  <main class="auth-surface">
+    <a class="auth-brand" href="/">AIeyu <span lang="ru">Русский язык</span></a>
+    <h1>登录</h1>
+    <form id="authForm">
+      <label class="field"><span>姓名 / 用户名</span><input name="display_name" type="text" required maxlength="40" autocomplete="username"></label>
+      <label class="field"><span>密码</span><input name="password" type="password" required minlength="8" maxlength="80" autocomplete="current-password"></label>
+      <p id="authMessage" role="status" aria-live="polite"></p>
+      <button id="authSubmit" class="primary" type="submit">登录</button>
+    </form>
+    <p class="auth-alternate">还没有账号？ <a href="/register.html">注册新账号</a></p>
+  </main>
+  <script src="/auth.js"></script>
+</body>
+</html>

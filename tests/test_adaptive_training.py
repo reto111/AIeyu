@@ -66,6 +66,58 @@ class AdaptiveTrainingTests(unittest.TestCase):
         self.assertIsNotNone(row, f"Missing test question for {exam}/{knowledge_code}")
         return int(row[0])
 
+    def test_registration_requires_separate_login(self):
+        with app.db() as conn:
+            before = conn.execute('SELECT count(*) FROM user_sessions').fetchone()[0]
+        credentials = {'display_name': 'registration-flow-test', 'password': 'example-pass-123'}
+        result = app.api_register(credentials)
+        self.assertTrue(result['registered'])
+        self.assertFalse(result['authenticated'])
+        self.assertNotIn('user', result)
+        with app.db() as conn:
+            self.assertEqual(conn.execute('SELECT count(*) FROM user_sessions').fetchone()[0], before)
+        with self.assertRaises(ValueError):
+            app.api_register(credentials)
+        with self.assertRaises(ValueError):
+            app.api_login({**credentials, 'password': 'incorrect-password'})
+        result, cookie = app.api_login(credentials)
+        self.assertTrue(result['authenticated'])
+        self.assertIn('HttpOnly', cookie)
+        self.assertEqual(result['user']['display_name'], credentials['display_name'])
+
+    def test_registration_rejects_short_password(self):
+        with self.assertRaises(ValueError):
+            app.api_register({'display_name': 'short-password-test', 'password': '1234567'})
+
+    def test_registration_http_does_not_issue_login_cookie(self):
+        import threading
+        import urllib.request
+        from http.cookiejar import CookieJar
+        server = app.ThreadingHTTPServer(('127.0.0.1', 0), app.StudentAppHandler)
+        thread = threading.Thread(target=server.serve_forever, daemon=True)
+        thread.start()
+        base = f'http://127.0.0.1:{server.server_port}'
+        client = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(CookieJar()))
+        credentials = {'display_name': 'http-registration-test', 'password': 'test-password-123'}
+        try:
+            request = urllib.request.Request(base + '/api/auth/register',
+                data=json.dumps(credentials).encode(), headers={'Content-Type': 'application/json'})
+            with client.open(request) as response:
+                self.assertIsNone(response.headers.get('Set-Cookie'))
+                self.assertFalse(json.load(response)['authenticated'])
+            with client.open(base + '/api/auth/status') as response:
+                self.assertFalse(json.load(response)['authenticated'])
+            request = urllib.request.Request(base + '/api/auth/login',
+                data=json.dumps(credentials).encode(), headers={'Content-Type': 'application/json'})
+            with client.open(request) as response:
+                self.assertIn('HttpOnly', response.headers['Set-Cookie'])
+            with client.open(base + '/api/auth/status') as response:
+                self.assertTrue(json.load(response)['authenticated'])
+        finally:
+            server.shutdown()
+            server.server_close()
+            thread.join(timeout=5)
+
     def add_attempts(self, exam: str, level: str, question_id: int, answers: list[bool]) -> None:
         with closing(sqlite3.connect(self.db_path)) as conn:
             system_id = int(conn.execute("SELECT id FROM exam_systems WHERE code = ?", (exam,)).fetchone()[0])

@@ -113,6 +113,17 @@ input[type="password"] { width: 100%; min-height: 42px; border: 1px solid var(--
 /* State visibility must win over the responsive layout declarations. */
 .hidden { display: none !important; }
 
+.auth-page { padding: 40px 16px; }
+.auth-surface { max-width: 400px; margin: 0 auto; padding: 28px; background: #fff; }
+.auth-brand { display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px; margin-bottom: 32px; font-size: 23px; font-weight: 700; text-decoration: none; color: var(--ink); }
+.auth-brand span { font-family: Georgia, serif; font-size: 15px; font-weight: 400; color: var(--blue); }
+.auth-surface h1 { margin-bottom: 24px; }
+.auth-surface input { min-width: 0; }
+.auth-surface .primary { width: 100%; min-width: 0; }
+#authMessage { margin-bottom: 16px; color: var(--green-dark); overflow-wrap: anywhere; }
+.auth-alternate { margin-top: 24px; font-size: 14px; }
+.auth-alternate a { color: var(--green-dark); text-underline-offset: 3px; }
+
 /* Cyrillic identity stays secondary to the student's Chinese navigation. */
 .mark { background: #344d70; font-family: Georgia, "Times New Roman", serif; font-size: 32px; font-weight: 400; }
 .brand { align-items: flex-start; }

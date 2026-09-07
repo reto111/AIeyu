@@ -384,12 +384,6 @@ function renderAuthStatus(payload) {
   $("#logoutBtn").classList.toggle("hidden", !state.authenticated);
   $("#loginBtn").classList.toggle("hidden", state.authenticated);
   $("#registerBtn").classList.toggle("hidden", state.authenticated);
-  $("#authName").disabled = state.authenticated;
-  $("#authPassword").disabled = state.authenticated;
-  if (state.activeUser) {
-    $("#authName").value = state.activeUser.display_name;
-    $("#authPassword").value = "";
-  }
 }
 
 async function loadAuthStatus() {
@@ -399,34 +393,6 @@ async function loadAuthStatus() {
     clearStudentState();
   }
   return payload;
-}
-
-function authPayload() {
-  return {
-    display_name: $("#authName").value.trim(),
-    password: $("#authPassword").value.trim(),
-  };
-}
-
-async function submitAuth(mode) {
-  const button = mode === "login" ? $("#loginBtn") : $("#registerBtn");
-  const originalText = button.textContent;
-  button.disabled = true;
-  button.textContent = mode === "login" ? "登录中..." : "注册中...";
-  try {
-    const payload = await requestJson(`/api/auth/${mode}`, {
-      method: "POST",
-      body: JSON.stringify(authPayload()),
-    });
-    renderAuthStatus(payload);
-    await refreshStudentData();
-    closeAccountMenu();
-  } catch (error) {
-    $("#activeUserHint").textContent = error.message;
-  } finally {
-    button.disabled = false;
-    button.textContent = originalText;
-  }
 }
 
 async function logoutUser() {
@@ -1727,8 +1693,8 @@ for (const button of document.querySelectorAll(".navbtn")) {
   button.addEventListener("click", () => showView(button.dataset.view));
 }
 $("#accountButton").addEventListener("click", toggleAccountMenu);
-$("#loginBtn").addEventListener("click", () => submitAuth("login"));
-$("#registerBtn").addEventListener("click", () => submitAuth("register"));
+$("#loginBtn").addEventListener("click", () => { location.href = "/login.html"; });
+$("#registerBtn").addEventListener("click", () => { location.href = "/register.html"; });
 $("#logoutBtn").addEventListener("click", logoutUser);
 $("#refreshWrongbookBtn").addEventListener("click", loadWrongbook);
 $("#reviewPendingBtn").addEventListener("click", () => startWrongbookReview());

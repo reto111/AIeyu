@@ -388,7 +388,7 @@ def api_auth_status(handler: BaseHTTPRequestHandler) -> dict[str, Any]:
     return {"authenticated": True, "user": public_user(user)}
 
 
-def api_register(payload: dict[str, Any]) -> tuple[dict[str, Any], str]:
+def api_register(payload: dict[str, Any]) -> dict[str, Any]:
     display_name = normalize_login_name(payload.get("display_name"))
     password = normalize_password(payload.get("password"))
     email = str(payload.get("email") or "").strip() or None
@@ -414,10 +414,8 @@ def api_register(payload: dict[str, Any]) -> tuple[dict[str, Any], str]:
             """,
             (user_id, display_name, password_hash(password)),
         )
-        token = create_session(conn, user_id)
         conn.commit()
-        user = ensure_user_exists(conn, user_id)
-    return {"authenticated": True, "user": public_user(user)}, session_cookie(token)
+    return {"registered": True, "authenticated": False}
 
 
 def api_login(payload: dict[str, Any]) -> tuple[dict[str, Any], str]:
@@ -674,7 +672,7 @@ def api_health() -> dict[str, Any]:
     except Exception as exc:
         checks.append({"code": "database_access", "ok": False, "detail": str(exc)})
 
-    static_missing = [name for name in ("index.html", "app.js", "styles.css", "student-refinement.css") if not (STATIC_DIR / name).exists()]
+    static_missing = [name for name in ("index.html", "app.js", "styles.css", "student-refinement.css", "login.html", "register.html", "auth.js") if not (STATIC_DIR / name).exists()]
     checks.append(
         {
             "code": "student_web_files",
@@ -3077,8 +3075,8 @@ class StudentAppHandler(BaseHTTPRequestHandler):
             length = int(self.headers.get("Content-Length") or 0)
             payload = json.loads(self.rfile.read(length).decode("utf-8") or "{}")
             if self.path == "/api/auth/register":
-                result, cookie = api_register(payload)
-                json_response(self, HTTPStatus.OK, result, {"Set-Cookie": cookie})
+                result = api_register(payload)
+                json_response(self, HTTPStatus.OK, result)
                 return
             if self.path == "/api/auth/login":
                 result, cookie = api_login(payload)
