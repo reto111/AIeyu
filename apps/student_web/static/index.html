@@ -223,12 +223,17 @@
               <div id="wordMeta" class="meta">正在读取</div>
             </header>
 
-            <div class="word-exam-switch" role="tablist" aria-label="单词考试选择">
+            <div class="word-exam-switch" aria-label="单词词库选择">
               <span class="switch-label">单词词库</span>
-              <div class="exam-tabs" aria-label="单词词库考试">
-                <button type="button" class="exam-tab" data-exam-system="TEM8_RU" data-exam-scope="words" role="tab" aria-selected="false">俄语专八</button>
-                <button type="button" class="exam-tab" data-exam-system="TEM4_RU" data-exam-scope="words" role="tab" aria-selected="false">俄语专四</button>
+              <div class="exam-tabs" role="tablist" aria-label="单词词库">
+                <button type="button" class="exam-tab" data-exam-system="GENERAL" data-exam-scope="words" role="tab" aria-selected="false">常规单词</button>
+                <button type="button" class="exam-tab" data-exam-system="TEM4_RU" data-exam-scope="words" role="tab" aria-selected="false">专四单词</button>
+                <button type="button" class="exam-tab" data-exam-system="TEM8_RU" data-exam-scope="words" role="tab" aria-selected="false">专八单词</button>
               </div>
+            </div>
+            <div id="generalLearningControls" class="general-learning-controls hidden">
+              <label class="field"><span>学习起点</span><select id="generalStageInput"><option value="1">入门</option><option value="2">基础</option><option value="3">进阶</option><option value="4">提高</option></select></label>
+              <p id="generalStageStatus" class="mini" role="status"></p>
             </div>
 
             <div class="word-layout">

@@ -13,6 +13,7 @@
     <h1>注册账号</h1>
     <form id="authForm">
       <label class="field"><span>姓名 / 用户名</span><input name="display_name" type="text" required maxlength="40" autocomplete="username"></label>
+      <label class="field"><span>当前年级</span><select name="student_year" required><option value="" disabled selected>请选择年级</option><option value="1">大一</option><option value="2">大二</option><option value="3">大三</option><option value="4">大四</option></select></label>
       <label class="field"><span>密码（至少 8 位）</span><input name="password" type="password" required minlength="8" maxlength="80" autocomplete="new-password"></label>
       <label class="field"><span>确认密码</span><input name="confirmation" type="password" required minlength="8" maxlength="80" autocomplete="new-password"></label>
       <p id="authMessage" role="status" aria-live="polite"></p>

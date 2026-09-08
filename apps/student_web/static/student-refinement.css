@@ -119,6 +119,19 @@ input[type="password"] { width: 100%; min-height: 42px; border: 1px solid var(--
 .auth-brand span { font-family: Georgia, serif; font-size: 15px; font-weight: 400; color: var(--blue); }
 .auth-surface h1 { margin-bottom: 24px; }
 .auth-surface input { min-width: 0; }
+.auth-surface select { width: 100%; min-width: 0; }
+.general-learning-controls { display: flex; gap: 16px; align-items: end; flex-wrap: wrap; padding: 12px 24px; }
+.general-learning-controls .field { width: 144px; margin: 0; }
+.general-learning-controls p { margin: 0 0 8px; }
+.word-aspect { border-top: 1px solid #dce4e1; padding-top: 12px; }
+.word-aspect summary { cursor: pointer; color: #247259; }
+.word-aspect p[lang="ru"] { font-size: 22px; line-height: 1.7; }
+#wordText { font-family: Arial, "Segoe UI", sans-serif; line-height: 1.6; overflow: visible; letter-spacing: 0; }
+@media (max-width: 480px) {
+  .word-exam-switch { flex-wrap: wrap; }
+  .word-exam-switch .exam-tabs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); width: 100%; }
+  .word-exam-switch .exam-tab { min-width: 0; padding: 8px 6px; white-space: normal; font-size: 14px; }
+}
 .auth-surface .primary { width: 100%; min-width: 0; }
 #authMessage { margin-bottom: 16px; color: var(--green-dark); overflow-wrap: anywhere; }
 .auth-alternate { margin-top: 24px; font-size: 14px; }

@@ -21,6 +21,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from typing import Any, Iterator
 from urllib.parse import parse_qs, urlparse
+import vocabulary_learning as vocabulary
 
 from adaptive_profile import (
     DEFAULT_USER_ID,
@@ -106,6 +107,7 @@ def db() -> Iterator[sqlite3.Connection]:
         ensure_wrongbook_tables(conn)
         ensure_daily_study_tables(conn)
         ensure_translation_tables(conn)
+        vocabulary.ensure_learning_tables(conn)
         yield conn
         conn.commit()
     except Exception:
@@ -392,6 +394,7 @@ def api_register(payload: dict[str, Any]) -> dict[str, Any]:
     display_name = normalize_login_name(payload.get("display_name"))
     password = normalize_password(payload.get("password"))
     email = str(payload.get("email") or "").strip() or None
+    student_year = vocabulary.parse_stage(payload['student_year']) if payload.get('student_year') is not None else None
     with db() as conn:
         existing = conn.execute(
             "SELECT id FROM user_auth WHERE login_name = ?",
@@ -407,6 +410,8 @@ def api_register(payload: dict[str, Any]) -> dict[str, Any]:
             (display_name, email),
         )
         user_id = int(cursor.lastrowid)
+        conn.execute('INSERT INTO user_vocabulary_settings(user_id, student_year, starting_stage, unlocked_stage) VALUES (?,?,?,?)',
+                     (user_id, student_year, student_year or 1, student_year or 1))
         conn.execute(
             """
             INSERT INTO user_auth (user_id, login_name, password_hash)
@@ -716,7 +721,7 @@ def clean_word_meaning_for_display(value: str | None) -> str:
     return text
 
 
-def public_word(row: sqlite3.Row) -> dict[str, Any]:
+def public_word(row: sqlite3.Row, conn: sqlite3.Connection) -> dict[str, Any]:
     row_keys = set(row.keys())
     examples_raw = row["examples"] if "examples" in row_keys else ""
     examples = [
@@ -724,13 +729,17 @@ def public_word(row: sqlite3.Row) -> dict[str, Any]:
         for item in str(examples_raw or "").split("\n")
         if clean_word_meaning_for_display(item)
     ][:3]
+    reviewed = vocabulary.annotation(conn, row)
     return {
         "vocabulary_item_id": row["id"],
-        "word": row["word"],
+        "word": reviewed['canonical_word'] if reviewed else row["word"],
+        "accent": reviewed['accent'] if reviewed else None,
         "lemma": row["lemma"],
-        "part_of_speech": row["part_of_speech"],
-        "meaning_zh": clean_word_meaning_for_display(row["meaning_zh"]),
-        "examples": examples,
+        "part_of_speech": reviewed['part'] if reviewed else row["part_of_speech"],
+        "meaning_zh": reviewed['core_meaning_zh'] if reviewed else clean_word_meaning_for_display(row["meaning_zh"]),
+        "aspect_partner": reviewed['aspect_partner'] if reviewed else '',
+        "learning_note": reviewed['note'] if reviewed else '',
+        "examples": [] if reviewed else examples,
         "source_page": row["source_page"],
         "progress_status": row["progress_status"] or "new",
         "progress_status_zh": WORD_STATUS_NAMES.get(row["progress_status"] or "new", "未开始"),
@@ -748,6 +757,8 @@ def api_word_status(
 ) -> dict[str, Any]:
     with db() as conn:
         user = ensure_user_exists(conn, user_id)
+        if exam_system_code == 'GENERAL':
+            return {"user": public_user(user), **vocabulary.general_status(conn, user_id)}
         exam_system_id, level_id = fetch_ids(conn, exam_system_code, level_code)
         total = conn.execute(
             """
@@ -877,6 +888,11 @@ def api_word_review_pool(
     limit = max(1, min(int(limit or 80), 200))
     with db() as conn:
         user = ensure_user_exists(conn, user_id)
+        if exam_system_code == 'GENERAL':
+            status = vocabulary.general_status(conn, user_id)
+            rows = vocabulary.select_general_rows(conn, user_id, limit, review_only=True)
+            return dict(user=public_user(user), total=status['review_pool_count'],
+                        due_count=status['due_count'], words=[public_word(r, conn) for r in rows])
         exam_system_id, level_id = fetch_ids(conn, exam_system_code, level_code)
         total = conn.execute(
             """
@@ -904,7 +920,7 @@ def api_word_review_pool(
             (user_id, exam_system_id, level_id),
         ).fetchone()[0]
         rows = select_review_pool_rows(conn, user_id, limit, exam_system_id, level_id)
-        words = [public_word(row) for row in rows]
+        words = [public_word(row, conn) for row in rows]
     return {
         "user": public_user(user),
         "total": total,
@@ -1001,14 +1017,17 @@ def api_word_session(payload: dict[str, Any]) -> dict[str, Any]:
     level_code = str(payload.get("level") or "TEM8")
     with db() as conn:
         user = ensure_user_exists(conn, user_id)
-        exam_system_id, level_id = fetch_ids(conn, exam_system_code, level_code)
-        rows = (
-            select_review_pool_rows(conn, user_id, count, exam_system_id, level_id)
-            if mode == "review"
-            else select_word_rows(conn, user_id, count, exam_system_id, level_id)
-        )
+        if exam_system_code == 'GENERAL':
+            rows = vocabulary.select_general_rows(conn, user_id, count, review_only=mode == 'review')
+        else:
+            exam_system_id, level_id = fetch_ids(conn, exam_system_code, level_code)
+            rows = (
+                select_review_pool_rows(conn, user_id, count, exam_system_id, level_id)
+                if mode == "review"
+                else select_word_rows(conn, user_id, count, exam_system_id, level_id)
+            )
         user_payload = public_user(user)
-        words = [public_word(row) for row in rows]
+        words = [public_word(row, conn) for row in rows]
     status = api_word_status(user_id, exam_system_code, level_code)
     return {
         "user": user_payload,
@@ -1046,7 +1065,15 @@ def api_word_review(payload: dict[str, Any]) -> dict[str, Any]:
 
     with db() as conn:
         ensure_user_exists(conn, user_id)
-        exam_system_id, level_id = fetch_ids(conn, exam_system_code, level_code)
+        if exam_system_code == 'GENERAL':
+            profile = vocabulary.learning_profile(conn, user_id)
+            eligible = {r['id']: r for r in vocabulary.general_rows(conn, user_id)}
+            candidate = eligible.get(vocabulary_item_id)
+            if candidate is None or (candidate['stage'] > profile['current_stage'] and not candidate['progress_status']):
+                raise ValueError('这个单词不在当前常规学习范围内。')
+            exam_system_id, level_id = candidate['exam_system_id'], candidate['level_id']
+        else:
+            exam_system_id, level_id = fetch_ids(conn, exam_system_code, level_code)
         word = conn.execute(
             """
             SELECT
@@ -1150,9 +1177,22 @@ def api_word_review(payload: dict[str, Any]) -> dict[str, Any]:
             """,
             (vocabulary_item_id, user_id),
         ).fetchone()
-        word_payload = public_word(updated)
+        word_payload = public_word(updated, conn)
     status = api_word_status(user_id, exam_system_code, level_code)
     return {"word": word_payload, "status": status, "next_review_at": next_review_at}
+
+
+def api_word_preferences(payload: dict[str, Any]) -> dict[str, Any]:
+    user_id = normalize_user_id(payload.get('user_id'))
+    stage = vocabulary.parse_stage(payload.get('starting_stage'))
+    year = vocabulary.parse_stage(payload['student_year']) if payload.get('student_year') is not None else None
+    with db() as conn:
+        ensure_user_exists(conn, user_id)
+        conn.execute('''INSERT INTO user_vocabulary_settings(user_id, student_year, starting_stage, unlocked_stage)
+            VALUES (?,?,?,?) ON CONFLICT(user_id) DO UPDATE SET
+              student_year=COALESCE(excluded.student_year, user_vocabulary_settings.student_year),
+              starting_stage=excluded.starting_stage, unlocked_stage=excluded.unlocked_stage''', (user_id, year, stage, stage))
+        return {'learning_profile': vocabulary.learning_profile(conn, user_id)}
 
 
 def clean_feedback_text(value: Any, field_name: str = "反馈内容") -> str:
@@ -2629,7 +2669,7 @@ def parse_assistant_json(text: str) -> dict[str, Any]:
 
 
 def clean_selection_text(value: Any) -> str:
-    text = re.sub(r"\s+", " ", str(value or "").strip())
+    text = re.sub(r"\s+", " ", str(value or "").replace('\u0301', '').strip())
     text = text.strip(".,!?;:()[]{}<>\"'«»„“”`—–…")
     if not text:
         raise ValueError("请先选中一个俄语单词或短语。")
@@ -2687,6 +2727,20 @@ def local_selection_translation(
         )
     )
     placeholders = ", ".join("?" for _ in candidates)
+    annotated = conn.execute(f'''SELECT vi.* FROM vocabulary_items vi
+        JOIN vocabulary_learning_annotations a ON a.vocabulary_item_id=vi.id
+        WHERE vi.review_status='approved' AND a.canonical_word IN ({placeholders})
+          AND vi.exam_system_id=? AND vi.level_id=? ORDER BY vi.id''',
+        (*candidates, exam_system_id, level_id)).fetchall()
+    for row in annotated:
+        reviewed = vocabulary.annotation(conn, row)
+        if reviewed:
+            return dict(selected_text=selected_text, lemma=reviewed['canonical_word'],
+                        part_of_speech=reviewed['part'], meaning_zh=reviewed['core_meaning_zh'],
+                        context_meaning_zh='', note_zh='',
+                        matched_by_morphology=reviewed['canonical_word'].casefold()!=selected_text.casefold(),
+                        source='local_dictionary', source_label='AIeyu 已审核词库',
+                        vocabulary_item_id=row['id'], cached=False, requires_ai_confirmation=False)
     rows = conn.execute(
         f"""
         SELECT DISTINCT
@@ -2793,8 +2847,13 @@ def api_translate_selection(payload: dict[str, Any]) -> dict[str, Any]:
 
     with db() as conn:
         ensure_user_exists(conn, user_id)
-        exam_system_id, level_id = fetch_ids(conn, exam_system_code, level_code)
-        local_result = local_selection_translation(conn, selected_text, exam_system_id, level_id)
+        scopes = [('TEM4_RU','TEM4'), ('TEM8_RU','TEM8')] if exam_system_code == 'GENERAL' else [(exam_system_code, level_code)]
+        local_result = None
+        for exam, level in scopes:
+            exam_system_id, level_id = fetch_ids(conn, exam, level)
+            local_result = local_selection_translation(conn, selected_text, exam_system_id, level_id)
+            if local_result:
+                break
         if local_result:
             return local_result
         cached = conn.execute(
@@ -3097,6 +3156,10 @@ class StudentAppHandler(BaseHTTPRequestHandler):
             if self.path == "/api/words/session":
                 payload["user_id"] = authenticated_user_id(self)
                 json_response(self, HTTPStatus.OK, api_word_session(payload))
+                return
+            if self.path == "/api/words/preferences":
+                payload["user_id"] = authenticated_user_id(self)
+                json_response(self, HTTPStatus.OK, api_word_preferences(payload))
                 return
             if self.path == "/api/words/review":
                 payload["user_id"] = authenticated_user_id(self)

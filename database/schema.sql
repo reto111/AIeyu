@@ -675,3 +675,25 @@ CREATE INDEX IF NOT EXISTS idx_user_word_progress_due
 CREATE INDEX IF NOT EXISTS idx_word_review_logs_user_time
   ON word_review_logs (user_id, reviewed_at);
 
+CREATE TABLE IF NOT EXISTS user_vocabulary_settings (
+  user_id INTEGER PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,
+  student_year INTEGER CHECK(student_year BETWEEN 1 AND 4),
+  starting_stage INTEGER NOT NULL DEFAULT 1 CHECK(starting_stage BETWEEN 1 AND 4),
+  unlocked_stage INTEGER NOT NULL DEFAULT 1 CHECK(unlocked_stage BETWEEN 1 AND 4)
+);
+
+CREATE TABLE IF NOT EXISTS vocabulary_learning_annotations (
+  vocabulary_item_id INTEGER PRIMARY KEY REFERENCES vocabulary_items(id) ON DELETE CASCADE,
+  canonical_word TEXT NOT NULL,
+  accent TEXT NOT NULL,
+  part TEXT NOT NULL,
+  core_meaning_zh TEXT NOT NULL,
+  aspect_partner TEXT NOT NULL DEFAULT '',
+  note TEXT NOT NULL DEFAULT '',
+  stage INTEGER NOT NULL CHECK(stage BETWEEN 1 AND 4),
+  original_json TEXT NOT NULL,
+  review_method TEXT NOT NULL,
+  evidence_json TEXT NOT NULL DEFAULT '[]',
+  reviewed_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+

@@ -4,7 +4,7 @@ const state = {
   activeUser: null,
   activeUserId: 0,
   selectedExam: localStorage.getItem("aieyu.practiceExam") || localStorage.getItem("aieyu.selectedExam") || "TEM8_RU",
-  selectedWordExam: localStorage.getItem("aieyu.wordExam") || "TEM8_RU",
+  selectedWordExam: localStorage.getItem("aieyu.wordExam") || "GENERAL",
   activeView: localStorage.getItem("aieyu.activeView") || "study",
   quiz: null,
   result: null,
@@ -19,6 +19,7 @@ const state = {
   wordSession: null,
   currentWordIndex: 0,
   wordSessionStats: null,
+  wordRequestVersion: 0,
   latestThreadId: 1,
   selectionTranslation: { requestId: 0, text: "", context: "", rect: null, interacting: false },
 };
@@ -64,6 +65,7 @@ function currentExam() {
 }
 
 function currentWordExam() {
+  if (state.selectedWordExam === 'GENERAL') return {system: 'GENERAL', level: 'GENERAL', label: '常规单词'};
   return state.selectedWordExam === "TEM4_RU"
     ? { system: "TEM4_RU", level: "TEM4", label: "俄语专四" }
     : { system: "TEM8_RU", level: "TEM8", label: "俄语专八" };
@@ -154,7 +156,7 @@ async function translateCurrentSelection(allowAi = false) {
   $("#translatorBody").innerHTML = `<div class="translator-loading"><span class="loader"></span><span>${allowAi ? "正在进行语境翻译..." : "正在查询词库..."}</span></div>`;
   window.requestAnimationFrame(placeSelectionTranslator);
   try {
-    const exam = currentExam();
+    const exam = state.activeView === 'words' ? currentWordExam() : currentExam();
     const payload = await requestJson("/api/translate-selection", {
       method: "POST",
       body: JSON.stringify({
@@ -248,6 +250,9 @@ function renderExamContext() {
   if (brand) brand.textContent = "俄语备考助手";
   const wordExamLabel = document.querySelector("#wordExamLabel");
   if (wordExamLabel) wordExamLabel.textContent = wordExamSelection.label;
+  $('#generalLearningControls').classList.toggle('hidden', wordExamSelection.system !== 'GENERAL');
+  $('#generalStageInput').disabled = !state.authenticated;
+  if (!state.authenticated) $('#generalStageStatus').textContent = '登录后查看学习阶段';
   const title = document.querySelector("#practiceTitle");
   if (title) title.textContent = `今日${practiceExam.label}训练`;
   const diagnosticDescription = document.querySelector("#diagnosticDescription");
@@ -326,6 +331,7 @@ function renderStatus(status) {
 }
 
 function clearStudentState() {
+  state.wordRequestVersion += 1;
   state.quiz = null;
   state.result = null;
   state.explanation = null;
@@ -705,6 +711,14 @@ async function startWrongbookReview(questionIds = []) {
 
 function renderWordStatus(payload) {
   state.wordStatus = payload;
+  if (payload.learning_profile) {
+    const profile = payload.learning_profile;
+    $('#generalStageInput').value = String(profile.starting_stage);
+    const current = profile.stages.find((s) => s.stage === profile.current_stage);
+    const year = profile.student_year ? ['', '大一', '大二', '大三', '大四'][profile.student_year] + ' · ' : '';
+    $('#generalStageStatus').textContent = `${year}当前：${profile.stage_name} · ${current.total} 词` +
+      (current.total === 0 ? ' · 本级词汇整理中，可先复习较低级别' : '');
+  }
   $("#wordMeta").textContent = `${payload.reviewed_today} 个今日已打卡 · ${payload.review_pool_count || 0} 个复习词`;
 
   const statusRows = payload.by_status || [];
@@ -749,7 +763,7 @@ function renderWordReviewPool(payload) {
         .map(
           (word) => `
             <p class="review-pool-item">
-              <strong>${escapeHtml(word.word)}</strong>
+              <strong lang="ru">${escapeHtml(word.accent || word.word)}</strong>
               <span>${escapeHtml(word.meaning_zh || "暂无释义")}</span>
             </p>
           `
@@ -760,6 +774,7 @@ function renderWordReviewPool(payload) {
 }
 
 async function loadWordReviewPool() {
+  const version = state.wordRequestVersion;
   if (!state.authenticated) {
     $("#reviewPoolBox").classList.add("muted");
     $("#reviewPoolBox").textContent = "请先登录后查看复习词库。";
@@ -769,8 +784,10 @@ async function loadWordReviewPool() {
   }
   try {
     const payload = await requestJson(`/api/words/review-pool?limit=80&${queryForActiveUser("words")}`);
+    if (version !== state.wordRequestVersion) return;
     renderWordReviewPool(payload);
   } catch (error) {
+    if (version !== state.wordRequestVersion) return;
     $("#reviewPoolBox").classList.add("muted");
     $("#reviewPoolBox").textContent = error.message;
     $("#reviewPoolMeta").textContent = "读取失败";
@@ -779,6 +796,7 @@ async function loadWordReviewPool() {
 }
 
 async function loadWordStatus() {
+  const version = state.wordRequestVersion;
   if (!state.authenticated) {
     $("#wordStats").classList.add("muted");
     $("#wordStats").textContent = "请先登录后开始单词打卡。";
@@ -788,9 +806,11 @@ async function loadWordStatus() {
   }
   try {
     const payload = await requestJson(`/api/words/status?${queryForActiveUser("words")}`);
+    if (version !== state.wordRequestVersion) return;
     renderWordStatus(payload);
     await loadWordReviewPool();
   } catch (error) {
+    if (version !== state.wordRequestVersion) return;
     $("#wordStats").textContent = error.message;
     $("#wordMeta").textContent = "读取失败";
   }
@@ -838,9 +858,9 @@ function setWordActionDisabled(isDisabled) {
 }
 
 function resetWordEmpty() {
+  $("#wordEmpty").classList.remove("hidden");
   $("#wordEmpty").innerHTML = `
     <h2>开始一次单词打卡</h2>
-    <p>优先复习到期词，不够时自动补充新词。</p>
   `;
   $("#wordSessionSummary").classList.add("hidden");
   $("#wordSessionSummary").innerHTML = "";
@@ -896,7 +916,8 @@ function renderCurrentWord() {
   const resultLabel = WORD_RESULT_LABELS[word.session_result];
   $("#wordResultTag").classList.toggle("hidden", !resultLabel);
   $("#wordResultTag").textContent = resultLabel ? `已记录：${resultLabel}` : "";
-  $("#wordText").textContent = word.word;
+  $("#wordText").textContent = word.accent || word.word;
+  $("#wordText").lang = 'ru';
   resetWordFeedbackForm();
   $("#wordPart").textContent = [word.part_of_speech, word.source_page ? `来源页 ${word.source_page}` : ""]
     .filter(Boolean)
@@ -904,7 +925,8 @@ function renderCurrentWord() {
   const hasReviewed = Boolean(word.session_result);
   $("#wordMeaning").classList.toggle("hidden", !hasReviewed);
   $("#wordMeaning").innerHTML = hasReviewed
-    ? `<strong>词义</strong><p>${escapeHtml(word.meaning_zh || "暂无释义")}</p>`
+    ? `<strong>词义</strong><p>${escapeHtml(word.meaning_zh || "暂无释义")}</p>
+       ${word.aspect_partner ? `<details class="word-aspect"><summary>${word.part_of_speech.includes('未完成体') ? '完成体' : '未完成体'}：<span lang="ru">${escapeHtml(word.aspect_partner)}</span></summary>${word.learning_note ? `<p class="mini">${escapeHtml(word.learning_note)}</p>` : ''}</details>` : ''}`
     : "";
   const examples = word.examples || [];
   $("#wordExamples").classList.toggle("hidden", !hasReviewed || examples.length === 0);
@@ -931,6 +953,7 @@ function renderCurrentWord() {
 }
 
 async function startWordSession(mode = "mixed") {
+  const version = ++state.wordRequestVersion;
   if (!state.authenticated) {
     openAccountMenu();
     $("#activeUserHint").textContent = "请先登录或注册，再开始单词打卡。";
@@ -949,6 +972,7 @@ async function startWordSession(mode = "mixed") {
         level: currentWordExam().level,
       }),
     });
+    if (version !== state.wordRequestVersion) return;
     state.wordSession = payload;
     state.currentWordIndex = 0;
     state.wordSessionStats = freshWordStats();
@@ -956,9 +980,12 @@ async function startWordSession(mode = "mixed") {
       renderWordStatus(payload.status);
     }
     await loadWordReviewPool();
+    if (version !== state.wordRequestVersion) return;
     renderCurrentWord();
   } catch (error) {
+    if (version !== state.wordRequestVersion) return;
     $("#wordHint").textContent = error.message;
+    $("#wordEmpty").textContent = error.message;
   } finally {
     $("#startWordsBtn").disabled = false;
     $("#startWordsBtn").textContent = "开始打卡";
@@ -966,6 +993,7 @@ async function startWordSession(mode = "mixed") {
 }
 
 async function reviewCurrentWord(result) {
+  const version = state.wordRequestVersion;
   const word = currentWord();
   if (!word) return;
   if (word.session_result) return;
@@ -981,6 +1009,7 @@ async function reviewCurrentWord(result) {
         level: currentWordExam().level,
       }),
     });
+    if (version !== state.wordRequestVersion) return;
     word.session_result = result;
     word.progress_status_zh = payload.word?.progress_status_zh || word.progress_status_zh;
     state.wordSessionStats[result] += 1;
@@ -988,8 +1017,10 @@ async function reviewCurrentWord(result) {
       renderWordStatus(payload.status);
     }
     await loadWordReviewPool();
+    if (version !== state.wordRequestVersion) return;
     renderCurrentWord();
   } catch (error) {
+    if (version !== state.wordRequestVersion) return;
     $("#wordHint").textContent = error.message;
     setWordActionLoading(false);
   }
@@ -1012,6 +1043,7 @@ function showNextWord() {
 }
 
 async function markCurrentWordWrong() {
+  const version = state.wordRequestVersion;
   const word = currentWord();
   if (!word || !word.session_result || word.session_result === "unknown") return;
   const previousResult = word.session_result;
@@ -1029,6 +1061,7 @@ async function markCurrentWordWrong() {
         level: currentWordExam().level,
       }),
     });
+    if (version !== state.wordRequestVersion) return;
     state.wordSessionStats[previousResult] = Math.max(0, state.wordSessionStats[previousResult] - 1);
     state.wordSessionStats.unknown += 1;
     word.session_result = "unknown";
@@ -1037,8 +1070,10 @@ async function markCurrentWordWrong() {
       renderWordStatus(payload.status);
     }
     await loadWordReviewPool();
+    if (version !== state.wordRequestVersion) return;
     renderCurrentWord();
   } catch (error) {
+    if (version !== state.wordRequestVersion) return;
     $("#wordHint").textContent = error.message;
     setWordActionLoading(false);
   }
@@ -1590,8 +1625,10 @@ async function sendFollowup() {
 
 async function selectExam(system, scope = "practice") {
   const currentSystem = scope === "words" ? state.selectedWordExam : state.selectedExam;
-  if (!["TEM8_RU", "TEM4_RU"].includes(system) || system === currentSystem) return;
+  const choices = scope === 'words' ? ['GENERAL', 'TEM8_RU', 'TEM4_RU'] : ['TEM8_RU', 'TEM4_RU'];
+  if (!choices.includes(system) || system === currentSystem) return;
   if (scope === "words") {
+    state.wordRequestVersion += 1;
     state.selectedWordExam = system;
     localStorage.setItem("aieyu.wordExam", system);
     state.wordStatus = null;
@@ -1620,14 +1657,37 @@ async function selectExam(system, scope = "practice") {
 }
 
 async function startStudyWords() {
-  state.selectedWordExam = state.selectedExam;
-  localStorage.setItem("aieyu.wordExam", state.selectedWordExam);
   renderExamContext();
   showView("words");
   await loadWordStatus();
   const mode = state.wordStatus?.due_count ? "review" : "mixed";
   await startWordSession(mode);
 }
+
+$('#generalStageInput').addEventListener('change', async () => {
+  const version = ++state.wordRequestVersion;
+  const input = $('#generalStageInput');
+  const previous = state.wordStatus?.learning_profile?.starting_stage || 1;
+  input.disabled = true;
+  try {
+    await requestJson('/api/words/preferences', {method: 'POST',
+      body: JSON.stringify({starting_stage: Number(input.value)})});
+    if (version !== state.wordRequestVersion) return;
+    state.wordSession = null;
+    state.currentWordIndex = 0;
+    state.wordSessionStats = null;
+    $('#wordCard').classList.add('hidden');
+    resetWordEmpty();
+    $('#wordSessionMeta').textContent = '尚未开始';
+    await loadWordStatus();
+  } catch (error) {
+    if (version !== state.wordRequestVersion) return;
+    input.value = String(previous);
+    $('#generalStageStatus').textContent = error.message;
+  } finally {
+    input.disabled = !state.authenticated;
+  }
+});
 
 async function handleStudyAction(action, mode, dailyTaskId = 0) {
   if (action === "questions") {
