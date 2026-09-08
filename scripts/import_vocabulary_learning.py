@@ -49,7 +49,9 @@ def prepare(db_path, output=PATCH, review_files=None):
                 if not old:
                     raise ValueError(f"词条不在正式库: {item['id']}")
                 canonical = item['accent'].replace('\u0301','')
-                if canonical != old['word'] and not (old['word']=='идёя' and canonical=='идея'):
+                explicit_correction = data.get('word_corrections', {}).get(str(item['id']))
+                allowed_correction = explicit_correction == [old['word'], canonical]
+                if canonical != old['word'] and not allowed_correction and not (old['word']=='идёя' and canonical=='идея'):
                     raise ValueError(f'未确认词头变更: {canonical}')
                 item['original'] = {key: old[key] for key in FIELDS}
                 item.update(exam=old['exam'], level=old['level'], canonical=canonical,

@@ -13,6 +13,7 @@ sys.path.insert(0, str(ROOT / 'scripts'))
 import serve_student_app as app
 import import_vocabulary_learning as importer
 import vocabulary_learning as learning
+import correct_learning_polvieka as correction
 
 
 class VocabularyLearningTests(unittest.TestCase):
@@ -34,6 +35,21 @@ class VocabularyLearningTests(unittest.TestCase):
     def tearDown(self):
         self.mock.stop()
         self.temp.cleanup()
+
+    def test_single_correction_is_guarded_and_replayable(self):
+        catalog = ROOT / 'data/review_samples/learning_batch_004_catalog.json'
+        importer.apply_catalog(self.path, catalog, True, self.root / 'backups')
+        with app.db() as conn:
+            original = dict(conn.execute('SELECT * FROM vocabulary_items WHERE id=4315').fetchone())
+        self.assertEqual(correction.correct(self.path)['state'], 'pending')
+        self.assertEqual(correction.correct(self.path, True, self.root / 'backups')['state'], 'corrected')
+        self.assertFalse(correction.correct(self.path, True, self.root / 'backups')['database_written'])
+        with app.db() as conn:
+            self.assertEqual(dict(conn.execute('SELECT * FROM vocabulary_items WHERE id=4315').fetchone()), original)
+            self.assertIn('阳性', conn.execute('SELECT part FROM vocabulary_learning_annotations WHERE vocabulary_item_id=4315').fetchone()[0])
+            conn.execute("UPDATE vocabulary_learning_annotations SET note='later human edit' WHERE vocabulary_item_id=4315")
+        with self.assertRaisesRegex(ValueError, '停止覆盖'):
+            correction.correct(self.path, True, self.root / 'backups')
 
     def test_grade_register_and_existing_account_defaults(self):
         credentials = dict(display_name='year-four-new', password='1234abcd', student_year=4)
