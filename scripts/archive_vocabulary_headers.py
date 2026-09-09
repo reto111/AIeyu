@@ -1,4 +1,4 @@
-"""Archive visually confirmed PDF header artifacts, retaining IDs and history."""
+"""Archive visually confirmed PDF header/example artifacts, retaining history."""
 import argparse
 import json
 import sqlite3

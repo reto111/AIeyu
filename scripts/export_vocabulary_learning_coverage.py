@@ -53,7 +53,7 @@ def main():
     for r in reviewed:
         clean = lambda x: str(x or '').replace('|',' / ').replace('\n',' ')
         lines.append(f"| {r['id']} | {r['exam']} | {clean(r['original_word'])} / {clean(r['original_meaning'])} | {r['accent']} / {clean(r['core_meaning_zh'])} | {STAGE_NAMES[r['stage']]} |")
-    lines += ['', '## 原页确认的页眉伪条目', '', '下列记录单独计数，不算作有效词汇标注，也不删除其学习历史。', '']
+    lines += ['', '## 原页确认的切分伪条目', '', '包括页眉或例句被误切为词头。下列记录单独计数，不算作有效词汇标注，也不删除其学习历史。', '']
     for item in archived:
         lines.append(f"- ID{item['id']} {item['word']}：{item['state']}；{item['source']}；{item['reason']}")
     lines += ['', '## 尚未覆盖', '', '完整逐条待办见 coverage.json 的 pending；不要按整批无异常批量改成已审核。',
