@@ -5,6 +5,7 @@ from contextlib import closing
 from pathlib import Path
 
 from vocabulary_learning import annotation, STAGE_NAMES
+from archive_vocabulary_headers import MANIFEST, find as find_header
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -12,9 +13,16 @@ ROOT = Path(__file__).resolve().parents[1]
 def main():
     out = ROOT / 'data/processed/vocabulary_learning'
     out.mkdir(parents=True, exist_ok=True)
-    reviewed, pending = [], []
+    reviewed, pending, archived = [], [], []
     with closing(sqlite3.connect((ROOT/'database/russian_ai_tutor.sqlite').as_uri()+'?mode=ro', uri=True)) as conn:
         conn.row_factory = sqlite3.Row
+        for item in json.loads(MANIFEST.read_text(encoding='utf-8'))['records']:
+            try:
+                header = find_header(conn, item)
+            except ValueError:
+                archived.append(dict(item, state='来源、旧值或状态有冲突，需复核'))
+            else:
+                archived.append(dict(item, local_id=header['id'], state=header['review_status']))
         for row in conn.execute('''SELECT v.*, e.code AS exam FROM vocabulary_items v
             JOIN exam_systems e ON e.id=v.exam_system_id
             WHERE v.review_status='approved' ORDER BY v.id''').fetchall():
@@ -31,8 +39,9 @@ def main():
                    stages={STAGE_NAMES[s]:sum(r['stage']==s for r in reviewed) for s in range(1,5)},
                    external_dictionary_spotchecks=sum(r['evidence_json'].startswith('["https://') for r in reviewed),
                    source_pdf_visual_checks=sum('pdf#page=' in r['evidence_json'] for r in reviewed),
-                   next_pending_id=pending[0]['id'] if pending else None)
-    (out/'coverage.json').write_text(json.dumps(dict(summary=summary, reviewed=reviewed, pending=pending),
+                   next_pending_id=pending[0]['id'] if pending else None,
+                   visually_confirmed_archived=sum(r['state']=='archived' for r in archived))
+    (out/'coverage.json').write_text(json.dumps(dict(summary=summary, reviewed=reviewed, pending=pending, header_archives=archived),
                                                ensure_ascii=False, indent=2), encoding='utf-8')
     lines = ['# 词库重音与核心释义审核覆盖', '',
              f"现有正式记录：{summary['total']}；本轮模型逐项审核并生效：{len(reviewed)}；尚未覆盖：{len(pending)}。", '',
@@ -44,6 +53,9 @@ def main():
     for r in reviewed:
         clean = lambda x: str(x or '').replace('|',' / ').replace('\n',' ')
         lines.append(f"| {r['id']} | {r['exam']} | {clean(r['original_word'])} / {clean(r['original_meaning'])} | {r['accent']} / {clean(r['core_meaning_zh'])} | {STAGE_NAMES[r['stage']]} |")
+    lines += ['', '## 原页确认的页眉伪条目', '', '下列记录单独计数，不算作有效词汇标注，也不删除其学习历史。', '']
+    for item in archived:
+        lines.append(f"- ID{item['id']} {item['word']}：{item['state']}；{item['source']}；{item['reason']}")
     lines += ['', '## 尚未覆盖', '', '完整逐条待办见 coverage.json 的 pending；不要按整批无异常批量改成已审核。',
               f"下一个按 ID 顺序的未审核记录：{summary['next_pending_id']}。"]
     (out/'README.md').write_text('\n'.join(lines), encoding='utf-8')

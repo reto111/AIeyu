@@ -17,6 +17,10 @@ FIELDS = ('word', 'part_of_speech', 'meaning_zh', 'source_page', 'source_line')
 
 
 def check_accent(text):
+    if ' ' in text:
+        for word in text.split(' '):
+            check_accent(word)
+        return
     if not re.fullmatch('[А-Яа-яЁё\u0301-]+', text):
         raise ValueError(f'不支持的重音形式: {text}')
     pieces = text.lower().split('-')

@@ -1,0 +1,8 @@
+{
+  "method":"2026-09-09 当前助手直接查看原PDF页面确认。归档仅移出练习池，不删除原词或学生历史。ID仅供人阅读，执行使用考试、等级、词头、词性、页和行的稳定键及旧释义。",
+  "records":[
+    {"id":5026,"exam":"TEM8_RU","level":"TEM8","word":"полоска","part":null,"page":164,"line":"1","meaning":"报纸上最后一版的启事","source":"data/words/tem8_russian_words.pdf#page=164","reason":"印刷158页的页眉полоска与上一页例句尾句拼接。真实词条位于下方（ID5027），不可把页眉作为另一正式词。"},
+    {"id":5146,"exam":"TEM8_RU","level":"TEM8","word":"спокойствие","part":null,"page":231,"line":"1","meaning":"联合国专门机构","source":"data/words/tem8_russian_words.pdf#page=231","reason":"印刷225页右上页眉与специализированные учреждения ООН例句相拼。真实спокойствие词条在本页底部（ID5151）。"},
+    {"id":5216,"exam":"TEM8_RU","level":"TEM8","word":"фиксировать","part":null,"page":260,"line":"1","meaning":"理；生理作用, 生理现象","source":"data/words/tem8_russian_words.pdf#page=260","reason":"印刷254页左上页眉与上一词физиология尾句相拼。真实фиксировать条紧接其下（ID5217）。"}
+  ]
+}

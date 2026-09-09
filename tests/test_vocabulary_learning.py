@@ -14,6 +14,7 @@ import serve_student_app as app
 import import_vocabulary_learning as importer
 import vocabulary_learning as learning
 import correct_learning_polvieka as correction
+import archive_vocabulary_headers as header_correction
 
 
 class VocabularyLearningTests(unittest.TestCase):
@@ -50,6 +51,29 @@ class VocabularyLearningTests(unittest.TestCase):
             conn.execute("UPDATE vocabulary_learning_annotations SET note='later human edit' WHERE vocabulary_item_id=4315")
         with self.assertRaisesRegex(ValueError, '停止覆盖'):
             correction.correct(self.path, True, self.root / 'backups')
+
+    def test_phrase_stress_is_checked_per_word(self):
+        importer.check_accent('Атланти́ческий океа́н')
+        importer.check_accent('чей-либо')
+        for value in ('Атлантический океа́н', 'Атланти́ческий океан', 'Атланти́ческий  океа́н', ' слово́'):
+            with self.subTest(value=value), self.assertRaises(ValueError):
+                importer.check_accent(value)
+
+    def test_header_archive_retains_record_and_stops_on_conflict(self):
+        with app.db() as conn:
+            conn.execute("UPDATE vocabulary_items SET review_status='approved' WHERE id=5026")
+            original = dict(conn.execute('SELECT * FROM vocabulary_items WHERE id=5026').fetchone())
+        self.assertFalse(header_correction.archive(self.path)['database_written'])
+        self.assertTrue(header_correction.archive(self.path, True, self.root / 'backups')['database_written'])
+        self.assertFalse(header_correction.archive(self.path, True, self.root / 'backups')['database_written'])
+        with app.db() as conn:
+            current = dict(conn.execute('SELECT * FROM vocabulary_items WHERE id=5026').fetchone())
+            for field in original:
+                if field not in ('review_status', 'updated_at'):
+                    self.assertEqual(original[field], current[field])
+            conn.execute("UPDATE vocabulary_items SET meaning_zh='later correction' WHERE id=5026")
+        with self.assertRaisesRegex(ValueError, '不能归档'):
+            header_correction.archive(self.path, True, self.root / 'backups')
 
     def test_grade_register_and_existing_account_defaults(self):
         credentials = dict(display_name='year-four-new', password='1234abcd', student_year=4)
