@@ -5,5 +5,6 @@
     {"id":5146,"exam":"TEM8_RU","level":"TEM8","word":"спокойствие","part":null,"page":231,"line":"1","meaning":"联合国专门机构","source":"data/words/tem8_russian_words.pdf#page=231","reason":"印刷225页右上页眉与специализированные учреждения ООН例句相拼。真实спокойствие词条在本页底部（ID5151）。"},
     {"id":5216,"exam":"TEM8_RU","level":"TEM8","word":"фиксировать","part":null,"page":260,"line":"1","meaning":"理；生理作用, 生理现象","source":"data/words/tem8_russian_words.pdf#page=260","reason":"印刷254页左上页眉与上一词физиология尾句相拼。真实фиксировать条紧接其下（ID5217）。"},
     {"id":5417,"exam":"TEM8_RU","level":"TEM8","word":"растут","part":null,"page":24,"line":"10","meaning":"人们遵循岁月的节奏, 逐渐长大. 成人 、 衰老","source":"data/words/tem8_russian_words.pdf#page=24","reason":"印刷18页взрослеть词条的Люди растут, взрослеют, стареют例句被拆成伪词条；不是独立词头，归档而非把整句译文强行配给растут。"}
+    ,{"id":5557,"exam":"TEM8_RU","level":"TEM8","word":"ность","part":null,"page":37,"line":"20","meaning":"水平面","source":"data/words/tem8_russian_words.pdf#page=37","reason":"印刷31页底部горизонтальный词条例句горизонтальная поверхность跨行，ность是поверхность尾部，不是独立词头。保留真实形容词5556，归档该例句伪条。"}
   ]
 }

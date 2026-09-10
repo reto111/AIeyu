@@ -1,0 +1,860 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 5583,
+      "accent": "грунт",
+      "part": "名词·阳性",
+      "meaning": "土壤；地层；地基；（绘画或涂装）底层、底漆",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "грунт",
+        "part_of_speech": "阳",
+        "meaning_zh": "土壤；地基；底漆",
+        "source_page": 40,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "грунт",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5584,
+      "accent": "грусть",
+      "part": "名词·阴性",
+      "meaning": "忧伤；惆怅",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "грусть",
+        "part_of_speech": "阴",
+        "meaning_zh": "忧郁, 忧伤",
+        "source_page": 40,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "грусть",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5585,
+      "accent": "грызть",
+      "part": "动词·未完成体",
+      "meaning": "啃；咬；（转）折磨、使苦恼",
+      "perfective": "",
+      "note": "啃断可用перегры́зть；不是所有义项的统一完成体。",
+      "stage": 3,
+      "original": {
+        "word": "грызть",
+        "part_of_speech": "未",
+        "meaning_zh": "普咬, 普；咀嚼",
+        "source_page": 40,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "грызть",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5586,
+      "accent": "гряду́щий",
+      "part": "形容词",
+      "meaning": "未来的；即将到来的",
+      "perfective": "",
+      "note": "偏书面。",
+      "stage": 3,
+      "original": {
+        "word": "грядущий",
+        "part_of_speech": "形",
+        "meaning_zh": "将来的, 未来的；临近的, 迫近的",
+        "source_page": 40,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "грядущий",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5587,
+      "accent": "губе́рния",
+      "part": "名词·阴性",
+      "meaning": "省（俄国历史上的行政区划）",
+      "perfective": "",
+      "note": "纠正阳性；不补猜原例句中缺失的世纪。",
+      "stage": 3,
+      "original": {
+        "word": "губерния",
+        "part_of_speech": "阳",
+        "meaning_zh": "省 (俄国世纪起曾实行的行政区划单位)",
+        "source_page": 40,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "губерния",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5588,
+      "accent": "гуде́ть",
+      "part": "动词·未完成体",
+      "meaning": "嗡嗡响；轰鸣；鸣响",
+      "perfective": "",
+      "note": "原汽管鸦鸣响为例句噪声；持续发声不强配完成体。",
+      "stage": 3,
+      "original": {
+        "word": "гудеть",
+        "part_of_speech": "未",
+        "meaning_zh": "汽管鸦鸣响",
+        "source_page": 40,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гудеть",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5589,
+      "accent": "гул",
+      "part": "名词·阳性",
+      "meaning": "轰鸣声；嗡嗡声；低沉嘈杂声",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "гул",
+        "part_of_speech": "阳",
+        "meaning_zh": "不甚清晰的嘈杂声, 轰隆声；嗡嗡声",
+        "source_page": 40,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гул",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5590,
+      "accent": "гуманита́рный",
+      "part": "形容词",
+      "meaning": "人文学科的；人道主义的",
+      "perfective": "",
+      "note": "гуманитарные науки人文学科；гуманитарная помощь人道主义援助。",
+      "stage": 3,
+      "original": {
+        "word": "гуманитарный",
+        "part_of_speech": "形",
+        "meaning_zh": "人文学的",
+        "source_page": 40,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гуманитарный",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5591,
+      "accent": "гума́нность",
+      "part": "名词·阴性",
+      "meaning": "人道；仁慈；人道精神",
+      "perfective": "",
+      "note": "是名词，不是表现出仁慈这一动作短语。",
+      "stage": 3,
+      "original": {
+        "word": "гуманность",
+        "part_of_speech": "阴",
+        "meaning_zh": "表现出仁慈",
+        "source_page": 40,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гуманность",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5592,
+      "accent": "гума́нный",
+      "part": "形容词",
+      "meaning": "人道的；仁慈的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "гуманный",
+        "part_of_speech": "形",
+        "meaning_zh": "人道的；仁爱的, 慈善的",
+        "source_page": 41,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гуманный",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5593,
+      "accent": "да́вний",
+      "part": "形容词",
+      "meaning": "很久以前的；存在已久的；长期的",
+      "perfective": "",
+      "note": "修正很次以前。",
+      "stage": 2,
+      "original": {
+        "word": "давний",
+        "part_of_speech": "形",
+        "meaning_zh": "很次以前的, 往昔的",
+        "source_page": 41,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "давний",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5594,
+      "accent": "даль",
+      "part": "名词·阴性",
+      "meaning": "远方；远处；辽阔的远景",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "даль",
+        "part_of_speech": "阴",
+        "meaning_zh": "远处, 远方",
+        "source_page": 41,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "даль",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5595,
+      "accent": "да́ма",
+      "part": "名词·阴性",
+      "meaning": "女士；（舞会等）女伴；（纸牌）王后牌",
+      "perfective": "",
+      "note": "恢复词义，不把呼语例句当作唯一意思。",
+      "stage": 2,
+      "original": {
+        "word": "дама",
+        "part_of_speech": "阴",
+        "meaning_zh": "! 女士们, 先生们 !",
+        "source_page": 41,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "дама",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5596,
+      "accent": "да́мба",
+      "part": "名词·阴性",
+      "meaning": "堤坝",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "дамба",
+        "part_of_speech": "阴",
+        "meaning_zh": "堤坝",
+        "source_page": 41,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "дамба",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5597,
+      "accent": "двоето́чие",
+      "part": "名词·中性",
+      "meaning": "冒号",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "двоеточие",
+        "part_of_speech": "中",
+        "meaning_zh": "冒号",
+        "source_page": 41,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "двоеточие",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5598,
+      "accent": "двою́родный",
+      "part": "形容词",
+      "meaning": "堂房的；表亲的",
+      "perfective": "",
+      "note": "двоюродный брат堂兄弟或表兄弟，依亲属关系确定。",
+      "stage": 2,
+      "original": {
+        "word": "двоюродный",
+        "part_of_speech": "形",
+        "meaning_zh": "叔伯的, 姑表的；姨表的",
+        "source_page": 41,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "двоюродный",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5599,
+      "accent": "двухты́сячный",
+      "part": "序数词",
+      "meaning": "第二千的；（年份）两千年的",
+      "perfective": "",
+      "note": "不是基数词两千。",
+      "stage": 2,
+      "original": {
+        "word": "двухтысячный",
+        "part_of_speech": "数",
+        "meaning_zh": "第二千的；第二千个",
+        "source_page": 41,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "двухтысячный",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5600,
+      "accent": "двухэта́жный",
+      "part": "形容词",
+      "meaning": "两层的；双层的",
+      "perfective": "",
+      "note": "两层楼房是搭配，本词不含房屋这个名词。",
+      "stage": 1,
+      "original": {
+        "word": "двухэтажный",
+        "part_of_speech": "形",
+        "meaning_zh": "两层楼房",
+        "source_page": 41,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "двухэтажный",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5601,
+      "accent": "дебю́т",
+      "part": "名词·阳性",
+      "meaning": "首次登台；初次亮相；（国际象棋）开局",
+      "perfective": "",
+      "note": "纠正阴性标注。",
+      "stage": 3,
+      "original": {
+        "word": "дебют",
+        "part_of_speech": "阴",
+        "meaning_zh": "初次登台表演 、 亮相",
+        "source_page": 41,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "дебют",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5602,
+      "accent": "дева́ться",
+      "part": "动词·未完成体",
+      "meaning": "消失；不见；去到某处；容身",
+      "perfective": "де́ться",
+      "note": "常见куда деваться到哪里去、怎么办。",
+      "stage": 3,
+      "original": {
+        "word": "деваться",
+        "part_of_speech": "未",
+        "meaning_zh": "完消失, 不见",
+        "source_page": 41,
+        "source_line": "18"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "деваться",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5603,
+      "accent": "действи́тельность",
+      "part": "名词·阴性",
+      "meaning": "现实；实际情况",
+      "perfective": "",
+      "note": "в действительности实际上。",
+      "stage": 3,
+      "original": {
+        "word": "действительность",
+        "part_of_speech": "阴",
+        "meaning_zh": "实际存在, 实际情况",
+        "source_page": 42,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "действительность",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5604,
+      "accent": "дека́брьский",
+      "part": "形容词",
+      "meaning": "十二月的",
+      "perfective": "",
+      "note": "原月的严寒为漏字例句。",
+      "stage": 1,
+      "original": {
+        "word": "декабрьский",
+        "part_of_speech": "形",
+        "meaning_zh": "月的严寒",
+        "source_page": 42,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "декабрьский",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5605,
+      "accent": "декорати́вный",
+      "part": "形容词",
+      "meaning": "装饰性的；供观赏的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "декоративный",
+        "part_of_speech": "形",
+        "meaning_zh": "装饰用的, 观赏性的",
+        "source_page": 42,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "декоративный",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5606,
+      "accent": "декора́ция",
+      "part": "名词·阴性",
+      "meaning": "舞台布景；场景装饰",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "декорация",
+        "part_of_speech": "阴",
+        "meaning_zh": "布景, 舞台装饰",
+        "source_page": 42,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "декорация",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5607,
+      "accent": "декре́т",
+      "part": "名词·阳性",
+      "meaning": "法令；政令；（口语）产假",
+      "perfective": "",
+      "note": "产假义为декретный отпуск的口语简称。",
+      "stage": 3,
+      "original": {
+        "word": "декрет",
+        "part_of_speech": "阳",
+        "meaning_zh": "〔 政府的) 决定, 法令；命令",
+        "source_page": 42,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "декрет",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5608,
+      "accent": "демобилизо́ванный",
+      "part": "形容词／过去时被动形动词",
+      "meaning": "已复员的；已退役的",
+      "perfective": "",
+      "note": "来自动词демобилизовать；本词不是动词不定式。",
+      "stage": 3,
+      "original": {
+        "word": "демобилизбванный",
+        "part_of_speech": "形",
+        "meaning_zh": "复员的官兵",
+        "source_page": 42,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "демобилизованный",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=42",
+        "原页демобилизо́ванный，о误为б；复员的官兵是例句。"
+      ]
+    },
+    {
+      "id": 5609,
+      "accent": "демогра́фия",
+      "part": "名词·阴性",
+      "meaning": "人口学；人口状况",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "демография",
+        "part_of_speech": "阴",
+        "meaning_zh": "人口学, 人口状况",
+        "source_page": 42,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "демография",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5610,
+      "accent": "демокра́т",
+      "part": "名词·阳性",
+      "meaning": "民主主义者；民主党党员",
+      "perfective": "",
+      "note": "不局限某一国家政党。",
+      "stage": 3,
+      "original": {
+        "word": "демократ",
+        "part_of_speech": "阳",
+        "meaning_zh": "民主党党员",
+        "source_page": 42,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "демократ",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5611,
+      "accent": "демонстри́ровать",
+      "part": "动词·未完成体为主（部分展示义可双体）",
+      "meaning": "展示；演示；表露；参加示威游行",
+      "perfective": "продемонстри́ровать",
+      "note": "配对限展示、表露义；参加游行的持续活动不机械套用。",
+      "stage": 3,
+      "original": {
+        "word": "демонстрировать",
+        "part_of_speech": "未 , 完",
+        "meaning_zh": "完人参加游行示威",
+        "source_page": 42,
+        "source_line": "19"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "демонстрировать",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": [
+        "https://gramota.ru/meta/demonstrirovat",
+        "核展示、表露义和продемонстрировать配对；同时原PDF42-43页保留双体标注。"
+      ]
+    },
+    {
+      "id": 5612,
+      "accent": "департа́мент",
+      "part": "名词·阳性",
+      "meaning": "（行政机构）司、局、部门",
+      "perfective": "",
+      "note": "具体行政级别和译名依国家机构而定。",
+      "stage": 3,
+      "original": {
+        "word": "департамент",
+        "part_of_speech": "阳",
+        "meaning_zh": "司, 局",
+        "source_page": 43,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "департамент",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5613,
+      "accent": "дереву́шка",
+      "part": "名词·阴性",
+      "meaning": "小村庄",
+      "perfective": "",
+      "note": "деревня的指小形式。",
+      "stage": 2,
+      "original": {
+        "word": "деревушка",
+        "part_of_speech": "阴",
+        "meaning_zh": "小村庄",
+        "source_page": 43,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "деревушка",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5614,
+      "accent": "дерза́ть",
+      "part": "动词·未完成体",
+      "meaning": "敢于；勇于尝试；敢作敢为",
+      "perfective": "",
+      "note": "偏书面；不是дерзить无礼顶撞。",
+      "stage": 3,
+      "original": {
+        "word": "дерзать",
+        "part_of_speech": "未",
+        "meaning_zh": "敢作敢为",
+        "source_page": 43,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "дерзать",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": [
+        "https://gramota.ru/meta/derzat",
+        "核дерза́ть敢于、敢作敢为；不与дерзить顶撞混淆。"
+      ]
+    },
+    {
+      "id": 5615,
+      "accent": "десятиле́тие",
+      "part": "名词·中性",
+      "meaning": "十年；十年期间；十周年",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "десятилетие",
+        "part_of_speech": "中",
+        "meaning_zh": "十年；十年期",
+        "source_page": 43,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "десятилетие",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5616,
+      "accent": "диа́гноз",
+      "part": "名词·阳性",
+      "meaning": "诊断；诊断结论",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "диагноз",
+        "part_of_speech": "阳",
+        "meaning_zh": "诊断",
+        "source_page": 43,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "диагноз",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5617,
+      "accent": "диагно́стика",
+      "part": "名词·阴性",
+      "meaning": "诊断；诊断学；（设备等）故障诊断",
+      "perfective": "",
+      "note": "不限定早期诊断；据原页恢复о。",
+      "stage": 3,
+      "original": {
+        "word": "диагнбстика",
+        "part_of_speech": "阴",
+        "meaning_zh": "疾病的早期诊断",
+        "source_page": 43,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "диагностика",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=43",
+        "原页диагно́стика，о误为б；早期是例句修饰语而非词义限制。"
+      ]
+    },
+    {
+      "id": 5618,
+      "accent": "диале́ктика",
+      "part": "名词·阴性",
+      "meaning": "辩证法；辩证的发展过程",
+      "perfective": "",
+      "note": "唯物辩证法是特定搭配，不是本词唯一范围。",
+      "stage": 4,
+      "original": {
+        "word": "диалектика",
+        "part_of_speech": "阴",
+        "meaning_zh": "唯物辩证法；人辩证的运动 、 发展过程: 历史的辩证法",
+        "source_page": 43,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "диалектика",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5619,
+      "accent": "диа́метр",
+      "part": "名词·阳性",
+      "meaning": "直径",
+      "perfective": "",
+      "note": "不把球和两米并入核心词义。",
+      "stage": 2,
+      "original": {
+        "word": "диаметр",
+        "part_of_speech": "阳",
+        "meaning_zh": "直径是两米的球",
+        "source_page": 43,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "диаметр",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=43",
+        "原页диа́метр直径，后面是直径两米的球这一例句。"
+      ]
+    },
+    {
+      "id": 5620,
+      "accent": "дивиде́нд",
+      "part": "名词·阳性",
+      "meaning": "股息；红利",
+      "perfective": "",
+      "note": "名词，不是分配红利的动作。",
+      "stage": 3,
+      "original": {
+        "word": "дивиденд",
+        "part_of_speech": "阳",
+        "meaning_zh": "分配股息, 分红利",
+        "source_page": 44,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "дивиденд",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5621,
+      "accent": "дие́та",
+      "part": "名词·阴性",
+      "meaning": "规定的饮食；饮食制度；节食方案",
+      "perfective": "",
+      "note": "不一定为减肥，也可因健康等目的。",
+      "stage": 2,
+      "original": {
+        "word": "диета",
+        "part_of_speech": "阴",
+        "meaning_zh": "规定的饮食；营养饭食, 病号饭",
+        "source_page": 44,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "диета",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    },
+    {
+      "id": 5622,
+      "accent": "диза́йн",
+      "part": "名词·阳性",
+      "meaning": "设计；外观或艺术设计",
+      "perfective": "",
+      "note": "不只限工艺品。",
+      "stage": 2,
+      "original": {
+        "word": "дизайн",
+        "part_of_speech": "阳",
+        "meaning_zh": "工艺品艺术设计",
+        "source_page": 44,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "дизайн",
+      "method": "2026-09-10 当前助手逐词核对核心释义、重音、词性及限定义项体配对；疑似OCR词头对照原页，未使用外部收费模型。",
+      "evidence": []
+    }
+  ]
+}

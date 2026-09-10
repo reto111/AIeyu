@@ -1,0 +1,1262 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 5523,
+      "accent": "гармо́шка",
+      "part": "名词·阴性",
+      "meaning": "手风琴；（特定搭配）口琴",
+      "perfective": "",
+      "note": "губная гармошка为口琴。",
+      "stage": 2,
+      "original": {
+        "word": "гармошка",
+        "part_of_speech": "阴",
+        "meaning_zh": "手风琴",
+        "source_page": 34,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гармошка",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5524,
+      "accent": "гекта́р",
+      "part": "名词·阳性",
+      "meaning": "公顷",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "гектар",
+        "part_of_speech": "阳",
+        "meaning_zh": "公顷",
+        "source_page": 35,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гектар",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5525,
+      "accent": "гениа́льный",
+      "part": "形容词",
+      "meaning": "天才的；极有才华的；卓越的",
+      "perfective": "",
+      "note": "按原页修复词头。",
+      "stage": 3,
+      "original": {
+        "word": "тениальный",
+        "part_of_speech": "形",
+        "meaning_zh": "天才的, 有才华的",
+        "source_page": 35,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гениальный",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=35",
+        "原页гениа́льный，首字母г误为т。"
+      ]
+    },
+    {
+      "id": 5526,
+      "accent": "ге́ний",
+      "part": "名词·阳性",
+      "meaning": "天才；卓越的创造才能；天才人物",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "гений",
+        "part_of_speech": "阳",
+        "meaning_zh": "天才, 独创的才能",
+        "source_page": 35,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гений",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5527,
+      "accent": "ге́нный",
+      "part": "形容词",
+      "meaning": "基因的",
+      "perfective": "",
+      "note": "генная инженерия为基因工程。",
+      "stage": 3,
+      "original": {
+        "word": "генный",
+        "part_of_speech": "形",
+        "meaning_zh": "基因的, 遗传的",
+        "source_page": 35,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "генный",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5528,
+      "accent": "гео́граф",
+      "part": "名词·阳性",
+      "meaning": "地理学家；地理工作者",
+      "perfective": "",
+      "note": "о不能误为б。",
+      "stage": 2,
+      "original": {
+        "word": "гебграф",
+        "part_of_speech": "阳",
+        "meaning_zh": "地理工作者；地理学家",
+        "source_page": 35,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "географ",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=35",
+        "原页гео́граф，о误为б。"
+      ]
+    },
+    {
+      "id": 5529,
+      "accent": "географи́ческий",
+      "part": "形容词",
+      "meaning": "地理的；地理学的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "географический",
+        "part_of_speech": "形",
+        "meaning_zh": "地理学的, 地理的",
+        "source_page": 35,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "географический",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5530,
+      "accent": "геологи́ческий",
+      "part": "形容词",
+      "meaning": "地质的；地质学的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "геологический",
+        "part_of_speech": "形",
+        "meaning_zh": "地质的, 地质学的",
+        "source_page": 35,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "геологический",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5531,
+      "accent": "геометри́ческий",
+      "part": "形容词",
+      "meaning": "几何的；几何学的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "геометрический",
+        "part_of_speech": "形",
+        "meaning_zh": "几何的, 几何学的",
+        "source_page": 35,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "геометрический",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5532,
+      "accent": "геоме́трия",
+      "part": "名词·阴性",
+      "meaning": "几何；几何学",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "геометрия",
+        "part_of_speech": "阴",
+        "meaning_zh": "几何学",
+        "source_page": 35,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "геометрия",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5533,
+      "accent": "герма́нец",
+      "part": "名词·阳性",
+      "meaning": "日耳曼人；（旧）德国人",
+      "perfective": "",
+      "note": "现代一般称德国人为немец。",
+      "stage": 3,
+      "original": {
+        "word": "германец",
+        "part_of_speech": "阳",
+        "meaning_zh": "日尔曼人；德意志人, 德国人",
+        "source_page": 35,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "германец",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5534,
+      "accent": "Герма́ния",
+      "part": "名词·阴性·专名",
+      "meaning": "德国",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "Германия",
+        "part_of_speech": "阴",
+        "meaning_zh": "德国",
+        "source_page": 35,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "Германия",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5535,
+      "accent": "герма́нский",
+      "part": "形容词",
+      "meaning": "日耳曼的；德国的",
+      "perfective": "",
+      "note": "германские языки是日耳曼语族，不只指德语。",
+      "stage": 3,
+      "original": {
+        "word": "германский",
+        "part_of_speech": "形",
+        "meaning_zh": "日尔曼的, 德意志的, 德国的",
+        "source_page": 35,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "германский",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5536,
+      "accent": "гига́нт",
+      "part": "名词·阳性",
+      "meaning": "巨人；庞然大物；规模巨大的事物",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "гигант",
+        "part_of_speech": "阳",
+        "meaning_zh": "巨人；庞然大物",
+        "source_page": 35,
+        "source_line": "21"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гигант",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5537,
+      "accent": "гимна́зия",
+      "part": "名词·阴性",
+      "meaning": "文科中学；提供较深入普通教育的中学",
+      "perfective": "",
+      "note": "具体学制因国家和时代而异，不等同所有中学。",
+      "stage": 2,
+      "original": {
+        "word": "гимназия",
+        "part_of_speech": "阴",
+        "meaning_zh": "中学",
+        "source_page": 36,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гимназия",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5538,
+      "accent": "гимна́ст",
+      "part": "名词·阳性",
+      "meaning": "体操运动员",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "гимнаст",
+        "part_of_speech": "阳",
+        "meaning_zh": "体操运动员",
+        "source_page": 36,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гимнаст",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5539,
+      "accent": "гипс",
+      "part": "名词·阳性",
+      "meaning": "石膏；石膏固定绷带；石膏制品",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "гипс",
+        "part_of_speech": "阳",
+        "meaning_zh": "石膏",
+        "source_page": 36,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гипс",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5540,
+      "accent": "ги́тлеровец",
+      "part": "名词·阳性",
+      "meaning": "希特勒分子；纳粹德国军人或追随者",
+      "perfective": "",
+      "note": "历史用语。",
+      "stage": 4,
+      "original": {
+        "word": "гитлеровец",
+        "part_of_speech": "阳",
+        "meaning_zh": "希特勒分子 (德国法西斯军队的士兵或军官)",
+        "source_page": 36,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гитлеровец",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5541,
+      "accent": "главнокома́ндующий",
+      "part": "名词·阳性",
+      "meaning": "总司令；最高指挥官",
+      "perfective": "",
+      "note": "形容词式变格。",
+      "stage": 3,
+      "original": {
+        "word": "главнокомандующий",
+        "part_of_speech": "阳",
+        "meaning_zh": "总司令；(某战线的) 总指挥官, 司令官",
+        "source_page": 36,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "главнокомандующий",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5542,
+      "accent": "гла́сность",
+      "part": "名词·阴性",
+      "meaning": "公开性；公开透明",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "гласность",
+        "part_of_speech": "阴",
+        "meaning_zh": "公开, 公开性",
+        "source_page": 36,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гласность",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5543,
+      "accent": "глоба́льный",
+      "part": "形容词",
+      "meaning": "全球的；全局性的；全面的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "глобальный",
+        "part_of_speech": "形",
+        "meaning_zh": "全球的, 世界的",
+        "source_page": 36,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "глобальный",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5544,
+      "accent": "гне́вный",
+      "part": "形容词",
+      "meaning": "愤怒的；充满怒气的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "гневный",
+        "part_of_speech": "形",
+        "meaning_zh": "愤怒的",
+        "source_page": 36,
+        "source_line": "19"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гневный",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5545,
+      "accent": "гнездо́",
+      "part": "名词·中性",
+      "meaning": "巢；窝；（器械）插孔、座孔；（语言学）词族",
+      "perfective": "",
+      "note": "具体义项按生物、机械、语言学语境区分。",
+      "stage": 2,
+      "original": {
+        "word": "гнездо",
+        "part_of_speech": "中",
+        "meaning_zh": "鸟巢；兽穴；巢",
+        "source_page": 36,
+        "source_line": "20"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гнездо",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5546,
+      "accent": "гнило́й",
+      "part": "形容词",
+      "meaning": "腐烂的；腐朽的；（转）败坏的",
+      "perfective": "",
+      "note": "修正气昧等噪声。",
+      "stage": 3,
+      "original": {
+        "word": "гнилой",
+        "part_of_speech": "形",
+        "meaning_zh": "腐烂的, 有腐烂气昧的",
+        "source_page": 37,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гнилой",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5547,
+      "accent": "годово́й",
+      "part": "形容词",
+      "meaning": "全年的；一年的；年度的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "годовой",
+        "part_of_speech": "形",
+        "meaning_zh": "年的, 全年的",
+        "source_page": 37,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "годовой",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5548,
+      "accent": "гол",
+      "part": "名词·阳性",
+      "meaning": "进球；射门得分",
+      "perfective": "",
+      "note": "名词，不是射门动作的一般名称。",
+      "stage": 2,
+      "original": {
+        "word": "гол",
+        "part_of_speech": "阳",
+        "meaning_zh": "(足球 、 水球等比赛) 射中球门, 得分",
+        "source_page": 37,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гол",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5549,
+      "accent": "головно́й",
+      "part": "形容词",
+      "meaning": "头部的；领头的；主要的",
+      "perfective": "",
+      "note": "головная боль头痛；головное предприятие牵头企业。",
+      "stage": 2,
+      "original": {
+        "word": "головной",
+        "part_of_speech": "形",
+        "meaning_zh": "头的",
+        "source_page": 37,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "головной",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5550,
+      "accent": "голода́ть",
+      "part": "动词·未完成体",
+      "meaning": "挨饿；吃不饱；绝食",
+      "perfective": "",
+      "note": "поголода́ть表示饿一阵或禁食一段时间，不是全部义项的通用完成体。",
+      "stage": 2,
+      "original": {
+        "word": "голодать",
+        "part_of_speech": "未",
+        "meaning_zh": "帮助挨饿的人；节制饮食；绝食: 绝食以示抗议",
+        "source_page": 37,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "голодать",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=37",
+        "核挨饿、吃不饱和绝食义；不是帮助挨饿的人。"
+      ]
+    },
+    {
+      "id": 5551,
+      "accent": "голосова́ние",
+      "part": "名词·中性",
+      "meaning": "投票；表决",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "голосование",
+        "part_of_speech": "中",
+        "meaning_zh": "投票, 投票选举",
+        "source_page": 37,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "голосование",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5552,
+      "accent": "голу́бчик",
+      "part": "名词·阳性",
+      "meaning": "（亲昵称呼）亲爱的；好心人",
+      "perfective": "",
+      "note": "常作呼语，语气也可能含责备或讽刺。",
+      "stage": 3,
+      "original": {
+        "word": "голубчик",
+        "part_of_speech": "阳",
+        "meaning_zh": "亲爱的 (一般用作呼语)",
+        "source_page": 37,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "голубчик",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5553,
+      "accent": "го́лубь",
+      "part": "名词·阳性",
+      "meaning": "鸽子",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "голубь",
+        "part_of_speech": "阳",
+        "meaning_zh": "鸽子",
+        "source_page": 37,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "голубь",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5554,
+      "accent": "гонг",
+      "part": "名词·阳性",
+      "meaning": "锣；锣声信号",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "гонг",
+        "part_of_speech": "阳",
+        "meaning_zh": "锣；敲击锣 、 铁器等发出的信号",
+        "source_page": 37,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гонг",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5555,
+      "accent": "горба́тый",
+      "part": "形容词",
+      "meaning": "驼背的；隆起的；有驼峰的",
+      "perfective": "",
+      "note": "删除佩健等识别噪声。",
+      "stage": 3,
+      "original": {
+        "word": "горбатый",
+        "part_of_speech": "形",
+        "meaning_zh": "驼背的, 佩健的；鸡胸的",
+        "source_page": 37,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "горбатый",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5556,
+      "accent": "горизонта́льный",
+      "part": "形容词",
+      "meaning": "水平的；横向的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "горизонтальный",
+        "part_of_speech": "形",
+        "meaning_zh": "地平的, 水平的",
+        "source_page": 37,
+        "source_line": "19"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "горизонтальный",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5558,
+      "accent": "го́рничная",
+      "part": "名词·阴性",
+      "meaning": "客房女服务员；女佣",
+      "perfective": "",
+      "note": "形容词式变格。",
+      "stage": 2,
+      "original": {
+        "word": "горничная",
+        "part_of_speech": "阴",
+        "meaning_zh": "打扫房间的女工, 旅馆客房的女服务员",
+        "source_page": 38,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "горничная",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5559,
+      "accent": "горсть",
+      "part": "名词·阴性",
+      "meaning": "一把；一捧；少量、一小撮",
+      "perfective": "",
+      "note": "不把两把面粉例句替代量词核心义。",
+      "stage": 3,
+      "original": {
+        "word": "горсть",
+        "part_of_speech": "阴",
+        "meaning_zh": "两把面粉；(指人) 很少, 不多儿个, 一小撮: 一小撮犯罪分子",
+        "source_page": 38,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "горсть",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5560,
+      "accent": "горю́чее",
+      "part": "名词·中性",
+      "meaning": "燃料",
+      "perfective": "",
+      "note": "形容词式变格，常指发动机燃料。",
+      "stage": 3,
+      "original": {
+        "word": "горючее",
+        "part_of_speech": "中",
+        "meaning_zh": "燃料",
+        "source_page": 38,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "горючее",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5561,
+      "accent": "госпо́дь",
+      "part": "名词·阳性",
+      "meaning": "上帝；主",
+      "perfective": "",
+      "note": "宗教专名通常写Господь；按原页恢复字母。",
+      "stage": 3,
+      "original": {
+        "word": "госпддь",
+        "part_of_speech": "阳",
+        "meaning_zh": "上帝, 天主",
+        "source_page": 38,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "господь",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=38",
+        "原页госпо́дь，上帝，о误为д。"
+      ]
+    },
+    {
+      "id": 5562,
+      "accent": "гости́ная",
+      "part": "名词·阴性",
+      "meaning": "客厅；会客室",
+      "perfective": "",
+      "note": "形容词式变格，不是旅馆гостиница。",
+      "stage": 1,
+      "original": {
+        "word": "гостиная",
+        "part_of_speech": "阴",
+        "meaning_zh": "客厅, 休息室, 接待室",
+        "source_page": 38,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гостиная",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5563,
+      "accent": "госхо́з",
+      "part": "名词·阳性",
+      "meaning": "国营农场",
+      "perfective": "",
+      "note": "原书词头确为госхоз，恢复о，不改造成另一同义词。",
+      "stage": 3,
+      "original": {
+        "word": "госхбз",
+        "part_of_speech": "阳",
+        "meaning_zh": "国营农场",
+        "source_page": 38,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "госхоз",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=38",
+        "原页госхо́з国营农场，不擅自替换成совхоз。"
+      ]
+    },
+    {
+      "id": 5564,
+      "accent": "гра́бить",
+      "part": "动词·未完成体",
+      "meaning": "抢劫；掠夺",
+      "perfective": "огра́бить",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "грабить",
+        "part_of_speech": "Ж",
+        "meaning_zh": "抢劫；掠, 抢",
+        "source_page": 38,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "грабить",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5565,
+      "accent": "гравю́ра",
+      "part": "名词·阴性",
+      "meaning": "版画",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "гравюра",
+        "part_of_speech": "阴",
+        "meaning_zh": "版画",
+        "source_page": 38,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гравюра",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5566,
+      "accent": "град",
+      "part": "名词·阳性",
+      "meaning": "冰雹；（转）密集落下的一阵",
+      "perfective": "",
+      "note": "如град пуль弹雨；与古语град城市的同形词区分。",
+      "stage": 3,
+      "original": {
+        "word": "град",
+        "part_of_speech": "阳",
+        "meaning_zh": "() 如冰雹之多, 如雨点之多, 无数: . 汗如雨下",
+        "source_page": 38,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "град",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=38",
+        "核雹子、冰雹核心义及如雨点般的比喻义。"
+      ]
+    },
+    {
+      "id": 5567,
+      "accent": "гражда́нство",
+      "part": "名词·中性",
+      "meaning": "国籍；公民身份",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "гражданство",
+        "part_of_speech": "中",
+        "meaning_zh": "(桅国) 国民身份, 国籍",
+        "source_page": 38,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гражданство",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5568,
+      "accent": "грамма́тика",
+      "part": "名词·阴性",
+      "meaning": "语法；语法学；语法书",
+      "perfective": "",
+      "note": "不只限学科名称。",
+      "stage": 1,
+      "original": {
+        "word": "грамматика",
+        "part_of_speech": "阴",
+        "meaning_zh": "语法学",
+        "source_page": 38,
+        "source_line": "18"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "грамматика",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5569,
+      "accent": "грана́та",
+      "part": "名词·阴性",
+      "meaning": "手榴弹；榴弹",
+      "perfective": "",
+      "note": "与гранат石榴区分。",
+      "stage": 3,
+      "original": {
+        "word": "граната",
+        "part_of_speech": "明",
+        "meaning_zh": "手榴弹",
+        "source_page": 39,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "граната",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5570,
+      "accent": "грандио́зный",
+      "part": "形容词",
+      "meaning": "宏伟的；雄伟的；规模巨大的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "грандиозный",
+        "part_of_speech": "形",
+        "meaning_zh": "宏伟的, 雄伟的",
+        "source_page": 39,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "грандиозный",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5571,
+      "accent": "грань",
+      "part": "名词·阴性",
+      "meaning": "棱；（几何体的）面；边界；界限；方面",
+      "perfective": "",
+      "note": "на грани在边缘、濒临。",
+      "stage": 3,
+      "original": {
+        "word": "грань",
+        "part_of_speech": "阴",
+        "meaning_zh": "边缘；界限",
+        "source_page": 39,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "грань",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5572,
+      "accent": "грести́",
+      "part": "动词·未完成体",
+      "meaning": "划桨；划船；耙拢、聚拢",
+      "perfective": "",
+      "note": "划船持续义不强配唯一完成体；耙拢义可用сгрести́。",
+      "stage": 3,
+      "original": {
+        "word": "грести",
+        "part_of_speech": "未",
+        "meaning_zh": "荡桨, 划桨",
+        "source_page": 39,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "грести",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5573,
+      "accent": "гре́ческий",
+      "part": "形容词",
+      "meaning": "希腊的；希腊人的；希腊语的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "греческий",
+        "part_of_speech": "形",
+        "meaning_zh": "希腊的",
+        "source_page": 39,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "греческий",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5574,
+      "accent": "гре́шный",
+      "part": "形容词",
+      "meaning": "有罪的；罪孽深重的；不应有的",
+      "perfective": "",
+      "note": "常带宗教或道德意味。",
+      "stage": 3,
+      "original": {
+        "word": "грешный",
+        "part_of_speech": "形",
+        "meaning_zh": "有罪的, 罪恶的, 作恶多端的；不良的, 不应有的",
+        "source_page": 39,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "грешный",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5575,
+      "accent": "грим",
+      "part": "名词·阳性",
+      "meaning": "舞台化妆；化妆用品；扮相",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "грим",
+        "part_of_speech": "阳",
+        "meaning_zh": "化妆, 扮装, 勾脸",
+        "source_page": 39,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "грим",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5576,
+      "accent": "гроб",
+      "part": "名词·阳性",
+      "meaning": "棺材",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "гроб",
+        "part_of_speech": "阳",
+        "meaning_zh": "棺材",
+        "source_page": 39,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "гроб",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5577,
+      "accent": "гро́зный",
+      "part": "形容词",
+      "meaning": "可怕的；严厉的；威严的；威力强大的",
+      "perfective": "",
+      "note": "不把所有语境都译为残酷。",
+      "stage": 3,
+      "original": {
+        "word": "грозный",
+        "part_of_speech": "形",
+        "meaning_zh": "(指目光 、 声音等) 严厉的, 严酷的, 残酷的, 苛酷的",
+        "source_page": 39,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "грозный",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5578,
+      "accent": "грома́дный",
+      "part": "形容词",
+      "meaning": "巨大的；庞大的；重大的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "громадный",
+        "part_of_speech": "形",
+        "meaning_zh": "巨大的, 宏大的, 大规模的, 庞大的；重大",
+        "source_page": 39,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "громадный",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5579,
+      "accent": "гро́хот",
+      "part": "名词·阳性",
+      "meaning": "轰隆声；巨响",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "грохот",
+        "part_of_speech": "阳",
+        "meaning_zh": "轰隆声；巨响",
+        "source_page": 39,
+        "source_line": "18"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "грохот",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5580,
+      "accent": "грош",
+      "part": "名词·阳性",
+      "meaning": "旧时的小额钱币；（转）微不足道的钱或价值",
+      "perfective": "",
+      "note": "如не стоит гроша一文不值。",
+      "stage": 3,
+      "original": {
+        "word": "грош",
+        "part_of_speech": "阳",
+        "meaning_zh": "旧时的铜币",
+        "source_page": 40,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "грош",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5581,
+      "accent": "гру́да",
+      "part": "名词·阴性",
+      "meaning": "一大堆",
+      "perfective": "",
+      "note": "常指杂乱堆积的东西。",
+      "stage": 3,
+      "original": {
+        "word": "груда",
+        "part_of_speech": "阴",
+        "meaning_zh": "一大堆",
+        "source_page": 40,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "груда",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    },
+    {
+      "id": 5582,
+      "accent": "Гру́зия",
+      "part": "名词·阴性·专名",
+      "meaning": "格鲁吉亚",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "Грузия",
+        "part_of_speech": "阴",
+        "meaning_zh": "格鲁吉亚",
+        "source_page": 40,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "Грузия",
+      "method": "2026-09-10 当前助手逐词对照俄中核心义、重音、词性；可疑词头回看原PDF。5557为例句断行伪条另归档。",
+      "evidence": []
+    }
+  ]
+}
