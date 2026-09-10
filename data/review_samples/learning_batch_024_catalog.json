@@ -1,0 +1,2117 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 6123,
+      "accent": "морфоло́гия",
+      "part": "名词·阴性",
+      "meaning": "形态学；词法",
+      "perfective": "",
+      "note": "语言学中研究词形和语法形式。",
+      "stage": 3,
+      "original": {
+        "word": "морфолобгия",
+        "part_of_speech": "阴",
+        "meaning_zh": "形态学；词法学",
+        "source_page": 103,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "морфология",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=103",
+        "词头морфоло́гия，无б。"
+      ]
+    },
+    {
+      "id": 6124,
+      "accent": "Москва́",
+      "part": "名词·阴性",
+      "meaning": "莫斯科",
+      "perfective": "",
+      "note": "城市名。",
+      "stage": 1,
+      "original": {
+        "word": "Москва",
+        "part_of_speech": "阴",
+        "meaning_zh": "莫斯科",
+        "source_page": 103,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "Москва",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6125,
+      "accent": "москви́ч",
+      "part": "名词·阳性",
+      "meaning": "莫斯科人；莫斯科居民",
+      "perfective": "",
+      "note": "女性形式москви́чка。",
+      "stage": 2,
+      "original": {
+        "word": "москвич",
+        "part_of_speech": "阳",
+        "meaning_zh": "兹斯科人",
+        "source_page": 103,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "москвич",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6126,
+      "accent": "мостова́я",
+      "part": "名词·阴性",
+      "meaning": "铺筑的街道路面；马路",
+      "perfective": "",
+      "note": "名词化形容词。",
+      "stage": 3,
+      "original": {
+        "word": "мостовая",
+        "part_of_speech": "阴",
+        "meaning_zh": "马路；路面",
+        "source_page": 103,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "мостовая",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6127,
+      "accent": "мощь",
+      "part": "名词·阴性",
+      "meaning": "强大力量；实力；威力",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "мощь",
+        "part_of_speech": "阴",
+        "meaning_zh": "威力, 实力",
+        "source_page": 104,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "мощь",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6128,
+      "accent": "мра́мор",
+      "part": "名词·阳性",
+      "meaning": "大理石",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "мрамор",
+        "part_of_speech": "阳",
+        "meaning_zh": "大理石",
+        "source_page": 104,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "мрамор",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6129,
+      "accent": "мра́морный",
+      "part": "形容词",
+      "meaning": "大理石的；大理石制的；像大理石的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "мраморный",
+        "part_of_speech": "形",
+        "meaning_zh": "大理石的, 大理石般的",
+        "source_page": 104,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "мраморный",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6130,
+      "accent": "му́дрость",
+      "part": "名词·阴性",
+      "meaning": "智慧；睿智；明智",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "мудрость",
+        "part_of_speech": "阴",
+        "meaning_zh": "英明, 贤明, 智慧, 才智",
+        "source_page": 104,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "мудрость",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6131,
+      "accent": "му́ка",
+      "part": "名词·阴性",
+      "meaning": "痛苦；折磨",
+      "perfective": "",
+      "note": "重音在у；мука́重音在а时意为面粉。",
+      "stage": 2,
+      "original": {
+        "word": "мука",
+        "part_of_speech": "阴",
+        "meaning_zh": "痛苦",
+        "source_page": 104,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "мука",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6132,
+      "accent": "мультфи́льм",
+      "part": "名词·阳性",
+      "meaning": "动画片",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "мультфильм",
+        "part_of_speech": "阳",
+        "meaning_zh": "动画片",
+        "source_page": 104,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "мультфильм",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6133,
+      "accent": "мунди́р",
+      "part": "名词·阳性",
+      "meaning": "制服；军服；旧时官员制服",
+      "perfective": "",
+      "note": "不只限军官。",
+      "stage": 3,
+      "original": {
+        "word": "мундир",
+        "part_of_speech": "阳",
+        "meaning_zh": "军官制服",
+        "source_page": 104,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "мундир",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6134,
+      "accent": "му́скул",
+      "part": "名词·阳性",
+      "meaning": "肌肉",
+      "perfective": "",
+      "note": "词本身不含发达之义。",
+      "stage": 3,
+      "original": {
+        "word": "мускул",
+        "part_of_speech": "阳",
+        "meaning_zh": "发达的肌肉",
+        "source_page": 104,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "мускул",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6135,
+      "accent": "мусульма́нин",
+      "part": "名词·阳性",
+      "meaning": "穆斯林；伊斯兰教信徒",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "мусульманин",
+        "part_of_speech": "阳",
+        "meaning_zh": "穆斯林",
+        "source_page": 104,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "мусульманин",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6136,
+      "accent": "му́тный",
+      "part": "形容词",
+      "meaning": "浑浊的；模糊不清的；晦暗的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "мутный",
+        "part_of_speech": "形",
+        "meaning_zh": "浑浊的；模糊的",
+        "source_page": 104,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "мутный",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6137,
+      "accent": "му́ха",
+      "part": "名词·阴性",
+      "meaning": "苍蝇",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "муха",
+        "part_of_speech": "阴",
+        "meaning_zh": "苍蝇",
+        "source_page": 104,
+        "source_line": "18"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "муха",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6138,
+      "accent": "мучи́тельный",
+      "part": "形容词",
+      "meaning": "令人痛苦的；折磨人的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "мучительный",
+        "part_of_speech": "形",
+        "meaning_zh": "令人痛苦的；折磨人的",
+        "source_page": 104,
+        "source_line": "19"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "мучительный",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6139,
+      "accent": "мы́сленно",
+      "part": "副词",
+      "meaning": "在心里；在想象中",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "мысленно",
+        "part_of_speech": "副",
+        "meaning_zh": "在心里；用思想",
+        "source_page": 104,
+        "source_line": "21"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "мысленно",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6140,
+      "accent": "мышле́ние",
+      "part": "名词·中性",
+      "meaning": "思维；思考活动",
+      "perfective": "",
+      "note": "删除混入的例句译文。",
+      "stage": 3,
+      "original": {
+        "word": "мышление",
+        "part_of_speech": "中",
+        "meaning_zh": "大脑是思维器官",
+        "source_page": 105,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "мышление",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": [
+        "https://gramota.ru/meta/myshlenie",
+        "核мышле́ние重音；原页105释义为思维，旧库只保留例句译文。"
+      ]
+    },
+    {
+      "id": 6141,
+      "accent": "мышь",
+      "part": "名词·阴性",
+      "meaning": "老鼠；鼠标",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "мышь",
+        "part_of_speech": "阴",
+        "meaning_zh": "耗子",
+        "source_page": 105,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "мышь",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6142,
+      "accent": "мы́шка",
+      "part": "名词·阴性",
+      "meaning": "小老鼠；鼠标（口语）",
+      "perfective": "",
+      "note": "под мы́шкой意为在腋下，该搭配不表示小鼠。",
+      "stage": 2,
+      "original": {
+        "word": "мышка",
+        "part_of_speech": "阴",
+        "meaning_zh": "( 的指小表爱)；用于固定词组",
+        "source_page": 105,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "мышка",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=105",
+        "мы́шка指小鼠；под мышкой等固定搭配指腋下。"
+      ]
+    },
+    {
+      "id": 6143,
+      "accent": "мясно́й",
+      "part": "形容词",
+      "meaning": "肉的；肉制的；供肉用的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "мясной",
+        "part_of_speech": "形",
+        "meaning_zh": "肉的",
+        "source_page": 105,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "мясной",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6144,
+      "accent": "на",
+      "part": "语气词",
+      "meaning": "给你；拿去吧",
+      "perfective": "",
+      "note": "本条为递东西时的用语，复数或敬称用на́те。",
+      "stage": 2,
+      "original": {
+        "word": "на",
+        "part_of_speech": "语",
+        "meaning_zh": "给你, 拿去吧",
+        "source_page": 105,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "на",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=105",
+        "本条是给予时使用的语气词，不是前置词на。"
+      ]
+    },
+    {
+      "id": 6145,
+      "accent": "на́бережная",
+      "part": "名词·阴性",
+      "meaning": "河岸；沿河或沿海的街道",
+      "perfective": "",
+      "note": "常指修筑过的滨水岸街。",
+      "stage": 2,
+      "original": {
+        "word": "набережная",
+        "part_of_speech": "阴",
+        "meaning_zh": "沿岸街上的房子",
+        "source_page": 105,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "набережная",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=105",
+        "恢复河岸、沿岸街；原译是例句дом на набережной。"
+      ]
+    },
+    {
+      "id": 6146,
+      "accent": "наблюде́ние",
+      "part": "名词·中性",
+      "meaning": "观察；监视；监督；观察所得",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "наблюдение",
+        "part_of_speech": "中",
+        "meaning_zh": "观察；监督",
+        "source_page": 105,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "наблюдение",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6147,
+      "accent": "наверняка́",
+      "part": "副词",
+      "meaning": "一定；肯定；有把握地",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "наверняка",
+        "part_of_speech": "副",
+        "meaning_zh": "我一定来",
+        "source_page": 105,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "наверняка",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=105",
+        "恢复一定、无疑；原译混入Приду наверняка例句。"
+      ]
+    },
+    {
+      "id": 6148,
+      "accent": "на́вык",
+      "part": "名词·阳性",
+      "meaning": "技能；熟练技巧；习惯性动作",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "навык",
+        "part_of_speech": "阳",
+        "meaning_zh": "技能, 熟巧",
+        "source_page": 105,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "навык",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6149,
+      "accent": "навя́зывать",
+      "part": "动词·未完成体",
+      "meaning": "强加；硬让人接受；编织出一定数量",
+      "perfective": "навяза́ть",
+      "note": "强加用кому что；编织义依具体宾语。",
+      "stage": 3,
+      "original": {
+        "word": "навязывать",
+        "part_of_speech": "未",
+        "meaning_zh": "强加；硬塞给；捆绑",
+        "source_page": 105,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "навязывать",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6150,
+      "accent": "на́глый",
+      "part": "形容词",
+      "meaning": "厚颜无耻的；蛮横的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "наглый",
+        "part_of_speech": "形",
+        "meaning_zh": "毫不讲理的, 厚颜无耻",
+        "source_page": 106,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "наглый",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6151,
+      "accent": "нагуля́ться",
+      "part": "动词·完成体",
+      "meaning": "散步散够；玩个尽兴",
+      "perfective": "нагу́ливаться",
+      "note": "表示达到满足程度。",
+      "stage": 3,
+      "original": {
+        "word": "нагуляться",
+        "part_of_speech": "完",
+        "meaning_zh": "玩够, 玩到尽兴；散步散够",
+        "source_page": 106,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "нагуляться",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6152,
+      "accent": "надзо́р",
+      "part": "名词·阳性",
+      "meaning": "监督；监管；监视",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "надзбр",
+        "part_of_speech": "阳",
+        "meaning_zh": "监督, 监视",
+        "source_page": 106,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "надзор",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6153,
+      "accent": "на́добность",
+      "part": "名词·阴性",
+      "meaning": "需要；必要性",
+      "perfective": "",
+      "note": "в чём表示对某物的需要。",
+      "stage": 3,
+      "original": {
+        "word": "надобность",
+        "part_of_speech": "阴",
+        "meaning_zh": "按照需要",
+        "source_page": 106,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "надобность",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6154,
+      "accent": "надстро́йка",
+      "part": "名词·阴性",
+      "meaning": "加盖；加盖的部分；上层建筑",
+      "perfective": "",
+      "note": "上层建筑也用于哲学和社会理论。",
+      "stage": 3,
+      "original": {
+        "word": "надстройка",
+        "part_of_speech": "阴",
+        "meaning_zh": "上层建筑",
+        "source_page": 106,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "надстройка",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6155,
+      "accent": "нажима́ть",
+      "part": "动词·未完成体",
+      "meaning": "按；压；施加压力；催促",
+      "perfective": "нажа́ть",
+      "note": "常接на кого-что。",
+      "stage": 2,
+      "original": {
+        "word": "нажимать",
+        "part_of_speech": "未",
+        "meaning_zh": "按；压；催促；施压",
+        "source_page": 106,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "нажимать",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6156,
+      "accent": "назначе́ние",
+      "part": "名词·中性",
+      "meaning": "任命；指定；用途；目的；医嘱",
+      "perfective": "",
+      "note": "依语境区分任职、功能和医疗用法。",
+      "stage": 3,
+      "original": {
+        "word": "назначение",
+        "part_of_speech": "中",
+        "meaning_zh": "任务, 目的",
+        "source_page": 106,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "назначение",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6157,
+      "accent": "наилу́чший",
+      "part": "形容词",
+      "meaning": "最好的；最佳的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "наилучший",
+        "part_of_speech": "形",
+        "meaning_zh": "最好的决定",
+        "source_page": 107,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "наилучший",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6158,
+      "accent": "наказа́ние",
+      "part": "名词·中性",
+      "meaning": "惩罚；处罚",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "наказание",
+        "part_of_speech": "中",
+        "meaning_zh": "惩罚, 处罚",
+        "source_page": 107,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "наказание",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6159,
+      "accent": "нака́пливать",
+      "part": "动词·未完成体",
+      "meaning": "积累；积聚；储存",
+      "perfective": "накопи́ть",
+      "note": "不限于财富。",
+      "stage": 2,
+      "original": {
+        "word": "накапливать",
+        "part_of_speech": "未",
+        "meaning_zh": "积累大量财富",
+        "source_page": 107,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "накапливать",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6160,
+      "accent": "наки́дывать",
+      "part": "动词·未完成体",
+      "meaning": "披上；套上；扔到上面；草拟",
+      "perfective": "наки́нуть",
+      "note": "草拟义如草拟计划。",
+      "stage": 3,
+      "original": {
+        "word": "накидывать",
+        "part_of_speech": "未",
+        "meaning_zh": "披",
+        "source_page": 107,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "накидывать",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6161,
+      "accent": "накла́дывать",
+      "part": "动词·未完成体",
+      "meaning": "放上；敷上；涂上；施加",
+      "perfective": "наложи́ть",
+      "note": "如敷绷带、涂颜料、施加禁令。",
+      "stage": 3,
+      "original": {
+        "word": "накладывать",
+        "part_of_speech": "未",
+        "meaning_zh": "把某物放在某物上; 缠上, 包扎; 涂上",
+        "source_page": 107,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "накладывать",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6162,
+      "accent": "наклоня́ть",
+      "part": "动词·未完成体",
+      "meaning": "使倾斜；低下；弯下",
+      "perfective": "наклони́ть",
+      "note": "及物：使头或身体等倾斜。",
+      "stage": 2,
+      "original": {
+        "word": "наклонять",
+        "part_of_speech": "未",
+        "meaning_zh": "《 - , - ) 完使倾斜；使低垂；使弯下",
+        "source_page": 107,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "наклонять",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6163,
+      "accent": "наклоня́ться",
+      "part": "动词·未完成体",
+      "meaning": "倾斜；低头；俯身",
+      "perfective": "наклони́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "наклоняться",
+        "part_of_speech": "未",
+        "meaning_zh": "‚- ‚- 完倾斜；低垂；俯身",
+        "source_page": 107,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "наклоняться",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6164,
+      "accent": "накопле́ние",
+      "part": "名词·中性",
+      "meaning": "积累；积聚；积蓄",
+      "perfective": "",
+      "note": "不限于资本。",
+      "stage": 3,
+      "original": {
+        "word": "накопление",
+        "part_of_speech": "中",
+        "meaning_zh": "资本积累",
+        "source_page": 107,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "накопление",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6165,
+      "accent": "налёт",
+      "part": "名词·阳性",
+      "meaning": "突袭；空袭；薄层；附着物",
+      "perfective": "",
+      "note": "如牙垢、表面沉积；本词用ё。",
+      "stage": 3,
+      "original": {
+        "word": "налет",
+        "part_of_speech": "阳",
+        "meaning_zh": "(军) 急袭, 袭击, 攻击",
+        "source_page": 107,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "налёт",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6166,
+      "accent": "нало́г",
+      "part": "名词·阳性",
+      "meaning": "税；税款",
+      "perfective": "",
+      "note": "所得税是подохо́дный нало́г。",
+      "stage": 2,
+      "original": {
+        "word": "налог",
+        "part_of_speech": "阳",
+        "meaning_zh": "税；所得税",
+        "source_page": 107,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "налог",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6167,
+      "accent": "нанима́ть",
+      "part": "动词·未完成体",
+      "meaning": "雇用；租用",
+      "perfective": "наня́ть",
+      "note": "原译仅剩变位和体标记，恢复核心义。",
+      "stage": 2,
+      "original": {
+        "word": "нанимать",
+        "part_of_speech": "未",
+        "meaning_zh": "( ‚- ,‚- ) 完",
+        "source_page": 108,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "нанимать",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6168,
+      "accent": "нападе́ние",
+      "part": "名词·中性",
+      "meaning": "袭击；进攻；攻击",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "нападение",
+        "part_of_speech": "中",
+        "meaning_zh": "袭击；进攻",
+        "source_page": 108,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "нападение",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6169,
+      "accent": "напева́ть",
+      "part": "动词·未完成体",
+      "meaning": "低声唱；哼唱",
+      "perfective": "напе́ть",
+      "note": "完成体可表示哼唱出一段曲调。",
+      "stage": 3,
+      "original": {
+        "word": "напевать",
+        "part_of_speech": "未",
+        "meaning_zh": "低声唱, 小声唱",
+        "source_page": 108,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "напевать",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6170,
+      "accent": "нараста́ть",
+      "part": "动词·未完成体",
+      "meaning": "增长；增强；逐渐扩大；长出",
+      "perfective": "нарасти́",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "нарастать",
+        "part_of_speech": "未",
+        "meaning_zh": "第一 、 二人称不用) - 未 ‚；‚- 完增长, 增大",
+        "source_page": 108,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "нарастать",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6171,
+      "accent": "наркома́н",
+      "part": "名词·阳性",
+      "meaning": "吸毒成瘾者",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "наркоман",
+        "part_of_speech": "阳",
+        "meaning_zh": "嗜麻醉剂者, 哥毒者",
+        "source_page": 109,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "наркоман",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6172,
+      "accent": "нару́жный",
+      "part": "形容词",
+      "meaning": "外面的；外部的；表面的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "наружный",
+        "part_of_speech": "形",
+        "meaning_zh": "去外面的, 外部的",
+        "source_page": 109,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "наружный",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6173,
+      "accent": "наруше́ние",
+      "part": "名词·中性",
+      "meaning": "违反；破坏；妨碍；失调",
+      "perfective": "",
+      "note": "如违反规则或功能失调。",
+      "stage": 3,
+      "original": {
+        "word": "нарушение",
+        "part_of_speech": "中",
+        "meaning_zh": "破坏, 妨害",
+        "source_page": 109,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "нарушение",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6174,
+      "accent": "наслажде́ние",
+      "part": "名词·中性",
+      "meaning": "享受；愉悦；乐趣",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "наслаждение",
+        "part_of_speech": "中",
+        "meaning_zh": "快乐, 腺悦；享受",
+        "source_page": 109,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "наслаждение",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6175,
+      "accent": "насо́с",
+      "part": "名词·阳性",
+      "meaning": "泵；抽水机；气泵；打气筒",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "насос",
+        "part_of_speech": "阳",
+        "meaning_zh": "泵, 唧筒；抽水机；抽气机, 打气机",
+        "source_page": 110,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "насос",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6177,
+      "accent": "насчи́тывать",
+      "part": "动词·未完成体",
+      "meaning": "计有；拥有一定数量；数得",
+      "perfective": "",
+      "note": "数量状态义不强配完成体；数得义可用насчита́ть。",
+      "stage": 3,
+      "original": {
+        "word": "насчитывать",
+        "part_of_speech": "未",
+        "meaning_zh": "计有, 拥有",
+        "source_page": 110,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "насчитывать",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": [
+        "https://gramota.ru/meta/naschityvat",
+        "核未完成体；数量状态义不机械配结果体。"
+      ]
+    },
+    {
+      "id": 6178,
+      "accent": "насчи́тываться",
+      "part": "动词·未完成体",
+      "meaning": "计有；总数为",
+      "perfective": "",
+      "note": "通常用第三人称表达某范围内的数量。",
+      "stage": 3,
+      "original": {
+        "word": "насчитываться",
+        "part_of_speech": "未",
+        "meaning_zh": "第一 、 二人称不用) - 未计有 (若干)",
+        "source_page": 110,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "насчитываться",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": [
+        "https://gramota.ru/meta/naschityvatsya",
+        "核未完成体数量义。"
+      ]
+    },
+    {
+      "id": 6179,
+      "accent": "насы́щенный",
+      "part": "形容词",
+      "meaning": "饱和的；充实的；内容丰富的；浓郁的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "насыщенный",
+        "part_of_speech": "形",
+        "meaning_zh": "取饱和的；饱和滨液；充实的, 丰富的, 内容丰富的",
+        "source_page": 110,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "насыщенный",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6180,
+      "accent": "на́трий",
+      "part": "名词·阳性",
+      "meaning": "钠",
+      "perfective": "",
+      "note": "化学元素。",
+      "stage": 3,
+      "original": {
+        "word": "натрий",
+        "part_of_speech": "阳",
+        "meaning_zh": "钠",
+        "source_page": 110,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "натрий",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6181,
+      "accent": "натура́льный",
+      "part": "形容词",
+      "meaning": "天然的；真实的；本色的；实物的",
+      "perfective": "",
+      "note": "实物义如以实物支付，不一概译为天然。",
+      "stage": 3,
+      "original": {
+        "word": "натуральный",
+        "part_of_speech": "形",
+        "meaning_zh": "天然的；本来的",
+        "source_page": 110,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "натуральный",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6182,
+      "accent": "найти́сь",
+      "part": "动词·完成体",
+      "meaning": "被找到；出现；有现成的；想出办法应对",
+      "perfective": "находи́ться",
+      "note": "此处находи́ться是被找到义，不是位置状态的在、位于义。",
+      "stage": 2,
+      "original": {
+        "word": "ся",
+        "part_of_speech": "完",
+        "meaning_zh": "(被) 找到",
+        "source_page": 110,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "найтись",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=110",
+        "原页完整完成体найти́сь跨行变位后被切成ся；恢复被找到义，与находи́ться配对。"
+      ]
+    },
+    {
+      "id": 6183,
+      "accent": "нахо́дка",
+      "part": "名词·阴性",
+      "meaning": "拾得的东西；发现；难得的好东西或人才",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "находка",
+        "part_of_speech": "阴",
+        "meaning_zh": "拾到的东西",
+        "source_page": 110,
+        "source_line": "18"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "находка",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6184,
+      "accent": "нахо́дчивость",
+      "part": "名词·阴性",
+      "meaning": "机智；随机应变的能力",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "находчивость",
+        "part_of_speech": "阴",
+        "meaning_zh": "机智",
+        "source_page": 111,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "находчивость",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6185,
+      "accent": "наци́стский",
+      "part": "形容词",
+      "meaning": "纳粹的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "нацистский",
+        "part_of_speech": null,
+        "meaning_zh": "纳粹的",
+        "source_page": 111,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "нацистский",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6186,
+      "accent": "нача́льство",
+      "part": "名词·中性",
+      "meaning": "上级；领导；领导层",
+      "perfective": "",
+      "note": "集合用法。",
+      "stage": 2,
+      "original": {
+        "word": "начальство",
+        "part_of_speech": "中",
+        "meaning_zh": "上级, 上司, 首长 (们)",
+        "source_page": 111,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "начальство",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6187,
+      "accent": "начина́ние",
+      "part": "名词·中性",
+      "meaning": "创举；倡议；新开展的事业",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "начинание",
+        "part_of_speech": "中",
+        "meaning_zh": "创举, 发起",
+        "source_page": 111,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "начинание",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6188,
+      "accent": "небыва́лый",
+      "part": "形容词",
+      "meaning": "前所未有的；空前的；非同寻常的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "небывалый",
+        "part_of_speech": "形",
+        "meaning_zh": "空前的, 从来没有的",
+        "source_page": 111,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "небывалый",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6189,
+      "accent": "невероя́тный",
+      "part": "形容词",
+      "meaning": "难以置信的；不可思议的；极大的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "невероятный",
+        "part_of_speech": "形",
+        "meaning_zh": "难以置信的",
+        "source_page": 111,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "невероятный",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6190,
+      "accent": "неви́данный",
+      "part": "形容词",
+      "meaning": "从未见过的；空前的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "невиданный",
+        "part_of_speech": "形",
+        "meaning_zh": "从来没有见过的, 空前的",
+        "source_page": 112,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "невиданный",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6191,
+      "accent": "невысо́кий",
+      "part": "形容词",
+      "meaning": "不高的；较低的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "невысбкий",
+        "part_of_speech": "形",
+        "meaning_zh": "‚ - ,- 或 - , - - 形不高",
+        "source_page": 112,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "невысокий",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6192,
+      "accent": "негати́вный",
+      "part": "形容词",
+      "meaning": "否定的；消极的；负面的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "негативный",
+        "part_of_speech": "形",
+        "meaning_zh": "否定的",
+        "source_page": 112,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "негативный",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6193,
+      "accent": "негодова́ние",
+      "part": "名词·中性",
+      "meaning": "愤慨；义愤",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "негодование",
+        "part_of_speech": "中",
+        "meaning_zh": "愤慨, 愤怒",
+        "source_page": 112,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "негодование",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6194,
+      "accent": "негодя́й",
+      "part": "名词·阳性",
+      "meaning": "坏蛋；恶棍",
+      "perfective": "",
+      "note": "贬义。",
+      "stage": 3,
+      "original": {
+        "word": "негодяй",
+        "part_of_speech": "阳",
+        "meaning_zh": "坏蛋, 恶棍",
+        "source_page": 112,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "негодяй",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6195,
+      "accent": "негр",
+      "part": "名词·阳性",
+      "meaning": "黑人（旧称）",
+      "perfective": "",
+      "note": "带历史语境的称呼；现代交流宜注意对象和语境，可用темноко́жий челове́к。",
+      "stage": 3,
+      "original": {
+        "word": "негр",
+        "part_of_speech": "阳",
+        "meaning_zh": "黑人",
+        "source_page": 112,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "негр",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6196,
+      "accent": "негра́мотность",
+      "part": "名词·阴性",
+      "meaning": "不识字；文盲状态；缺乏某方面知识",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "неграмотность",
+        "part_of_speech": "阴",
+        "meaning_zh": "不识字, 没文化",
+        "source_page": 112,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "неграмотность",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6197,
+      "accent": "неда́вний",
+      "part": "形容词",
+      "meaning": "不久前的；最近的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "недавний",
+        "part_of_speech": "形",
+        "meaning_zh": "不次以前的",
+        "source_page": 113,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "недавний",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6198,
+      "accent": "недоразуме́ние",
+      "part": "名词·中性",
+      "meaning": "误解；误会；因误会产生的不愉快",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "недоразумение",
+        "part_of_speech": "中",
+        "meaning_zh": "误解, 误会",
+        "source_page": 113,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "недоразумение",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6199,
+      "accent": "недоста́точный",
+      "part": "形容词",
+      "meaning": "不足的；不够的；不充分的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "недостаточный",
+        "part_of_speech": "形",
+        "meaning_zh": "志不够的, 不足的, 缺少的；不充分",
+        "source_page": 113,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "недостаточный",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6200,
+      "accent": "недоуме́ние",
+      "part": "名词·中性",
+      "meaning": "困惑；不解；疑惑",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "недоумение",
+        "part_of_speech": "中",
+        "meaning_zh": "了解不透；莫名其妙；疑惑, 困惑",
+        "source_page": 113,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "недоумение",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6201,
+      "accent": "незабыва́емый",
+      "part": "形容词",
+      "meaning": "难忘的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "незабываемый",
+        "part_of_speech": "形",
+        "meaning_zh": "难忘的；不能忘的",
+        "source_page": 114,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "незабываемый",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6202,
+      "accent": "неиссяка́емый",
+      "part": "形容词",
+      "meaning": "取之不尽的；源源不断的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "неиссякаемый",
+        "part_of_speech": "形",
+        "meaning_zh": "取之不尽的；源源不绝的",
+        "source_page": 114,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "неиссякаемый",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6203,
+      "accent": "неисчерпа́емый",
+      "part": "形容词",
+      "meaning": "用不尽的；无穷尽的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "неисчерпаемый",
+        "part_of_speech": "形",
+        "meaning_zh": "无穷尽的, 取之不尽的, 无限的",
+        "source_page": 114,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "неисчерпаемый",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6204,
+      "accent": "нейтралите́т",
+      "part": "名词·阳性",
+      "meaning": "中立；中立地位",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "нейтралитет",
+        "part_of_speech": null,
+        "meaning_zh": "中立, 中立地位",
+        "source_page": 114,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "нейтралитет",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6205,
+      "accent": "нелега́льный",
+      "part": "形容词",
+      "meaning": "非法的；秘密的；地下的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "нелегальный",
+        "part_of_speech": "形",
+        "meaning_zh": "不合法的；地下的, 秘密的",
+        "source_page": 115,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "нелегальный",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6206,
+      "accent": "немно́гий",
+      "part": "形容词",
+      "meaning": "少数的；不多的；少许的",
+      "perfective": "",
+      "note": "常用复数немно́гие。",
+      "stage": 2,
+      "original": {
+        "word": "немногий",
+        "part_of_speech": "形",
+        "meaning_zh": "不多的, 少许的",
+        "source_page": 115,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "немногий",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6207,
+      "accent": "нену́жный",
+      "part": "形容词",
+      "meaning": "不需要的；不必要的；多余的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "ненужный",
+        "part_of_speech": "形",
+        "meaning_zh": "不需要的, 不必要的；无用的, 多余的",
+        "source_page": 115,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ненужный",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6208,
+      "accent": "необы́чный",
+      "part": "形容词",
+      "meaning": "不寻常的；特别的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "необычный",
+        "part_of_speech": "形",
+        "meaning_zh": "不同寻常的, 不一般",
+        "source_page": 116,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "необычный",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6209,
+      "accent": "неограни́ченный",
+      "part": "形容词",
+      "meaning": "不受限制的；无限的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "неограниченный",
+        "part_of_speech": "形",
+        "meaning_zh": "不取限制的, 无限制的, 无限",
+        "source_page": 116,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "неограниченный",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6210,
+      "accent": "неоднокра́тный",
+      "part": "形容词",
+      "meaning": "多次的；屡次的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "неоднократный",
+        "part_of_speech": "形",
+        "meaning_zh": "不只一次的, 屡次的",
+        "source_page": 116,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "неоднократный",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6211,
+      "accent": "неохо́тно",
+      "part": "副词",
+      "meaning": "不情愿地；勉强地",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "неохбтно",
+        "part_of_speech": "副",
+        "meaning_zh": "不愿意地, 动强地",
+        "source_page": 116,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "неохотно",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6212,
+      "accent": "неплохо́й",
+      "part": "形容词",
+      "meaning": "不错的；不坏的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "неплохой",
+        "part_of_speech": "形",
+        "meaning_zh": "不坏的, 不错的",
+        "source_page": 116,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "неплохой",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6213,
+      "accent": "непобеди́мый",
+      "part": "形容词",
+      "meaning": "不可战胜的；无法克服的；无法遏止的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "непобедимый",
+        "part_of_speech": "形",
+        "meaning_zh": "不可战胜的,(所向) 无敌的；无法遏止的",
+        "source_page": 116,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "непобедимый",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6214,
+      "accent": "непра́вда",
+      "part": "名词·阴性",
+      "meaning": "谎话；不实之言；不真实",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "неправда",
+        "part_of_speech": "阴",
+        "meaning_zh": "谎话, 假话；不是真情",
+        "source_page": 117,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "неправда",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6215,
+      "accent": "непра́вильный",
+      "part": "形容词",
+      "meaning": "不正确的；错误的；不规则的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "неправильный",
+        "part_of_speech": null,
+        "meaning_zh": "不正确的",
+        "source_page": 117,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "неправильный",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6216,
+      "accent": "неприя́тель",
+      "part": "名词·阳性",
+      "meaning": "敌人；敌军；敌方",
+      "perfective": "",
+      "note": "多用于战争语境。",
+      "stage": 3,
+      "original": {
+        "word": "неприятель",
+        "part_of_speech": "阳",
+        "meaning_zh": "敌军, 敌方",
+        "source_page": 117,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "неприятель",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6217,
+      "accent": "неприя́тность",
+      "part": "名词·阴性",
+      "meaning": "不愉快的事；麻烦；不快",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "неприятность",
+        "part_of_speech": "阴",
+        "meaning_zh": "不愉快的消息；不愉快的事, 伤脑筋的事",
+        "source_page": 117,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "неприятность",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6218,
+      "accent": "неслы́ханный",
+      "part": "形容词",
+      "meaning": "闻所未闻的；空前的；极大的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "неслыханный",
+        "part_of_speech": "形",
+        "meaning_zh": "闻所未闻的, 空前的",
+        "source_page": 118,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "неслыханный",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6219,
+      "accent": "неслы́шно",
+      "part": "副词／谓语词",
+      "meaning": "无声地；听不见",
+      "perfective": "",
+      "note": "кому неслышно表示某人听不见。",
+      "stage": 2,
+      "original": {
+        "word": "несльпино",
+        "part_of_speech": "副",
+        "meaning_zh": "人无声响地",
+        "source_page": 118,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "неслышно",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=118",
+        "词头неслы́шно，有无声和听不见两个用法。"
+      ]
+    },
+    {
+      "id": 6220,
+      "accent": "неспосо́бный",
+      "part": "形容词",
+      "meaning": "没有能力的；不能做某事的；无才能的",
+      "perfective": "",
+      "note": "к чему或на что依具体搭配使用。",
+      "stage": 3,
+      "original": {
+        "word": "неспособный",
+        "part_of_speech": "形",
+        "meaning_zh": "无才干的, 没有才能的",
+        "source_page": 118,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "неспособный",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6221,
+      "accent": "несправедли́вый",
+      "part": "形容词",
+      "meaning": "不公正的；不公平的；非正义的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "несправедливый",
+        "part_of_speech": "形",
+        "meaning_zh": "不公正的, 非正义的",
+        "source_page": 118,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "несправедливый",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": []
+    },
+    {
+      "id": 6222,
+      "accent": "нетру́дно",
+      "part": "副词／谓语词",
+      "meaning": "不难；容易",
+      "perfective": "",
+      "note": "常用кому нетрудно加不定式。",
+      "stage": 1,
+      "original": {
+        "word": "нетрудно",
+        "part_of_speech": "副",
+        "meaning_zh": "(无人称句中用作谓语)",
+        "source_page": 118,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "нетрудно",
+      "method": "2026-09-10 当前助手逐词核对俄中核心义、重音、词性和体；疑似断词及例句串入回看原PDF，个别重音查词典。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=118",
+        "原页谓语义不难、容易，旧库只剩语法标记。"
+      ]
+    }
+  ]
+}

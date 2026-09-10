@@ -1,0 +1,2084 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 6373,
+      "accent": "отста́лость",
+      "part": "名词·阴性",
+      "meaning": "落后；落后状态",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "отсталость",
+        "part_of_speech": null,
+        "meaning_zh": "消灭经济落后的状态",
+        "source_page": 139,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отсталость",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=139",
+        "恢复落后，不保留消灭经济落后整句。"
+      ]
+    },
+    {
+      "id": 6374,
+      "accent": "отступле́ние",
+      "part": "名词·中性",
+      "meaning": "后退；撤退；偏离；离题",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "отступление",
+        "part_of_speech": "中",
+        "meaning_zh": "后退；撤退；离题",
+        "source_page": 139,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отступление",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6375,
+      "accent": "о́ттепель",
+      "part": "名词·阴性",
+      "meaning": "解冻天气；回暖；缓和时期",
+      "perfective": "",
+      "note": "比喻义可指社会政治环境的缓和。",
+      "stage": 3,
+      "original": {
+        "word": "оттепель",
+        "part_of_speech": "阴",
+        "meaning_zh": "(冬季或早春时的) 解冻天气, 冰消雪融的天气",
+        "source_page": 140,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "оттепель",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6376,
+      "accent": "отча́сти",
+      "part": "副词",
+      "meaning": "部分地；在一定程度上",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "отчасти",
+        "part_of_speech": "副",
+        "meaning_zh": "部分地, 局部地, 在某种程度上地",
+        "source_page": 140,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отчасти",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6377,
+      "accent": "отча́яние",
+      "part": "名词·中性",
+      "meaning": "绝望；灰心失望",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "отчаяние",
+        "part_of_speech": "中",
+        "meaning_zh": "绝望, 悲观失望",
+        "source_page": 140,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отчаяние",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6378,
+      "accent": "отча́янный",
+      "part": "形容词",
+      "meaning": "绝望的；拼命的；胆大的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "отчаянный",
+        "part_of_speech": "[ 形",
+        "meaning_zh": "绝望的, 悲观失望",
+        "source_page": 140,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отчаянный",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6379,
+      "accent": "отчего́",
+      "part": "副词／连接词",
+      "meaning": "为什么；由于什么；因此",
+      "perfective": "",
+      "note": "疑问与连接用法需看语境。",
+      "stage": 2,
+      "original": {
+        "word": "отчего",
+        "part_of_speech": "副",
+        "meaning_zh": "因为什么, 因此",
+        "source_page": 140,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отчего",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6380,
+      "accent": "отчего́-либо",
+      "part": "副词",
+      "meaning": "由于某种原因",
+      "perfective": "",
+      "note": "另一个原页邻词отчего́-нибудь意思相近，不并入词头。",
+      "stage": 3,
+      "original": {
+        "word": "отчегб",
+        "part_of_speech": "副",
+        "meaning_zh": "由于某种原因颤副由于树种原因",
+        "source_page": 140,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отчего-либо",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": [
+        "https://gramota.ru/meta/otchego-libo",
+        "核отчего́-либо词义重音；原页140及raw_text首行明确-либо，后接отчего-нибудь为邻词。"
+      ]
+    },
+    {
+      "id": 6381,
+      "accent": "отчего́-то",
+      "part": "副词",
+      "meaning": "不知为什么；由于某种不明原因",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "отчего-то",
+        "part_of_speech": "副",
+        "meaning_zh": "不知为什么, 因为某种原因",
+        "source_page": 140,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отчего-то",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6382,
+      "accent": "отчётный",
+      "part": "形容词",
+      "meaning": "报告的；决算的；报告期的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "отчетный",
+        "part_of_speech": "形",
+        "meaning_zh": "报告的, 决算的",
+        "source_page": 140,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отчётный",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=140",
+        "核отчётный。"
+      ]
+    },
+    {
+      "id": 6383,
+      "accent": "отъезжа́ть",
+      "part": "动词·未完成体",
+      "meaning": "乘车离开；驶离；驶开一段距离",
+      "perfective": "отъе́хать",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "отъезжать",
+        "part_of_speech": "未",
+        "meaning_zh": "‚- ‚- 完 (乘车 、 马等) 走开 (若干距离)",
+        "source_page": 141,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отъезжать",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6384,
+      "accent": "оты́скивать",
+      "part": "动词·未完成体",
+      "meaning": "寻找；查找；找出",
+      "perfective": "отыска́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "отыскивать",
+        "part_of_speech": "未",
+        "meaning_zh": "寻找；找出",
+        "source_page": 141,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отыскивать",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6385,
+      "accent": "официа́нт",
+      "part": "名词·阳性",
+      "meaning": "餐厅服务员",
+      "perfective": "",
+      "note": "女性официа́нтка。",
+      "stage": 1,
+      "original": {
+        "word": "официант",
+        "part_of_speech": "阳",
+        "meaning_zh": "(食堂 、 饭馆的) 服务员",
+        "source_page": 141,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "официант",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6386,
+      "accent": "оформле́ние",
+      "part": "名词·中性",
+      "meaning": "形成；设计装饰；装帧；办理手续",
+      "perfective": "",
+      "note": "移除邻词ох的感叹、叹息义。",
+      "stage": 3,
+      "original": {
+        "word": "оформление",
+        "part_of_speech": "形",
+        "meaning_zh": "书籍的美丽装帧叹啊, 右, 哟, 咳 (表示愚惜悲伤. 疼痛等情感): , ! 咳, 太重了 !；( ) 啊呀声, 叹息声: . 我讨厌你, 也讨厌你的叹息声",
+        "source_page": 141,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "оформление",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=141",
+        "原书将оформление误标形；俄语为中性名词。其后ох感叹词整条误串，删除。"
+      ]
+    },
+    {
+      "id": 6387,
+      "accent": "охлажде́ние",
+      "part": "名词·中性",
+      "meaning": "冷却；降温；冷淡",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "охлаждение",
+        "part_of_speech": "中",
+        "meaning_zh": "冷却; 变冷",
+        "source_page": 141,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "охлаждение",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6388,
+      "accent": "охра́на",
+      "part": "名词·阴性",
+      "meaning": "保护；保卫；警卫；警卫人员",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "охрана",
+        "part_of_speech": "阴",
+        "meaning_zh": "保护, 保卫",
+        "source_page": 141,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "охрана",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6389,
+      "accent": "оча́г",
+      "part": "名词·阳性",
+      "meaning": "炉灶；家庭；发源地；病灶",
+      "perfective": "",
+      "note": "依家庭、事件或医学语境区分。",
+      "stage": 3,
+      "original": {
+        "word": "очаг",
+        "part_of_speech": "阳",
+        "meaning_zh": "发源地, 策源地",
+        "source_page": 141,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "очаг",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6390,
+      "accent": "очарова́тельный",
+      "part": "形容词",
+      "meaning": "迷人的；极可爱的；令人陶醉的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "очаровательный",
+        "part_of_speech": "形",
+        "meaning_zh": "迷人的, 令人神往的, 极好的",
+        "source_page": 141,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "очаровательный",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6391,
+      "accent": "очередно́й",
+      "part": "形容词",
+      "meaning": "轮到的；下一个的；例行的；当前应办的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "очередной",
+        "part_of_speech": "形",
+        "meaning_zh": "() 的, 目前首要的",
+        "source_page": 141,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "очередной",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=141",
+        "补当前应办、依次、例行义。"
+      ]
+    },
+    {
+      "id": 6392,
+      "accent": "о́черк",
+      "part": "名词·阳性",
+      "meaning": "概述；纲要；随笔；特写",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "очерк",
+        "part_of_speech": "阳",
+        "meaning_zh": "概况, 纲要",
+        "source_page": 141,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "очерк",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=141",
+        "补随笔、特写义。"
+      ]
+    },
+    {
+      "id": 6393,
+      "accent": "очища́ть",
+      "part": "动词·未完成体",
+      "meaning": "清理；清洁；净化；去皮",
+      "perfective": "очи́стить",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "очищать",
+        "part_of_speech": "未",
+        "meaning_zh": "清洁；清除；剥皮",
+        "source_page": 142,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "очищать",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6394,
+      "accent": "очко́",
+      "part": "名词·中性",
+      "meaning": "比赛得分；点数；小孔",
+      "perfective": "",
+      "note": "复数очки́还可指眼镜，须按语境区分。",
+      "stage": 2,
+      "original": {
+        "word": "очко",
+        "part_of_speech": "中",
+        "meaning_zh": "(体育比赛中胜负的) 分",
+        "source_page": 142,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "очко",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6396,
+      "accent": "ощуща́ть",
+      "part": "动词·未完成体",
+      "meaning": "感觉到；感受到",
+      "perfective": "ощути́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "ощущать",
+        "part_of_speech": "未",
+        "meaning_zh": "(- , - ) 完感觉出来, 感到, 觉得",
+        "source_page": 142,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ощущать",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6397,
+      "accent": "ощуща́ться",
+      "part": "动词·未完成体",
+      "meaning": "被感觉到；显得明显",
+      "perfective": "",
+      "note": "原词常表状态，不强配完成体。",
+      "stage": 3,
+      "original": {
+        "word": "ощущаться",
+        "part_of_speech": "未",
+        "meaning_zh": "第一, 二人称不用) - 未 〔 被) 感觉到, 觉得",
+        "source_page": 142,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ощущаться",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6398,
+      "accent": "ощуще́ние",
+      "part": "名词·中性",
+      "meaning": "感觉；感受；知觉",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "ощущение",
+        "part_of_speech": "中",
+        "meaning_zh": "感觉；感受",
+        "source_page": 142,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ощущение",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6399,
+      "accent": "паде́ние",
+      "part": "名词·中性",
+      "meaning": "下落；跌倒；下降；衰落；堕落",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "падение",
+        "part_of_speech": "中",
+        "meaning_zh": "自由落体；完全堕落",
+        "source_page": 142,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "падение",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=142",
+        "自由落体为例句，核心义下落、堕落。"
+      ]
+    },
+    {
+      "id": 6400,
+      "accent": "па́зуха",
+      "part": "名词·阴性",
+      "meaning": "怀里；胸前衣服内的空隙；窦腔",
+      "perfective": "",
+      "note": "鼻窦等医学用法取窦腔义。",
+      "stage": 3,
+      "original": {
+        "word": "пазуха",
+        "part_of_speech": "阴",
+        "meaning_zh": "怀 (®)",
+        "source_page": 142,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "пазуха",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6401,
+      "accent": "паке́т",
+      "part": "名词·阳性",
+      "meaning": "袋子；纸袋或塑料袋；包；成套的一组",
+      "perfective": "",
+      "note": "如文件包、软件包。",
+      "stage": 1,
+      "original": {
+        "word": "пакет",
+        "part_of_speech": "阳",
+        "meaning_zh": "把东西用纸包成一包；( 食品的) 纸袋",
+        "source_page": 143,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "пакет",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6402,
+      "accent": "Пакиста́н",
+      "part": "名词·阳性",
+      "meaning": "巴基斯坦",
+      "perfective": "",
+      "note": "国家名。",
+      "stage": 3,
+      "original": {
+        "word": "Пакистан",
+        "part_of_speech": "阳",
+        "meaning_zh": "巴基斯坦",
+        "source_page": 143,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "Пакистан",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6403,
+      "accent": "пала́тка",
+      "part": "名词·阴性",
+      "meaning": "帐篷；售货棚",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "палатка",
+        "part_of_speech": "阴",
+        "meaning_zh": "帐篷",
+        "source_page": 143,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "палатка",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6404,
+      "accent": "пала́ч",
+      "part": "名词·阳性",
+      "meaning": "刽子手；行刑者；残酷迫害者",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "палач",
+        "part_of_speech": "阳",
+        "meaning_zh": "剑子手, 行刑者",
+        "source_page": 143,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "палач",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6405,
+      "accent": "па́льма",
+      "part": "名词·阴性",
+      "meaning": "棕榈树",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "пальма",
+        "part_of_speech": "阴",
+        "meaning_zh": "棕榈",
+        "source_page": 143,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "пальма",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6406,
+      "accent": "пампу́шка",
+      "part": "名词·阴性",
+      "meaning": "小圆面包",
+      "perfective": "",
+      "note": "不限定甜味。",
+      "stage": 3,
+      "original": {
+        "word": "пампушка",
+        "part_of_speech": "阴",
+        "meaning_zh": "小甜圆面包, 小饼",
+        "source_page": 143,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "пампушка",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": [
+        "https://gramota.ru/meta/pampushka",
+        "小圆面包可配蒜，不限定甜味。"
+      ]
+    },
+    {
+      "id": 6407,
+      "accent": "па́мятный",
+      "part": "形容词",
+      "meaning": "难忘的；值得纪念的；纪念性的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "памятный",
+        "part_of_speech": "形",
+        "meaning_zh": "永志不忘的, 值得记忆的, 难忘的",
+        "source_page": 143,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "памятный",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6408,
+      "accent": "па́ника",
+      "part": "名词·阴性",
+      "meaning": "惊慌；恐慌",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "паника",
+        "part_of_speech": "阴",
+        "meaning_zh": "惊慌, 惊恐",
+        "source_page": 143,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "паника",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6409,
+      "accent": "панора́ма",
+      "part": "名词·阴性",
+      "meaning": "全景；全景画；概观",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "панорама",
+        "part_of_speech": "阴",
+        "meaning_zh": "城市全景；环形全景图: 塞瓦斯托波尔战役的环形全景图；活动布景",
+        "source_page": 143,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "панорама",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6411,
+      "accent": "папа́ша",
+      "part": "名词·阳性",
+      "meaning": "爸爸；老爹；老大爷",
+      "perfective": "",
+      "note": "口语，称呼语气取决于语境。",
+      "stage": 3,
+      "original": {
+        "word": "папаша",
+        "part_of_speech": "阳",
+        "meaning_zh": "(口)；爸爸；老爷子, 老大爷",
+        "source_page": 143,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "папаша",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6412,
+      "accent": "пара́д",
+      "part": "名词·阳性",
+      "meaning": "阅兵；检阅；庆典游行",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "парад",
+        "part_of_speech": "[ 阳",
+        "meaning_zh": "庆祝, 游行, 检阅",
+        "source_page": 143,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "парад",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6414,
+      "accent": "парашю́т",
+      "part": "名词·阳性",
+      "meaning": "降落伞",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "парашют",
+        "part_of_speech": "阳",
+        "meaning_zh": "降落伞",
+        "source_page": 144,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "парашют",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6415,
+      "accent": "пари́жский",
+      "part": "形容词",
+      "meaning": "巴黎的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "парижский",
+        "part_of_speech": "形",
+        "meaning_zh": "巴黎的",
+        "source_page": 144,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "парижский",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6416,
+      "accent": "парк",
+      "part": "名词·阳性",
+      "meaning": "公园；停车场；车库；车辆或机器总数",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "парк",
+        "part_of_speech": "阳",
+        "meaning_zh": "在公里散步；无轨电车停车场；(车辆 、 机器等的) 总数",
+        "source_page": 144,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "парк",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=144",
+        "公园为首义，删除在公里散步错译。"
+      ]
+    },
+    {
+      "id": 6417,
+      "accent": "парламента́рий",
+      "part": "名词·阳性",
+      "meaning": "议员；国会议员",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "парламентарий",
+        "part_of_speech": "阳",
+        "meaning_zh": "(国会) 议员",
+        "source_page": 144,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "парламентарий",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6418,
+      "accent": "партнёр",
+      "part": "名词·阳性",
+      "meaning": "伙伴；搭档；合作方；比赛对手",
+      "perfective": "",
+      "note": "与ё拼写对应。",
+      "stage": 2,
+      "original": {
+        "word": "партнер",
+        "part_of_speech": null,
+        "meaning_zh": "伙伴, 对手, 配手",
+        "source_page": 144,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "партнёр",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=144",
+        "原词партнёр。"
+      ]
+    },
+    {
+      "id": 6419,
+      "accent": "парто́рг",
+      "part": "名词·阳性",
+      "meaning": "党组织负责人；党组织干事",
+      "perfective": "",
+      "note": "历史组织称谓。",
+      "stage": 3,
+      "original": {
+        "word": "партбрг",
+        "part_of_speech": "阳",
+        "meaning_zh": "(各级) 党组织负责人",
+        "source_page": 144,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "парторг",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=144",
+        "原词парто́рг，о误为б。"
+      ]
+    },
+    {
+      "id": 6420,
+      "accent": "парторганиза́ция",
+      "part": "名词·阴性",
+      "meaning": "党组织",
+      "perfective": "",
+      "note": "不限于工厂。",
+      "stage": 3,
+      "original": {
+        "word": "парторганизация",
+        "part_of_speech": "阴",
+        "meaning_zh": "工厂的党组织",
+        "source_page": 144,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "парторганизация",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6421,
+      "accent": "па́рус",
+      "part": "名词·阳性",
+      "meaning": "帆",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "парус",
+        "part_of_speech": "阳",
+        "meaning_zh": "乘帆船游玩全速前进",
+        "source_page": 144,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "парус",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=144",
+        "恢复帆，原译来自两条例句。"
+      ]
+    },
+    {
+      "id": 6422,
+      "accent": "пассажи́рский",
+      "part": "形容词",
+      "meaning": "旅客的；客运的；载客的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "пассажирский",
+        "part_of_speech": "形",
+        "meaning_zh": "乘客的, 旅客的",
+        "source_page": 144,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "пассажирский",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6423,
+      "accent": "пасту́х",
+      "part": "名词·阳性",
+      "meaning": "牧人；放牧人",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "пастух",
+        "part_of_speech": "阳",
+        "meaning_zh": "牧人",
+        "source_page": 144,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "пастух",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6424,
+      "accent": "пасть",
+      "part": "名词·阴性",
+      "meaning": "兽或鱼的嘴；大口",
+      "perfective": "",
+      "note": "这里是名词，与完成体动词пасть倒下不同。",
+      "stage": 3,
+      "original": {
+        "word": "пасть",
+        "part_of_speech": "阴",
+        "meaning_zh": "(兽 、 鱼的) 嘴",
+        "source_page": 144,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "пасть",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6425,
+      "accent": "Па́сха",
+      "part": "名词·阴性",
+      "meaning": "复活节",
+      "perfective": "",
+      "note": "节日名按现代写法首字母大写；小写па́сха也可指节日奶渣甜点。",
+      "stage": 2,
+      "original": {
+        "word": "пасха",
+        "part_of_speech": "阴",
+        "meaning_zh": "耶稣复活节",
+        "source_page": 144,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "Пасха",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6426,
+      "accent": "патро́н",
+      "part": "名词·阳性",
+      "meaning": "枪弹；弹药筒；灯座；夹头；庇护者",
+      "perfective": "",
+      "note": "技术和指人用法依语境区分。",
+      "stage": 3,
+      "original": {
+        "word": "патрон",
+        "part_of_speech": "阳",
+        "meaning_zh": "子弹, 枪弹",
+        "source_page": 145,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "патрон",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6427,
+      "accent": "патру́ль",
+      "part": "名词·阳性",
+      "meaning": "巡逻队；巡逻人员",
+      "perfective": "",
+      "note": "不限于民警。",
+      "stage": 3,
+      "original": {
+        "word": "патруль",
+        "part_of_speech": "阳",
+        "meaning_zh": "民警巡逻队",
+        "source_page": 145,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "патруль",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6428,
+      "accent": "па́хота",
+      "part": "名词·阴性",
+      "meaning": "耕地；翻耕；耕过的土地",
+      "perfective": "",
+      "note": "此处耕地首先指耕作活动。",
+      "stage": 3,
+      "original": {
+        "word": "пахота",
+        "part_of_speech": "阴",
+        "meaning_zh": "耕地",
+        "source_page": 145,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "пахота",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6430,
+      "accent": "пельме́ни",
+      "part": "名词·复数",
+      "meaning": "俄式饺子",
+      "perfective": "",
+      "note": "单数пельме́нь。",
+      "stage": 1,
+      "original": {
+        "word": "пельмени",
+        "part_of_speech": "复",
+        "meaning_zh": "饺子",
+        "source_page": 145,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "пельмени",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6431,
+      "accent": "пена́л",
+      "part": "名词·阳性",
+      "meaning": "文具盒；笔盒",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "пенал",
+        "part_of_speech": "阳",
+        "meaning_zh": "学校用的文具盒",
+        "source_page": 145,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "пенал",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6432,
+      "accent": "пе́ние",
+      "part": "名词·中性",
+      "meaning": "歌唱；鸣叫；啼鸣",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "пение",
+        "part_of_speech": "中",
+        "meaning_zh": "唱, 鸡, 啼",
+        "source_page": 145,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "пение",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6433,
+      "accent": "пенсионе́р",
+      "part": "名词·阳性",
+      "meaning": "退休人员；领取养老金的人",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "пенсионер",
+        "part_of_speech": "阳",
+        "meaning_zh": "领退休金的人",
+        "source_page": 145,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "пенсионер",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6434,
+      "accent": "пень",
+      "part": "名词·阳性",
+      "meaning": "树桩；树墩",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "пень",
+        "part_of_speech": "阳",
+        "meaning_zh": "树墩, 树桩",
+        "source_page": 145,
+        "source_line": "18"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "пень",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6435,
+      "accent": "первокла́ссник",
+      "part": "名词·阳性",
+      "meaning": "小学一年级学生",
+      "perfective": "",
+      "note": "不是泛指任何年级的学生。",
+      "stage": 2,
+      "original": {
+        "word": "первоклассник",
+        "part_of_speech": "阳",
+        "meaning_zh": "年级学生",
+        "source_page": 146,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "первоклассник",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=146",
+        "补缺失数字一；一年级学生。"
+      ]
+    },
+    {
+      "id": 6436,
+      "accent": "первома́йский",
+      "part": "形容词",
+      "meaning": "五一的；五一劳动节的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "первомайский",
+        "part_of_speech": "形",
+        "meaning_zh": "五一检阅",
+        "source_page": 146,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "первомайский",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=146",
+        "五一的；检阅来自例句парад。"
+      ]
+    },
+    {
+      "id": 6437,
+      "accent": "первонача́льный",
+      "part": "形容词",
+      "meaning": "最初的；原来的；初步的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "первоначальный",
+        "part_of_speech": "形",
+        "meaning_zh": "最初的, 原先的",
+        "source_page": 146,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "первоначальный",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6438,
+      "accent": "перебира́ть",
+      "part": "动词·未完成体",
+      "meaning": "逐个挑选；翻检；依次回想；拨弄",
+      "perfective": "перебра́ть",
+      "note": "如拨琴弦。",
+      "stage": 3,
+      "original": {
+        "word": "перебирать",
+        "part_of_speech": "未",
+        "meaning_zh": "‚- ‚ - 完；(将许多东西) 逐个查看 、 挑选 、 翻阅, 逐一思考",
+        "source_page": 146,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "перебирать",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6439,
+      "accent": "перебра́сывать",
+      "part": "动词·未完成体",
+      "meaning": "扔过去；架设；调拨；转移",
+      "perfective": "перебро́сить",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "перебрасывать",
+        "part_of_speech": "未",
+        "meaning_zh": "扔过; 扔到另一边; 架设; 调拨, 转移",
+        "source_page": 146,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "перебрасывать",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6440,
+      "accent": "перевёртывать",
+      "part": "动词·未完成体",
+      "meaning": "翻转；翻过来；翻动",
+      "perfective": "переверну́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "перевертывать",
+        "part_of_speech": "未",
+        "meaning_zh": "翻转；翻过来",
+        "source_page": 146,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "перевёртывать",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=146",
+        "原词перевёртывать，保留ё。"
+      ]
+    },
+    {
+      "id": 6441,
+      "accent": "перевёртываться",
+      "part": "动词·未完成体",
+      "meaning": "翻身；翻转；倾覆",
+      "perfective": "переверну́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "перевертываться",
+        "part_of_speech": "未",
+        "meaning_zh": "‚ - ‚ - 完 (被)",
+        "source_page": 146,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "перевёртываться",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=146",
+        "原词перевёртываться，恢复翻身、翻转义。"
+      ]
+    },
+    {
+      "id": 6442,
+      "accent": "переворо́т",
+      "part": "名词·阳性",
+      "meaning": "翻转；剧变；变革；政变",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "переворбт",
+        "part_of_speech": "阳",
+        "meaning_zh": "急剧转折, 根本变化, 变革",
+        "source_page": 146,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "переворот",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=146",
+        "переворо́т，о误为б。"
+      ]
+    },
+    {
+      "id": 6443,
+      "accent": "перевя́зывать",
+      "part": "动词·未完成体",
+      "meaning": "包扎；扎紧；重新捆扎",
+      "perfective": "перевяза́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "перевязывать",
+        "part_of_speech": "未",
+        "meaning_zh": "完包扎；捡好",
+        "source_page": 147,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "перевязывать",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6444,
+      "accent": "перегово́ры",
+      "part": "名词·仅复数",
+      "meaning": "谈判；会谈；商谈",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "переговоры",
+        "part_of_speech": "复",
+        "meaning_zh": "谈判, 交涉, 洙谈",
+        "source_page": 147,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "переговоры",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6445,
+      "accent": "передава́ться",
+      "part": "动词·未完成体",
+      "meaning": "传递；传播；传染；被转交",
+      "perfective": "переда́ться",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "передаваться",
+        "part_of_speech": "未",
+        "meaning_zh": "第一 、 二人称不用) - 未 ‚；‚- 完传播, 传染",
+        "source_page": 147,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "передаваться",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6446,
+      "accent": "передвига́ть",
+      "part": "动词·未完成体",
+      "meaning": "移动；挪动；推移",
+      "perfective": "передви́нуть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "передвигать",
+        "part_of_speech": "未",
+        "meaning_zh": "移动；挪动",
+        "source_page": 147,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "передвигать",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6447,
+      "accent": "пережива́ние",
+      "part": "名词·中性",
+      "meaning": "感受；体验；内心活动；忧虑",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "переживание",
+        "part_of_speech": "中",
+        "meaning_zh": "感受",
+        "source_page": 147,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "переживание",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6448,
+      "accent": "пережива́ть",
+      "part": "动词·未完成体",
+      "meaning": "经历；经受；比某人活得久；担心",
+      "perfective": "",
+      "note": "经历及比谁活得久可配пережи́ть；担心义不能机械套用。",
+      "stage": 2,
+      "original": {
+        "word": "переживать",
+        "part_of_speech": "未",
+        "meaning_zh": "经历；经受；担心；比……活得久",
+        "source_page": 147,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "переживать",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6449,
+      "accent": "перелета́ть",
+      "part": "动词·未完成体",
+      "meaning": "飞过；飞越；从一处飞到另一处",
+      "perfective": "перелете́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "перелетать",
+        "part_of_speech": "未",
+        "meaning_zh": "‚- ‚- 完 〔 或 ) 飞过, 飞越",
+        "source_page": 148,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "перелетать",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6450,
+      "accent": "перенима́ть",
+      "part": "动词·未完成体",
+      "meaning": "仿效；学到；吸收经验或技能",
+      "perfective": "переня́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "перенимать",
+        "part_of_speech": "未",
+        "meaning_zh": "《 或 ) ‚- ‚ (® )；_ (- ‚ - , - ) 完；(口) 仿效, 效法",
+        "source_page": 148,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "перенимать",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6451,
+      "accent": "переодева́ться",
+      "part": "动词·未完成体",
+      "meaning": "换衣服；改装打扮",
+      "perfective": "переоде́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "переодеваться",
+        "part_of_speech": "未",
+        "meaning_zh": "‚ - ‚- 完换衣服",
+        "source_page": 148,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "переодеваться",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6452,
+      "accent": "переплёт",
+      "part": "名词·阳性",
+      "meaning": "书的硬封皮；装订；窗格框架",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "переплет",
+        "part_of_speech": "阳",
+        "meaning_zh": "皮制书皮",
+        "source_page": 148,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "переплёт",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=148",
+        "переплёт是书皮装帧，不限皮制。"
+      ]
+    },
+    {
+      "id": 6453,
+      "accent": "переплета́ться",
+      "part": "动词·未完成体",
+      "meaning": "交织；缠绕；相互联系",
+      "perfective": "переплести́сь",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "переплетаться",
+        "part_of_speech": "未",
+        "meaning_zh": "第一 、 二人称不用) - 未；完；树根缠在 — 起",
+        "source_page": 148,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "переплетаться",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=148",
+        "переплета́ться未完成体；完成体переплести́сь。"
+      ]
+    },
+    {
+      "id": 6454,
+      "accent": "переплыва́ть",
+      "part": "动词·未完成体",
+      "meaning": "游过；渡过；游到另一处",
+      "perfective": "переплы́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "переплывать",
+        "part_of_speech": "未",
+        "meaning_zh": "仪 ,- , - 完 《 或 )；( ) 渡河",
+        "source_page": 149,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "переплывать",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6455,
+      "accent": "переса́живаться",
+      "part": "动词·未完成体",
+      "meaning": "换座；改坐；换乘",
+      "perfective": "пересе́сть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "пересаживаться",
+        "part_of_speech": "未",
+        "meaning_zh": "‚ - ‚- 完；改坐, 移坐",
+        "source_page": 149,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "пересаживаться",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6456,
+      "accent": "пересека́ть",
+      "part": "动词·未完成体",
+      "meaning": "穿过；横越；与某物交叉",
+      "perfective": "пересе́чь",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "пересекать",
+        "part_of_speech": "未",
+        "meaning_zh": "(- ,- ) 完取穿过, 越过, 渡过",
+        "source_page": 149,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "пересекать",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6457,
+      "accent": "переселя́ться",
+      "part": "动词·未完成体",
+      "meaning": "迁居；搬迁；移居",
+      "perfective": "пересели́ться",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "переселяться",
+        "part_of_speech": "未",
+        "meaning_zh": "‚- ‚- 完迁居, 迁移",
+        "source_page": 149,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "переселяться",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6458,
+      "accent": "перестра́ивать",
+      "part": "动词·未完成体",
+      "meaning": "改建；重组；调整；改造",
+      "perfective": "перестро́ить",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "перестраивать",
+        "part_of_speech": "未",
+        "meaning_zh": "重建；改组；调整",
+        "source_page": 149,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "перестраивать",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6459,
+      "accent": "перестра́иваться",
+      "part": "动词·未完成体",
+      "meaning": "调整；改变工作方式；重新编队；变换车道",
+      "perfective": "перестро́иться",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "перестраиваться",
+        "part_of_speech": "Ж",
+        "meaning_zh": "改变工作方式, 改变观点, 改变方针",
+        "source_page": 149,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "перестраиваться",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6460,
+      "accent": "перечи́тывать",
+      "part": "动词·未完成体",
+      "meaning": "重读；反复阅读",
+      "perfective": "перечита́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "перечитывать",
+        "part_of_speech": "未",
+        "meaning_zh": "重读；反复读",
+        "source_page": 149,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "перечитывать",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6461,
+      "accent": "перио́дика",
+      "part": "名词·阴性",
+      "meaning": "期刊；定期出版物",
+      "perfective": "",
+      "note": "集合义。",
+      "stage": 3,
+      "original": {
+        "word": "перибдика",
+        "part_of_speech": "阴",
+        "meaning_zh": "定期刊物, 定期出版物",
+        "source_page": 150,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "периодика",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=150",
+        "перио́дика，о误为б。"
+      ]
+    },
+    {
+      "id": 6462,
+      "accent": "персона́ж",
+      "part": "名词·阳性",
+      "meaning": "文学或艺术作品中的人物；角色",
+      "perfective": "",
+      "note": "语法性为阳性，不随角色性别改变。",
+      "stage": 2,
+      "original": {
+        "word": "персонаж",
+        "part_of_speech": "阴",
+        "meaning_zh": "(文学作品中的) 人物",
+        "source_page": 150,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "персонаж",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=150",
+        "персона́ж阳性，不是阴性。"
+      ]
+    },
+    {
+      "id": 6463,
+      "accent": "персона́л",
+      "part": "名词·阳性",
+      "meaning": "全体人员；工作人员；职员",
+      "perfective": "",
+      "note": "集合名词。",
+      "stage": 2,
+      "original": {
+        "word": "персонал",
+        "part_of_speech": "阳",
+        "meaning_zh": "全体大员；工作人员；菪种人员",
+        "source_page": 150,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "персонал",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6464,
+      "accent": "персона́льный",
+      "part": "形容词",
+      "meaning": "个人的；专为个人的；专用的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "персональный",
+        "part_of_speech": "形",
+        "meaning_zh": "有关个人的, 为个人特定的, 供个人用的",
+        "source_page": 150,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "персональный",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6465,
+      "accent": "перспекти́вный",
+      "part": "形容词",
+      "meaning": "有前途的；有发展前景的；长远的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "перспективный",
+        "part_of_speech": "形",
+        "meaning_zh": "有前途的；远景的",
+        "source_page": 150,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "перспективный",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6466,
+      "accent": "песнь",
+      "part": "名词·阴性",
+      "meaning": "歌；诗歌；长诗的一章",
+      "perfective": "",
+      "note": "偏书面或诗体。",
+      "stage": 3,
+      "original": {
+        "word": "песнь",
+        "part_of_speech": "阴",
+        "meaning_zh": "歌, 歌曲 (同 )",
+        "source_page": 150,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "песнь",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6467,
+      "accent": "песча́ный",
+      "part": "形容词",
+      "meaning": "沙的；含沙的；被沙覆盖的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "песчаный",
+        "part_of_speech": "形",
+        "meaning_zh": "沙土的, 含沙的, 被沙覆盖的",
+        "source_page": 150,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "песчаный",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6468,
+      "accent": "петербу́ргский",
+      "part": "形容词",
+      "meaning": "彼得堡的",
+      "perfective": "",
+      "note": "去除误识别词性7。",
+      "stage": 3,
+      "original": {
+        "word": "петербургский",
+        "part_of_speech": "7",
+        "meaning_zh": "彼得堡的",
+        "source_page": 150,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "петербургский",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6469,
+      "accent": "петербу́ржец",
+      "part": "名词·阳性",
+      "meaning": "彼得堡人；彼得堡居民",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "петербуржец",
+        "part_of_speech": "阳",
+        "meaning_zh": "彼得堡人",
+        "source_page": 150,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "петербуржец",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6470,
+      "accent": "петушо́к",
+      "part": "名词·阳性",
+      "meaning": "小公鸡",
+      "perfective": "",
+      "note": "пету́х的指小形式。",
+      "stage": 2,
+      "original": {
+        "word": "петушок",
+        "part_of_speech": "阳",
+        "meaning_zh": "小公鸡 ( 从的指小表爱)",
+        "source_page": 150,
+        "source_line": "19"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "петушок",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6471,
+      "accent": "печа́ль",
+      "part": "名词·阴性",
+      "meaning": "忧伤；悲伤；忧愁",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "печаль",
+        "part_of_speech": null,
+        "meaning_zh": "忧伤, 悲伤",
+        "source_page": 151,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "печаль",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    },
+    {
+      "id": 6472,
+      "accent": "печа́таться",
+      "part": "动词·未完成体",
+      "meaning": "被印刷；发表作品；刊载",
+      "perfective": "",
+      "note": "发表作品的常态义不强配完成体。",
+      "stage": 3,
+      "original": {
+        "word": "печататься",
+        "part_of_speech": "未",
+        "meaning_zh": "(在报刊上) 发表著作",
+        "source_page": 151,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "печататься",
+      "method": "2026-09-10 当前助手逐词核对核心俄中义、重音、词性和体；原页确认例句碎片6395、6429另归档，保留真实词条。",
+      "evidence": []
+    }
+  ]
+}

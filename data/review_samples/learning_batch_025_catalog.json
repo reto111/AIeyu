@@ -1,0 +1,2126 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 6223,
+      "accent": "неуда́чный",
+      "part": "形容词",
+      "meaning": "不成功的；不顺利的；不恰当的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "неудачный",
+        "part_of_speech": "形",
+        "meaning_zh": "不顺利的, 未能奏效",
+        "source_page": 119,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "неудачный",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6224,
+      "accent": "неуста́нно",
+      "part": "副词",
+      "meaning": "不知疲倦地；不断地",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "неустанно",
+        "part_of_speech": "副",
+        "meaning_zh": "孜孜不倦地；不断地",
+        "source_page": 119,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "неустанно",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6225,
+      "accent": "нефтяно́й",
+      "part": "形容词",
+      "meaning": "石油的；含石油的；石油工业的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "нефтяной",
+        "part_of_speech": "形",
+        "meaning_zh": "石油的, 含石油的",
+        "source_page": 119,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "нефтяной",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6226,
+      "accent": "неча́янно",
+      "part": "副词",
+      "meaning": "无意中；不小心；意外地",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "нечаянно",
+        "part_of_speech": "副",
+        "meaning_zh": "无意地, 无地, 意外地",
+        "source_page": 119,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "нечаянно",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6227,
+      "accent": "нить",
+      "part": "名词·阴性",
+      "meaning": "线；细丝；线索；脉络",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "нить",
+        "part_of_speech": "阴",
+        "meaning_zh": "线；纱；经线",
+        "source_page": 120,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "нить",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6228,
+      "accent": "ничу́ть",
+      "part": "副词",
+      "meaning": "一点也不；丝毫也不",
+      "perfective": "",
+      "note": "与не或否定谓语连用。",
+      "stage": 2,
+      "original": {
+        "word": "ничуть",
+        "part_of_speech": "副",
+        "meaning_zh": "(与否定词连用) 一点儿也 (不), 丝毫也 (没有)",
+        "source_page": 120,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ничуть",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6230,
+      "accent": "нова́тор",
+      "part": "名词·阳性",
+      "meaning": "创新者；革新者",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "новатор",
+        "part_of_speech": "阳",
+        "meaning_zh": "创新者, 革新者",
+        "source_page": 120,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "новатор",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6232,
+      "accent": "но́жка",
+      "part": "名词·阴性",
+      "meaning": "小脚；小腿；家具的腿；器物的支脚",
+      "perfective": "",
+      "note": "нога́的指小形式。",
+      "stage": 2,
+      "original": {
+        "word": "ножка",
+        "part_of_speech": "阴",
+        "meaning_zh": "〔 家具 、 器皿等的) 腿, 支柳",
+        "source_page": 120,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ножка",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6233,
+      "accent": "ноздря́",
+      "part": "名词·阴性",
+      "meaning": "鼻孔",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "ноздря",
+        "part_of_speech": "阴",
+        "meaning_zh": "鼻孔",
+        "source_page": 120,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ноздря",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6234,
+      "accent": "но́у-ха́у",
+      "part": "名词·中性不变格",
+      "meaning": "专有技术；技术诀窍；技术秘密",
+      "perfective": "",
+      "note": "英语借词，不保留不易理解的旧音译诺浩。",
+      "stage": 3,
+      "original": {
+        "word": "нбу-хау",
+        "part_of_speech": "不 变 , 中",
+        "meaning_zh": "(经) 诺浩；生产知识, 生产技能, 专有技术；生产秘密, 技术秘密, 工艺诀窍",
+        "source_page": 121,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ноу-хау",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=121",
+        "原页но́у-ха́у，中性不变格。"
+      ]
+    },
+    {
+      "id": 6235,
+      "accent": "ноя́брьский",
+      "part": "形容词",
+      "meaning": "十一月的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "ноябрьский",
+        "part_of_speech": "形",
+        "meaning_zh": "月的",
+        "source_page": 121,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ноябрьский",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=121",
+        "原页11月的，恢复被遗漏数字。"
+      ]
+    },
+    {
+      "id": 6237,
+      "accent": "ну",
+      "part": "语气词／感叹词",
+      "meaning": "喂；好吧；那么；真的吗",
+      "perfective": "",
+      "note": "表示催促、惊讶或承接话语，含义随语境变化。",
+      "stage": 1,
+      "original": {
+        "word": "Ну",
+        "part_of_speech": null,
+        "meaning_zh": "那么, 看来可以走啦；履",
+        "source_page": 121,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ну",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=121",
+        "词头为ну；原译串入Ну, кажется, можно ехать例句。"
+      ]
+    },
+    {
+      "id": 6236,
+      "accent": "нра́вственность",
+      "part": "名词·阴性",
+      "meaning": "道德；品德；道德品质",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "нравственность",
+        "part_of_speech": "阴",
+        "meaning_zh": "道德, 品德",
+        "source_page": 121,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "нравственность",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6238,
+      "accent": "нужда́",
+      "part": "名词·阴性",
+      "meaning": "需要；需求；贫困",
+      "perfective": "",
+      "note": "需求义常用в чём。",
+      "stage": 2,
+      "original": {
+        "word": "нужда",
+        "part_of_speech": "阴",
+        "meaning_zh": "® ( ) 贫困, 贫穷",
+        "source_page": 121,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "нужда",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=121",
+        "本条有贫困和需求两义。"
+      ]
+    },
+    {
+      "id": 6239,
+      "accent": "ны́нешний",
+      "part": "形容词",
+      "meaning": "现在的；当前的；如今的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "нынешний",
+        "part_of_speech": "形",
+        "meaning_zh": "现在的, 当前的, 如今的",
+        "source_page": 121,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "нынешний",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6240,
+      "accent": "ня́нька",
+      "part": "名词·阴性",
+      "meaning": "保姆；照料孩子的人",
+      "perfective": "",
+      "note": "口语，与ня́ня相近。",
+      "stage": 3,
+      "original": {
+        "word": "нянька",
+        "part_of_speech": "阴",
+        "meaning_zh": "保姆 (同 )",
+        "source_page": 121,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "нянька",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6241,
+      "accent": "обая́ние",
+      "part": "名词·中性",
+      "meaning": "魅力；吸引力",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "обаяние",
+        "part_of_speech": "中",
+        "meaning_zh": "魅力, 魔力；吸引力",
+        "source_page": 121,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "обаяние",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6242,
+      "accent": "обвине́ние",
+      "part": "名词·中性",
+      "meaning": "指责；控告；指控",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "обвинение",
+        "part_of_speech": "中",
+        "meaning_zh": "参指责, 责备",
+        "source_page": 121,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "обвинение",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6243,
+      "accent": "обита́тель",
+      "part": "名词·阳性",
+      "meaning": "居民；居住者；栖居的动物",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "обитатель",
+        "part_of_speech": "阳",
+        "meaning_zh": "居民, 居住者, 住户",
+        "source_page": 122,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "обитатель",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6244,
+      "accent": "обита́ть",
+      "part": "动词·未完成体",
+      "meaning": "居住；栖息；生活在",
+      "perfective": "",
+      "note": "状态动词，无通用对应完成体。",
+      "stage": 3,
+      "original": {
+        "word": "обитать",
+        "part_of_speech": "未",
+        "meaning_zh": "(书) 居住, 存在",
+        "source_page": 122,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "обитать",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6245,
+      "accent": "обихо́д",
+      "part": "名词·阳性",
+      "meaning": "日常生活；日常使用；生活常规",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "обихбд",
+        "part_of_speech": "阳",
+        "meaning_zh": "日常生活, 生活习惯 〈 常规 、 惯",
+        "source_page": 122,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "обиход",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6246,
+      "accent": "обихо́дный",
+      "part": "形容词",
+      "meaning": "日常的；日用的；常用的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "обихддный",
+        "part_of_speech": "形",
+        "meaning_zh": "日常的；日用的；常用的",
+        "source_page": 122,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "обиходный",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6247,
+      "accent": "обко́м",
+      "part": "名词·阳性",
+      "meaning": "州委员会；州委",
+      "perfective": "",
+      "note": "областно́й комите́т的缩写，不限定工会。",
+      "stage": 3,
+      "original": {
+        "word": "обкбм",
+        "part_of_speech": "阳",
+        "meaning_zh": "州工会委员会",
+        "source_page": 123,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "обком",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=123",
+        "词义州委会，工会仅来自例句。"
+      ]
+    },
+    {
+      "id": 6248,
+      "accent": "о́блачный",
+      "part": "形容词",
+      "meaning": "多云的；阴云密布的；云的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "облачный",
+        "part_of_speech": "形",
+        "meaning_zh": "香多云的",
+        "source_page": 123,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "облачный",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6249,
+      "accent": "облета́ть",
+      "part": "动词·未完成体",
+      "meaning": "绕飞；飞遍；从旁飞过",
+      "perfective": "облете́ть",
+      "note": "本条为运动义；另有同形完成体试飞义，不混配。",
+      "stage": 3,
+      "original": {
+        "word": "облетать",
+        "part_of_speech": "未",
+        "meaning_zh": "绕飞; 飞遍; 飞过",
+        "source_page": 123,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "облетать",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=123",
+        "本条облета́ть未完成体与облете́ть配对，不混入облета́ть完成体试飞义。"
+      ]
+    },
+    {
+      "id": 6250,
+      "accent": "обма́н",
+      "part": "名词·阳性",
+      "meaning": "欺骗；骗局；错觉",
+      "perfective": "",
+      "note": "如опти́ческий обма́н视觉错觉。",
+      "stage": 2,
+      "original": {
+        "word": "обман",
+        "part_of_speech": "阳",
+        "meaning_zh": "欺骗, 骗局",
+        "source_page": 123,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "обман",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6251,
+      "accent": "обнажа́ть",
+      "part": "动词·未完成体",
+      "meaning": "使裸露；露出；揭露；暴露",
+      "perfective": "обнажи́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "обнажать",
+        "part_of_speech": "未",
+        "meaning_zh": "(- , - ) 完；(使) 脱光 (衣服), 使裸露；亮出, 需出",
+        "source_page": 123,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "обнажать",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6252,
+      "accent": "обнару́живаться",
+      "part": "动词·未完成体",
+      "meaning": "显露；显现；被发现；被找到",
+      "perfective": "обнару́житься",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "обнаруживаться",
+        "part_of_speech": "未",
+        "meaning_zh": "‚ - ‚ - 完；(第一 、 二人称不用) 露出, 显示出来；流露出来",
+        "source_page": 123,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "обнаруживаться",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6253,
+      "accent": "обо́и",
+      "part": "名词·仅复数",
+      "meaning": "壁纸；糊墙纸",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "обби",
+        "part_of_speech": "复",
+        "meaning_zh": "往墙上贴新壁纸",
+        "source_page": 124,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "обои",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=124",
+        "词头обо́и，糊墙纸；原译混入贴新壁纸例句。"
+      ]
+    },
+    {
+      "id": 6254,
+      "accent": "обрабо́тка",
+      "part": "名词·阴性",
+      "meaning": "加工；处理；耕作；整理改编",
+      "perfective": "",
+      "note": "依对象区分材料加工、信息处理、土地耕作。",
+      "stage": 3,
+      "original": {
+        "word": "обраббтка",
+        "part_of_speech": "阴",
+        "meaning_zh": "商加工, 精制",
+        "source_page": 124,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "обработка",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=124",
+        "обрабо́тка有加工和耕耘义，例句包括信息处理。"
+      ]
+    },
+    {
+      "id": 6255,
+      "accent": "о́бразный",
+      "part": "形容词",
+      "meaning": "形象的；生动的；形象化的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "образный",
+        "part_of_speech": "形",
+        "meaning_zh": "四形象化的；形象的",
+        "source_page": 124,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "образный",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6256,
+      "accent": "образо́ванный",
+      "part": "形容词",
+      "meaning": "受过教育的；有知识的；有教养的",
+      "perfective": "",
+      "note": "本条取形容词义。",
+      "stage": 2,
+      "original": {
+        "word": "образбванный",
+        "part_of_speech": "形",
+        "meaning_zh": "受过教育的, 有知识的, 有教养的",
+        "source_page": 124,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "образованный",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=124",
+        "形容词образо́ванный，有教养、有知识，不是образо́вывать的动作结果泛义。"
+      ]
+    },
+    {
+      "id": 6257,
+      "accent": "обру́шиваться",
+      "part": "动词·未完成体",
+      "meaning": "倒塌；塌落；猛攻；猛烈抨击",
+      "perfective": "обру́шиться",
+      "note": "на кого-что表示落到或攻向某人某物。",
+      "stage": 3,
+      "original": {
+        "word": "обрушиваться",
+        "part_of_speech": "未",
+        "meaning_zh": "‚- ‚- 完",
+        "source_page": 125,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "обрушиваться",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=125",
+        "恢复倒塌、猛攻等缺失核心义。"
+      ]
+    },
+    {
+      "id": 6258,
+      "accent": "обры́в",
+      "part": "名词·阳性",
+      "meaning": "断裂；断处；陡崖；陡岸",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "обрыв",
+        "part_of_speech": "阳",
+        "meaning_zh": "断处；扯断",
+        "source_page": 125,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "обрыв",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=125",
+        "补回陡岸悬崖义。"
+      ]
+    },
+    {
+      "id": 6259,
+      "accent": "обря́д",
+      "part": "名词·阳性",
+      "meaning": "仪式；礼仪；礼俗",
+      "perfective": "",
+      "note": "常与宗教、传统习俗有关。",
+      "stage": 3,
+      "original": {
+        "word": "обряд",
+        "part_of_speech": "阳",
+        "meaning_zh": "(宗教或由风俗, 传统形成的) 仪式, 典礼, 礼俗",
+        "source_page": 125,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "обряд",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6260,
+      "accent": "обсервато́рия",
+      "part": "名词·阴性",
+      "meaning": "天文台；观测台",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "обсерватория",
+        "part_of_speech": "阴",
+        "meaning_zh": "天文台；观象台",
+        "source_page": 125,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "обсерватория",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6261,
+      "accent": "обслу́живание",
+      "part": "名词·中性",
+      "meaning": "服务；接待；维护保养",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "обслуживание",
+        "part_of_speech": "中",
+        "meaning_zh": "招待, 服务",
+        "source_page": 125,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "обслуживание",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6262,
+      "accent": "обусло́вливать",
+      "part": "动词·未完成体",
+      "meaning": "以某事为条件；决定；制约；引起",
+      "perfective": "обусло́вить",
+      "note": "原Ж为词性识别噪声。",
+      "stage": 3,
+      "original": {
+        "word": "обусловливать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "以某事为条件; 决定, 制约",
+        "source_page": 125,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "обусловливать",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": [
+        "https://gramota.ru/poisk?dicts%5B%5D=48&mode=slovari&query=%D0%BE%D0%B1%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%BB%D0%B8%D0%B2%D0%B0%D1%82%D1%8C",
+        "核обусло́вливать未完成体及обусло́вить配对。"
+      ]
+    },
+    {
+      "id": 6263,
+      "accent": "обуча́ться",
+      "part": "动词·未完成体",
+      "meaning": "学习；受训；接受教育",
+      "perfective": "обучи́ться",
+      "note": "常接第三格表示所学内容。",
+      "stage": 2,
+      "original": {
+        "word": "обучаться",
+        "part_of_speech": "未",
+        "meaning_zh": "‚ - ‚- 完学 )",
+        "source_page": 125,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "обучаться",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=125",
+        "原页学习，搭配чему，完成体обучи́ться。"
+      ]
+    },
+    {
+      "id": 6264,
+      "accent": "объедине́ние",
+      "part": "名词·中性",
+      "meaning": "联合；团结；合并；联合组织",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "объединение",
+        "part_of_speech": "中",
+        "meaning_zh": "小规模集体农庄的联合",
+        "source_page": 126,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "объединение",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=126",
+        "去例句限定，保留联合和联合组织两义。"
+      ]
+    },
+    {
+      "id": 6265,
+      "accent": "объезжа́ть",
+      "part": "动词·未完成体",
+      "meaning": "乘车绕过；乘车走遍；逐处访问",
+      "perfective": "",
+      "note": "绕过对应объе́хать；走遍对应объе́здить或объе́хать，依语境。",
+      "stage": 3,
+      "original": {
+        "word": "объезжать",
+        "part_of_speech": "未",
+        "meaning_zh": "故完",
+        "source_page": 126,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "объезжать",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=126",
+        "恢复乘车绕过、走遍，完成体объе́здить与объе́хать按义区分。"
+      ]
+    },
+    {
+      "id": 6266,
+      "accent": "объя́тие",
+      "part": "名词·中性",
+      "meaning": "拥抱；怀抱",
+      "perfective": "",
+      "note": "常用复数объя́тия。",
+      "stage": 2,
+      "original": {
+        "word": "объятие",
+        "part_of_speech": "中",
+        "meaning_zh": "拥抱, 怀抱",
+        "source_page": 126,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "объятие",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6267,
+      "accent": "обы́чный",
+      "part": "形容词",
+      "meaning": "普通的；平常的；惯常的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "обычный",
+        "part_of_speech": "形",
+        "meaning_zh": "平常的, 寻常的",
+        "source_page": 126,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "обычный",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6268,
+      "accent": "обяза́тельство",
+      "part": "名词·中性",
+      "meaning": "义务；责任；承诺；保证",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "обязательство",
+        "part_of_speech": "中",
+        "meaning_zh": "义务, 责任",
+        "source_page": 126,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "обязательство",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6269,
+      "accent": "обя́зывать",
+      "part": "动词·未完成体",
+      "meaning": "责成；使承担义务；要求必须",
+      "perfective": "обяза́ть",
+      "note": "кого加不定式。",
+      "stage": 3,
+      "original": {
+        "word": "обязывать",
+        "part_of_speech": "未",
+        "meaning_zh": "完责成, 使担负责任",
+        "source_page": 127,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "обязывать",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6270,
+      "accent": "овладе́ние",
+      "part": "名词·中性",
+      "meaning": "掌握；占领；占有",
+      "perfective": "",
+      "note": "чем表示掌握的知识或占有的对象。",
+      "stage": 3,
+      "original": {
+        "word": "овладение",
+        "part_of_speech": "中",
+        "meaning_zh": "掌握知识伟占据: 占有财产",
+        "source_page": 127,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "овладение",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6271,
+      "accent": "овра́г",
+      "part": "名词·阳性",
+      "meaning": "冲沟；沟壑",
+      "perfective": "",
+      "note": "通常指流水冲刷形成的沟谷。",
+      "stage": 3,
+      "original": {
+        "word": "овраг",
+        "part_of_speech": "阳",
+        "meaning_zh": "冲沟, 沟垮, 峡谷",
+        "source_page": 127,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "овраг",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6272,
+      "accent": "огля́дывать",
+      "part": "动词·未完成体",
+      "meaning": "环顾；打量；扫视",
+      "perfective": "огляде́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "оглядывать",
+        "part_of_speech": "未",
+        "meaning_zh": "完打量, 环顾",
+        "source_page": 127,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "оглядывать",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6273,
+      "accent": "о́гненный",
+      "part": "形容词",
+      "meaning": "火的；火焰般的；火红的；炽热的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "огненный",
+        "part_of_speech": "形",
+        "meaning_zh": "火的；火焰般的；炽热的",
+        "source_page": 127,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "огненный",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6274,
+      "accent": "ого́",
+      "part": "感叹词",
+      "meaning": "哇；哎呀",
+      "perfective": "",
+      "note": "表示惊讶或赞叹。",
+      "stage": 2,
+      "original": {
+        "word": "огб",
+        "part_of_speech": null,
+        "meaning_zh": "感哎呀, 暖唷；哦；(表示惊奇 、 惊叹)",
+        "source_page": 127,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ого",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=127",
+        "原词ого́，表示惊叹。"
+      ]
+    },
+    {
+      "id": 6275,
+      "accent": "огово́рка",
+      "part": "名词·阴性",
+      "meaning": "附带条件；保留意见；补充说明；口误",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "оговорка",
+        "part_of_speech": "阴",
+        "meaning_zh": "补充说明, 附带条件, 保留条件",
+        "source_page": 127,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "оговорка",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6276,
+      "accent": "огорча́ться",
+      "part": "动词·未完成体",
+      "meaning": "感到难过；伤心；苦恼",
+      "perfective": "огорчи́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "огорчаться",
+        "part_of_speech": "未",
+        "meaning_zh": "‚- ‚ - 完",
+        "source_page": 127,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "огорчаться",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=127",
+        "原页心里不痛快、伤心，完成体огорчи́ться。"
+      ]
+    },
+    {
+      "id": 6277,
+      "accent": "ограбле́ние",
+      "part": "名词·中性",
+      "meaning": "抢劫；劫掠",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "ограбление",
+        "part_of_speech": "中",
+        "meaning_zh": "抢劫",
+        "source_page": 127,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ограбление",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6278,
+      "accent": "огра́да",
+      "part": "名词·阴性",
+      "meaning": "围墙；栅栏；篱笆",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "ограда",
+        "part_of_speech": "阴",
+        "meaning_zh": "围墙, 篱笆, 栅栏",
+        "source_page": 127,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ограда",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6279,
+      "accent": "ограниче́ние",
+      "part": "名词·中性",
+      "meaning": "限制；约束；限度",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "ограничение",
+        "part_of_speech": "中",
+        "meaning_zh": "限制军备",
+        "source_page": 127,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ограничение",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=127",
+        "限制军备为例句，词核心义不限军备。"
+      ]
+    },
+    {
+      "id": 6280,
+      "accent": "ода́лживать",
+      "part": "动词·未完成体",
+      "meaning": "借给；贷给",
+      "perfective": "одолжи́ть",
+      "note": "кому что表示把东西借给谁，勿把借入与借出方向混淆。",
+      "stage": 2,
+      "original": {
+        "word": "одалживать",
+        "part_of_speech": "未",
+        "meaning_zh": "‚- ,- 完借钱给, 贷给",
+        "source_page": 128,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "одалживать",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6281,
+      "accent": "одино́чество",
+      "part": "名词·中性",
+      "meaning": "孤独；孤单；独处",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "одиночество",
+        "part_of_speech": "中",
+        "meaning_zh": "孤单, 孤独, 孤寂",
+        "source_page": 128,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "одиночество",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6282,
+      "accent": "одино́чка",
+      "part": "名词·通性",
+      "meaning": "独自生活或行动的人；独来独往者",
+      "perfective": "",
+      "note": "指人时可用于男性或女性。",
+      "stage": 3,
+      "original": {
+        "word": "одиночка",
+        "part_of_speech": "阳/阴",
+        "meaning_zh": "单身者；独来独往者",
+        "source_page": 128,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "одиночка",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6283,
+      "accent": "однокла́ссник",
+      "part": "名词·阳性",
+      "meaning": "同班同学",
+      "perfective": "",
+      "note": "一般指中小学同班同学。",
+      "stage": 1,
+      "original": {
+        "word": "одноклассник",
+        "part_of_speech": null,
+        "meaning_zh": "中学或小学的) 同班同学",
+        "source_page": 128,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "одноклассник",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6284,
+      "accent": "одноку́рсник",
+      "part": "名词·阳性",
+      "meaning": "大学同年级同学",
+      "perfective": "",
+      "note": "通常指同一院系或专业的同届学生。",
+      "stage": 2,
+      "original": {
+        "word": "однокурсник",
+        "part_of_speech": "阳",
+        "meaning_zh": "(大学) 同年级的同学",
+        "source_page": 128,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "однокурсник",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6285,
+      "accent": "одноро́дный",
+      "part": "形容词",
+      "meaning": "同类的；同种的；均匀一致的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "однородный",
+        "part_of_speech": "形",
+        "meaning_zh": "同类的, 同种的",
+        "source_page": 128,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "однородный",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6286,
+      "accent": "односторо́нний",
+      "part": "形容词",
+      "meaning": "单面的；单向的；单方面的；片面的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "односторонний",
+        "part_of_speech": "形",
+        "meaning_zh": "颤 ‚ - ‚；‚- 形单面的, 分正反面的",
+        "source_page": 128,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "односторонний",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6287,
+      "accent": "одноэта́жный",
+      "part": "形容词",
+      "meaning": "一层的；单层的",
+      "perfective": "",
+      "note": "不是名词平房。",
+      "stage": 2,
+      "original": {
+        "word": "одноэтажный",
+        "part_of_speech": "形",
+        "meaning_zh": "平房",
+        "source_page": 128,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "одноэтажный",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6288,
+      "accent": "одобре́ние",
+      "part": "名词·中性",
+      "meaning": "赞同；认可；批准；赞许",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "одобрение",
+        "part_of_speech": "中",
+        "meaning_zh": "赞成, 认可, 贾许",
+        "source_page": 128,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "одобрение",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6289,
+      "accent": "оживле́ние",
+      "part": "名词·中性",
+      "meaning": "复苏；活跃；热闹；振兴",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "оживление",
+        "part_of_speech": "中",
+        "meaning_zh": "机体的复苏活既, 热烈, 热闹: . 街上一片节日的热闹景象",
+        "source_page": 128,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "оживление",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6290,
+      "accent": "ожида́ние",
+      "part": "名词·中性",
+      "meaning": "等待；期待；预期",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "ожидание",
+        "part_of_speech": "中",
+        "meaning_zh": "等待",
+        "source_page": 128,
+        "source_line": "18"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ожидание",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6291,
+      "accent": "ожида́ться",
+      "part": "动词·未完成体",
+      "meaning": "预计将发生；有望出现；被期待",
+      "perfective": "",
+      "note": "无通用对应完成体。",
+      "stage": 3,
+      "original": {
+        "word": "ожидаться",
+        "part_of_speech": "未",
+        "meaning_zh": "被预料, 预计将发生",
+        "source_page": 129,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ожидаться",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6292,
+      "accent": "ознакомля́ться",
+      "part": "动词·未完成体",
+      "meaning": "熟悉；了解；查阅",
+      "perfective": "ознако́миться",
+      "note": "с чем表示了解的内容。",
+      "stage": 3,
+      "original": {
+        "word": "ознакомляться",
+        "part_of_speech": "未",
+        "meaning_zh": "‚ - ,- 完熟悉, 了解",
+        "source_page": 129,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ознакомляться",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6293,
+      "accent": "озорство́",
+      "part": "名词·中性",
+      "meaning": "淘气；顽皮；恶作剧；胡闹",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "озорство",
+        "part_of_speech": "中",
+        "meaning_zh": "顽皮, 淘气；胡闹, 恶作剧",
+        "source_page": 129,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "озорство",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6294,
+      "accent": "ока́нчиваться",
+      "part": "动词·未完成体",
+      "meaning": "结束；终结；以某事物结尾",
+      "perfective": "око́нчиться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "оканчиваться",
+        "part_of_speech": "未",
+        "meaning_zh": "‚- ‚- 完；结束, 终结",
+        "source_page": 129,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "оканчиваться",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6295,
+      "accent": "океа́нский",
+      "part": "形容词",
+      "meaning": "海洋的；大洋的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "океанский",
+        "part_of_speech": "形",
+        "meaning_zh": "海洋的",
+        "source_page": 129,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "океанский",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6296,
+      "accent": "оккупи́ровать",
+      "part": "动词·兼体",
+      "meaning": "军事占领；侵占",
+      "perfective": "",
+      "note": "同一形式可表未完成体或完成体，依语境判断。",
+      "stage": 3,
+      "original": {
+        "word": "оккупировать",
+        "part_of_speech": "Ж,55",
+        "meaning_zh": "占据",
+        "source_page": 129,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "оккупировать",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": [
+        "https://gramota.ru/poisk?mode=slovari&query=%D0%BE%D0%BA%D0%BA%D1%83%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C",
+        "核重音及兼体。"
+      ]
+    },
+    {
+      "id": 6297,
+      "accent": "око́п",
+      "part": "名词·阳性",
+      "meaning": "战壕；散兵坑",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "окбп",
+        "part_of_speech": "阳",
+        "meaning_zh": "掩体, 战壕",
+        "source_page": 130,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "окоп",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6298,
+      "accent": "окра́ина",
+      "part": "名词·阴性",
+      "meaning": "边缘；市郊；边远地区",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "окраина",
+        "part_of_speech": "阴",
+        "meaning_zh": "边缘, 边",
+        "source_page": 130,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "окраина",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6299,
+      "accent": "окра́ска",
+      "part": "名词·阴性",
+      "meaning": "着色；涂色；颜色；色彩",
+      "perfective": "",
+      "note": "可指动作、外观颜色或比喻色彩。",
+      "stage": 3,
+      "original": {
+        "word": "окраска",
+        "part_of_speech": "阴",
+        "meaning_zh": "颜色, 色调",
+        "source_page": 130,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "окраска",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6300,
+      "accent": "окружа́ющий",
+      "part": "形容词",
+      "meaning": "周围的；四周的",
+      "perfective": "",
+      "note": "окружа́ющая среда́才是周围环境。",
+      "stage": 2,
+      "original": {
+        "word": "окружающий",
+        "part_of_speech": "形",
+        "meaning_zh": "周围环境",
+        "source_page": 130,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "окружающий",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6301,
+      "accent": "окруже́ние",
+      "part": "名词·中性",
+      "meaning": "包围；周围环境；身边的人",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "окружение",
+        "part_of_speech": "中",
+        "meaning_zh": "取包围 (状态)",
+        "source_page": 130,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "окружение",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6302,
+      "accent": "олицетворе́ние",
+      "part": "名词·中性",
+      "meaning": "化身；体现；拟人",
+      "perfective": "",
+      "note": "拟人是修辞义。",
+      "stage": 3,
+      "original": {
+        "word": "олицетворение",
+        "part_of_speech": "中",
+        "meaning_zh": "化身, 体现",
+        "source_page": 131,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "олицетворение",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6303,
+      "accent": "опада́ть",
+      "part": "动词·未完成体",
+      "meaning": "落下；凋落；消退；瘪下去",
+      "perfective": "опа́сть",
+      "note": "如叶落、肿胀消退。",
+      "stage": 3,
+      "original": {
+        "word": "опадать",
+        "part_of_speech": "未",
+        "meaning_zh": "‚- 完 (第一 、 二人称不用) 凌落, 调谢",
+        "source_page": 131,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "опадать",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6304,
+      "accent": "опасе́ние",
+      "part": "名词·中性",
+      "meaning": "担忧；顾虑；担心",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "опасение",
+        "part_of_speech": "中",
+        "meaning_zh": "担, 担忧, 顾忌, 顾虑",
+        "source_page": 131,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "опасение",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6305,
+      "accent": "опережа́ть",
+      "part": "动词·未完成体",
+      "meaning": "赶在前面；超过；领先",
+      "perfective": "опереди́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "опережать",
+        "part_of_speech": "未",
+        "meaning_zh": "超过, 赶在前面",
+        "source_page": 131,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "опережать",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6306,
+      "accent": "опеча́тка",
+      "part": "名词·阴性",
+      "meaning": "排印错误；印刷错字；打字错误",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "опечатка",
+        "part_of_speech": "阴",
+        "meaning_zh": "(印刷)",
+        "source_page": 131,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "опечатка",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6307,
+      "accent": "опла́та",
+      "part": "名词·阴性",
+      "meaning": "支付；付款；报酬",
+      "perfective": "",
+      "note": "опла́та труда́是劳动报酬，不限于工资。",
+      "stage": 2,
+      "original": {
+        "word": "оплата",
+        "part_of_speech": "阴",
+        "meaning_zh": "劳动报酬；报酬 (多指工资)",
+        "source_page": 131,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "оплата",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6308,
+      "accent": "ополче́ние",
+      "part": "名词·中性",
+      "meaning": "民兵；民军；民兵组织",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "ополчение",
+        "part_of_speech": "中",
+        "meaning_zh": "民兵；民军；民团",
+        "source_page": 131,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ополчение",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6309,
+      "accent": "опо́мниться",
+      "part": "动词·完成体",
+      "meaning": "恢复知觉；回过神；清醒过来；醒悟",
+      "perfective": "опомина́ться",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "опомниться",
+        "part_of_speech": "完",
+        "meaning_zh": "苏醒过来；镇静下来, 冷静下来",
+        "source_page": 131,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "опомниться",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6310,
+      "accent": "опо́ра",
+      "part": "名词·阴性",
+      "meaning": "支撑；支撑物；依靠；支柱",
+      "perfective": "",
+      "note": "桥墩只是具体支撑物之一，不作为独立泛义。",
+      "stage": 3,
+      "original": {
+        "word": "опора",
+        "part_of_speech": "阴",
+        "meaning_zh": "桥墩, 桥台；根据事实行事；() 可靠的力量, 支柱: — . 大儿子是家里的支柱",
+        "source_page": 131,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "опора",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6311,
+      "accent": "опо́рный",
+      "part": "形容词",
+      "meaning": "支撑的；作为支点的；起支持作用的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "опорный",
+        "part_of_speech": "形",
+        "meaning_zh": "支撑的,(作为) 支柱的；(用以) 立脚的；有支持作用的, 可供依靠的",
+        "source_page": 131,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "опорный",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6312,
+      "accent": "оппоне́нт",
+      "part": "名词·阳性",
+      "meaning": "辩论对手；持反对意见者；论文答辩评议人",
+      "perfective": "",
+      "note": "学术评议人不等于敌人。",
+      "stage": 3,
+      "original": {
+        "word": "оппонент",
+        "part_of_speech": "阳",
+        "meaning_zh": "论敌, 反对 (论) 者；(学位论文的)",
+        "source_page": 131,
+        "source_line": "18"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "оппонент",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6313,
+      "accent": "оправда́ние",
+      "part": "名词·中性",
+      "meaning": "辩解；开脱；正当理由；宣告无罪",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "оправдание",
+        "part_of_speech": "中",
+        "meaning_zh": "证明是对的, 证实",
+        "source_page": 131,
+        "source_line": "19"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "оправдание",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6314,
+      "accent": "определе́ние",
+      "part": "名词·中性",
+      "meaning": "确定；定义；定语",
+      "perfective": "",
+      "note": "定语是语法术语义。",
+      "stage": 2,
+      "original": {
+        "word": "определение",
+        "part_of_speech": "中",
+        "meaning_zh": "确定",
+        "source_page": 132,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "определение",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=132",
+        "补回定义与语法定语两义。"
+      ]
+    },
+    {
+      "id": 6315,
+      "accent": "опроверга́ть",
+      "part": "动词·未完成体",
+      "meaning": "反驳；驳倒；推翻",
+      "perfective": "опрове́ргнуть",
+      "note": "通常指论点、说法等。",
+      "stage": 3,
+      "original": {
+        "word": "опровергать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "或 - ) ‚- 完 , , ‚",
+        "source_page": 132,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "опровергать",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=132",
+        "原页反驳、驳倒；完成体опрове́ргнуть。"
+      ]
+    },
+    {
+      "id": 6316,
+      "accent": "оптима́льный",
+      "part": "形容词",
+      "meaning": "最佳的；最适宜的；最优的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "оптимальный",
+        "part_of_speech": "形",
+        "meaning_zh": "最适宜的, 合乎理想条件的",
+        "source_page": 132,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "оптимальный",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6317,
+      "accent": "оптимисти́ческий",
+      "part": "形容词",
+      "meaning": "乐观的；乐观主义的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "оптимистический",
+        "part_of_speech": "形",
+        "meaning_zh": "乐观 (主义)",
+        "source_page": 132,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "оптимистический",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6318,
+      "accent": "опусты́нивание",
+      "part": "名词·中性",
+      "meaning": "荒漠化；沙漠化",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "опустынивание",
+        "part_of_speech": "中",
+        "meaning_zh": "变为沙漠；(生态) 沙漠化",
+        "source_page": 132,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "опустынивание",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6319,
+      "accent": "опу́шка",
+      "part": "名词·阴性",
+      "meaning": "林缘；树林边缘；毛皮镶边",
+      "perfective": "",
+      "note": "衣物语境可指毛皮边饰。",
+      "stage": 3,
+      "original": {
+        "word": "опушка",
+        "part_of_speech": "阴",
+        "meaning_zh": "林边, 树林边缘",
+        "source_page": 132,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "опушка",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6320,
+      "accent": "ора́нжевый",
+      "part": "形容词",
+      "meaning": "橙色的；橘黄色的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "оранжевый",
+        "part_of_speech": "形",
+        "meaning_zh": "橙黄色",
+        "source_page": 132,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "оранжевый",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6321,
+      "accent": "ора́тор",
+      "part": "名词·阳性",
+      "meaning": "演说者；演说家；发言人",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "оратор",
+        "part_of_speech": "阳",
+        "meaning_zh": "演说者, 发言人；演说家, 善于辞令耆",
+        "source_page": 132,
+        "source_line": "18"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "оратор",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 6322,
+      "accent": "ора́ть",
+      "part": "动词·未完成体",
+      "meaning": "大喊大叫；嚷叫；大声哭喊",
+      "perfective": "",
+      "note": "本条为口语喊叫义，动作方式词不强配完成体。",
+      "stage": 3,
+      "original": {
+        "word": "орать",
+        "part_of_speech": "未",
+        "meaning_zh": "(口) 大贿；大声哭；大声说话 (唱歌 、 叱责等)",
+        "source_page": 133,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "орать",
+      "method": "2026-09-10 当前助手逐词审核；核对核心中文、重音、词性与体，原页复核断词、串义和缺义。",
+      "evidence": []
+    }
+  ]
+}

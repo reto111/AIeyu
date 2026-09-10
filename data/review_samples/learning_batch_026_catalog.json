@@ -1,0 +1,1064 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 6323,
+      "accent": "оригина́л",
+      "part": "名词·阳性",
+      "meaning": "原件；原本；原稿；怪人",
+      "perfective": "",
+      "note": "指人时有行为独特、与众不同之意。",
+      "stage": 3,
+      "original": {
+        "word": "оригинал",
+        "part_of_speech": "阳",
+        "meaning_zh": "原本, 原稿",
+        "source_page": 133,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "оригинал",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6324,
+      "accent": "оригина́льный",
+      "part": "形容词",
+      "meaning": "原作的；独创的；新颖的；奇特的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "оригинальный",
+        "part_of_speech": "形",
+        "meaning_zh": "原文的, 原稿的, 原本的",
+        "source_page": 133,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "оригинальный",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=133",
+        "补回独创、奇特义，非只指原稿。"
+      ]
+    },
+    {
+      "id": 6325,
+      "accent": "ориенти́роваться",
+      "part": "动词·兼体",
+      "meaning": "辨明方向；了解情况；以某事物为导向",
+      "perfective": "",
+      "note": "确定方向义可兼体；常用в чём了解某领域、на что以某物为导向。",
+      "stage": 3,
+      "original": {
+        "word": "ориентироваться",
+        "part_of_speech": "未 , 完",
+        "meaning_zh": "确定方向；(转) 了解情；在黑腰中确定方向",
+        "source_page": 133,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ориентироваться",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": [
+        "https://gramota.ru/poisk?dicts%5B0%5D=71&dicts%5B1%5D=42&dicts%5B2%5D=30&mode=slovari&query=%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%D1%81%D1%8F",
+        "核兼体、确定方向与了解情况义。"
+      ]
+    },
+    {
+      "id": 6326,
+      "accent": "ороси́тельный",
+      "part": "形容词",
+      "meaning": "灌溉的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "оросительный",
+        "part_of_speech": "形",
+        "meaning_zh": "灌溉的",
+        "source_page": 133,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "оросительный",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6327,
+      "accent": "ороша́ть",
+      "part": "动词·未完成体",
+      "meaning": "灌溉；浇灌；洒湿",
+      "perfective": "ороси́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "орошать",
+        "part_of_speech": "未",
+        "meaning_zh": "(- ‚- ) 完",
+        "source_page": 133,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "орошать",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=133",
+        "恢复灌溉，体配对ороша́ть/ороси́ть。"
+      ]
+    },
+    {
+      "id": 6328,
+      "accent": "ороше́ние",
+      "part": "名词·中性",
+      "meaning": "灌溉；浇灌",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "орошение",
+        "part_of_speech": "中",
+        "meaning_zh": "人工灌溉",
+        "source_page": 133,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "орошение",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6329,
+      "accent": "оса́док",
+      "part": "名词·阳性",
+      "meaning": "沉淀物；沉积物；不愉快的余味",
+      "perfective": "",
+      "note": "复数оса́дки在气象中指降水。",
+      "stage": 3,
+      "original": {
+        "word": "осадок",
+        "part_of_speech": "阳",
+        "meaning_zh": "沉淀物",
+        "source_page": 133,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "осадок",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=133",
+        "补复数降水义，与单数沉淀物区别。"
+      ]
+    },
+    {
+      "id": 6330,
+      "accent": "освое́ние",
+      "part": "名词·中性",
+      "meaning": "掌握；学会；开发；开垦",
+      "perfective": "",
+      "note": "如掌握技术、开发新地区。",
+      "stage": 3,
+      "original": {
+        "word": "освоение",
+        "part_of_speech": "中",
+        "meaning_zh": "掌握, 学会",
+        "source_page": 134,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "освоение",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=134",
+        "补回开发开垦义。"
+      ]
+    },
+    {
+      "id": 6331,
+      "accent": "оскорбле́ние",
+      "part": "名词·中性",
+      "meaning": "侮辱；辱骂；冒犯",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "оскорбление",
+        "part_of_speech": "中",
+        "meaning_zh": "侮辱, 娼辱",
+        "source_page": 134,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "оскорбление",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6332,
+      "accent": "ослабле́ние",
+      "part": "名词·中性",
+      "meaning": "减弱；衰弱；减轻；缓和",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "ослабление",
+        "part_of_speech": "中",
+        "meaning_zh": "衰弱, 净轻, 缓和",
+        "source_page": 134,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ослабление",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6333,
+      "accent": "ослепи́тельный",
+      "part": "形容词",
+      "meaning": "耀眼的；光彩夺目的；令人惊艳的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "ослепительный",
+        "part_of_speech": "形",
+        "meaning_zh": "参光彩 ,^",
+        "source_page": 134,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ослепительный",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=134",
+        "恢复耀眼、光彩夺目义，删除残缺符号。"
+      ]
+    },
+    {
+      "id": 6334,
+      "accent": "осложне́ние",
+      "part": "名词·中性",
+      "meaning": "复杂化；困难；并发症",
+      "perfective": "",
+      "note": "并发症为医学义。",
+      "stage": 3,
+      "original": {
+        "word": "осложнение",
+        "part_of_speech": "中",
+        "meaning_zh": "复杂化, 使发生困难",
+        "source_page": 134,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "осложнение",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6336,
+      "accent": "осма́триваться",
+      "part": "动词·未完成体",
+      "meaning": "环顾；向四周张望；察看周围情况",
+      "perfective": "осмотре́ться",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "осматриваться",
+        "part_of_speech": "未",
+        "meaning_zh": "‚- , - 完环顾, 向四处张望",
+        "source_page": 134,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "осматриваться",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6337,
+      "accent": "осмо́тр",
+      "part": "名词·阳性",
+      "meaning": "察看；检查；参观",
+      "perfective": "",
+      "note": "如身体检查或察看现场。",
+      "stage": 2,
+      "original": {
+        "word": "осмотр",
+        "part_of_speech": "阳",
+        "meaning_zh": "察看, 检查, 参观",
+        "source_page": 134,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "осмотр",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6338,
+      "accent": "основа́тельный",
+      "part": "形容词",
+      "meaning": "有充分根据的；扎实的；严谨的；彻底的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "основательный",
+        "part_of_speech": "形",
+        "meaning_zh": "参有充分",
+        "source_page": 134,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "основательный",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=134",
+        "恢复有充分根据及严谨踏实义。"
+      ]
+    },
+    {
+      "id": 6339,
+      "accent": "осно́вываться",
+      "part": "动词·未完成体",
+      "meaning": "以某事物为根据；基于",
+      "perfective": "",
+      "note": "на чём；根据状态义不强配完成体。",
+      "stage": 3,
+      "original": {
+        "word": "основываться",
+        "part_of_speech": "未",
+        "meaning_zh": "以某事为根据; 基于",
+        "source_page": 134,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "основываться",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6340,
+      "accent": "особня́к",
+      "part": "名词·阳性",
+      "meaning": "独栋住宅；宅邸；公馆",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "особняк",
+        "part_of_speech": "阳",
+        "meaning_zh": "独家住宅, 公馆, 私邸",
+        "source_page": 135,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "особняк",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6341,
+      "accent": "осознава́ть",
+      "part": "动词·未完成体",
+      "meaning": "认识到；清楚地意识到",
+      "perfective": "осозна́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "осознавать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "认清, 清楚地意识到",
+        "source_page": 135,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "осознавать",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6342,
+      "accent": "остально́й",
+      "part": "形容词",
+      "meaning": "其余的；剩下的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "остальной",
+        "part_of_speech": "形",
+        "meaning_zh": "其余的, 剩下的",
+        "source_page": 135,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "остальной",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6343,
+      "accent": "осторо́жность",
+      "part": "名词·阴性",
+      "meaning": "小心；谨慎",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "осторожность",
+        "part_of_speech": "阴",
+        "meaning_zh": "小, 谨慎",
+        "source_page": 135,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "осторожность",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6344,
+      "accent": "осторо́жный",
+      "part": "形容词",
+      "meaning": "小心的；谨慎的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "осторожный",
+        "part_of_speech": "形",
+        "meaning_zh": "小的, 谨慎的",
+        "source_page": 135,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "осторожный",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6345,
+      "accent": "остроу́мный",
+      "part": "形容词",
+      "meaning": "机智的；诙谐的；巧妙的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "остроумный",
+        "part_of_speech": "形",
+        "meaning_zh": "巧妙的, 机智的, 灵敏的；俏皮的",
+        "source_page": 135,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "остроумный",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6346,
+      "accent": "острота́",
+      "part": "名词·阴性",
+      "meaning": "锋利；敏锐；尖锐性；强烈程度",
+      "perfective": "",
+      "note": "остро́та重音在о时指俏皮话，不混入本条核心义。",
+      "stage": 3,
+      "original": {
+        "word": "острота",
+        "part_of_speech": "阴",
+        "meaning_zh": "锋利；尖锐；机智",
+        "source_page": 135,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "острота",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": [
+        "https://gramota.ru/meta/ostrota",
+        "核острота́锋利敏锐与остро́та俏皮话的重音区别；原页135取前者。"
+      ]
+    },
+    {
+      "id": 6347,
+      "accent": "остыва́ть",
+      "part": "动词·未完成体",
+      "meaning": "变凉；冷却；冷淡下来",
+      "perfective": "осты́ть",
+      "note": "可用于温度或热情。",
+      "stage": 2,
+      "original": {
+        "word": "остывать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "变冷, 冷却",
+        "source_page": 135,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "остывать",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6348,
+      "accent": "осуществля́ться",
+      "part": "动词·未完成体",
+      "meaning": "实现；得以实行；得以完成",
+      "perfective": "осуществи́ться",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "осуществляться",
+        "part_of_speech": "未",
+        "meaning_zh": "实现；实行",
+        "source_page": 135,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "осуществляться",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6349,
+      "accent": "отбива́ть",
+      "part": "动词·未完成体",
+      "meaning": "打回；击退；夺回；敲掉；打拍子",
+      "perfective": "отби́ть",
+      "note": "依宾语区分用法。",
+      "stage": 3,
+      "original": {
+        "word": "отбивать",
+        "part_of_speech": "未",
+        "meaning_zh": "完挡回, 打回去",
+        "source_page": 135,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отбивать",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6350,
+      "accent": "отбира́ть",
+      "part": "动词·未完成体",
+      "meaning": "夺走；拿走；没收；挑选",
+      "perfective": "отобра́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "отбирать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "去, 抢去, 占为已有",
+        "source_page": 135,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отбирать",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6351,
+      "accent": "отбыва́ть",
+      "part": "动词·未完成体",
+      "meaning": "出发；离开；服刑；履行规定期限",
+      "perfective": "отбы́ть",
+      "note": "如服满刑期或役期。",
+      "stage": 3,
+      "original": {
+        "word": "отбывать",
+        "part_of_speech": "未",
+        "meaning_zh": "出发；离开；服刑",
+        "source_page": 136,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отбывать",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6352,
+      "accent": "отва́жный",
+      "part": "形容词",
+      "meaning": "勇敢的；无畏的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "отважный",
+        "part_of_speech": "形",
+        "meaning_zh": "勇敢的, 大无畏的",
+        "source_page": 136,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отважный",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6353,
+      "accent": "отверга́ть",
+      "part": "动词·未完成体",
+      "meaning": "拒绝；否认；抛弃；排斥",
+      "perfective": "отве́ргнуть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "отвергать",
+        "part_of_speech": "未",
+        "meaning_zh": "(或 - 卯 ), - 完拒绝, 否欧；抛弃, 排斥",
+        "source_page": 136,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отвергать",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6354,
+      "accent": "отве́тный",
+      "part": "形容词",
+      "meaning": "答复的；回应的；回报的",
+      "perfective": "",
+      "note": "如回信、回访。",
+      "stage": 3,
+      "original": {
+        "word": "ответный",
+        "part_of_speech": "形",
+        "meaning_zh": "回答的, 答复的",
+        "source_page": 136,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ответный",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6355,
+      "accent": "отвлека́ть",
+      "part": "动词·未完成体",
+      "meaning": "分散注意力；使转移；使脱离",
+      "perfective": "отвле́чь",
+      "note": "кого от чего。",
+      "stage": 2,
+      "original": {
+        "word": "отвлекать",
+        "part_of_speech": "未",
+        "meaning_zh": "(- ,- ) 完引诱开, 易引开",
+        "source_page": 136,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отвлекать",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6356,
+      "accent": "отвлека́ться",
+      "part": "动词·未完成体",
+      "meaning": "分心；转移注意力；暂时离开某事",
+      "perfective": "отвле́чься",
+      "note": "от чего；不把反身动词译为使别人分心。",
+      "stage": 2,
+      "original": {
+        "word": "отвлекаться",
+        "part_of_speech": "未",
+        "meaning_zh": "完吸引开；诱使离开；丢下 (工作 、 念头等)",
+        "source_page": 136,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отвлекаться",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6357,
+      "accent": "отворя́ть",
+      "part": "动词·未完成体",
+      "meaning": "打开；开启",
+      "perfective": "отвори́ть",
+      "note": "多指门窗。",
+      "stage": 3,
+      "original": {
+        "word": "отворять",
+        "part_of_speech": "未",
+        "meaning_zh": "完打开",
+        "source_page": 137,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отворять",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6358,
+      "accent": "отвраще́ние",
+      "part": "名词·中性",
+      "meaning": "厌恶；反感；憎恶",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "отвращение",
+        "part_of_speech": "中",
+        "meaning_zh": "厌恶, 讨厉",
+        "source_page": 137,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отвращение",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6359,
+      "accent": "отда́ча",
+      "part": "名词·阴性",
+      "meaning": "交出；归还；回报；效益；后坐力",
+      "perfective": "",
+      "note": "с по́лной отда́чей指全力以赴，不能单独等同献身精神。",
+      "stage": 3,
+      "original": {
+        "word": "отдача",
+        "part_of_speech": "阴",
+        "meaning_zh": "效益, 贡献, 献身精神",
+        "source_page": 137,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отдача",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6360,
+      "accent": "отзы́вчивый",
+      "part": "形容词",
+      "meaning": "乐于助人的；富有同情心的；反应敏锐的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "отзывчивый",
+        "part_of_speech": null,
+        "meaning_zh": "富有同情的, 有求必应的",
+        "source_page": 137,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отзывчивый",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6361,
+      "accent": "откры́тость",
+      "part": "名词·阴性",
+      "meaning": "开放；坦率；公开性",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "открытость",
+        "part_of_speech": "阴",
+        "meaning_zh": "坦率, 真诚；(政治) 开放",
+        "source_page": 138,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "открытость",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6362,
+      "accent": "отку́да-нибудь",
+      "part": "副词",
+      "meaning": "从某个地方；从随便什么地方",
+      "perfective": "",
+      "note": "不定地点，不要求说话人知道具体地点。",
+      "stage": 2,
+      "original": {
+        "word": "откуда-нибудь",
+        "part_of_speech": "副",
+        "meaning_zh": "从随便什么地方, 不管从哪里",
+        "source_page": 138,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "откуда-нибудь",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6363,
+      "accent": "отку́да-то",
+      "part": "副词",
+      "meaning": "从某处；不知从哪里",
+      "perfective": "",
+      "note": "保留已经纠正的哪里，不恢复OCR旧错。",
+      "stage": 2,
+      "original": {
+        "word": "откуда-то",
+        "part_of_speech": "副",
+        "meaning_zh": "不知从哪里, 从某处",
+        "source_page": 138,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "откуда-то",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6364,
+      "accent": "отлича́ть",
+      "part": "动词·未完成体",
+      "meaning": "区分；辨别；识别；使有别于",
+      "perfective": "отличи́ть",
+      "note": "кого-что от кого-чего。",
+      "stage": 2,
+      "original": {
+        "word": "отличать",
+        "part_of_speech": "未",
+        "meaning_zh": "故 (- , - ) 完认别, 辨别；区分 (开)",
+        "source_page": 138,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отличать",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6365,
+      "accent": "отличи́тельный",
+      "part": "形容词",
+      "meaning": "有区别作用的；特有的；显著的",
+      "perfective": "",
+      "note": "如отличи́тельная черта́独有特征。",
+      "stage": 3,
+      "original": {
+        "word": "отличительный",
+        "part_of_speech": "形",
+        "meaning_zh": "显示出区别的, 识别的；特别的",
+        "source_page": 138,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отличительный",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6366,
+      "accent": "отма́хиваться",
+      "part": "动词·未完成体",
+      "meaning": "挥手挡开；挥开；不予理会",
+      "perfective": "отмахну́ться",
+      "note": "от кого-чего。",
+      "stage": 3,
+      "original": {
+        "word": "отмахиваться",
+        "part_of_speech": "未",
+        "meaning_zh": "挥手挡开；不理会",
+        "source_page": 138,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отмахиваться",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6367,
+      "accent": "отопле́ние",
+      "part": "名词·中性",
+      "meaning": "供暖；取暖；供暖设备",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "отопление",
+        "part_of_speech": "中",
+        "meaning_zh": "集中供暖 . 一排 (组) 睡气片",
+        "source_page": 139,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отопление",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=139",
+        "供暖与供暖装置是词义，暖气片是具体例句。"
+      ]
+    },
+    {
+      "id": 6368,
+      "accent": "отпеча́ток",
+      "part": "名词·阳性",
+      "meaning": "印痕；印迹；留下的痕迹",
+      "perfective": "",
+      "note": "отпеча́тки па́льцев才特指指纹。",
+      "stage": 3,
+      "original": {
+        "word": "отпечаток",
+        "part_of_speech": "阳",
+        "meaning_zh": "指纹, 指印",
+        "source_page": 139,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отпечаток",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=139",
+        "核心义痕迹印痕，指纹仅为例句。"
+      ]
+    },
+    {
+      "id": 6369,
+      "accent": "отправле́ние",
+      "part": "名词·中性",
+      "meaning": "发送；寄出；出发；发车；邮件",
+      "perfective": "",
+      "note": "邮件义常见于почто́вое отправле́ние。",
+      "stage": 3,
+      "original": {
+        "word": "отправление",
+        "part_of_speech": "中",
+        "meaning_zh": "派, 寄, 出发；开动",
+        "source_page": 139,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отправление",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6370,
+      "accent": "отраже́ние",
+      "part": "名词·中性",
+      "meaning": "反射；映像；反映；击退",
+      "perfective": "",
+      "note": "如镜中映像、对现实的反映或击退进攻。",
+      "stage": 3,
+      "original": {
+        "word": "отражение",
+        "part_of_speech": "中",
+        "meaning_zh": "反射；反映",
+        "source_page": 139,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отражение",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6371,
+      "accent": "отры́вок",
+      "part": "名词·阳性",
+      "meaning": "片段；节选；摘录",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "отрывок",
+        "part_of_speech": "阳",
+        "meaning_zh": "段, 片段, 摘录",
+        "source_page": 139,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отрывок",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    },
+    {
+      "id": 6372,
+      "accent": "отста́вка",
+      "part": "名词·阴性",
+      "meaning": "辞职；退职；退役",
+      "perfective": "",
+      "note": "如пода́ть в отста́вку提出辞职。",
+      "stage": 3,
+      "original": {
+        "word": "отставка",
+        "part_of_speech": "阴",
+        "meaning_zh": "退职, 退休, 退伍",
+        "source_page": 139,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "отставка",
+      "method": "2026-09-10 当前助手逐词核对俄文、重音、中文核心义与动词体；6335例句伪条另按原页归档。",
+      "evidence": []
+    }
+  ]
+}
