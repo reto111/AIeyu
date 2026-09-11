@@ -1,0 +1,893 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 7194,
+      "accent": "угнета́ть",
+      "part": "动词·未完成体",
+      "meaning": "压迫；使苦恼；抑制",
+      "perfective": "",
+      "note": "不将罕见完成体强配所有状态义。",
+      "stage": 3,
+      "original": {
+        "word": "угнетать",
+        "part_of_speech": "未",
+        "meaning_zh": "压迫；使苦恼",
+        "source_page": 250,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "угнетать",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=250",
+        "原书列罕见完成体угнести，常用持续压迫义不强配。"
+      ]
+    },
+    {
+      "id": 7195,
+      "accent": "угнете́ние",
+      "part": "名词·中性",
+      "meaning": "压迫；压抑；抑制",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "угнетение",
+        "part_of_speech": "中",
+        "meaning_zh": "压迫",
+        "source_page": 250,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "угнетение",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7196,
+      "accent": "у́гольный",
+      "part": "形容词",
+      "meaning": "煤的；煤炭的；炭的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "угольный",
+        "part_of_speech": "形",
+        "meaning_zh": "煤的",
+        "source_page": 250,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "угольный",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7197,
+      "accent": "ударе́ние",
+      "part": "名词·中性",
+      "meaning": "重音；重音符号；强调",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "ударение",
+        "part_of_speech": "中",
+        "meaning_zh": "重音；重音符号",
+        "source_page": 250,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ударение",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7198,
+      "accent": "уда́рный",
+      "part": "形容词",
+      "meaning": "打击的；冲击的；重读的；突击的",
+      "perfective": "",
+      "note": "如打击乐器、重读音节。",
+      "stage": 3,
+      "original": {
+        "word": "ударный",
+        "part_of_speech": "形",
+        "meaning_zh": "怀打的, 敲的, 打击的；冲击的",
+        "source_page": 250,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ударный",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=250",
+        "打击、冲击义，补重读的常用语言学义。"
+      ]
+    },
+    {
+      "id": 7199,
+      "accent": "удаля́ться",
+      "part": "动词·未完成体",
+      "meaning": "离开；走远；远离；被删除",
+      "perfective": "удали́ться",
+      "note": "被删除义是被动用法，需依句子理解。",
+      "stage": 3,
+      "original": {
+        "word": "удаляться",
+        "part_of_speech": "未",
+        "meaning_zh": "‚- ,- 完离开, 离远些；躲开；脱离",
+        "source_page": 251,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "удаляться",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7200,
+      "accent": "удобре́ние",
+      "part": "名词·中性",
+      "meaning": "肥料；施肥",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "удобрение",
+        "part_of_speech": "中",
+        "meaning_zh": "肥料；施肥",
+        "source_page": 251,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "удобрение",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7201,
+      "accent": "удовлетворе́ние",
+      "part": "名词·中性",
+      "meaning": "满足；满意；满足感",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "удовлетворение",
+        "part_of_speech": "中",
+        "meaning_zh": "足, 满意, 称",
+        "source_page": 251,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "удовлетворение",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=251",
+        "满足及满意，恢复残字。"
+      ]
+    },
+    {
+      "id": 7202,
+      "accent": "удостовере́ние",
+      "part": "名词·中性",
+      "meaning": "证件；证明书；证明；确认",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "удостоверение",
+        "part_of_speech": "中",
+        "meaning_zh": "证明书, 证件",
+        "source_page": 251,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "удостоверение",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7203,
+      "accent": "у́дочка",
+      "part": "名词·阴性",
+      "meaning": "钓竿；鱼竿",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "удочка",
+        "part_of_speech": "阴",
+        "meaning_zh": "钓竿；鱼竿",
+        "source_page": 252,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "удочка",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7204,
+      "accent": "узо́р",
+      "part": "名词·阳性",
+      "meaning": "花纹；图案",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "узбр",
+        "part_of_speech": "阳",
+        "meaning_zh": "花纹, 花样, 图案",
+        "source_page": 252,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "узор",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=252",
+        "узо́р，о误成б。"
+      ]
+    },
+    {
+      "id": 7205,
+      "accent": "ука́з",
+      "part": "名词·阳性",
+      "meaning": "法令；政令；敕令",
+      "perfective": "",
+      "note": "常指国家元首等发布的命令。",
+      "stage": 3,
+      "original": {
+        "word": "указ",
+        "part_of_speech": "阳",
+        "meaning_zh": "(国家元首或国家最高权力机关的) 命令",
+        "source_page": 252,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "указ",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7206,
+      "accent": "укла́д",
+      "part": "名词·阳性",
+      "meaning": "生活方式；生活秩序；社会经济结构",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "уклад",
+        "part_of_speech": "阳",
+        "meaning_zh": "生活方式",
+        "source_page": 252,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "уклад",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=252",
+        "生活方式及社会经济结构两义。"
+      ]
+    },
+    {
+      "id": 7207,
+      "accent": "украше́ние",
+      "part": "名词·中性",
+      "meaning": "装饰；装饰品；饰物",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "украшение",
+        "part_of_speech": "中",
+        "meaning_zh": "装饰房间",
+        "source_page": 252,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "украшение",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=252",
+        "装饰及装饰品，不限定房间。"
+      ]
+    },
+    {
+      "id": 7208,
+      "accent": "укрепле́ние",
+      "part": "名词·中性",
+      "meaning": "加固；巩固；加强；防御工事",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "укрепление",
+        "part_of_speech": "中",
+        "meaning_zh": "加固堤岸",
+        "source_page": 252,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "укрепление",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=252",
+        "加固及防御工事两义，不限定堤岸。"
+      ]
+    },
+    {
+      "id": 7209,
+      "accent": "у́личный",
+      "part": "形容词",
+      "meaning": "街道的；街头的；露天的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "уличный",
+        "part_of_speech": "形",
+        "meaning_zh": "街道的",
+        "source_page": 252,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "уличный",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7210,
+      "accent": "улучше́ние",
+      "part": "名词·中性",
+      "meaning": "改善；好转；改进",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "улучшение",
+        "part_of_speech": "中",
+        "meaning_zh": "改善, 好转",
+        "source_page": 253,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "улучшение",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7211,
+      "accent": "уменьше́ние",
+      "part": "名词·中性",
+      "meaning": "减少；缩小；减轻；降低",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "уменьшение",
+        "part_of_speech": "中",
+        "meaning_zh": "喜少, 减轻, 降低",
+        "source_page": 253,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "уменьшение",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=253",
+        "减少不是喜少。"
+      ]
+    },
+    {
+      "id": 7212,
+      "accent": "умножа́ть",
+      "part": "动词·未完成体",
+      "meaning": "乘；增加；扩大",
+      "perfective": "умно́жить",
+      "note": "数学乘法常用что на что。",
+      "stage": 2,
+      "original": {
+        "word": "умножать",
+        "part_of_speech": "未",
+        "meaning_zh": "‚- ,- 完；乘",
+        "source_page": 253,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "умножать",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=253",
+        "乘及增加两义保留，体配умножить。"
+      ]
+    },
+    {
+      "id": 7213,
+      "accent": "универса́м",
+      "part": "名词·阳性",
+      "meaning": "超级市场；自选商店",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "универсам",
+        "part_of_speech": "阳",
+        "meaning_zh": "超级市场, 自选商店",
+        "source_page": 253,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "универсам",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7214,
+      "accent": "уника́льный",
+      "part": "形容词",
+      "meaning": "独一无二的；独特的；罕见的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "уникальный",
+        "part_of_speech": "形",
+        "meaning_zh": "独一无二的, 罕见的",
+        "source_page": 253,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "уникальный",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7215,
+      "accent": "уничтоже́ние",
+      "part": "名词·中性",
+      "meaning": "消灭；毁灭；销毁；清除",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "уничтожение",
+        "part_of_speech": "中",
+        "meaning_zh": "消灭, 歼灭",
+        "source_page": 253,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "уничтожение",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7216,
+      "accent": "упа́док",
+      "part": "名词·阳性",
+      "meaning": "衰落；衰败；衰退；下降",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "упадок",
+        "part_of_speech": "阳",
+        "meaning_zh": "降低, 下降, 衰落, 衰败",
+        "source_page": 253,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "упадок",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7217,
+      "accent": "употребле́ние",
+      "part": "名词·中性",
+      "meaning": "使用；运用；食用；饮用",
+      "perfective": "",
+      "note": "食用饮用取决于宾语。",
+      "stage": 3,
+      "original": {
+        "word": "употребление",
+        "part_of_speech": "中",
+        "meaning_zh": "应用, 利用",
+        "source_page": 254,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "употребление",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7218,
+      "accent": "употребля́ться",
+      "part": "动词·未完成体",
+      "meaning": "被使用；得到应用；供食用或饮用",
+      "perfective": "",
+      "note": "多为被动用法，不强配统一完成体。",
+      "stage": 3,
+      "original": {
+        "word": "употребляться",
+        "part_of_speech": "未",
+        "meaning_zh": "第一 、 二人称不用) - 未使用, 运用；得到应用",
+        "source_page": 254,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "употребляться",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7219,
+      "accent": "управля́ющий",
+      "part": "名词·阳性",
+      "meaning": "经理；主管；管理人",
+      "perfective": "",
+      "note": "名词用法通常接第五格表示管理对象。",
+      "stage": 3,
+      "original": {
+        "word": "управляющий",
+        "part_of_speech": "阳",
+        "meaning_zh": "经理；管理人",
+        "source_page": 254,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "управляющий",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7220,
+      "accent": "упражня́ться",
+      "part": "动词·未完成体",
+      "meaning": "练习；训练",
+      "perfective": "",
+      "note": "常接в或на加第六格，不强配持续活动的完成体。",
+      "stage": 2,
+      "original": {
+        "word": "упражняться",
+        "part_of_speech": "未",
+        "meaning_zh": "( 或 ) 练习",
+        "source_page": 254,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "упражняться",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7221,
+      "accent": "упроща́ть",
+      "part": "动词·未完成体",
+      "meaning": "简化；使容易；使通俗",
+      "perfective": "упрости́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "упрощать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "简化结构",
+        "source_page": 254,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "упрощать",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=254",
+        "动词简化，不限定结构；不保留Ж噪声词性。"
+      ]
+    },
+    {
+      "id": 7222,
+      "accent": "урага́н",
+      "part": "名词·阳性",
+      "meaning": "飓风；暴风",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "ураган",
+        "part_of_speech": "阳",
+        "meaning_zh": "飓风；暴风",
+        "source_page": 255,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ураган",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7223,
+      "accent": "ура́н",
+      "part": "名词·阳性",
+      "meaning": "铀",
+      "perfective": "",
+      "note": "化学元素；大写Ура́н另指天王星。",
+      "stage": 3,
+      "original": {
+        "word": "уран",
+        "part_of_speech": "阳",
+        "meaning_zh": "钿是放射性元素",
+        "source_page": 255,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "уран",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=255",
+        "铀为核心，钿为OCR误读，后半句不是词义。"
+      ]
+    },
+    {
+      "id": 7224,
+      "accent": "урожа́йность",
+      "part": "名词·阴性",
+      "meaning": "单位面积产量；作物产量水平",
+      "perfective": "",
+      "note": "与总收成урожа́й区分。",
+      "stage": 3,
+      "original": {
+        "word": "урожайность",
+        "part_of_speech": "阴",
+        "meaning_zh": "收获量,(农作物的) 产量",
+        "source_page": 255,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "урожайность",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7225,
+      "accent": "усвое́ние",
+      "part": "名词·中性",
+      "meaning": "掌握；领会；吸收；消化",
+      "perfective": "",
+      "note": "知识和食物语境分别理解。",
+      "stage": 3,
+      "original": {
+        "word": "усвоение",
+        "part_of_speech": "中",
+        "meaning_zh": "掌握；记住；消化",
+        "source_page": 255,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "усвоение",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7226,
+      "accent": "усиле́ние",
+      "part": "名词·中性",
+      "meaning": "加强；增强；加大；放大",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "усиление",
+        "part_of_speech": "中",
+        "meaning_zh": "声音放大",
+        "source_page": 255,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "усиление",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=255",
+        "加强、放大，不限定声音。"
+      ]
+    },
+    {
+      "id": 7227,
+      "accent": "ускоре́ние",
+      "part": "名词·中性",
+      "meaning": "加快；加速；加速度",
+      "perfective": "",
+      "note": "加速度为物理量。",
+      "stage": 3,
+      "original": {
+        "word": "ускорение",
+        "part_of_speech": "中",
+        "meaning_zh": "加快工业发展速度加快火车行进速度；(理) : 自由落体加速度",
+        "source_page": 255,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ускорение",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=255",
+        "加速和加速度，去掉两个例句主语。"
+      ]
+    },
+    {
+      "id": 7228,
+      "accent": "усло́вный",
+      "part": "形容词",
+      "meaning": "约定的；有条件的；假定的；象征性的",
+      "perfective": "",
+      "note": "语法中指条件的；缓刑义见усло́вный пригово́р。",
+      "stage": 3,
+      "original": {
+        "word": "условный",
+        "part_of_speech": "形",
+        "meaning_zh": "仁预先约定的；暗中约定的；假定的",
+        "source_page": 255,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "условный",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=255",
+        "三类核心义保留，不只有预先约定。"
+      ]
+    },
+    {
+      "id": 7229,
+      "accent": "усну́ть",
+      "part": "动词·完成体",
+      "meaning": "入睡；睡着；长眠（委婉语）",
+      "perfective": "усыпа́ть",
+      "note": "同义完成体засну́ть，不能作为未完成体配对。",
+      "stage": 2,
+      "original": {
+        "word": "уснуть",
+        "part_of_speech": "完",
+        "meaning_zh": "( ) . 小孩睡着了；逝世, 长眠",
+        "source_page": 256,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "уснуть",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=256",
+        "入睡主要义，逝世为委婉引申；书上同заснуть是同义完成体，非未完成体。"
+      ]
+    },
+    {
+      "id": 7230,
+      "accent": "уста́в",
+      "part": "名词·阳性",
+      "meaning": "章程；规章；条例；条令",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "устав",
+        "part_of_speech": "阳",
+        "meaning_zh": "章程, 规章, 条",
+        "source_page": 256,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "устав",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7231,
+      "accent": "уста́виться",
+      "part": "动词·完成体",
+      "meaning": "盯住；凝视；瞪着看",
+      "perfective": "",
+      "note": "常接на加第四格；凝视持续状态与起始结果应区分。",
+      "stage": 3,
+      "original": {
+        "word": "уставиться",
+        "part_of_speech": "完",
+        "meaning_zh": "盯着, 喇视",
+        "source_page": 256,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "уставиться",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7232,
+      "accent": "уста́лость",
+      "part": "名词·阴性",
+      "meaning": "疲劳；疲倦",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "усталость",
+        "part_of_speech": "阴",
+        "meaning_zh": "疲劳, 疮倦",
+        "source_page": 256,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "усталость",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7233,
+      "accent": "устарева́ть",
+      "part": "动词·未完成体",
+      "meaning": "过时；陈旧；落伍",
+      "perfective": "устаре́ть",
+      "note": "现代学习优先过时义，不当作普通人的衰老。",
+      "stage": 3,
+      "original": {
+        "word": "устаревать",
+        "part_of_speech": "未",
+        "meaning_zh": "‚- 完参变老, 衰老",
+        "source_page": 256,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "устаревать",
+      "method": "2026-09-11 当前助手逐词审核核心义、词性、体与重音，原页250至256核对错误译文、缺义及例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=256",
+        "旧书第一义变老不能取代现代高频过时义，后者本页第二义。"
+      ]
+    }
+  ]
+}

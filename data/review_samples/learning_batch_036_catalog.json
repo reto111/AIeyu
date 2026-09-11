@@ -1,0 +1,1322 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 7133,
+      "accent": "тамо́жня",
+      "part": "名词·阴性",
+      "meaning": "海关",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "таможня",
+        "part_of_speech": "阴",
+        "meaning_zh": "海关",
+        "source_page": 240,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "таможня",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7134,
+      "accent": "тата́рин",
+      "part": "名词·阳性",
+      "meaning": "鞑靼人；塔塔尔族男子",
+      "perfective": "",
+      "note": "阴性тата́рка，复数тата́ры。",
+      "stage": 3,
+      "original": {
+        "word": "птатарин",
+        "part_of_speech": "阳",
+        "meaning_zh": ") 鞑靼人",
+        "source_page": 240,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "татарин",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=240",
+        "тата́рин首字母п是噪声。"
+      ]
+    },
+    {
+      "id": 7135,
+      "accent": "творе́ние",
+      "part": "名词·中性",
+      "meaning": "作品；创造；创作",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "творение",
+        "part_of_speech": "中",
+        "meaning_zh": "作品, 创作",
+        "source_page": 240,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "творение",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7136,
+      "accent": "театра́льный",
+      "part": "形容词",
+      "meaning": "戏剧的；剧院的；装腔作势的",
+      "perfective": "",
+      "note": "末义为比喻。",
+      "stage": 2,
+      "original": {
+        "word": "театральный",
+        "part_of_speech": "形",
+        "meaning_zh": "取戏利的",
+        "source_page": 240,
+        "source_line": "18"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "театральный",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=241",
+        "跨页第二义装腔作势也保留；戏利纠正为戏剧。"
+      ]
+    },
+    {
+      "id": 7137,
+      "accent": "тексти́льный",
+      "part": "形容词",
+      "meaning": "纺织的；纺织品的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "текстильный",
+        "part_of_speech": "形",
+        "meaning_zh": "纺织的",
+        "source_page": 241,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "текстильный",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7138,
+      "accent": "телеба́шня",
+      "part": "名词·阴性",
+      "meaning": "电视塔",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "телебашня",
+        "part_of_speech": "阴",
+        "meaning_zh": "电视塔",
+        "source_page": 241,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "телебашня",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7139,
+      "accent": "телеведу́щий",
+      "part": "名词·阳性",
+      "meaning": "电视节目主持人",
+      "perfective": "",
+      "note": "阴性телеведу́щая。",
+      "stage": 2,
+      "original": {
+        "word": "телеведущий",
+        "part_of_speech": "阳",
+        "meaning_zh": "电视节目主持人故,- ‚- 形电视的",
+        "source_page": 241,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "телеведущий",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=241",
+        "电视的是下一条телевизионный，删除邻条义。"
+      ]
+    },
+    {
+      "id": 7140,
+      "accent": "телезри́тель",
+      "part": "名词·阳性",
+      "meaning": "电视观众",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "телезритель",
+        "part_of_speech": "阳",
+        "meaning_zh": "电视观众",
+        "source_page": 241,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "телезритель",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7141,
+      "accent": "телеско́п",
+      "part": "名词·阳性",
+      "meaning": "望远镜；天文望远镜",
+      "perfective": "",
+      "note": "通常指观测天体的望远镜。",
+      "stage": 3,
+      "original": {
+        "word": "телескоп",
+        "part_of_speech": "阳",
+        "meaning_zh": "望远镜",
+        "source_page": 241,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "телескоп",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7142,
+      "accent": "телефо́нный",
+      "part": "形容词",
+      "meaning": "电话的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "телефонный",
+        "part_of_speech": "形",
+        "meaning_zh": "电话的",
+        "source_page": 241,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "телефонный",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7143,
+      "accent": "темпера́мент",
+      "part": "名词·阳性",
+      "meaning": "气质；性情；热情；活力",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "темперамент",
+        "part_of_speech": "阳",
+        "meaning_zh": "气质, 性情",
+        "source_page": 241,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "темперамент",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7144,
+      "accent": "те́ндер",
+      "part": "名词·阳性",
+      "meaning": "招标；投标；竞标",
+      "perfective": "",
+      "note": "按所指程序或投标行为确定译法。",
+      "stage": 3,
+      "original": {
+        "word": "тендер",
+        "part_of_speech": "阳",
+        "meaning_zh": "投标",
+        "source_page": 241,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "тендер",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7145,
+      "accent": "теплово́й",
+      "part": "形容词",
+      "meaning": "热的；热能的；热力的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "тепловой",
+        "part_of_speech": "形",
+        "meaning_zh": "热 (能) 的；热力的, 热量的",
+        "source_page": 241,
+        "source_line": "18"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "тепловой",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7146,
+      "accent": "терра́са",
+      "part": "名词·阴性",
+      "meaning": "露台；凉台；阶地",
+      "perfective": "",
+      "note": "阶地为地理义。",
+      "stage": 3,
+      "original": {
+        "word": "терраса",
+        "part_of_speech": "阴",
+        "meaning_zh": "凉台",
+        "source_page": 242,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "терраса",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7147,
+      "accent": "терро́р",
+      "part": "名词·阳性",
+      "meaning": "恐怖手段；暴力恐吓；政治暗杀",
+      "perfective": "",
+      "note": "不等于个人情绪上的害怕。",
+      "stage": 3,
+      "original": {
+        "word": "террбр",
+        "part_of_speech": "阳",
+        "meaning_zh": "恐怖, 恐怡手段, 政治暗杀",
+        "source_page": 242,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "террор",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=242",
+        "терро́р末元音о误成б，恐怡为恐怖。"
+      ]
+    },
+    {
+      "id": 7149,
+      "accent": "тест",
+      "part": "名词·阳性",
+      "meaning": "测试；测验；测验题",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "тест",
+        "part_of_speech": "阳",
+        "meaning_zh": "(理) 测试, 测验；测验题",
+        "source_page": 242,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "тест",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7150,
+      "accent": "тесть",
+      "part": "名词·阳性",
+      "meaning": "岳父；妻子的父亲",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "тесть",
+        "part_of_speech": "阳",
+        "meaning_zh": "岳父, 丈人",
+        "source_page": 242,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "тесть",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7151,
+      "accent": "тетра́дка",
+      "part": "名词·阴性",
+      "meaning": "练习本；笔记本",
+      "perfective": "",
+      "note": "тетрадь的指小形式。",
+      "stage": 1,
+      "original": {
+        "word": "тетрадка",
+        "part_of_speech": "阴",
+        "meaning_zh": "练习本",
+        "source_page": 242,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "тетрадка",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7152,
+      "accent": "технологи́ческий",
+      "part": "形容词",
+      "meaning": "工艺的；工艺技术的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "технологический",
+        "part_of_speech": "形",
+        "meaning_zh": "工艺 〔 学)",
+        "source_page": 242,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "технологический",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=242",
+        "形容词工艺的，不是学科名。"
+      ]
+    },
+    {
+      "id": 7153,
+      "accent": "техноло́гия",
+      "part": "名词·阴性",
+      "meaning": "工艺；工艺学；技术；技术流程",
+      "perfective": "",
+      "note": "不限定金属加工或修理。",
+      "stage": 3,
+      "original": {
+        "word": "технолбгия",
+        "part_of_speech": "阴",
+        "meaning_zh": "金属工艺学；修理工艾",
+        "source_page": 242,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "технология",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=242",
+        "техноло́гия，金属与修理是例句限定。"
+      ]
+    },
+    {
+      "id": 7154,
+      "accent": "ткать",
+      "part": "动词·未完成体",
+      "meaning": "织；编织",
+      "perfective": "",
+      "note": "сотка́ть可表示织成，但这里不把派生结果配给全部用法。",
+      "stage": 3,
+      "original": {
+        "word": "ткать",
+        "part_of_speech": "未",
+        "meaning_zh": "或 ) ‚ 未",
+        "source_page": 242,
+        "source_line": "22"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ткать",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=242",
+        "核心义织、编；本页不标完成体，不将织完等派生结果强配全部义。"
+      ]
+    },
+    {
+      "id": 7155,
+      "accent": "тогда́шний",
+      "part": "形容词",
+      "meaning": "当时的；那时候的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "тогдашний",
+        "part_of_speech": "形",
+        "meaning_zh": "那时候的, 当时的",
+        "source_page": 243,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "тогдашний",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7156,
+      "accent": "то́карь",
+      "part": "名词·阳性",
+      "meaning": "车工；车床工人",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "токарь",
+        "part_of_speech": "阳",
+        "meaning_zh": "车工, 旋工",
+        "source_page": 243,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "токарь",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7157,
+      "accent": "толка́ться",
+      "part": "动词·未完成体",
+      "meaning": "推人；互相推挤；挤来挤去",
+      "perfective": "",
+      "note": "толкну́ться表示一次碰撞，不覆盖全部持续动作。",
+      "stage": 3,
+      "original": {
+        "word": "толкаться",
+        "part_of_speech": "未",
+        "meaning_zh": "推人；互相推挤",
+        "source_page": 243,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "толкаться",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7158,
+      "accent": "толкова́ние",
+      "part": "名词·中性",
+      "meaning": "解释；阐释；注释",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "толкование",
+        "part_of_speech": "中",
+        "meaning_zh": "解释, 说明, 注释",
+        "source_page": 243,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "толкование",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7159,
+      "accent": "толкова́ть",
+      "part": "动词·未完成体",
+      "meaning": "解释；阐释；谈论",
+      "perfective": "",
+      "note": "истолкова́ть对应解释义，不覆盖谈论义。",
+      "stage": 3,
+      "original": {
+        "word": "толковать",
+        "part_of_speech": "未",
+        "meaning_zh": "解释；说明；谈论",
+        "source_page": 243,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "толковать",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7160,
+      "accent": "толщина́",
+      "part": "名词·阴性",
+      "meaning": "厚度；粗度",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "толщина",
+        "part_of_speech": "阴",
+        "meaning_zh": "厚度, 粗度",
+        "source_page": 243,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "толщина",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7161,
+      "accent": "то́ненький",
+      "part": "形容词",
+      "meaning": "薄薄的；细细的；纤细的",
+      "perfective": "",
+      "note": "то́нкий的指小形式。",
+      "stage": 2,
+      "original": {
+        "word": "тоненький",
+        "part_of_speech": "形",
+        "meaning_zh": "( 的指小)",
+        "source_page": 243,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "тоненький",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=243",
+        "恢复薄薄的，不能只剩指小语法说明。"
+      ]
+    },
+    {
+      "id": 7162,
+      "accent": "то́пот",
+      "part": "名词·阳性",
+      "meaning": "脚步声；跺脚声；蹄声",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "тбпот",
+        "part_of_speech": "阳",
+        "meaning_zh": "(走 、 跑的) 脚步声, 眷脚声",
+        "source_page": 243,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "топот",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=243",
+        "то́пот恢复о。"
+      ]
+    },
+    {
+      "id": 7163,
+      "accent": "топта́ться",
+      "part": "动词·未完成体",
+      "meaning": "原地踏步；来回挪步；停滞不前",
+      "perfective": "",
+      "note": "末义为比喻。",
+      "stage": 3,
+      "original": {
+        "word": "топтаться",
+        "part_of_speech": "未",
+        "meaning_zh": "(原地) 踏步",
+        "source_page": 243,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "топтаться",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7164,
+      "accent": "торгова́ться",
+      "part": "动词·未完成体",
+      "meaning": "讨价还价；讲价；商谈条件",
+      "perfective": "",
+      "note": "不强配表示商定结果的另一词。",
+      "stage": 3,
+      "original": {
+        "word": "торговаться",
+        "part_of_speech": "未",
+        "meaning_zh": "讨价还价; 同某人讲价",
+        "source_page": 244,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "торговаться",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7165,
+      "accent": "торго́вец",
+      "part": "名词·阳性",
+      "meaning": "商人；买卖人；商贩",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "торговец",
+        "part_of_speech": "阳",
+        "meaning_zh": "私商, 买卖人；(口) 商业工作者",
+        "source_page": 244,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "торговец",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7166,
+      "accent": "торжество́",
+      "part": "名词·中性",
+      "meaning": "庆典；庆祝活动；胜利；凯旋",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "торжество",
+        "part_of_speech": "中",
+        "meaning_zh": "隆重的庆祝, 庆祝会, 纪念会；庆祝典礼；腺庆 (日)",
+        "source_page": 244,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "торжество",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=244",
+        "第二义胜利恢复。"
+      ]
+    },
+    {
+      "id": 7167,
+      "accent": "торт",
+      "part": "名词·阳性",
+      "meaning": "蛋糕",
+      "perfective": "",
+      "note": "复数то́рты，不限定巧克力口味。",
+      "stage": 1,
+      "original": {
+        "word": "торт",
+        "part_of_speech": "阳",
+        "meaning_zh": "巧克力蛋糕",
+        "source_page": 244,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "торт",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=244",
+        "蛋糕不限定巧克力。"
+      ]
+    },
+    {
+      "id": 7168,
+      "accent": "тоскова́ть",
+      "part": "动词·未完成体",
+      "meaning": "忧郁；愁闷；思念；怀念",
+      "perfective": "",
+      "note": "思念常接по加第三格或о加第六格。",
+      "stage": 3,
+      "original": {
+        "word": "тосковать",
+        "part_of_speech": "未",
+        "meaning_zh": "( 或 - ) 忧郁, 忧愁；忧虑, 挂念, 思念, 怀念",
+        "source_page": 244,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "тосковать",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7169,
+      "accent": "то́-то",
+      "part": "语气词",
+      "meaning": "正是如此；问题就在这里；可真是",
+      "perfective": "",
+      "note": "口语中表示强调或回应。",
+      "stage": 3,
+      "original": {
+        "word": "то-то",
+        "part_of_speech": null,
+        "meaning_zh": "语正是如此, 问题就在于此",
+        "source_page": 244,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "то-то",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=244",
+        "то́-то语气词及重音。"
+      ]
+    },
+    {
+      "id": 7170,
+      "accent": "тра́вма",
+      "part": "名词·阴性",
+      "meaning": "外伤；损伤；心理创伤",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "травма",
+        "part_of_speech": "阴",
+        "meaning_zh": "外伤, 损伤",
+        "source_page": 244,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "травма",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7171,
+      "accent": "трактори́ст",
+      "part": "名词·阳性",
+      "meaning": "拖拉机手",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "тракторист",
+        "part_of_speech": "阳",
+        "meaning_zh": "拖拉机手",
+        "source_page": 245,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "тракторист",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7172,
+      "accent": "тра́кторный",
+      "part": "形容词",
+      "meaning": "拖拉机的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "тракторный",
+        "part_of_speech": "形",
+        "meaning_zh": "拖拉机的",
+        "source_page": 245,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "тракторный",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7173,
+      "accent": "транснациона́льный",
+      "part": "形容词",
+      "meaning": "跨国的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "транснациональный",
+        "part_of_speech": "形",
+        "meaning_zh": "跨国公司",
+        "source_page": 245,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "транснациональный",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=245",
+        "形容词跨国的，公司为例句名词。"
+      ]
+    },
+    {
+      "id": 7174,
+      "accent": "тра́нспортный",
+      "part": "形容词",
+      "meaning": "运输的；交通的；运送用的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "транспортный",
+        "part_of_speech": "形",
+        "meaning_zh": "运输的, 运送的",
+        "source_page": 245,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "транспортный",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7175,
+      "accent": "тра́сса",
+      "part": "名词·阴性",
+      "meaning": "线路；路线；公路；赛道",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "трасса",
+        "part_of_speech": "阴",
+        "meaning_zh": "线路, 路线, 航线",
+        "source_page": 245,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "трасса",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7176,
+      "accent": "тре́нер",
+      "part": "名词·阳性",
+      "meaning": "教练；教练员",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "тренер",
+        "part_of_speech": "阳",
+        "meaning_zh": "教练员",
+        "source_page": 245,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "тренер",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7177,
+      "accent": "трибу́на",
+      "part": "名词·阴性",
+      "meaning": "讲台；讲坛；观礼台；看台",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "трибуна",
+        "part_of_speech": "阴",
+        "meaning_zh": "县讲话, 讲坛",
+        "source_page": 246,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "трибуна",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=246",
+        "恢复讲坛和观礼台看台义，不是讲话动词。"
+      ]
+    },
+    {
+      "id": 7178,
+      "accent": "тропа́",
+      "part": "名词·阴性",
+      "meaning": "小路；小径",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "тропа",
+        "part_of_speech": "明",
+        "meaning_zh": "小路, 小径",
+        "source_page": 246,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "тропа",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7179,
+      "accent": "трудолюби́вый",
+      "part": "形容词",
+      "meaning": "勤劳的；热爱劳动的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "трудолюбивый",
+        "part_of_speech": "形",
+        "meaning_zh": "爱劳动的 ‚",
+        "source_page": 246,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "трудолюбивый",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7180,
+      "accent": "тру́женик",
+      "part": "名词·阳性",
+      "meaning": "劳动者；勤劳的人",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "труженик",
+        "part_of_speech": "阳",
+        "meaning_zh": "劳动者；勤劳的人",
+        "source_page": 246,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "труженик",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7181,
+      "accent": "труп",
+      "part": "名词·阳性",
+      "meaning": "尸体",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "труп",
+        "part_of_speech": "阳",
+        "meaning_zh": "尸体, 死尸",
+        "source_page": 246,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "труп",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7182,
+      "accent": "трусы́",
+      "part": "名词·仅复数",
+      "meaning": "内裤；贴身短裤；运动短裤",
+      "perfective": "",
+      "note": "与тру́сы胆小鬼复数重音不同。",
+      "stage": 2,
+      "original": {
+        "word": "трусы",
+        "part_of_speech": "复",
+        "meaning_zh": "(游沟 、 运动 、 贴身穿的) 短裤, 裤祷",
+        "source_page": 246,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "трусы",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=246",
+        "трусы́复数短裤，不是тру́сы胆小鬼。"
+      ]
+    },
+    {
+      "id": 7183,
+      "accent": "тума́нный",
+      "part": "形容词",
+      "meaning": "有雾的；雾蒙蒙的；模糊的；含糊的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "туманный",
+        "part_of_speech": "形",
+        "meaning_zh": "霁的, 烧霁气的",
+        "source_page": 247,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "туманный",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=247",
+        "雾非霁；原第二义含混恢复。"
+      ]
+    },
+    {
+      "id": 7184,
+      "accent": "тур",
+      "part": "名词·阳性",
+      "meaning": "一轮；一个回合；阶段；旅行线路",
+      "perfective": "",
+      "note": "比赛和旅行义按搭配区分。",
+      "stage": 3,
+      "original": {
+        "word": "тур",
+        "part_of_speech": "阳",
+        "meaning_zh": "® (比赛) 一轮, 一局, 一个回合",
+        "source_page": 247,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "тур",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7185,
+      "accent": "Ту́рция",
+      "part": "专有名词·阴性",
+      "meaning": "土耳其",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "Турция",
+        "part_of_speech": "阴",
+        "meaning_zh": "土耳其",
+        "source_page": 247,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "Турция",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7186,
+      "accent": "тушь",
+      "part": "名词·阴性",
+      "meaning": "墨汁；绘图墨水；睫毛膏",
+      "perfective": "",
+      "note": "睫毛膏常称тушь для ресни́ц。",
+      "stage": 3,
+      "original": {
+        "word": "тушь",
+        "part_of_speech": "阴",
+        "meaning_zh": "墨, 墨汁；绘图墨水",
+        "source_page": 248,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "тушь",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7187,
+      "accent": "тя́га",
+      "part": "名词·阴性",
+      "meaning": "牵引力；拉力；推力；通风抽力；强烈向往",
+      "perfective": "",
+      "note": "向往常接к加第三格。",
+      "stage": 3,
+      "original": {
+        "word": "тяга",
+        "part_of_speech": "阴",
+        "meaning_zh": "引力, 牵引 (力)",
+        "source_page": 248,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "тяга",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=248",
+        "牵引及向往两义均保留。"
+      ]
+    },
+    {
+      "id": 7188,
+      "accent": "уби́йство",
+      "part": "名词·中性",
+      "meaning": "杀人；杀害；谋杀",
+      "perfective": "",
+      "note": "故意为例句修饰，核心词不直接限定法律分类。",
+      "stage": 3,
+      "original": {
+        "word": "убийство",
+        "part_of_speech": "中",
+        "meaning_zh": "故意杀人",
+        "source_page": 248,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "убийство",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=248",
+        "杀人核心义，故意只是例句修饰。"
+      ]
+    },
+    {
+      "id": 7189,
+      "accent": "убы́ток",
+      "part": "名词·阳性",
+      "meaning": "亏损；损失",
+      "perfective": "",
+      "note": "без убы́тка才表示不亏本。",
+      "stage": 3,
+      "original": {
+        "word": "убыток",
+        "part_of_speech": "阳",
+        "meaning_zh": "不亏本出售",
+        "source_page": 249,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "убыток",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=249",
+        "亏损损失，原译不亏本出售来自例句，不能反向配义。"
+      ]
+    },
+    {
+      "id": 7190,
+      "accent": "убы́точный",
+      "part": "形容词",
+      "meaning": "亏损的；不盈利的；造成损失的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "убыточный",
+        "part_of_speech": "形",
+        "meaning_zh": "亏本的, 受损失的",
+        "source_page": 249,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "убыточный",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7191,
+      "accent": "увеличе́ние",
+      "part": "名词·中性",
+      "meaning": "增加；增大；扩大；放大",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "увеличение",
+        "part_of_speech": "中",
+        "meaning_zh": "增加, 增大, 加强",
+        "source_page": 249,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "увеличение",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7192,
+      "accent": "увлека́тельный",
+      "part": "形容词",
+      "meaning": "引人入胜的；吸引人的；十分有趣的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "увлекательный",
+        "part_of_speech": "形",
+        "meaning_zh": "吸引人的, 引人人胜的, 极有趣",
+        "source_page": 249,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "увлекательный",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    },
+    {
+      "id": 7193,
+      "accent": "углеро́д",
+      "part": "名词·阳性",
+      "meaning": "碳",
+      "perfective": "",
+      "note": "化学元素。",
+      "stage": 3,
+      "original": {
+        "word": "углерод",
+        "part_of_speech": "阳",
+        "meaning_zh": "碳",
+        "source_page": 250,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "углерод",
+      "method": "2026-09-11 当前助手逐项审核俄中核心义、重音和体；原页240至249核对字母、例句误充词义及邻条污染，跳过已有标注7148。",
+      "evidence": []
+    }
+  ]
+}

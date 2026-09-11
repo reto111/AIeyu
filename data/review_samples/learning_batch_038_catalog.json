@@ -1,0 +1,899 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 7234,
+      "accent": "усто́йчивый",
+      "part": "形容词",
+      "meaning": "稳定的；稳固的；持久的；坚定的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "устойчивый",
+        "part_of_speech": "形",
+        "meaning_zh": "志平稳 (不摇晃) 的, 稳固 (不会倒) 的",
+        "source_page": 256,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "устойчивый",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7235,
+      "accent": "устра́иваться",
+      "part": "动词·未完成体",
+      "meaning": "安排妥当；安顿；安家；找到工作；就位",
+      "perfective": "устро́иться",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "устраиваться",
+        "part_of_speech": "未",
+        "meaning_zh": "‚- ‚- 完口 (第一二人称不用) 安排好, 就绪",
+        "source_page": 256,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "устраиваться",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=256",
+        "保留安排就绪和找到工作、安顿的常用义。"
+      ]
+    },
+    {
+      "id": 7236,
+      "accent": "устраня́ть",
+      "part": "动词·未完成体",
+      "meaning": "排除；消除；去掉；撤除",
+      "perfective": "устрани́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "устранять",
+        "part_of_speech": "未",
+        "meaning_zh": "(- ‚- ) 完参分开, 撒去, 除去, 排除",
+        "source_page": 257,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "устранять",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7237,
+      "accent": "утвержде́ние",
+      "part": "名词·中性",
+      "meaning": "肯定；断言；论断；批准；确立",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "утверждение",
+        "part_of_speech": "中",
+        "meaning_zh": "正确的论点",
+        "source_page": 257,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "утверждение",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=257",
+        "肯定、论断；正确只是例句修饰。补常用批准义。"
+      ]
+    },
+    {
+      "id": 7238,
+      "accent": "утеша́ть",
+      "part": "动词·未完成体",
+      "meaning": "安慰；宽慰；使解忧",
+      "perfective": "уте́шить",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "утешать",
+        "part_of_speech": "未",
+        "meaning_zh": "完安慰；使解忧",
+        "source_page": 257,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "утешать",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7239,
+      "accent": "утю́г",
+      "part": "名词·阳性",
+      "meaning": "熨斗",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "утюг",
+        "part_of_speech": "阳",
+        "meaning_zh": "模斗, 烙铁",
+        "source_page": 257,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "утюг",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=257",
+        "熨斗，不是模斗。"
+      ]
+    },
+    {
+      "id": 7240,
+      "accent": "уха́",
+      "part": "名词·阴性",
+      "meaning": "鱼汤",
+      "perfective": "",
+      "note": "杰米扬的鱼汤是寓言来源习语，不是本词单独含义。",
+      "stage": 2,
+      "original": {
+        "word": "уха",
+        "part_of_speech": "阴",
+        "meaning_zh": "(鲜) 鱼汤吴杰米扬的鱼汤；不知限度地 、 死乞白赖地劝客人吃东西 〔(源自克雷洛夫寓言)",
+        "source_page": 257,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "уха",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=257",
+        "鱼汤为核心，杰米扬鱼汤整句是寓言习语而非单词本义。"
+      ]
+    },
+    {
+      "id": 7241,
+      "accent": "ухо́д",
+      "part": "名词·阳性",
+      "meaning": "离开；离去；护理；照料",
+      "perfective": "",
+      "note": "护理照料常用за加第五格。",
+      "stage": 3,
+      "original": {
+        "word": "уход",
+        "part_of_speech": "阳",
+        "meaning_zh": "离开；护理；照料",
+        "source_page": 257,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "уход",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7242,
+      "accent": "ухудша́ть",
+      "part": "动词·未完成体",
+      "meaning": "使恶化；使变坏",
+      "perfective": "уху́дшить",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "ухудшать",
+        "part_of_speech": "未",
+        "meaning_zh": "使恶化；使变坏",
+        "source_page": 257,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ухудшать",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7243,
+      "accent": "учёт",
+      "part": "名词·阳性",
+      "meaning": "核算；统计；清点；登记；考虑",
+      "perfective": "",
+      "note": "с учётом表示考虑到。",
+      "stage": 3,
+      "original": {
+        "word": "учет",
+        "part_of_speech": "阳",
+        "meaning_zh": "会计核算",
+        "source_page": 258,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "учёт",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=258",
+        "учёт保留ё，核算、登记、考虑三组义项。"
+      ]
+    },
+    {
+      "id": 7244,
+      "accent": "ушиба́ть",
+      "part": "动词·未完成体",
+      "meaning": "碰伤；撞伤；碰疼",
+      "perfective": "ушиби́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "ушибать",
+        "part_of_speech": "未",
+        "meaning_zh": "碰伤；碰疼, 打疼",
+        "source_page": 258,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ушибать",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7245,
+      "accent": "фа́бричный",
+      "part": "形容词",
+      "meaning": "工厂的；工厂制造的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "фабричный",
+        "part_of_speech": "形",
+        "meaning_zh": "工厂商标, 牌子",
+        "source_page": 258,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "фабричный",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=258",
+        "工厂的是形容词义，商标为例句名词。"
+      ]
+    },
+    {
+      "id": 7246,
+      "accent": "фанта́стика",
+      "part": "名词·阴性",
+      "meaning": "幻想；幻想文学；科幻；不可思议的事",
+      "perfective": "",
+      "note": "科幻通常为нау́чная фанта́стика。",
+      "stage": 2,
+      "original": {
+        "word": "фантастика",
+        "part_of_speech": "阴",
+        "meaning_zh": "幻愚, 幻景, 幻境",
+        "source_page": 258,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "фантастика",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7247,
+      "accent": "фарфо́р",
+      "part": "名词·阳性",
+      "meaning": "瓷；瓷器",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "фарфор",
+        "part_of_speech": "阳",
+        "meaning_zh": "瓷器收藏",
+        "source_page": 259,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "фарфор",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=259",
+        "瓷和瓷器，不是收藏动作。"
+      ]
+    },
+    {
+      "id": 7248,
+      "accent": "фарфо́ровый",
+      "part": "形容词",
+      "meaning": "瓷的；瓷器的；瓷制的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "фарфоровый",
+        "part_of_speech": "形",
+        "meaning_zh": "瓷的, 赛器的",
+        "source_page": 259,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "фарфоровый",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7249,
+      "accent": "фасо́ль",
+      "part": "名词·阴性",
+      "meaning": "菜豆；芸豆；四季豆",
+      "perfective": "",
+      "note": "既指植物，也指豆荚、豆粒。",
+      "stage": 2,
+      "original": {
+        "word": "фасбль",
+        "part_of_speech": "阴",
+        "meaning_zh": "四季豆, 芸豆, 菜豆；荷豆角, 菜豆 (指果实)",
+        "source_page": 259,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "фасоль",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=259",
+        "фасо́ль，о误成б。"
+      ]
+    },
+    {
+      "id": 7250,
+      "accent": "февра́льский",
+      "part": "形容词",
+      "meaning": "二月的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "февральский",
+        "part_of_speech": "形",
+        "meaning_zh": "( 年俄国的) 二月革命",
+        "source_page": 259,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "февральский",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=259",
+        "二月的，不是二月革命专名。"
+      ]
+    },
+    {
+      "id": 7251,
+      "accent": "феода́льный",
+      "part": "形容词",
+      "meaning": "封建的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "феодальный",
+        "part_of_speech": "形",
+        "meaning_zh": "封建制度",
+        "source_page": 259,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "феодальный",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=259",
+        "封建的，不是制度名词。"
+      ]
+    },
+    {
+      "id": 7252,
+      "accent": "фе́рмер",
+      "part": "名词·阳性",
+      "meaning": "农场主；经营农场的农民",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "фермер",
+        "part_of_speech": "阳",
+        "meaning_zh": "农场主",
+        "source_page": 259,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "фермер",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7253,
+      "accent": "фигу́рный",
+      "part": "形容词",
+      "meaning": "花样的；有特殊形状的；身材好看的",
+      "perfective": "",
+      "note": "花样滑冰为фигу́рное ката́ние；身材义为口语。",
+      "stage": 3,
+      "original": {
+        "word": "фигурный",
+        "part_of_speech": "形",
+        "meaning_zh": "身材好看的",
+        "source_page": 259,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "фигурный",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7254,
+      "accent": "физиоло́гия",
+      "part": "名词·阴性",
+      "meaning": "生理学；生理机能；生理现象",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "физиолбгия",
+        "part_of_speech": "阴",
+        "meaning_zh": "怀生理学",
+        "source_page": 259,
+        "source_line": "20"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "физиология",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=259",
+        "физиоло́гия，о误成б。"
+      ]
+    },
+    {
+      "id": 7255,
+      "accent": "филиа́л",
+      "part": "名词·阳性",
+      "meaning": "分支机构；分公司；分行；分校",
+      "perfective": "",
+      "note": "具体机构名依语境。",
+      "stage": 3,
+      "original": {
+        "word": "филиал",
+        "part_of_speech": "阴",
+        "meaning_zh": "分支机构 (分厂 、 分店. 分行 、 分院. 分所 、 分校 、 分馆等) 银行分行",
+        "source_page": 260,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "филиал",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=260",
+        "филиа́л阳性，原阴性标注错误。"
+      ]
+    },
+    {
+      "id": 7256,
+      "accent": "филоло́гия",
+      "part": "名词·阴性",
+      "meaning": "语文学；语言文学研究；文献学",
+      "perfective": "",
+      "note": "研究语言与文学及相关文献。",
+      "stage": 3,
+      "original": {
+        "word": "филология",
+        "part_of_speech": "阴",
+        "meaning_zh": "语文学；文献学",
+        "source_page": 260,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "филология",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7257,
+      "accent": "филосо́фский",
+      "part": "形容词",
+      "meaning": "哲学的；哲理的；泰然处之的",
+      "perfective": "",
+      "note": "末义如以达观态度对待事情。",
+      "stage": 3,
+      "original": {
+        "word": "философский",
+        "part_of_speech": "形",
+        "meaning_zh": "哲学的",
+        "source_page": 260,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "философский",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7258,
+      "accent": "фина́л",
+      "part": "名词·阳性",
+      "meaning": "结局；终场；末乐章；决赛",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "финал",
+        "part_of_speech": "阳",
+        "meaning_zh": "悲惨的结局团最后乐章；终场, 未场: 演奏交响乐的最后乐章 (体育运动的) 决赛: 决赛",
+        "source_page": 260,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "финал",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=260",
+        "结局、末乐章及决赛分列，不限定悲惨。"
+      ]
+    },
+    {
+      "id": 7259,
+      "accent": "фи́ниш",
+      "part": "名词·阳性",
+      "meaning": "终点；比赛结束；最后阶段",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "финиш",
+        "part_of_speech": "阳",
+        "meaning_zh": "终点",
+        "source_page": 260,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "финиш",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7260,
+      "accent": "фи́нский",
+      "part": "形容词",
+      "meaning": "芬兰的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "финский",
+        "part_of_speech": "形",
+        "meaning_zh": "芬兰的",
+        "source_page": 261,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "финский",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7261,
+      "accent": "фи́рма",
+      "part": "名词·阴性",
+      "meaning": "公司；商行；商号",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "фирма",
+        "part_of_speech": "阴",
+        "meaning_zh": "商号, 商行",
+        "source_page": 261,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "фирма",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7262,
+      "accent": "фло́тский",
+      "part": "形容词",
+      "meaning": "海军的；舰队的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "флотский",
+        "part_of_speech": "形",
+        "meaning_zh": "海军的, 舰队的",
+        "source_page": 261,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "флотский",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7263,
+      "accent": "фо́кус",
+      "part": "名词·阳性",
+      "meaning": "焦点；中心；魔术；花招",
+      "perfective": "",
+      "note": "焦点义与魔术义为同形同重音词；焦距通常说фо́кусное расстоя́ние。",
+      "stage": 3,
+      "original": {
+        "word": "фбкус",
+        "part_of_speech": "阴",
+        "meaning_zh": "焦点, 焦距；焦点, 中",
+        "source_page": 261,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "фокус",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=261",
+        "фо́кус词头和阳性恢复；焦距严格说为фокусное расстояние，不泛等同焦点。"
+      ]
+    },
+    {
+      "id": 7264,
+      "accent": "фонд",
+      "part": "名词·阳性",
+      "meaning": "基金；基金会；储备；藏品总量",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "фонд",
+        "part_of_speech": "阳",
+        "meaning_zh": "基金；基金会",
+        "source_page": 261,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "фонд",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7265,
+      "accent": "форма́льный",
+      "part": "形容词",
+      "meaning": "形式的；正式的；表面的；形式主义的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "формальный",
+        "part_of_speech": "形",
+        "meaning_zh": "形式主义的",
+        "source_page": 261,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "формальный",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=261",
+        "形式的、正式的与形式主义三义都保留。"
+      ]
+    },
+    {
+      "id": 7266,
+      "accent": "формирова́ние",
+      "part": "名词·中性",
+      "meaning": "形成；组建；编成；编制单位",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "формирование",
+        "part_of_speech": "中",
+        "meaning_zh": "生成, 编成, 形成",
+        "source_page": 261,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "формирование",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7267,
+      "accent": "формирова́ть",
+      "part": "动词·未完成体",
+      "meaning": "形成；塑造；组织；组建",
+      "perfective": "сформирова́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "формировать",
+        "part_of_speech": "未",
+        "meaning_zh": "形成性格",
+        "source_page": 261,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "формировать",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=261",
+        "形成、组建，不限定性格。"
+      ]
+    },
+    {
+      "id": 7268,
+      "accent": "фо́рмула",
+      "part": "名词·阴性",
+      "meaning": "公式；化学式；简明表述；定义",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "формула",
+        "part_of_speech": "阴",
+        "meaning_zh": "取一般性定义, 普道性定义",
+        "source_page": 261,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "формула",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=261",
+        "公式为第二义，不能只剩一般性定义。"
+      ]
+    },
+    {
+      "id": 7269,
+      "accent": "фо́рум",
+      "part": "名词·阳性",
+      "meaning": "论坛；讨论会；网络论坛",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "форум",
+        "part_of_speech": "阳",
+        "meaning_zh": "论坛",
+        "source_page": 262,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "форум",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7270,
+      "accent": "фото́граф",
+      "part": "名词·阳性",
+      "meaning": "摄影师；摄影家",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "фотбграф",
+        "part_of_speech": "阳",
+        "meaning_zh": "摄影家, 摄影师",
+        "source_page": 262,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "фотограф",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=262",
+        "фото́граф，о误成б。"
+      ]
+    },
+    {
+      "id": 7271,
+      "accent": "фотока́рточка",
+      "part": "名词·阴性",
+      "meaning": "照片；相片",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "фотокарточка",
+        "part_of_speech": "阴",
+        "meaning_zh": "照片, 相片",
+        "source_page": 262,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "фотокарточка",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7272,
+      "accent": "Фра́нция",
+      "part": "专有名词·阴性",
+      "meaning": "法国",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "Франция",
+        "part_of_speech": "阴",
+        "meaning_zh": "法国",
+        "source_page": 262,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "Франция",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": []
+    },
+    {
+      "id": 7273,
+      "accent": "фу",
+      "part": "感叹词",
+      "meaning": "呸；哎呀；唉",
+      "perfective": "",
+      "note": "表示厌恶、轻蔑、责备或松一口气，随语气解释。",
+      "stage": 2,
+      "original": {
+        "word": "фу",
+        "part_of_speech": "叹",
+        "meaning_zh": "唉, 暮, 喝, 咳, 和 (表示责备 、 遗鳢 、 轻蔑 、 厉恶等感情)",
+        "source_page": 262,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "фу",
+      "method": "2026-09-11 当前助手逐词审俄中核心义、重音、词性及体；PDF256至262确认错字、缺义和例句污染。",
+      "evidence": []
+    }
+  ]
+}
