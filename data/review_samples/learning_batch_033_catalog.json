@@ -1,0 +1,1307 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 6973,
+      "accent": "сковоро́дка",
+      "part": "名词·阴性",
+      "meaning": "煎锅；平底锅",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "сковорбдка",
+        "part_of_speech": "阴",
+        "meaning_zh": "(平底) 煎锅",
+        "source_page": 220,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сковородка",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=220",
+        "сковоро́дка，о误成б。"
+      ]
+    },
+    {
+      "id": 6974,
+      "accent": "ско́лько-нибудь",
+      "part": "副词／不定数量词",
+      "meaning": "一些；多少；哪怕一点",
+      "perfective": "",
+      "note": "数量不确定，具体译法随句子变化。",
+      "stage": 3,
+      "original": {
+        "word": "сколько-нибудь",
+        "part_of_speech": "剖",
+        "meaning_zh": "随便多少, 不论多少, 一些",
+        "source_page": 220,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сколько-нибудь",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 6975,
+      "accent": "ско́рбный",
+      "part": "形容词",
+      "meaning": "悲痛的；悲哀的；哀悼的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "скорбный",
+        "part_of_speech": "形",
+        "meaning_zh": "悲伤的, 悲哀的, 哀痛的；哀悼的",
+        "source_page": 220,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "скорбный",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 6976,
+      "accent": "скорбь",
+      "part": "名词·阴性",
+      "meaning": "悲痛；悲哀；哀悼",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "скорбь",
+        "part_of_speech": "阴",
+        "meaning_zh": "悲痛, 悲伤；哀悼",
+        "source_page": 220,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "скорбь",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 6977,
+      "accent": "скрипа́ч",
+      "part": "名词·阳性",
+      "meaning": "小提琴手；小提琴家",
+      "perfective": "",
+      "note": "阴性对应скрипа́чка。",
+      "stage": 2,
+      "original": {
+        "word": "скрипач",
+        "part_of_speech": "Н скрипачка",
+        "meaning_zh": "小提琴手, 小提琴家",
+        "source_page": 220,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "скрипач",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=220",
+        "阳性名词；阴性对应скрипачка不混入词性。"
+      ]
+    },
+    {
+      "id": 6978,
+      "accent": "скры́тый",
+      "part": "形容词／过去被动形动词",
+      "meaning": "隐藏的；隐蔽的；潜在的；暗含的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "скрытый",
+        "part_of_speech": "形",
+        "meaning_zh": "取暗藏的, 隐蔽的；暗含的",
+        "source_page": 220,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "скрытый",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 6979,
+      "accent": "ску́льптор",
+      "part": "名词·阳性",
+      "meaning": "雕塑家；雕刻家",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "скульптор",
+        "part_of_speech": "阳",
+        "meaning_zh": "雕塑家, 雕刻家",
+        "source_page": 220,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "скульптор",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 6980,
+      "accent": "скульпту́рный",
+      "part": "形容词",
+      "meaning": "雕塑的；雕刻的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "скульптурный",
+        "part_of_speech": "形",
+        "meaning_zh": "雕塑的",
+        "source_page": 220,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "скульптурный",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 6981,
+      "accent": "слайд",
+      "part": "名词·阳性",
+      "meaning": "幻灯片；演示文稿中的一页",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "слайд",
+        "part_of_speech": "阳",
+        "meaning_zh": "放映幻灯片",
+        "source_page": 221,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "слайд",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=221",
+        "幻灯片名词，不是放映动词。"
+      ]
+    },
+    {
+      "id": 6982,
+      "accent": "слеза́ть",
+      "part": "动词·未完成体",
+      "meaning": "爬下来；下来；下车",
+      "perfective": "слезть",
+      "note": "下车为口语用法。",
+      "stage": 3,
+      "original": {
+        "word": "слезать",
+        "part_of_speech": "未",
+        "meaning_zh": "爬下来；下来",
+        "source_page": 221,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "слезать",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 6983,
+      "accent": "сли́ва",
+      "part": "名词·阴性",
+      "meaning": "李子；李树",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "слива",
+        "part_of_speech": "阴",
+        "meaning_zh": "李树；李子",
+        "source_page": 221,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "слива",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 6984,
+      "accent": "слива́ться",
+      "part": "动词·未完成体",
+      "meaning": "合流；汇合；融合；融为一体",
+      "perfective": "сли́ться",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "сливаться",
+        "part_of_speech": "未",
+        "meaning_zh": "合流；融合；汇合",
+        "source_page": 221,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сливаться",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 6985,
+      "accent": "Слова́кия",
+      "part": "专有名词·阴性",
+      "meaning": "斯洛伐克",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "Словакия",
+        "part_of_speech": "阴",
+        "meaning_zh": "斯洛伐克",
+        "source_page": 221,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "Словакия",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 6986,
+      "accent": "слова́цкий",
+      "part": "形容词",
+      "meaning": "斯洛伐克的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "словацкий",
+        "part_of_speech": "形",
+        "meaning_zh": "斯洛伐克的",
+        "source_page": 221,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "словацкий",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 6987,
+      "accent": "сло́вом",
+      "part": "插入语",
+      "meaning": "总之；简而言之",
+      "perfective": "",
+      "note": "不是整个例句问题解决了。",
+      "stage": 2,
+      "original": {
+        "word": "словом",
+        "part_of_speech": "插",
+        "meaning_zh": "‚ . 总而言之, 问题解决了",
+        "source_page": 221,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "словом",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=221",
+        "问题解决了为例句残留，插入语总之。"
+      ]
+    },
+    {
+      "id": 6988,
+      "accent": "словосочета́ние",
+      "part": "名词·中性",
+      "meaning": "词组；短语",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "словосочетание",
+        "part_of_speech": "中",
+        "meaning_zh": "词组",
+        "source_page": 221,
+        "source_line": "18"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "словосочетание",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 6989,
+      "accent": "сложе́ние",
+      "part": "名词·中性",
+      "meaning": "加法；相加；构成；体格；卸任",
+      "perfective": "",
+      "note": "卸任义常见сложе́ние полномо́чий。",
+      "stage": 3,
+      "original": {
+        "word": "сложение",
+        "part_of_speech": "中",
+        "meaning_zh": "加法",
+        "source_page": 222,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сложение",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=222",
+        "原加法义保留，补常用构成、体格等核心义。"
+      ]
+    },
+    {
+      "id": 6990,
+      "accent": "сло́жность",
+      "part": "名词·阴性",
+      "meaning": "复杂性；难度；困难",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "сложность",
+        "part_of_speech": "阴",
+        "meaning_zh": "情况的复杂性",
+        "source_page": 222,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сложность",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=222",
+        "情况为例句修饰语，不限定复杂性。"
+      ]
+    },
+    {
+      "id": 6991,
+      "accent": "слон",
+      "part": "名词·阳性",
+      "meaning": "象；国际象棋中的象",
+      "perfective": "",
+      "note": "де́лать из му́хи слона́才表示小题大做。",
+      "stage": 2,
+      "original": {
+        "word": "слон",
+        "part_of_speech": "阳",
+        "meaning_zh": "非洲象小题大作",
+        "source_page": 222,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "слон",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=222",
+        "原条象，非洲象和小题大作为两个例句，不混成释义。"
+      ]
+    },
+    {
+      "id": 6992,
+      "accent": "слуга́",
+      "part": "名词·阳性",
+      "meaning": "仆人；仆役；为某人或某事效劳的人",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "слуга",
+        "part_of_speech": "阳",
+        "meaning_zh": "从人, 仆役, 听差",
+        "source_page": 222,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "слуга",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 6993,
+      "accent": "сменя́ться",
+      "part": "动词·未完成体",
+      "meaning": "更换；被接替；交替；互换",
+      "perfective": "смени́ться",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "сменяться",
+        "part_of_speech": "未",
+        "meaning_zh": "‚ - 完交换, 互换",
+        "source_page": 222,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сменяться",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=222",
+        "сменя́ться未完成体，смениться完成体。"
+      ]
+    },
+    {
+      "id": 6994,
+      "accent": "сму́глый",
+      "part": "形容词",
+      "meaning": "肤色黝黑的；皮肤浅褐色的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "смуглый",
+        "part_of_speech": "形",
+        "meaning_zh": "(皮肤) 默黑的, 淡褐色的",
+        "source_page": 223,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "смуглый",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 6995,
+      "accent": "сму́тный",
+      "part": "形容词",
+      "meaning": "模糊的；不清楚的；令人不安的；动荡的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "смутный",
+        "part_of_speech": "形",
+        "meaning_zh": "不清晰的, 模糊的；› і 模糊的印象",
+        "source_page": 223,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "смутный",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 6996,
+      "accent": "смуща́ть",
+      "part": "动词·未完成体",
+      "meaning": "使窘迫；使不好意思；使困惑；使不安",
+      "perfective": "смути́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "смущать",
+        "part_of_speech": "未",
+        "meaning_zh": "_ (- , - ) 完使发家, 使不好意思",
+        "source_page": 223,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "смущать",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=223",
+        "使发窘非发家。"
+      ]
+    },
+    {
+      "id": 6997,
+      "accent": "смуще́ние",
+      "part": "名词·中性",
+      "meaning": "窘迫；难为情；困惑；不安",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "смущение",
+        "part_of_speech": "中",
+        "meaning_zh": "发窖, 不好意思, 难为情",
+        "source_page": 223,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "смущение",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=223",
+        "发窘非发窖。"
+      ]
+    },
+    {
+      "id": 6998,
+      "accent": "смыва́ть",
+      "part": "动词·未完成体",
+      "meaning": "洗掉；冲掉；冲走",
+      "perfective": "смыть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "смывать",
+        "part_of_speech": "未",
+        "meaning_zh": "洗掉；冲掉；冲走",
+        "source_page": 223,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "смывать",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 6999,
+      "accent": "смыка́ться",
+      "part": "动词·未完成体",
+      "meaning": "合拢；闭合；紧接在一起",
+      "perfective": "сомкну́ться",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "смыкаться",
+        "part_of_speech": "完",
+        "meaning_zh": "第一 、 二人称不用) - ‚ - 完合拢；(眼睛) 合上, 闭上",
+        "source_page": 223,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "смыкаться",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=223",
+        "смыкаться未完成体，сомкнуться完成体。"
+      ]
+    },
+    {
+      "id": 7000,
+      "accent": "снабжа́ть",
+      "part": "动词·未完成体",
+      "meaning": "供应；供给；提供；配备；附加",
+      "perfective": "снабди́ть",
+      "note": "кого-что чем，给谁或什么提供某物。",
+      "stage": 3,
+      "original": {
+        "word": "снабжать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "供给, 供应, 提供；补充, 增补；附加",
+        "source_page": 223,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "снабжать",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=223",
+        "动词未完成体，不是误识别的性别字母Ж。"
+      ]
+    },
+    {
+      "id": 7001,
+      "accent": "снабже́ние",
+      "part": "名词·中性",
+      "meaning": "供应；供给；补给",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "снабжение",
+        "part_of_speech": "中",
+        "meaning_zh": "供给, 供应, 补给",
+        "source_page": 223,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "снабжение",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 7002,
+      "accent": "снижа́ть",
+      "part": "动词·未完成体",
+      "meaning": "降低；减少；减弱",
+      "perfective": "сни́зить",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "снижать",
+        "part_of_speech": "未",
+        "meaning_zh": "完降低；准少, 准弼",
+        "source_page": 224,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "снижать",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 7003,
+      "accent": "сниже́ние",
+      "part": "名词·中性",
+      "meaning": "降低；下降；减少",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "снижение",
+        "part_of_speech": "中",
+        "meaning_zh": "降低, 净少",
+        "source_page": 224,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "снижение",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 7004,
+      "accent": "снима́ться",
+      "part": "动词·未完成体",
+      "meaning": "拍照；出演影视作品；被取下；离开驻地",
+      "perfective": "сня́ться",
+      "note": "拍照义指本人入镜，不是给别人拍照。",
+      "stage": 3,
+      "original": {
+        "word": "сниматься",
+        "part_of_speech": "未",
+        "meaning_zh": "完拍照；(担任某一角色) 演电影 (电视片)",
+        "source_page": 224,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сниматься",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 7005,
+      "accent": "снисходи́тельный",
+      "part": "形容词",
+      "meaning": "宽容的；体谅的；姑息的；居高临下的",
+      "perfective": "",
+      "note": "评价褒贬由语境决定。",
+      "stage": 3,
+      "original": {
+        "word": "снисходительный",
+        "part_of_speech": "形",
+        "meaning_zh": "宽容的, 宽大的；体谅的, 姑息的",
+        "source_page": 224,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "снисходительный",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 7006,
+      "accent": "сни́ться",
+      "part": "动词·未完成体",
+      "meaning": "出现在梦中；被梦见",
+      "perfective": "присни́ться",
+      "note": "кому表示谁梦见，主语是梦中的人或事。",
+      "stage": 2,
+      "original": {
+        "word": "сниться",
+        "part_of_speech": "未",
+        "meaning_zh": "完作梦, 梦见",
+        "source_page": 224,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сниться",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=224",
+        "кому梦见；语法主语为梦中出现的事物。"
+      ]
+    },
+    {
+      "id": 7007,
+      "accent": "сноха́",
+      "part": "名词·阴性",
+      "meaning": "儿媳妇",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "сноха",
+        "part_of_speech": "阴",
+        "meaning_zh": "儿媳妇",
+        "source_page": 224,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сноха",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 7008,
+      "accent": "соа́втор",
+      "part": "名词·阳性",
+      "meaning": "合著者；共同创作者",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "соавтор",
+        "part_of_speech": "阳",
+        "meaning_zh": "合著者；共同创作者",
+        "source_page": 224,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "соавтор",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 7009,
+      "accent": "соблюде́ние",
+      "part": "名词·中性",
+      "meaning": "遵守；奉行；保持",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "соблюдение",
+        "part_of_speech": "中",
+        "meaning_zh": "傅遵守；奉行",
+        "source_page": 224,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "соблюдение",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 7010,
+      "accent": "собо́р",
+      "part": "名词·阳性",
+      "meaning": "大教堂；主教座堂；宗教会议；代表会议",
+      "perfective": "",
+      "note": "代表会议义主要见历史名称。",
+      "stage": 3,
+      "original": {
+        "word": "соббр",
+        "part_of_speech": "阳",
+        "meaning_zh": "大教堂, 大礼拜堂",
+        "source_page": 224,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "собор",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=224",
+        "собо́р，о误成б。"
+      ]
+    },
+    {
+      "id": 7011,
+      "accent": "со́бственник",
+      "part": "名词·阳性",
+      "meaning": "所有者；业主；占有欲强的人",
+      "perfective": "",
+      "note": "末义为对人的评价。",
+      "stage": 3,
+      "original": {
+        "word": "собственник",
+        "part_of_speech": "阳",
+        "meaning_zh": "所有者, 私有者",
+        "source_page": 224,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "собственник",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 7012,
+      "accent": "сова́ть",
+      "part": "动词·未完成体",
+      "meaning": "塞入；插入；伸入；放进",
+      "perfective": "су́нуть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "совать",
+        "part_of_speech": "未",
+        "meaning_zh": "完插人, 塞人；伸入；放进",
+        "source_page": 225,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "совать",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 7013,
+      "accent": "соверша́ться",
+      "part": "动词·未完成体",
+      "meaning": "发生；实现；被进行；完成",
+      "perfective": "соверши́ться",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "совершаться",
+        "part_of_speech": "未",
+        "meaning_zh": "‚- 完",
+        "source_page": 225,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "совершаться",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=225",
+        "丢失全部词义，原条发生、实现。"
+      ]
+    },
+    {
+      "id": 7014,
+      "accent": "совмести́тельство",
+      "part": "名词·中性",
+      "meaning": "兼职；兼任",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "совместительство",
+        "part_of_speech": "中",
+        "meaning_zh": "兼职, 兼任",
+        "source_page": 225,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "совместительство",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 7015,
+      "accent": "совоку́пность",
+      "part": "名词·阴性",
+      "meaning": "总和；总体；全部",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "совокупность",
+        "part_of_speech": "阴",
+        "meaning_zh": "总和",
+        "source_page": 225,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "совокупность",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 7016,
+      "accent": "совпада́ть",
+      "part": "动词·未完成体",
+      "meaning": "同时发生；正赶上；相符；一致；重合",
+      "perfective": "совпа́сть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "совпадать",
+        "part_of_speech": "未",
+        "meaning_zh": "完同时发生, 正值, 正赶上",
+        "source_page": 225,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "совпадать",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=225",
+        "原第二义相符丢失，恢复并与同时发生分列。"
+      ]
+    },
+    {
+      "id": 7017,
+      "accent": "совпаде́ние",
+      "part": "名词·中性",
+      "meaning": "巧合；同时发生；一致；重合",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "совпадение",
+        "part_of_speech": "中",
+        "meaning_zh": "同时发生, 巧合",
+        "source_page": 225,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "совпадение",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 7018,
+      "accent": "согрева́ться",
+      "part": "动词·未完成体",
+      "meaning": "暖和起来；变暖；取暖",
+      "perfective": "согре́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "согреваться",
+        "part_of_speech": "未",
+        "meaning_zh": "‚- ‚ - 完；自己 〔(身体) 睡和起来",
+        "source_page": 226,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "согреваться",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 7019,
+      "accent": "со́да",
+      "part": "名词·阴性",
+      "meaning": "苏打；碳酸钠",
+      "perfective": "",
+      "note": "пищева́я со́да指食用小苏打，即碳酸氢钠。",
+      "stage": 3,
+      "original": {
+        "word": "сбда",
+        "part_of_speech": "阴",
+        "meaning_zh": "碱, 苏打, 碳酸钠",
+        "source_page": 226,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сода",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=226",
+        "со́да，о误成б；小苏打需限定пищевая сода。"
+      ]
+    },
+    {
+      "id": 7020,
+      "accent": "содержа́тельный",
+      "part": "形容词",
+      "meaning": "内容丰富的；有实质内容的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "содержательный",
+        "part_of_speech": "形",
+        "meaning_zh": "有内容的, 内容丰富的",
+        "source_page": 226,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "содержательный",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 7021,
+      "accent": "содержа́ться",
+      "part": "动词·未完成体",
+      "meaning": "包含在内；存在于；被供养；被关押；处于某种维护状态",
+      "perfective": "",
+      "note": "包含义常用в加第六格；不强配统一完成体。",
+      "stage": 3,
+      "original": {
+        "word": "содержаться",
+        "part_of_speech": "未",
+        "meaning_zh": "含有, 包含",
+        "source_page": 226,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "содержаться",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=226",
+        "含有、包含为中文表达，但俄语动词指某物被包含于其中。"
+      ]
+    },
+    {
+      "id": 7022,
+      "accent": "содру́жество",
+      "part": "名词·中性",
+      "meaning": "友好合作；联合体；共同体",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "содружество",
+        "part_of_speech": "中",
+        "meaning_zh": "友好团结",
+        "source_page": 226,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "содружество",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 7023,
+      "accent": "со́евый",
+      "part": "形容词",
+      "meaning": "大豆的；大豆制的",
+      "perfective": "",
+      "note": "со́евый со́ус为酱油。",
+      "stage": 2,
+      "original": {
+        "word": "сбевый",
+        "part_of_speech": "形",
+        "meaning_zh": "豆的, 大豆的",
+        "source_page": 226,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "соевый",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=226",
+        "со́евый，首元音о。"
+      ]
+    },
+    {
+      "id": 7024,
+      "accent": "созда́тель",
+      "part": "名词·阳性",
+      "meaning": "创造者；创作者；创始人",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "создатель",
+        "part_of_speech": "阳",
+        "meaning_zh": "创造者, 创作者；创始人, 首创者",
+        "source_page": 226,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "создатель",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 7025,
+      "accent": "созида́тельный",
+      "part": "形容词",
+      "meaning": "建设性的；创造性的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "созидательный",
+        "part_of_speech": "形",
+        "meaning_zh": "建设 (性) 的；创造 (性 〉 的",
+        "source_page": 226,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "созидательный",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 7026,
+      "accent": "сознава́ть",
+      "part": "动词·未完成体",
+      "meaning": "意识到；认识到；理解",
+      "perfective": "созна́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "сознавать",
+        "part_of_speech": "未",
+        "meaning_zh": "‚- ‚- 完理解, 认识",
+        "source_page": 226,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сознавать",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 7027,
+      "accent": "созыва́ть",
+      "part": "动词·未完成体",
+      "meaning": "召集；召开",
+      "perfective": "созва́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "созывать",
+        "part_of_speech": "未",
+        "meaning_zh": "召集, 召开",
+        "source_page": 227,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "созывать",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 7028,
+      "accent": "сокраща́ться",
+      "part": "动词·未完成体",
+      "meaning": "缩短；减少；收缩；被缩减",
+      "perfective": "сократи́ться",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "сокращаться",
+        "part_of_speech": "未",
+        "meaning_zh": "第一 、 二人称不用) - 未 ‚- 完；〔 变) 短, 缩短",
+        "source_page": 227,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сокращаться",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=227",
+        "缩短及减少义均保留。"
+      ]
+    },
+    {
+      "id": 7029,
+      "accent": "сокраще́ние",
+      "part": "名词·中性",
+      "meaning": "缩短；缩减；裁减；缩写；简称；收缩",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "сокращение",
+        "part_of_speech": "中",
+        "meaning_zh": "缩短, 缩小",
+        "source_page": 227,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сокращение",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=227",
+        "原第二义缩写、简称丢失。"
+      ]
+    },
+    {
+      "id": 7030,
+      "accent": "сокро́вище",
+      "part": "名词·中性",
+      "meaning": "宝物；财宝；珍宝",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "сокровище",
+        "part_of_speech": "中",
+        "meaning_zh": "宝物, 财宝, 珍宝",
+        "source_page": 227,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сокровище",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    },
+    {
+      "id": 7031,
+      "accent": "солда́тский",
+      "part": "形容词",
+      "meaning": "士兵的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "солдатский",
+        "part_of_speech": "形",
+        "meaning_zh": "士兵的",
+        "source_page": 227,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "солдатский",
+      "method": "2026-09-11 当前助手逐词核对核心义、重音、词性和体，对疑似例句污染、缺义和错切检查PDF220至227页。",
+      "evidence": []
+    }
+  ]
+}

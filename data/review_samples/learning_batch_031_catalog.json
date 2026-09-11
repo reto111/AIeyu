@@ -1,0 +1,2162 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 6773,
+      "accent": "пы́тка",
+      "part": "名词·阴性",
+      "meaning": "拷问；酷刑；折磨",
+      "perfective": "",
+      "note": "不等于刑具。",
+      "stage": 3,
+      "original": {
+        "word": "пытка",
+        "part_of_speech": "阴",
+        "meaning_zh": "刑具；(转) (精神上的) 极大痛苦, 折磨",
+        "source_page": 192,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "пытка",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=192",
+        "刑具为орудия пытки例句，пытка本义拷问酷刑。"
+      ]
+    },
+    {
+      "id": 6774,
+      "accent": "пы́шный",
+      "part": "形容词",
+      "meaning": "蓬松的；茂盛的；丰满的；华丽的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "пьииный",
+        "part_of_speech": "形",
+        "meaning_zh": "碑蓬松的, 松软的",
+        "source_page": 192,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "пышный",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=192",
+        "пы́шный蓬松及豪华义。"
+      ]
+    },
+    {
+      "id": 6775,
+      "accent": "пья́нство",
+      "part": "名词·中性",
+      "meaning": "酗酒；纵酒；醉酒行为",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "пьянство",
+        "part_of_speech": "中",
+        "meaning_zh": "酬酒, 狂饮, 纵酒无度",
+        "source_page": 192,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "пьянство",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6776,
+      "accent": "ра́бство",
+      "part": "名词·中性",
+      "meaning": "奴隶身份；奴役；奴隶制",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "рабство",
+        "part_of_speech": "中",
+        "meaning_zh": "奴隶制；奴隶制度",
+        "source_page": 193,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "рабство",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6777,
+      "accent": "ра́венство",
+      "part": "名词·中性",
+      "meaning": "平等；相等；等式",
+      "perfective": "",
+      "note": "原义仅剩括号说明，恢复核心名词义。",
+      "stage": 3,
+      "original": {
+        "word": "равенство",
+        "part_of_speech": "中",
+        "meaning_zh": "(指规模 、 质量 、 特点等)",
+        "source_page": 193,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "равенство",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6778,
+      "accent": "равноду́шие",
+      "part": "名词·中性",
+      "meaning": "冷漠；漠不关心；无动于衷",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "равнодушие",
+        "part_of_speech": "中",
+        "meaning_zh": "(态度) 冷淡, 淡演, 漠不关",
+        "source_page": 193,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "равнодушие",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6779,
+      "accent": "равнопра́вие",
+      "part": "名词·中性",
+      "meaning": "权利平等；平权",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "равноправие",
+        "part_of_speech": "中",
+        "meaning_zh": "(权利) 平等",
+        "source_page": 193,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "равноправие",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6780,
+      "accent": "равнопра́вный",
+      "part": "形容词",
+      "meaning": "享有平等权利的；地位平等的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "равноправный",
+        "part_of_speech": "形",
+        "meaning_zh": "平等的",
+        "source_page": 193,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "равноправный",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6781,
+      "accent": "равня́ться",
+      "part": "动词·未完成体",
+      "meaning": "等于；看齐；以某人某事为榜样",
+      "perfective": "",
+      "note": "等于接第三格，看齐常用на кого-что；不强配统一完成体。",
+      "stage": 3,
+      "original": {
+        "word": "равняться",
+        "part_of_speech": "未",
+        "meaning_zh": "〔 排队时) 看齐, 排齐",
+        "source_page": 193,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "равняться",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6782,
+      "accent": "радика́льный",
+      "part": "形容词",
+      "meaning": "根本的；彻底的；激进的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "радикальный",
+        "part_of_speech": "形",
+        "meaning_zh": "根本的, 彻底的；极端的；激进的",
+        "source_page": 194,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "радикальный",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6783,
+      "accent": "радиослу́шатель",
+      "part": "名词·阳性",
+      "meaning": "广播听众",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "радиослущатель",
+        "part_of_speech": null,
+        "meaning_zh": "无线电收听者",
+        "source_page": 194,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "радиослушатель",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=194",
+        "радиослу́шатель，ш误成щ。"
+      ]
+    },
+    {
+      "id": 6784,
+      "accent": "радиоста́нция",
+      "part": "名词·阴性",
+      "meaning": "无线电台；广播电台",
+      "perfective": "",
+      "note": "既指设备，也指广播机构。",
+      "stage": 3,
+      "original": {
+        "word": "радиостанция",
+        "part_of_speech": "阴",
+        "meaning_zh": "无线电台 (指设备, 装置)",
+        "source_page": 194,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "радиостанция",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6785,
+      "accent": "ра́дуга",
+      "part": "名词·阴性",
+      "meaning": "彩虹",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "радуга",
+        "part_of_speech": "阴",
+        "meaning_zh": "虹, 霓",
+        "source_page": 194,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "радуга",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6786,
+      "accent": "разбега́ться",
+      "part": "动词·未完成体",
+      "meaning": "四散跑开；散开；助跑",
+      "perfective": "разбежа́ться",
+      "note": "不是完成体разбе́гаться开始不停跑的另一重音词。",
+      "stage": 3,
+      "original": {
+        "word": "резбегаться",
+        "part_of_speech": "Ж",
+        "meaning_zh": "走散, 散开",
+        "source_page": 194,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "разбегаться",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": [
+        "https://gramota.ru/poisk?dicts%5B0%5D=71&mode=slovari&query=%D1%80%D0%B0%D0%B7%D0%B1%D0%B5%D0%B6%D0%B0%D1%82%D1%8C%D1%81%D1%8F&simple=0",
+        "核разбега́ться未完成体对应разбежа́ться；原页194首元音误作е，不采聚合页面错误完成体标签。"
+      ]
+    },
+    {
+      "id": 6787,
+      "accent": "развёртываться",
+      "part": "动词·未完成体",
+      "meaning": "展开；打开；开展；充分发展",
+      "perfective": "разверну́ться",
+      "note": "同义变体развора́чиваться。",
+      "stage": 3,
+      "original": {
+        "word": "развертываться",
+        "part_of_speech": "未",
+        "meaning_zh": "及 , - , - 未 , - ‚- 完；(卷着 、 叠着 、 包着的东西) 打开, 铸开, 展开；拆开, 解开",
+        "source_page": 194,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "развёртываться",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=194",
+        "原页развёртываться及同义变体разворачиваться，恢复ё。"
+      ]
+    },
+    {
+      "id": 6788,
+      "accent": "развива́ющийся",
+      "part": "形容词／现在主动形动词",
+      "meaning": "发展中的；正在发展的",
+      "perfective": "",
+      "note": "如发展中国家。",
+      "stage": 3,
+      "original": {
+        "word": "развивающийся",
+        "part_of_speech": "形",
+        "meaning_zh": "发展中的, 正在发展的",
+        "source_page": 194,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "развивающийся",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6789,
+      "accent": "развлече́ние",
+      "part": "名词·中性",
+      "meaning": "娱乐；消遣；娱乐活动",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "развлечение",
+        "part_of_speech": null,
+        "meaning_zh": "群众性的娱乐",
+        "source_page": 195,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "развлечение",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6790,
+      "accent": "развя́зка",
+      "part": "名词·阴性",
+      "meaning": "结局；解决；交通立交；解开",
+      "perfective": "",
+      "note": "情节结局与交通设施义按语境区分。",
+      "stage": 3,
+      "original": {
+        "word": "развязка",
+        "part_of_speech": "阴",
+        "meaning_zh": "立体交叉路, 立交桥",
+        "source_page": 195,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "развязка",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6791,
+      "accent": "разга́р",
+      "part": "名词·阳性",
+      "meaning": "高潮；最盛时期；正酣之时",
+      "perfective": "",
+      "note": "в разга́ре表示正在高潮中。",
+      "stage": 3,
+      "original": {
+        "word": "разгар",
+        "part_of_speech": "阳",
+        "meaning_zh": "高潮；最盛期",
+        "source_page": 195,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "разгар",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6792,
+      "accent": "разгля́дывать",
+      "part": "动词·未完成体",
+      "meaning": "仔细看；端详；细察",
+      "perfective": "разгляде́ть",
+      "note": "完成体也可表示终于看清。",
+      "stage": 3,
+      "original": {
+        "word": "разглядывать",
+        "part_of_speech": "未",
+        "meaning_zh": "‚- 完仔细看, 细看",
+        "source_page": 195,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "разглядывать",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6793,
+      "accent": "разгора́ться",
+      "part": "动词·未完成体",
+      "meaning": "燃旺；燃烧起来；加剧；热烈起来",
+      "perfective": "разгоре́ться",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "разгораться",
+        "part_of_speech": "未",
+        "meaning_zh": "‚ - 完；(第一 、 二人称不用) 燃烧起来, 着起来；燃烧, 燃旺, 炽热起来",
+        "source_page": 195,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "разгораться",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6794,
+      "accent": "разгружа́ть",
+      "part": "动词·未完成体",
+      "meaning": "卸货；卸载；减轻负担",
+      "perfective": "разгрузи́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "разгружать",
+        "part_of_speech": "未",
+        "meaning_zh": "卸货；卸载；减轻负担",
+        "source_page": 195,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "разгружать",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6795,
+      "accent": "разделе́ние",
+      "part": "名词·中性",
+      "meaning": "分开；分割；划分；分工",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "разделение",
+        "part_of_speech": "中",
+        "meaning_zh": "分开；分配；分享",
+        "source_page": 195,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "разделение",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6796,
+      "accent": "раздража́ть",
+      "part": "动词·未完成体",
+      "meaning": "使恼怒；刺激；使发痒或疼痛",
+      "perfective": "раздражи́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "раздражать",
+        "part_of_speech": "未",
+        "meaning_zh": "_ (- , - ) 完",
+        "source_page": 195,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "раздражать",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6797,
+      "accent": "разду́мье",
+      "part": "名词·中性",
+      "meaning": "沉思；深思",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "раздумье",
+        "part_of_speech": "中",
+        "meaning_zh": "深思；沉思",
+        "source_page": 196,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "раздумье",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6798,
+      "accent": "разлага́ть",
+      "part": "动词·未完成体",
+      "meaning": "分解；瓦解；使腐化堕落",
+      "perfective": "разложи́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "разлагать",
+        "part_of_speech": "未",
+        "meaning_zh": "分解；腐蚀；使堕落",
+        "source_page": 196,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "разлагать",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6799,
+      "accent": "различа́ться",
+      "part": "动词·未完成体",
+      "meaning": "有区别；不同；能够被辨认",
+      "perfective": "",
+      "note": "чем表示区别所在，无通用完成体。",
+      "stage": 2,
+      "original": {
+        "word": "различаться",
+        "part_of_speech": "未",
+        "meaning_zh": "取可以辨别出, 可以分辨出, 可以看清",
+        "source_page": 196,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "различаться",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=196",
+        "补有别、不同义，原页已有。"
+      ]
+    },
+    {
+      "id": 6800,
+      "accent": "разложе́ние",
+      "part": "名词·中性",
+      "meaning": "分解；腐烂；瓦解；腐化",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "разложение",
+        "part_of_speech": "中",
+        "meaning_zh": "分解；瓦解；腐烂",
+        "source_page": 196,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "разложение",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6801,
+      "accent": "разлюби́ть",
+      "part": "动词·完成体",
+      "meaning": "不再爱；不再喜欢",
+      "perfective": "разлю́бливать",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "разлюбить",
+        "part_of_speech": null,
+        "meaning_zh": "或接不定式) 不 ˇ 再爱, 不再喜次",
+        "source_page": 196,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "разлюбить",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6802,
+      "accent": "разма́х",
+      "part": "名词·阳性",
+      "meaning": "挥动；摆幅；规模；气魄",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "размах",
+        "part_of_speech": "阳",
+        "meaning_zh": "挥动双手；‚ : 建设规模",
+        "source_page": 196,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "размах",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6803,
+      "accent": "размышле́ние",
+      "part": "名词·中性",
+      "meaning": "思考；思索；沉思",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "размышлеение",
+        "part_of_speech": "中",
+        "meaning_zh": "对过去的思",
+        "source_page": 196,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "размышление",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=196",
+        "размышле́ние仅一个е；对过去为例句限定。"
+      ]
+    },
+    {
+      "id": 6804,
+      "accent": "размышля́ть",
+      "part": "动词·未完成体",
+      "meaning": "思考；沉思；考虑",
+      "perfective": "",
+      "note": "над чем或о чём；持续思考，无通用完成体。",
+      "stage": 3,
+      "original": {
+        "word": "размышлять",
+        "part_of_speech": "未",
+        "meaning_zh": "思考, 考虑",
+        "source_page": 197,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "размышлять",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6805,
+      "accent": "разнови́дность",
+      "part": "名词·阴性",
+      "meaning": "变种；种类；类型",
+      "perfective": "",
+      "note": "不使用现代中文含义不匹配的变态。",
+      "stage": 3,
+      "original": {
+        "word": "разновидность",
+        "part_of_speech": "阴",
+        "meaning_zh": "变种；变态",
+        "source_page": 197,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "разновидность",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6806,
+      "accent": "разногла́сие",
+      "part": "名词·中性",
+      "meaning": "分歧；意见不合",
+      "perfective": "",
+      "note": "常用复数。",
+      "stage": 3,
+      "original": {
+        "word": "разногласие",
+        "part_of_speech": "中",
+        "meaning_zh": "分歧, 意见分歧",
+        "source_page": 197,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "разногласие",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6807,
+      "accent": "разноцве́тный",
+      "part": "形容词",
+      "meaning": "多种颜色的；五颜六色的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "разноцветный",
+        "part_of_speech": "形",
+        "meaning_zh": "各种颜色的, 杂色的",
+        "source_page": 197,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "разноцветный",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6808,
+      "accent": "разоблача́ть",
+      "part": "动词·未完成体",
+      "meaning": "揭露；揭穿；揭发",
+      "perfective": "разоблачи́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "разоблачать",
+        "part_of_speech": "未",
+        "meaning_zh": "(- , - ) 完揭穿, 揭发, 揭霁",
+        "source_page": 197,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "разоблачать",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6809,
+      "accent": "разоре́ние",
+      "part": "名词·中性",
+      "meaning": "破坏；毁坏；破产；经济凋敝",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "разорение",
+        "part_of_speech": "中",
+        "meaning_zh": "破坏, 毁坏",
+        "source_page": 197,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "разорение",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6810,
+      "accent": "разоря́ть",
+      "part": "动词·未完成体",
+      "meaning": "使破产；毁坏；蹂躏",
+      "perfective": "разори́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "разорять",
+        "part_of_speech": "未",
+        "meaning_zh": "(- , - ) 完使经济受到破坏, 使破产, 使赤炔如洗",
+        "source_page": 197,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "разорять",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6811,
+      "accent": "разоруже́ние",
+      "part": "名词·中性",
+      "meaning": "解除武装；裁军",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "разоружение",
+        "part_of_speech": "中",
+        "meaning_zh": "解除武装, 裁军",
+        "source_page": 197,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "разоружение",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6812,
+      "accent": "разочарова́ние",
+      "part": "名词·中性",
+      "meaning": "失望；扫兴；幻灭",
+      "perfective": "",
+      "note": "保留扫兴正确字形，不恢复旧OCR扫六。",
+      "stage": 2,
+      "original": {
+        "word": "разочарование",
+        "part_of_speech": "中",
+        "meaning_zh": "失望；扫兴",
+        "source_page": 197,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "разочарование",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6813,
+      "accent": "разры́в",
+      "part": "名词·阳性",
+      "meaning": "断裂；破裂；决裂；差距",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "разрыв",
+        "part_of_speech": "阳",
+        "meaning_zh": "参决裂, 破裂",
+        "source_page": 198,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "разрыв",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6814,
+      "accent": "разря́дка",
+      "part": "名词·阴性",
+      "meaning": "放电；卸除弹药；缓和；放松；字母疏排",
+      "perfective": "",
+      "note": "技术、情绪、局势及排版语境各有相应义项。",
+      "stage": 3,
+      "original": {
+        "word": "разрядка",
+        "part_of_speech": "阴",
+        "meaning_zh": "放电；卸除装填；缓和、放松；字母疏排",
+        "source_page": 198,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "разрядка",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=198",
+        "原页缓和；保留已经核实的放电等多义，不再缩成整句国际局势缓和。"
+      ]
+    },
+    {
+      "id": 6815,
+      "accent": "разува́ться",
+      "part": "动词·未完成体",
+      "meaning": "脱鞋",
+      "perfective": "разу́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "разуваться",
+        "part_of_speech": "未",
+        "meaning_zh": "‚- 完脱鞋",
+        "source_page": 198,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "разуваться",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6816,
+      "accent": "разъезжа́ться",
+      "part": "动词·未完成体",
+      "meaning": "乘车分头离开；各自离去；驶开",
+      "perfective": "разъе́хаться",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "разъезжаться",
+        "part_of_speech": "未",
+        "meaning_zh": "分散离去；分手",
+        "source_page": 198,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "разъезжаться",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6817,
+      "accent": "раке́тный",
+      "part": "形容词",
+      "meaning": "火箭的；导弹的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "ракетный",
+        "part_of_speech": "形",
+        "meaning_zh": "火箭武器",
+        "source_page": 198,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ракетный",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6818,
+      "accent": "ра́ковина",
+      "part": "名词·阴性",
+      "meaning": "贝壳；壳；洗脸池；水槽",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "раковина",
+        "part_of_speech": "阴",
+        "meaning_zh": "贝壳, 甲壳",
+        "source_page": 198,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "раковина",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=198",
+        "补洗脸池、水槽义，非只有贝壳。"
+      ]
+    },
+    {
+      "id": 6819,
+      "accent": "ранг",
+      "part": "名词·阳性",
+      "meaning": "等级；级别；官阶",
+      "perfective": "",
+      "note": "不限外交官。",
+      "stage": 3,
+      "original": {
+        "word": "ранг",
+        "part_of_speech": "Н",
+        "meaning_zh": "外交官的等级",
+        "source_page": 198,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ранг",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6820,
+      "accent": "ра́нить",
+      "part": "动词·兼体",
+      "meaning": "使受伤；伤害",
+      "perfective": "",
+      "note": "同一形式可表两种体；不是只有未完成体。",
+      "stage": 3,
+      "original": {
+        "word": "ранить",
+        "part_of_speech": "Ж",
+        "meaning_zh": "打伤, 使负伤",
+        "source_page": 199,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ранить",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": [
+        "https://gramota.ru/poisk?dicts%5B0%5D=42&mode=slovari&page=5&query=%D0%BA%D1%80%D0%B5%D0%BD%D0%B8%D1%82%D1%8C&simple=0",
+        "词典ра́нить兼体，原书199只标未，不能照抄。"
+      ]
+    },
+    {
+      "id": 6821,
+      "accent": "ра́порт",
+      "part": "名词·阳性",
+      "meaning": "报告；汇报",
+      "perfective": "",
+      "note": "多为正式或军队语境。",
+      "stage": 3,
+      "original": {
+        "word": "рапорт",
+        "part_of_speech": "阳",
+        "meaning_zh": "报告, 汇报",
+        "source_page": 199,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "рапорт",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6822,
+      "accent": "ра́са",
+      "part": "名词·阴性",
+      "meaning": "人种；种族",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "раса",
+        "part_of_speech": "阴",
+        "meaning_zh": "人种, 种族",
+        "source_page": 199,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "раса",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6823,
+      "accent": "раская́ние",
+      "part": "名词·中性",
+      "meaning": "悔恨；悔悟；悔过",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "раскаяние",
+        "part_of_speech": "中",
+        "meaning_zh": "后悔, 愧悔；悔过, 认错",
+        "source_page": 199,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "раскаяние",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6824,
+      "accent": "раско́ванный",
+      "part": "形容词",
+      "meaning": "无拘无束的；自然放松的；不拘谨的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "раскованный",
+        "part_of_speech": "形",
+        "meaning_zh": "行为无拘无李的",
+        "source_page": 199,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "раскованный",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": [
+        "https://gramota.ru/meta/raskovannyy",
+        "核раско́ванный重音及无拘束义。"
+      ]
+    },
+    {
+      "id": 6825,
+      "accent": "раскрыва́ться",
+      "part": "动词·未完成体",
+      "meaning": "展开；打开；显露；表露；被揭露",
+      "perfective": "раскры́ться",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "раскрываться",
+        "part_of_speech": "未",
+        "meaning_zh": "‚- ‚ - 完；( ) 掀开；(被) 启开",
+        "source_page": 199,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "раскрываться",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6826,
+      "accent": "ра́совый",
+      "part": "形容词",
+      "meaning": "种族的；人种的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "расовый",
+        "part_of_speech": "形",
+        "meaning_zh": "种族的",
+        "source_page": 199,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "расовый",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6827,
+      "accent": "распа́д",
+      "part": "名词·阳性",
+      "meaning": "解体；分裂；崩溃；衰变",
+      "perfective": "",
+      "note": "衰变为物理义。",
+      "stage": 3,
+      "original": {
+        "word": "распад",
+        "part_of_speech": "阳",
+        "meaning_zh": "碎落, 崩落；分解, 分裂",
+        "source_page": 199,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "распад",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6828,
+      "accent": "распи́сываться",
+      "part": "动词·未完成体",
+      "meaning": "签字；签收；登记结婚",
+      "perfective": "расписа́ться",
+      "note": "口语登记结婚义，不等同泛指写字。",
+      "stage": 3,
+      "original": {
+        "word": "расписываться",
+        "part_of_speech": "未",
+        "meaning_zh": "‚ - 完签字, 署名 (认可, 同意)",
+        "source_page": 199,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "расписываться",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6829,
+      "accent": "распла́каться",
+      "part": "动词·完成体",
+      "meaning": "哭起来；大哭起来",
+      "perfective": "",
+      "note": "起始动作，不强配пла́кать持续哭泣为严格体对。",
+      "stage": 2,
+      "original": {
+        "word": "расплакаться",
+        "part_of_speech": "完",
+        "meaning_zh": "愧恼得大哭起来",
+        "source_page": 199,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "расплакаться",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=199",
+        "大哭起来；懊恼只是例句原因，不作必有语义。"
+      ]
+    },
+    {
+      "id": 6830,
+      "accent": "располага́ть",
+      "part": "动词·未完成体",
+      "meaning": "排列；安置；拥有；使产生好感",
+      "perfective": "",
+      "note": "排列安置可配расположи́ть；拥有义接第五格，不套该完成体。",
+      "stage": 3,
+      "original": {
+        "word": "располагать",
+        "part_of_speech": "未",
+        "meaning_zh": "配置；安置；拥有；使有好感",
+        "source_page": 199,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "располагать",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6831,
+      "accent": "расположе́ние",
+      "part": "名词·中性",
+      "meaning": "位置；排列；布局；好感；心情",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "расположение",
+        "part_of_speech": "中",
+        "meaning_zh": "指挥部的位置",
+        "source_page": 199,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "расположение",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6832,
+      "accent": "распределе́ние",
+      "part": "名词·中性",
+      "meaning": "分配；分布；安排",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "распределение",
+        "part_of_speech": "中",
+        "meaning_zh": "分配, 布置",
+        "source_page": 199,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "распределение",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6833,
+      "accent": "распростране́ние",
+      "part": "名词·中性",
+      "meaning": "传播；推广；扩散；普及",
+      "perfective": "",
+      "note": "不限定教育。",
+      "stage": 3,
+      "original": {
+        "word": "распространение",
+        "part_of_speech": "中",
+        "meaning_zh": "普及教育",
+        "source_page": 200,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "распространение",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6834,
+      "accent": "распуска́ть",
+      "part": "动词·未完成体",
+      "meaning": "解散；松开；拆散；散布；溶化",
+      "perfective": "распусти́ть",
+      "note": "如散布谣言、拆开编织物。",
+      "stage": 3,
+      "original": {
+        "word": "распускать",
+        "part_of_speech": "未",
+        "meaning_zh": "解散；放开；散布；使溶解",
+        "source_page": 200,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "распускать",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6835,
+      "accent": "распуска́ться",
+      "part": "动词·未完成体",
+      "meaning": "绽放；散开；松散；解散；变得放纵",
+      "perfective": "распусти́ться",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "распускаться",
+        "part_of_speech": "未",
+        "meaning_zh": "开放；散开；解散；放纵",
+        "source_page": 200,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "распускаться",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6836,
+      "accent": "расска́зчик",
+      "part": "名词·阳性",
+      "meaning": "讲述者；叙述者；善讲故事的人",
+      "perfective": "",
+      "note": "不限评书演员。",
+      "stage": 3,
+      "original": {
+        "word": "рассказчик",
+        "part_of_speech": "阳",
+        "meaning_zh": "讲述人；善于讲述的人；评书演员",
+        "source_page": 200,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "рассказчик",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6837,
+      "accent": "расслы́шать",
+      "part": "动词·完成体",
+      "meaning": "听清；听出",
+      "perfective": "расслы́шивать",
+      "note": "不限定老师的话。",
+      "stage": 2,
+      "original": {
+        "word": "расслышать",
+        "part_of_speech": "完",
+        "meaning_zh": "听清老师的话",
+        "source_page": 200,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "расслышать",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6838,
+      "accent": "рассмотре́ние",
+      "part": "名词·中性",
+      "meaning": "审查；审议；研究；审理",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "рассмотрение",
+        "part_of_speech": "中",
+        "meaning_zh": "审核, 研究",
+        "source_page": 200,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "рассмотрение",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6839,
+      "accent": "расстро́енный",
+      "part": "形容词",
+      "meaning": "心烦的；沮丧的；失调的；紊乱的",
+      "perfective": "",
+      "note": "情绪或身体、系统功能语境不同。",
+      "stage": 3,
+      "original": {
+        "word": "расстрбенный",
+        "part_of_speech": "形",
+        "meaning_zh": "有病的, 不正常的 (指健康状况) 有病的胃",
+        "source_page": 201,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "расстроенный",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=201",
+        "расстро́енный，о误为б；含失调和沮丧义。"
+      ]
+    },
+    {
+      "id": 6840,
+      "accent": "рассу́док",
+      "part": "名词·阳性",
+      "meaning": "理智；理性；正常思维能力",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "рассудок",
+        "part_of_speech": "阳",
+        "meaning_zh": "理性, 理智, 思考；正常的神态",
+        "source_page": 201,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "рассудок",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6841,
+      "accent": "рассчи́тывать",
+      "part": "动词·未完成体",
+      "meaning": "计算；估计；考虑；指望；依靠",
+      "perfective": "",
+      "note": "计算义配рассчита́ть；指望依靠义常用на кого-что，无统一完成体。",
+      "stage": 3,
+      "original": {
+        "word": "рассчитывать",
+        "part_of_speech": "未",
+        "meaning_zh": "故完",
+        "source_page": 201,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "рассчитывать",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=201",
+        "恢复计算、考虑用途，另补常用指望义并限定体配对。"
+      ]
+    },
+    {
+      "id": 6842,
+      "accent": "рассчи́тываться",
+      "part": "动词·未完成体",
+      "meaning": "结账；付清；结清工资；算账报复",
+      "perfective": "рассчита́ться",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "рассчитываться",
+        "part_of_speech": "未",
+        "meaning_zh": "‚ - ‚- 完清算, 清帐, 付清工资",
+        "source_page": 201,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "рассчитываться",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6843,
+      "accent": "раство́р",
+      "part": "名词·阳性",
+      "meaning": "溶液；砂浆",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "раствор",
+        "part_of_speech": "阳",
+        "meaning_zh": "溶液；砂浆",
+        "source_page": 201,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "раствор",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6844,
+      "accent": "раствори́мый",
+      "part": "形容词",
+      "meaning": "可溶的；速溶的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "растворимый",
+        "part_of_speech": "形",
+        "meaning_zh": "可溶解的, 能溶解的",
+        "source_page": 201,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "растворимый",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6845,
+      "accent": "растворя́ться",
+      "part": "动词·未完成体",
+      "meaning": "溶解；消失；融入",
+      "perfective": "раствори́ться",
+      "note": "本条取溶解义，不混入敞开门窗的同形用法。",
+      "stage": 3,
+      "original": {
+        "word": "растворяться",
+        "part_of_speech": "未",
+        "meaning_zh": "第一 、 二人称不用) - 未 ‚- 完溶解, 溶化",
+        "source_page": 201,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "растворяться",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6846,
+      "accent": "расте́рянный",
+      "part": "形容词",
+      "meaning": "慌张的；不知所措的；茫然的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "растерянный",
+        "part_of_speech": "形",
+        "meaning_zh": "慌张的, 不知所措的",
+        "source_page": 201,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "растерянный",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6847,
+      "accent": "расточи́тельство",
+      "part": "名词·中性",
+      "meaning": "浪费；挥霍；滥用",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "расточительство",
+        "part_of_speech": "中",
+        "meaning_zh": "浪费 (行为)；滥用",
+        "source_page": 201,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "расточительство",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6848,
+      "accent": "расхохота́ться",
+      "part": "动词·完成体",
+      "meaning": "哈哈大笑起来",
+      "perfective": "",
+      "note": "起始意义，不机械标作хохота́ть的严格体对。",
+      "stage": 3,
+      "original": {
+        "word": "расхохотаться",
+        "part_of_speech": "完",
+        "meaning_zh": "哈哈大笑起来",
+        "source_page": 202,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "расхохотаться",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6849,
+      "accent": "расшире́ние",
+      "part": "名词·中性",
+      "meaning": "扩大；扩展；拓宽；膨胀",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "расширение",
+        "part_of_speech": "中",
+        "meaning_zh": "放宽, 扩大, 膨胀",
+        "source_page": 202,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "расширение",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6850,
+      "accent": "рационализа́тор",
+      "part": "名词·阳性",
+      "meaning": "生产合理化建议者；技术革新者",
+      "perfective": "",
+      "note": "常指提出改进生产方法的人。",
+      "stage": 4,
+      "original": {
+        "word": "рационализатор",
+        "part_of_speech": "阳",
+        "meaning_zh": "从事生产合理化的先进工人, 从事生产过程合理化国",
+        "source_page": 202,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "рационализатор",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6851,
+      "accent": "рва́ный",
+      "part": "形容词",
+      "meaning": "撕破的；破烂的；撕碎的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "рваный",
+        "part_of_speech": "形",
+        "meaning_zh": "怡撕坏了的, 撬碎的",
+        "source_page": 202,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "рваный",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6852,
+      "accent": "рвать",
+      "part": "动词·未完成体·无人称",
+      "meaning": "呕吐；使恶心呕吐",
+      "perfective": "",
+      "note": "кого рвёт表示某人呕吐；本条与撕扯义分开，不配порва́ть。",
+      "stage": 3,
+      "original": {
+        "word": "рвать",
+        "part_of_speech": "未 , 无 人 称",
+        "meaning_zh": "(使) 呕吐",
+        "source_page": 202,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "рвать",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=202",
+        "原条无人称呕吐义，和撕扯的同形词分开解释。"
+      ]
+    },
+    {
+      "id": 6853,
+      "accent": "рва́ться",
+      "part": "动词·未完成体",
+      "meaning": "撕裂；挣脱；猛冲；急切想去",
+      "perfective": "",
+      "note": "撕裂结果可用порва́ться；急切想去义无通用完成体。",
+      "stage": 3,
+      "original": {
+        "word": "рваться",
+        "part_of_speech": "未",
+        "meaning_zh": "撕裂; 猛冲; 极想去",
+        "source_page": 202,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "рваться",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6854,
+      "accent": "реализа́ция",
+      "part": "名词·阴性",
+      "meaning": "实现；实施；销售；变现",
+      "perfective": "",
+      "note": "不只销售商品。",
+      "stage": 3,
+      "original": {
+        "word": "реализация",
+        "part_of_speech": "阴",
+        "meaning_zh": "销售商品",
+        "source_page": 203,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "реализация",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6855,
+      "accent": "реа́льность",
+      "part": "名词·阴性",
+      "meaning": "现实；实际；真实性；可行性",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "реальность",
+        "part_of_speech": "阴",
+        "meaning_zh": "现实, 实际",
+        "source_page": 203,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "реальность",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6856,
+      "accent": "револьве́р",
+      "part": "名词·阳性",
+      "meaning": "左轮手枪",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "револьвер",
+        "part_of_speech": "阳",
+        "meaning_zh": "左轮手枪, 转轮手枪",
+        "source_page": 203,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "револьвер",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6857,
+      "accent": "региона́льный",
+      "part": "形容词",
+      "meaning": "地区的；区域性的；地方的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "региональный",
+        "part_of_speech": "形",
+        "meaning_zh": "区域的, 区域性的；地方的",
+        "source_page": 203,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "региональный",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6858,
+      "accent": "регистра́ция",
+      "part": "名词·阴性",
+      "meaning": "登记；注册；记录",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "регистрация",
+        "part_of_speech": "阴",
+        "meaning_zh": "登记, 注册, 挂号",
+        "source_page": 203,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "регистрация",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6859,
+      "accent": "реди́ска",
+      "part": "名词·阴性",
+      "meaning": "小红萝卜；水萝卜",
+      "perfective": "",
+      "note": "不保留例句数量一根。",
+      "stage": 2,
+      "original": {
+        "word": "редиска",
+        "part_of_speech": "阴",
+        "meaning_zh": "一根水莪卜",
+        "source_page": 204,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "редиска",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6860,
+      "accent": "рейс",
+      "part": "名词·阳性",
+      "meaning": "航班；班次；一趟行程；航程",
+      "perfective": "",
+      "note": "可用于飞机、船或车辆。",
+      "stage": 2,
+      "original": {
+        "word": "рейс",
+        "part_of_speech": "阳",
+        "meaning_zh": "航班, 航程, 航行",
+        "source_page": 204,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "рейс",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6861,
+      "accent": "рекоменда́ция",
+      "part": "名词·阴性",
+      "meaning": "推荐；推荐信；建议；劝告",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "рекомендация",
+        "part_of_speech": "阴",
+        "meaning_zh": "推荐职员；推荐书, 介绍信: 带着介绍信去建议, 劝告: 医生的劝告",
+        "source_page": 204,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "рекомендация",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6862,
+      "accent": "реконстру́кция",
+      "part": "名词·阴性",
+      "meaning": "改建；重建；重构；复原",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "реконструкция",
+        "part_of_speech": "阴",
+        "meaning_zh": "技术；修复古文物",
+        "source_page": 205,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "реконструкция",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6863,
+      "accent": "религио́зный",
+      "part": "形容词",
+      "meaning": "宗教的；信教的；虔诚的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "религибзный",
+        "part_of_speech": "№",
+        "meaning_zh": "宗教仪式",
+        "source_page": 205,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "религиозный",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=205",
+        "религио́зный，恢复о；仪式来自例句。"
+      ]
+    },
+    {
+      "id": 6864,
+      "accent": "ремесло́",
+      "part": "名词·中性",
+      "meaning": "手艺；手工业；职业",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "ремесло",
+        "part_of_speech": "中",
+        "meaning_zh": "复 ‚- ‚- 中手艺, 职业",
+        "source_page": 205,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ремесло",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6865,
+      "accent": "репертуа́р",
+      "part": "名词·阳性",
+      "meaning": "剧目；演出节目；可演奏或演唱的曲目",
+      "perfective": "",
+      "note": "语法性为阳性。",
+      "stage": 3,
+      "original": {
+        "word": "репертуар",
+        "part_of_speech": "阴",
+        "meaning_zh": "(剧院上演的) 剧目, 节目",
+        "source_page": 205,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "репертуар",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=205",
+        "репертуа́р阳性，非阴性。"
+      ]
+    },
+    {
+      "id": 6866,
+      "accent": "репорта́ж",
+      "part": "名词·阳性",
+      "meaning": "现场报道；新闻报道",
+      "perfective": "",
+      "note": "采访是制作报道的活动，不作唯一词义。",
+      "stage": 3,
+      "original": {
+        "word": "репортаж",
+        "part_of_speech": "阳",
+        "meaning_zh": "报道；采访",
+        "source_page": 205,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "репортаж",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6867,
+      "accent": "репроду́кция",
+      "part": "名词·阴性",
+      "meaning": "复制；翻印；复制品；复制画",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "репродукция",
+        "part_of_speech": "阴",
+        "meaning_zh": "收集复制面",
+        "source_page": 206,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "репродукция",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=206",
+        "复制及复制品，收集为例句动词。"
+      ]
+    },
+    {
+      "id": 6868,
+      "accent": "репута́ция",
+      "part": "名词·阴性",
+      "meaning": "名声；声誉；信誉",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "репутация",
+        "part_of_speech": "阴",
+        "meaning_zh": "名声, 名誉, 声望",
+        "source_page": 206,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "репутация",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6869,
+      "accent": "республика́нский",
+      "part": "形容词",
+      "meaning": "共和国的；共和制的；共和党的",
+      "perfective": "",
+      "note": "依具体制度或政党语境区分。",
+      "stage": 3,
+      "original": {
+        "word": "республиканский",
+        "part_of_speech": "#",
+        "meaning_zh": "共和的",
+        "source_page": 206,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "республиканский",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6870,
+      "accent": "реставра́ция",
+      "part": "名词·阴性",
+      "meaning": "修复；复原；复辟",
+      "perfective": "",
+      "note": "可指艺术品修复或旧制度恢复。",
+      "stage": 3,
+      "original": {
+        "word": "реставрация",
+        "part_of_speech": "阴",
+        "meaning_zh": "修复, 修补 (受损的艺术品",
+        "source_page": 206,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "реставрация",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6871,
+      "accent": "ресу́рс",
+      "part": "名词·阳性",
+      "meaning": "资源；储备；可利用的力量；使用寿命",
+      "perfective": "",
+      "note": "技术设备语境可指可用寿命。",
+      "stage": 3,
+      "original": {
+        "word": "ресурс",
+        "part_of_speech": "阳",
+        "meaning_zh": "资源, 资金",
+        "source_page": 206,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ресурс",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": []
+    },
+    {
+      "id": 6872,
+      "accent": "рефо́рма",
+      "part": "名词·阴性",
+      "meaning": "改革；改制；革新",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "рефбрма",
+        "part_of_speech": "阴",
+        "meaning_zh": "改革, 革新",
+        "source_page": 206,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "реформа",
+      "method": "2026-09-10 当前助手逐词审核核心俄中义、重音、词性和体；原页检查词头与释义边界，既有用户确认修正保留。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=206",
+        "рефо́рма，о误为б。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,890 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 7033,
+      "accent": "со́лнышко",
+      "part": "名词·中性",
+      "meaning": "太阳的爱称；亲爱的人",
+      "perfective": "",
+      "note": "对人使用是亲昵称呼。",
+      "stage": 1,
+      "original": {
+        "word": "солнышко",
+        "part_of_speech": "中",
+        "meaning_zh": "! 我亲爱的人儿 !",
+        "source_page": 227,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "солнышко",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=227",
+        "恢复太阳爱称，亲爱的人为第二义。"
+      ]
+    },
+    {
+      "id": 7034,
+      "accent": "соло́ма",
+      "part": "名词·阴性",
+      "meaning": "麦秸；稻草；禾秸",
+      "perfective": "",
+      "note": "不等同于泛指干草的се́но。",
+      "stage": 2,
+      "original": {
+        "word": "солома",
+        "part_of_speech": "阴",
+        "meaning_zh": "麦秸, 稻草, 禾秸, 干草",
+        "source_page": 227,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "солома",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=227",
+        "指谷物脱粒后的秸秆，不把普通干草сено混同。"
+      ]
+    },
+    {
+      "id": 7035,
+      "accent": "соло́менный",
+      "part": "形容词",
+      "meaning": "禾秸的；稻草做的；稻草色的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "соломенный",
+        "part_of_speech": "形",
+        "meaning_zh": "麦秸的, 稻草的, 干草的",
+        "source_page": 227,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "соломенный",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7036,
+      "accent": "со́нный",
+      "part": "形容词",
+      "meaning": "困倦的；昏昏欲睡的；睡着的；睡眠的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "сонный",
+        "part_of_speech": "形",
+        "meaning_zh": "睡眠的；梦中的",
+        "source_page": 227,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сонный",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7037,
+      "accent": "соо́бщество",
+      "part": "名词·中性",
+      "meaning": "共同体；群体；团体；生物群落",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "соббщество",
+        "part_of_speech": "中",
+        "meaning_zh": "国际社会, 世界大家庭；(生物) 群落；群栖: 植物群落伟共同体: 犯罪集团",
+        "source_page": 228,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сообщество",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=228",
+        "соо́бщество词头恢复；国际社会和犯罪集团都是搭配例句。"
+      ]
+    },
+    {
+      "id": 7038,
+      "accent": "сопровожда́ться",
+      "part": "动词·未完成体",
+      "meaning": "伴随着；伴有；被陪同；被护送",
+      "perfective": "",
+      "note": "常接第五格，不强配统一完成体。",
+      "stage": 3,
+      "original": {
+        "word": "сопровождаться",
+        "part_of_speech": "未",
+        "meaning_zh": "伴随, 伴有; 与某事同时发生",
+        "source_page": 228,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сопровождаться",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7039,
+      "accent": "сопровожде́ние",
+      "part": "名词·中性",
+      "meaning": "陪同；伴随；护送；伴奏",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "сопровождение",
+        "part_of_speech": "中",
+        "meaning_zh": "陪病人去医院",
+        "source_page": 228,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сопровождение",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=228",
+        "恢复陪同、伴随核心义，病人和医院为例句。"
+      ]
+    },
+    {
+      "id": 7040,
+      "accent": "соса́ть",
+      "part": "动词·未完成体",
+      "meaning": "吮吸；吸；含吮",
+      "perfective": "",
+      "note": "吃奶为具体用法，不强配不同动作结果的完成体。",
+      "stage": 3,
+      "original": {
+        "word": "сосать",
+        "part_of_speech": "未",
+        "meaning_zh": "吸；吮吸；吃奶",
+        "source_page": 228,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сосать",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7041,
+      "accent": "соска́кивать",
+      "part": "动词·未完成体",
+      "meaning": "跳下；跳离；脱落；滑脱",
+      "perfective": "соскочи́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "соскакивать",
+        "part_of_speech": "未",
+        "meaning_zh": "完跳 '",
+        "source_page": 229,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "соскакивать",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=229",
+        "跳下为本义，另可从固定处脱落。"
+      ]
+    },
+    {
+      "id": 7042,
+      "accent": "соску́читься",
+      "part": "动词·完成体",
+      "meaning": "感到寂寞；感到无聊；想念",
+      "perfective": "скуча́ть",
+      "note": "想念常接по加第三格。",
+      "stage": 2,
+      "original": {
+        "word": "соскучиться",
+        "part_of_speech": "完",
+        "meaning_zh": "取 (感到) 寂寞, 烦闷, 闫得慌",
+        "source_page": 229,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "соскучиться",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=229",
+        "恢复第二义想念。"
+      ]
+    },
+    {
+      "id": 7043,
+      "accent": "сосно́вый",
+      "part": "形容词",
+      "meaning": "松树的；松木的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "сосновый",
+        "part_of_speech": "形",
+        "meaning_zh": "松树的",
+        "source_page": 229,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сосновый",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7044,
+      "accent": "сосредото́чивать",
+      "part": "动词·未完成体",
+      "meaning": "集中；聚集；使专注",
+      "perfective": "сосредото́чить",
+      "note": "常与注意力、力量连用。",
+      "stage": 3,
+      "original": {
+        "word": "сосредоточивать",
+        "part_of_speech": "未",
+        "meaning_zh": "集中；使集中",
+        "source_page": 229,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сосредоточивать",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7045,
+      "accent": "состяза́ние",
+      "part": "名词·中性",
+      "meaning": "竞赛；比赛；较量",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "состязание",
+        "part_of_speech": "中",
+        "meaning_zh": "竞赛, 比赛",
+        "source_page": 229,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "состязание",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7046,
+      "accent": "сосу́д",
+      "part": "名词·阳性",
+      "meaning": "容器；血管；导管",
+      "perfective": "",
+      "note": "后两义分别见解剖学和植物学。",
+      "stage": 3,
+      "original": {
+        "word": "сосуд",
+        "part_of_speech": "阳",
+        "meaning_zh": "容器",
+        "source_page": 229,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сосуд",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7047,
+      "accent": "сотру́дник",
+      "part": "名词·阳性",
+      "meaning": "同事；工作人员；职员；研究人员",
+      "perfective": "",
+      "note": "具体职位需由机构或修饰词限定。",
+      "stage": 2,
+      "original": {
+        "word": "сотрудник",
+        "part_of_speech": "阳",
+        "meaning_zh": "何不用助手单独完成工作 〔 菪些机关的) 职员；(科研机关的) 研究人员；(刊物的) 编者, 编辑: 高级研究员",
+        "source_page": 229,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сотрудник",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=229",
+        "原首义同事助手不能被例句不用助手单独完成工作取代。"
+      ]
+    },
+    {
+      "id": 7048,
+      "accent": "сохране́ние",
+      "part": "名词·中性",
+      "meaning": "保存；保护；保持；保守",
+      "perfective": "",
+      "note": "保守义如保守秘密，不指政治保守派。",
+      "stage": 3,
+      "original": {
+        "word": "сохранение",
+        "part_of_speech": "中",
+        "meaning_zh": "保存, 保守",
+        "source_page": 229,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сохранение",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7049,
+      "accent": "социали́ст",
+      "part": "名词·阳性",
+      "meaning": "社会主义者；社会党人",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "социалист",
+        "part_of_speech": "阳",
+        "meaning_zh": "社会主义者；社会党人",
+        "source_page": 229,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "социалист",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7050,
+      "accent": "социоло́гия",
+      "part": "名词·阴性",
+      "meaning": "社会学",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "социология",
+        "part_of_speech": "阴",
+        "meaning_zh": "社会学",
+        "source_page": 230,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "социология",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7051,
+      "accent": "сочета́ться",
+      "part": "动词·未完成体",
+      "meaning": "结合；相配；协调；兼有",
+      "perfective": "",
+      "note": "这里按结合、相配义标体；不扩展固定婚姻表达的体用法。",
+      "stage": 3,
+      "original": {
+        "word": "сочетаться",
+        "part_of_speech": "未",
+        "meaning_zh": "第一 、 二人称不用) - 未取结合在一起, 兼有",
+        "source_page": 230,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сочетаться",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=230",
+        "原条未完成体结合、相配义；不强加另一个体。"
+      ]
+    },
+    {
+      "id": 7052,
+      "accent": "сочу́вствие",
+      "part": "名词·中性",
+      "meaning": "同情；共鸣；赞同",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "сочувствие",
+        "part_of_speech": null,
+        "meaning_zh": "同情",
+        "source_page": 230,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сочувствие",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=230",
+        "中性名词。"
+      ]
+    },
+    {
+      "id": 7053,
+      "accent": "сою́зник",
+      "part": "名词·阳性",
+      "meaning": "盟友；盟国；同盟者",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "союзник",
+        "part_of_speech": "阳",
+        "meaning_zh": "联盟者, 盟国；同盟军",
+        "source_page": 230,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "союзник",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7054,
+      "accent": "сою́зный",
+      "part": "形容词",
+      "meaning": "同盟的；联盟的；联合的；联邦的",
+      "perfective": "",
+      "note": "联邦义常见历史制度名称。",
+      "stage": 3,
+      "original": {
+        "word": "союзный",
+        "part_of_speech": "形",
+        "meaning_zh": "联盟的, 同盟的, 联合的",
+        "source_page": 230,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "союзный",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7055,
+      "accent": "со́я",
+      "part": "名词·阴性",
+      "meaning": "大豆；黄豆",
+      "perfective": "",
+      "note": "删除邻条СП联合企业的释义污染。",
+      "stage": 2,
+      "original": {
+        "word": "сбя",
+        "part_of_speech": "[ 阴",
+        "meaning_zh": "黄豆, 大豆 ( ) 联合企业, 合资企业",
+        "source_page": 230,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "соя",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=230",
+        "со́я大豆；联合企业是下一条СП，不属于本词。"
+      ]
+    },
+    {
+      "id": 7056,
+      "accent": "спа́льный",
+      "part": "形容词",
+      "meaning": "睡眠用的；供睡觉的",
+      "perfective": "",
+      "note": "如睡袋、卧铺车厢。",
+      "stage": 2,
+      "original": {
+        "word": "спальный",
+        "part_of_speech": "形",
+        "meaning_zh": "睡眠 (用) 的",
+        "source_page": 230,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "спальный",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7057,
+      "accent": "спа́льня",
+      "part": "名词·阴性",
+      "meaning": "卧室；寝室",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "спальня",
+        "part_of_speech": "[ 阴",
+        "meaning_zh": "寝室, 卧室",
+        "source_page": 230,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "спальня",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7058,
+      "accent": "спаса́тельный",
+      "part": "形容词",
+      "meaning": "救生的；救援的；急救的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "спасательный",
+        "part_of_speech": "形",
+        "meaning_zh": "救生的, 急救的",
+        "source_page": 230,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "спасательный",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7059,
+      "accent": "спаса́ться",
+      "part": "动词·未完成体",
+      "meaning": "逃生；获救；躲避；免受危险",
+      "perfective": "спасти́сь",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "спасаться",
+        "part_of_speech": "未",
+        "meaning_zh": "得救; 逃脱; 免受某种危险",
+        "source_page": 230,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "спасаться",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7060,
+      "accent": "спасе́ние",
+      "part": "名词·中性",
+      "meaning": "拯救；救援；获救；解脱",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "спасение",
+        "part_of_speech": "中",
+        "meaning_zh": "救, 拯救",
+        "source_page": 230,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "спасение",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7061,
+      "accent": "специализа́ция",
+      "part": "名词·阴性",
+      "meaning": "专业化；专门化；专业方向",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "специализация",
+        "part_of_speech": "阴",
+        "meaning_zh": "专门化, 专业化",
+        "source_page": 230,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "специализация",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7062,
+      "accent": "спла́чиваться",
+      "part": "动词·未完成体",
+      "meaning": "团结起来；紧密联合",
+      "perfective": "сплоти́ться",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "сплачиваться",
+        "part_of_speech": "未",
+        "meaning_zh": "完团结起来,(紧密地) 联合起来",
+        "source_page": 231,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сплачиваться",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=231",
+        "спла́чиваться配сплоти́ться。"
+      ]
+    },
+    {
+      "id": 7063,
+      "accent": "сплоче́ние",
+      "part": "名词·中性",
+      "meaning": "团结；联合；凝聚",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "сплочение",
+        "part_of_speech": "中",
+        "meaning_zh": "团结, 联合",
+        "source_page": 231,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сплочение",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7064,
+      "accent": "спо́рный",
+      "part": "形容词",
+      "meaning": "有争议的；有争执的；可疑的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "спорный",
+        "part_of_speech": "形",
+        "meaning_zh": "引起争论的；有争议的；发生争执的",
+        "source_page": 232,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "спорный",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7065,
+      "accent": "спотыка́ться",
+      "part": "动词·未完成体",
+      "meaning": "绊脚；踉跄；卡住；遇到障碍",
+      "perfective": "споткну́ться",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "спотыкаться",
+        "part_of_speech": "Ж",
+        "meaning_zh": "绊一下, 绊得要跌倒",
+        "source_page": 232,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "спотыкаться",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7066,
+      "accent": "спра́вка",
+      "part": "名词·阴性",
+      "meaning": "查询；参考资料；证明书",
+      "perfective": "",
+      "note": "证明书义常见工作证明、医疗证明。",
+      "stage": 2,
+      "original": {
+        "word": "справка",
+        "part_of_speech": "阴",
+        "meaning_zh": "打听, 询问",
+        "source_page": 232,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "справка",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=232",
+        "恢复资料和证明书义，不能只有询问。"
+      ]
+    },
+    {
+      "id": 7067,
+      "accent": "спра́вочный",
+      "part": "形容词",
+      "meaning": "供参考的；备查的；咨询的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "справочный",
+        "part_of_speech": "形",
+        "meaning_zh": "备查的, 参考的",
+        "source_page": 232,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "справочный",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7068,
+      "accent": "спрос",
+      "part": "名词·阳性",
+      "meaning": "需求；销路；追究；责任要求",
+      "perfective": "",
+      "note": "需求常用на加第四格；追究义见с кого спрос。",
+      "stage": 3,
+      "original": {
+        "word": "спрос",
+        "part_of_speech": "阳",
+        "meaning_zh": "对书的需求",
+        "source_page": 232,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "спрос",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=232",
+        "书是例句限定，恢复需求、销路。"
+      ]
+    },
+    {
+      "id": 7069,
+      "accent": "сраже́ние",
+      "part": "名词·中性",
+      "meaning": "战斗；会战；战役",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "сражение",
+        "part_of_speech": "中",
+        "meaning_zh": "战役, 会战",
+        "source_page": 232,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "сражение",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7070,
+      "accent": "срам",
+      "part": "名词·阳性",
+      "meaning": "羞耻；耻辱；丢脸的事",
+      "perfective": "",
+      "note": "口语。",
+      "stage": 3,
+      "original": {
+        "word": "срам",
+        "part_of_speech": "阳",
+        "meaning_zh": "羞耻, 耻骆",
+        "source_page": 232,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "срам",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": []
+    },
+    {
+      "id": 7071,
+      "accent": "среднеазиа́тский",
+      "part": "形容词",
+      "meaning": "中亚的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "среднеазиатский",
+        "part_of_speech": "形",
+        "meaning_zh": "中亚地区",
+        "source_page": 232,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "среднеазиатский",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=232",
+        "形容词中亚的，不是地区名词。"
+      ]
+    },
+    {
+      "id": 7072,
+      "accent": "средневеко́вый",
+      "part": "形容词",
+      "meaning": "中世纪的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "средневековый",
+        "part_of_speech": null,
+        "meaning_zh": "中世纪的中世纪艺术",
+        "source_page": 232,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "средневековый",
+      "method": "2026-09-11 当前助手逐词审核核心中文、词性、体与重音，原PDF227至232页核对丢义、错字和邻条污染。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=232",
+        "形容词средневеко́вый，去掉例句艺术。"
+      ]
+    }
+  ]
+}
