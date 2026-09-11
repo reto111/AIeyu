@@ -1,0 +1,887 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 7606,
+      "accent": "бог",
+      "part": "名词·阳性",
+      "meaning": "神；上帝",
+      "perfective": "",
+      "note": "指一神教的上帝时常写Бог。",
+      "stage": 2,
+      "original": {
+        "word": "бог",
+        "part_of_speech": "阳",
+        "meaning_zh": "上帝；天主",
+        "source_page": 19,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бог",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7607,
+      "accent": "бога́тство",
+      "part": "名词·中性",
+      "meaning": "财富；丰富；宝贵资源",
+      "perfective": "",
+      "note": "不把资源丰富的例句缩成资源库。",
+      "stage": 2,
+      "original": {
+        "word": "богатство",
+        "part_of_speech": "中",
+        "meaning_zh": "财富；丰富；资源库",
+        "source_page": 19,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "богатство",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7608,
+      "accent": "бога́тый",
+      "part": "形容词",
+      "meaning": "富有的；丰富的；富含……的",
+      "perfective": "",
+      "note": "可接第五格表示富含什么；名词化可指富人。",
+      "stage": 1,
+      "original": {
+        "word": "богатый",
+        "part_of_speech": "形",
+        "meaning_zh": "富有的；丰富的；含有丰富……的；富人",
+        "source_page": 19,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "богатый",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7609,
+      "accent": "бо́дрый",
+      "part": "形容词",
+      "meaning": "精力充沛的；精神饱满的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "бодрый",
+        "part_of_speech": "形",
+        "meaning_zh": "精力充沛的；精神饱满的",
+        "source_page": 19,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бодрый",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7610,
+      "accent": "боево́й",
+      "part": "形容词",
+      "meaning": "战斗的；作战用的；有战斗精神的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "боевой",
+        "part_of_speech": "形",
+        "meaning_zh": "战斗的；作战的；战斗精神的",
+        "source_page": 19,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "боевой",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7611,
+      "accent": "бое́ц",
+      "part": "名词·阳性",
+      "meaning": "战士；战斗员；斗士",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "боец",
+        "part_of_speech": "阳",
+        "meaning_zh": "战士；战斗员；搏击运动员",
+        "source_page": 19,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "боец",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7612,
+      "accent": "бой",
+      "part": "名词·阳性",
+      "meaning": "战斗；搏斗",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "бой",
+        "part_of_speech": "阳",
+        "meaning_zh": "战斗；战役",
+        "source_page": 20,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бой",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7613,
+      "accent": "бок",
+      "part": "名词·阳性",
+      "meaning": "身体侧部；肋部；侧面",
+      "perfective": "",
+      "note": "бок о бок才是并肩、紧挨着。",
+      "stage": 1,
+      "original": {
+        "word": "бок",
+        "part_of_speech": "阳",
+        "meaning_zh": "肋部；侧面；旁边；并肩地",
+        "source_page": 20,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бок",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=20",
+        "并肩地是бок о бок的词组义。"
+      ]
+    },
+    {
+      "id": 7614,
+      "accent": "бокс",
+      "part": "名词·阳性",
+      "meaning": "拳击；拳术",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "бокс",
+        "part_of_speech": "阳",
+        "meaning_zh": "拳击；拳术",
+        "source_page": 20,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бокс",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7615,
+      "accent": "бо́лее",
+      "part": "副词",
+      "meaning": "超过；多于；更加",
+      "perfective": "",
+      "note": "可构成分析形式比较级。",
+      "stage": 1,
+      "original": {
+        "word": "более",
+        "part_of_speech": "副",
+        "meaning_zh": "多于；超过；更加",
+        "source_page": 20,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "более",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7616,
+      "accent": "боле́знь",
+      "part": "名词·阴性",
+      "meaning": "疾病；病症",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "болезнь",
+        "part_of_speech": "阴",
+        "meaning_zh": "疾病；病；病症",
+        "source_page": 20,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "болезнь",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7617,
+      "accent": "боле́ть",
+      "part": "动词·未完成体",
+      "meaning": "生病；疼痛；为……助威",
+      "perfective": "",
+      "note": "болеть чем患某病，болеть за支持球队；заболеть表示开始生病，不作通用体配对。",
+      "stage": 1,
+      "original": {
+        "word": "болёть",
+        "part_of_speech": "未",
+        "meaning_zh": "生病；疼痛；支持（球队等）",
+        "source_page": 20,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "болеть",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=20",
+        "两条боле́ть均重读е，不是ё；生病、助威及疼痛核原页。"
+      ]
+    },
+    {
+      "id": 7618,
+      "accent": "болта́ть",
+      "part": "动词·未完成体",
+      "meaning": "闲聊；乱说；说漏嘴；泄露",
+      "perfective": "",
+      "note": "泄露义指不慎说出，不把其他义强配为同一完成体。",
+      "stage": 2,
+      "original": {
+        "word": "болтать",
+        "part_of_speech": "未",
+        "meaning_zh": "闲扯；乱说；说走嘴；泄露",
+        "source_page": 20,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "болтать",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7619,
+      "accent": "боль",
+      "part": "名词·阴性",
+      "meaning": "疼痛；痛苦；悲痛",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "боль",
+        "part_of_speech": "阴",
+        "meaning_zh": "疼痛；痛苦；悲痛",
+        "source_page": 20,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "боль",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7620,
+      "accent": "больни́ца",
+      "part": "名词·阴性",
+      "meaning": "医院",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "больница",
+        "part_of_speech": "阴",
+        "meaning_zh": "医院；病院",
+        "source_page": 21,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "больница",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7621,
+      "accent": "бо́льно",
+      "part": "副词／谓语词",
+      "meaning": "疼痛地；感到疼痛；痛心；难过",
+      "perfective": "",
+      "note": "мне больно表示我感到疼痛或难过。",
+      "stage": 1,
+      "original": {
+        "word": "больно",
+        "part_of_speech": "副",
+        "meaning_zh": "痛地；疼痛；痛心；难过",
+        "source_page": 21,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "больно",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7622,
+      "accent": "больно́й",
+      "part": "形容词／名词",
+      "meaning": "有病的；患病的；病人",
+      "perfective": "",
+      "note": "痛处为больное место，棘手问题为больной вопрос。",
+      "stage": 1,
+      "original": {
+        "word": "больной",
+        "part_of_speech": "形",
+        "meaning_zh": "有病的；病人；痛处；棘手的问题",
+        "source_page": 21,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "больной",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=21",
+        "痛处与棘手问题来自больное место/больной вопрос。"
+      ]
+    },
+    {
+      "id": 7623,
+      "accent": "бо́льше",
+      "part": "比较级／副词",
+      "meaning": "更大；更多；超过；再",
+      "perfective": "",
+      "note": "больше не表示不再，不能脱离否定译成再也不。",
+      "stage": 1,
+      "original": {
+        "word": "больше",
+        "part_of_speech": "副",
+        "meaning_zh": "再也（不）；大于；多于；更加",
+        "source_page": 21,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "больше",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=21",
+        "再也不需否定配合，不把否定含义强加单词本身。"
+      ]
+    },
+    {
+      "id": 7624,
+      "accent": "большеви́к",
+      "part": "名词·阳性",
+      "meaning": "布尔什维克",
+      "perfective": "",
+      "note": "俄国革命史相关政治称谓。",
+      "stage": 3,
+      "original": {
+        "word": "большевик",
+        "part_of_speech": "阳",
+        "meaning_zh": "布尔什维克",
+        "source_page": 21,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "большевик",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7625,
+      "accent": "большинство́",
+      "part": "名词·中性",
+      "meaning": "多数；大多数；大部分",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "большинство",
+        "part_of_speech": "中",
+        "meaning_zh": "多数；大多数",
+        "source_page": 21,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "большинство",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7626,
+      "accent": "бо́мба",
+      "part": "名词·阴性",
+      "meaning": "炸弹",
+      "perfective": "",
+      "note": "原子弹为атомная бомба，氢弹为водородная бомба。",
+      "stage": 2,
+      "original": {
+        "word": "бомба",
+        "part_of_speech": "阴",
+        "meaning_zh": "炸弹；原子弹；氢弹",
+        "source_page": 22,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бомба",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=22",
+        "原子弹氢弹来自形容词限定，不是бомба本身特指。"
+      ]
+    },
+    {
+      "id": 7627,
+      "accent": "боре́ц",
+      "part": "名词·阳性",
+      "meaning": "斗士；奋斗者；摔跤运动员",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "борец",
+        "part_of_speech": "阳",
+        "meaning_zh": "斗士；战士；摔跤运动员",
+        "source_page": 22,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "борец",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7628,
+      "accent": "борода́",
+      "part": "名词·阴性",
+      "meaning": "胡须；络腮胡子",
+      "perfective": "",
+      "note": "区别усы上唇的胡子。",
+      "stage": 1,
+      "original": {
+        "word": "борода",
+        "part_of_speech": "阴",
+        "meaning_zh": "胡子；胡须",
+        "source_page": 22,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "борода",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7629,
+      "accent": "боро́ться",
+      "part": "动词·未完成体",
+      "meaning": "斗争；搏斗；奋斗；摔跤",
+      "perfective": "",
+      "note": "за表示争取，против表示反对；побороться有奋战一番义，不强配。",
+      "stage": 2,
+      "original": {
+        "word": "бороться",
+        "part_of_speech": "未",
+        "meaning_zh": "斗争；奋战；为……而奋斗；冲突",
+        "source_page": 22,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бороться",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7630,
+      "accent": "борт",
+      "part": "名词·阳性",
+      "meaning": "船舷；交通工具的侧壁",
+      "perfective": "",
+      "note": "на борту表示在船、飞机或飞船上。",
+      "stage": 2,
+      "original": {
+        "word": "борт",
+        "part_of_speech": "阳",
+        "meaning_zh": "船舷；船上；（船、飞机、宇宙飞船）上",
+        "source_page": 22,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "борт",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=22",
+        "на борту才是船机上，保留船舷侧壁核心义。"
+      ]
+    },
+    {
+      "id": 7631,
+      "accent": "борьба́",
+      "part": "名词·阴性",
+      "meaning": "斗争；搏斗；竞争；摔跤",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "борьба",
+        "part_of_speech": "阴",
+        "meaning_zh": "摔跤；斗争；战斗；竞争",
+        "source_page": 22,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "борьба",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7632,
+      "accent": "босо́й",
+      "part": "形容词",
+      "meaning": "赤脚的；光脚的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "босой",
+        "part_of_speech": "形",
+        "meaning_zh": "赤脚的；光脚的",
+        "source_page": 22,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "босой",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7633,
+      "accent": "боти́нки",
+      "part": "名词·复数",
+      "meaning": "鞋；短帮皮鞋；短靴",
+      "perfective": "",
+      "note": "单数боти́нок；不等同于长筒靴сапоги。",
+      "stage": 1,
+      "original": {
+        "word": "ботинки",
+        "part_of_speech": "复",
+        "meaning_zh": "鞋；靴子（复数）",
+        "source_page": 22,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ботинки",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=22",
+        "原页单数ботинок，鞋类不泛指长筒靴。"
+      ]
+    },
+    {
+      "id": 7634,
+      "accent": "боя́ться",
+      "part": "动词·未完成体",
+      "meaning": "害怕；担心；经受不住",
+      "perfective": "",
+      "note": "кого чего；物品怕潮、怕光也可用该词。",
+      "stage": 1,
+      "original": {
+        "word": "бояться",
+        "part_of_speech": "未",
+        "meaning_zh": "害怕；怕；经受不住",
+        "source_page": 22,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бояться",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7635,
+      "accent": "брак",
+      "part": "名词·阳性",
+      "meaning": "婚姻；结婚；废品；产品缺陷",
+      "perfective": "",
+      "note": "婚姻与废品是同形同音的不同词。",
+      "stage": 2,
+      "original": {
+        "word": "брак",
+        "part_of_speech": "阳",
+        "meaning_zh": "婚姻；结婚；婚姻关系；废品；产品瑕疵",
+        "source_page": 23,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "брак",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=23",
+        "婚姻与废品为两同形词，均保留并说明。"
+      ]
+    },
+    {
+      "id": 7637,
+      "accent": "бра́тский",
+      "part": "形容词",
+      "meaning": "兄弟的；兄弟般的；友好的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "братский",
+        "part_of_speech": "形",
+        "meaning_zh": "兄弟的；兄弟般的",
+        "source_page": 23,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "братский",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7639,
+      "accent": "бра́ться",
+      "part": "动词·未完成体",
+      "meaning": "抓住；握住；着手；承担",
+      "perfective": "взя́ться",
+      "note": "за加第四格表示抓住或着手做。",
+      "stage": 2,
+      "original": {
+        "word": "браться",
+        "part_of_speech": "未",
+        "meaning_zh": "抓住；握住；着手做；开始；承担；担任",
+        "source_page": 23,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "браться",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=23",
+        "браться与взяться体配对。"
+      ]
+    },
+    {
+      "id": 7640,
+      "accent": "брига́да",
+      "part": "名词·阴性",
+      "meaning": "工作队；班组；军队的旅",
+      "perfective": "",
+      "note": "列车乘务组为поездная бригада，不是运输旅。",
+      "stage": 2,
+      "original": {
+        "word": "бригада",
+        "part_of_speech": "阴",
+        "meaning_zh": "队；组；工作队；旅（运输等）",
+        "source_page": 23,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бригада",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=23",
+        "运输等旅为错误联接，原页列列车乘务组。"
+      ]
+    },
+    {
+      "id": 7641,
+      "accent": "броса́ть",
+      "part": "动词·未完成体",
+      "meaning": "扔；投；抛弃；放弃；戒掉",
+      "perfective": "бро́сить",
+      "note": "挥霍钱财、责难等须结合完整固定搭配，不能孤立套用。",
+      "stage": 1,
+      "original": {
+        "word": "бросать",
+        "part_of_speech": "未",
+        "meaning_zh": "扔；投；抛弃；戒掉；放弃；突然出现；挥霍；责难",
+        "source_page": 24,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бросать",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=24",
+        "责难挥霍等为固定词组，不作为孤立动词核心义。"
+      ]
+    },
+    {
+      "id": 7642,
+      "accent": "броса́ться",
+      "part": "动词·未完成体",
+      "meaning": "投掷东西；扑向；冲向；纵身跳下",
+      "perfective": "бро́ситься",
+      "note": "配对限扑向等动作义；бросаться в глаза引人注目，в нос刺鼻。",
+      "stage": 2,
+      "original": {
+        "word": "бросаться",
+        "part_of_speech": "未",
+        "meaning_zh": "互相投掷；扑向；纵身跳下；引人注目；刺鼻",
+        "source_page": 24,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бросаться",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=24",
+        "引人注目和刺鼻分别来自в глаза与в нос。"
+      ]
+    },
+    {
+      "id": 7643,
+      "accent": "брю́ки",
+      "part": "名词·复数",
+      "meaning": "裤子；长裤",
+      "perfective": "",
+      "note": "只用复数。",
+      "stage": 1,
+      "original": {
+        "word": "брюки",
+        "part_of_speech": "复",
+        "meaning_zh": "裤子",
+        "source_page": 24,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "брюки",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7644,
+      "accent": "буди́льник",
+      "part": "名词·阳性",
+      "meaning": "闹钟",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "будильник",
+        "part_of_speech": "阳",
+        "meaning_zh": "闹钟；闹铃",
+        "source_page": 24,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "будильник",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7645,
+      "accent": "буди́ть",
+      "part": "动词·未完成体",
+      "meaning": "叫醒；唤醒；激起",
+      "perfective": "разбуди́ть",
+      "note": "配对主要用于叫醒；激起兴趣等须按具体搭配选择完成体。",
+      "stage": 1,
+      "original": {
+        "word": "будить",
+        "part_of_speech": "未",
+        "meaning_zh": "叫醒；唤醒；引起（兴趣、好奇心等）",
+        "source_page": 24,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "будить",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=24",
+        "разбудить与будить配对主要适用于叫醒。"
+      ]
+    },
+    {
+      "id": 7646,
+      "accent": "бу́дто",
+      "part": "连词／语气词",
+      "meaning": "好像；仿佛；似乎",
+      "perfective": "",
+      "note": "也可引出传闻内容。",
+      "stage": 2,
+      "original": {
+        "word": "будто",
+        "part_of_speech": "连",
+        "meaning_zh": "好像；似乎",
+        "source_page": 24,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "будто",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": []
+    },
+    {
+      "id": 7647,
+      "accent": "бу́дущий",
+      "part": "形容词",
+      "meaning": "将来的；未来的",
+      "perfective": "",
+      "note": "中性名词形式будущее表示未来、前途。",
+      "stage": 1,
+      "original": {
+        "word": "будущий",
+        "part_of_speech": "形",
+        "meaning_zh": "将来的；未来的",
+        "source_page": 25,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "будущий",
+      "method": "2026-09-11 当前助手逐词审核专四词汇，对照原PDF第19至25页，修正е/ё误识别及固定搭配污染。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=25",
+        "中性名词用法будущее指未来前途。"
+      ]
+    }
+  ]
+}
