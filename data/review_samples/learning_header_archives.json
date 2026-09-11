@@ -16,5 +16,8 @@
     ,{"id":6722,"exam":"TEM8_RU","level":"TEM8","word":"пофтов","part":null,"page":186,"line":"6","meaning":"传统上把作家分为诗人 、 剧作家和散文作家","source":"data/words/tem8_russian_words.pdf#page=186","reason":"прозаик条下作家分类例句跨行，поэтов被误识别后独立成条，不能以整句译文造新词。"}
     ,{"id":6962,"exam":"TEM8_RU","level":"TEM8","word":"грамматику","part":null,"page":218,"line":"14","meaning":"系统地学习俄语语法","source":"data/words/tem8_russian_words.pdf#page=218","reason":"систематический条下систематически изучать русскую грамматику例句末行，不是独立词头；归档保留历史。"}
     ,{"id":7032,"exam":"TEM8_RU","level":"TEM8","word":"каяжизнь","part":null,"page":227,"line":"8","meaning":"士兵生活","source":"data/words/tem8_russian_words.pdf#page=227","reason":"солдатский条下солдатская жизнь例句断行后的кая жизнь，不是独立词头。"}
+    ,{"id":7294,"exam":"TEM8_RU","level":"TEM8","word":"ждения","part":null,"page":265,"line":"17","meaning":"他天生痛腹","source":"data/words/tem8_russian_words.pdf#page=265","reason":"хромой条下Он хромой от рождения例句的рождения断行尾部，不是独立词头。"}
+    ,{"id":7335,"exam":"TEM8_RU","level":"TEM8","word":"чередовались","part":null,"page":269,"line":"17","meaning":"母亲和女儿轮流看护病人","source":"data/words/tem8_russian_words.pdf#page=269","reason":"чередоваться条下母女轮流看护病人的例句被拆成独立条目；真实词头保留7334。"}
+    ,{"id":7412,"exam":"TEM8_RU","level":"TEM8","word":"радныйжанр","part":null,"page":280,"line":"4","meaning":"舞台文艺节目风格","source":"data/words/tem8_russian_words.pdf#page=280","reason":"эстрадный条下эстрадный жанр跨行末尾，不是独立词条；保留形容词7411。"}
   ]
 }

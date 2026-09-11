@@ -1,0 +1,1301 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 7334,
+      "accent": "чередова́ться",
+      "part": "动词·未完成体",
+      "meaning": "轮流；交替；相互更替",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "чередоваться",
+        "part_of_speech": "未",
+        "meaning_zh": "轮流, 替换, 互相更替",
+        "source_page": 269,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чередоваться",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7336,
+      "accent": "черепа́ха",
+      "part": "名词·阴性",
+      "meaning": "龟；乌龟",
+      "perfective": "",
+      "note": "按修饰词区分陆龟、海龟等。",
+      "stage": 2,
+      "original": {
+        "word": "черепаха",
+        "part_of_speech": null,
+        "meaning_zh": "陆龟",
+        "source_page": 269,
+        "source_line": "18"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "черепаха",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=269",
+        "龟为词义，陆龟为例句。"
+      ]
+    },
+    {
+      "id": 7337,
+      "accent": "черепи́ца",
+      "part": "名词·阴性集合",
+      "meaning": "屋瓦；瓦片",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "черепица",
+        "part_of_speech": "阴 , 也 用 作 集",
+        "meaning_zh": "屋顶上的瓦",
+        "source_page": 270,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "черепица",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=270",
+        "瓦，屋顶为例句地点。"
+      ]
+    },
+    {
+      "id": 7338,
+      "accent": "чересчу́р",
+      "part": "副词",
+      "meaning": "过分；过于；太",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "чересчур",
+        "part_of_speech": "剪",
+        "meaning_zh": "太, 过分, 过度",
+        "source_page": 270,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чересчур",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7339,
+      "accent": "черни́льница",
+      "part": "名词·阴性",
+      "meaning": "墨水瓶；墨水池",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "чернильница",
+        "part_of_speech": "阴",
+        "meaning_zh": "墨水瓶, 墨水池",
+        "source_page": 270,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чернильница",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7340,
+      "accent": "черномо́рский",
+      "part": "形容词",
+      "meaning": "黑海的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "черноморский",
+        "part_of_speech": "形",
+        "meaning_zh": "黑海的",
+        "source_page": 270,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "черноморский",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7341,
+      "accent": "чесно́к",
+      "part": "名词·阳性",
+      "meaning": "大蒜",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "чеснбк-",
+        "part_of_speech": "陌",
+        "meaning_zh": "人蓉昧 ˇ",
+        "source_page": 270,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чеснок",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=270",
+        "чесно́к；尾连字符及б为OCR噪声，大蒜不是蒜味。"
+      ]
+    },
+    {
+      "id": 7342,
+      "accent": "чи́сленность",
+      "part": "名词·阴性",
+      "meaning": "人数；数量；总数",
+      "perfective": "",
+      "note": "常指人口、队伍或生物种群规模。",
+      "stage": 3,
+      "original": {
+        "word": "численность",
+        "part_of_speech": "阴",
+        "meaning_zh": "居民总",
+        "source_page": 270,
+        "source_line": "21"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "численность",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=270",
+        "数量、人数；居民总数为跨页例句。"
+      ]
+    },
+    {
+      "id": 7343,
+      "accent": "чита́льный",
+      "part": "形容词",
+      "meaning": "阅读用的；供阅览的",
+      "perfective": "",
+      "note": "чита́льный зал为阅览室。",
+      "stage": 2,
+      "original": {
+        "word": "читальный",
+        "part_of_speech": "形",
+        "meaning_zh": "阅读用的 (常指房舍)；阅览室",
+        "source_page": 271,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "читальный",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=271",
+        "阅读用的形容词，不是阅览室名词。"
+      ]
+    },
+    {
+      "id": 7344,
+      "accent": "чита́тельский",
+      "part": "形容词",
+      "meaning": "读者的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "читательский",
+        "part_of_speech": "形",
+        "meaning_zh": "读者的",
+        "source_page": 271,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "читательский",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7345,
+      "accent": "чиха́ть",
+      "part": "动词·未完成体",
+      "meaning": "打喷嚏",
+      "perfective": "чихну́ть",
+      "note": "完成体表示打一个喷嚏。",
+      "stage": 2,
+      "original": {
+        "word": "чихать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "打喷嚏",
+        "source_page": 271,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чихать",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7346,
+      "accent": "чрезме́рный",
+      "part": "形容词",
+      "meaning": "过分的；过度的；过量的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "чрезмерный",
+        "part_of_speech": "形",
+        "meaning_zh": "过分的, 过度的, 过大的, 过多的",
+        "source_page": 271,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чрезмерный",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7347,
+      "accent": "чтить",
+      "part": "动词·未完成体",
+      "meaning": "尊敬；敬重；敬奉；纪念",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "чтить",
+        "part_of_speech": "未",
+        "meaning_zh": "尊敬, 尊重；敬爱",
+        "source_page": 271,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чтить",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7348,
+      "accent": "чувстви́тельный",
+      "part": "形容词",
+      "meaning": "敏感的；灵敏的；多愁善感的；明显的",
+      "perfective": "",
+      "note": "明显义如显著损失。",
+      "stage": 3,
+      "original": {
+        "word": "чувствительный",
+        "part_of_speech": "形",
+        "meaning_zh": "有感觉的；敏感的",
+        "source_page": 271,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чувствительный",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7349,
+      "accent": "чу́вствоваться",
+      "part": "动词·未完成体",
+      "meaning": "被感觉到；显露出来；可以察觉",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "чувствоваться",
+        "part_of_speech": "未",
+        "meaning_zh": "第一, 二人称不用) - 未感觉得到, 可以看出",
+        "source_page": 271,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чувствоваться",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7350,
+      "accent": "чугу́н",
+      "part": "名词·阳性",
+      "meaning": "铸铁；生铁",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "чугун",
+        "part_of_speech": "阳",
+        "meaning_zh": "生铁, 铸铁",
+        "source_page": 271,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чугун",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7351,
+      "accent": "чугу́нный",
+      "part": "形容词",
+      "meaning": "铸铁的；生铁的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "чугунный",
+        "part_of_speech": "形",
+        "meaning_zh": "铸铁的",
+        "source_page": 271,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чугунный",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7352,
+      "accent": "чуда́к",
+      "part": "名词·阳性",
+      "meaning": "怪人；行为古怪的人",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "чудак",
+        "part_of_speech": "阳",
+        "meaning_zh": "古怪的人, 怪人",
+        "source_page": 271,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чудак",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7353,
+      "accent": "чудо́вищный",
+      "part": "形容词",
+      "meaning": "巨大可怕的；骇人听闻的；极其严重的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "чудовищный",
+        "part_of_speech": "形",
+        "meaning_zh": "巨大而旷人的怪兽；骇人听闻的罪行；): 巨大规模",
+        "source_page": 272,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чудовищный",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=272",
+        "巨大可怕、骇人听闻；怪兽罪行均为例句名词。"
+      ]
+    },
+    {
+      "id": 7354,
+      "accent": "чу́ждый",
+      "part": "形容词",
+      "meaning": "异己的；陌生的；不相容的；不具有……的",
+      "perfective": "",
+      "note": "кому-чему异己或不相容；чего不具有某种感情。",
+      "stage": 3,
+      "original": {
+        "word": "чуждый",
+        "part_of_speech": "形",
+        "meaning_zh": "别人的; 外来的, 异己的; 陌生的; 不具有某种感情的",
+        "source_page": 272,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чуждый",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7355,
+      "accent": "чу́ять",
+      "part": "动词·未完成体",
+      "meaning": "嗅到；闻到；感觉到；预感到",
+      "perfective": "",
+      "note": "почу́ять可指开始察觉，不强配全部用法。",
+      "stage": 3,
+      "original": {
+        "word": "чуять",
+        "part_of_speech": "Ж",
+        "meaning_zh": "嗅出野禽 (兽) 昧；( ), 预料 (到)",
+        "source_page": 272,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чуять",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7356,
+      "accent": "шабло́н",
+      "part": "名词·阳性",
+      "meaning": "样板；模板；模式；陈规旧套",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "шаблбн",
+        "part_of_speech": "阳",
+        "meaning_zh": "模型, 样板, 模子；(转) 模式, 成规, 定规；死板公式, 陈规旧套",
+        "source_page": 272,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "шаблон",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=272",
+        "шабло́н，о误成б。"
+      ]
+    },
+    {
+      "id": 7357,
+      "accent": "шала́ш",
+      "part": "名词·阳性",
+      "meaning": "窝棚；简易棚屋",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "шалаш",
+        "part_of_speech": "阳",
+        "meaning_zh": "渔夫的窝棚",
+        "source_page": 272,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "шалаш",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=272",
+        "窝棚，不限定渔夫。"
+      ]
+    },
+    {
+      "id": 7358,
+      "accent": "шалу́н",
+      "part": "名词·阳性",
+      "meaning": "淘气鬼；调皮的孩子",
+      "perfective": "",
+      "note": "阴性шалу́нья。",
+      "stage": 3,
+      "original": {
+        "word": "шалун",
+        "part_of_speech": "阳",
+        "meaning_zh": "淘气的人 (孩子), 调皮的人 ( )",
+        "source_page": 272,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "шалун",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7359,
+      "accent": "шаль",
+      "part": "名词·阴性",
+      "meaning": "披肩；披巾",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "шаль",
+        "part_of_speech": "阴",
+        "meaning_zh": "披肩, 披巾, 肩巾",
+        "source_page": 272,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "шаль",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7360,
+      "accent": "шампа́нское",
+      "part": "名词·中性",
+      "meaning": "香槟酒",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "шампанское",
+        "part_of_speech": "中",
+        "meaning_zh": "香槟酒",
+        "source_page": 272,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "шампанское",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7361,
+      "accent": "ша́рик",
+      "part": "名词·阳性",
+      "meaning": "小球；珠子；气球",
+      "perfective": "",
+      "note": "气球常说возду́шный ша́рик。",
+      "stage": 2,
+      "original": {
+        "word": "шарик",
+        "part_of_speech": "阳",
+        "meaning_zh": "球",
+        "source_page": 272,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "шарик",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7362,
+      "accent": "шах",
+      "part": "名词·阳性",
+      "meaning": "将军；将；沙阿",
+      "perfective": "",
+      "note": "前两义为棋语；沙阿为君主称号的同形词。",
+      "stage": 3,
+      "original": {
+        "word": "шах",
+        "part_of_speech": "阳",
+        "meaning_zh": "(棋) 将, 将军",
+        "source_page": 272,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "шах",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7363,
+      "accent": "Швейца́рия",
+      "part": "专有名词·阴性",
+      "meaning": "瑞士",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "Швейцария",
+        "part_of_speech": "阴",
+        "meaning_zh": "瑞士",
+        "source_page": 273,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "Швейцария",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7364,
+      "accent": "швейца́рский",
+      "part": "形容词",
+      "meaning": "瑞士的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "швейцарский",
+        "part_of_speech": "形",
+        "meaning_zh": "瑞士的",
+        "source_page": 273,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "швейцарский",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7365,
+      "accent": "швыря́ть",
+      "part": "动词·未完成体",
+      "meaning": "用力扔；抛；摔",
+      "perfective": "швырну́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "швырять",
+        "part_of_speech": "未",
+        "meaning_zh": "扔；投；抛",
+        "source_page": 273,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "швырять",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7366,
+      "accent": "шепта́ться",
+      "part": "动词·未完成体",
+      "meaning": "低声交谈；窃窃私语",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "шептаться",
+        "part_of_speech": "未",
+        "meaning_zh": "互相低语, 小声交谈",
+        "source_page": 273,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "шептаться",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7367,
+      "accent": "шеф",
+      "part": "名词·阳性",
+      "meaning": "上司；首长；主管；指导者",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "шеф",
+        "part_of_speech": "阳",
+        "meaning_zh": "首长, 领导者",
+        "source_page": 274,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "шеф",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7368,
+      "accent": "шифр",
+      "part": "名词·阳性",
+      "meaning": "密码；暗码；编号",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "шифр",
+        "part_of_speech": "阳",
+        "meaning_zh": "密码；暗号",
+        "source_page": 274,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "шифр",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7369,
+      "accent": "шкату́лка",
+      "part": "名词·阴性",
+      "meaning": "小匣子；首饰盒",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "шкатулка",
+        "part_of_speech": "阴",
+        "meaning_zh": "(存放小件贵重物品的 〉 小匣, 锦匣；首饰箱",
+        "source_page": 274,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "шкатулка",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7370,
+      "accent": "шлю́пка",
+      "part": "名词·阴性",
+      "meaning": "小艇；舢板",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "тшилюпка",
+        "part_of_speech": "阴",
+        "meaning_zh": "劾板, 小艇",
+        "source_page": 274,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "шлюпка",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=274",
+        "шлю́пка；原条小艇、舢板。"
+      ]
+    },
+    {
+      "id": 7371,
+      "accent": "шов",
+      "part": "名词·阳性",
+      "meaning": "接缝；缝线；缝合处",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "шов",
+        "part_of_speech": "阳",
+        "meaning_zh": "熹平接缝",
+        "source_page": 275,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "шов",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=275",
+        "缝和接缝，熨平为例句动词。"
+      ]
+    },
+    {
+      "id": 7372,
+      "accent": "шок",
+      "part": "名词·阳性",
+      "meaning": "休克；震惊；强烈冲击",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "шок",
+        "part_of_speech": "阳",
+        "meaning_zh": "休克",
+        "source_page": 275,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "шок",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7373,
+      "accent": "шо́рох",
+      "part": "名词·阳性",
+      "meaning": "沙沙声；轻微窸窣声",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "шорох",
+        "part_of_speech": "阳",
+        "meaning_zh": "沙沙声",
+        "source_page": 275,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "шорох",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7374,
+      "accent": "шо́у",
+      "part": "名词·中性·不变格",
+      "meaning": "演出；表演；秀",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "шоу",
+        "part_of_speech": "不 变 , 中",
+        "meaning_zh": "秀, 表演, 演出",
+        "source_page": 275,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "шоу",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7375,
+      "accent": "шпио́н",
+      "part": "名词·阳性",
+      "meaning": "间谍；奸细",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "шпибн",
+        "part_of_speech": "阴",
+        "meaning_zh": "间谍, 奸细, 特务",
+        "source_page": 275,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "шпион",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=275",
+        "шпио́н阳性，о和性别标记均修正。"
+      ]
+    },
+    {
+      "id": 7376,
+      "accent": "шрифт",
+      "part": "名词·阳性",
+      "meaning": "字体；印刷字形；活字",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "шрифт",
+        "part_of_speech": "阳",
+        "meaning_zh": "活字, 铅字；大号铅字",
+        "source_page": 275,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "шрифт",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=275",
+        "字体、活字，不限定大号。"
+      ]
+    },
+    {
+      "id": 7377,
+      "accent": "штамп",
+      "part": "名词·阳性",
+      "meaning": "印章；印记；冲模；套话；陈套",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "штамп",
+        "part_of_speech": "阳",
+        "meaning_zh": "处方上门诊部的章",
+        "source_page": 275,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "штамп",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=275",
+        "模具、印章、印记，处方为例句。"
+      ]
+    },
+    {
+      "id": 7378,
+      "accent": "штаны́",
+      "part": "名词·仅复数",
+      "meaning": "裤子",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "штаны",
+        "part_of_speech": "复",
+        "meaning_zh": "裤子",
+        "source_page": 275,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "штаны",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7379,
+      "accent": "штат",
+      "part": "名词·阳性",
+      "meaning": "州；邦；人员编制；全体工作人员",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "штат",
+        "part_of_speech": "阴",
+        "meaning_zh": "州, 邦",
+        "source_page": 275,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "штат",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=275",
+        "штат阳性，另有编制常用义。"
+      ]
+    },
+    {
+      "id": 7380,
+      "accent": "што́ра",
+      "part": "名词·阴性",
+      "meaning": "窗帘",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "штбра",
+        "part_of_speech": "阴",
+        "meaning_zh": "卷起窗帘",
+        "source_page": 275,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "штора",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=275",
+        "што́ра恢复о；窗帘不是卷起动作。"
+      ]
+    },
+    {
+      "id": 7381,
+      "accent": "штурм",
+      "part": "名词·阳性",
+      "meaning": "强攻；猛攻；突击",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "штурм",
+        "part_of_speech": "阳",
+        "meaning_zh": "冲击, 强击, 猛攻, 强攻；突击",
+        "source_page": 275,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "штурм",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7382,
+      "accent": "штык",
+      "part": "名词·阳性",
+      "meaning": "刺刀；枪刺",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "штык",
+        "part_of_speech": "阳",
+        "meaning_zh": "刺刀, 枪刺",
+        "source_page": 275,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "штык",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7383,
+      "accent": "шурша́ть",
+      "part": "动词·未完成体",
+      "meaning": "发出沙沙声；窸窣作响",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "шуршать",
+        "part_of_speech": "[ 未",
+        "meaning_zh": "沙沙响, 簌簌响",
+        "source_page": 275,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "шуршать",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7384,
+      "accent": "щит",
+      "part": "名词·阳性",
+      "meaning": "盾；盾牌；防护板；挡板",
+      "perfective": "",
+      "note": "不包括矛。",
+      "stage": 3,
+      "original": {
+        "word": "щит",
+        "part_of_speech": "阳",
+        "meaning_zh": "矛和盾",
+        "source_page": 276,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "щит",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=276",
+        "盾为核心，不包含例句копьё矛。"
+      ]
+    },
+    {
+      "id": 7385,
+      "accent": "щу́ка",
+      "part": "名词·阴性",
+      "meaning": "狗鱼",
+      "perfective": "",
+      "note": "一种淡水鱼。",
+      "stage": 3,
+      "original": {
+        "word": "щука",
+        "part_of_speech": "阴",
+        "meaning_zh": "狗鱼",
+        "source_page": 276,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "щука",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7386,
+      "accent": "щу́пать",
+      "part": "动词·未完成体",
+      "meaning": "摸；触摸检查；探摸",
+      "perfective": "пощу́пать",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "шщупать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "摸, 按；摸索, 探索",
+        "source_page": 276,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "щупать",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=276",
+        "щу́пать，去掉多余ш；未完成体。"
+      ]
+    },
+    {
+      "id": 7387,
+      "accent": "эвакуа́ция",
+      "part": "名词·阴性",
+      "meaning": "撤离；疏散；转移",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "эвакуация",
+        "part_of_speech": "阴",
+        "meaning_zh": "撒退, 疏散；(军) ®",
+        "source_page": 276,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "эвакуация",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7388,
+      "accent": "эволю́ция",
+      "part": "名词·阴性",
+      "meaning": "进化；演变；渐进发展",
+      "perfective": "",
+      "note": "不意味着必然变好。",
+      "stage": 3,
+      "original": {
+        "word": "эволюция",
+        "part_of_speech": "阴",
+        "meaning_zh": "进化, 进步",
+        "source_page": 276,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "эволюция",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7389,
+      "accent": "эква́тор",
+      "part": "名词·阳性",
+      "meaning": "赤道",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "экватор",
+        "part_of_speech": "阳",
+        "meaning_zh": "赤道",
+        "source_page": 277,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "экватор",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7390,
+      "accent": "экземпля́р",
+      "part": "名词·阳性",
+      "meaning": "一本；一份；一件；一个样本",
+      "perfective": "",
+      "note": "表示同类制品或个体中的一件。",
+      "stage": 3,
+      "original": {
+        "word": "экземпляр",
+        "part_of_speech": "阳",
+        "meaning_zh": "本, 份, 件",
+        "source_page": 277,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "экземпляр",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7391,
+      "accent": "экзо́тика",
+      "part": "名词·阴性",
+      "meaning": "异国情调；异域风物；新奇事物",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "экзбтика",
+        "part_of_speech": "阴",
+        "meaning_zh": "异地 (或异国) 风情, 异地 (或异国) 的新奇事物 (风俗 、 景色 、 文化等)",
+        "source_page": 277,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "экзотика",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=277",
+        "экзо́тика恢复о。"
+      ]
+    },
+    {
+      "id": 7392,
+      "accent": "эколо́гия",
+      "part": "名词·阴性",
+      "meaning": "生态学；生态环境",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "экология",
+        "part_of_speech": "阴",
+        "meaning_zh": "生态学",
+        "source_page": 277,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "экология",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": []
+    },
+    {
+      "id": 7393,
+      "accent": "экскава́тор",
+      "part": "名词·阳性",
+      "meaning": "挖掘机",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "экскаватор",
+        "part_of_speech": "阳",
+        "meaning_zh": "挚掘机, 控土机, 电铲",
+        "source_page": 277,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "экскаватор",
+      "method": "2026-09-11 当前助手逐词审核，原页269至277检查词形、核心义和词性；例句残片单独归档。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=277",
+        "挖掘机，清除挚掘和控土乱码。"
+      ]
+    }
+  ]
+}

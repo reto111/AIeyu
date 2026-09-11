@@ -1,0 +1,1088 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 7394,
+      "accent": "экспа́нсия",
+      "part": "名词·阴性",
+      "meaning": "扩张；扩展；蔓延",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "экспансия",
+        "part_of_speech": "阴",
+        "meaning_zh": "扩张 (政策)",
+        "source_page": 277,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "экспансия",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7395,
+      "accent": "эксплуата́тор",
+      "part": "名词·阳性",
+      "meaning": "剥削者",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "эксплуататор",
+        "part_of_speech": "阳",
+        "meaning_zh": "剥削者",
+        "source_page": 278,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "эксплуататор",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7396,
+      "accent": "эксплуата́торский",
+      "part": "形容词",
+      "meaning": "剥削者的；剥削性的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "эксплуататорский",
+        "part_of_speech": "形",
+        "meaning_zh": "剥削者的",
+        "source_page": 278,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "эксплуататорский",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7397,
+      "accent": "э́кспорт",
+      "part": "名词·阳性",
+      "meaning": "出口；出口贸易；输出",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "экспорт",
+        "part_of_speech": "阳",
+        "meaning_zh": "出口木材",
+        "source_page": 278,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "экспорт",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=278",
+        "出口为名词，不限定木材。"
+      ]
+    },
+    {
+      "id": 7398,
+      "accent": "э́кспортный",
+      "part": "形容词",
+      "meaning": "出口的；供出口的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "экспортный",
+        "part_of_speech": "形",
+        "meaning_zh": "出口的",
+        "source_page": 278,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "экспортный",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7399,
+      "accent": "экспресси́вный",
+      "part": "形容词",
+      "meaning": "富于表现力的；富于表情的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "экспрессивный",
+        "part_of_speech": "形",
+        "meaning_zh": "有表现力的, 富于表情的",
+        "source_page": 278,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "экспрессивный",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7400,
+      "accent": "экстрема́льный",
+      "part": "形容词",
+      "meaning": "极端的；极限的；异常严峻的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "экстремальный",
+        "part_of_speech": "形",
+        "meaning_zh": "极端的, 极度的 〔 常指困难 、 复杂等)；极其复杂的情况",
+        "source_page": 278,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "экстремальный",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7401,
+      "accent": "электора́т",
+      "part": "名词·阳性集合",
+      "meaning": "全体选民；选民群体",
+      "perfective": "",
+      "note": "不是选区本身。",
+      "stage": 3,
+      "original": {
+        "word": "электорат",
+        "part_of_speech": "阳",
+        "meaning_zh": "全体选民；选民区",
+        "source_page": 278,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "электорат",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=278",
+        "选民群体不是选区地理区域，原书的选民区不照抄。"
+      ]
+    },
+    {
+      "id": 7402,
+      "accent": "электрифика́ция",
+      "part": "名词·阴性",
+      "meaning": "电气化",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "электрификация",
+        "part_of_speech": "阴",
+        "meaning_zh": "电气化",
+        "source_page": 278,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "электрификация",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7403,
+      "accent": "электри́чка",
+      "part": "名词·阴性",
+      "meaning": "电气列车；市郊电车",
+      "perfective": "",
+      "note": "口语中通常指市郊电气列车。",
+      "stage": 2,
+      "original": {
+        "word": "электричка",
+        "part_of_speech": "阴",
+        "meaning_zh": "电气铁道；电气火车",
+        "source_page": 278,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "электричка",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7404,
+      "accent": "элемента́рный",
+      "part": "形容词",
+      "meaning": "初级的；基本的；最简单的；元素的",
+      "perfective": "",
+      "note": "元素义见化学分析。",
+      "stage": 2,
+      "original": {
+        "word": "элементарный",
+        "part_of_speech": "形",
+        "meaning_zh": "口元索的",
+        "source_page": 278,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "элементарный",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=278",
+        "元素的、初级的和最简单的均在原页。"
+      ]
+    },
+    {
+      "id": 7405,
+      "accent": "эмигра́нт",
+      "part": "名词·阳性",
+      "meaning": "移居国外者；侨民",
+      "perfective": "",
+      "note": "从迁出国的角度描述。",
+      "stage": 3,
+      "original": {
+        "word": "эмигрант",
+        "part_of_speech": "阳",
+        "meaning_zh": "(迁移到国外的) 侨民",
+        "source_page": 279,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "эмигрант",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7406,
+      "accent": "эмигра́ция",
+      "part": "名词·阴性",
+      "meaning": "移居国外；侨居国外；侨民群体",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "эмиграция",
+        "part_of_speech": "阴",
+        "meaning_zh": "迁居外国, 侨居国外",
+        "source_page": 279,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "эмиграция",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7407,
+      "accent": "эмоциона́льный",
+      "part": "形容词",
+      "meaning": "情感的；富于感情的；容易激动的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "эмоциональный",
+        "part_of_speech": "形",
+        "meaning_zh": "带感情的, 感情充沛的, 激动的",
+        "source_page": 279,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "эмоциональный",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7408,
+      "accent": "эмо́ция",
+      "part": "名词·阴性",
+      "meaning": "情绪；情感",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "эмдоция",
+        "part_of_speech": "阴",
+        "meaning_zh": "情绪, 情感；激情",
+        "source_page": 279,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "эмоция",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=279",
+        "эмо́ция，多余д去除。"
+      ]
+    },
+    {
+      "id": 7409,
+      "accent": "энергети́ческий",
+      "part": "形容词",
+      "meaning": "能源的；能量的；动力的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "энергетический",
+        "part_of_speech": "形",
+        "meaning_zh": "动力的, 能源的",
+        "source_page": 279,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "энергетический",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7410,
+      "accent": "эпизо́д",
+      "part": "名词·阳性",
+      "meaning": "一件事；片段；插曲；一集",
+      "perfective": "",
+      "note": "作品或连续节目语境分别理解。",
+      "stage": 3,
+      "original": {
+        "word": "эпизбд",
+        "part_of_speech": "阳",
+        "meaning_zh": "(所发生的) 一件事, 事件, 事故",
+        "source_page": 279,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "эпизод",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=279",
+        "эпизо́д恢复о及作品片段义。"
+      ]
+    },
+    {
+      "id": 7411,
+      "accent": "эстра́дный",
+      "part": "形容词",
+      "meaning": "舞台综艺的；轻音乐演出的",
+      "perfective": "",
+      "note": "不泛指全部文艺活动。",
+      "stage": 3,
+      "original": {
+        "word": "эстрадный",
+        "part_of_speech": "形",
+        "meaning_zh": "文艺的, 游艺的",
+        "source_page": 280,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "эстрадный",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7413,
+      "accent": "э́так",
+      "part": "副词／插入语",
+      "meaning": "这样；如此；大约",
+      "perfective": "",
+      "note": "口语，近似так。",
+      "stage": 3,
+      "original": {
+        "word": "Этак",
+        "part_of_speech": "副",
+        "meaning_zh": "这样 (地)",
+        "source_page": 280,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "этак",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=280",
+        "原词普通小写，副词这样；插入用法大约。"
+      ]
+    },
+    {
+      "id": 7414,
+      "accent": "э́такий",
+      "part": "代词性形容词",
+      "meaning": "这样的；这种的",
+      "perfective": "",
+      "note": "口语，近似тако́й。",
+      "stage": 3,
+      "original": {
+        "word": "Этакий",
+        "part_of_speech": "形",
+        "meaning_zh": "这样的, 这种的 (同故)",
+        "source_page": 280,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "этакий",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=280",
+        "小写этакий，为代词性形容词。"
+      ]
+    },
+    {
+      "id": 7415,
+      "accent": "э́тика",
+      "part": "名词·阴性",
+      "meaning": "伦理学；道德；道德规范",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "Этика",
+        "part_of_speech": "阴",
+        "meaning_zh": "志伦理学",
+        "source_page": 280,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "этика",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=280",
+        "小写этика，伦理学及道德。"
+      ]
+    },
+    {
+      "id": 7416,
+      "accent": "этю́д",
+      "part": "名词·阳性",
+      "meaning": "习作；草图；练习曲；专题短论",
+      "perfective": "",
+      "note": "依艺术、音乐或学术语境区分。",
+      "stage": 3,
+      "original": {
+        "word": "этюд",
+        "part_of_speech": "阳",
+        "meaning_zh": "志 〔(绘画, 雕刻等的) 草稿, 草图",
+        "source_page": 280,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "этюд",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7417,
+      "accent": "э́хо",
+      "part": "名词·中性",
+      "meaning": "回声；反响",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "Эхо",
+        "part_of_speech": "中",
+        "meaning_zh": "回声, 反响",
+        "source_page": 280,
+        "source_line": "17"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "эхо",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=280",
+        "小写эхо，不是专名。"
+      ]
+    },
+    {
+      "id": 7418,
+      "accent": "южа́нин",
+      "part": "名词·阳性",
+      "meaning": "南方人",
+      "perfective": "",
+      "note": "阴性южа́нка。",
+      "stage": 3,
+      "original": {
+        "word": "южанин",
+        "part_of_speech": "阳",
+        "meaning_zh": "南方人",
+        "source_page": 281,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "южанин",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7419,
+      "accent": "ю́ношеский",
+      "part": "形容词",
+      "meaning": "青少年时期的；少年的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "юношеский",
+        "part_of_speech": "形",
+        "meaning_zh": "少年的",
+        "source_page": 281,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "юношеский",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7420,
+      "accent": "ю́ношество",
+      "part": "名词·中性",
+      "meaning": "青少年时期；青年一代",
+      "perfective": "",
+      "note": "可指年龄阶段，也可集合指人。",
+      "stage": 3,
+      "original": {
+        "word": "юношество",
+        "part_of_speech": "中",
+        "meaning_zh": "少年时代；青春年华",
+        "source_page": 281,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "юношество",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7421,
+      "accent": "я́блоня",
+      "part": "名词·阴性",
+      "meaning": "苹果树",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "Яблоня",
+        "part_of_speech": "阴",
+        "meaning_zh": "苹果树",
+        "source_page": 281,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "яблоня",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=281",
+        "小写яблоня。"
+      ]
+    },
+    {
+      "id": 7422,
+      "accent": "я́блочко",
+      "part": "名词·中性",
+      "meaning": "小苹果；靶心",
+      "perfective": "",
+      "note": "я́блоко的指小形式；靶心见попасть в яблочко。",
+      "stage": 2,
+      "original": {
+        "word": "яблочко",
+        "part_of_speech": "中",
+        "meaning_zh": "( 的指小) 苹果",
+        "source_page": 281,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "яблочко",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7423,
+      "accent": "яд",
+      "part": "名词·阳性",
+      "meaning": "毒；毒药；毒物",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "яд",
+        "part_of_speech": "阳",
+        "meaning_zh": "毒物, 毒药",
+        "source_page": 281,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "яд",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7424,
+      "accent": "языково́й",
+      "part": "形容词",
+      "meaning": "语言的",
+      "perfective": "",
+      "note": "不与языко́вый舌的混淆。",
+      "stage": 3,
+      "original": {
+        "word": "языковой",
+        "part_of_speech": "形",
+        "meaning_zh": "语言的",
+        "source_page": 281,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "языковой",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7425,
+      "accent": "языкозна́ние",
+      "part": "名词·中性",
+      "meaning": "语言学",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "языкознание",
+        "part_of_speech": "中",
+        "meaning_zh": "应用语言学",
+        "source_page": 281,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "языкознание",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=281",
+        "语言学核心，应用为例句修饰。"
+      ]
+    },
+    {
+      "id": 7426,
+      "accent": "яи́чница",
+      "part": "名词·阴性",
+      "meaning": "煎蛋；炒蛋",
+      "perfective": "",
+      "note": "常见глазу́нья为荷包蛋，болту́нья为炒蛋。",
+      "stage": 1,
+      "original": {
+        "word": "яйчница",
+        "part_of_speech": "阴",
+        "meaning_zh": "煎蛋",
+        "source_page": 281,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "яичница",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=281",
+        "яи́чница，印刷重音上方误作й，不能改成不规范яйчница。"
+      ]
+    },
+    {
+      "id": 7427,
+      "accent": "япо́нец",
+      "part": "名词·阳性",
+      "meaning": "日本人；日本男子",
+      "perfective": "",
+      "note": "阴性япо́нка。",
+      "stage": 2,
+      "original": {
+        "word": "японец",
+        "part_of_speech": "阳",
+        "meaning_zh": "日本人",
+        "source_page": 282,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "японец",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7428,
+      "accent": "я́ркость",
+      "part": "名词·阴性",
+      "meaning": "亮度；鲜明；生动",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "Яркость",
+        "part_of_speech": "阴",
+        "meaning_zh": "亮度, 明亮度；明显, 卓越",
+        "source_page": 282,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "яркость",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=282",
+        "小写яркость，亮度及鲜明。"
+      ]
+    },
+    {
+      "id": 7429,
+      "accent": "я́рмарка",
+      "part": "名词·阴性",
+      "meaning": "集市；交易会；展销会",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "ярмарка",
+        "part_of_speech": "阴",
+        "meaning_zh": "像在集市上一样的嘈杂声",
+        "source_page": 282,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ярмарка",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=282",
+        "集市和交易会，不是嘈杂声。"
+      ]
+    },
+    {
+      "id": 7430,
+      "accent": "я́ростный",
+      "part": "形容词",
+      "meaning": "愤怒的；狂怒的；猛烈的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "яростный",
+        "part_of_speech": "形",
+        "meaning_zh": "盛怒的, 暴怒的",
+        "source_page": 282,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "яростный",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7431,
+      "accent": "я́рость",
+      "part": "名词·阴性",
+      "meaning": "狂怒；暴怒；猛烈",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "ярость",
+        "part_of_speech": "阴",
+        "meaning_zh": "大怒起来",
+        "source_page": 282,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ярость",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=282",
+        "愤怒名词，非大怒起来动词。"
+      ]
+    },
+    {
+      "id": 7432,
+      "accent": "я́сли",
+      "part": "名词·仅复数",
+      "meaning": "托儿所；饲槽",
+      "perfective": "",
+      "note": "饲槽为另一义项，日常多见托儿所。",
+      "stage": 3,
+      "original": {
+        "word": "Ясли",
+        "part_of_speech": "复",
+        "meaning_zh": "托儿所",
+        "source_page": 282,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ясли",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=282",
+        "小写ясли及仅复数。"
+      ]
+    },
+    {
+      "id": 7433,
+      "accent": "я́сность",
+      "part": "名词·阴性",
+      "meaning": "清晰；明白；明确",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "Ясность",
+        "part_of_speech": "阴",
+        "meaning_zh": "清晰, 明白",
+        "source_page": 282,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ясность",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=282",
+        "小写ясность。"
+      ]
+    },
+    {
+      "id": 7434,
+      "accent": "я́щерица",
+      "part": "名词·阴性",
+      "meaning": "蜥蜴",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "ящерица",
+        "part_of_speech": "阴",
+        "meaning_zh": "蜥蜴",
+        "source_page": 282,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ящерица",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": []
+    },
+    {
+      "id": 7435,
+      "accent": "Беда́ не прихо́дит одна́",
+      "part": "谚语",
+      "meaning": "祸不单行",
+      "perfective": "",
+      "note": "本条是完整谚语，不是单词беда的释义。",
+      "stage": 4,
+      "original": {
+        "word": "Беда",
+        "part_of_speech": null,
+        "meaning_zh": "祸不单行",
+        "source_page": 283,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "Беда не приходит одна",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=283",
+        "谚语独立行Беда (никогда) не приходит (ходит) одна；取其中标准完整形式。"
+      ]
+    },
+    {
+      "id": 7436,
+      "accent": "Лю́бишь ката́ться люби́ и са́ночки вози́ть",
+      "part": "谚语",
+      "meaning": "要享受就要付出；要享福就得先吃苦",
+      "perfective": "",
+      "note": "标点形式：Любишь кататься, люби и саночки возить。",
+      "stage": 4,
+      "original": {
+        "word": "Любишькататься",
+        "part_of_speech": null,
+        "meaning_zh": "喜欢乘雪橇滑下坡, 就得先把雪橘拉上去；要享福就得先吃苜",
+        "source_page": 284,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "Любишь кататься люби и саночки возить",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=284",
+        "完整谚语Любишь кататься, люби и саночки возить；不能仅留前半词组。"
+      ]
+    },
+    {
+      "id": 7437,
+      "accent": "Мя́гко сте́лет да жёстко спать",
+      "part": "谚语",
+      "meaning": "绵里藏针；嘴甜手辣",
+      "perfective": "",
+      "note": "标点形式：Мягко стелет, да жёстко спать。",
+      "stage": 4,
+      "original": {
+        "word": "Мягкостелет",
+        "part_of_speech": null,
+        "meaning_zh": "棉里藏针；笑里藏刀；噜甜手辣",
+        "source_page": 284,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "Мягко стелет да жёстко спать",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=284",
+        "原谚语Мягко стелет, да жёстко спать；恢复ё和后半句。"
+      ]
+    },
+    {
+      "id": 7439,
+      "accent": "Там хорошо́ где нас нет",
+      "part": "谚语",
+      "meaning": "这山望着那山高；总觉得别处更好",
+      "perfective": "",
+      "note": "标点形式：Там хорошо, где нас нет。",
+      "stage": 4,
+      "original": {
+        "word": "Тамхорошб",
+        "part_of_speech": null,
+        "meaning_zh": "这山望着那山高",
+        "source_page": 284,
+        "source_line": "21"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "Там хорошо где нас нет",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=284",
+        "完整谚语Там хорошо, где нас нет。"
+      ]
+    },
+    {
+      "id": 7440,
+      "accent": "но́вшество",
+      "part": "名词·中性",
+      "meaning": "新事物；新方法；新做法；革新",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "новшество",
+        "part_of_speech": "中",
+        "meaning_zh": "新事物, 新发明; 革新",
+        "source_page": 120,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "новшество",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=120",
+        "но́вшество重音及新事物义。"
+      ]
+    },
+    {
+      "id": 7441,
+      "accent": "парадо́кс",
+      "part": "名词·阳性",
+      "meaning": "悖论；看似矛盾的现象；反常的见解",
+      "perfective": "",
+      "note": "不必都是贬义怪论。",
+      "stage": 3,
+      "original": {
+        "word": "парадокс",
+        "part_of_speech": "阳",
+        "meaning_zh": "奇谈怪论, 与众不同的见解, 怪诞的言语 、 行为",
+        "source_page": 143,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "парадокс",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=143",
+        "парадо́кс，原奇谈怪论不代表全部贬义，补悖论。"
+      ]
+    },
+    {
+      "id": 7442,
+      "accent": "настро́енный",
+      "part": "形容词／过去被动形动词",
+      "meaning": "抱有某种心情的；有意做……的；调好的",
+      "perfective": "",
+      "note": "на что常表示准备或有意做某事。",
+      "stage": 3,
+      "original": {
+        "word": "настроенный",
+        "part_of_speech": "形",
+        "meaning_zh": "有某种心情的; 有兴致的, 乐意的; 调好的",
+        "source_page": 110,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "настроенный",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=110",
+        "настро́енный及на что用法。"
+      ]
+    },
+    {
+      "id": 7443,
+      "accent": "приспосо́бить",
+      "part": "动词·完成体",
+      "meaning": "使适合；使适应；改作某种用途",
+      "perfective": "приспоса́бливать",
+      "note": "也有未完成体приспособля́ть。",
+      "stage": 3,
+      "original": {
+        "word": "приспособить",
+        "part_of_speech": "56",
+        "meaning_zh": "使适合于, 使适应于; 改成适宜于某用途",
+        "source_page": 183,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "приспособить",
+      "method": "2026-09-11 当前助手逐项审核，PDF278至284及110、120、143、183复核词头和边界；谚语按原文完整恢复，不将整句译文配给残词。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=183",
+        "完成体приспособить，从跨行原词恢复；未完成体приспосабливать。"
+      ]
+    }
+  ]
+}

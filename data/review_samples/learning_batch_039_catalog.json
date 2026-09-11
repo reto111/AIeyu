@@ -1,0 +1,1304 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 7274,
+      "accent": "фу́нкция",
+      "part": "名词·阴性",
+      "meaning": "功能；职能；作用；函数",
+      "perfective": "",
+      "note": "函数为数学义。",
+      "stage": 3,
+      "original": {
+        "word": "функция",
+        "part_of_speech": "阴",
+        "meaning_zh": "功能, 职能",
+        "source_page": 262,
+        "source_line": "16"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "функция",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7275,
+      "accent": "характеризова́ться",
+      "part": "动词·未完成体",
+      "meaning": "以……为特征；具有……特点",
+      "perfective": "",
+      "note": "常接第五格。",
+      "stage": 3,
+      "original": {
+        "word": "характеризоваться",
+        "part_of_speech": "未",
+        "meaning_zh": "以某事为特征; 具有某种特征",
+        "source_page": 263,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "характеризоваться",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7276,
+      "accent": "ха́та",
+      "part": "名词·阴性",
+      "meaning": "农舍；乡村住宅",
+      "perfective": "",
+      "note": "常见于乌克兰、白俄罗斯及俄罗斯南部语境。",
+      "stage": 3,
+      "original": {
+        "word": "хата",
+        "part_of_speech": "阴",
+        "meaning_zh": "〔 乌克兰 、 白俄罗斯和俄罗斯南部村的) 农舍",
+        "source_page": 263,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "хата",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7277,
+      "accent": "ха-ха́",
+      "part": "感叹词",
+      "meaning": "哈哈；大笑声",
+      "perfective": "",
+      "note": "拟声表达，不作为普通实词记忆。",
+      "stage": 2,
+      "original": {
+        "word": "ха-ха",
+        "part_of_speech": "感",
+        "meaning_zh": "哈哈 (大笑声)",
+        "source_page": 263,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "ха-ха",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7278,
+      "accent": "хи́трость",
+      "part": "名词·阴性",
+      "meaning": "狡猾；花招；计谋；窍门",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "хитрость",
+        "part_of_speech": "阴",
+        "meaning_zh": "兔子的狡猾；手腕",
+        "source_page": 263,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "хитрость",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=263",
+        "狡猾及花招，兔子是例句限定。"
+      ]
+    },
+    {
+      "id": 7279,
+      "accent": "хлеста́ть",
+      "part": "动词·未完成体",
+      "meaning": "抽打；鞭打；猛烈冲击；倾泻",
+      "perfective": "",
+      "note": "хлестну́ть表示一次猛烈抽打或冲击。",
+      "stage": 3,
+      "original": {
+        "word": "хлестать",
+        "part_of_speech": "未",
+        "meaning_zh": "抽打；鞭打；猛冲；倾泻",
+        "source_page": 263,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "хлестать",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=263",
+        "хлестать及一次动作хлестнуть；多义不强配一次体。"
+      ]
+    },
+    {
+      "id": 7280,
+      "accent": "хлопота́ть",
+      "part": "动词·未完成体",
+      "meaning": "忙碌料理；操心；为……奔走请求",
+      "perfective": "похлопота́ть",
+      "note": "完成体通常表示忙碌或奔走一番。",
+      "stage": 3,
+      "original": {
+        "word": "хлопотать",
+        "part_of_speech": "未",
+        "meaning_zh": "热料理, 忙碌, 张；忙家务",
+        "source_page": 264,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "хлопотать",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=264",
+        "料理和为人奔走两义。"
+      ]
+    },
+    {
+      "id": 7281,
+      "accent": "хлы́нуть",
+      "part": "动词·完成体",
+      "meaning": "涌出；涌来；倾泻；蜂拥而至",
+      "perfective": "",
+      "note": "突发起始动作，不强配另一个普通流动动词。",
+      "stage": 3,
+      "original": {
+        "word": "хлынуть",
+        "part_of_speech": "完",
+        "meaning_zh": "第一 、 二人称不用) - 完参涌出, 迸出；淋下, 倾注, 倾泻",
+        "source_page": 264,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "хлынуть",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7282,
+      "accent": "хму́рить",
+      "part": "动词·未完成体",
+      "meaning": "皱起眉头；蹙额",
+      "perfective": "нахму́рить",
+      "note": "常与бро́ви、лоб连用。",
+      "stage": 3,
+      "original": {
+        "word": "хмурить",
+        "part_of_speech": "未",
+        "meaning_zh": "皱起 (眉), 飙起 (频)",
+        "source_page": 264,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "хмурить",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=264",
+        "皱眉，不是乱码频；对应нахмурить。"
+      ]
+    },
+    {
+      "id": 7283,
+      "accent": "хму́риться",
+      "part": "动词·未完成体",
+      "meaning": "皱眉；愁眉苦脸；阴沉下来",
+      "perfective": "нахму́риться",
+      "note": "天气阴沉为比喻用法。",
+      "stage": 3,
+      "original": {
+        "word": "хмуриться",
+        "part_of_speech": "未",
+        "meaning_zh": "皱盼, 监额, 愁屈苦脸",
+        "source_page": 264,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "хмуриться",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=264",
+        "皱眉及天气阴沉。"
+      ]
+    },
+    {
+      "id": 7284,
+      "accent": "хозя́йничать",
+      "part": "动词·未完成体",
+      "meaning": "料理家务；管理事务；擅自作主",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "хозяйничать",
+        "part_of_speech": "未",
+        "meaning_zh": "管理事务, 料理家务",
+        "source_page": 264,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "хозяйничать",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7285,
+      "accent": "хозя́йственный",
+      "part": "形容词",
+      "meaning": "经济的；家务的；家用的；善于持家的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "хозяйственный",
+        "part_of_speech": "形",
+        "meaning_zh": "取经济的",
+        "source_page": 264,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "хозяйственный",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=264",
+        "经济、家用及善持家三义。"
+      ]
+    },
+    {
+      "id": 7286,
+      "accent": "холосто́й",
+      "part": "形容词",
+      "meaning": "未婚的；单身的；空转的；空包的",
+      "perfective": "",
+      "note": "如空转、空包弹；人义通常指男子。",
+      "stage": 3,
+      "original": {
+        "word": "холостой",
+        "part_of_speech": "形",
+        "meaning_zh": "独身的, 未婚的",
+        "source_page": 264,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "холостой",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7287,
+      "accent": "хоро́шенький",
+      "part": "形容词",
+      "meaning": "漂亮的；好看的；可爱的",
+      "perfective": "",
+      "note": "хоро́ший的亲昵形式。",
+      "stage": 2,
+      "original": {
+        "word": "хорошенький",
+        "part_of_speech": "形",
+        "meaning_zh": "好看的姑娘",
+        "source_page": 265,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "хорошенький",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=265",
+        "好看的是形容词，姑娘不是核心义。"
+      ]
+    },
+    {
+      "id": 7288,
+      "accent": "хохота́ть",
+      "part": "动词·未完成体",
+      "meaning": "哈哈大笑；放声大笑",
+      "perfective": "",
+      "note": "захохота́ть表示开始笑，不冒充纯体配对。",
+      "stage": 2,
+      "original": {
+        "word": "хохотать",
+        "part_of_speech": "未",
+        "meaning_zh": "哈哈大笑",
+        "source_page": 265,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "хохотать",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7289,
+      "accent": "хра́брость",
+      "part": "名词·阴性",
+      "meaning": "勇敢；勇气",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "храбрость",
+        "part_of_speech": "明",
+        "meaning_zh": "勇敢, 勇气",
+        "source_page": 265,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "храбрость",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7290,
+      "accent": "храм",
+      "part": "名词·阳性",
+      "meaning": "教堂；庙宇；神殿",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "храм",
+        "part_of_speech": "阳",
+        "meaning_zh": "教堂, 庙宇, 神殿",
+        "source_page": 265,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "храм",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7291,
+      "accent": "хране́ние",
+      "part": "名词·中性",
+      "meaning": "保存；保管；储存",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "хранение",
+        "part_of_speech": "中",
+        "meaning_zh": "保存",
+        "source_page": 265,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "хранение",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7292,
+      "accent": "хребе́т",
+      "part": "名词·阳性",
+      "meaning": "山脉；山岭；脊柱；脊背",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "хребет",
+        "part_of_speech": "阳",
+        "meaning_zh": "乌拉尔山脉",
+        "source_page": 265,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "хребет",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=265",
+        "山脉不限定乌拉尔，补脊柱常用义。"
+      ]
+    },
+    {
+      "id": 7293,
+      "accent": "хри́плый",
+      "part": "形容词",
+      "meaning": "嘶哑的；沙哑的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "хриплый",
+        "part_of_speech": "形",
+        "meaning_zh": "嘶哑的",
+        "source_page": 265,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "хриплый",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7295,
+      "accent": "хро́ника",
+      "part": "名词·阴性",
+      "meaning": "编年史；纪事；新闻简报；新闻纪录片",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "хроника",
+        "part_of_speech": "阴",
+        "meaning_zh": "编年史, 纪年",
+        "source_page": 265,
+        "source_line": "18"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "хроника",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7296,
+      "accent": "хру́пкий",
+      "part": "形容词",
+      "meaning": "易碎的；脆弱的；纤弱的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "хрупкий",
+        "part_of_speech": "形",
+        "meaning_zh": "易碎的玻璃",
+        "source_page": 265,
+        "source_line": "19"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "хрупкий",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=265",
+        "易碎及脆弱，玻璃是例句限定。"
+      ]
+    },
+    {
+      "id": 7297,
+      "accent": "хруста́ль",
+      "part": "名词·阳性",
+      "meaning": "水晶玻璃；水晶玻璃器皿",
+      "perfective": "",
+      "note": "天然水晶通常称го́рный хруста́ль。",
+      "stage": 3,
+      "original": {
+        "word": "хрусталь",
+        "part_of_speech": "阳",
+        "meaning_zh": "精制玻璃, 水晶玻璃",
+        "source_page": 265,
+        "source_line": "20"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "хрусталь",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7298,
+      "accent": "ху́до",
+      "part": "名词·中性／副词",
+      "meaning": "坏事；坏处；不好；糟糕",
+      "perfective": "",
+      "note": "原条为名词，副词用法另列。",
+      "stage": 3,
+      "original": {
+        "word": "худо",
+        "part_of_speech": "中",
+        "meaning_zh": "不好的事, 坏事, 恶",
+        "source_page": 266,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "худо",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=266",
+        "本条中性名词坏事；另副词义分列。"
+      ]
+    },
+    {
+      "id": 7299,
+      "accent": "худоща́вый",
+      "part": "形容词",
+      "meaning": "瘦削的；偏瘦的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "худощавый",
+        "part_of_speech": "形",
+        "meaning_zh": "瘦削的青年人",
+        "source_page": 266,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "худощавый",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7300,
+      "accent": "ху́дший",
+      "part": "形容词·最高级",
+      "meaning": "最坏的；最差的；较差的",
+      "perfective": "",
+      "note": "具体最高级或比较含义由语境决定。",
+      "stage": 2,
+      "original": {
+        "word": "худший",
+        "part_of_speech": "形",
+        "meaning_zh": "最坏的, 最差的",
+        "source_page": 266,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "худший",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7301,
+      "accent": "цари́ца",
+      "part": "名词·阴性",
+      "meaning": "女皇；女王；皇后；王后",
+      "perfective": "",
+      "note": "区别女性君主与君主配偶。",
+      "stage": 3,
+      "original": {
+        "word": "царица",
+        "part_of_speech": "阴",
+        "meaning_zh": "女皇管理国家；皇后, 王后: 皇帝和皇后颤 ‚ - ,- 形；皇宫 : 沙皇制度",
+        "source_page": 266,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "царица",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=266",
+        "女皇和皇后两义，删除царский下一条污染。"
+      ]
+    },
+    {
+      "id": 7302,
+      "accent": "ца́рство",
+      "part": "名词·中性",
+      "meaning": "王国；帝国；领域；世界；界",
+      "perfective": "",
+      "note": "界见动物界、植物界。",
+      "stage": 3,
+      "original": {
+        "word": "царство",
+        "part_of_speech": "中",
+        "meaning_zh": "古代的王国；(转) (某种现象. 活动的) 领域, 世界；(大自然中的)",
+        "source_page": 266,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "царство",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=266",
+        "王国及领域、自然界分类的界。"
+      ]
+    },
+    {
+      "id": 7303,
+      "accent": "цвето́чный",
+      "part": "形容词",
+      "meaning": "花的；花卉的；用花制成的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "цветочный",
+        "part_of_speech": "形",
+        "meaning_zh": "花的；花卉的",
+        "source_page": 266,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "цветочный",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7304,
+      "accent": "целина́",
+      "part": "名词·阴性",
+      "meaning": "未开垦的土地；处女地",
+      "perfective": "",
+      "note": "不是已经开垦的耕地。",
+      "stage": 3,
+      "original": {
+        "word": "целина",
+        "part_of_speech": null,
+        "meaning_zh": "开荒地, 处女地",
+        "source_page": 267,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "целина",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7305,
+      "accent": "целова́ть",
+      "part": "动词·未完成体",
+      "meaning": "吻；亲吻",
+      "perfective": "поцелова́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "целовать",
+        "part_of_speech": "未",
+        "meaning_zh": "吻, 亲员",
+        "source_page": 267,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "целовать",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7306,
+      "accent": "цеме́нт",
+      "part": "名词·阳性",
+      "meaning": "水泥",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "цемент",
+        "part_of_speech": "阳",
+        "meaning_zh": "水泥",
+        "source_page": 267,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "цемент",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7307,
+      "accent": "це́нтнер",
+      "part": "名词·阳性",
+      "meaning": "公担",
+      "perfective": "",
+      "note": "俄语通常指100千克。",
+      "stage": 3,
+      "original": {
+        "word": "центнер",
+        "part_of_speech": "阳",
+        "meaning_zh": "公担 ( 公斤)",
+        "source_page": 267,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "центнер",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=267",
+        "公担100公斤数字恢复。"
+      ]
+    },
+    {
+      "id": 7308,
+      "accent": "цепля́ться",
+      "part": "动词·未完成体",
+      "meaning": "抓住；挂住；钩住；纠缠；挑剔",
+      "perfective": "",
+      "note": "зацепи́ться对应钩挂、抓住义，不覆盖纠缠挑剔。",
+      "stage": 3,
+      "original": {
+        "word": "цепляться",
+        "part_of_speech": "未",
+        "meaning_zh": "抓住, 挂住, 钩住",
+        "source_page": 267,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "цепляться",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7309,
+      "accent": "цепо́чка",
+      "part": "名词·阴性",
+      "meaning": "小链子；项链；一串；一系列",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "цепочка",
+        "part_of_speech": "阴",
+        "meaning_zh": "志细小的链子, 小链",
+        "source_page": 267,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "цепочка",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7310,
+      "accent": "церко́вный",
+      "part": "形容词",
+      "meaning": "教会的；教堂的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "церковный",
+        "part_of_speech": "形",
+        "meaning_zh": "教会的, 教堂的",
+        "source_page": 267,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "церковный",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7311,
+      "accent": "цехово́й",
+      "part": "形容词",
+      "meaning": "车间的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "цеховой",
+        "part_of_speech": "形",
+        "meaning_zh": "车间的",
+        "source_page": 267,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "цеховой",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7312,
+      "accent": "цивилиза́ция",
+      "part": "名词·阴性",
+      "meaning": "文明；文明社会",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "цивилизация",
+        "part_of_speech": "阴",
+        "meaning_zh": "文明",
+        "source_page": 268,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "цивилизация",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7313,
+      "accent": "цивилизо́ванный",
+      "part": "形容词",
+      "meaning": "文明的；有教养的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "цивилизбванный",
+        "part_of_speech": "形",
+        "meaning_zh": "开化的, 文明的",
+        "source_page": 268,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "цивилизованный",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=268",
+        "цивилизо́ванный恢复о。"
+      ]
+    },
+    {
+      "id": 7314,
+      "accent": "цикл",
+      "part": "名词·阳性",
+      "meaning": "周期；循环；系列；组曲",
+      "perfective": "",
+      "note": "组曲义限一组相关作品。",
+      "stage": 3,
+      "original": {
+        "word": "цикл",
+        "part_of_speech": "阳",
+        "meaning_zh": "周期, 循环",
+        "source_page": 268,
+        "source_line": "4"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "цикл",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7315,
+      "accent": "цирк",
+      "part": "名词·阳性",
+      "meaning": "马戏；杂技；马戏团；马戏场",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "цирк",
+        "part_of_speech": "阳",
+        "meaning_zh": "杂技, 马戏",
+        "source_page": 268,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "цирк",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7316,
+      "accent": "цита́та",
+      "part": "名词·阴性",
+      "meaning": "引文；引用的原话",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "цитата",
+        "part_of_speech": "阴",
+        "meaning_zh": "摘录引文",
+        "source_page": 268,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "цитата",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=268",
+        "引文名词，不是摘录动作。"
+      ]
+    },
+    {
+      "id": 7317,
+      "accent": "цифрово́й",
+      "part": "形容词",
+      "meaning": "数字的；数码的；数字化的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "цифровой",
+        "part_of_speech": "形",
+        "meaning_zh": "数字的",
+        "source_page": 268,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "цифровой",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7318,
+      "accent": "цыга́н",
+      "part": "名词·阳性",
+      "meaning": "罗姆人；茨冈人",
+      "perfective": "",
+      "note": "旧译吉卜赛人；阴性цыга́нка。",
+      "stage": 3,
+      "original": {
+        "word": "цыган",
+        "part_of_speech": "阳",
+        "meaning_zh": "茨冈人, 吉卜赛人",
+        "source_page": 268,
+        "source_line": "9"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "цыган",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7319,
+      "accent": "цыга́нский",
+      "part": "形容词",
+      "meaning": "罗姆人的；茨冈人的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "цыганский",
+        "part_of_speech": "形",
+        "meaning_zh": "莴冈人的, 吉卜赛人的",
+        "source_page": 268,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "цыганский",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7320,
+      "accent": "чаевы́е",
+      "part": "名词·仅复数",
+      "meaning": "小费",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "чаевые",
+        "part_of_speech": "复",
+        "meaning_zh": "给小费",
+        "source_page": 268,
+        "source_line": "11"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чаевые",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=268",
+        "小费名词，给为例句动词。"
+      ]
+    },
+    {
+      "id": 7321,
+      "accent": "ча́йка",
+      "part": "名词·阴性",
+      "meaning": "鸥；海鸥",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "чайка",
+        "part_of_speech": "阴",
+        "meaning_zh": "海鸥",
+        "source_page": 268,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чайка",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7322,
+      "accent": "части́ца",
+      "part": "名词·阴性",
+      "meaning": "粒子；微粒；少量；语气词",
+      "perfective": "",
+      "note": "语气词为语法术语。",
+      "stage": 3,
+      "original": {
+        "word": "частица",
+        "part_of_speech": "阴",
+        "meaning_zh": "语气词；灰尘微粒",
+        "source_page": 268,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "частица",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=268",
+        "语气词、粒子、少量三组义。"
+      ]
+    },
+    {
+      "id": 7323,
+      "accent": "ча́стник",
+      "part": "名词·阳性",
+      "meaning": "个体经营者；私营业主；个体司机",
+      "perfective": "",
+      "note": "口语。",
+      "stage": 3,
+      "original": {
+        "word": "частник",
+        "part_of_speech": "阳",
+        "meaning_zh": "私营企业者, 个体商人",
+        "source_page": 269,
+        "source_line": "2"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "частник",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7324,
+      "accent": "ча́стность",
+      "part": "名词·阴性",
+      "meaning": "细节；个别情况；局部问题",
+      "perfective": "",
+      "note": "в ча́стности表示特别是、具体说来。",
+      "stage": 3,
+      "original": {
+        "word": "частность",
+        "part_of_speech": "阴",
+        "meaning_zh": "局部性, 个别性；细节, 详细情形",
+        "source_page": 269,
+        "source_line": "3"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "частность",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7325,
+      "accent": "частота́",
+      "part": "名词·阴性",
+      "meaning": "频率；频度；发生次数",
+      "perfective": "",
+      "note": "不要与чистота́清洁混淆。",
+      "stage": 3,
+      "original": {
+        "word": "частота",
+        "part_of_speech": "阴",
+        "meaning_zh": "次数, 频率",
+        "source_page": 269,
+        "source_line": "5"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "частота",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7326,
+      "accent": "часту́шка",
+      "part": "名词·阴性",
+      "meaning": "俄罗斯民间短歌；四句头歌谣",
+      "perfective": "",
+      "note": "常为四行，亦有其他形式。",
+      "stage": 3,
+      "original": {
+        "word": "частутнка",
+        "part_of_speech": "阴",
+        "meaning_zh": "流行歌谣 (一种俄罗斯民间短歌, 多半为四行诗或两行诗)；四句头",
+        "source_page": 269,
+        "source_line": "6"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "частушка",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=269",
+        "часту́шка，ш误为тн。"
+      ]
+    },
+    {
+      "id": 7327,
+      "accent": "ча́ща",
+      "part": "名词·阴性",
+      "meaning": "密林；丛林深处",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "чаща",
+        "part_of_speech": "阴",
+        "meaning_zh": "密林, 树木很密的地方",
+        "source_page": 269,
+        "source_line": "7"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чаща",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7328,
+      "accent": "ча́яние",
+      "part": "名词·中性",
+      "meaning": "期望；愿望；盼望",
+      "perfective": "",
+      "note": "书面语，常用复数。",
+      "stage": 3,
+      "original": {
+        "word": "чаяние",
+        "part_of_speech": "中",
+        "meaning_zh": "期望, 游望, 夙望",
+        "source_page": 269,
+        "source_line": "8"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чаяние",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7329,
+      "accent": "чек",
+      "part": "名词·阳性",
+      "meaning": "支票；收据；购物小票",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "чек",
+        "part_of_speech": "阳",
+        "meaning_zh": "旅行支票",
+        "source_page": 269,
+        "source_line": "10"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чек",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=269",
+        "支票及收据，不只旅行支票。"
+      ]
+    },
+    {
+      "id": 7330,
+      "accent": "чемпиона́т",
+      "part": "名词·阳性",
+      "meaning": "锦标赛；冠军赛",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "чемпионат",
+        "part_of_speech": "阳",
+        "meaning_zh": "冠军赛, 锦标赛",
+        "source_page": 269,
+        "source_line": "12"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чемпионат",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7331,
+      "accent": "червь",
+      "part": "名词·阳性",
+      "meaning": "蠕虫；虫子",
+      "perfective": "",
+      "note": "不据此把所有软体动物统称蠕虫。",
+      "stage": 3,
+      "original": {
+        "word": "червь",
+        "part_of_speech": "阳",
+        "meaning_zh": "蠕虫, 软体虫",
+        "source_page": 269,
+        "source_line": "13"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "червь",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    },
+    {
+      "id": 7332,
+      "accent": "черда́к",
+      "part": "名词·阳性",
+      "meaning": "阁楼；屋顶下的空间",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "чердак",
+        "part_of_speech": null,
+        "meaning_zh": "顶楼, 闽楼",
+        "source_page": 269,
+        "source_line": "14"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чердак",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": [
+        "data/words/tem8_russian_words.pdf#page=269",
+        "阁楼，阳性名词。"
+      ]
+    },
+    {
+      "id": 7333,
+      "accent": "чередова́ние",
+      "part": "名词·中性",
+      "meaning": "交替；轮换；交替变化",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "чередование",
+        "part_of_speech": "中",
+        "meaning_zh": "交替, 轮换",
+        "source_page": 269,
+        "source_line": "15"
+      },
+      "exam": "TEM8_RU",
+      "level": "TEM8",
+      "canonical": "чередование",
+      "method": "2026-09-11 当前助手逐词审核重音、核心俄中义、词性及体；PDF263至269确认例句碎片、邻条污染和缺义。",
+      "evidence": []
+    }
+  ]
+}

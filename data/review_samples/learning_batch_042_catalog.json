@@ -1,0 +1,1299 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 7444,
+      "accent": "в",
+      "part": "前置词",
+      "meaning": "在；到……里面；在……时候；以……为单位",
+      "perfective": "",
+      "note": "接第四格常表方向或时间，接第六格常表位置；变体во。",
+      "stage": 1,
+      "original": {
+        "word": "в",
+        "part_of_speech": null,
+        "meaning_zh": "到；往；向；在；成为；（表示数量、时间等关系）",
+        "source_page": 27,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "в",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7445,
+      "accent": "вид",
+      "part": "名词·阳性",
+      "meaning": "外貌；样子；景色；形式；种类；体",
+      "perfective": "",
+      "note": "体为语法术语；具体义依搭配。",
+      "stage": 2,
+      "original": {
+        "word": "вид",
+        "part_of_speech": "阳",
+        "meaning_zh": "外貌；样子；形式；种类；（语法）体；景色，景象",
+        "source_page": 34,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вид",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7446,
+      "accent": "вы",
+      "part": "人称代词",
+      "meaning": "你们；您",
+      "perfective": "",
+      "note": "谓语用复数；礼貌称呼单人也用вы。",
+      "stage": 1,
+      "original": {
+        "word": "вы",
+        "part_of_speech": "代",
+        "meaning_zh": "您；你们",
+        "source_page": 48,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вы",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7447,
+      "accent": "для",
+      "part": "前置词",
+      "meaning": "为；为了；给；对……来说；供……用",
+      "perfective": "",
+      "note": "接第二格。",
+      "stage": 1,
+      "original": {
+        "word": "для",
+        "part_of_speech": "前",
+        "meaning_zh": "为了；给；对……来说；用于",
+        "source_page": 74,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "для",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7448,
+      "accent": "прикосну́ться",
+      "part": "动词·完成体",
+      "meaning": "触碰；接触；轻轻碰到",
+      "perfective": "прикаса́ться",
+      "note": "常接к加第三格。",
+      "stage": 2,
+      "original": {
+        "word": "прикоснуться",
+        "part_of_speech": null,
+        "meaning_zh": "碰到；接触；触摸",
+        "source_page": 75,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прикоснуться",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7449,
+      "accent": "жизнь",
+      "part": "名词·阴性",
+      "meaning": "生命；生活；一生；生存",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "жизнь",
+        "part_of_speech": "阮",
+        "meaning_zh": "生命；生活；一生；生平",
+        "source_page": 87,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жизнь",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7450,
+      "accent": "заказа́ть",
+      "part": "动词·完成体",
+      "meaning": "订购；预订；定做；点菜",
+      "perfective": "зака́зывать",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "заказать",
+        "part_of_speech": null,
+        "meaning_zh": "订购；预订；定做",
+        "source_page": 91,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заказать",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7451,
+      "accent": "и́ли",
+      "part": "连词",
+      "meaning": "或；或者；还是；也就是",
+      "perfective": "",
+      "note": "也就是用于解释同一概念；不是既……又……。",
+      "stage": 1,
+      "original": {
+        "word": "или",
+        "part_of_speech": "连",
+        "meaning_zh": "或；或者；还是；即……也……",
+        "source_page": 108,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "или",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=108",
+        "第三义也就是、即，并非即……也……。"
+      ]
+    },
+    {
+      "id": 7452,
+      "accent": "их",
+      "part": "代词",
+      "meaning": "他们的；她们的；它们的；他们或它们（第二、四格）",
+      "perfective": "",
+      "note": "作物主代词不变格；也可为они的格形式。",
+      "stage": 1,
+      "original": {
+        "word": "их",
+        "part_of_speech": "代",
+        "meaning_zh": "他们的；她们的；它们的",
+        "source_page": 113,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "их",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7453,
+      "accent": "к",
+      "part": "前置词",
+      "meaning": "向；朝；到；对；接近……时",
+      "perfective": "",
+      "note": "接第三格，变体ко。",
+      "stage": 1,
+      "original": {
+        "word": "к",
+        "part_of_speech": "前",
+        "meaning_zh": "向；朝；往；到；对于",
+        "source_page": 113,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "к",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7454,
+      "accent": "кио́ск",
+      "part": "名词·阳性",
+      "meaning": "售货亭；报刊亭",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "киоск",
+        "part_of_speech": "阳",
+        "meaning_zh": "售货亭；报刊亭；小摊亭",
+        "source_page": 118,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "киоск",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7455,
+      "accent": "коренно́й",
+      "part": "形容词",
+      "meaning": "根本的；基本的；本地的；土生土长的",
+      "perfective": "",
+      "note": "如коренно́й зуб为臼齿。",
+      "stage": 3,
+      "original": {
+        "word": "коренной",
+        "part_of_speech": null,
+        "meaning_zh": "根本的；基本的；主要的；本地的",
+        "source_page": 124,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "коренной",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7456,
+      "accent": "корми́ть",
+      "part": "动词·未完成体",
+      "meaning": "喂；给……吃；供养；养活",
+      "perfective": "накорми́ть",
+      "note": "配对限喂饱、供给食物义；长期供养不强配一次结果。",
+      "stage": 2,
+      "original": {
+        "word": "кормить",
+        "part_of_speech": "未",
+        "meaning_zh": "喂养；给……吃；供养；赡养",
+        "source_page": 125,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кормить",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7457,
+      "accent": "лиша́ть",
+      "part": "动词·未完成体",
+      "meaning": "剥夺；使失去",
+      "perfective": "лиши́ть",
+      "note": "кого чего：使谁失去什么，不仅指权利。",
+      "stage": 3,
+      "original": {
+        "word": "лишать",
+        "part_of_speech": "未",
+        "meaning_zh": "剥夺……的权利；使……失去……；未完成体",
+        "source_page": 134,
+        "source_line": "1"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лишать",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7458,
+      "accent": "мы́слить",
+      "part": "动词·未完成体",
+      "meaning": "思考；思维；想象；认为",
+      "perfective": "",
+      "note": "不强配单独完成体。",
+      "stage": 3,
+      "original": {
+        "word": "мыслить",
+        "part_of_speech": null,
+        "meaning_zh": "思考；想；认为",
+        "source_page": 148,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мыслить",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7459,
+      "accent": "наизу́сть",
+      "part": "副词",
+      "meaning": "凭记忆；熟记地；背熟",
+      "perfective": "",
+      "note": "常与знать、учить、читать连用。",
+      "stage": 1,
+      "original": {
+        "word": "наизусть",
+        "part_of_speech": "副",
+        "meaning_zh": "熟记；背熟；凭记忆",
+        "source_page": 152,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "наизусть",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7460,
+      "accent": "по-ру́сски",
+      "part": "副词",
+      "meaning": "用俄语；按俄罗斯方式",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "по-русски",
+        "part_of_speech": null,
+        "meaning_zh": "用俄语；俄语地",
+        "source_page": 159,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "по-русски",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7461,
+      "accent": "о́блик",
+      "part": "名词·阳性",
+      "meaning": "外貌；面貌；形象",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "облик",
+        "part_of_speech": "阳",
+        "meaning_zh": "外貌；面貌；形象；景象",
+        "source_page": 167,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "облик",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7462,
+      "accent": "полива́ть",
+      "part": "动词·未完成体",
+      "meaning": "浇水；浇灌；把液体淋在……上",
+      "perfective": "поли́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "поливать",
+        "part_of_speech": null,
+        "meaning_zh": "浇水；浇灌；（液体）洒到或冲到",
+        "source_page": 209,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поливать",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7463,
+      "accent": "разреши́ть",
+      "part": "动词·完成体",
+      "meaning": "允许；准许；解决",
+      "perfective": "разреша́ть",
+      "note": "允许常接кому加不定式。",
+      "stage": 2,
+      "original": {
+        "word": "разрешить",
+        "part_of_speech": null,
+        "meaning_zh": "解决；处理；允许；准许",
+        "source_page": 230,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разрешить",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7464,
+      "accent": "раз",
+      "part": "名词·阳性／连词",
+      "meaning": "次；回；一度；既然",
+      "perfective": "",
+      "note": "计数为名词，既然为连词。",
+      "stage": 1,
+      "original": {
+        "word": "раз",
+        "part_of_speech": "连",
+        "meaning_zh": "一次；一回；既然；既然如此",
+        "source_page": 243,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "раз",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7465,
+      "accent": "разве́дчик",
+      "part": "名词·阳性",
+      "meaning": "侦察员；情报人员；勘探人员",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "разведчик",
+        "part_of_speech": null,
+        "meaning_zh": "侦察员；侦察兵；情报员",
+        "source_page": 243,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разведчик",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7466,
+      "accent": "разгова́ривать",
+      "part": "动词·未完成体",
+      "meaning": "交谈；谈话；说话",
+      "perfective": "",
+      "note": "поговори́ть可表示谈一谈，但不是本词同词根体配对。",
+      "stage": 1,
+      "original": {
+        "word": "разговаривать",
+        "part_of_speech": null,
+        "meaning_zh": "谈话；交谈；说话",
+        "source_page": 244,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разговаривать",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7467,
+      "accent": "борьба́",
+      "part": "名词·阴性",
+      "meaning": "斗争；搏斗；竞争；摔跤",
+      "perfective": "",
+      "note": "摔跤为体育义。",
+      "stage": 2,
+      "original": {
+        "word": "борьба",
+        "part_of_speech": null,
+        "meaning_zh": "斗争；战斗；搏斗；竞争",
+        "source_page": 251,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "борьба",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7468,
+      "accent": "вы́пустить",
+      "part": "动词·完成体",
+      "meaning": "放出；释放；发行；出版；生产；使毕业",
+      "perfective": "выпуска́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "выпустить",
+        "part_of_speech": null,
+        "meaning_zh": "放出；释放；发行；生产或出版",
+        "source_page": 261,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выпустить",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7469,
+      "accent": "со́бственность",
+      "part": "名词·阴性",
+      "meaning": "所有权；财产；所有物",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "собственность",
+        "part_of_speech": "阴",
+        "meaning_zh": "所有权；财产；所有物",
+        "source_page": 275,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "собственность",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7470,
+      "accent": "созда́ть",
+      "part": "动词·完成体",
+      "meaning": "创造；创作；建立；造成",
+      "perfective": "создава́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "создать",
+        "part_of_speech": null,
+        "meaning_zh": "创造；创作；建立；造成",
+        "source_page": 278,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "создать",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7471,
+      "accent": "созна́тельный",
+      "part": "形容词",
+      "meaning": "有意识的；自觉的；故意的；理智的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "сознательный",
+        "part_of_speech": null,
+        "meaning_zh": "有意识的；自觉的；故意的",
+        "source_page": 278,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сознательный",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7472,
+      "accent": "состоя́ние",
+      "part": "名词·中性",
+      "meaning": "状态；状况；财产；财富",
+      "perfective": "",
+      "note": "в состоянии加不定式表示能够。",
+      "stage": 2,
+      "original": {
+        "word": "состояние",
+        "part_of_speech": null,
+        "meaning_zh": "状态；状况；形势；心情；财产状况",
+        "source_page": 281,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "состояние",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7473,
+      "accent": "стиль",
+      "part": "名词·阳性",
+      "meaning": "风格；文体；样式；历法",
+      "perfective": "",
+      "note": "历法义见旧历、新历。",
+      "stage": 2,
+      "original": {
+        "word": "стиль",
+        "part_of_speech": "阳",
+        "meaning_zh": "风格；文体；样式；（历法）历法",
+        "source_page": 290,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стиль",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7474,
+      "accent": "стих",
+      "part": "名词·阳性",
+      "meaning": "诗句；诗行；诗歌",
+      "perfective": "",
+      "note": "诗歌常用复数стихи́。",
+      "stage": 2,
+      "original": {
+        "word": "стих",
+        "part_of_speech": "阳",
+        "meaning_zh": "诗；诗歌；诗句",
+        "source_page": 290,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стих",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7475,
+      "accent": "сто́ить",
+      "part": "动词·未完成体",
+      "meaning": "值；花费；值得",
+      "perfective": "",
+      "note": "стоит是本词形式，区别стои́т站着。",
+      "stage": 1,
+      "original": {
+        "word": "стоить",
+        "part_of_speech": "未",
+        "meaning_zh": "值；花费；值得",
+        "source_page": 290,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стоить",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": [
+        "https://gramota.ru/meta/stoit",
+        "сто́ить重音及值、值得，不能与стоя́ть混淆。"
+      ]
+    },
+    {
+      "id": 7477,
+      "accent": "та́нец",
+      "part": "名词·阳性",
+      "meaning": "舞蹈；舞；舞曲",
+      "perfective": "",
+      "note": "复数та́нцы另可指舞会，不将词头标为仅复数。",
+      "stage": 1,
+      "original": {
+        "word": "танец",
+        "part_of_speech": "复",
+        "meaning_zh": "舞蹈；舞；舞会；复数形式",
+        "source_page": 298,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "танец",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=298",
+        "та́нец为单数阳性，只有舞会义用复数танцы。"
+      ]
+    },
+    {
+      "id": 7478,
+      "accent": "тре́бовать",
+      "part": "动词·未完成体",
+      "meaning": "要求；索要；需要；召来",
+      "perfective": "потре́бовать",
+      "note": "要求动作可配完成体；持续需要义依语境。",
+      "stage": 2,
+      "original": {
+        "word": "требовать",
+        "part_of_speech": null,
+        "meaning_zh": "要求；需要；索要；召唤",
+        "source_page": 307,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "требовать",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7479,
+      "accent": "удо́бство",
+      "part": "名词·中性",
+      "meaning": "方便；便利；舒适；便利设施",
+      "perfective": "",
+      "note": "设施义常用复数。",
+      "stage": 2,
+      "original": {
+        "word": "удобство",
+        "part_of_speech": "中",
+        "meaning_zh": "舒适；方便；便利；方便设施",
+        "source_page": 314,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "удобство",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7480,
+      "accent": "у́зкий",
+      "part": "形容词",
+      "meaning": "狭窄的；窄的；有限的；狭义的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "узкий",
+        "part_of_speech": null,
+        "meaning_zh": "狭窄的；窄的；有限的；狭义的",
+        "source_page": 315,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "узкий",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7481,
+      "accent": "фо́рма",
+      "part": "名词·阴性",
+      "meaning": "形式；形状；制服；表格；模具；状态",
+      "perfective": "",
+      "note": "状态如身体状况或竞技状态。",
+      "stage": 2,
+      "original": {
+        "word": "форма",
+        "part_of_speech": null,
+        "meaning_zh": "形式；形状；制服；表格",
+        "source_page": 325,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "форма",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7482,
+      "accent": "фронт",
+      "part": "名词·阳性",
+      "meaning": "前线；战线；阵线；活动领域",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "фронт",
+        "part_of_speech": "阳",
+        "meaning_zh": "前线；战线；统一战线；（转）活动领域",
+        "source_page": 326,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "фронт",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7483,
+      "accent": "центра́льный",
+      "part": "形容词",
+      "meaning": "中央的；中心的；主要的；核心的",
+      "perfective": "",
+      "note": "保留用户确认词头，删除串入的整组例句。",
+      "stage": 2,
+      "original": {
+        "word": "центральный",
+        "part_of_speech": "形",
+        "meaning_zh": "中心的；中央的；核心的；中央空调、集中供暖、中央委员会、中心思想等",
+        "source_page": 332,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "центральный",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=332",
+        "中央空调、委员会等为例句，不属于形容词独立释义。"
+      ]
+    },
+    {
+      "id": 7484,
+      "accent": "эконо́мия",
+      "part": "名词·阴性",
+      "meaning": "节约；节省；节省下来的数量",
+      "perfective": "",
+      "note": "полити́ческая эконо́мия为政治经济学，不将单词一般译作经济。",
+      "stage": 3,
+      "original": {
+        "word": "экономия",
+        "part_of_speech": "阴",
+        "meaning_zh": "节约；节省；节约的办法；经济（学）",
+        "source_page": 342,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "экономия",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": [
+        "https://gramota.ru/meta/ekonomiya",
+        "核心节约；经济学义限定политическая экономия，不与экономика全面等同。",
+        "data/words/tem4_russian_words.pdf#page=342"
+      ]
+    },
+    {
+      "id": 7485,
+      "accent": "отложи́ть",
+      "part": "动词·完成体",
+      "meaning": "推迟；搁置；放到一旁；留出；储存",
+      "perfective": "откла́дывать",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "отложить",
+        "part_of_speech": null,
+        "meaning_zh": "推迟；延期；搁置；把……放到一边",
+        "source_page": 346,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отложить",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7486,
+      "accent": "ка́пля в мо́ре",
+      "part": "固定表达",
+      "meaning": "沧海一粟；微不足道的一小部分",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "капля в море",
+        "part_of_speech": "固定结构",
+        "meaning_zh": "沧海一粟；微不足道的一小部分",
+        "source_page": 350,
+        "source_line": "1"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "капля в море",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=350",
+        "ка́пля в мо́ре完整固定结构；不改已确认词头。"
+      ]
+    },
+    {
+      "id": 7487,
+      "accent": "а",
+      "part": "连词",
+      "meaning": "而；可是；那么；至于",
+      "perfective": "",
+      "note": "主要表对比、转折或承接话题。",
+      "stage": 1,
+      "original": {
+        "word": "а",
+        "part_of_speech": "连",
+        "meaning_zh": "和；以及；然而",
+        "source_page": 65,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "а",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=8",
+        "а主要表对比、转折和承接，不简单当成以及。"
+      ]
+    },
+    {
+      "id": 7488,
+      "accent": "абза́ц",
+      "part": "名词·阳性",
+      "meaning": "段落；首行缩进",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "абзац",
+        "part_of_speech": "阳",
+        "meaning_zh": "段落；（文章的）一段",
+        "source_page": 8,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "абзац",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=8",
+        "段落和首行缩进均有原义。"
+      ]
+    },
+    {
+      "id": 7489,
+      "accent": "ава́рия",
+      "part": "名词·阴性",
+      "meaning": "事故；失事；故障",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "авария",
+        "part_of_speech": "阴",
+        "meaning_zh": "事故；失事；故障；（转）失败",
+        "source_page": 8,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "авария",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7490,
+      "accent": "а́вгуст",
+      "part": "名词·阳性",
+      "meaning": "八月",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "август",
+        "part_of_speech": "阳",
+        "meaning_zh": "八月",
+        "source_page": 8,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "август",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7491,
+      "accent": "авиапо́чта",
+      "part": "名词·阴性",
+      "meaning": "航空邮件；航空邮政",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "авиапочта",
+        "part_of_speech": "阴",
+        "meaning_zh": "航空邮件",
+        "source_page": 8,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "авиапочта",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7492,
+      "accent": "авиа́ция",
+      "part": "名词·阴性",
+      "meaning": "航空；航空兵；航空业",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "авиация",
+        "part_of_speech": "阴",
+        "meaning_zh": "航空；航空兵；航空学",
+        "source_page": 8,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "авиация",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7493,
+      "accent": "авто́бус",
+      "part": "名词·阳性",
+      "meaning": "公共汽车；大客车",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "автобус",
+        "part_of_speech": "阳",
+        "meaning_zh": "公共汽车；大客车",
+        "source_page": 8,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "автобус",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7494,
+      "accent": "автома́т",
+      "part": "名词·阳性",
+      "meaning": "自动装置；自动售货机；自动步枪",
+      "perfective": "",
+      "note": "旧时还可指公用电话机。",
+      "stage": 2,
+      "original": {
+        "word": "автомат",
+        "part_of_speech": "阳",
+        "meaning_zh": "自动机；自动装置；自动枪；自动电话",
+        "source_page": 8,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "автомат",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=8",
+        "自动装置及自动枪，跨页核实。"
+      ]
+    },
+    {
+      "id": 7495,
+      "accent": "автомати́ческий",
+      "part": "形容词",
+      "meaning": "自动的；无意识的；机械的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "автоматический",
+        "part_of_speech": "形",
+        "meaning_zh": "自动的；无意识的；机械的",
+        "source_page": 9,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "автоматический",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7496,
+      "accent": "автомоби́ль",
+      "part": "名词·阳性",
+      "meaning": "汽车",
+      "perfective": "",
+      "note": "包括轿车、卡车等，不泛指所有车辆。",
+      "stage": 1,
+      "original": {
+        "word": "автомобиль",
+        "part_of_speech": "阳",
+        "meaning_zh": "汽车；车辆；轿车；卡车等机动车",
+        "source_page": 9,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "автомобиль",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7497,
+      "accent": "автоно́мный",
+      "part": "形容词",
+      "meaning": "自治的；自主的；独立运行的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "автономный",
+        "part_of_speech": "形",
+        "meaning_zh": "自治的；有自治权的；自主的",
+        "source_page": 9,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "автономный",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7498,
+      "accent": "а́втор",
+      "part": "名词·阳性",
+      "meaning": "作者；创作者；发明者",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "автор",
+        "part_of_speech": "阳",
+        "meaning_zh": "作者；作家；发明人；创始人",
+        "source_page": 9,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "автор",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=9",
+        "作者、发明人，并不等同于所有作家身份。"
+      ]
+    },
+    {
+      "id": 7499,
+      "accent": "авторите́т",
+      "part": "名词·阳性",
+      "meaning": "威信；威望；权威；权威人士",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "авторитет",
+        "part_of_speech": "阳",
+        "meaning_zh": "威信；威望；权威；权威人士",
+        "source_page": 9,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "авторитет",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7500,
+      "accent": "аге́нтство",
+      "part": "名词·中性",
+      "meaning": "代理机构；办事处；通讯社",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "агентство",
+        "part_of_speech": "中",
+        "meaning_zh": "代理处；办事处；通讯社；机构",
+        "source_page": 9,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "агентство",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7501,
+      "accent": "агре́ссия",
+      "part": "名词·阴性",
+      "meaning": "侵略；攻击行为；攻击性",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "агрессия",
+        "part_of_speech": "阴",
+        "meaning_zh": "侵略；侵略行为；侵略性",
+        "source_page": 9,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "агрессия",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7502,
+      "accent": "агроно́м",
+      "part": "名词·阳性",
+      "meaning": "农艺师；农学家",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "агроном",
+        "part_of_speech": "阳",
+        "meaning_zh": "农学家；农艺师；农业技术员",
+        "source_page": 9,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "агроном",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7503,
+      "accent": "администра́ция",
+      "part": "名词·阴性",
+      "meaning": "行政机关；行政管理部门；管理人员",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "администрация",
+        "part_of_speech": "阴",
+        "meaning_zh": "行政管理机关；行政管理人员",
+        "source_page": 9,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "администрация",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": []
+    },
+    {
+      "id": 7504,
+      "accent": "а́дрес",
+      "part": "名词·阳性",
+      "meaning": "地址；住址",
+      "perfective": "",
+      "note": "в адрес表示对……，是搭配义，不是单词本义。",
+      "stage": 1,
+      "original": {
+        "word": "адрес",
+        "part_of_speech": "阳",
+        "meaning_zh": "地址；住址；致……的；对……来说",
+        "source_page": 9,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "адрес",
+      "method": "2026-09-11 当前助手逐词审核专四核心义、重音、体及基础搭配；疑义与词性对照原PDF和词典，保留用户已确认的词头。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=9",
+        "地址为词义，в адрес的对……为搭配，不当单词译义。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1301 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 7505,
+      "accent": "акаде́мик",
+      "part": "名词·阳性",
+      "meaning": "院士",
+      "perfective": "",
+      "note": "指科学院等学术机构的院士。",
+      "stage": 2,
+      "original": {
+        "word": "академик",
+        "part_of_speech": "阳",
+        "meaning_zh": "科学院院士；学者",
+        "source_page": 10,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "академик",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=10",
+        "院士为头词释义，不泛指所有学者。"
+      ]
+    },
+    {
+      "id": 7506,
+      "accent": "акаде́мия",
+      "part": "名词·阴性",
+      "meaning": "科学院；专门学院",
+      "perfective": "",
+      "note": "学院义常见于艺术、军事等高等院校名称。",
+      "stage": 2,
+      "original": {
+        "word": "академия",
+        "part_of_speech": "阴",
+        "meaning_zh": "科学院；学院；大学",
+        "source_page": 10,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "академия",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7507,
+      "accent": "аккура́тный",
+      "part": "形容词",
+      "meaning": "整洁的；仔细的；认真的；守时的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "аккуратный",
+        "part_of_speech": "形",
+        "meaning_zh": "认真的；准时的；整洁的；仔细的",
+        "source_page": 10,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "аккуратный",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7508,
+      "accent": "акти́вный",
+      "part": "形容词",
+      "meaning": "积极的；主动的；活跃的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "активный",
+        "part_of_speech": "形",
+        "meaning_zh": "积极的；主动的",
+        "source_page": 10,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "активный",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7509,
+      "accent": "актуа́льный",
+      "part": "形容词",
+      "meaning": "切合当前需要的；迫切的；现实重要的",
+      "perfective": "",
+      "note": "不是英语actual所指的一般实际的。",
+      "stage": 2,
+      "original": {
+        "word": "актуальный",
+        "part_of_speech": "形",
+        "meaning_zh": "迫切的；切合现实的；实际的",
+        "source_page": 10,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "актуальный",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7510,
+      "accent": "альбо́м",
+      "part": "名词·阳性",
+      "meaning": "相册；纪念册；画册；图集",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "альбом",
+        "part_of_speech": "阳",
+        "meaning_zh": "纪念册；相册；画册；图集",
+        "source_page": 10,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "альбом",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7511,
+      "accent": "альпини́зм",
+      "part": "名词·阳性",
+      "meaning": "登山运动",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "альпинизм",
+        "part_of_speech": "阳",
+        "meaning_zh": "登山运动",
+        "source_page": 10,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "альпинизм",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7512,
+      "accent": "америка́нец",
+      "part": "名词·阳性",
+      "meaning": "美国人",
+      "perfective": "",
+      "note": "美籍华人需另加китайского происхождения。",
+      "stage": 1,
+      "original": {
+        "word": "американец",
+        "part_of_speech": "阳",
+        "meaning_zh": "美国人；美籍华人",
+        "source_page": 10,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "американец",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=10",
+        "美籍华人来自китайского происхождения例句，非单词独立意义。"
+      ]
+    },
+    {
+      "id": 7513,
+      "accent": "америка́нский",
+      "part": "形容词",
+      "meaning": "美国的；美洲的",
+      "perfective": "",
+      "note": "具体地域依上下文。",
+      "stage": 1,
+      "original": {
+        "word": "американский",
+        "part_of_speech": "形",
+        "meaning_zh": "美洲（人）的；美国（人）的",
+        "source_page": 10,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "американский",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7514,
+      "accent": "ана́лиз",
+      "part": "名词·阳性",
+      "meaning": "分析；化验",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "анализ",
+        "part_of_speech": "阳",
+        "meaning_zh": "分析；分析研究",
+        "source_page": 10,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "анализ",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=10",
+        "分析及化验两个核心义。"
+      ]
+    },
+    {
+      "id": 7515,
+      "accent": "англи́йский",
+      "part": "形容词",
+      "meaning": "英国的；英格兰的；英语的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "английский",
+        "part_of_speech": "形",
+        "meaning_zh": "英国（人）的；英语的",
+        "source_page": 10,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "английский",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7516,
+      "accent": "англича́нин",
+      "part": "名词·阳性",
+      "meaning": "英国人；英格兰人",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "англичанин",
+        "part_of_speech": "阳",
+        "meaning_zh": "英国人",
+        "source_page": 10,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "англичанин",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7517,
+      "accent": "анке́та",
+      "part": "名词·阴性",
+      "meaning": "调查问卷；登记表；履历表",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "анкета",
+        "part_of_speech": "阴",
+        "meaning_zh": "问卷；履历表；登记表；表格",
+        "source_page": 10,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "анкета",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7518,
+      "accent": "апельси́н",
+      "part": "名词·阳性",
+      "meaning": "橙子；橙树",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "апельсин",
+        "part_of_speech": "阳",
+        "meaning_zh": "橙子；橙树",
+        "source_page": 11,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "апельсин",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7519,
+      "accent": "аплоди́ровать",
+      "part": "动词·未完成体",
+      "meaning": "鼓掌；拍手喝彩",
+      "perfective": "",
+      "note": "常接第三格；不强配开始鼓掌为同义完成体。",
+      "stage": 2,
+      "original": {
+        "word": "аплодировать",
+        "part_of_speech": "未",
+        "meaning_zh": "鼓掌；拍手",
+        "source_page": 11,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "аплодировать",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7520,
+      "accent": "аплодисме́нты",
+      "part": "名词·复数",
+      "meaning": "掌声；鼓掌",
+      "perfective": "",
+      "note": "通常只用复数。",
+      "stage": 2,
+      "original": {
+        "word": "аплодисменты",
+        "part_of_speech": "复",
+        "meaning_zh": "掌声；鼓掌",
+        "source_page": 11,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "аплодисменты",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7521,
+      "accent": "аппара́т",
+      "part": "名词·阳性",
+      "meaning": "仪器；装置；机关；机构；器官系统",
+      "perfective": "",
+      "note": "如пищеварительный аппарат为消化器官系统。",
+      "stage": 2,
+      "original": {
+        "word": "аппарат",
+        "part_of_speech": "阳",
+        "meaning_zh": "器械；仪器；装置；机关；部门",
+        "source_page": 11,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "аппарат",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7522,
+      "accent": "аппети́т",
+      "part": "名词·阳性",
+      "meaning": "食欲；胃口",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "аппетит",
+        "part_of_speech": "阳",
+        "meaning_zh": "食欲；胃口",
+        "source_page": 11,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "аппетит",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7523,
+      "accent": "апре́ль",
+      "part": "名词·阳性",
+      "meaning": "四月",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "апрель",
+        "part_of_speech": "阳",
+        "meaning_zh": "四月",
+        "source_page": 11,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "апрель",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7524,
+      "accent": "апте́ка",
+      "part": "名词·阴性",
+      "meaning": "药店；药房",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "аптека",
+        "part_of_speech": "阴",
+        "meaning_zh": "药店；配药室",
+        "source_page": 11,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "аптека",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7525,
+      "accent": "арбу́з",
+      "part": "名词·阳性",
+      "meaning": "西瓜",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "арбуз",
+        "part_of_speech": "阳",
+        "meaning_zh": "西瓜",
+        "source_page": 11,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "арбуз",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7526,
+      "accent": "аресто́вывать",
+      "part": "动词·未完成体",
+      "meaning": "逮捕；拘捕；查封；扣押",
+      "perfective": "арестова́ть",
+      "note": "对人指逮捕，对财产指查封或扣押。",
+      "stage": 2,
+      "original": {
+        "word": "арестовывать",
+        "part_of_speech": "未",
+        "meaning_zh": "逮捕；查封；没收",
+        "source_page": 11,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "арестовывать",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=11",
+        "查封查抄不简单等于没收；原页确认体配对。"
+      ]
+    },
+    {
+      "id": 7527,
+      "accent": "а́рмия",
+      "part": "名词·阴性",
+      "meaning": "军队；集团军；大军",
+      "perfective": "",
+      "note": "大军也可比喻大批人。",
+      "stage": 2,
+      "original": {
+        "word": "армия",
+        "part_of_speech": "阴",
+        "meaning_zh": "军队；军团",
+        "source_page": 11,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "армия",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7528,
+      "accent": "арти́ст",
+      "part": "名词·阳性",
+      "meaning": "演员；表演艺术家；艺人",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "артист",
+        "part_of_speech": "阳",
+        "meaning_zh": "演员；艺人；杂技演员",
+        "source_page": 12,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "артист",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7529,
+      "accent": "архитекту́ра",
+      "part": "名词·阴性",
+      "meaning": "建筑艺术；建筑学；建筑风格",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "архитектура",
+        "part_of_speech": "阴",
+        "meaning_zh": "建筑艺术；建筑学；建筑风格",
+        "source_page": 12,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "архитектура",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7530,
+      "accent": "аспира́нт",
+      "part": "名词·阳性",
+      "meaning": "攻读副博士学位的研究生",
+      "perfective": "",
+      "note": "指俄罗斯教育体系中的аспирантура学生。",
+      "stage": 2,
+      "original": {
+        "word": "аспирант",
+        "part_of_speech": "阳",
+        "meaning_zh": "博士研究生；研究生",
+        "source_page": 12,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "аспирант",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=12",
+        "原页指副博士研究生，不与硕士阶段混同。"
+      ]
+    },
+    {
+      "id": 7531,
+      "accent": "аспиранту́ра",
+      "part": "名词·阴性",
+      "meaning": "副博士研究生培养阶段；副博士研究生班",
+      "perfective": "",
+      "note": "俄罗斯教育体系用语，与магистратура硕士阶段有别。",
+      "stage": 2,
+      "original": {
+        "word": "аспирантура",
+        "part_of_speech": "阴",
+        "meaning_zh": "副博士研究生班；副博士研究生学历",
+        "source_page": 12,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "аспирантура",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=12",
+        "原例区分магистратура、аспирантура、докторантура。"
+      ]
+    },
+    {
+      "id": 7532,
+      "accent": "ата́ка",
+      "part": "名词·阴性",
+      "meaning": "进攻；冲锋；攻击",
+      "perfective": "",
+      "note": "也用于争论、棋类等。",
+      "stage": 2,
+      "original": {
+        "word": "атака",
+        "part_of_speech": "阴",
+        "meaning_zh": "进攻；袭击；（转）攻击",
+        "source_page": 12,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "атака",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7533,
+      "accent": "атле́тика",
+      "part": "名词·阴性",
+      "meaning": "竞技运动",
+      "perfective": "",
+      "note": "лёгкая атлетика为田径，тяжёлая атлетика为举重。",
+      "stage": 2,
+      "original": {
+        "word": "атлетика",
+        "part_of_speech": "阴",
+        "meaning_zh": "竞技运动；田径运动",
+        "source_page": 12,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "атлетика",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=12",
+        "田径仅限лёгкая атлетика，不能当全部竞技运动的唯一译义。"
+      ]
+    },
+    {
+      "id": 7534,
+      "accent": "атмосфе́ра",
+      "part": "名词·阴性",
+      "meaning": "大气；大气层；气氛；大气压",
+      "perfective": "",
+      "note": "大气压可作压力单位。",
+      "stage": 2,
+      "original": {
+        "word": "атмосфера",
+        "part_of_speech": "阴",
+        "meaning_zh": "大气；大气层；气氛；环境；大气压",
+        "source_page": 12,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "атмосфера",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7535,
+      "accent": "а́томный",
+      "part": "形容词",
+      "meaning": "原子的；原子能的；核能的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "атомный",
+        "part_of_speech": "形",
+        "meaning_zh": "原子的；利用原子能的",
+        "source_page": 12,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "атомный",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7536,
+      "accent": "аттеста́т",
+      "part": "名词·阳性",
+      "meaning": "证书；毕业证书",
+      "perfective": "",
+      "note": "常见аттестат зрелости中学毕业证书。",
+      "stage": 2,
+      "original": {
+        "word": "аттестат",
+        "part_of_speech": "阳",
+        "meaning_zh": "毕业证书；文凭",
+        "source_page": 12,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "аттестат",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7537,
+      "accent": "аудито́рия",
+      "part": "名词·阴性",
+      "meaning": "教室；讲堂；听众；受众",
+      "perfective": "",
+      "note": "听众为集合意义，不泛指任何学生。",
+      "stage": 1,
+      "original": {
+        "word": "аудитория",
+        "part_of_speech": "阴",
+        "meaning_zh": "讲堂；（大学的）教室；听众；学生",
+        "source_page": 12,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "аудитория",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7538,
+      "accent": "афи́ша",
+      "part": "名词·阴性",
+      "meaning": "演出海报；文娱活动公告",
+      "perfective": "",
+      "note": "常指戏剧、电影、音乐会等的广告。",
+      "stage": 2,
+      "original": {
+        "word": "афиша",
+        "part_of_speech": "阴",
+        "meaning_zh": "广告；海报（戏剧、电影、音乐会等）",
+        "source_page": 12,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "афиша",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7539,
+      "accent": "аэродро́м",
+      "part": "名词·阳性",
+      "meaning": "飞机场；飞行场",
+      "perfective": "",
+      "note": "侧重飞机起降及停放设施。",
+      "stage": 2,
+      "original": {
+        "word": "аэродром",
+        "part_of_speech": "阳",
+        "meaning_zh": "飞机场；机场",
+        "source_page": 12,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "аэродром",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7540,
+      "accent": "аэропо́рт",
+      "part": "名词·阳性",
+      "meaning": "机场；航空港",
+      "perfective": "",
+      "note": "侧重提供民航运输服务的机场。",
+      "stage": 1,
+      "original": {
+        "word": "аэропорт",
+        "part_of_speech": "阳",
+        "meaning_zh": "机场；航空站",
+        "source_page": 12,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "аэропорт",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7541,
+      "accent": "ба́бушка",
+      "part": "名词·阴性",
+      "meaning": "祖母；外祖母；老奶奶",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "бабушка",
+        "part_of_speech": "阴",
+        "meaning_zh": "祖母；外祖母；老太婆；老大娘",
+        "source_page": 13,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бабушка",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7542,
+      "accent": "бага́ж",
+      "part": "名词·阳性",
+      "meaning": "行李",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "багаж",
+        "part_of_speech": "阳",
+        "meaning_zh": "行李；行李物品",
+        "source_page": 13,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "багаж",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7543,
+      "accent": "ба́за",
+      "part": "名词·阴性",
+      "meaning": "基础；底座；基地；服务站",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "база",
+        "part_of_speech": "阴",
+        "meaning_zh": "基础；柱脚；根据；基地；服务站",
+        "source_page": 13,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "база",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7544,
+      "accent": "база́р",
+      "part": "名词·阳性",
+      "meaning": "集市；市场",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "базар",
+        "part_of_speech": "阳",
+        "meaning_zh": "集市；市场",
+        "source_page": 13,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "базар",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7545,
+      "accent": "балери́на",
+      "part": "名词·阴性",
+      "meaning": "芭蕾舞女演员",
+      "perfective": "",
+      "note": "不泛指一切女舞蹈演员。",
+      "stage": 2,
+      "original": {
+        "word": "балерина",
+        "part_of_speech": "阴",
+        "meaning_zh": "芭蕾舞女演员；女舞蹈家",
+        "source_page": 13,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "балерина",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7546,
+      "accent": "бале́т",
+      "part": "名词·阳性",
+      "meaning": "芭蕾舞；芭蕾舞剧",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "балет",
+        "part_of_speech": "阳",
+        "meaning_zh": "芭蕾舞；芭蕾舞剧",
+        "source_page": 13,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "балет",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7547,
+      "accent": "балко́н",
+      "part": "名词·阳性",
+      "meaning": "阳台；剧场楼座",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "балкон",
+        "part_of_speech": "阳",
+        "meaning_zh": "阳台；凉台；（剧场的）楼座",
+        "source_page": 13,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "балкон",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7548,
+      "accent": "бана́н",
+      "part": "名词·阳性",
+      "meaning": "香蕉；香蕉树",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "банан",
+        "part_of_speech": "阳",
+        "meaning_zh": "香蕉；芭蕉",
+        "source_page": 13,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "банан",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=13",
+        "保留香蕉核心义，不扩大为所有芭蕉。"
+      ]
+    },
+    {
+      "id": 7549,
+      "accent": "банк",
+      "part": "名词·阳性",
+      "meaning": "银行；储存库",
+      "perfective": "",
+      "note": "如банк данных数据库。",
+      "stage": 1,
+      "original": {
+        "word": "банк",
+        "part_of_speech": "阳",
+        "meaning_zh": "银行；数据库；人才库；基因库",
+        "source_page": 13,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "банк",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=13",
+        "人才库基因库为库义的搭配例子。"
+      ]
+    },
+    {
+      "id": 7550,
+      "accent": "ба́ня",
+      "part": "名词·阴性",
+      "meaning": "澡堂；浴室；蒸汽浴",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "баня",
+        "part_of_speech": "阴",
+        "meaning_zh": "澡堂；浴室；浴池；桑拿浴",
+        "source_page": 13,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "баня",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7551,
+      "accent": "баскетбо́л",
+      "part": "名词·阳性",
+      "meaning": "篮球运动",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "баскетбол",
+        "part_of_speech": "阳",
+        "meaning_zh": "篮球；篮球运动",
+        "source_page": 14,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "баскетбол",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7552,
+      "accent": "ба́сня",
+      "part": "名词·阴性",
+      "meaning": "寓言",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "басня",
+        "part_of_speech": "阴",
+        "meaning_zh": "寓言；寓言故事",
+        "source_page": 14,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "басня",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7553,
+      "accent": "бассе́йн",
+      "part": "名词·阳性",
+      "meaning": "游泳池；水池；流域",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "бассейн",
+        "part_of_speech": "阳",
+        "meaning_zh": "水池；蓄水池；游泳池；（江、湖等的）流域",
+        "source_page": 14,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бассейн",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7554,
+      "accent": "ба́шня",
+      "part": "名词·阴性",
+      "meaning": "塔；塔楼",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "башня",
+        "part_of_speech": "阴",
+        "meaning_zh": "塔；塔楼",
+        "source_page": 14,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "башня",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7555,
+      "accent": "бди́тельность",
+      "part": "名词·阴性",
+      "meaning": "警惕；警觉；警惕性",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "бдительность",
+        "part_of_speech": "阴",
+        "meaning_zh": "警惕性；警戒；警觉",
+        "source_page": 14,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бдительность",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7556,
+      "accent": "бег",
+      "part": "名词·阳性",
+      "meaning": "跑；赛跑",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "бег",
+        "part_of_speech": "阳",
+        "meaning_zh": "跑步；赛跑",
+        "source_page": 14,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бег",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7557,
+      "accent": "бе́гать",
+      "part": "动词·未完成体",
+      "meaning": "跑；来回跑；经常跑；躲避",
+      "perfective": "",
+      "note": "不定向运动动词；бежать同样是未完成体，不作体配对。",
+      "stage": 1,
+      "original": {
+        "word": "бегать",
+        "part_of_speech": "未",
+        "meaning_zh": "跑；奔跑；逃跑；躲避",
+        "source_page": 14,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бегать",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=14",
+        "бегать为未完成体；与бежать不是完成/未完成体配对。"
+      ]
+    },
+    {
+      "id": 7558,
+      "accent": "беда́",
+      "part": "名词·阴性",
+      "meaning": "不幸；灾难；麻烦",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "беда",
+        "part_of_speech": "阴",
+        "meaning_zh": "不幸；灾难；倒霉事",
+        "source_page": 14,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "беда",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7559,
+      "accent": "бе́дный",
+      "part": "形容词",
+      "meaning": "贫穷的；贫乏的；可怜的；不幸的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "бедный",
+        "part_of_speech": "形",
+        "meaning_zh": "贫穷的；贫乏的；可怜的；不幸的",
+        "source_page": 14,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бедный",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7560,
+      "accent": "бе́дствие",
+      "part": "名词·中性",
+      "meaning": "灾难；灾祸",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "бедствие",
+        "part_of_speech": "中",
+        "meaning_zh": "灾祸；灾难",
+        "source_page": 14,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бедствие",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7561,
+      "accent": "бежа́ть",
+      "part": "动词·未完成体",
+      "meaning": "跑；奔跑；快速移动；流淌；流逝",
+      "perfective": "",
+      "note": "核心跑义为定向运动；不与бегать标为体配对。",
+      "stage": 1,
+      "original": {
+        "word": "бежать",
+        "part_of_speech": "未",
+        "meaning_zh": "跑；奔跑；急驶；流逝；流动",
+        "source_page": 15,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бежать",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=15",
+        "本条跑、流动等均为未完成体，保留单向运动说明。"
+      ]
+    },
+    {
+      "id": 7562,
+      "accent": "без",
+      "part": "前置词",
+      "meaning": "没有；无；缺少；差",
+      "perfective": "",
+      "note": "接第二格；差用于时间、数量；另有形式безо。",
+      "stage": 1,
+      "original": {
+        "word": "без",
+        "part_of_speech": "前",
+        "meaning_zh": "没有；无；不在；缺少；差……（时间、数量）",
+        "source_page": 15,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "без",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7563,
+      "accent": "безграни́чный",
+      "part": "形容词",
+      "meaning": "无边无际的；无限的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "безграничный",
+        "part_of_speech": "形",
+        "meaning_zh": "无边际的；无限的；无穷的",
+        "source_page": 15,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "безграничный",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": []
+    },
+    {
+      "id": 7564,
+      "accent": "безобра́зие",
+      "part": "名词·中性",
+      "meaning": "丑陋；不像话的行为；不成体统的现象",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "безобразие",
+        "part_of_speech": "中",
+        "meaning_zh": "丑陋；可恶的现象；不成体统的行为",
+        "source_page": 15,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "безобразие",
+      "method": "2026-09-11 当前助手逐词审核，逐页查看专四PDF第10至15页；区分单词核心义与例句，重音按词头核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=15",
+        "原头词重音在а；丑陋及不成体统行为。"
+      ]
+    }
+  ]
+}
