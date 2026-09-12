@@ -1,0 +1,1002 @@
+[
+  {
+    "key": "P001",
+    "word": "босой",
+    "accent": "босо́й",
+    "part": "形",
+    "meaning": "赤脚的；光脚的",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P002",
+    "word": "блестящий",
+    "accent": "блестя́щий",
+    "part": "形",
+    "meaning": "闪光的；辉煌的；卓越的",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P003",
+    "word": "больной",
+    "accent": "больно́й",
+    "part": "形",
+    "meaning": "有病的；患病的；病人",
+    "pair": "",
+    "status": "fix",
+    "reason": "“痛处、棘手的问题”依赖固定搭配，不是本词独立核心义。"
+  },
+  {
+    "key": "P004",
+    "word": "ботинки",
+    "accent": "боти́нки",
+    "part": "复",
+    "meaning": "鞋；短靴（复数）",
+    "pair": "",
+    "status": "fix",
+    "reason": "“短靴”比泛指“靴子”更准确。"
+  },
+  {
+    "key": "P005",
+    "word": "больно",
+    "accent": "бо́льно",
+    "part": "副",
+    "meaning": "疼；痛苦地；令人痛心",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P006",
+    "word": "боль",
+    "accent": "бо́ль",
+    "part": "阴",
+    "meaning": "疼痛；痛苦；悲痛",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P007",
+    "word": "аппарат",
+    "accent": "аппара́т",
+    "part": "阳",
+    "meaning": "器械；仪器；装置；机关；部门",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P008",
+    "word": "бесплатный",
+    "accent": "беспла́тный",
+    "part": "形",
+    "meaning": "免费的；无报酬的",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P009",
+    "word": "бить",
+    "accent": "би́ть",
+    "part": "未",
+    "meaning": "打；敲；击；打破",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P010",
+    "word": "бросать",
+    "accent": "броса́ть",
+    "part": "未",
+    "meaning": "扔；投；抛弃；放弃；戒掉",
+    "pair": "бросить",
+    "status": "fix",
+    "reason": "删除依赖语境或搭配的扩展释义，保留常用核心义。"
+  },
+  {
+    "key": "P011",
+    "word": "бок",
+    "accent": "бо́к",
+    "part": "阳",
+    "meaning": "身体侧部；侧面；侧边",
+    "pair": "",
+    "status": "fix",
+    "reason": "“旁边、并肩地”通常来自搭配，不是名词的独立释义。"
+  },
+  {
+    "key": "P012",
+    "word": "апрель",
+    "accent": "апре́ль",
+    "part": "阳",
+    "meaning": "四月",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P013",
+    "word": "борьба",
+    "accent": "борьба́",
+    "part": "阴",
+    "meaning": "摔跤；斗争；战斗；竞争",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P014",
+    "word": "бабушка",
+    "accent": "ба́бушка",
+    "part": "阴",
+    "meaning": "祖母；外祖母；老太太；老大娘",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P015",
+    "word": "бежать",
+    "accent": "бежа́ть",
+    "part": "未",
+    "meaning": "跑；奔跑；急驶；流动；流逝",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P016",
+    "word": "арбуз",
+    "accent": "арбу́з",
+    "part": "阳",
+    "meaning": "西瓜",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P017",
+    "word": "аэродром",
+    "accent": "аэродро́м",
+    "part": "阳",
+    "meaning": "飞行场；机场（侧重飞机起降场地）",
+    "pair": "",
+    "status": "fix",
+    "reason": "补充与аэропорт的常用语义区别。"
+  },
+  {
+    "key": "P018",
+    "word": "банан",
+    "accent": "бана́н",
+    "part": "阳",
+    "meaning": "香蕉",
+    "pair": "",
+    "status": "fix",
+    "reason": "“芭蕉”不是常用准确对译。"
+  },
+  {
+    "key": "P019",
+    "word": "беспорядок",
+    "accent": "беспоря́док",
+    "part": "阳",
+    "meaning": "无秩序；混乱；杂乱",
+    "pair": "",
+    "status": "fix",
+    "reason": "“骚乱”通常用复数беспорядки表达。"
+  },
+  {
+    "key": "P020",
+    "word": "бесконечный",
+    "accent": "бесконе́чный",
+    "part": "形",
+    "meaning": "无限的；无穷的；漫长的；无休止的",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P021",
+    "word": "бледный",
+    "accent": "бле́дный",
+    "part": "形",
+    "meaning": "苍白的；暗淡的；平淡的",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P022",
+    "word": "борец",
+    "accent": "боре́ц",
+    "part": "阳",
+    "meaning": "斗士；战士；摔跤运动员",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P023",
+    "word": "американец",
+    "accent": "америка́нец",
+    "part": "阳",
+    "meaning": "美国人；美国男子",
+    "pair": "",
+    "status": "fix",
+    "reason": "不专指“美籍华人”。"
+  },
+  {
+    "key": "P024",
+    "word": "будить",
+    "accent": "буди́ть",
+    "part": "未",
+    "meaning": "叫醒；唤醒；引起",
+    "pair": "разбудить",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P025",
+    "word": "биология",
+    "accent": "биоло́гия",
+    "part": "阴",
+    "meaning": "生物学",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P026",
+    "word": "активный",
+    "accent": "акти́вный",
+    "part": "形",
+    "meaning": "积极的；主动的；活跃的",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P027",
+    "word": "билет",
+    "accent": "биле́т",
+    "part": "阳",
+    "meaning": "票；券；证件；考试题签",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P028",
+    "word": "беречь",
+    "accent": "бере́чь",
+    "part": "未",
+    "meaning": "保存；节省；爱惜；保护",
+    "pair": "сберечь",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P029",
+    "word": "альбом",
+    "accent": "альбо́м",
+    "part": "阳",
+    "meaning": "纪念册；相册；画册；图集",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P030",
+    "word": "беседовать",
+    "accent": "бесе́довать",
+    "part": "未",
+    "meaning": "交谈；谈话；交换意见",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P031",
+    "word": "академик",
+    "accent": "акаде́мик",
+    "part": "阳",
+    "meaning": "科学院院士；院士",
+    "pair": "",
+    "status": "fix",
+    "reason": "不泛指普通“学者”。"
+  },
+  {
+    "key": "P032",
+    "word": "бельё",
+    "accent": "бельё",
+    "part": "中",
+    "meaning": "内衣；床上用品等家用布品",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P033",
+    "word": "аудитория",
+    "accent": "аудито́рия",
+    "part": "阴",
+    "meaning": "讲堂；大学教室；听众；受众",
+    "pair": "",
+    "status": "fix",
+    "reason": "“学生”不是该词的通用独立释义。"
+  },
+  {
+    "key": "P034",
+    "word": "борода",
+    "accent": "борода́",
+    "part": "阴",
+    "meaning": "胡子；胡须",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P035",
+    "word": "бедный",
+    "accent": "бе́дный",
+    "part": "形",
+    "meaning": "贫穷的；贫乏的；可怜的；不幸的",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P036",
+    "word": "без",
+    "accent": "бе́з",
+    "part": "前",
+    "meaning": "没有；无；缺少；不带；差……（时间、数量）",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P037",
+    "word": "библиотека",
+    "accent": "библиоте́ка",
+    "part": "阴",
+    "meaning": "图书馆；藏书；藏书室",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P038",
+    "word": "англичанин",
+    "accent": "англича́нин",
+    "part": "阳",
+    "meaning": "英国人；英国男子",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P039",
+    "word": "благодарный",
+    "accent": "благода́рный",
+    "part": "形",
+    "meaning": "感谢的；感激的",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P040",
+    "word": "блестеть",
+    "accent": "блесте́ть",
+    "part": "未",
+    "meaning": "发光；闪耀；闪闪发光",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P041",
+    "word": "бросаться",
+    "accent": "броса́ться",
+    "part": "未",
+    "meaning": "扑向；冲向；纵身跳下；投身；显眼",
+    "pair": "броситься",
+    "status": "fix",
+    "reason": "删除依赖具体搭配的“刺鼻”等释义。"
+  },
+  {
+    "key": "P042",
+    "word": "альпинизм",
+    "accent": "альпини́зм",
+    "part": "阳",
+    "meaning": "登山运动",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P043",
+    "word": "бег",
+    "accent": "бе́г",
+    "part": "阳",
+    "meaning": "跑；跑步；赛跑",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P044",
+    "word": "больница",
+    "accent": "больни́ца",
+    "part": "阴",
+    "meaning": "医院；病院",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P045",
+    "word": "американский",
+    "accent": "америка́нский",
+    "part": "形",
+    "meaning": "美国的；美国人的；美洲的",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P046",
+    "word": "болтать",
+    "accent": "болта́ть",
+    "part": "未",
+    "meaning": "闲聊；胡说；泄露",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P047",
+    "word": "атлетика",
+    "accent": "атле́тика",
+    "part": "阴",
+    "meaning": "竞技运动；田径运动",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P048",
+    "word": "борт",
+    "accent": "бо́рт",
+    "part": "阳",
+    "meaning": "船舷；舷侧；飞机等的机舷",
+    "pair": "",
+    "status": "fix",
+    "reason": "“船上、飞机上”通常由на борту等结构表达。"
+  },
+  {
+    "key": "P049",
+    "word": "будущий",
+    "accent": "бу́дущий",
+    "part": "形",
+    "meaning": "将来的；未来的",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P050",
+    "word": "браться",
+    "accent": "бра́ться",
+    "part": "未",
+    "meaning": "抓住；握住；着手；承担",
+    "pair": "взяться",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P051",
+    "word": "арестовывать",
+    "accent": "аре́стовывать",
+    "part": "未",
+    "meaning": "逮捕；扣押；查封",
+    "pair": "арестовать",
+    "status": "fix",
+    "reason": "“没收”通常对应конфисковать，不是本词核心义。"
+  },
+  {
+    "key": "P052",
+    "word": "апельсин",
+    "accent": "апельси́н",
+    "part": "阳",
+    "meaning": "橙子；甜橙",
+    "pair": "",
+    "status": "fix",
+    "reason": "核心义为果实，“橙树”通常表达为апельсиновое дерево。"
+  },
+  {
+    "key": "P053",
+    "word": "безграничный",
+    "accent": "безграни́чный",
+    "part": "形",
+    "meaning": "无边际的；无限的；无穷的",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P054",
+    "word": "будто",
+    "accent": "бу́дто",
+    "part": "连/语",
+    "meaning": "好像；仿佛；似乎",
+    "pair": "",
+    "status": "fix",
+    "reason": "兼有连词和语气词用法。"
+  },
+  {
+    "key": "P055",
+    "word": "аспирант",
+    "accent": "аспира́нт",
+    "part": "阳",
+    "meaning": "博士研究生；研究生",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P056",
+    "word": "бодрый",
+    "accent": "бо́дрый",
+    "part": "形",
+    "meaning": "精力充沛的；精神饱满的",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P057",
+    "word": "архитектура",
+    "accent": "архитекту́ра",
+    "part": "阴",
+    "meaning": "建筑艺术；建筑学；建筑风格",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P058",
+    "word": "белорус",
+    "accent": "белору́с",
+    "part": "阳",
+    "meaning": "白俄罗斯人；白俄罗斯男子",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P059",
+    "word": "английский",
+    "accent": "англи́йский",
+    "part": "形",
+    "meaning": "英国的；英国人的；英语的",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P060",
+    "word": "брак",
+    "accent": "бра́к",
+    "part": "阳",
+    "meaning": "婚姻；结婚；废品；产品缺陷",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P061",
+    "word": "актуальный",
+    "accent": "актуа́льный",
+    "part": "形",
+    "meaning": "迫切的；当前重要的；切合现实的",
+    "pair": "",
+    "status": "fix",
+    "reason": "删除易误解为“真实、实际”的译义。"
+  },
+  {
+    "key": "P062",
+    "word": "блеснуть",
+    "accent": "блесну́ть",
+    "part": "完",
+    "meaning": "闪耀；一闪；显露；表现出众",
+    "pair": "",
+    "status": "fix",
+    "reason": "词性规范为完成体，“一次”不是词性。"
+  },
+  {
+    "key": "P063",
+    "word": "анализ",
+    "accent": "ана́лиз",
+    "part": "阳",
+    "meaning": "分析；分析研究",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P064",
+    "word": "благородный",
+    "accent": "благоро́дный",
+    "part": "形",
+    "meaning": "高尚的；崇高的；贵族的",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P065",
+    "word": "блюдо",
+    "accent": "блю́до",
+    "part": "中",
+    "meaning": "盘子；菜肴；一道菜",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P066",
+    "word": "артист",
+    "accent": "арти́ст",
+    "part": "阳",
+    "meaning": "演员；艺人；表演者；杂技演员",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P067",
+    "word": "будильник",
+    "accent": "буди́льник",
+    "part": "阳",
+    "meaning": "闹钟；闹铃",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P068",
+    "word": "благополучно",
+    "accent": "благополу́чно",
+    "part": "副",
+    "meaning": "平安地；顺利地",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P069",
+    "word": "база",
+    "accent": "ба́за",
+    "part": "阴",
+    "meaning": "基础；基地；库；物资站",
+    "pair": "",
+    "status": "fix",
+    "reason": "删除冷僻的“柱脚”，规范常用核心义。"
+  },
+  {
+    "key": "P070",
+    "word": "аппетит",
+    "accent": "аппети́т",
+    "part": "阳",
+    "meaning": "食欲；胃口",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P071",
+    "word": "блокада",
+    "accent": "блока́да",
+    "part": "阴",
+    "meaning": "封锁；围困",
+    "pair": "",
+    "status": "fix",
+    "reason": "“包围”过宽，核心义是封锁或围困。"
+  },
+  {
+    "key": "P072",
+    "word": "богатый",
+    "accent": "бога́тый",
+    "part": "形",
+    "meaning": "富有的；丰富的；富含……的；富人",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P073",
+    "word": "беспокоиться",
+    "accent": "беспоко́иться",
+    "part": "未",
+    "meaning": "担心；不安；操心；费心",
+    "pair": "",
+    "status": "fix",
+    "reason": "原词将о误写为б。"
+  },
+  {
+    "key": "P074",
+    "word": "берег",
+    "accent": "бе́рег",
+    "part": "阳",
+    "meaning": "岸；河岸；海岸",
+    "pair": "",
+    "status": "fix",
+    "reason": "“陆地、对岸”依赖具体语境，不是本词基本独立义。"
+  },
+  {
+    "key": "P075",
+    "word": "бригада",
+    "accent": "брига́да",
+    "part": "阴",
+    "meaning": "队；组；班；军队的旅",
+    "pair": "",
+    "status": "fix",
+    "reason": "“旅”是军队编制义，并非运输义。"
+  },
+  {
+    "key": "P076",
+    "word": "более",
+    "accent": "бо́лее",
+    "part": "副",
+    "meaning": "多于；超过；更加",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P077",
+    "word": "богатство",
+    "accent": "бога́тство",
+    "part": "中",
+    "meaning": "财富；丰富；富饶；珍贵资源",
+    "pair": "",
+    "status": "fix",
+    "reason": "“资源库”不是该词的常用独立释义。"
+  },
+  {
+    "key": "P078",
+    "word": "безопасность",
+    "accent": "безопа́сность",
+    "part": "阴",
+    "meaning": "安全；无危险",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P079",
+    "word": "беседа",
+    "accent": "бесе́да",
+    "part": "阴",
+    "meaning": "交谈；会谈；谈心；座谈会",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P080",
+    "word": "банк",
+    "accent": "ба́нк",
+    "part": "阳",
+    "meaning": "银行；储存库；资料库",
+    "pair": "",
+    "status": "fix",
+    "reason": "人才库、基因库通常是复合名称，归并为通用“库”义。"
+  },
+  {
+    "key": "P081",
+    "word": "аспирантура",
+    "accent": "аспиранту́ра",
+    "part": "阴",
+    "meaning": "研究生培养阶段；研究生部（院）",
+    "pair": "",
+    "status": "fix",
+    "reason": "该词指培养阶段或机构，不表示“学历”。"
+  },
+  {
+    "key": "P082",
+    "word": "большевик",
+    "accent": "большеви́к",
+    "part": "阳",
+    "meaning": "布尔什维克；布尔什维克成员",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P083",
+    "word": "бой",
+    "accent": "бо́й",
+    "part": "阳",
+    "meaning": "战斗；战役；搏斗",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P084",
+    "word": "больше",
+    "accent": "бо́льше",
+    "part": "副",
+    "meaning": "更多；更大；更加；超过",
+    "pair": "",
+    "status": "fix",
+    "reason": "“再也不”需要与не搭配，不是本词独立释义。"
+  },
+  {
+    "key": "P085",
+    "word": "боевой",
+    "accent": "боево́й",
+    "part": "形",
+    "meaning": "战斗的；作战的；英勇好斗的；精力旺盛的",
+    "pair": "",
+    "status": "fix",
+    "reason": "“战斗精神的”表述不自然，补正常用转义。"
+  },
+  {
+    "key": "P086",
+    "word": "братский",
+    "accent": "бра́тский",
+    "part": "形",
+    "meaning": "兄弟的；兄弟般的",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P087",
+    "word": "болезнь",
+    "accent": "боле́знь",
+    "part": "阴",
+    "meaning": "疾病；病；病症",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P088",
+    "word": "аэропорт",
+    "accent": "аэропо́рт",
+    "part": "阳",
+    "meaning": "机场；航空站",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P089",
+    "word": "болеть",
+    "accent": "боле́ть",
+    "part": "未",
+    "meaning": "生病；疼痛；支持并为球队等助威",
+    "pair": "",
+    "status": "fix",
+    "reason": "原词误将е写成ё，正确拼写为болеть。"
+  },
+  {
+    "key": "P090",
+    "word": "безобразие",
+    "accent": "безобра́зие",
+    "part": "中",
+    "meaning": "丑陋；可恶的现象；不成体统的行为",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P091",
+    "word": "брюки",
+    "accent": "брю́ки",
+    "part": "复",
+    "meaning": "裤子",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P092",
+    "word": "бессмертный",
+    "accent": "бессме́ртный",
+    "part": "形",
+    "meaning": "不死的；永生的；不朽的",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P093",
+    "word": "благоприятный",
+    "accent": "благоприя́тный",
+    "part": "形",
+    "meaning": "有利的；有助于……的；良好的",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P094",
+    "word": "балерина",
+    "accent": "балери́на",
+    "part": "阴",
+    "meaning": "芭蕾舞女演员",
+    "pair": "",
+    "status": "fix",
+    "reason": "“女舞蹈家”范围过宽。"
+  },
+  {
+    "key": "P095",
+    "word": "бомба",
+    "accent": "бо́мба",
+    "part": "阴",
+    "meaning": "炸弹；爆炸装置",
+    "pair": "",
+    "status": "fix",
+    "reason": "原子弹、氢弹属于下位种类，不必分别列作独立词义。"
+  },
+  {
+    "key": "P096",
+    "word": "бегать",
+    "accent": "бе́гать",
+    "part": "未",
+    "meaning": "跑；来回跑；经常跑",
+    "pair": "",
+    "status": "fix",
+    "reason": "突出不定向运动含义；“逃跑、躲避”通常依赖语境或搭配。"
+  },
+  {
+    "key": "P097",
+    "word": "аптека",
+    "accent": "апте́ка",
+    "part": "阴",
+    "meaning": "药店；配药室",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P098",
+    "word": "близкий",
+    "accent": "бли́зкий",
+    "part": "形",
+    "meaning": "近的；临近的；亲近的；关系密切的",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P099",
+    "word": "биться",
+    "accent": "би́ться",
+    "part": "未",
+    "meaning": "作战；厮打；碰撞；挣扎；跳动",
+    "pair": "",
+    "status": "keep",
+    "reason": ""
+  },
+  {
+    "key": "P100",
+    "word": "благодарить",
+    "accent": "благодари́ть",
+    "part": "未",
+    "meaning": "感谢；致谢",
+    "pair": "поблагодарить",
+    "status": "keep",
+    "reason": ""
+  }
+]
