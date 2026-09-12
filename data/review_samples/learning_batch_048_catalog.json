@@ -1,0 +1,1086 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 7731,
+      "accent": "ве́чный",
+      "part": "形容词",
+      "meaning": "永恒的；永久的；经常发生的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вечный",
+        "part_of_speech": "形",
+        "meaning_zh": "永恒的；永远的；经常发生的",
+        "source_page": 33,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вечный",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7732,
+      "accent": "ве́шать",
+      "part": "动词·未完成体",
+      "meaning": "挂；悬挂；绞死",
+      "perfective": "пове́сить",
+      "note": "вешать голову垂头丧气为固定搭配。",
+      "stage": 1,
+      "original": {
+        "word": "вешать",
+        "part_of_speech": "未",
+        "meaning_zh": "挂；悬挂；绞死；垂下",
+        "source_page": 33,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вешать",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=33",
+        "垂下是вешать голову搭配，不直接扩为通用动词义。"
+      ]
+    },
+    {
+      "id": 7733,
+      "accent": "вещество́",
+      "part": "名词·中性",
+      "meaning": "物质",
+      "perfective": "",
+      "note": "不等同于单个物体。",
+      "stage": 2,
+      "original": {
+        "word": "вещество",
+        "part_of_speech": "中",
+        "meaning_zh": "物质；物体；物质成分",
+        "source_page": 33,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вещество",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7734,
+      "accent": "вещь",
+      "part": "名词·阴性",
+      "meaning": "东西；物品；事情；作品",
+      "perfective": "",
+      "note": "作品义可指文学或艺术作品。",
+      "stage": 1,
+      "original": {
+        "word": "вещь",
+        "part_of_speech": "阴",
+        "meaning_zh": "物品；东西；事情",
+        "source_page": 33,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вещь",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7735,
+      "accent": "взаи́мный",
+      "part": "形容词",
+      "meaning": "相互的；彼此的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "взаимный",
+        "part_of_speech": "形",
+        "meaning_zh": "相互的；彼此的",
+        "source_page": 34,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "взаимный",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7736,
+      "accent": "взаимоотноше́ние",
+      "part": "名词·中性",
+      "meaning": "相互关系",
+      "perfective": "",
+      "note": "常用复数взаимоотношения。",
+      "stage": 2,
+      "original": {
+        "word": "взаимоотношение",
+        "part_of_speech": "中",
+        "meaning_zh": "相互关系；彼此关系",
+        "source_page": 34,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "взаимоотношение",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7737,
+      "accent": "взве́шивать",
+      "part": "动词·未完成体",
+      "meaning": "称量；过秤；权衡；斟酌",
+      "perfective": "взве́сить",
+      "note": "区别весить重量为。",
+      "stage": 2,
+      "original": {
+        "word": "взвешивать",
+        "part_of_speech": "未",
+        "meaning_zh": "称量；过秤；斟酌；权衡；估量",
+        "source_page": 34,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "взвешивать",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7738,
+      "accent": "взволно́ванный",
+      "part": "形容词",
+      "meaning": "激动的；不安的；心绪不宁的",
+      "perfective": "",
+      "note": "不一定表示高兴。",
+      "stage": 2,
+      "original": {
+        "word": "взволнованный",
+        "part_of_speech": "形",
+        "meaning_zh": "激动的；兴奋的",
+        "source_page": 34,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "взволнованный",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=34",
+        "原页激动、不安，不等于始终正面兴奋。"
+      ]
+    },
+    {
+      "id": 7739,
+      "accent": "взгляд",
+      "part": "名词·阳性",
+      "meaning": "目光；眼神；看法；观点",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "взгляд",
+        "part_of_speech": "阳",
+        "meaning_zh": "视线；目光；眼色；观点；见解",
+        "source_page": 34,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "взгляд",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7740,
+      "accent": "взгляну́ть",
+      "part": "动词·完成体",
+      "meaning": "看一眼；瞥一眼",
+      "perfective": "взгля́дывать",
+      "note": "对应未完成体较少用，常表示重复瞥看。",
+      "stage": 2,
+      "original": {
+        "word": "взглянуть",
+        "part_of_speech": "完",
+        "meaning_zh": "看一看；瞥一眼；望一望",
+        "source_page": 34,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "взглянуть",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7741,
+      "accent": "вздыха́ть",
+      "part": "动词·未完成体",
+      "meaning": "叹气；深吸气",
+      "perfective": "вздохну́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вздыхать",
+        "part_of_speech": "未",
+        "meaning_zh": "深呼吸；叹气",
+        "source_page": 34,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вздыхать",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7742,
+      "accent": "взро́слый",
+      "part": "形容词／名词",
+      "meaning": "成年的；成人的；成年人",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "взрослый",
+        "part_of_speech": "形",
+        "meaning_zh": "成年的；成人的；成年人",
+        "source_page": 34,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "взрослый",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7743,
+      "accent": "взрыв",
+      "part": "名词·阳性",
+      "meaning": "爆炸；爆破；爆发",
+      "perfective": "",
+      "note": "爆发可指感情等突然强烈表现。",
+      "stage": 2,
+      "original": {
+        "word": "взрыв",
+        "part_of_speech": "阳",
+        "meaning_zh": "爆炸；爆破",
+        "source_page": 34,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "взрыв",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7744,
+      "accent": "взрыва́ть",
+      "part": "动词·未完成体",
+      "meaning": "炸毁；引爆；爆破",
+      "perfective": "взорва́ть",
+      "note": "本条是爆炸义，不与翻土同形词混合。",
+      "stage": 2,
+      "original": {
+        "word": "взрывать",
+        "part_of_speech": "未",
+        "meaning_zh": "使爆炸；炸毁；爆破",
+        "source_page": 34,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "взрывать",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7745,
+      "accent": "вида́ть",
+      "part": "动词·未完成体／插入语",
+      "meaning": "看见；遇见；经历；看来；显然",
+      "perfective": "",
+      "note": "口语用法；看来为插入语，不作动词体配对。",
+      "stage": 2,
+      "original": {
+        "word": "видать",
+        "part_of_speech": "未",
+        "meaning_zh": "看见；遇见；体验；感到；显然；看来",
+        "source_page": 34,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "видать",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7746,
+      "accent": "ви́деться",
+      "part": "动词·未完成体",
+      "meaning": "见面；相会；显现；在梦中见到",
+      "perfective": "уви́деться",
+      "note": "体配对限见面；как видится表示看来。",
+      "stage": 2,
+      "original": {
+        "word": "видеться",
+        "part_of_speech": "未",
+        "meaning_zh": "见面；相会；可见到；梦见；显然；大概",
+        "source_page": 35,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "видеться",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=35",
+        "看来大概来自как видится，不作为见面动词核心义。"
+      ]
+    },
+    {
+      "id": 7747,
+      "accent": "ви́дно",
+      "part": "谓语词／插入语",
+      "meaning": "看得见；显然；看来；大概",
+      "perfective": "",
+      "note": "可见和推测是不同句法用法。",
+      "stage": 1,
+      "original": {
+        "word": "видно",
+        "part_of_speech": "插",
+        "meaning_zh": "看得见；可以看见；显然；看来",
+        "source_page": 35,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "видно",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7748,
+      "accent": "ви́дный",
+      "part": "形容词",
+      "meaning": "可见的；显著的；杰出的；仪表堂堂的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "видный",
+        "part_of_speech": "形",
+        "meaning_zh": "可以看见的；著名的；重要的；杰出的；仪表堂堂的",
+        "source_page": 35,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "видный",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7749,
+      "accent": "ви́деть",
+      "part": "动词·未完成体",
+      "meaning": "看见；看到；遇见；把……看作",
+      "perfective": "уви́деть",
+      "note": "配对核心为看到；格形式依具体义变化。",
+      "stage": 1,
+      "original": {
+        "word": "видеть",
+        "part_of_speech": "Ж",
+        "meaning_zh": "看见；看到；把……看作……",
+        "source_page": 34,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "видеть",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=34",
+        "原页видеть标未完成体，Ж为OCR词性噪声。"
+      ]
+    },
+    {
+      "id": 7750,
+      "accent": "визи́т",
+      "part": "名词·阳性",
+      "meaning": "拜访；访问",
+      "perfective": "",
+      "note": "常指正式访问。",
+      "stage": 2,
+      "original": {
+        "word": "визит",
+        "part_of_speech": "阳",
+        "meaning_zh": "拜访；访问；正式访问",
+        "source_page": 35,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "визит",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7751,
+      "accent": "ви́лка",
+      "part": "名词·阴性",
+      "meaning": "叉子；插头",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "вилка",
+        "part_of_speech": "阴",
+        "meaning_zh": "叉子；插头",
+        "source_page": 35,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вилка",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7752,
+      "accent": "вина́",
+      "part": "名词·阴性",
+      "meaning": "过错；罪过；责任",
+      "perfective": "",
+      "note": "多指造成不良结果的责任。",
+      "stage": 2,
+      "original": {
+        "word": "вина",
+        "part_of_speech": "阴",
+        "meaning_zh": "过错；责任；罪过",
+        "source_page": 35,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вина",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7753,
+      "accent": "вино́",
+      "part": "名词·中性",
+      "meaning": "葡萄酒；酒",
+      "perfective": "",
+      "note": "常用核心义为葡萄酒。",
+      "stage": 1,
+      "original": {
+        "word": "вино",
+        "part_of_speech": "中",
+        "meaning_zh": "酒；葡萄酒",
+        "source_page": 35,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вино",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7754,
+      "accent": "винова́тый",
+      "part": "形容词",
+      "meaning": "有过错的；有罪的；内疚的；歉疚的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "виноватый",
+        "part_of_speech": "形",
+        "meaning_zh": "有过错的；有罪的；感到内疚的",
+        "source_page": 35,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "виноватый",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7755,
+      "accent": "власть",
+      "part": "名词·阴性",
+      "meaning": "权力；政权；支配；当局",
+      "perfective": "",
+      "note": "власти常指当局；自制力须结合власть над собой。",
+      "stage": 2,
+      "original": {
+        "word": "власть",
+        "part_of_speech": "阴",
+        "meaning_zh": "权力；政权；控制；自制力",
+        "source_page": 36,
+        "source_line": "1"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "власть",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": [
+        "https://gramota.ru/meta/vlast",
+        "词典检索可核权力、支配、政权；36页黑块未完整核，37页续文核政权机关及власть над собой。",
+        "data/words/tem4_russian_words.pdf#page=37"
+      ]
+    },
+    {
+      "id": 7756,
+      "accent": "влия́ние",
+      "part": "名词·中性",
+      "meaning": "影响；作用；影响力；威望",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "влияние",
+        "part_of_speech": "中",
+        "meaning_zh": "影响；作用；威信；权威",
+        "source_page": 37,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "влияние",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7757,
+      "accent": "влия́ть",
+      "part": "动词·未完成体",
+      "meaning": "影响；对……起作用",
+      "perfective": "повлия́ть",
+      "note": "常接на加第四格。",
+      "stage": 2,
+      "original": {
+        "word": "влиять",
+        "part_of_speech": "未",
+        "meaning_zh": "影响；对……有影响",
+        "source_page": 37,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "влиять",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7758,
+      "accent": "влюбля́ться",
+      "part": "动词·未完成体",
+      "meaning": "爱上；坠入爱河",
+      "perfective": "влюби́ться",
+      "note": "常接в加第四格。",
+      "stage": 2,
+      "original": {
+        "word": "влюбляться",
+        "part_of_speech": "未",
+        "meaning_zh": "爱上；爱慕",
+        "source_page": 37,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "влюбляться",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7759,
+      "accent": "вме́шиваться",
+      "part": "动词·未完成体",
+      "meaning": "介入；干涉；干预",
+      "perfective": "вмеша́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вмешиваться",
+        "part_of_speech": "未",
+        "meaning_zh": "介入；干涉；干预",
+        "source_page": 37,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вмешиваться",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7760,
+      "accent": "внеза́пный",
+      "part": "形容词",
+      "meaning": "突然的；突如其来的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "внезапный",
+        "part_of_speech": "形",
+        "meaning_zh": "突然的；意外的",
+        "source_page": 37,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "внезапный",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7761,
+      "accent": "вне́шний",
+      "part": "形容词",
+      "meaning": "外部的；外表的；表面的；对外的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "внешний",
+        "part_of_speech": "形",
+        "meaning_zh": "外部的；外面的；对外的",
+        "source_page": 37,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "внешний",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7762,
+      "accent": "вне́шность",
+      "part": "名词·阴性",
+      "meaning": "外表；外貌",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "внешность",
+        "part_of_speech": "阴",
+        "meaning_zh": "外表；外貌",
+        "source_page": 37,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "внешность",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7763,
+      "accent": "внизу́",
+      "part": "副词／前置词",
+      "meaning": "在下面；在下部",
+      "perfective": "",
+      "note": "作前置词接第二格。",
+      "stage": 1,
+      "original": {
+        "word": "внизу",
+        "part_of_speech": "副",
+        "meaning_zh": "在下面；在下方",
+        "source_page": 38,
+        "source_line": "1"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "внизу",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7764,
+      "accent": "внима́ние",
+      "part": "名词·中性",
+      "meaning": "注意；注意力；关心；关注",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "внимание",
+        "part_of_speech": "中",
+        "meaning_zh": "注意；注意力；关注",
+        "source_page": 38,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "внимание",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7765,
+      "accent": "внима́тельный",
+      "part": "形容词",
+      "meaning": "专心的；细心的；体贴的；关心人的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "внимательный",
+        "part_of_speech": "形",
+        "meaning_zh": "注意的；细心的；留神的",
+        "source_page": 38,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "внимательный",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=38",
+        "补关心、体贴义，不仅注意力集中。"
+      ]
+    },
+    {
+      "id": 7766,
+      "accent": "вновь",
+      "part": "副词",
+      "meaning": "重新；再次",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вновь",
+        "part_of_speech": "副",
+        "meaning_zh": "重新；再次",
+        "source_page": 38,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вновь",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7767,
+      "accent": "вноси́ть",
+      "part": "动词·未完成体",
+      "meaning": "带入；搬入；记入；加入；缴纳；提出",
+      "perfective": "внести́",
+      "note": "如вносить плату缴费，вносить предложение提出建议。",
+      "stage": 2,
+      "original": {
+        "word": "вносить",
+        "part_of_speech": "未",
+        "meaning_zh": "带入；运入；把……加入；增加",
+        "source_page": 38,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вносить",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=38",
+        "补记入载入，внести为对应完成体。"
+      ]
+    },
+    {
+      "id": 7768,
+      "accent": "внук",
+      "part": "名词·阳性",
+      "meaning": "孙子；外孙；后代",
+      "perfective": "",
+      "note": "后代义常用复数。",
+      "stage": 1,
+      "original": {
+        "word": "внук",
+        "part_of_speech": "阳",
+        "meaning_zh": "孙子；外孙；后代",
+        "source_page": 38,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "внук",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7769,
+      "accent": "вну́тренний",
+      "part": "形容词",
+      "meaning": "内部的；内心的；内在的；国内的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "внутренний",
+        "part_of_speech": "形",
+        "meaning_zh": "内部的；内心的；内在的；国内的",
+        "source_page": 38,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "внутренний",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7770,
+      "accent": "внутри́",
+      "part": "副词／前置词",
+      "meaning": "在里面；在内部",
+      "perfective": "",
+      "note": "作前置词接第二格。",
+      "stage": 1,
+      "original": {
+        "word": "внутри",
+        "part_of_speech": "副",
+        "meaning_zh": "在内部；在里面",
+        "source_page": 38,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "внутри",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=38",
+        "副词兼前置词，接第二格。"
+      ]
+    },
+    {
+      "id": 7771,
+      "accent": "внуша́ть",
+      "part": "动词·未完成体",
+      "meaning": "灌输；使相信；引起；激起",
+      "perfective": "внуши́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "внушать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "使产生；激起；灌输",
+        "source_page": 38,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "внушать",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=38",
+        "внушать未完成体，Ж为误读。"
+      ]
+    },
+    {
+      "id": 7772,
+      "accent": "во́время",
+      "part": "副词",
+      "meaning": "按时；及时",
+      "perfective": "",
+      "note": "区别во время加第二格表示在……期间。",
+      "stage": 1,
+      "original": {
+        "word": "вовремя",
+        "part_of_speech": "副",
+        "meaning_zh": "按时；及时",
+        "source_page": 38,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вовремя",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7773,
+      "accent": "во́все",
+      "part": "副词",
+      "meaning": "完全；全然；根本",
+      "perfective": "",
+      "note": "常配не或нет，如вовсе не根本不。",
+      "stage": 2,
+      "original": {
+        "word": "вовсе",
+        "part_of_speech": "副",
+        "meaning_zh": "完全；绝对",
+        "source_page": 38,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вовсе",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7774,
+      "accent": "во-вторы́х",
+      "part": "插入语",
+      "meaning": "第二；其次",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "во-вторых",
+        "part_of_speech": "插",
+        "meaning_zh": "第二；其次",
+        "source_page": 39,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "во-вторых",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7776,
+      "accent": "води́тель",
+      "part": "名词·阳性",
+      "meaning": "司机；驾驶员",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "водитель",
+        "part_of_speech": "阳",
+        "meaning_zh": "驾驶员；司机",
+        "source_page": 39,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "водитель",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7777,
+      "accent": "води́ть",
+      "part": "动词·未完成体",
+      "meaning": "带领；领着走；驾驶",
+      "perfective": "",
+      "note": "与вести都为未完成体；本词可表反复、多向或驾驶能力。",
+      "stage": 1,
+      "original": {
+        "word": "водить",
+        "part_of_speech": "未",
+        "meaning_zh": "带领；引导；驾驶；开（车、飞机等）",
+        "source_page": 39,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "водить",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=39",
+        "不定向运动及驾驶能力，不与вести当作体配对。"
+      ]
+    },
+    {
+      "id": 7778,
+      "accent": "во́дка",
+      "part": "名词·阴性",
+      "meaning": "伏特加酒",
+      "perfective": "",
+      "note": "不是所有烧酒的通称。",
+      "stage": 1,
+      "original": {
+        "word": "водка",
+        "part_of_speech": "阴",
+        "meaning_zh": "伏特加酒；烧酒",
+        "source_page": 39,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "водка",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7779,
+      "accent": "во́дный",
+      "part": "形容词",
+      "meaning": "水的；水上的；水路的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "водный",
+        "part_of_speech": "形",
+        "meaning_zh": "水的；水上的；水路的",
+        "source_page": 39,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "водный",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7780,
+      "accent": "водопрово́д",
+      "part": "名词·阳性",
+      "meaning": "自来水管道；供水系统",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "водопровод",
+        "part_of_speech": "阳",
+        "meaning_zh": "给水管；自来水管；输水道",
+        "source_page": 39,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "водопровод",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    },
+    {
+      "id": 7781,
+      "accent": "водохрани́лище",
+      "part": "名词·中性",
+      "meaning": "水库",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "водохранилище",
+        "part_of_speech": "中",
+        "meaning_zh": "水库",
+        "source_page": 39,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "водохранилище",
+      "method": "2026-09-12当前助手逐词审核专四，原页33至39对照；36页大部分显示黑色，不声称该页完整视觉核验，власть结合37页续文与词典核验。",
+      "evidence": []
+    }
+  ]
+}

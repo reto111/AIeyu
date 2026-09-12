@@ -1,0 +1,878 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 7782,
+      "accent": "воева́ть",
+      "part": "动词·未完成体",
+      "meaning": "作战；打仗；斗争",
+      "perfective": "",
+      "note": "повоевать为作战一段时间，不作通用体对。",
+      "stage": 2,
+      "original": {
+        "word": "воевать",
+        "part_of_speech": "未",
+        "meaning_zh": "作战；战斗；打仗；斗争",
+        "source_page": 39,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "воевать",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7783,
+      "accent": "вое́нный",
+      "part": "形容词／名词",
+      "meaning": "战争的；军事的；军队的；军人",
+      "perfective": "",
+      "note": "军人为名词化用法。",
+      "stage": 2,
+      "original": {
+        "word": "военный",
+        "part_of_speech": "形",
+        "meaning_zh": "战争的；军事的；军队的；军人",
+        "source_page": 39,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "военный",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7784,
+      "accent": "вождь",
+      "part": "名词·阳性",
+      "meaning": "领袖；首领",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вождь",
+        "part_of_speech": "阳",
+        "meaning_zh": "领袖；首领",
+        "source_page": 39,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вождь",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7785,
+      "accent": "возбужда́ть",
+      "part": "动词·未完成体",
+      "meaning": "引起；激起；刺激",
+      "perfective": "возбуди́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "возбуждать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "引起；激起；刺激",
+        "source_page": 39,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "возбуждать",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=39",
+        "возбуждать原标未，完成体возбудить。"
+      ]
+    },
+    {
+      "id": 7786,
+      "accent": "возвраща́ть",
+      "part": "动词·未完成体",
+      "meaning": "归还；使返回；收回；恢复",
+      "perfective": "верну́ть",
+      "note": "另有完成体возвратить。",
+      "stage": 1,
+      "original": {
+        "word": "возвращать",
+        "part_of_speech": "Ж|",
+        "meaning_zh": "归还；偿还；恢复；重新获得",
+        "source_page": 40,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "возвращать",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=40",
+        "原标未完成体，возвратить/вернуть均可对应归还义。"
+      ]
+    },
+    {
+      "id": 7787,
+      "accent": "возвраща́ться",
+      "part": "动词·未完成体",
+      "meaning": "返回；回来；恢复；重新回到",
+      "perfective": "верну́ться",
+      "note": "另有完成体возвратиться。",
+      "stage": 1,
+      "original": {
+        "word": "возвращаться",
+        "part_of_speech": "未",
+        "meaning_zh": "返回；回来；恢复",
+        "source_page": 40,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "возвращаться",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7788,
+      "accent": "возвраще́ние",
+      "part": "名词·中性",
+      "meaning": "返回；归还；恢复",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "возвращение",
+        "part_of_speech": "中",
+        "meaning_zh": "返回；归还；恢复",
+        "source_page": 40,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "возвращение",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7789,
+      "accent": "возглавля́ть",
+      "part": "动词·未完成体",
+      "meaning": "领导；担任首脑；主管",
+      "perfective": "возгла́вить",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "возглавлять",
+        "part_of_speech": "未",
+        "meaning_zh": "领导；负责；担任首脑",
+        "source_page": 40,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "возглавлять",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7790,
+      "accent": "во́здух",
+      "part": "名词·阳性",
+      "meaning": "空气；空中",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "воздух",
+        "part_of_speech": "阳",
+        "meaning_zh": "空气；空中",
+        "source_page": 40,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "воздух",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7791,
+      "accent": "возду́шный",
+      "part": "形容词",
+      "meaning": "空气的；空中的；航空的；轻盈的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "воздушный",
+        "part_of_speech": "形",
+        "meaning_zh": "空气的；空中的；航空的",
+        "source_page": 40,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "воздушный",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7792,
+      "accent": "вози́ть",
+      "part": "动词·未完成体",
+      "meaning": "运送；载送",
+      "perfective": "",
+      "note": "不定向或反复运输；везти同为未完成体，不作体对。",
+      "stage": 1,
+      "original": {
+        "word": "возить",
+        "part_of_speech": "Ж",
+        "meaning_zh": "搬运；运送",
+        "source_page": 40,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "возить",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=40",
+        "возить未完成体，词性Ж为噪声。"
+      ]
+    },
+    {
+      "id": 7793,
+      "accent": "возлага́ть",
+      "part": "动词·未完成体",
+      "meaning": "放置；敬献；寄托；托付",
+      "perfective": "возложи́ть",
+      "note": "常用возлагать венок敬献花圈、возлагать ответственность赋予责任。",
+      "stage": 3,
+      "original": {
+        "word": "возлагать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "献上；寄托；托付；把……归于……",
+        "source_page": 40,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "возлагать",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=40",
+        "未完成体；献花和寄托托付区别。"
+      ]
+    },
+    {
+      "id": 7794,
+      "accent": "во́зле",
+      "part": "副词／前置词",
+      "meaning": "在旁边；在近旁",
+      "perfective": "",
+      "note": "作前置词接第二格。",
+      "stage": 1,
+      "original": {
+        "word": "возле",
+        "part_of_speech": "副",
+        "meaning_zh": "在近旁；在旁边",
+        "source_page": 40,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "возле",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=40",
+        "副词和接第二格的前置词。"
+      ]
+    },
+    {
+      "id": 7795,
+      "accent": "возмо́жно",
+      "part": "谓语词／插入语",
+      "meaning": "可能；可以实现；或许",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "возможно",
+        "part_of_speech": "用 作 谓 语",
+        "meaning_zh": "可能；或许",
+        "source_page": 40,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "возможно",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7796,
+      "accent": "возмо́жность",
+      "part": "名词·阴性",
+      "meaning": "可能性；机会；条件；潜力",
+      "perfective": "",
+      "note": "能力、资源条件义常用复数возможности。",
+      "stage": 2,
+      "original": {
+        "word": "возможность",
+        "part_of_speech": "阴",
+        "meaning_zh": "可能性；机会；能力；才能",
+        "source_page": 40,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "возможность",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=40",
+        "能力或潜力义常为复数，不泛等同于才能。"
+      ]
+    },
+    {
+      "id": 7797,
+      "accent": "возмо́жный",
+      "part": "形容词",
+      "meaning": "可能的；可实现的；可做到的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "возможный",
+        "part_of_speech": "形",
+        "meaning_zh": "可能的；可以实现的；可以做到的",
+        "source_page": 41,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "возможный",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7798,
+      "accent": "возника́ть",
+      "part": "动词·未完成体",
+      "meaning": "出现；产生；发生",
+      "perfective": "возни́кнуть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "возникать",
+        "part_of_speech": "未",
+        "meaning_zh": "发生；产生；出现",
+        "source_page": 41,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "возникать",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7799,
+      "accent": "возража́ть",
+      "part": "动词·未完成体",
+      "meaning": "反对；反驳；提出异议",
+      "perfective": "возрази́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "возражать",
+        "part_of_speech": "未",
+        "meaning_zh": "提出异议；反驳；反对",
+        "source_page": 41,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "возражать",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7800,
+      "accent": "во́зраст",
+      "part": "名词·阳性",
+      "meaning": "年龄；岁数",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "возраст",
+        "part_of_speech": "阳",
+        "meaning_zh": "年龄；岁数",
+        "source_page": 41,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "возраст",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7801,
+      "accent": "во́ин",
+      "part": "名词·阳性",
+      "meaning": "战士；军人",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "воин",
+        "part_of_speech": "阳",
+        "meaning_zh": "战士；军人",
+        "source_page": 41,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "воин",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7802,
+      "accent": "война́",
+      "part": "名词·阴性",
+      "meaning": "战争",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "война",
+        "part_of_speech": "阴",
+        "meaning_zh": "战争",
+        "source_page": 41,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "война",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7803,
+      "accent": "во́йско",
+      "part": "名词·中性",
+      "meaning": "军队；部队",
+      "perfective": "",
+      "note": "常用复数войска。",
+      "stage": 2,
+      "original": {
+        "word": "войско",
+        "part_of_speech": "中",
+        "meaning_zh": "军队；武装部队",
+        "source_page": 41,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "войско",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7804,
+      "accent": "вокза́л",
+      "part": "名词·阳性",
+      "meaning": "车站；客运站；候车或候船站房",
+      "perfective": "",
+      "note": "火车站为常用义；河港、海港客运站需相应限定。",
+      "stage": 1,
+      "original": {
+        "word": "вокзал",
+        "part_of_speech": "阳",
+        "meaning_zh": "火车站；码头",
+        "source_page": 41,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вокзал",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=41",
+        "码头限定旅客建筑，不能泛指所有码头。"
+      ]
+    },
+    {
+      "id": 7805,
+      "accent": "вокру́г",
+      "part": "副词／前置词",
+      "meaning": "在周围；围绕；关于",
+      "perfective": "",
+      "note": "作前置词接第二格；关于常用于讨论等语境。",
+      "stage": 1,
+      "original": {
+        "word": "вокруг",
+        "part_of_speech": "副；前",
+        "meaning_zh": "周围；四周；在……周围",
+        "source_page": 41,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вокруг",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7806,
+      "accent": "волейбо́л",
+      "part": "名词·阳性",
+      "meaning": "排球运动",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "волейбол",
+        "part_of_speech": "阳",
+        "meaning_zh": "排球",
+        "source_page": 41,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "волейбол",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7807,
+      "accent": "волк",
+      "part": "名词·阳性",
+      "meaning": "狼",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "волк",
+        "part_of_speech": "阳",
+        "meaning_zh": "狼",
+        "source_page": 41,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "волк",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7808,
+      "accent": "волна́",
+      "part": "名词·阴性",
+      "meaning": "波浪；波；浪潮",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "волна",
+        "part_of_speech": "阴",
+        "meaning_zh": "波浪；波；波动",
+        "source_page": 41,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "волна",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7809,
+      "accent": "волне́ние",
+      "part": "名词·中性",
+      "meaning": "波动；波涛；激动；不安；骚动",
+      "perfective": "",
+      "note": "骚乱义常用复数，词头不写ё。",
+      "stage": 2,
+      "original": {
+        "word": "волнёние",
+        "part_of_speech": "中",
+        "meaning_zh": "波涛；激动；不安；骚动",
+        "source_page": 42,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "волнение",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=42",
+        "волне́ние，重读е非ё。"
+      ]
+    },
+    {
+      "id": 7810,
+      "accent": "волнова́ть",
+      "part": "动词·未完成体",
+      "meaning": "使起波浪；使激动；使不安",
+      "perfective": "взволнова́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "волновать",
+        "part_of_speech": "未",
+        "meaning_zh": "使起波浪；使激动；使不安",
+        "source_page": 42,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "волновать",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7811,
+      "accent": "волнова́ться",
+      "part": "动词·未完成体",
+      "meaning": "起波浪；激动；担心；不安",
+      "perfective": "взволнова́ться",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "волноваться",
+        "part_of_speech": "未",
+        "meaning_zh": "起波浪；激动；不安",
+        "source_page": 42,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "волноваться",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7812,
+      "accent": "во́лос",
+      "part": "名词·阳性",
+      "meaning": "毛发；一根头发",
+      "perfective": "",
+      "note": "头发整体通常用复数волосы。",
+      "stage": 1,
+      "original": {
+        "word": "волос",
+        "part_of_speech": "阳",
+        "meaning_zh": "毛发；头发",
+        "source_page": 42,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "волос",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7814,
+      "accent": "вооружа́ть",
+      "part": "动词·未完成体",
+      "meaning": "武装；装备；使具备知识或技能",
+      "perfective": "вооружи́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вооружать",
+        "part_of_speech": "未",
+        "meaning_zh": "武装；使具备（知识、技能等）",
+        "source_page": 42,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вооружать",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7815,
+      "accent": "вооруже́ние",
+      "part": "名词·中性",
+      "meaning": "武装；武器装备；军备",
+      "perfective": "",
+      "note": "名词重读е，不是ё。",
+      "stage": 2,
+      "original": {
+        "word": "вооружёние",
+        "part_of_speech": "中",
+        "meaning_zh": "武装；军备；武器装备",
+        "source_page": 42,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вооружение",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=42",
+        "вооруже́ние名词用е，与вооружённый形容词ё区别。"
+      ]
+    },
+    {
+      "id": 7816,
+      "accent": "вооружённый",
+      "part": "形容词",
+      "meaning": "武装的；配有武器的",
+      "perfective": "",
+      "note": "本词有ё，与вооруже́ние区别。",
+      "stage": 2,
+      "original": {
+        "word": "вооружённый",
+        "part_of_speech": "形",
+        "meaning_zh": "武装的；有武器的",
+        "source_page": 42,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вооружённый",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=42",
+        "原头词вооружённый保留ё，不随名词全局改。"
+      ]
+    },
+    {
+      "id": 7817,
+      "accent": "во-пе́рвых",
+      "part": "插入语",
+      "meaning": "第一；首先",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "во-пёрвых",
+        "part_of_speech": "插",
+        "meaning_zh": "第一；首先",
+        "source_page": 42,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "во-первых",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=42",
+        "во-пе́рвых，原误写ё。"
+      ]
+    },
+    {
+      "id": 7818,
+      "accent": "вопро́с",
+      "part": "名词·阳性",
+      "meaning": "问题；疑问；议题",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "вопрос",
+        "part_of_speech": "阳",
+        "meaning_zh": "问题；疑问；需要解决的问题",
+        "source_page": 42,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вопрос",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7819,
+      "accent": "вор",
+      "part": "名词·阳性",
+      "meaning": "小偷；窃贼",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "вор",
+        "part_of_speech": "阳",
+        "meaning_zh": "小偷；窃贼",
+        "source_page": 43,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вор",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7820,
+      "accent": "воро́та",
+      "part": "名词·复数",
+      "meaning": "大门；球门",
+      "perfective": "",
+      "note": "只用复数。",
+      "stage": 1,
+      "original": {
+        "word": "ворота",
+        "part_of_speech": "复",
+        "meaning_zh": "大门；门口；球门",
+        "source_page": 43,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ворота",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7821,
+      "accent": "восемна́дцатый",
+      "part": "序数词",
+      "meaning": "第十八",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "восемнадцатый",
+        "part_of_speech": "数",
+        "meaning_zh": "第十八；第18个",
+        "source_page": 43,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "восемнадцатый",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    },
+    {
+      "id": 7822,
+      "accent": "восемна́дцать",
+      "part": "基数词",
+      "meaning": "十八",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "восемнадцать",
+        "part_of_speech": "数",
+        "meaning_zh": "十八；18",
+        "source_page": 43,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "восемнадцать",
+      "method": "2026-09-12当前助手逐词审核专四原页39至43，局部恢复е/ё、词性及核心释义，体对按义说明。",
+      "evidence": []
+    }
+  ]
+}

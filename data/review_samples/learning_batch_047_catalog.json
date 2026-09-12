@@ -1,0 +1,1094 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 7680,
+      "accent": "вдали́",
+      "part": "副词",
+      "meaning": "在远处；远离",
+      "perfective": "",
+      "note": "вдали от加第二格表示远离。",
+      "stage": 2,
+      "original": {
+        "word": "вдали",
+        "part_of_speech": "副",
+        "meaning_zh": "在远处；离……很远",
+        "source_page": 28,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вдали",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7681,
+      "accent": "вдво́е",
+      "part": "副词",
+      "meaning": "两倍地；对半地",
+      "perfective": "",
+      "note": "增加用увеличить вдвое为增至两倍，减少用уменьшить вдвое为减半。",
+      "stage": 2,
+      "original": {
+        "word": "вдвое",
+        "part_of_speech": "副",
+        "meaning_zh": "加倍；增加一倍；减少一半",
+        "source_page": 28,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вдвое",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=28",
+        "增加或减少取决于搭配，不能单独译为减少一半。"
+      ]
+    },
+    {
+      "id": 7682,
+      "accent": "вдвоём",
+      "part": "副词",
+      "meaning": "两人一起；两个人",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "вдвоём",
+        "part_of_speech": "副",
+        "meaning_zh": "两人；两人一起",
+        "source_page": 28,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вдвоём",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7683,
+      "accent": "вдоль",
+      "part": "副词／前置词",
+      "meaning": "纵向；沿着；顺着",
+      "perfective": "",
+      "note": "作前置词接第二格；вдоль и поперёк可指纵横或十分详尽。",
+      "stage": 2,
+      "original": {
+        "word": "вдоль",
+        "part_of_speech": "前",
+        "meaning_zh": "沿着；顺着；纵横；十分详尽",
+        "source_page": 29,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вдоль",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=29",
+        "纵横和详尽来自вдоль и поперёк。"
+      ]
+    },
+    {
+      "id": 7684,
+      "accent": "вдохновля́ть",
+      "part": "动词·未完成体",
+      "meaning": "鼓舞；激励；激发灵感",
+      "perfective": "вдохнови́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вдохновлять",
+        "part_of_speech": "未",
+        "meaning_zh": "鼓舞；激励；使……振奋",
+        "source_page": 29,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вдохновлять",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7685,
+      "accent": "вдруг",
+      "part": "副词／语气词",
+      "meaning": "突然；忽然；一下子；万一",
+      "perfective": "",
+      "note": "万一常用于疑问或担忧。",
+      "stage": 1,
+      "original": {
+        "word": "вдруг",
+        "part_of_speech": "副",
+        "meaning_zh": "突然；忽然；万一",
+        "source_page": 29,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вдруг",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7686,
+      "accent": "ведро́",
+      "part": "名词·中性",
+      "meaning": "桶；水桶；一桶的量",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "ведро",
+        "part_of_speech": "中",
+        "meaning_zh": "桶；水桶",
+        "source_page": 29,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ведро",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7687,
+      "accent": "веду́щий",
+      "part": "形容词／名词",
+      "meaning": "主导的；领先的；主要的；主持人",
+      "perfective": "",
+      "note": "主持人是名词化用法。",
+      "stage": 2,
+      "original": {
+        "word": "ведущий",
+        "part_of_speech": "形",
+        "meaning_zh": "主要的；领先的；主持人；司仪；解说员",
+        "source_page": 29,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ведущий",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=29",
+        "形容词兼名词化主持人。"
+      ]
+    },
+    {
+      "id": 7688,
+      "accent": "ведь",
+      "part": "语气词／连词",
+      "meaning": "要知道；毕竟；不是吗；因为",
+      "perfective": "",
+      "note": "具体译法取决于强调、提醒或解释原因的语境。",
+      "stage": 2,
+      "original": {
+        "word": "ведь",
+        "part_of_speech": "语",
+        "meaning_zh": "不是吗；因为；要知道",
+        "source_page": 29,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ведь",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7689,
+      "accent": "ве́жливый",
+      "part": "形容词",
+      "meaning": "有礼貌的；客气的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "вежливый",
+        "part_of_speech": "形",
+        "meaning_zh": "有礼貌的；客气的",
+        "source_page": 29,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вежливый",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7690,
+      "accent": "везде́",
+      "part": "副词",
+      "meaning": "到处；各处",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "везде",
+        "part_of_speech": "副",
+        "meaning_zh": "到处；各处",
+        "source_page": 29,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "везде",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7691,
+      "accent": "везти́",
+      "part": "动词·未完成体",
+      "meaning": "运送；载送；走运",
+      "perfective": "",
+      "note": "运输义是定向运动；мне везёт我走运，其完成体повезти不覆盖运输义。",
+      "stage": 1,
+      "original": {
+        "word": "везти",
+        "part_of_speech": "未",
+        "meaning_zh": "运送；运输；用车船等搬运；走运",
+        "source_page": 29,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "везти",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=29",
+        "运输和走运是不同义；повезти仅走运义为体配对。"
+      ]
+    },
+    {
+      "id": 7692,
+      "accent": "век",
+      "part": "名词·阳性",
+      "meaning": "世纪；时代；一生",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "век",
+        "part_of_speech": "阳",
+        "meaning_zh": "世纪；时代；一生；一辈子",
+        "source_page": 29,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "век",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7693,
+      "accent": "веле́ть",
+      "part": "动词·兼体",
+      "meaning": "吩咐；命令；嘱咐",
+      "perfective": "",
+      "note": "兼有完成体与未完成体，常用кому加不定式。",
+      "stage": 2,
+      "original": {
+        "word": "велёть",
+        "part_of_speech": "未 , 完",
+        "meaning_zh": "命令；吩咐；嘱咐",
+        "source_page": 30,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "велеть",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=30",
+        "原词веле́ть为兼体；重音符非ё。"
+      ]
+    },
+    {
+      "id": 7694,
+      "accent": "вели́кий",
+      "part": "形容词",
+      "meaning": "伟大的；巨大的；强大的",
+      "perfective": "",
+      "note": "衣服等太大用短尾велик、велика等并接第三格。",
+      "stage": 2,
+      "original": {
+        "word": "великий",
+        "part_of_speech": "形",
+        "meaning_zh": "伟大的；强大的；对……来说太大的",
+        "source_page": 30,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "великий",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=30",
+        "衣服太大用短尾велик，不当全部长尾用法。"
+      ]
+    },
+    {
+      "id": 7695,
+      "accent": "великоле́пный",
+      "part": "形容词",
+      "meaning": "华丽的；富丽堂皇的；极好的；出色的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "великолепный",
+        "part_of_speech": "形",
+        "meaning_zh": "富丽堂皇的；华丽的；丰盛的",
+        "source_page": 30,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "великолепный",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7696,
+      "accent": "вели́чественный",
+      "part": "形容词",
+      "meaning": "雄伟的；宏伟的；庄严的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "величественный",
+        "part_of_speech": "形",
+        "meaning_zh": "雄伟的；宏伟的；庄严的",
+        "source_page": 30,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "величественный",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7697,
+      "accent": "величина́",
+      "part": "名词·阴性",
+      "meaning": "大小；尺寸；数量；数值；杰出人物",
+      "perfective": "",
+      "note": "人物义为比喻用法。",
+      "stage": 2,
+      "original": {
+        "word": "величина",
+        "part_of_speech": "阴",
+        "meaning_zh": "大小；数量；数值；杰出人物",
+        "source_page": 30,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "величина",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7698,
+      "accent": "велосипе́д",
+      "part": "名词·阳性",
+      "meaning": "自行车",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "велосипед",
+        "part_of_speech": "阳",
+        "meaning_zh": "自行车",
+        "source_page": 30,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "велосипед",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7699,
+      "accent": "ве́ник",
+      "part": "名词·阳性",
+      "meaning": "笤帚；枝条扎成的扫帚；蒸汽浴用枝条束",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "веник",
+        "part_of_speech": "阳",
+        "meaning_zh": "笤帚；扫帚",
+        "source_page": 30,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "веник",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7700,
+      "accent": "ве́ра",
+      "part": "名词·阴性",
+      "meaning": "信心；信念；信仰",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вера",
+        "part_of_speech": "阴",
+        "meaning_zh": "信心；信念；信仰",
+        "source_page": 30,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вера",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7701,
+      "accent": "верёвка",
+      "part": "名词·阴性",
+      "meaning": "绳子；绳索",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "верёвка",
+        "part_of_speech": "阴",
+        "meaning_zh": "绳子；绳索",
+        "source_page": 30,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "верёвка",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7702,
+      "accent": "ве́рить",
+      "part": "动词·未完成体",
+      "meaning": "相信；信任；信仰",
+      "perfective": "пове́рить",
+      "note": "配对用于相信了、信以为真；持续宗教信仰不强配。",
+      "stage": 1,
+      "original": {
+        "word": "верить",
+        "part_of_speech": "未",
+        "meaning_zh": "相信；信任；有信心",
+        "source_page": 30,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "верить",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7703,
+      "accent": "ве́рно",
+      "part": "副词／插入语",
+      "meaning": "正确地；忠实地；大概；想必",
+      "perfective": "",
+      "note": "大概、想必为插入语用法，词头不写ё。",
+      "stage": 2,
+      "original": {
+        "word": "вёрно",
+        "part_of_speech": "副",
+        "meaning_zh": "正确地；忠实地；大概；想必",
+        "source_page": 31,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "верно",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=31",
+        "原头词ве́рно，正确与忠实及插入语大概。"
+      ]
+    },
+    {
+      "id": 7704,
+      "accent": "верну́ть",
+      "part": "动词·完成体",
+      "meaning": "归还；使返回；收回；恢复",
+      "perfective": "возвраща́ть",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "вернуть",
+        "part_of_speech": "完",
+        "meaning_zh": "归还；收回；恢复",
+        "source_page": 31,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вернуть",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7705,
+      "accent": "верну́ться",
+      "part": "动词·完成体",
+      "meaning": "返回；回来；恢复；重新开始",
+      "perfective": "возвраща́ться",
+      "note": "恢复或重提话题需结合上下文。",
+      "stage": 1,
+      "original": {
+        "word": "вернуться",
+        "part_of_speech": "完",
+        "meaning_zh": "回来；返回；恢复；重新回到",
+        "source_page": 31,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вернуться",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7706,
+      "accent": "ве́рный",
+      "part": "形容词",
+      "meaning": "忠实的；忠诚的；正确的；可靠的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "верный",
+        "part_of_speech": "形",
+        "meaning_zh": "忠诚的；忠实的；正确的；符合实际的",
+        "source_page": 31,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "верный",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7707,
+      "accent": "вероя́тно",
+      "part": "插入语／谓语词",
+      "meaning": "大概；很可能；可能",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вероятно",
+        "part_of_speech": "插",
+        "meaning_zh": "大概；可能地",
+        "source_page": 31,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вероятно",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7708,
+      "accent": "вертолёт",
+      "part": "名词·阳性",
+      "meaning": "直升机",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "вертолёт",
+        "part_of_speech": "阳",
+        "meaning_zh": "直升机",
+        "source_page": 31,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вертолёт",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7709,
+      "accent": "верх",
+      "part": "名词·阳性",
+      "meaning": "顶部；上部；面子；上风",
+      "perfective": "",
+      "note": "面子指衣物表层面料；одержать верх占上风。",
+      "stage": 2,
+      "original": {
+        "word": "верх",
+        "part_of_speech": "阳",
+        "meaning_zh": "上部；顶部；表面；优势",
+        "source_page": 31,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "верх",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=31",
+        "верх指顶部、面料，上风在搭配中。"
+      ]
+    },
+    {
+      "id": 7710,
+      "accent": "ве́рхний",
+      "part": "形容词",
+      "meaning": "上面的；上层的；外面的；上游的",
+      "perfective": "",
+      "note": "外面义常指外穿衣服。",
+      "stage": 1,
+      "original": {
+        "word": "верхний",
+        "part_of_speech": "形",
+        "meaning_zh": "上面的；上层的；外面的；上游的",
+        "source_page": 31,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "верхний",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7711,
+      "accent": "верши́на",
+      "part": "名词·阴性",
+      "meaning": "顶部；山顶；顶峰",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вершина",
+        "part_of_speech": "阴",
+        "meaning_zh": "顶；山顶；顶峰；荣誉的顶峰",
+        "source_page": 31,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вершина",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=31",
+        "荣誉是вершина славы的限定语，不单列为独立词义。"
+      ]
+    },
+    {
+      "id": 7712,
+      "accent": "вес",
+      "part": "名词·阳性",
+      "meaning": "重量；分量；影响力；声望",
+      "perfective": "",
+      "note": "比重为удельный вес，不能把限定词含义并入裸词。",
+      "stage": 1,
+      "original": {
+        "word": "вес",
+        "part_of_speech": "阳",
+        "meaning_zh": "重量；分量；影响；声望；比重",
+        "source_page": 31,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вес",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=31",
+        "比重为удельный вес。"
+      ]
+    },
+    {
+      "id": 7713,
+      "accent": "весели́ться",
+      "part": "动词·未完成体",
+      "meaning": "玩乐；尽情玩耍；欢度",
+      "perfective": "повесели́ться",
+      "note": "配对指玩乐一番，不表示开始快乐。",
+      "stage": 2,
+      "original": {
+        "word": "веселиться",
+        "part_of_speech": "未",
+        "meaning_zh": "玩得痛快；尽情玩耍",
+        "source_page": 31,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "веселиться",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7714,
+      "accent": "весёлый",
+      "part": "形容词",
+      "meaning": "快乐的；愉快的；欢快的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "весёлый",
+        "part_of_speech": "形",
+        "meaning_zh": "快乐的；愉快的；欢快的",
+        "source_page": 32,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "весёлый",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7715,
+      "accent": "весе́нний",
+      "part": "形容词",
+      "meaning": "春天的；春季的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "весенний",
+        "part_of_speech": "形",
+        "meaning_zh": "春天的；春季的",
+        "source_page": 32,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "весенний",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7716,
+      "accent": "ве́сить",
+      "part": "动词·未完成体",
+      "meaning": "重；重量为；有分量；有意义",
+      "perfective": "",
+      "note": "взвесить为称量，不是表示重量状态的通用完成体。",
+      "stage": 1,
+      "original": {
+        "word": "весить",
+        "part_of_speech": "未",
+        "meaning_zh": "重；重量为；有分量；有价值",
+        "source_page": 32,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "весить",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7717,
+      "accent": "весна́",
+      "part": "名词·阴性",
+      "meaning": "春天；春季",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "весна",
+        "part_of_speech": "阴",
+        "meaning_zh": "春天；春季",
+        "source_page": 32,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "весна",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7718,
+      "accent": "весно́й",
+      "part": "副词",
+      "meaning": "在春天",
+      "perfective": "",
+      "note": "形式来自весна的第五格。",
+      "stage": 1,
+      "original": {
+        "word": "весной",
+        "part_of_speech": "№",
+        "meaning_zh": "在春天；春季时",
+        "source_page": 32,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "весной",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=32",
+        "№为词性OCR噪声，原标副词。"
+      ]
+    },
+    {
+      "id": 7719,
+      "accent": "вести́",
+      "part": "动词·未完成体",
+      "meaning": "带领；引导；驾驶；主持；进行；通往",
+      "perfective": "",
+      "note": "多义词，按具体意义选择完成体，不以повести覆盖所有义。",
+      "stage": 1,
+      "original": {
+        "word": "вести",
+        "part_of_speech": "未",
+        "meaning_zh": "领；引导；驾驶；主持；进行；通往",
+        "source_page": 32,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вести",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7720,
+      "accent": "вестибю́ль",
+      "part": "名词·阳性",
+      "meaning": "门厅；前厅",
+      "perfective": "",
+      "note": "指建筑物入口处空间。",
+      "stage": 2,
+      "original": {
+        "word": "вестибюль",
+        "part_of_speech": "阳",
+        "meaning_zh": "前厅；门厅；大厅",
+        "source_page": 32,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вестибюль",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7721,
+      "accent": "весть",
+      "part": "名词·阴性",
+      "meaning": "消息；音信",
+      "perfective": "",
+      "note": "不一定是喜讯。",
+      "stage": 2,
+      "original": {
+        "word": "весть",
+        "part_of_speech": "阴",
+        "meaning_zh": "消息；喜讯；音信",
+        "source_page": 32,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "весть",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=32",
+        "喜讯需радостная限定，消息也可悲伤。"
+      ]
+    },
+    {
+      "id": 7722,
+      "accent": "весы́",
+      "part": "名词·复数",
+      "meaning": "秤；磅秤；天平",
+      "perfective": "",
+      "note": "只用复数。",
+      "stage": 1,
+      "original": {
+        "word": "весы",
+        "part_of_speech": "复",
+        "meaning_zh": "秤；磅秤；天平",
+        "source_page": 32,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "весы",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7723,
+      "accent": "весь",
+      "part": "代词",
+      "meaning": "整个的；全部的；所有的",
+      "perfective": "",
+      "note": "всё可指一切，все可指所有人，须分清е与ё。",
+      "stage": 1,
+      "original": {
+        "word": "весь",
+        "part_of_speech": "代",
+        "meaning_zh": "整个的；全部的；一切；所有的人",
+        "source_page": 32,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "весь",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7724,
+      "accent": "ве́тер",
+      "part": "名词·阳性",
+      "meaning": "风",
+      "perfective": "",
+      "note": "ветер в голове比喻轻浮，不作单词独立义。",
+      "stage": 1,
+      "original": {
+        "word": "ветер",
+        "part_of_speech": "阳",
+        "meaning_zh": "风；风气；轻浮；头脑空虚",
+        "source_page": 32,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ветер",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=33",
+        "轻浮头脑空虚源自ветер в голове，不属裸词风义。"
+      ]
+    },
+    {
+      "id": 7725,
+      "accent": "ветера́н",
+      "part": "名词·阳性",
+      "meaning": "老战士；老将；资深人员；老手",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "ветеран",
+        "part_of_speech": "阳",
+        "meaning_zh": "老战士；老将；老手；有经验的人",
+        "source_page": 33,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ветеран",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7726,
+      "accent": "ве́тка",
+      "part": "名词·阴性",
+      "meaning": "树枝；支线",
+      "perfective": "",
+      "note": "支线常指铁路线路。",
+      "stage": 1,
+      "original": {
+        "word": "ветка",
+        "part_of_speech": "阴",
+        "meaning_zh": "小树枝；（铁路的）支线",
+        "source_page": 33,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ветка",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7728,
+      "accent": "вече́рний",
+      "part": "形容词",
+      "meaning": "傍晚的；晚间的",
+      "perfective": "",
+      "note": "如晚间出版、举行或穿用，均依所修饰名词。",
+      "stage": 1,
+      "original": {
+        "word": "вечерний",
+        "part_of_speech": "形",
+        "meaning_zh": "傍晚的；晚间的；晚上出版或举办的",
+        "source_page": 33,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вечерний",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7729,
+      "accent": "ве́чером",
+      "part": "副词",
+      "meaning": "在傍晚；在晚上",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "вечером",
+        "part_of_speech": "副",
+        "meaning_zh": "在傍晚；在晚上",
+        "source_page": 33,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вечером",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    },
+    {
+      "id": 7730,
+      "accent": "ве́чно",
+      "part": "副词",
+      "meaning": "永远；永久地；老是；总是",
+      "perfective": "",
+      "note": "老是为口语夸张用法。",
+      "stage": 2,
+      "original": {
+        "word": "вечно",
+        "part_of_speech": "副",
+        "meaning_zh": "永久地；永远",
+        "source_page": 33,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вечно",
+      "method": "2026-09-12当前助手逐词审核，专四原页28至33核验拼写、重音、中文核心义及体关系。",
+      "evidence": []
+    }
+  ]
+}

@@ -26,7 +26,9 @@ def check_accent(text):
     pieces = text.lower().split('-')
     for index, piece in enumerate(pieces):
         count = sum(c in 'аеёиоуыэюя' for c in piece)
-        unstressed_suffix = index > 0 and index == len(pieces)-1 and piece in ('либо','нибудь','то')
+        unstressed_suffix = index > 0 and index == len(pieces)-1 and (
+            piece in ('либо','нибудь','то') or text.lower() == 'всё-таки'
+        )
         if piece.count('\u0301') > 1 or (count > 1 and '\u0301' not in piece and 'ё' not in piece and not unstressed_suffix):
             raise ValueError(f'缺失或重复重音: {text}')
         if '\u0301' in piece and (piece.index('\u0301') == 0 or piece[piece.index('\u0301')-1] not in 'аеёиоуыэюя'):

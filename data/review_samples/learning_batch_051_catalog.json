@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 7876,
+      "accent": "вся́кий",
+      "part": "代词",
+      "meaning": "每个；各种各样的；任何的",
+      "perfective": "",
+      "note": "名词化可指每个人。",
+      "stage": 2,
+      "original": {
+        "word": "всякий",
+        "part_of_speech": "代",
+        "meaning_zh": "每一个；各种各样的；任何的",
+        "source_page": 48,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "всякий",
+      "method": "2026-09-12当前助手逐词审核专四原页48至50，核重音、词性、动词体与中文核心义。",
+      "evidence": []
+    },
+    {
+      "id": 7877,
+      "accent": "вто́рник",
+      "part": "名词·阳性",
+      "meaning": "星期二",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "вторник",
+        "part_of_speech": "阳",
+        "meaning_zh": "星期二",
+        "source_page": 48,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вторник",
+      "method": "2026-09-12当前助手逐词审核专四原页48至50，核重音、词性、动词体与中文核心义。",
+      "evidence": []
+    },
+    {
+      "id": 7878,
+      "accent": "второ́й",
+      "part": "序数词",
+      "meaning": "第二；次要的；另一的",
+      "perfective": "",
+      "note": "одна вторая表示二分之一。",
+      "stage": 1,
+      "original": {
+        "word": "второй",
+        "part_of_speech": "数",
+        "meaning_zh": "第二的；次要的；二分之一",
+        "source_page": 48,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "второй",
+      "method": "2026-09-12当前助手逐词审核专四原页48至50，核重音、词性、动词体与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=48",
+        "二分之一是одна вторая，不是单独второй词义。"
+      ]
+    },
+    {
+      "id": 7879,
+      "accent": "втроём",
+      "part": "副词",
+      "meaning": "三个人一起",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "втроём",
+        "part_of_speech": "副",
+        "meaning_zh": "三个人一起",
+        "source_page": 48,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "втроём",
+      "method": "2026-09-12当前助手逐词审核专四原页48至50，核重音、词性、动词体与中文核心义。",
+      "evidence": []
+    },
+    {
+      "id": 7880,
+      "accent": "вуз",
+      "part": "名词·阳性",
+      "meaning": "高等学校；大学",
+      "perfective": "",
+      "note": "высшее учебное заведение的缩略词，小写且可变格。",
+      "stage": 1,
+      "original": {
+        "word": "вуз",
+        "part_of_speech": "阳",
+        "meaning_zh": "大学；高等学校",
+        "source_page": 48,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вуз",
+      "method": "2026-09-12当前助手逐词审核专四原页48至50，核重音、词性、动词体与中文核心义。",
+      "evidence": []
+    },
+    {
+      "id": 7881,
+      "accent": "вход",
+      "part": "名词·阳性",
+      "meaning": "入口；进入",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "вход",
+        "part_of_speech": "阳",
+        "meaning_zh": "入口；门口；进入",
+        "source_page": 48,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вход",
+      "method": "2026-09-12当前助手逐词审核专四原页48至50，核重音、词性、动词体与中文核心义。",
+      "evidence": []
+    },
+    {
+      "id": 7882,
+      "accent": "входи́ть",
+      "part": "动词·未完成体",
+      "meaning": "进入；加入；包括在内；放得下",
+      "perfective": "войти́",
+      "note": "放得下义如В шкаф вошло много книг。",
+      "stage": 1,
+      "original": {
+        "word": "входить",
+        "part_of_speech": "未",
+        "meaning_zh": "走进；进入；加入；容纳",
+        "source_page": 48,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "входить",
+      "method": "2026-09-12当前助手逐词审核专四原页48至50，核重音、词性、动词体与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=48",
+        "входить与войти体对；容纳义常以容器为处所主项外的结构。"
+      ]
+    },
+    {
+      "id": 7884,
+      "accent": "вчера́шний",
+      "part": "形容词",
+      "meaning": "昨天的；昔日的",
+      "perfective": "",
+      "note": "从昨天起须用с вчерашнего дня。",
+      "stage": 1,
+      "original": {
+        "word": "вчерашний",
+        "part_of_speech": "形",
+        "meaning_zh": "昨天的；从昨天开始的",
+        "source_page": 48,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вчерашний",
+      "method": "2026-09-12当前助手逐词审核专四原页48至50，核重音、词性、动词体与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=48",
+        "从昨天开始来自с вчерашнего дня，不是形容词独立义。"
+      ]
+    },
+    {
+      "id": 7885,
+      "accent": "выбега́ть",
+      "part": "动词·未完成体",
+      "meaning": "跑出；跑到外面",
+      "perfective": "вы́бежать",
+      "note": "本条跑出义，不与同形完成体混用。",
+      "stage": 1,
+      "original": {
+        "word": "выбегать",
+        "part_of_speech": "未",
+        "meaning_zh": "跑出；跑到外面",
+        "source_page": 49,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выбегать",
+      "method": "2026-09-12当前助手逐词审核专四原页48至50，核重音、词性、动词体与中文核心义。",
+      "evidence": []
+    },
+    {
+      "id": 7886,
+      "accent": "выбира́ться",
+      "part": "动词·未完成体",
+      "meaning": "设法出来；脱离；摆脱；抽空外出",
+      "perfective": "вы́браться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "выбираться",
+        "part_of_speech": "未",
+        "meaning_zh": "（费劲地）走出；摆脱；离开",
+        "source_page": 49,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выбираться",
+      "method": "2026-09-12当前助手逐词审核专四原页48至50，核重音、词性、动词体与中文核心义。",
+      "evidence": []
+    },
+    {
+      "id": 7887,
+      "accent": "вы́бор",
+      "part": "名词·阳性",
+      "meaning": "选择；可供选择的东西或范围",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "выбор",
+        "part_of_speech": "阳",
+        "meaning_zh": "选择；选择的东西",
+        "source_page": 49,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выбор",
+      "method": "2026-09-12当前助手逐词审核专四原页48至50，核重音、词性、动词体与中文核心义。",
+      "evidence": []
+    },
+    {
+      "id": 7888,
+      "accent": "вы́боры",
+      "part": "名词·复数",
+      "meaning": "选举",
+      "perfective": "",
+      "note": "区别выбор选择。",
+      "stage": 2,
+      "original": {
+        "word": "выборы",
+        "part_of_speech": "&",
+        "meaning_zh": "选举；选举活动",
+        "source_page": 49,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выборы",
+      "method": "2026-09-12当前助手逐词审核专四原页48至50，核重音、词性、动词体与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=49",
+        "&恢复原标复数。"
+      ]
+    },
+    {
+      "id": 7889,
+      "accent": "выбра́сывать",
+      "part": "动词·未完成体",
+      "meaning": "扔出；丢弃；抛弃；投放",
+      "perfective": "вы́бросить",
+      "note": "不把邻词выгонять的开除义无说明混入。",
+      "stage": 2,
+      "original": {
+        "word": "выбрасывать",
+        "part_of_speech": "未",
+        "meaning_zh": "扔出；抛弃；驱逐；开除",
+        "source_page": 49,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выбрасывать",
+      "method": "2026-09-12当前助手逐词审核专四原页48至50，核重音、词性、动词体与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=49",
+        "旧释驱逐开除疑邻词污染，原条核心扔出、抛弃、投放。"
+      ]
+    },
+    {
+      "id": 7890,
+      "accent": "вы́вод",
+      "part": "名词·阳性",
+      "meaning": "结论；推论；引出；撤出",
+      "perfective": "",
+      "note": "动作名词义如вывод войск撤军。",
+      "stage": 2,
+      "original": {
+        "word": "вывод",
+        "part_of_speech": "阳",
+        "meaning_zh": "结论；论断",
+        "source_page": 49,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вывод",
+      "method": "2026-09-12当前助手逐词审核专四原页48至50，核重音、词性、动词体与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=49",
+        "补领出、撤出动作名词义，不仅结论。"
+      ]
+    },
+    {
+      "id": 7891,
+      "accent": "выводи́ть",
+      "part": "动词·未完成体",
+      "meaning": "领出；带出；撤出；推导出；得出",
+      "perfective": "вы́вести",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "выводить",
+        "part_of_speech": "未",
+        "meaning_zh": "领出；带出；推导出；得出",
+        "source_page": 49,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выводить",
+      "method": "2026-09-12当前助手逐词审核专四原页48至50，核重音、词性、动词体与中文核心义。",
+      "evidence": []
+    },
+    {
+      "id": 7892,
+      "accent": "вы́глядеть",
+      "part": "动词·未完成体",
+      "meaning": "看起来；显得；有……外表",
+      "perfective": "",
+      "note": "表示外观状态，不强配完成体。",
+      "stage": 1,
+      "original": {
+        "word": "выглядеть",
+        "part_of_speech": "未",
+        "meaning_zh": "看起来；显得；看上去是",
+        "source_page": 49,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выглядеть",
+      "method": "2026-09-12当前助手逐词审核专四原页48至50，核重音、词性、动词体与中文核心义。",
+      "evidence": []
+    },
+    {
+      "id": 7893,
+      "accent": "вы́годный",
+      "part": "形容词",
+      "meaning": "有利的；有益的；有利可图的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "выгодный",
+        "part_of_speech": "形",
+        "meaning_zh": "有利的；有好处的；有利可图的",
+        "source_page": 49,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выгодный",
+      "method": "2026-09-12当前助手逐词审核专四原页48至50，核重音、词性、动词体与中文核心义。",
+      "evidence": []
+    },
+    {
+      "id": 7894,
+      "accent": "выгоня́ть",
+      "part": "动词·未完成体",
+      "meaning": "赶出；逐出；开除",
+      "perfective": "вы́гнать",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "выгонять",
+        "part_of_speech": "Ж",
+        "meaning_zh": "赶出；逐出；开除",
+        "source_page": 49,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выгонять",
+      "method": "2026-09-12当前助手逐词审核专四原页48至50，核重音、词性、动词体与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=50",
+        "未完成体；跨页确认赶出开除。"
+      ]
+    },
+    {
+      "id": 7895,
+      "accent": "выдава́ть",
+      "part": "动词·未完成体",
+      "meaning": "发给；发放；签发；泄露；出卖",
+      "perfective": "вы́дать",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "выдавать",
+        "part_of_speech": "未",
+        "meaning_zh": "发给；发放；授予；泄露（秘密）",
+        "source_page": 50,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выдавать",
+      "method": "2026-09-12当前助手逐词审核专四原页48至50，核重音、词性、动词体与中文核心义。",
+      "evidence": []
+    },
+    {
+      "id": 7896,
+      "accent": "выдаю́щийся",
+      "part": "形容词",
+      "meaning": "杰出的；卓越的；出众的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "выдающийся",
+        "part_of_speech": "形",
+        "meaning_zh": "杰出的；卓越的；优秀的",
+        "source_page": 50,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выдающийся",
+      "method": "2026-09-12当前助手逐词审核专四原页48至50，核重音、词性、动词体与中文核心义。",
+      "evidence": []
+    }
+  ]
+}

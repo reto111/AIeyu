@@ -1,0 +1,671 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 7648,
+      "accent": "бу́ква",
+      "part": "名词·阴性",
+      "meaning": "字母；字面",
+      "perfective": "",
+      "note": "字面义如буква закона法律条文的字面规定。",
+      "stage": 1,
+      "original": {
+        "word": "буква",
+        "part_of_speech": "阴",
+        "meaning_zh": "字母；文字；一字；（引申）原文、字面",
+        "source_page": 25,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "буква",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": []
+    },
+    {
+      "id": 7649,
+      "accent": "бума́га",
+      "part": "名词·阴性",
+      "meaning": "纸；文件；公文",
+      "perfective": "",
+      "note": "复数бумаги也可指证券，常说ценные бумаги。",
+      "stage": 1,
+      "original": {
+        "word": "бумага",
+        "part_of_speech": "阴",
+        "meaning_zh": "纸；文件；公文；证券；有价证券",
+        "source_page": 25,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бумага",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=25",
+        "证券义为复数且常带ценные限定，分别说明。"
+      ]
+    },
+    {
+      "id": 7650,
+      "accent": "буржуази́я",
+      "part": "名词·阴性",
+      "meaning": "资产阶级",
+      "perfective": "",
+      "note": "集合意义。",
+      "stage": 3,
+      "original": {
+        "word": "буржуазия",
+        "part_of_speech": "阴",
+        "meaning_zh": "资产阶级",
+        "source_page": 25,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "буржуазия",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": []
+    },
+    {
+      "id": 7651,
+      "accent": "буржуа́зный",
+      "part": "形容词",
+      "meaning": "资产阶级的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "буржуазный",
+        "part_of_speech": "形",
+        "meaning_zh": "资产阶级的",
+        "source_page": 25,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "буржуазный",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": []
+    },
+    {
+      "id": 7652,
+      "accent": "бу́рный",
+      "part": "形容词",
+      "meaning": "汹涌的；猛烈的；热烈的；蓬勃的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "бурный",
+        "part_of_speech": "形",
+        "meaning_zh": "汹涌的；猛烈的；蓬勃的；飞速的",
+        "source_page": 25,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бурный",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": []
+    },
+    {
+      "id": 7653,
+      "accent": "бу́ря",
+      "part": "名词·阴性",
+      "meaning": "风暴；暴风雨；风波；激动的浪潮",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "буря",
+        "part_of_speech": "阴",
+        "meaning_zh": "暴风雨；风暴；热潮；风波",
+        "source_page": 25,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "буря",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": []
+    },
+    {
+      "id": 7654,
+      "accent": "буты́лка",
+      "part": "名词·阴性",
+      "meaning": "瓶子；一瓶的量",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "бутылка",
+        "part_of_speech": "阴",
+        "meaning_zh": "瓶；（玻璃）瓶",
+        "source_page": 25,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бутылка",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": []
+    },
+    {
+      "id": 7655,
+      "accent": "буфе́т",
+      "part": "名词·阳性",
+      "meaning": "小吃部；茶点部；餐具柜",
+      "perfective": "",
+      "note": "不等同于所有售货小卖部。",
+      "stage": 1,
+      "original": {
+        "word": "буфет",
+        "part_of_speech": "阳",
+        "meaning_zh": "茶点部；小卖部；小吃部",
+        "source_page": 25,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "буфет",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": []
+    },
+    {
+      "id": 7656,
+      "accent": "бы",
+      "part": "语气词",
+      "meaning": "表示假设、条件、愿望或委婉请求",
+      "perfective": "",
+      "note": "常与动词过去时配合；不是独立表示过去时间。",
+      "stage": 2,
+      "original": {
+        "word": "бы",
+        "part_of_speech": "语",
+        "meaning_zh": "要是；若是；最好；就好了；但愿",
+        "source_page": 26,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бы",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=26",
+        "бы为条件或愿望语气词，不是单独的要是连词。"
+      ]
+    },
+    {
+      "id": 7657,
+      "accent": "быва́ть",
+      "part": "动词·未完成体",
+      "meaning": "发生；时常有；常去；曾到过；有时处于某状态",
+      "perfective": "",
+      "note": "与быть不构成完成体与未完成体配对。",
+      "stage": 2,
+      "original": {
+        "word": "бывать",
+        "part_of_speech": "未",
+        "meaning_zh": "有；存在；常去；往往是；有时是",
+        "source_page": 26,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бывать",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=26",
+        "重复发生、常去、时常处于某状态；不与быть当作体配对。"
+      ]
+    },
+    {
+      "id": 7658,
+      "accent": "бы́вший",
+      "part": "形容词",
+      "meaning": "以前的；原先的；前任的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "бывший",
+        "part_of_speech": "形",
+        "meaning_zh": "原先的；以前的；前任的",
+        "source_page": 26,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бывший",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": []
+    },
+    {
+      "id": 7659,
+      "accent": "бык",
+      "part": "名词·阳性",
+      "meaning": "公牛",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "бык",
+        "part_of_speech": "阳",
+        "meaning_zh": "公牛；雄牛",
+        "source_page": 26,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бык",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": []
+    },
+    {
+      "id": 7660,
+      "accent": "бы́стрый",
+      "part": "形容词",
+      "meaning": "快的；迅速的；敏捷的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "быстрый",
+        "part_of_speech": "形",
+        "meaning_zh": "快的；迅速的；敏捷的；机灵的",
+        "source_page": 26,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "быстрый",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": []
+    },
+    {
+      "id": 7661,
+      "accent": "быт",
+      "part": "名词·阳性",
+      "meaning": "日常生活；生活方式；生活习惯",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "быт",
+        "part_of_speech": "阳",
+        "meaning_zh": "日常生活；生活方式；生活习惯",
+        "source_page": 26,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "быт",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": []
+    },
+    {
+      "id": 7662,
+      "accent": "быть",
+      "part": "动词·未完成体",
+      "meaning": "是；有；存在；处于；发生",
+      "perfective": "",
+      "note": "用作将来时助动词；不强配一个通用完成体。",
+      "stage": 1,
+      "original": {
+        "word": "быть",
+        "part_of_speech": "未",
+        "meaning_zh": "是；有；存在；处在；发生；成为",
+        "source_page": 26,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "быть",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": []
+    },
+    {
+      "id": 7664,
+      "accent": "бри́ться",
+      "part": "动词·未完成体",
+      "meaning": "刮脸；剃须",
+      "perfective": "побри́ться",
+      "note": "为自己剃须；给别人剃用брить。",
+      "stage": 1,
+      "original": {
+        "word": "бриться",
+        "part_of_speech": "未",
+        "meaning_zh": "（给自己）刮脸；剃须",
+        "source_page": 23,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бриться",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=23",
+        "原页配对побриться。"
+      ]
+    },
+    {
+      "id": 7665,
+      "accent": "бровь",
+      "part": "名词·阴性",
+      "meaning": "眉毛；眉",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "бровь",
+        "part_of_speech": "阴",
+        "meaning_zh": "眉毛；眉",
+        "source_page": 23,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бровь",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": []
+    },
+    {
+      "id": 7666,
+      "accent": "бюро́",
+      "part": "名词·中性·不变格",
+      "meaning": "局；处；办事所；委员会",
+      "perfective": "",
+      "note": "常用于机构名称，含某些组织的领导机构。",
+      "stage": 2,
+      "original": {
+        "word": "бюро",
+        "part_of_speech": "中，不变",
+        "meaning_zh": "局；处；所；（某些机构的）领导机构",
+        "source_page": 26,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "бюро",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": []
+    },
+    {
+      "id": 7667,
+      "accent": "ваго́н",
+      "part": "名词·阳性",
+      "meaning": "车厢",
+      "perfective": "",
+      "note": "通常指火车或有轨电车车厢。",
+      "stage": 1,
+      "original": {
+        "word": "вагон",
+        "part_of_speech": "阳",
+        "meaning_zh": "（火车或电车的）车厢",
+        "source_page": 27,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вагон",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": []
+    },
+    {
+      "id": 7668,
+      "accent": "ва́жно",
+      "part": "副词／谓语词",
+      "meaning": "重要；傲慢地；自命不凡地",
+      "perfective": "",
+      "note": "作谓语表示重要，修饰举止可表示摆架子。",
+      "stage": 2,
+      "original": {
+        "word": "важно",
+        "part_of_speech": "副",
+        "meaning_zh": "重要；举止傲慢",
+        "source_page": 27,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "важно",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=27",
+        "傲慢地及谓语重要两用。"
+      ]
+    },
+    {
+      "id": 7670,
+      "accent": "ва́за",
+      "part": "名词·阴性",
+      "meaning": "花瓶；盛水果或点心的高脚盘",
+      "perfective": "",
+      "note": "ночная ваза旧时婉称夜壶，不作为本词日常裸词义。",
+      "stage": 1,
+      "original": {
+        "word": "ваза",
+        "part_of_speech": "阴",
+        "meaning_zh": "花瓶；高脚盘；夜壶",
+        "source_page": 27,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ваза",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=27",
+        "夜壶是ночная ваза，原页标婉，不作常用裸词义。"
+      ]
+    },
+    {
+      "id": 7671,
+      "accent": "вальс",
+      "part": "名词·阳性",
+      "meaning": "华尔兹舞；圆舞曲",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вальс",
+        "part_of_speech": "阳",
+        "meaning_zh": "华尔兹；圆舞曲",
+        "source_page": 27,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вальс",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": []
+    },
+    {
+      "id": 7672,
+      "accent": "варёный",
+      "part": "形容词",
+      "meaning": "煮熟的；炖熟的",
+      "perfective": "",
+      "note": "保留ё，与варить同根。",
+      "stage": 1,
+      "original": {
+        "word": "варёный",
+        "part_of_speech": "形",
+        "meaning_zh": "煮的；熬的；炖的",
+        "source_page": 27,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "варёный",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=27",
+        "варёный为煮熟状态，保留ё。"
+      ]
+    },
+    {
+      "id": 7673,
+      "accent": "варе́нье",
+      "part": "名词·中性",
+      "meaning": "果酱；糖煮水果",
+      "perfective": "",
+      "note": "俄式варенье常保留果块，与细腻果泥状果酱不完全相同。",
+      "stage": 1,
+      "original": {
+        "word": "варенье",
+        "part_of_speech": "中",
+        "meaning_zh": "果酱；蜜饯",
+        "source_page": 27,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "варенье",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": []
+    },
+    {
+      "id": 7674,
+      "accent": "вари́ть",
+      "part": "动词·未完成体",
+      "meaning": "煮；熬；炖",
+      "perfective": "свари́ть",
+      "note": "配对用于煮成、煮熟；按菜品语境翻译。",
+      "stage": 1,
+      "original": {
+        "word": "варить",
+        "part_of_speech": "未",
+        "meaning_zh": "煮；做饭；用水煮；蒸煮",
+        "source_page": 27,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "варить",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=27",
+        "варить/сварить为煮熟义体对。"
+      ]
+    },
+    {
+      "id": 7675,
+      "accent": "ваш",
+      "part": "物主代词",
+      "meaning": "你们的；您的",
+      "perfective": "",
+      "note": "随所修饰名词变性、数、格。",
+      "stage": 1,
+      "original": {
+        "word": "ваш",
+        "part_of_speech": "代",
+        "meaning_zh": "你们的；您的",
+        "source_page": 27,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ваш",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": []
+    },
+    {
+      "id": 7676,
+      "accent": "вбега́ть",
+      "part": "动词·未完成体",
+      "meaning": "跑进；跑上",
+      "perfective": "вбежа́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вбегать",
+        "part_of_speech": "未",
+        "meaning_zh": "跑进；跑上",
+        "source_page": 28,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вбегать",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=28",
+        "вбегать/вбежать体对，跑进及跑上。"
+      ]
+    },
+    {
+      "id": 7677,
+      "accent": "вблизи́",
+      "part": "副词／前置词",
+      "meaning": "在附近；靠近",
+      "perfective": "",
+      "note": "作前置词接第二格。",
+      "stage": 2,
+      "original": {
+        "word": "вблизи",
+        "part_of_speech": "前",
+        "meaning_zh": "在近处；在附近",
+        "source_page": 28,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вблизи",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=28",
+        "副词兼前置词，前置词接第二格。"
+      ]
+    },
+    {
+      "id": 7678,
+      "accent": "вверх",
+      "part": "副词",
+      "meaning": "向上；往上游",
+      "perfective": "",
+      "note": "不把вверх дном底朝天等整个词组义套给单词。",
+      "stage": 1,
+      "original": {
+        "word": "вверх",
+        "part_of_speech": "副",
+        "meaning_zh": "向上；向上游；朝上；朝外",
+        "source_page": 28,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вверх",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=28",
+        "朝外等需衣物或第五格搭配，不独立列。"
+      ]
+    },
+    {
+      "id": 7679,
+      "accent": "вводи́ть",
+      "part": "动词·未完成体",
+      "meaning": "带入；引入；输入；实行；使生效",
+      "perfective": "ввести́",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вводить",
+        "part_of_speech": "未",
+        "meaning_zh": "带入；引入；输入；实行",
+        "source_page": 28,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вводить",
+      "method": "2026-09-12恢复当前助手逐词审核路线，核对专四原页23及25至28，Sol试验结果不参与入库。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=28",
+        "引入、输入及实行；ввести配对。"
+      ]
+    }
+  ]
+}

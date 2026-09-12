@@ -1,0 +1,1091 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 7823,
+      "accent": "во́семь",
+      "part": "基数词",
+      "meaning": "八",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "восемь",
+        "part_of_speech": "数",
+        "meaning_zh": "八；8",
+        "source_page": 43,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "восемь",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7824,
+      "accent": "во́семьдесят",
+      "part": "基数词",
+      "meaning": "八十",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "восемьдесят",
+        "part_of_speech": "数",
+        "meaning_zh": "八十；80",
+        "source_page": 43,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "восемьдесят",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7825,
+      "accent": "восемьсо́т",
+      "part": "基数词",
+      "meaning": "八百",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "восемьсот",
+        "part_of_speech": "数",
+        "meaning_zh": "八百；800",
+        "source_page": 43,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "восемьсот",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7826,
+      "accent": "восклица́ть",
+      "part": "动词·未完成体",
+      "meaning": "喊道；感叹；大声说出",
+      "perfective": "воскли́кнуть",
+      "note": "常表示带强烈感情地说。",
+      "stage": 2,
+      "original": {
+        "word": "восклицать",
+        "part_of_speech": "未",
+        "meaning_zh": "带着感情大声说；感叹",
+        "source_page": 43,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "восклицать",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7827,
+      "accent": "воскресе́нье",
+      "part": "名词·中性",
+      "meaning": "星期日；星期天",
+      "perfective": "",
+      "note": "区别воскресение复活。",
+      "stage": 1,
+      "original": {
+        "word": "воскресенье",
+        "part_of_speech": "中",
+        "meaning_zh": "星期日；星期天",
+        "source_page": 43,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "воскресенье",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7828,
+      "accent": "воспева́ть",
+      "part": "动词·未完成体",
+      "meaning": "歌颂；颂扬",
+      "perfective": "воспе́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "воспевать",
+        "part_of_speech": "未",
+        "meaning_zh": "歌颂；颂扬",
+        "source_page": 43,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "воспевать",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7829,
+      "accent": "воспита́ние",
+      "part": "名词·中性",
+      "meaning": "教育；培养；教养",
+      "perfective": "",
+      "note": "常侧重品格、习惯的养成。",
+      "stage": 2,
+      "original": {
+        "word": "воспитание",
+        "part_of_speech": "中",
+        "meaning_zh": "教育；培养",
+        "source_page": 43,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "воспитание",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7830,
+      "accent": "воспи́тывать",
+      "part": "动词·未完成体",
+      "meaning": "教育；培养；养育；使养成",
+      "perfective": "воспита́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "воспитывать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "教育；培养；使养成",
+        "source_page": 43,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "воспитывать",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=43",
+        "воспитывать未完成体，Ж非词性。"
+      ]
+    },
+    {
+      "id": 7831,
+      "accent": "воспомина́ние",
+      "part": "名词·中性",
+      "meaning": "回忆；记忆；回想",
+      "perfective": "",
+      "note": "回忆录通常用复数воспоминания。",
+      "stage": 2,
+      "original": {
+        "word": "воспоминание",
+        "part_of_speech": "中",
+        "meaning_zh": "回忆；回想；回忆录",
+        "source_page": 43,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "воспоминание",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7832,
+      "accent": "восстава́ть",
+      "part": "动词·未完成体",
+      "meaning": "起义；反抗",
+      "perfective": "восста́ть",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "восставать",
+        "part_of_speech": "未",
+        "meaning_zh": "反抗；起义",
+        "source_page": 44,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "восставать",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7833,
+      "accent": "восстана́вливать",
+      "part": "动词·未完成体",
+      "meaning": "恢复；修复；重建",
+      "perfective": "восстанови́ть",
+      "note": "复职、恢复记忆等依所接词语具体翻译。",
+      "stage": 2,
+      "original": {
+        "word": "восстанавливать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "恢复；复职；恢复记忆",
+        "source_page": 44,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "восстанавливать",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=44",
+        "原标未完成体，复职与记忆恢复为具体搭配，保留恢复重建核心。"
+      ]
+    },
+    {
+      "id": 7834,
+      "accent": "восста́ние",
+      "part": "名词·中性",
+      "meaning": "起义；暴动",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "восстание",
+        "part_of_speech": "中",
+        "meaning_zh": "起义；暴动",
+        "source_page": 44,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "восстание",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7835,
+      "accent": "восто́рг",
+      "part": "名词·阳性",
+      "meaning": "狂喜；极大喜悦；赞叹",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "восторг",
+        "part_of_speech": "阳",
+        "meaning_zh": "异常兴奋；狂喜；非常高兴",
+        "source_page": 44,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "восторг",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7836,
+      "accent": "восто́чный",
+      "part": "形容词",
+      "meaning": "东方的；东部的；东方风格的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "восточный",
+        "part_of_speech": "形",
+        "meaning_zh": "东方的；东部的；东方风格的",
+        "source_page": 44,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "восточный",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7837,
+      "accent": "восхища́ть",
+      "part": "动词·未完成体",
+      "meaning": "使钦佩；使赞叹；使陶醉",
+      "perfective": "восхити́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "восхищать",
+        "part_of_speech": "未",
+        "meaning_zh": "使钦佩；使赞叹",
+        "source_page": 44,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "восхищать",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7838,
+      "accent": "восхища́ться",
+      "part": "动词·未完成体",
+      "meaning": "钦佩；赞叹；陶醉",
+      "perfective": "восхити́ться",
+      "note": "接第五格表示赞叹的对象。",
+      "stage": 2,
+      "original": {
+        "word": "восхищаться",
+        "part_of_speech": "未",
+        "meaning_zh": "钦佩；赞叹；陶醉于",
+        "source_page": 44,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "восхищаться",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7839,
+      "accent": "восхо́д",
+      "part": "名词·阳性",
+      "meaning": "日出；天体升起；登高",
+      "perfective": "",
+      "note": "登高义较少用，常见восход на гору。",
+      "stage": 2,
+      "original": {
+        "word": "восход",
+        "part_of_speech": "阳",
+        "meaning_zh": "日出；升起",
+        "source_page": 44,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "восход",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=44",
+        "除日出还包含登山、上升义。"
+      ]
+    },
+    {
+      "id": 7840,
+      "accent": "восьмидеся́тый",
+      "part": "序数词",
+      "meaning": "第八十",
+      "perfective": "",
+      "note": "восьмидесятые годы表示八十年代。",
+      "stage": 1,
+      "original": {
+        "word": "восьмидесятый",
+        "part_of_speech": "数",
+        "meaning_zh": "第八十；80年代的",
+        "source_page": 44,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "восьмидесятый",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7841,
+      "accent": "восьмо́й",
+      "part": "序数词",
+      "meaning": "第八",
+      "perfective": "",
+      "note": "八分之一是одна восьмая。",
+      "stage": 1,
+      "original": {
+        "word": "восьмой",
+        "part_of_speech": "数",
+        "meaning_zh": "第八；八分之一",
+        "source_page": 44,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "восьмой",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=44",
+        "八分之一需одна восьмая结构。"
+      ]
+    },
+    {
+      "id": 7842,
+      "accent": "впервы́е",
+      "part": "副词",
+      "meaning": "第一次；初次",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "впервые",
+        "part_of_speech": "副",
+        "meaning_zh": "第一次；初次",
+        "source_page": 45,
+        "source_line": "1"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "впервые",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7843,
+      "accent": "впереди́",
+      "part": "副词／前置词",
+      "meaning": "在前面；在前方；在将来",
+      "perfective": "",
+      "note": "作前置词接第二格；区别表示方向的вперёд。",
+      "stage": 1,
+      "original": {
+        "word": "впереди",
+        "part_of_speech": "副",
+        "meaning_zh": "在前面；在前方；将来",
+        "source_page": 45,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "впереди",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7844,
+      "accent": "впечатле́ние",
+      "part": "名词·中性",
+      "meaning": "印象；感受；感想",
+      "perfective": "",
+      "note": "под впечатлением表示受……影响。",
+      "stage": 2,
+      "original": {
+        "word": "впечатление",
+        "part_of_speech": "中",
+        "meaning_zh": "印象；感想；观感；影响",
+        "source_page": 45,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "впечатление",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7845,
+      "accent": "вполго́лоса",
+      "part": "副词",
+      "meaning": "低声地；轻声地",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вполголоса",
+        "part_of_speech": "副",
+        "meaning_zh": "低声地；小声地",
+        "source_page": 45,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вполголоса",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7846,
+      "accent": "вполне́",
+      "part": "副词",
+      "meaning": "完全；十分；相当",
+      "perfective": "",
+      "note": "相当义依语境，不写ё。",
+      "stage": 2,
+      "original": {
+        "word": "вполнё",
+        "part_of_speech": "副",
+        "meaning_zh": "完全；十分",
+        "source_page": 45,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вполне",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=45",
+        "вполне́重读е，非ё。"
+      ]
+    },
+    {
+      "id": 7847,
+      "accent": "враг",
+      "part": "名词·阳性",
+      "meaning": "敌人；仇人；反对者",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "враг",
+        "part_of_speech": "阳",
+        "meaning_zh": "敌人；仇人；反对者",
+        "source_page": 45,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "враг",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7848,
+      "accent": "вражде́бный",
+      "part": "形容词",
+      "meaning": "敌对的；怀有敌意的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "враждебный",
+        "part_of_speech": "形",
+        "meaning_zh": "敌对的；敌意的",
+        "source_page": 45,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "враждебный",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7849,
+      "accent": "вра́жеский",
+      "part": "形容词",
+      "meaning": "敌人的；敌方的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вражеский",
+        "part_of_speech": "形",
+        "meaning_zh": "敌人的；敌方的",
+        "source_page": 45,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вражеский",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7850,
+      "accent": "врать",
+      "part": "动词·未完成体",
+      "meaning": "说谎；撒谎；胡说",
+      "perfective": "совра́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "врать",
+        "part_of_speech": "未",
+        "meaning_zh": "说谎；撒谎",
+        "source_page": 45,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "врать",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7851,
+      "accent": "врач",
+      "part": "名词·阳性",
+      "meaning": "医生",
+      "perfective": "",
+      "note": "语法为阳性，也可指女医生。",
+      "stage": 1,
+      "original": {
+        "word": "врач",
+        "part_of_speech": "阳",
+        "meaning_zh": "医生",
+        "source_page": 45,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "врач",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7852,
+      "accent": "враща́ться",
+      "part": "动词·未完成体",
+      "meaning": "旋转；转动；周旋于某社交圈",
+      "perfective": "",
+      "note": "社交义常与в连用；不强配一个通用完成体。",
+      "stage": 2,
+      "original": {
+        "word": "вращаться",
+        "part_of_speech": "未",
+        "meaning_zh": "旋转；转动",
+        "source_page": 45,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вращаться",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7853,
+      "accent": "вреди́ть",
+      "part": "动词·未完成体",
+      "meaning": "损害；危害",
+      "perfective": "повреди́ть",
+      "note": "接第三格；有损于健康等长期状态不必表达完成。",
+      "stage": 2,
+      "original": {
+        "word": "вредить",
+        "part_of_speech": "Ж",
+        "meaning_zh": "损害；危害",
+        "source_page": 45,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вредить",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=45",
+        "вредить未完成体，повредить对应造成损害义。"
+      ]
+    },
+    {
+      "id": 7854,
+      "accent": "вре́дный",
+      "part": "形容词",
+      "meaning": "有害的；不利的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "вредный",
+        "part_of_speech": "形",
+        "meaning_zh": "有害的；不利的",
+        "source_page": 46,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вредный",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7855,
+      "accent": "вре́менный",
+      "part": "形容词",
+      "meaning": "临时的；暂时的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "временный",
+        "part_of_speech": "形",
+        "meaning_zh": "临时的；暂时的",
+        "source_page": 46,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "временный",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7857,
+      "accent": "вруча́ть",
+      "part": "动词·未完成体",
+      "meaning": "递交；交给；授予；托付",
+      "perfective": "вручи́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вручать",
+        "part_of_speech": "完",
+        "meaning_zh": "递给；交给；授予；托付",
+        "source_page": 46,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вручать",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=46",
+        "вручать原为未完成体，вручить才是完成体。"
+      ]
+    },
+    {
+      "id": 7859,
+      "accent": "всего́",
+      "part": "副词／语气词",
+      "meaning": "总共；一共；仅仅；才",
+      "perfective": "",
+      "note": "另外可为весь的格形式，需依句法区分。",
+      "stage": 1,
+      "original": {
+        "word": "всего",
+        "part_of_speech": "副",
+        "meaning_zh": "总共；一共；仅仅；才",
+        "source_page": 46,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "всего",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7860,
+      "accent": "всеми́рный",
+      "part": "形容词",
+      "meaning": "全世界的；世界性的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "всемирный",
+        "part_of_speech": "形",
+        "meaning_zh": "全世界的；世界性的",
+        "source_page": 46,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "всемирный",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7861,
+      "accent": "всесою́зный",
+      "part": "形容词",
+      "meaning": "全苏联的",
+      "perfective": "",
+      "note": "苏联时期历史用语，不泛指任意联盟。",
+      "stage": 3,
+      "original": {
+        "word": "всесоюзный",
+        "part_of_speech": "形",
+        "meaning_zh": "全苏联的；全联盟的",
+        "source_page": 46,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "всесоюзный",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7862,
+      "accent": "всесторо́нний",
+      "part": "形容词",
+      "meaning": "全面的；各方面的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "всесторонний",
+        "part_of_speech": "形",
+        "meaning_zh": "各方面的；全面的",
+        "source_page": 46,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "всесторонний",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7863,
+      "accent": "всё-таки",
+      "part": "连词／语气词",
+      "meaning": "仍然；还是；毕竟；究竟",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "всё-таки",
+        "part_of_speech": "连",
+        "meaning_zh": "仍然；还是；毕竟",
+        "source_page": 46,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "всё-таки",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7864,
+      "accent": "вска́кивать",
+      "part": "动词·未完成体",
+      "meaning": "跳起；跳上；突然站起",
+      "perfective": "вскочи́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вскакивать",
+        "part_of_speech": "未",
+        "meaning_zh": "跳起来；跳上；突然站起",
+        "source_page": 46,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вскакивать",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7865,
+      "accent": "вско́ре",
+      "part": "副词",
+      "meaning": "不久；很快就",
+      "perfective": "",
+      "note": "指时间间隔短，不指动作速度快。",
+      "stage": 1,
+      "original": {
+        "word": "вскоре",
+        "part_of_speech": "副",
+        "meaning_zh": "很快；不久",
+        "source_page": 46,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вскоре",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7866,
+      "accent": "вслед",
+      "part": "副词／前置词",
+      "meaning": "跟着；随着；紧接着",
+      "perfective": "",
+      "note": "作前置词接第三格；也有вслед за加第五格。",
+      "stage": 2,
+      "original": {
+        "word": "вслед",
+        "part_of_speech": "剧",
+        "meaning_zh": "跟着；随着；紧接着",
+        "source_page": 47,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вслед",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=47",
+        "副词及前置词，接第三格；剧为OCR噪声。"
+      ]
+    },
+    {
+      "id": 7867,
+      "accent": "всле́дствие",
+      "part": "前置词",
+      "meaning": "由于；因为",
+      "perfective": "",
+      "note": "接第二格。",
+      "stage": 2,
+      "original": {
+        "word": "вследствие",
+        "part_of_speech": "前",
+        "meaning_zh": "由于；因为",
+        "source_page": 47,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вследствие",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7868,
+      "accent": "вслух",
+      "part": "副词",
+      "meaning": "出声地；读出声来",
+      "perfective": "",
+      "note": "不一定大声，区别про себя默读。",
+      "stage": 1,
+      "original": {
+        "word": "вслух",
+        "part_of_speech": "副",
+        "meaning_zh": "出声地；大声地",
+        "source_page": 47,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вслух",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=47",
+        "出声并不必然高声。"
+      ]
+    },
+    {
+      "id": 7869,
+      "accent": "вспомина́ть",
+      "part": "动词·未完成体",
+      "meaning": "想起；回忆",
+      "perfective": "вспо́мнить",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "вспоминать",
+        "part_of_speech": "未",
+        "meaning_zh": "想起；回忆",
+        "source_page": 47,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вспоминать",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7870,
+      "accent": "встава́ть",
+      "part": "动词·未完成体",
+      "meaning": "站起来；起床；起身；奋起；出现",
+      "perfective": "встать",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "вставать",
+        "part_of_speech": "未",
+        "meaning_zh": "站起来；起身；奋起",
+        "source_page": 47,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вставать",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    },
+    {
+      "id": 7871,
+      "accent": "встре́ча",
+      "part": "名词·阴性",
+      "meaning": "会面；相遇；聚会；比赛；迎接",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "встреча",
+        "part_of_speech": "阴",
+        "meaning_zh": "相遇；会面；聚会；迎接",
+        "source_page": 47,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "встреча",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=47",
+        "补比赛义。"
+      ]
+    },
+    {
+      "id": 7873,
+      "accent": "встреча́ться",
+      "part": "动词·未完成体",
+      "meaning": "见面；相遇；交往；比赛；出现",
+      "perfective": "встре́титься",
+      "note": "事物出现或被遇到也可用本词。",
+      "stage": 1,
+      "original": {
+        "word": "встречаться",
+        "part_of_speech": "Ж",
+        "meaning_zh": "见面；相会；会面",
+        "source_page": 47,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "встречаться",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=47",
+        "未完成体；补出现、比赛用法，不限见面。"
+      ]
+    },
+    {
+      "id": 7874,
+      "accent": "вступа́ть",
+      "part": "动词·未完成体",
+      "meaning": "进入；加入；开始从事",
+      "perfective": "вступи́ть",
+      "note": "вступать в должность就任，вступать в силу生效。",
+      "stage": 2,
+      "original": {
+        "word": "вступать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "进入；加入；就任；开始从事",
+        "source_page": 47,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вступать",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=47",
+        "未完成体；上任、生效均需完整搭配。"
+      ]
+    },
+    {
+      "id": 7875,
+      "accent": "всю́ду",
+      "part": "副词",
+      "meaning": "到处；各处",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "всюду",
+        "part_of_speech": "副",
+        "meaning_zh": "到处；各处",
+        "source_page": 48,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "всюду",
+      "method": "2026-09-12当前助手逐词核验专四原页43至48，恢复词性与重音，补齐常用义及体配对。",
+      "evidence": []
+    }
+  ]
+}
