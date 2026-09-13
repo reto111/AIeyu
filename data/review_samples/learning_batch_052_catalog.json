@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 7897,
+      "accent": "выдвига́ть",
+      "part": "动词·未完成体",
+      "meaning": "拉出；伸出；提出；推举；提拔",
+      "perfective": "вы́двинуть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "выдвигать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "拉出；伸出；提出；提拔",
+        "source_page": 50,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выдвигать",
+      "method": "2026-09-13当前助手逐词审核专四原页50至52，核词性、重音、中文核心义及体对；未使用Sol候选。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=50",
+        "原标未完成体，提出、提拔及物体拉出义。"
+      ]
+    },
+    {
+      "id": 7898,
+      "accent": "выделя́ть",
+      "part": "动词·未完成体",
+      "meaning": "分出；拨出；选出；突出；分泌；释放",
+      "perfective": "вы́делить",
+      "note": "分泌、释放义如выделять тепло放热。",
+      "stage": 2,
+      "original": {
+        "word": "выделять",
+        "part_of_speech": "未",
+        "meaning_zh": "分出；选出；标出；拨出",
+        "source_page": 50,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выделять",
+      "method": "2026-09-13当前助手逐词审核专四原页50至52，核词性、重音、中文核心义及体对；未使用Sol候选。",
+      "evidence": []
+    },
+    {
+      "id": 7899,
+      "accent": "выде́рживать",
+      "part": "动词·未完成体",
+      "meaning": "承受；经受住；坚持；通过考验",
+      "perfective": "вы́держать",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "выдерживать",
+        "part_of_speech": "未",
+        "meaning_zh": "承受得住；经得住；坚持住；通过（考试、检验）",
+        "source_page": 50,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выдерживать",
+      "method": "2026-09-13当前助手逐词审核专四原页50至52，核词性、重音、中文核心义及体对；未使用Sol候选。",
+      "evidence": []
+    },
+    {
+      "id": 7900,
+      "accent": "выду́мывать",
+      "part": "动词·未完成体",
+      "meaning": "想出；虚构；杜撰",
+      "perfective": "вы́думать",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "выдумывать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "想出；虚构；杜撰",
+        "source_page": 50,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выдумывать",
+      "method": "2026-09-13当前助手逐词审核专四原页50至52，核词性、重音、中文核心义及体对；未使用Sol候选。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=50",
+        "выдумывать未完成体，Ж是识别噪声。"
+      ]
+    },
+    {
+      "id": 7901,
+      "accent": "выезжа́ть",
+      "part": "动词·未完成体",
+      "meaning": "乘车等驶出；出发；外出；离开",
+      "perfective": "вы́ехать",
+      "note": "通常借助交通工具。",
+      "stage": 1,
+      "original": {
+        "word": "выезжать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "出发；动身；启程",
+        "source_page": 50,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выезжать",
+      "method": "2026-09-13当前助手逐词审核专四原页50至52，核词性、重音、中文核心义及体对；未使用Sol候选。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=50",
+        "出发常指乘交通工具，不泛指步行出发。"
+      ]
+    },
+    {
+      "id": 7902,
+      "accent": "выздора́вливать",
+      "part": "动词·未完成体",
+      "meaning": "康复；恢复健康；痊愈",
+      "perfective": "вы́здороветь",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "выздоравливать",
+        "part_of_speech": "未",
+        "meaning_zh": "恢复健康；痊愈",
+        "source_page": 50,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выздоравливать",
+      "method": "2026-09-13当前助手逐词审核专四原页50至52，核词性、重音、中文核心义及体对；未使用Sol候选。",
+      "evidence": []
+    },
+    {
+      "id": 7903,
+      "accent": "вы́зов",
+      "part": "名词·阳性",
+      "meaning": "召唤；传唤；邀请；挑战；挑衅",
+      "perfective": "",
+      "note": "不泛指任何通知。",
+      "stage": 2,
+      "original": {
+        "word": "вызов",
+        "part_of_speech": "阳",
+        "meaning_zh": "通知；邀请；召唤；挑战；挑衅",
+        "source_page": 50,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вызов",
+      "method": "2026-09-13当前助手逐词审核专四原页50至52，核词性、重音、中文核心义及体对；未使用Sol候选。",
+      "evidence": []
+    },
+    {
+      "id": 7904,
+      "accent": "вызыва́ть",
+      "part": "动词·未完成体",
+      "meaning": "叫来；召唤；引起；激起；挑战",
+      "perfective": "вы́звать",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вызывать",
+        "part_of_speech": "未",
+        "meaning_zh": "叫来；召唤；引起；激起",
+        "source_page": 51,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вызывать",
+      "method": "2026-09-13当前助手逐词审核专四原页50至52，核词性、重音、中文核心义及体对；未使用Sol候选。",
+      "evidence": []
+    },
+    {
+      "id": 7905,
+      "accent": "выи́грывать",
+      "part": "动词·未完成体",
+      "meaning": "赢；获胜；赢得；争取到",
+      "perfective": "вы́играть",
+      "note": "如выигрывать время争取时间。",
+      "stage": 1,
+      "original": {
+        "word": "выигрывать",
+        "part_of_speech": "未",
+        "meaning_zh": "赢得；获胜；赢得（官司、时间等）",
+        "source_page": 51,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выигрывать",
+      "method": "2026-09-13当前助手逐词审核专四原页50至52，核词性、重音、中文核心义及体对；未使用Sol候选。",
+      "evidence": []
+    },
+    {
+      "id": 7906,
+      "accent": "выключа́ть",
+      "part": "动词·未完成体",
+      "meaning": "关闭；切断；排除；除去",
+      "perfective": "вы́ключить",
+      "note": "常用于电器、电路；从名单除名等用法较少见。",
+      "stage": 1,
+      "original": {
+        "word": "выключать",
+        "part_of_speech": "未",
+        "meaning_zh": "关掉；切断；删除；除名",
+        "source_page": 51,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выключать",
+      "method": "2026-09-13当前助手逐词审核专四原页50至52，核词性、重音、中文核心义及体对；未使用Sol候选。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=51",
+        "原书有除名删除义，保留并标较少用，不凭常见义盲删。"
+      ]
+    },
+    {
+      "id": 7907,
+      "accent": "вылеза́ть",
+      "part": "动词·未完成体",
+      "meaning": "爬出；钻出；出来",
+      "perfective": "вы́лезти",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вылезать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "爬出；钻出；走出",
+        "source_page": 51,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вылезать",
+      "method": "2026-09-13当前助手逐词审核专四原页50至52，核词性、重音、中文核心义及体对；未使用Sol候选。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=51",
+        "原标未完成体，вылезти对应。"
+      ]
+    },
+    {
+      "id": 7908,
+      "accent": "вылета́ть",
+      "part": "动词·未完成体",
+      "meaning": "飞出；起飞；飞往；飞快冲出",
+      "perfective": "вы́лететь",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вылетать",
+        "part_of_speech": "未",
+        "meaning_zh": "飞出；飞往；飞驶而出",
+        "source_page": 51,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вылетать",
+      "method": "2026-09-13当前助手逐词审核专四原页50至52，核词性、重音、中文核心义及体对；未使用Sol候选。",
+      "evidence": []
+    },
+    {
+      "id": 7909,
+      "accent": "вынима́ть",
+      "part": "动词·未完成体",
+      "meaning": "取出；拿出；掏出",
+      "perfective": "вы́нуть",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "вынимать",
+        "part_of_speech": "未",
+        "meaning_zh": "取出；拿出；掏出",
+        "source_page": 51,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вынимать",
+      "method": "2026-09-13当前助手逐词审核专四原页50至52，核词性、重音、中文核心义及体对；未使用Sol候选。",
+      "evidence": []
+    },
+    {
+      "id": 7910,
+      "accent": "выноси́ть",
+      "part": "动词·未完成体",
+      "meaning": "拿出；搬出；忍受；作出裁决",
+      "perfective": "вы́нести",
+      "note": "重音在и；作出判决常用выносить приговор。",
+      "stage": 2,
+      "original": {
+        "word": "выносить",
+        "part_of_speech": "未",
+        "meaning_zh": "拿出；搬出；带到外面；忍受",
+        "source_page": 51,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выносить",
+      "method": "2026-09-13当前助手逐词审核专四原页50至52，核词性、重音、中文核心义及体对；未使用Sol候选。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=51",
+        "补作出裁决义；本条выноси́ть未完成体，不与вы́носить混淆。"
+      ]
+    },
+    {
+      "id": 7911,
+      "accent": "вы́нужденный",
+      "part": "形容词",
+      "meaning": "被迫的；迫不得已的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вынужденный",
+        "part_of_speech": "形",
+        "meaning_zh": "被迫的；迫不得已的",
+        "source_page": 51,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вынужденный",
+      "method": "2026-09-13当前助手逐词审核专四原页50至52，核词性、重音、中文核心义及体对；未使用Sol候选。",
+      "evidence": []
+    },
+    {
+      "id": 7912,
+      "accent": "выпада́ть",
+      "part": "动词·未完成体",
+      "meaning": "掉落；脱落；降下；降临；轮到",
+      "perfective": "вы́пасть",
+      "note": "如выпало счастье幸福降临。",
+      "stage": 2,
+      "original": {
+        "word": "выпадать",
+        "part_of_speech": "未",
+        "meaning_zh": "掉落；掉下；降落；降临",
+        "source_page": 51,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выпадать",
+      "method": "2026-09-13当前助手逐词审核专四原页50至52，核词性、重音、中文核心义及体对；未使用Sol候选。",
+      "evidence": []
+    },
+    {
+      "id": 7913,
+      "accent": "выпи́сывать",
+      "part": "动词·未完成体",
+      "meaning": "摘录；抄录；订阅；开具；让出院；注销",
+      "perfective": "вы́писать",
+      "note": "开具义如выписывать рецепт开处方；具体义依宾语。",
+      "stage": 2,
+      "original": {
+        "word": "выписывать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "抄录；摘录；订购；使出院；除名",
+        "source_page": 52,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выписывать",
+      "method": "2026-09-13当前助手逐词审核专四原页50至52，核词性、重音、中文核心义及体对；未使用Sol候选。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=52",
+        "未完成体；摘录、订阅、出院注销等义分清。"
+      ]
+    },
+    {
+      "id": 7914,
+      "accent": "выпи́сываться",
+      "part": "动词·未完成体",
+      "meaning": "出院；办理迁出注销手续",
+      "perfective": "вы́писаться",
+      "note": "不泛指被任意组织除名。",
+      "stage": 2,
+      "original": {
+        "word": "выписываться",
+        "part_of_speech": "未",
+        "meaning_zh": "出院；注销；除名",
+        "source_page": 52,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выписываться",
+      "method": "2026-09-13当前助手逐词审核专四原页50至52，核词性、重音、中文核心义及体对；未使用Sol候选。",
+      "evidence": []
+    },
+    {
+      "id": 7915,
+      "accent": "выполне́ние",
+      "part": "名词·中性",
+      "meaning": "执行；完成；履行",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "выполнение",
+        "part_of_speech": "中",
+        "meaning_zh": "执行；完成",
+        "source_page": 52,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выполнение",
+      "method": "2026-09-13当前助手逐词审核专四原页50至52，核词性、重音、中文核心义及体对；未使用Sol候选。",
+      "evidence": []
+    },
+    {
+      "id": 7916,
+      "accent": "выполня́ть",
+      "part": "动词·未完成体",
+      "meaning": "执行；完成；履行；制作",
+      "perfective": "вы́полнить",
+      "note": "制作义用于图样、作品等，不泛指工业制造。",
+      "stage": 2,
+      "original": {
+        "word": "выполнять",
+        "part_of_speech": "未",
+        "meaning_zh": "实现；完成；执行；履行；制造出",
+        "source_page": 52,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выполнять",
+      "method": "2026-09-13当前助手逐词审核专四原页50至52，核词性、重音、中文核心义及体对；未使用Sol候选。",
+      "evidence": []
+    }
+  ]
+}

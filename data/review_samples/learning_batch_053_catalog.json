@@ -1,0 +1,872 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 7917,
+      "accent": "вы́пуск",
+      "part": "名词·阳性",
+      "meaning": "放出；生产；发行；期；分册；一届毕业生",
+      "perfective": "",
+      "note": "毕业生义指整届集合。",
+      "stage": 2,
+      "original": {
+        "word": "выпуск",
+        "part_of_speech": "阳",
+        "meaning_zh": "放出；生产；毕业生；分册；卷",
+        "source_page": 52,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выпуск",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=52",
+        "毕业生是某届集合用法，不等同于单个выпускник。"
+      ]
+    },
+    {
+      "id": 7918,
+      "accent": "выпускни́к",
+      "part": "名词·阳性",
+      "meaning": "毕业生",
+      "perfective": "",
+      "note": "应届须结合年份等限定，并非只指应届。",
+      "stage": 1,
+      "original": {
+        "word": "выпускник",
+        "part_of_speech": "阳",
+        "meaning_zh": "毕业生；应届毕业生",
+        "source_page": 52,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выпускник",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7919,
+      "accent": "выраба́тывать",
+      "part": "动词·未完成体",
+      "meaning": "生产；制造；制定；培养；形成",
+      "perfective": "вы́работать",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вырабатывать",
+        "part_of_speech": "未",
+        "meaning_zh": "生产；制造；拟订；培养",
+        "source_page": 52,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вырабатывать",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7920,
+      "accent": "выража́ть",
+      "part": "动词·未完成体",
+      "meaning": "表达；表示；表露；体现",
+      "perfective": "вы́разить",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "выражать",
+        "part_of_speech": "未",
+        "meaning_zh": "表达；表示；表露",
+        "source_page": 52,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выражать",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7921,
+      "accent": "выраже́ние",
+      "part": "名词·中性",
+      "meaning": "表达；表现；表情；说法；表达式",
+      "perfective": "",
+      "note": "表达式为数学等用法。",
+      "stage": 2,
+      "original": {
+        "word": "выражение",
+        "part_of_speech": "中",
+        "meaning_zh": "表达；表现；表情；说法",
+        "source_page": 52,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выражение",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7922,
+      "accent": "вырази́тельный",
+      "part": "形容词",
+      "meaning": "富有表现力的；生动的；意味深长的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "выразительный",
+        "part_of_speech": "形",
+        "meaning_zh": "富有表情的；生动的；鲜明的",
+        "source_page": 53,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выразительный",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7923,
+      "accent": "выраста́ть",
+      "part": "动词·未完成体",
+      "meaning": "长大；成长；发展成为；增长",
+      "perfective": "вы́расти",
+      "note": "不及物；区别выращивать养大。",
+      "stage": 1,
+      "original": {
+        "word": "вырастать",
+        "part_of_speech": "未",
+        "meaning_zh": "成长；长大；发展成为",
+        "source_page": 53,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вырастать",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7924,
+      "accent": "выра́щивать",
+      "part": "动词·未完成体",
+      "meaning": "养大；培育；种植",
+      "perfective": "вы́растить",
+      "note": "及物，作用于被培养对象。",
+      "stage": 2,
+      "original": {
+        "word": "выращивать",
+        "part_of_speech": "未",
+        "meaning_zh": "养大；培养；种植",
+        "source_page": 53,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выращивать",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7925,
+      "accent": "выруча́ть",
+      "part": "动词·未完成体",
+      "meaning": "解救；帮助摆脱困难；卖得款项",
+      "perfective": "вы́ручить",
+      "note": "卖得的钱不等于扣除成本后的利润。",
+      "stage": 2,
+      "original": {
+        "word": "выручать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "救出；搭救；赚得；获得（钱）",
+        "source_page": 53,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выручать",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=53",
+        "未完成体；卖得款项不一定是净利润。"
+      ]
+    },
+    {
+      "id": 7926,
+      "accent": "выска́зывать",
+      "part": "动词·未完成体",
+      "meaning": "说出；表达",
+      "perfective": "вы́сказать",
+      "note": "常用于意见、想法等。",
+      "stage": 2,
+      "original": {
+        "word": "высказывать",
+        "part_of_speech": "未",
+        "meaning_zh": "说出；表达",
+        "source_page": 53,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "высказывать",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7927,
+      "accent": "выска́кивать",
+      "part": "动词·未完成体",
+      "meaning": "跳出；蹦出；掉出；脱落",
+      "perfective": "вы́скочить",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "выскакивать",
+        "part_of_speech": "未",
+        "meaning_zh": "蹦出；跳出；掉出；脱落",
+        "source_page": 53,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выскакивать",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7928,
+      "accent": "высо́кий",
+      "part": "形容词",
+      "meaning": "高的；高大的；高水平的；高尚的；高音的",
+      "perfective": "",
+      "note": "具体义依名词，如высокая температура高温。",
+      "stage": 1,
+      "original": {
+        "word": "высокий",
+        "part_of_speech": null,
+        "meaning_zh": "高的；高大的；高级的；高质量的；高程度的",
+        "source_page": 53,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "высокий",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=53",
+        "原形容词，旧词性为空；补音调高义。"
+      ]
+    },
+    {
+      "id": 7929,
+      "accent": "высота́",
+      "part": "名词·阴性",
+      "meaning": "高度；高处；高空；高地；水平",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "высота",
+        "part_of_speech": "阴",
+        "meaning_zh": "高度；高处；高空；高地；水平",
+        "source_page": 53,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "высота",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7930,
+      "accent": "вы́ставка",
+      "part": "名词·阴性",
+      "meaning": "展览；展览会；陈列馆",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "выставка",
+        "part_of_speech": "阴",
+        "meaning_zh": "展览；展览会；陈列馆",
+        "source_page": 54,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выставка",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7931,
+      "accent": "вы́стрел",
+      "part": "名词·阳性",
+      "meaning": "一次射击；开枪；开炮；枪炮声",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "выстрел",
+        "part_of_speech": "阳",
+        "meaning_zh": "枪声；炮声；射击；发射",
+        "source_page": 54,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выстрел",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7932,
+      "accent": "выступа́ть",
+      "part": "动词·未完成体",
+      "meaning": "走出；出现；渗出；发言；表演；主张",
+      "perfective": "вы́ступить",
+      "note": "за表示支持，против表示反对；突出的静态义不强配。",
+      "stage": 2,
+      "original": {
+        "word": "выступать",
+        "part_of_speech": "未",
+        "meaning_zh": "走出来；出现；冒出；发表（意见、讲话等）",
+        "source_page": 54,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выступать",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=54",
+        "补演讲、表演、主张与反对用法。"
+      ]
+    },
+    {
+      "id": 7933,
+      "accent": "выступле́ние",
+      "part": "名词·中性",
+      "meaning": "发言；演讲；演出；出发；行动",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "выступление",
+        "part_of_speech": "中",
+        "meaning_zh": "演出；发言；出发",
+        "source_page": 54,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выступление",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7934,
+      "accent": "вы́сший",
+      "part": "形容词",
+      "meaning": "最高的；高级的；高等的",
+      "perfective": "",
+      "note": "如высшее образование高等教育。",
+      "stage": 2,
+      "original": {
+        "word": "высший",
+        "part_of_speech": "形",
+        "meaning_zh": "最高的；高级的；最高质量的",
+        "source_page": 54,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "высший",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7935,
+      "accent": "высыпа́ться",
+      "part": "动词·未完成体",
+      "meaning": "撒出；散落出来；睡足",
+      "perfective": "",
+      "note": "撒出对应вы́сыпаться；睡足对应вы́спаться。两个义项不能共用一个体对。",
+      "stage": 2,
+      "original": {
+        "word": "высыпаться",
+        "part_of_speech": "未",
+        "meaning_zh": "倒出；撒出；睡足",
+        "source_page": 54,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "высыпаться",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=54",
+        "原页本条为散物撒出；旧数据同时含睡足义，体对分别注明，不能混配。"
+      ]
+    },
+    {
+      "id": 7936,
+      "accent": "выта́скивать",
+      "part": "动词·未完成体",
+      "meaning": "拉出；拖出；掏出",
+      "perfective": "вы́тащить",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вытаскивать",
+        "part_of_speech": "未",
+        "meaning_zh": "拉出；拖出；搬到外面",
+        "source_page": 54,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вытаскивать",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7937,
+      "accent": "вытира́ть",
+      "part": "动词·未完成体",
+      "meaning": "擦；擦干；擦掉；磨破",
+      "perfective": "вы́тереть",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "вытирать",
+        "part_of_speech": "未",
+        "meaning_zh": "擦；擦干；擦掉；磨损",
+        "source_page": 54,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вытирать",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7938,
+      "accent": "выу́чивать",
+      "part": "动词·未完成体",
+      "meaning": "学会；学熟；背熟；教会",
+      "perfective": "вы́учить",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "выучивать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "教会；使学会；学会；背熟",
+        "source_page": 54,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выучивать",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=54",
+        "未完成体；教会、学会、背熟均有。"
+      ]
+    },
+    {
+      "id": 7939,
+      "accent": "вы́ход",
+      "part": "名词·阳性",
+      "meaning": "出去；出口；出路",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "выход",
+        "part_of_speech": "阳",
+        "meaning_zh": "出去；离开；出口；摆脱困难的方法",
+        "source_page": 54,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выход",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7940,
+      "accent": "выходи́ть",
+      "part": "动词·未完成体",
+      "meaning": "走出；出来；朝向；出版；产生结果",
+      "perfective": "вы́йти",
+      "note": "配对适用走出等动作；朝向为状态，выходить замуж为结婚嫁人。",
+      "stage": 1,
+      "original": {
+        "word": "выходить",
+        "part_of_speech": "未",
+        "meaning_zh": "走出；朝向；出版；出嫁；出身于；取得结果",
+        "source_page": 55,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выходить",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=55",
+        "出嫁需замуж、朝向是状态；不让一个体对覆盖所有意义。"
+      ]
+    },
+    {
+      "id": 7941,
+      "accent": "выходно́й",
+      "part": "形容词／名词",
+      "meaning": "外出穿的；休息日的；休息日",
+      "perfective": "",
+      "note": "休息日为名词化用法。",
+      "stage": 1,
+      "original": {
+        "word": "выходной",
+        "part_of_speech": "形",
+        "meaning_zh": "出门穿的；节日穿的；休息日；假日",
+        "source_page": 55,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выходной",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7942,
+      "accent": "вычисли́тельный",
+      "part": "形容词",
+      "meaning": "计算的；用于计算的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вычислительный",
+        "part_of_speech": "形",
+        "meaning_zh": "计算的；用于计算的",
+        "source_page": 55,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вычислительный",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7943,
+      "accent": "выясня́ть",
+      "part": "动词·未完成体",
+      "meaning": "查明；弄清",
+      "perfective": "вы́яснить",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "выяснять",
+        "part_of_speech": "未",
+        "meaning_zh": "查明；弄清；查清情况",
+        "source_page": 55,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "выяснять",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7944,
+      "accent": "вяза́ть",
+      "part": "动词·未完成体",
+      "meaning": "捆；绑；编织",
+      "perfective": "связа́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "вязать",
+        "part_of_speech": "未",
+        "meaning_zh": "捆；绑；系；编织",
+        "source_page": 55,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "вязать",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7945,
+      "accent": "газ",
+      "part": "名词·阳性",
+      "meaning": "气体；燃气；煤气；天然气",
+      "perfective": "",
+      "note": "具体气种由语境限定。",
+      "stage": 1,
+      "original": {
+        "word": "газ",
+        "part_of_speech": "阳",
+        "meaning_zh": "气；气体；瓦斯",
+        "source_page": 55,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "газ",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7946,
+      "accent": "газе́та",
+      "part": "名词·阴性",
+      "meaning": "报纸；报",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "газета",
+        "part_of_speech": "阴",
+        "meaning_zh": "报纸；报",
+        "source_page": 55,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "газета",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7947,
+      "accent": "га́лстук",
+      "part": "名词·阳性",
+      "meaning": "领带；领巾",
+      "perfective": "",
+      "note": "领结常说галстук-бабочка。",
+      "stage": 1,
+      "original": {
+        "word": "галстук",
+        "part_of_speech": "阳",
+        "meaning_zh": "领带；领结",
+        "source_page": 55,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "галстук",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7948,
+      "accent": "га́снуть",
+      "part": "动词·未完成体",
+      "meaning": "熄灭；渐暗；减弱",
+      "perfective": "пога́снуть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "гаснуть",
+        "part_of_speech": "未",
+        "meaning_zh": "逐渐熄灭；熄灭",
+        "source_page": 55,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гаснуть",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7949,
+      "accent": "гастроно́м",
+      "part": "名词·阳性",
+      "meaning": "食品店；美食家",
+      "perfective": "",
+      "note": "食品店义和讲究饮食者义按上下文区分。",
+      "stage": 2,
+      "original": {
+        "word": "гастроном",
+        "part_of_speech": "阳",
+        "meaning_zh": "食品店；食品商店",
+        "source_page": 55,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гастроном",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7950,
+      "accent": "гва́рдия",
+      "part": "名词·阴性",
+      "meaning": "近卫军；卫队",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "гвардия",
+        "part_of_speech": "阴",
+        "meaning_zh": "近卫军；近卫队",
+        "source_page": 56,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гвардия",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7951,
+      "accent": "гвоздь",
+      "part": "名词·阳性",
+      "meaning": "钉子",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "гвоздь",
+        "part_of_speech": "阳",
+        "meaning_zh": "钉子；钉",
+        "source_page": 56,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гвоздь",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7952,
+      "accent": "где́-нибудь",
+      "part": "副词",
+      "meaning": "在某个地方；随便在什么地方",
+      "perfective": "",
+      "note": "地点不确定或任意；不直接等同于到处。",
+      "stage": 1,
+      "original": {
+        "word": "гдё-нибудь",
+        "part_of_speech": "副",
+        "meaning_zh": "无论在哪里；在任何地方",
+        "source_page": 56,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "где-нибудь",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=56",
+        "где-нибудь用е；不确定地点与任意地点按语境，不简单等于无论哪里。"
+      ]
+    },
+    {
+      "id": 7953,
+      "accent": "где́-то",
+      "part": "副词",
+      "meaning": "在某处；不知在哪儿；大约",
+      "perfective": "",
+      "note": "大约为口语用法。",
+      "stage": 1,
+      "original": {
+        "word": "гдё-то",
+        "part_of_speech": "副",
+        "meaning_zh": "在某处；不知在哪里",
+        "source_page": 56,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "где-то",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=56",
+        "где-то原词е，表示某处。"
+      ]
+    },
+    {
+      "id": 7954,
+      "accent": "генера́л",
+      "part": "名词·阳性",
+      "meaning": "将军",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "генерал",
+        "part_of_speech": "阳",
+        "meaning_zh": "将军",
+        "source_page": 56,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "генерал",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7955,
+      "accent": "генера́льный",
+      "part": "形容词",
+      "meaning": "总的；主要的；首席的；全面的",
+      "perfective": "",
+      "note": "генеральная уборка为大扫除。",
+      "stage": 2,
+      "original": {
+        "word": "генеральный",
+        "part_of_speech": "形",
+        "meaning_zh": "总的；主要的；首席的",
+        "source_page": 56,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "генеральный",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    },
+    {
+      "id": 7956,
+      "accent": "геогра́фия",
+      "part": "名词·阴性",
+      "meaning": "地理；地理学",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "география",
+        "part_of_speech": "阴",
+        "meaning_zh": "地理；地理学",
+        "source_page": 56,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "география",
+      "method": "2026-09-13当前助手逐词审核专四原页52至56，核重音、词性、核心词义和体对，不套用批量е/ё替换。",
+      "evidence": []
+    }
+  ]
+}

@@ -1,0 +1,653 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 7957,
+      "accent": "гео́лог",
+      "part": "名词·阳性",
+      "meaning": "地质学家；地质工作者",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "геолог",
+        "part_of_speech": "阳",
+        "meaning_zh": "地质学家",
+        "source_page": 56,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "геолог",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7958,
+      "accent": "геоло́гия",
+      "part": "名词·阴性",
+      "meaning": "地质学",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "геология",
+        "part_of_speech": "阴",
+        "meaning_zh": "地质学",
+        "source_page": 56,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "геология",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7959,
+      "accent": "герб",
+      "part": "名词·阳性",
+      "meaning": "纹章；徽章；国徽",
+      "perfective": "",
+      "note": "国徽是具体用法，也可指城市或家族纹章。",
+      "stage": 2,
+      "original": {
+        "word": "герб",
+        "part_of_speech": "阳",
+        "meaning_zh": "徽章；国徽",
+        "source_page": 56,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "герб",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7960,
+      "accent": "герои́зм",
+      "part": "名词·阳性",
+      "meaning": "英勇精神；英雄主义",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "героизм",
+        "part_of_speech": "阳",
+        "meaning_zh": "英勇精神；英雄主义",
+        "source_page": 56,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "героизм",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7961,
+      "accent": "герои́ческий",
+      "part": "形容词",
+      "meaning": "英雄的；英勇的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "героический",
+        "part_of_speech": "形",
+        "meaning_zh": "英雄的；英勇的",
+        "source_page": 56,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "героический",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7962,
+      "accent": "геро́й",
+      "part": "名词·阳性",
+      "meaning": "英雄；勇士；主人公；主角",
+      "perfective": "",
+      "note": "主人公义用于作品人物。",
+      "stage": 1,
+      "original": {
+        "word": "герой",
+        "part_of_speech": "阳",
+        "meaning_zh": "英雄；勇士",
+        "source_page": 56,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "герой",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=56",
+        "原页第二义文学作品主人公，旧释缺失。"
+      ]
+    },
+    {
+      "id": 7963,
+      "accent": "ги́бель",
+      "part": "名词·阴性",
+      "meaning": "死亡；毁灭；覆灭",
+      "perfective": "",
+      "note": "死亡义常指灾祸、战争等造成的死亡。",
+      "stage": 2,
+      "original": {
+        "word": "гибель",
+        "part_of_speech": "阴",
+        "meaning_zh": "覆灭；毁灭；死亡",
+        "source_page": 56,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гибель",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7964,
+      "accent": "гига́нтский",
+      "part": "形容词",
+      "meaning": "巨大的；庞大的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "гигантский",
+        "part_of_speech": "形",
+        "meaning_zh": "庞大的；巨大的",
+        "source_page": 57,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гигантский",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7965,
+      "accent": "гигие́на",
+      "part": "名词·阴性",
+      "meaning": "卫生；卫生学；卫生措施",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "гигиена",
+        "part_of_speech": "阴",
+        "meaning_zh": "卫生；卫生学；卫生措施",
+        "source_page": 57,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гигиена",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7966,
+      "accent": "гимн",
+      "part": "名词·阳性",
+      "meaning": "颂歌；赞歌；国歌",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "гимн",
+        "part_of_speech": "阳",
+        "meaning_zh": "颂歌；国歌",
+        "source_page": 57,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гимн",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7967,
+      "accent": "гимна́стика",
+      "part": "名词·阴性",
+      "meaning": "体操；健身操",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "гимнастика",
+        "part_of_speech": "阴",
+        "meaning_zh": "体操；体育操练",
+        "source_page": 57,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гимнастика",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7968,
+      "accent": "гита́ра",
+      "part": "名词·阴性",
+      "meaning": "吉他",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "гитара",
+        "part_of_speech": "阴",
+        "meaning_zh": "吉他",
+        "source_page": 57,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гитара",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7969,
+      "accent": "ги́тлеровский",
+      "part": "形容词",
+      "meaning": "希特勒的；希特勒政权的",
+      "perfective": "",
+      "note": "历史用语。",
+      "stage": 3,
+      "original": {
+        "word": "гитлеровский",
+        "part_of_speech": "形",
+        "meaning_zh": "希特勒的",
+        "source_page": 57,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гитлеровский",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7970,
+      "accent": "глава́",
+      "part": "名词·按义分性",
+      "meaning": "章；篇；首脑；领导人",
+      "perfective": "",
+      "note": "章节义阴性；领导人义可指男性或女性，搭配依所指人物。",
+      "stage": 2,
+      "original": {
+        "word": "глава",
+        "part_of_speech": "阴",
+        "meaning_zh": "章；首脑；首长；领导人",
+        "source_page": 57,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "глава",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=57",
+        "首脑义阳及阴；章节义阴性，不应全标阴性。"
+      ]
+    },
+    {
+      "id": 7971,
+      "accent": "гла́вный",
+      "part": "形容词",
+      "meaning": "主要的；首要的；主管的",
+      "perfective": "",
+      "note": "главное名词化可指最重要的事。",
+      "stage": 1,
+      "original": {
+        "word": "главный",
+        "part_of_speech": "形",
+        "meaning_zh": "主要的；首要的；主要事情",
+        "source_page": 57,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "главный",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7972,
+      "accent": "гла́дить",
+      "part": "动词·未完成体",
+      "meaning": "抚摸；熨；熨平",
+      "perfective": "",
+      "note": "抚摸对应погла́дить，熨平可用вы́гладить或погла́дить，依对象与结果。",
+      "stage": 1,
+      "original": {
+        "word": "гладить",
+        "part_of_speech": "Ж",
+        "meaning_zh": "抚摸；熨平；使平整",
+        "source_page": 57,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гладить",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=57",
+        "抚摸与熨平需分体对；原标未。"
+      ]
+    },
+    {
+      "id": 7973,
+      "accent": "глаз",
+      "part": "名词·阳性",
+      "meaning": "眼睛；眼力",
+      "perfective": "",
+      "note": "看法须结合в глазах等搭配，不作裸词通用义。",
+      "stage": 1,
+      "original": {
+        "word": "глаз",
+        "part_of_speech": "阳",
+        "meaning_zh": "眼睛；眼神；看法",
+        "source_page": 57,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "глаз",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=57",
+        "眼神及看法多来自搭配，裸词保留眼睛和眼力。"
+      ]
+    },
+    {
+      "id": 7974,
+      "accent": "глота́ть",
+      "part": "动词·未完成体",
+      "meaning": "吞；咽；贪婪地读或听",
+      "perfective": "глотну́ть",
+      "note": "配对限吞咽一次；比喻义不强配该一次动词。",
+      "stage": 2,
+      "original": {
+        "word": "глотать",
+        "part_of_speech": "未",
+        "meaning_zh": "吞咽；贪婪地读；贪婪地听",
+        "source_page": 57,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "глотать",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=58",
+        "贪婪阅读为比喻用法，标注避免与普通吞咽混淆。"
+      ]
+    },
+    {
+      "id": 7975,
+      "accent": "глубина́",
+      "part": "名词·阴性",
+      "meaning": "深度；深处；深刻性",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "глубина",
+        "part_of_speech": "阴",
+        "meaning_zh": "深度；深处；深刻性",
+        "source_page": 58,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "глубина",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7976,
+      "accent": "глубо́кий",
+      "part": "形容词",
+      "meaning": "深的；深入的；深刻的；深重的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "глубокий",
+        "part_of_speech": "形",
+        "meaning_zh": "深的；深远的；深刻的",
+        "source_page": 58,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "глубокий",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7977,
+      "accent": "глу́пость",
+      "part": "名词·阴性",
+      "meaning": "愚蠢；蠢事；愚蠢的想法",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "глупость",
+        "part_of_speech": "阴",
+        "meaning_zh": "愚蠢；愚蠢的行为或想法",
+        "source_page": 58,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "глупость",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7978,
+      "accent": "глу́пый",
+      "part": "形容词",
+      "meaning": "愚蠢的；愚笨的；糊涂的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "глупый",
+        "part_of_speech": "形",
+        "meaning_zh": "愚笨的；愚蠢的；糊涂的",
+        "source_page": 58,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "глупый",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7979,
+      "accent": "глухо́й",
+      "part": "形容词",
+      "meaning": "聋的；低沉的；寂静的；偏僻的；不透的",
+      "perfective": "",
+      "note": "глухой согласный为清辅音；具体义依名词。",
+      "stage": 2,
+      "original": {
+        "word": "глухой",
+        "part_of_speech": "形",
+        "meaning_zh": "聋的；低沉的；寂静的；偏僻的",
+        "source_page": 58,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "глухой",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7980,
+      "accent": "гляде́ть",
+      "part": "动词·未完成体",
+      "meaning": "看；望；注视；看待",
+      "perfective": "погляде́ть",
+      "note": "完成体可指看一看；глянуть强调瞥一眼。",
+      "stage": 1,
+      "original": {
+        "word": "глядеть",
+        "part_of_speech": "未",
+        "meaning_zh": "看；望；注视",
+        "source_page": 58,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "глядеть",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7981,
+      "accent": "гнать",
+      "part": "动词·未完成体",
+      "meaning": "赶；驱赶；驱逐；催赶",
+      "perfective": "",
+      "note": "不强配погнать开始赶作为所有义的完成体。",
+      "stage": 2,
+      "original": {
+        "word": "гнать",
+        "part_of_speech": "未",
+        "meaning_zh": "赶；驱赶；驱逐",
+        "source_page": 58,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гнать",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7982,
+      "accent": "гнев",
+      "part": "名词·阳性",
+      "meaning": "愤怒；怒气",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "гнев",
+        "part_of_speech": "阳",
+        "meaning_zh": "愤怒；气愤",
+        "source_page": 58,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гнев",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7983,
+      "accent": "гнёт",
+      "part": "名词·阳性",
+      "meaning": "压迫；重压；压东西的重物",
+      "perfective": "",
+      "note": "本条名词，区别гнуть的动词形式гнёт。",
+      "stage": 2,
+      "original": {
+        "word": "гнёт",
+        "part_of_speech": "阳",
+        "meaning_zh": "压迫；压制",
+        "source_page": 58,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гнёт",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7985,
+      "accent": "говори́ться",
+      "part": "动词·未完成体",
+      "meaning": "被说出；被讲述；说起来",
+      "perfective": "",
+      "note": "как говорится常言道；如легко говорится表示说起来容易。",
+      "stage": 2,
+      "original": {
+        "word": "говориться",
+        "part_of_speech": "未",
+        "meaning_zh": "被说起；被讲述；说出来",
+        "source_page": 59,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "говориться",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=59",
+        "说来如何及作品被讲述两用；不强配通用完成体。"
+      ]
+    },
+    {
+      "id": 7987,
+      "accent": "годи́ться",
+      "part": "动词·未完成体",
+      "meaning": "适合；适用；合适",
+      "perfective": "",
+      "note": "пригодиться表示派上用场，不充当一切适合状态的体对。",
+      "stage": 2,
+      "original": {
+        "word": "годиться",
+        "part_of_speech": "未",
+        "meaning_zh": "适合；适用；合适",
+        "source_page": 59,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "годиться",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    },
+    {
+      "id": 7988,
+      "accent": "годовщи́на",
+      "part": "名词·阴性",
+      "meaning": "周年；周年纪念日",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "годовщина",
+        "part_of_speech": "阴",
+        "meaning_zh": "周年纪念日；周年",
+        "source_page": 59,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "годовщина",
+      "method": "2026-09-13当前助手逐词核验专四原页56至59，重点核同形词性、常用义项与动词体适用范围。",
+      "evidence": []
+    }
+  ]
+}
