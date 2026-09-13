@@ -758,125 +758,16 @@ def api_word_status(
     with db() as conn:
         user = ensure_user_exists(conn, user_id)
         if exam_system_code == 'GENERAL':
-            return {"user": public_user(user), **vocabulary.general_status(conn, user_id)}
-        exam_system_id, level_id = fetch_ids(conn, exam_system_code, level_code)
-        total = conn.execute(
-            """
-            SELECT COUNT(*) FROM vocabulary_items
-            WHERE review_status = 'approved' AND exam_system_id = ? AND level_id = ?
-            """,
-            (exam_system_id, level_id),
-        ).fetchone()[0]
-        progress_total = conn.execute(
-            """
-            SELECT COUNT(*) FROM user_word_progress uwp
-            JOIN vocabulary_items vi ON vi.id = uwp.vocabulary_item_id
-            WHERE uwp.user_id = ? AND vi.exam_system_id = ? AND vi.level_id = ?
-            """,
-            (user_id, exam_system_id, level_id),
-        ).fetchone()[0]
-        reviewed_today = conn.execute(
-            """
-            SELECT COUNT(DISTINCT wrl.vocabulary_item_id)
-            FROM word_review_logs wrl
-            JOIN vocabulary_items vi ON vi.id = wrl.vocabulary_item_id
-            WHERE wrl.user_id = ?
-              AND vi.exam_system_id = ? AND vi.level_id = ?
-              AND date(wrl.reviewed_at) = date('now', 'localtime')
-            """,
-            (user_id, exam_system_id, level_id),
-        ).fetchone()[0]
-        due_count = conn.execute(
-            """
-            SELECT COUNT(*)
-            FROM user_word_progress uwp
-            JOIN vocabulary_items vi ON vi.id = uwp.vocabulary_item_id
-            WHERE uwp.user_id = ?
-              AND vi.exam_system_id = ? AND vi.level_id = ?
-              AND uwp.next_review_at IS NOT NULL
-              AND datetime(uwp.next_review_at) <= datetime('now', 'localtime')
-            """,
-            (user_id, exam_system_id, level_id),
-        ).fetchone()[0]
-        review_pool_count = conn.execute(
-            """
-            SELECT COUNT(*)
-            FROM user_word_progress uwp
-            JOIN vocabulary_items vi ON vi.id = uwp.vocabulary_item_id
-            WHERE uwp.user_id = ?
-              AND vi.exam_system_id = ? AND vi.level_id = ?
-              AND uwp.status IN ('learning', 'fuzzy')
-              AND uwp.next_review_at IS NOT NULL
-            """,
-            (user_id, exam_system_id, level_id),
-        ).fetchone()[0]
-        by_status = {
-            row["status"]: row["count"]
-            for row in conn.execute(
-                """
-                SELECT uwp.status, COUNT(*) AS count
-                FROM user_word_progress uwp
-                JOIN vocabulary_items vi ON vi.id = uwp.vocabulary_item_id
-                WHERE uwp.user_id = ?
-                  AND vi.exam_system_id = ? AND vi.level_id = ?
-                GROUP BY uwp.status
-                """,
-                (user_id, exam_system_id, level_id),
-            ).fetchall()
-        }
-    return {
-        "user": public_user(user),
-        "total_words": total,
-        "new_count": max(total - progress_total, 0),
-        "progress_total": progress_total,
-        "reviewed_today": reviewed_today,
-        "due_count": due_count,
-        "review_pool_count": review_pool_count,
-        "by_status": [
-            {
-                "status": status,
-                "name_zh": WORD_STATUS_NAMES[status],
-                "count": int(by_status.get(status, 0)),
-            }
-            for status in ["learning", "fuzzy", "known"]
-        ],
-    }
+            status = vocabulary.general_status(conn, user_id)
+        else:
+            exam_id, level_id = fetch_ids(conn, exam_system_code, level_code)
+            status = vocabulary.pool_status(vocabulary.exam_rows(conn, user_id, exam_id, level_id))
+        return {"user": public_user(user), **status}
 
 
-def select_review_pool_rows(
-    conn: sqlite3.Connection,
-    user_id: int,
-    count: int,
-    exam_system_id: int,
-    level_id: int,
-) -> list[sqlite3.Row]:
-    return conn.execute(
-        """
-        SELECT
-          vi.id, vi.word, vi.lemma, vi.part_of_speech, vi.meaning_zh, vi.source_page,
-          uwp.status AS progress_status, uwp.seen_count, uwp.correct_count, uwp.wrong_count,
-          uwp.next_review_at,
-          (
-            SELECT group_concat(vf.form_text, char(10))
-            FROM vocabulary_forms vf
-            WHERE vf.vocabulary_item_id = vi.id AND vf.form_type = 'example'
-          ) AS examples
-        FROM user_word_progress uwp
-        JOIN vocabulary_items vi ON vi.id = uwp.vocabulary_item_id
-        WHERE uwp.user_id = ?
-          AND vi.review_status = 'approved'
-          AND vi.exam_system_id = ? AND vi.level_id = ?
-          AND uwp.status IN ('learning', 'fuzzy')
-          AND uwp.next_review_at IS NOT NULL
-        ORDER BY
-          CASE WHEN datetime(uwp.next_review_at) <= datetime('now', 'localtime') THEN 0 ELSE 1 END,
-          datetime(uwp.next_review_at),
-          uwp.wrong_count DESC,
-          RANDOM()
-        LIMIT ?
-        """,
-        (user_id, exam_system_id, level_id, count),
-    ).fetchall()
+def select_review_pool_rows(conn, user_id, count, exam_system_id, level_id):
+    rows = vocabulary.exam_rows(conn, user_id, exam_system_id, level_id)
+    return vocabulary.select_exam_rows(rows, count, review_only=True)
 
 
 def api_word_review_pool(
@@ -891,122 +782,18 @@ def api_word_review_pool(
         if exam_system_code == 'GENERAL':
             status = vocabulary.general_status(conn, user_id)
             rows = vocabulary.select_general_rows(conn, user_id, limit, review_only=True)
-            return dict(user=public_user(user), total=status['review_pool_count'],
-                        due_count=status['due_count'], words=[public_word(r, conn) for r in rows])
-        exam_system_id, level_id = fetch_ids(conn, exam_system_code, level_code)
-        total = conn.execute(
-            """
-            SELECT COUNT(*)
-            FROM user_word_progress uwp
-            JOIN vocabulary_items vi ON vi.id = uwp.vocabulary_item_id
-            WHERE uwp.user_id = ?
-              AND vi.exam_system_id = ? AND vi.level_id = ?
-              AND uwp.status IN ('learning', 'fuzzy')
-              AND uwp.next_review_at IS NOT NULL
-            """,
-            (user_id, exam_system_id, level_id),
-        ).fetchone()[0]
-        due_count = conn.execute(
-            """
-            SELECT COUNT(*)
-            FROM user_word_progress uwp
-            JOIN vocabulary_items vi ON vi.id = uwp.vocabulary_item_id
-            WHERE uwp.user_id = ?
-              AND vi.exam_system_id = ? AND vi.level_id = ?
-              AND uwp.status IN ('learning', 'fuzzy')
-              AND uwp.next_review_at IS NOT NULL
-              AND datetime(uwp.next_review_at) <= datetime('now', 'localtime')
-            """,
-            (user_id, exam_system_id, level_id),
-        ).fetchone()[0]
-        rows = select_review_pool_rows(conn, user_id, limit, exam_system_id, level_id)
-        words = [public_word(row, conn) for row in rows]
-    return {
-        "user": public_user(user),
-        "total": total,
-        "due_count": due_count,
-        "words": words,
-    }
+        else:
+            exam_id, level_id = fetch_ids(conn, exam_system_code, level_code)
+            eligible = vocabulary.exam_rows(conn, user_id, exam_id, level_id)
+            status = vocabulary.pool_status(eligible)
+            rows = vocabulary.select_exam_rows(eligible, limit, review_only=True)
+        return dict(user=public_user(user), total=status['review_pool_count'],
+                    due_count=status['due_count'], words=[public_word(r, conn) for r in rows])
 
 
-def select_word_rows(
-    conn: sqlite3.Connection,
-    user_id: int,
-    count: int,
-    exam_system_id: int,
-    level_id: int,
-) -> list[sqlite3.Row]:
-    selected: list[sqlite3.Row] = []
-    due_rows = conn.execute(
-        """
-        SELECT
-          vi.id, vi.word, vi.lemma, vi.part_of_speech, vi.meaning_zh, vi.source_page,
-          uwp.status AS progress_status, uwp.seen_count, uwp.correct_count, uwp.wrong_count,
-          uwp.next_review_at,
-          (
-            SELECT group_concat(vf.form_text, char(10))
-            FROM vocabulary_forms vf
-            WHERE vf.vocabulary_item_id = vi.id AND vf.form_type = 'example'
-          ) AS examples
-        FROM user_word_progress uwp
-        JOIN vocabulary_items vi ON vi.id = uwp.vocabulary_item_id
-        WHERE uwp.user_id = ?
-          AND vi.review_status = 'approved'
-          AND vi.exam_system_id = ? AND vi.level_id = ?
-          AND uwp.next_review_at IS NOT NULL
-          AND datetime(uwp.next_review_at) <= datetime('now', 'localtime')
-          AND NOT EXISTS (
-            SELECT 1
-            FROM word_review_logs wrl
-            WHERE wrl.user_id = uwp.user_id
-              AND wrl.vocabulary_item_id = uwp.vocabulary_item_id
-              AND date(wrl.reviewed_at) = date('now', 'localtime')
-          )
-        ORDER BY datetime(uwp.next_review_at), uwp.wrong_count DESC, RANDOM()
-        LIMIT ?
-        """,
-        (user_id, exam_system_id, level_id, count),
-    ).fetchall()
-    selected.extend(due_rows)
-
-    remaining = count - len(selected)
-    if remaining <= 0:
-        return selected
-    selected_ids = [int(row["id"]) for row in selected]
-    selected_filter = ""
-    params: list[Any] = [user_id, exam_system_id, level_id]
-    if selected_ids:
-        selected_filter = f"AND vi.id NOT IN ({', '.join('?' for _ in selected_ids)})"
-        params.extend(selected_ids)
-    params.append(remaining)
-    new_rows = conn.execute(
-        f"""
-        SELECT
-          vi.id, vi.word, vi.lemma, vi.part_of_speech, vi.meaning_zh, vi.source_page,
-          NULL AS progress_status, 0 AS seen_count, 0 AS correct_count, 0 AS wrong_count,
-          NULL AS next_review_at,
-          (
-            SELECT group_concat(vf.form_text, char(10))
-            FROM vocabulary_forms vf
-            WHERE vf.vocabulary_item_id = vi.id AND vf.form_type = 'example'
-          ) AS examples
-        FROM vocabulary_items vi
-        LEFT JOIN user_word_progress uwp
-          ON uwp.vocabulary_item_id = vi.id AND uwp.user_id = ?
-        WHERE vi.review_status = 'approved'
-          AND vi.exam_system_id = ? AND vi.level_id = ?
-          AND uwp.id IS NULL
-          {selected_filter}
-        ORDER BY
-          CASE WHEN vi.frequency_rank IS NULL THEN 1 ELSE 0 END,
-          vi.frequency_rank,
-          RANDOM()
-        LIMIT ?
-        """,
-        params,
-    ).fetchall()
-    selected.extend(new_rows)
-    return selected
+def select_word_rows(conn, user_id, count, exam_system_id, level_id):
+    rows = vocabulary.exam_rows(conn, user_id, exam_system_id, level_id)
+    return vocabulary.select_exam_rows(rows, count)
 
 
 def api_word_session(payload: dict[str, Any]) -> dict[str, Any]:
@@ -1087,7 +874,7 @@ def api_word_review(payload: dict[str, Any]) -> dict[str, Any]:
             """,
             (vocabulary_item_id, exam_system_id, level_id),
         ).fetchone()
-        if word is None:
+        if word is None or vocabulary.annotation(conn, word) is None:
             raise ValueError("没有找到这个已审核单词。")
 
         current = conn.execute(

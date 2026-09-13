@@ -80,6 +80,34 @@ def general_rows(conn, user_id):
     return valid
 
 
+def exam_rows(conn, user_id, exam_system_id, level_id):
+    return [r for r in general_rows(conn, user_id)
+            if r['exam_system_id'] == exam_system_id and r['level_id'] == level_id]
+
+
+def pool_status(rows):
+    progress = [r for r in rows if r['progress_status']]
+    reviews = [r for r in progress if r['progress_status'] in ('learning', 'fuzzy')
+               and r['next_review_at']]
+    return dict(total_words=len(rows), new_count=len(rows)-len(progress),
+                progress_total=len(progress), reviewed_today=sum(r['reviewed_today'] for r in rows),
+                due_count=sum(bool(r['is_due']) for r in reviews),
+                review_pool_count=len(reviews),
+                by_status=[dict(status=s, name_zh=n, count=sum(r['progress_status']==s for r in progress))
+                           for s,n in [('learning','不认识'),('fuzzy','模糊'),('known','认识')]])
+
+
+def select_exam_rows(rows, count, review_only=False):
+    reviews = [r for r in rows if r['progress_status'] in ('learning', 'fuzzy')
+               and r['next_review_at'] and (review_only or (r['is_due'] and not r['reviewed_today']))]
+    reviews.sort(key=lambda r: (not r['is_due'], r['next_review_at'], -(r['wrong_count'] or 0), r['id']))
+    if review_only:
+        return reviews[:count]
+    new = sorted([r for r in rows if not r['progress_status']],
+                 key=lambda r: (r['frequency_rank'] is None, r['frequency_rank'] or 0, r['id']))
+    return (reviews + new)[:count]
+
+
 def learning_profile(conn, user_id, rows=None):
     setting = conn.execute('SELECT * FROM user_vocabulary_settings WHERE user_id=?', (user_id,)).fetchone()
     start = setting['starting_stage'] if setting else 1
@@ -111,14 +139,7 @@ def general_status(conn, user_id):
     rows = general_rows(conn, user_id)
     profile = learning_profile(conn, user_id, rows)
     eligible = [r for r in rows if r['stage'] <= profile['current_stage'] or r['progress_status']]
-    progress = [r for r in eligible if r['progress_status']]
-    return dict(total_words=len(eligible), new_count=len(eligible)-len(progress),
-                progress_total=len(progress), reviewed_today=sum(r['reviewed_today'] for r in eligible),
-                due_count=sum(bool(r['is_due']) for r in progress),
-                review_pool_count=sum(r['progress_status'] in ('learning', 'fuzzy') for r in progress),
-                by_status=[dict(status=s, name_zh=n, count=sum(r['progress_status']==s for r in progress))
-                           for s,n in [('learning','不认识'),('fuzzy','模糊'),('known','认识')]],
-                learning_profile=profile, reviewed_catalog_total=len(rows))
+    return dict(**pool_status(eligible), learning_profile=profile, reviewed_catalog_total=len(rows))
 
 
 def select_general_rows(conn, user_id, count, review_only=False):

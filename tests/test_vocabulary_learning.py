@@ -37,6 +37,39 @@ class VocabularyLearningTests(unittest.TestCase):
         self.mock.stop()
         self.temp.cleanup()
 
+    def test_exam_pools_require_current_annotations_and_preserve_history(self):
+        for exam, level in [('TEM4_RU', 'TEM4'), ('TEM8_RU', 'TEM8')]:
+            with self.subTest(exam=exam):
+                payload = dict(user_id=self.user, exam_system=exam, level=level, count=50)
+                session = app.api_word_session(payload)
+                self.assertGreater(session['count'], 0)
+                self.assertTrue(all(w['accent'] for w in session['words']))
+                word_id = session['words'][0]['vocabulary_item_id']
+                app.api_word_review(dict(payload, vocabulary_item_id=word_id, result='fuzzy'))
+                before = app.api_word_status(self.user, exam, level)
+                self.assertEqual(app.api_word_review_pool(self.user, 200, exam, level)['total'], 1)
+                with app.db() as conn:
+                    saved = dict(conn.execute('SELECT * FROM vocabulary_learning_annotations WHERE vocabulary_item_id=?', (word_id,)).fetchone())
+                    conn.execute('DELETE FROM vocabulary_learning_annotations WHERE vocabulary_item_id=?', (word_id,))
+                after = app.api_word_status(self.user, exam, level)
+                self.assertEqual(after['total_words'], before['total_words']-1)
+                self.assertEqual(after['progress_total'], 0)
+                self.assertEqual(app.api_word_review_pool(self.user, 200, exam, level)['total'], 0)
+                self.assertNotIn(word_id, [w['vocabulary_item_id'] for w in app.api_word_session(payload)['words']])
+                with self.assertRaises(ValueError):
+                    app.api_word_review(dict(payload, vocabulary_item_id=word_id, result='known'))
+                with app.db() as conn:
+                    self.assertEqual(conn.execute('SELECT status FROM user_word_progress WHERE user_id=? AND vocabulary_item_id=?', (self.user, word_id)).fetchone()[0], 'fuzzy')
+                    conn.execute(f"INSERT INTO vocabulary_learning_annotations ({','.join(saved)}) VALUES ({','.join('?' for _ in saved)})", list(saved.values()))
+                self.assertEqual(app.api_word_review_pool(self.user, 200, exam, level)['total'], 1)
+                with app.db() as conn:
+                    conn.execute("UPDATE vocabulary_items SET meaning_zh='later manual correction' WHERE id=?", (word_id,))
+                self.assertEqual(app.api_word_status(self.user, exam, level)['total_words'], after['total_words'])
+                self.assertEqual(app.api_word_review_pool(self.user, 200, exam, level)['total'], 0)
+                with self.assertRaises(ValueError):
+                    app.api_word_review(dict(payload, vocabulary_item_id=word_id, result='known'))
+                self.assertEqual(app.api_word_status(self.other, exam, level)['progress_total'], 0)
+
     def test_single_correction_is_guarded_and_replayable(self):
         catalog = ROOT / 'data/review_samples/learning_batch_004_catalog.json'
         importer.apply_catalog(self.path, catalog, True, self.root / 'backups')

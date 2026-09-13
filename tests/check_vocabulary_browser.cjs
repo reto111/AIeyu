@@ -46,6 +46,10 @@ async function main() {
   await page.locator('#wordMeaning').waitFor();
   await page.locator('#nextWordBtn').click();
   assert.match(await page.locator('#wordText').innerText(), /\u0301/);
+  assert.equal(await page.locator('#prevWordBtn').isVisible(), true);
+  await page.locator('#prevWordBtn').click();
+  assert.equal(await page.locator('#wordText').innerText(), 'а');
+  await page.locator('#nextWordBtn').click();
   await page.locator('[data-word-result="known"]').click();
   await page.locator('#wordMeaning').waitFor();
   for (const width of [1440,390,320]) {
@@ -64,14 +68,30 @@ async function main() {
   const practiceBefore = await page.locator('#practiceTitle').innerText();
   await page.locator('[data-exam-system="TEM8_RU"][data-exam-scope="words"]').click();
   assert.equal(await page.locator('#practiceTitle').innerText(), practiceBefore);
+  for (const exam of ['TEM4_RU', 'TEM8_RU']) {
+    await page.locator(`[data-exam-system="${exam}"][data-exam-scope="words"]`).click();
+    const response = page.waitForResponse((r) => r.url().endsWith('/api/words/session'));
+    await page.locator('#startWordsBtn').click();
+    const session = await (await response).json();
+    assert.ok(session.words.length > 0);
+    assert.ok(session.words.every((w) => w.accent && w.meaning_zh));
+    await page.locator('#wordCard').waitFor();
+    await page.locator('[data-word-result="known"]').click();
+    await page.locator('#wordMeaning').waitFor();
+    await page.locator('#markWordWrongBtn').click();
+    await page.locator('#wordResultTag').filter({hasText:'不认识'}).waitFor();
+  }
   await page.locator('[data-exam-system="GENERAL"]').click();
   await page.locator('#generalStageInput').selectOption('3');
   await page.locator('#generalStageStatus').filter({hasText:'进阶'}).waitFor();
+  await page.waitForLoadState('networkidle');
   await page.reload();
   await page.locator('#generalStageStatus').filter({hasText:'进阶'}).waitFor();
   await page.locator('#startReviewWordsBtn').click();
   await page.locator('#wordCard').waitFor();
-  assert.equal(await page.locator('#wordText').innerText(), 'а');
+  assert.equal(await page.locator('#wordMeaning').isVisible(), false);
+  assert.ok((await page.locator('#wordText').innerText()).length > 0);
+  await page.waitForLoadState('networkidle');
   assert.deepEqual(errors, []);
   console.log(JSON.stringify({registration:true, grade:true, words:true, scopes:true, review:true,
     stage_saved:true, viewports:[1440,390,320], page_errors:errors, screenshots:out}));

@@ -725,7 +725,7 @@ function renderWordStatus(payload) {
   $("#wordStats").classList.remove("muted");
   $("#wordStats").innerHTML = `
     <div class="word-stat-grid">
-      <div><strong>${payload.total_words}</strong><span>正式词库</span></div>
+      <div><strong>${payload.total_words}</strong><span>当前可学</span></div>
       <div><strong>${payload.new_count}</strong><span>未开始</span></div>
       <div><strong>${payload.reviewed_today}</strong><span>今日打卡</span></div>
       <div><strong>${payload.due_count}</strong><span>待复习</span></div>
@@ -937,7 +937,9 @@ function renderCurrentWord() {
     `
     : "";
   $(".word-actions").classList.toggle("hidden", hasReviewed);
-  $(".word-nav").classList.toggle("hidden", !hasReviewed);
+  $(".word-nav").classList.toggle("hidden", !hasReviewed && state.currentWordIndex === 0);
+  $("#nextWordBtn").classList.toggle("hidden", !hasReviewed);
+  $("#markWordWrongBtn").classList.toggle("hidden", !hasReviewed);
   $("#wordHint").textContent = hasReviewed
     ? reviewHintForResult(word.session_result)
     : "";
