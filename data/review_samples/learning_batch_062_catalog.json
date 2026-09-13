@@ -1,0 +1,967 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8218,
+      "accent": "душ",
+      "part": "名词·阳性",
+      "meaning": "淋浴；淋浴器；莲蓬头",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "душ",
+        "part_of_speech": "阳",
+        "meaning_zh": "淋浴；淋浴器",
+        "source_page": 81,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "душ",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=81",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8219,
+      "accent": "душа́",
+      "part": "名词·阴性",
+      "meaning": "心灵；灵魂；心肠；性格；人；人口",
+      "perfective": "",
+      "note": "人、人口义常见于计量搭配，如на душу населения每人平均。",
+      "stage": 2,
+      "original": {
+        "word": "душа",
+        "part_of_speech": "阴",
+        "meaning_zh": "心灵；灵魂；心肠；性格；人口",
+        "source_page": 81,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "душа",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=81",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8220,
+      "accent": "дым",
+      "part": "名词·阳性",
+      "meaning": "烟；烟雾",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "дым",
+        "part_of_speech": "阳",
+        "meaning_zh": "烟；烟雾",
+        "source_page": 81,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дым",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=81",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8221,
+      "accent": "дыха́ние",
+      "part": "名词·中性",
+      "meaning": "呼吸；气息",
+      "perfective": "",
+      "note": "春天气息是搭配例子，不另立春天义项。",
+      "stage": 2,
+      "original": {
+        "word": "дыхание",
+        "part_of_speech": "中",
+        "meaning_zh": "呼吸；气息；春天的气息",
+        "source_page": 82,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дыхание",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=82",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8222,
+      "accent": "дыша́ть",
+      "part": "动词·未完成体",
+      "meaning": "呼吸；哈气；呼气",
+      "perfective": "",
+      "note": "不强配持续呼吸状态的唯一完成体。",
+      "stage": 1,
+      "original": {
+        "word": "дышать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "呼吸；哈气；呼气",
+        "source_page": 82,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дышать",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=82",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8223,
+      "accent": "дя́дя",
+      "part": "名词·阳性",
+      "meaning": "伯父；叔父；舅父；姑父；姨父；叔叔",
+      "perfective": "",
+      "note": "也作儿童对成年男子的称呼。",
+      "stage": 1,
+      "original": {
+        "word": "дядя",
+        "part_of_speech": "阳",
+        "meaning_zh": "伯父；叔父；舅父；姑父；姨父；叔叔",
+        "source_page": 82,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дядя",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=82",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8224,
+      "accent": "еда́",
+      "part": "名词·阴性",
+      "meaning": "食物；吃的东西；吃饭；进食",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "еда",
+        "part_of_speech": "阴",
+        "meaning_zh": "食物；吃饭；吃的东西",
+        "source_page": 82,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "еда",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=82",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8225,
+      "accent": "едини́ца",
+      "part": "名词·阴性",
+      "meaning": "数字一；单位；一个；一分（成绩）",
+      "perfective": "",
+      "note": "一分在常见五分制中为最低分。",
+      "stage": 2,
+      "original": {
+        "word": "единица",
+        "part_of_speech": "阮",
+        "meaning_zh": "一；单位；最低分",
+        "source_page": 82,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "единица",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=82",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8226,
+      "accent": "еди́нственный",
+      "part": "形容词",
+      "meaning": "唯一的；仅有的",
+      "perfective": "",
+      "note": "единственное число为语法单数，不泛译所有单一事物。",
+      "stage": 1,
+      "original": {
+        "word": "единственный",
+        "part_of_speech": null,
+        "meaning_zh": "唯一的；单一的",
+        "source_page": 82,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "единственный",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=82",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8227,
+      "accent": "еди́нство",
+      "part": "名词·中性",
+      "meaning": "一致；统一；团结；统一体",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "единство",
+        "part_of_speech": "中",
+        "meaning_zh": "一致；统一；团结；不可分离性",
+        "source_page": 82,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "единство",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=82",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8228,
+      "accent": "еди́ный",
+      "part": "形容词",
+      "meaning": "统一的；一致的；共同的；单一的",
+      "perfective": "",
+      "note": "区别единственный唯一的。",
+      "stage": 2,
+      "original": {
+        "word": "единый",
+        "part_of_speech": null,
+        "meaning_zh": "统一的；单一的",
+        "source_page": 82,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "единый",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=82",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8229,
+      "accent": "ежего́дный",
+      "part": "形容词",
+      "meaning": "每年的；一年一度的；按年的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "ежегодный",
+        "part_of_speech": "形",
+        "meaning_zh": "每年的；一年一度的",
+        "source_page": 83,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ежегодный",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=83",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8230,
+      "accent": "ежедне́вный",
+      "part": "形容词",
+      "meaning": "每日的；每天的；日常的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "ежедневный",
+        "part_of_speech": "形",
+        "meaning_zh": "每日的；按日的；日常的",
+        "source_page": 83,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ежедневный",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=83",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8231,
+      "accent": "езда́",
+      "part": "名词·阴性",
+      "meaning": "乘车等出行；骑乘；行驶",
+      "perfective": "",
+      "note": "不指一般步行。",
+      "stage": 2,
+      "original": {
+        "word": "езда",
+        "part_of_speech": "阴",
+        "meaning_zh": "乘车、乘船等出行；行驶",
+        "source_page": 83,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "езда",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=83",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8233,
+      "accent": "е́ле",
+      "part": "副词",
+      "meaning": "微微地；勉强地；好不容易地；几乎不",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "еле",
+        "part_of_speech": "副",
+        "meaning_zh": "微微；勉强地；好不容易地",
+        "source_page": 83,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "еле",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=83",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8234,
+      "accent": "ёлка",
+      "part": "名词·阴性",
+      "meaning": "云杉；新年树；圣诞树；新年或圣诞节儿童游艺会",
+      "perfective": "",
+      "note": "树种义为云杉，节日装饰树可有其他树种；保留ё。",
+      "stage": 1,
+      "original": {
+        "word": "ёлка",
+        "part_of_speech": "阴",
+        "meaning_zh": "松树；圣诞树游艺会",
+        "source_page": 83,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ёлка",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=83",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。",
+        "https://gramota.ru/meta/elka",
+        "外部词典抽核树种义及新年/圣诞节装饰树、儿童活动义；不把云杉误等同所有松树。"
+      ]
+    },
+    {
+      "id": 8235,
+      "accent": "е́сли",
+      "part": "连词",
+      "meaning": "如果；假如；要是",
+      "perfective": "",
+      "note": "если и、если бы等组合分别结合让步或假设语境理解。",
+      "stage": 1,
+      "original": {
+        "word": "если",
+        "part_of_speech": "连",
+        "meaning_zh": "如果；假如；要是",
+        "source_page": 83,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "если",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=83",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8236,
+      "accent": "есте́ственный",
+      "part": "形容词",
+      "meaning": "自然的；天然的；正常的；自然而然的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "естественный",
+        "part_of_speech": "彤",
+        "meaning_zh": "自然的；天然的；正常的",
+        "source_page": 83,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "естественный",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=83",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8240,
+      "accent": "жа́дный",
+      "part": "形容词",
+      "meaning": "贪婪的；贪求的；贪心的；吝啬的",
+      "perfective": "",
+      "note": "жадный к знаниям为求知欲强，不泛指所有渴望。",
+      "stage": 2,
+      "original": {
+        "word": "жадный",
+        "part_of_speech": "形",
+        "meaning_zh": "贪婪的；贪求的；求知欲强的",
+        "source_page": 84,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жадный",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=84",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8241,
+      "accent": "жале́ть",
+      "part": "动词·未完成体",
+      "meaning": "怜惜；同情；惋惜；遗憾；舍不得；珍惜",
+      "perfective": "пожале́ть",
+      "note": "不吝惜来自не жалеть，不能混为本词肯定义。",
+      "stage": 2,
+      "original": {
+        "word": "жалеть",
+        "part_of_speech": "完",
+        "meaning_zh": "怜惜；惋惜；舍不得；不吝惜",
+        "source_page": 84,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жалеть",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=84",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8242,
+      "accent": "жа́лко",
+      "part": "副词；谓语用法",
+      "meaning": "可怜地；感到可怜；舍不得；感到遗憾",
+      "perfective": "",
+      "note": "常用于无人称句，区别жарко热。",
+      "stage": 2,
+      "original": {
+        "word": "жалко",
+        "part_of_speech": "副",
+        "meaning_zh": "可怜；舍不得；遗憾",
+        "source_page": 84,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жалко",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=84",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8243,
+      "accent": "жа́ловаться",
+      "part": "动词·未完成体",
+      "meaning": "抱怨；诉苦；投诉；申诉；告状",
+      "perfective": "пожа́ловаться",
+      "note": "不泛译成告密；通常用на接抱怨对象。",
+      "stage": 2,
+      "original": {
+        "word": "жаловаться",
+        "part_of_speech": "未",
+        "meaning_zh": "抱怨；投诉；告发；告密",
+        "source_page": 84,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жаловаться",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=84",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8244,
+      "accent": "жаль",
+      "part": "谓语词",
+      "meaning": "感到可怜；遗憾；舍不得",
+      "perfective": "",
+      "note": "常用于无人称句，不当作形容词修饰名词。",
+      "stage": 1,
+      "original": {
+        "word": "жаль",
+        "part_of_speech": null,
+        "meaning_zh": "可怜；遗憾；舍不得",
+        "source_page": 84,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жаль",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=84",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8245,
+      "accent": "жар",
+      "part": "名词·阳性",
+      "meaning": "热；热气；高热；发烧；热情",
+      "perfective": "",
+      "note": "热情为转义；与жара炎热天气区分。",
+      "stage": 2,
+      "original": {
+        "word": "жар",
+        "part_of_speech": "阳",
+        "meaning_zh": "热；热气；炎热；发烧",
+        "source_page": 84,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жар",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=84",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8246,
+      "accent": "жара́",
+      "part": "名词·阴性",
+      "meaning": "炎热；暑热",
+      "perfective": "",
+      "note": "通常指天气炎热。",
+      "stage": 1,
+      "original": {
+        "word": "жара",
+        "part_of_speech": "阴",
+        "meaning_zh": "炎热；暑热",
+        "source_page": 84,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жара",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=84",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8247,
+      "accent": "жа́реный",
+      "part": "形容词",
+      "meaning": "煎的；炸的；炒的；烤的",
+      "perfective": "",
+      "note": "依食材与烹调方式翻译，不一概译为烘焙。",
+      "stage": 1,
+      "original": {
+        "word": "жареный",
+        "part_of_speech": "形",
+        "meaning_zh": "烤的；炸的；煎的；炒的",
+        "source_page": 84,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жареный",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=84",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8248,
+      "accent": "жа́рить",
+      "part": "动词·未完成体",
+      "meaning": "煎；炸；炒；烤",
+      "perfective": "пожа́рить",
+      "note": "食物烹调义；不同结果也可用изжарить等，不混同水煮。",
+      "stage": 1,
+      "original": {
+        "word": "жарить",
+        "part_of_speech": "未",
+        "meaning_zh": "烤；煎；炸；炒",
+        "source_page": 85,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жарить",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=85",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8249,
+      "accent": "жа́ркий",
+      "part": "形容词",
+      "meaning": "炎热的；灼热的；热烈的；激烈的",
+      "perfective": "",
+      "note": "жаркий пояс指热带，不能把所有жаркий泛译成热带的。",
+      "stage": 1,
+      "original": {
+        "word": "жаркий",
+        "part_of_speech": "形",
+        "meaning_zh": "热的；热情的；激烈的；热带的",
+        "source_page": 85,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жаркий",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=85",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8250,
+      "accent": "жа́рко",
+      "part": "副词；谓语用法",
+      "meaning": "热地；炎热；感到热",
+      "perfective": "",
+      "note": "мне жарко我觉得热，形式不按性数变化。",
+      "stage": 1,
+      "original": {
+        "word": "жарко",
+        "part_of_speech": "副",
+        "meaning_zh": "热；感到热",
+        "source_page": 85,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жарко",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=85",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8251,
+      "accent": "жать",
+      "part": "动词·未完成体",
+      "meaning": "压；挤；握；榨取",
+      "perfective": "",
+      "note": "本来源是жму的压挤义；区别收割义жать（жну），不混用体对。",
+      "stage": 2,
+      "original": {
+        "word": "жать",
+        "part_of_speech": "未",
+        "meaning_zh": "压；挤；握；榨出",
+        "source_page": 85,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жать",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=85",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8252,
+      "accent": "ждать",
+      "part": "动词·未完成体",
+      "meaning": "等待；期待；预料；等待着发生",
+      "perfective": "",
+      "note": "不将подождать等一会儿或дождаться终于等到强作所有义的体对。",
+      "stage": 1,
+      "original": {
+        "word": "ждать",
+        "part_of_speech": "未",
+        "meaning_zh": "等待；期待；预料",
+        "source_page": 85,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ждать",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=85",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8253,
+      "accent": "жела́ние",
+      "part": "名词·中性",
+      "meaning": "愿望；心愿；意愿",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "желание",
+        "part_of_speech": "中",
+        "meaning_zh": "愿望；心愿",
+        "source_page": 85,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "желание",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=85",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8254,
+      "accent": "жела́ть",
+      "part": "动词·未完成体",
+      "meaning": "希望；想要；祝愿",
+      "perfective": "пожела́ть",
+      "note": "完成体常表示表达一次祝愿，持续希望需结合语境。",
+      "stage": 2,
+      "original": {
+        "word": "желать",
+        "part_of_speech": "未",
+        "meaning_zh": "希望；愿意；祝愿",
+        "source_page": 85,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "желать",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=85",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8255,
+      "accent": "железнодоро́жный",
+      "part": "形容词",
+      "meaning": "铁路的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "железнодорожный",
+        "part_of_speech": "形",
+        "meaning_zh": "铁路的",
+        "source_page": 85,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "железнодорожный",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=85",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8256,
+      "accent": "желе́зный",
+      "part": "形容词",
+      "meaning": "铁的；含铁的；铁制的；钢铁般的；坚强的",
+      "perfective": "",
+      "note": "железная дорога为铁路，按固定搭配理解。",
+      "stage": 2,
+      "original": {
+        "word": "железный",
+        "part_of_speech": "形",
+        "meaning_zh": "铁的；铁制的；钢铁般的；坚强的",
+        "source_page": 85,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "железный",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=85",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8257,
+      "accent": "желе́зо",
+      "part": "名词·中性",
+      "meaning": "铁；铁制品",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "железо",
+        "part_of_speech": "中",
+        "meaning_zh": "铁；铁制品",
+        "source_page": 85,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "железо",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=85",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8258,
+      "accent": "желте́ть",
+      "part": "动词·未完成体",
+      "meaning": "变黄；呈黄色",
+      "perfective": "пожелте́ть",
+      "note": "完成体用于变黄的结果；静态呈黄色不强配。",
+      "stage": 2,
+      "original": {
+        "word": "желтеть",
+        "part_of_speech": "未",
+        "meaning_zh": "变黄；变成黄色",
+        "source_page": 85,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "желтеть",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=85",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8259,
+      "accent": "жёлтый",
+      "part": "形容词",
+      "meaning": "黄色的；黄的",
+      "perfective": "",
+      "note": "保留ё。",
+      "stage": 1,
+      "original": {
+        "word": "жёлтый",
+        "part_of_speech": "形",
+        "meaning_zh": "黄色的；黄的",
+        "source_page": 85,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жёлтый",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=85",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8260,
+      "accent": "желу́док",
+      "part": "名词·阳性",
+      "meaning": "胃",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "желудок",
+        "part_of_speech": "阳",
+        "meaning_zh": "胃；胃部",
+        "source_page": 86,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "желудок",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=86",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    },
+    {
+      "id": 8261,
+      "accent": "жена́",
+      "part": "名词·阴性",
+      "meaning": "妻子；夫人",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "жена",
+        "part_of_speech": "阴",
+        "meaning_zh": "妻子；夫人",
+        "source_page": 86,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жена",
+      "method": "2026-09-14当前助手逐项核验专四PDF81至86页，纠正否定搭配误释、体标记和谓语词性；8234词典抽核，其他非外部全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=86",
+        "逐词视觉核对重音、词性、原书中文及例句语境；教学义经当前助手俄中对照整理。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,968 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8262,
+      "accent": "жена́тый",
+      "part": "形容词",
+      "meaning": "已婚的；有妻子的",
+      "perfective": "",
+      "note": "通常用于男子，常用短尾женат。",
+      "stage": 1,
+      "original": {
+        "word": "женатый",
+        "part_of_speech": "形",
+        "meaning_zh": "已婚的；有妻子的",
+        "source_page": 86,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "женатый",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=86",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8263,
+      "accent": "жени́ться",
+      "part": "动词·双体",
+      "meaning": "结婚；娶妻",
+      "perfective": "",
+      "note": "本词兼未完成体和完成体，用于男子；жениться на ком。",
+      "stage": 1,
+      "original": {
+        "word": "жениться",
+        "part_of_speech": "未 , 完",
+        "meaning_zh": "结婚；娶妻",
+        "source_page": 86,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жениться",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=86",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8264,
+      "accent": "жени́х",
+      "part": "名词·阳性",
+      "meaning": "未婚夫；新郎",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "жених",
+        "part_of_speech": "阳",
+        "meaning_zh": "未婚夫；新郎",
+        "source_page": 86,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жених",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=86",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8265,
+      "accent": "же́нский",
+      "part": "形容词",
+      "meaning": "女性的；女子的；女用的",
+      "perfective": "",
+      "note": "женский род为语法阴性。",
+      "stage": 1,
+      "original": {
+        "word": "женский",
+        "part_of_speech": "形",
+        "meaning_zh": "妇女的；女子的；女用的",
+        "source_page": 86,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "женский",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=86",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8266,
+      "accent": "же́нщина",
+      "part": "名词·阴性",
+      "meaning": "女人；妇女；女性",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "женщина",
+        "part_of_speech": "阴",
+        "meaning_zh": "女人；妇女",
+        "source_page": 86,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "женщина",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=86",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8267,
+      "accent": "же́ртва",
+      "part": "名词·阴性",
+      "meaning": "受害者；牺牲者；牺牲品；牺牲；祭品",
+      "perfective": "",
+      "note": "受害者可为男性，但名词本身为阴性。",
+      "stage": 2,
+      "original": {
+        "word": "жертва",
+        "part_of_speech": "阴",
+        "meaning_zh": "牺牲者；牺牲品；牺牲",
+        "source_page": 86,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жертва",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=86",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8268,
+      "accent": "же́ртвовать",
+      "part": "动词·未完成体",
+      "meaning": "牺牲；舍弃；捐献；捐赠",
+      "perfective": "поже́ртвовать",
+      "note": "牺牲某事物多用第五格；捐赠某物可用第四格，依搭配区分。",
+      "stage": 2,
+      "original": {
+        "word": "жертвовать",
+        "part_of_speech": "未",
+        "meaning_zh": "牺牲；放弃",
+        "source_page": 86,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жертвовать",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=86",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8269,
+      "accent": "жёсткий",
+      "part": "形容词",
+      "meaning": "硬的；粗硬的；严厉的；生硬的",
+      "perfective": "",
+      "note": "保留ё，区别жестокий残忍的。",
+      "stage": 2,
+      "original": {
+        "word": "жёсткий",
+        "part_of_speech": "形",
+        "meaning_zh": "硬的；粗硬的；严厉的",
+        "source_page": 86,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жёсткий",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=86",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8270,
+      "accent": "жесто́кий",
+      "part": "形容词",
+      "meaning": "残酷的；残忍的；严酷的；猛烈的",
+      "perfective": "",
+      "note": "本词形容词，旧词性混入副词及断词乱码；严酷义如严寒。",
+      "stage": 2,
+      "original": {
+        "word": "жестокий",
+        "part_of_speech": "副 жес-\nтбко",
+        "meaning_zh": "残酷的；残忍的",
+        "source_page": 86,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жестокий",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=86",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8271,
+      "accent": "жечь",
+      "part": "动词·未完成体",
+      "meaning": "烧；焚烧；使燃烧；灼烧；刺痛",
+      "perfective": "сжечь",
+      "note": "及物动词；区别гореть自行燃烧。完成体用于烧掉等结果，不覆盖所有刺痛状态。",
+      "stage": 2,
+      "original": {
+        "word": "жечь",
+        "part_of_speech": "未",
+        "meaning_zh": "燃烧；烧掉",
+        "source_page": 86,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жечь",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=86",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8272,
+      "accent": "живо́й",
+      "part": "形容词",
+      "meaning": "活的；有生命的；活生生的；真实的；活泼的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "живой",
+        "part_of_speech": "形",
+        "meaning_zh": "活的；有生命的；活生生的；真实的",
+        "source_page": 86,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "живой",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=86",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8273,
+      "accent": "живо́т",
+      "part": "名词·阳性",
+      "meaning": "肚子；腹部",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "живот",
+        "part_of_speech": "阳",
+        "meaning_zh": "腹部；肚子",
+        "source_page": 87,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "живот",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=87",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8274,
+      "accent": "живо́тное",
+      "part": "名词·中性",
+      "meaning": "动物；牲畜",
+      "perfective": "",
+      "note": "牲畜义依家养动物语境。",
+      "stage": 1,
+      "original": {
+        "word": "животное",
+        "part_of_speech": "中",
+        "meaning_zh": "动物；牲畜",
+        "source_page": 87,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "животное",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=87",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8275,
+      "accent": "жи́дкий",
+      "part": "形容词",
+      "meaning": "液体的；流质的；稀的；稀薄的；稀疏的",
+      "perfective": "",
+      "note": "稀疏可用于掌声等转义，不等同一切液体。",
+      "stage": 2,
+      "original": {
+        "word": "жидкий",
+        "part_of_speech": "形",
+        "meaning_zh": "液体的；流质的；稀薄的",
+        "source_page": 87,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жидкий",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=87",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8276,
+      "accent": "жи́зненный",
+      "part": "形容词",
+      "meaning": "生命的；生活的；生命攸关的；至关重要的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "жизненный",
+        "part_of_speech": "形",
+        "meaning_zh": "生命的；生活的；生命攸关的",
+        "source_page": 87,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "жизненный",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=87",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8277,
+      "accent": "жи́тель",
+      "part": "名词·阳性",
+      "meaning": "居民；住户",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "житель",
+        "part_of_speech": "阳",
+        "meaning_zh": "居民；住户",
+        "source_page": 87,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "житель",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=87",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8278,
+      "accent": "жи́ться",
+      "part": "动词·未完成体·无人称",
+      "meaning": "生活得……；日子过得……",
+      "perfective": "",
+      "note": "常用кому живётся как，如нам хорошо живётся，不按я живусь造句。",
+      "stage": 2,
+      "original": {
+        "word": "житься",
+        "part_of_speech": "未",
+        "meaning_zh": "生活；过日子",
+        "source_page": 87,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "житься",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=87",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8279,
+      "accent": "журна́л",
+      "part": "名词·阳性",
+      "meaning": "杂志；日志；登记簿；记录本",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "журнал",
+        "part_of_speech": "阳",
+        "meaning_zh": "杂志；日志；记录本",
+        "source_page": 87,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "журнал",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=87",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8280,
+      "accent": "журнали́ст",
+      "part": "名词·阳性",
+      "meaning": "记者；新闻工作者",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "журналист",
+        "part_of_speech": "阳",
+        "meaning_zh": "新闻工作者；记者",
+        "source_page": 87,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "журналист",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=87",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8281,
+      "accent": "забасто́вка",
+      "part": "名词·阴性",
+      "meaning": "罢工；罢课；罢市",
+      "perfective": "",
+      "note": "有抗议或争取诉求含义，不指普通设备停工。",
+      "stage": 3,
+      "original": {
+        "word": "забастовка",
+        "part_of_speech": "阴",
+        "meaning_zh": "罢工；停工",
+        "source_page": 88,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "забастовка",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=88",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8282,
+      "accent": "забива́ть",
+      "part": "动词·未完成体",
+      "meaning": "打入；钉入；把球打进；填满；塞住；钉死",
+      "perfective": "заби́ть",
+      "note": "修正误标完成体。",
+      "stage": 2,
+      "original": {
+        "word": "забивать",
+        "part_of_speech": "完",
+        "meaning_zh": "钉入；打进；踢进；填满；塞满",
+        "source_page": 88,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "забивать",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=88",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8283,
+      "accent": "заблужда́ться",
+      "part": "动词·未完成体",
+      "meaning": "想错；判断错误；持有错误认识",
+      "perfective": "",
+      "note": "现代常用义是认识错误；迷路通常用заблудиться，不把它当成本义的通用完成体。",
+      "stage": 2,
+      "original": {
+        "word": "заблуждаться",
+        "part_of_speech": "未",
+        "meaning_zh": "想错；误解；迷路",
+        "source_page": 88,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заблуждаться",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=88",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。",
+        "https://gramota.ru/poisk?mode=slovari&query=заблуждаться",
+        "https://gramota.ru/poisk?mode=slovari&query=заблудиться",
+        "外部词典对照现代常用义：认识错误与空间迷路区分，不照抄原书为通用体对。"
+      ]
+    },
+    {
+      "id": 8284,
+      "accent": "заболева́ть",
+      "part": "动词·未完成体",
+      "meaning": "生病；患病；开始感到疼痛",
+      "perfective": "заболе́ть",
+      "note": "发病义，区别болеть处于生病状态。",
+      "stage": 1,
+      "original": {
+        "word": "заболевать",
+        "part_of_speech": "未",
+        "meaning_zh": "生病；害病",
+        "source_page": 88,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заболевать",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=88",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8285,
+      "accent": "забо́та",
+      "part": "名词·阴性",
+      "meaning": "关心；关怀；照料；操心；忧虑；需操劳的事务",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "забота",
+        "part_of_speech": "阴",
+        "meaning_zh": "关心；关怀；忧虑",
+        "source_page": 88,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "забота",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=88",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8286,
+      "accent": "забо́титься",
+      "part": "动词·未完成体",
+      "meaning": "关心；照顾；照料；操心",
+      "perfective": "позабо́титься",
+      "note": "о ком-чём；完成体常表示采取照料、安排措施。",
+      "stage": 1,
+      "original": {
+        "word": "заботиться",
+        "part_of_speech": "未",
+        "meaning_zh": "关心；关怀；照顾",
+        "source_page": 88,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заботиться",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=88",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8287,
+      "accent": "забо́тливый",
+      "part": "形容词",
+      "meaning": "关心人的；体贴的；照顾周到的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "заботливый",
+        "part_of_speech": "形",
+        "meaning_zh": "关怀的；体贴的；细心的",
+        "source_page": 88,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заботливый",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=88",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8289,
+      "accent": "заведе́ние",
+      "part": "名词·中性",
+      "meaning": "机构；营业场所；教育机构",
+      "perfective": "",
+      "note": "学校义通常来自учебное заведение，不将所有机构都当学校。",
+      "stage": 2,
+      "original": {
+        "word": "заведение",
+        "part_of_speech": "中",
+        "meaning_zh": "机关；机构；学校等教育机构",
+        "source_page": 89,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заведение",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=89",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8290,
+      "accent": "заве́дующий",
+      "part": "名词化用法·阳性",
+      "meaning": "主任；经理；负责人",
+      "perfective": "",
+      "note": "支配第五格；女性负责人заведующая。",
+      "stage": 2,
+      "original": {
+        "word": "заведующий",
+        "part_of_speech": "阳",
+        "meaning_zh": "主任；经理；负责人",
+        "source_page": 89,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заведующий",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=89",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8291,
+      "accent": "завёртывать",
+      "part": "动词·未完成体",
+      "meaning": "包；裹；拧紧；卷起",
+      "perfective": "заверну́ть",
+      "note": "保留ё；关上限拧紧阀门等用法，不指任意关门。",
+      "stage": 2,
+      "original": {
+        "word": "завёртывать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "包裹；卷起；关上",
+        "source_page": 89,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "завёртывать",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=89",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8292,
+      "accent": "зави́довать",
+      "part": "动词·未完成体",
+      "meaning": "羡慕；嫉妒",
+      "perfective": "позави́довать",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "завидовать",
+        "part_of_speech": "未",
+        "meaning_zh": "羡慕；嫉妒",
+        "source_page": 89,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "завидовать",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=89",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8293,
+      "accent": "зави́сеть",
+      "part": "动词·未完成体",
+      "meaning": "取决于；依赖；依附",
+      "perfective": "",
+      "note": "от кого-чего；状态动词不强配唯一完成体。",
+      "stage": 2,
+      "original": {
+        "word": "зависеть",
+        "part_of_speech": "Ж",
+        "meaning_zh": "取决于；依赖；依附",
+        "source_page": 89,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зависеть",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=89",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8294,
+      "accent": "заво́д",
+      "part": "名词·阳性",
+      "meaning": "工厂；制造厂",
+      "perfective": "",
+      "note": "本来源工厂义，不混入钟表上弦等同形词义。",
+      "stage": 1,
+      "original": {
+        "word": "завод",
+        "part_of_speech": "阳",
+        "meaning_zh": "工厂；制造厂",
+        "source_page": 89,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "завод",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=89",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8295,
+      "accent": "заводи́ть",
+      "part": "动词·未完成体",
+      "meaning": "领到；带到；设立；建立；开始；发动；给……上弦",
+      "perfective": "завести́",
+      "note": "发动机器与给钟表上弦等依宾语区分。",
+      "stage": 2,
+      "original": {
+        "word": "заводить",
+        "part_of_speech": "未",
+        "meaning_zh": "领到；带到；送到；设置；建立；开动",
+        "source_page": 89,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заводить",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=89",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8296,
+      "accent": "завоёвывать",
+      "part": "动词·未完成体",
+      "meaning": "征服；夺取；争取；赢得",
+      "perfective": "завоева́ть",
+      "note": "未完成体保留ё，完成体的е不改为ё。",
+      "stage": 2,
+      "original": {
+        "word": "завоёвывать",
+        "part_of_speech": "未",
+        "meaning_zh": "征服；争得；获得",
+        "source_page": 89,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "завоёвывать",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=89",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8297,
+      "accent": "за́втрак",
+      "part": "名词·阳性",
+      "meaning": "早餐；早饭",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "завтрак",
+        "part_of_speech": "阳",
+        "meaning_zh": "早餐；早饭",
+        "source_page": 90,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "завтрак",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=90",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8298,
+      "accent": "за́втракать",
+      "part": "动词·未完成体",
+      "meaning": "吃早饭",
+      "perfective": "поза́втракать",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "завтракать",
+        "part_of_speech": "未",
+        "meaning_zh": "吃早饭",
+        "source_page": 90,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "завтракать",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=90",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8299,
+      "accent": "за́втрашний",
+      "part": "形容词",
+      "meaning": "明天的；未来的",
+      "perfective": "",
+      "note": "从明天开始是с завтрашнего дня的搭配义。",
+      "stage": 1,
+      "original": {
+        "word": "завтрашний",
+        "part_of_speech": "形",
+        "meaning_zh": "明天的；从明天开始的",
+        "source_page": 90,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "завтрашний",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=90",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8300,
+      "accent": "завя́зывать",
+      "part": "动词·未完成体",
+      "meaning": "打结；系住；扎紧；开始；建立关系",
+      "perfective": "завяза́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "завязывать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "打结；扎住；建立（关系）",
+        "source_page": 90,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "завязывать",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=90",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8301,
+      "accent": "зага́дка",
+      "part": "名词·阴性",
+      "meaning": "谜语；谜；奥秘",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "загадка",
+        "part_of_speech": "阴",
+        "meaning_zh": "谜语；谜；奥秘",
+        "source_page": 90,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "загадка",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=90",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    },
+    {
+      "id": 8302,
+      "accent": "загля́дывать",
+      "part": "动词·未完成体",
+      "meaning": "向里面看；看一看；顺便探访",
+      "perfective": "загляну́ть",
+      "note": "заглядывать вперёд可指展望未来，不能把向前看泛化为唯一义。",
+      "stage": 2,
+      "original": {
+        "word": "заглядывать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "向里面看；顺便访问；向前看",
+        "source_page": 90,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заглядывать",
+      "method": "2026-09-14逐词审核专四PDF86至90页，8283有外部词典抽核，其余逐词模型及原页视觉核验；无外部模型调用。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=90",
+        "逐词视觉核对原书词头、重音、词性和中文；必要的教学义项由当前助手对照整理。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,725 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8186,
+      "accent": "дорого́й",
+      "part": "形容词",
+      "meaning": "贵的；昂贵的；宝贵的；亲爱的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "дорогой",
+        "part_of_speech": "形",
+        "meaning_zh": "贵的；宝贵的；亲爱的",
+        "source_page": 78,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дорогой",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=78",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8187,
+      "accent": "доса́да",
+      "part": "名词·阴性",
+      "meaning": "懊恼；懊丧；烦恼",
+      "perfective": "",
+      "note": "多指因失望、失败或不快而产生的懊恼。",
+      "stage": 2,
+      "original": {
+        "word": "досада",
+        "part_of_speech": "阴",
+        "meaning_zh": "烦恼；懊恼；厌烦",
+        "source_page": 78,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "досада",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=78",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8188,
+      "accent": "доска́",
+      "part": "名词·阴性",
+      "meaning": "板；木板；黑板；棋盘",
+      "perfective": "",
+      "note": "棋盘义用于шахматная доска等搭配。",
+      "stage": 1,
+      "original": {
+        "word": "доска",
+        "part_of_speech": "阴",
+        "meaning_zh": "板；木板；黑板",
+        "source_page": 78,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "доска",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=78",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8189,
+      "accent": "достава́ть",
+      "part": "动词·未完成体",
+      "meaning": "拿出；取出；够到；弄到；足够；够用",
+      "perfective": "доста́ть",
+      "note": "修正误标完成体；够用常作无人称用法，依语境选体。",
+      "stage": 2,
+      "original": {
+        "word": "доставать",
+        "part_of_speech": "完",
+        "meaning_zh": "拿出；取出；碰到；够用",
+        "source_page": 79,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "доставать",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=79",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8190,
+      "accent": "доставля́ть",
+      "part": "动词·未完成体",
+      "meaning": "运送；送到；递交；提供；使得到",
+      "perfective": "доста́вить",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "доставлять",
+        "part_of_speech": null,
+        "meaning_zh": "运送；送到；提供",
+        "source_page": 79,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "доставлять",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=79",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8191,
+      "accent": "доста́точно",
+      "part": "副词；谓语用法",
+      "meaning": "足够；充分；相当",
+      "perfective": "",
+      "note": "修饰形容词可表示相当，作谓语表示数量已够。",
+      "stage": 1,
+      "original": {
+        "word": "достаточно",
+        "part_of_speech": "制",
+        "meaning_zh": "足够；充分",
+        "source_page": 79,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "достаточно",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=79",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8192,
+      "accent": "достига́ть",
+      "part": "动词·未完成体",
+      "meaning": "达到；到达；取得",
+      "perfective": "дости́гнуть",
+      "note": "另一个完成体为дости́чь，通常支配第二格。",
+      "stage": 2,
+      "original": {
+        "word": "достигать",
+        "part_of_speech": "未",
+        "meaning_zh": "达到；到达；取得（程度、水平）",
+        "source_page": 79,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "достигать",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=79",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8193,
+      "accent": "достиже́ние",
+      "part": "名词·中性",
+      "meaning": "达到；达成；成就；成绩",
+      "perfective": "",
+      "note": "词头恢复е。",
+      "stage": 2,
+      "original": {
+        "word": "достижёние",
+        "part_of_speech": "中",
+        "meaning_zh": "达到；成就；成绩",
+        "source_page": 79,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "достижение",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=79",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8194,
+      "accent": "досто́инство",
+      "part": "名词·中性",
+      "meaning": "优点；长处；自尊；尊严",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "достоинство",
+        "part_of_speech": "中",
+        "meaning_zh": "优点；长处；自尊；尊严",
+        "source_page": 79,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "достоинство",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=79",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8195,
+      "accent": "досто́йный",
+      "part": "形容词",
+      "meaning": "值得的；配得上的；应得的；体面的",
+      "perfective": "",
+      "note": "достойный внимания值得注意；достойная награда应得的奖励。",
+      "stage": 2,
+      "original": {
+        "word": "достойный",
+        "part_of_speech": "形",
+        "meaning_zh": "应得的；值得的；不愧为",
+        "source_page": 79,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "достойный",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=79",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8196,
+      "accent": "досту́пный",
+      "part": "形容词",
+      "meaning": "可进入的；可通行的；可获得的；买得起的；易懂的；平易近人的",
+      "perfective": "",
+      "note": "依所修饰的地方、商品、讲解或人物分别理解。",
+      "stage": 2,
+      "original": {
+        "word": "доступный",
+        "part_of_speech": "形",
+        "meaning_zh": "可以通行的；大众买得起的；平易近人的",
+        "source_page": 79,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "доступный",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=79",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8197,
+      "accent": "доходи́ть",
+      "part": "动词·未完成体",
+      "meaning": "走到；到达；传到；达到某种程度",
+      "perfective": "дойти́",
+      "note": "本条到达义为未完成体；不混入其他同形动词。",
+      "stage": 1,
+      "original": {
+        "word": "доходить",
+        "part_of_speech": "完",
+        "meaning_zh": "走到；到达；达到某种程度",
+        "source_page": 79,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "доходить",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=79",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8198,
+      "accent": "доце́нт",
+      "part": "名词·阳性",
+      "meaning": "副教授",
+      "perfective": "",
+      "note": "恢复е；原页将доцент与старший преподаватель并列，不能把讲师并成同义词。",
+      "stage": 2,
+      "original": {
+        "word": "доцёнт",
+        "part_of_speech": "阳",
+        "meaning_zh": "副教授；讲师",
+        "source_page": 80,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "доцент",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=80",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8199,
+      "accent": "до́чка",
+      "part": "名词·阴性",
+      "meaning": "女儿；闺女；姑娘（亲昵称呼）",
+      "perfective": "",
+      "note": "女儿的爱称，也可由年长者称呼年轻女子。",
+      "stage": 1,
+      "original": {
+        "word": "дочка",
+        "part_of_speech": "阴",
+        "meaning_zh": "女儿；姑娘；闺女",
+        "source_page": 80,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дочка",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=80",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8200,
+      "accent": "дра́ма",
+      "part": "名词·阴性",
+      "meaning": "戏剧；话剧；正剧",
+      "perfective": "",
+      "note": "正剧义与喜剧、悲剧相对。",
+      "stage": 2,
+      "original": {
+        "word": "драма",
+        "part_of_speech": "阴",
+        "meaning_zh": "戏剧；话剧；正剧",
+        "source_page": 80,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "драма",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=80",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8201,
+      "accent": "дра́ться",
+      "part": "动词·未完成体",
+      "meaning": "打架；搏斗；战斗",
+      "perfective": "подра́ться",
+      "note": "完成体常表示打了一架，不泛指战斗的所有结果。",
+      "stage": 2,
+      "original": {
+        "word": "драться",
+        "part_of_speech": "未",
+        "meaning_zh": "打架；相斗；战斗",
+        "source_page": 80,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "драться",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=80",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8202,
+      "accent": "дре́вний",
+      "part": "形容词",
+      "meaning": "古代的；古老的；古时的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "древний",
+        "part_of_speech": "形",
+        "meaning_zh": "古代的；古时的",
+        "source_page": 80,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "древний",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=80",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8203,
+      "accent": "дрема́ть",
+      "part": "动词·未完成体",
+      "meaning": "打瞌睡；打盹；半睡半醒",
+      "perfective": "",
+      "note": "不把半睡半醒状态等同装睡。",
+      "stage": 2,
+      "original": {
+        "word": "дремать",
+        "part_of_speech": "未",
+        "meaning_zh": "打瞌睡；假寐",
+        "source_page": 80,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дремать",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=80",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8204,
+      "accent": "дрова́",
+      "part": "名词·复数",
+      "meaning": "木柴；劈柴",
+      "perfective": "",
+      "note": "名词，劈柴指劈好的柴，不是砍柴动作。",
+      "stage": 2,
+      "original": {
+        "word": "дрова",
+        "part_of_speech": "复",
+        "meaning_zh": "劈柴；木柴",
+        "source_page": 80,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дрова",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=80",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8205,
+      "accent": "дрожа́ть",
+      "part": "动词·未完成体",
+      "meaning": "颤抖；发抖；震颤",
+      "perfective": "дро́гнуть",
+      "note": "完成体限颤动一下，不等于持续发抖的所有用法。",
+      "stage": 2,
+      "original": {
+        "word": "дрожать",
+        "part_of_speech": "未",
+        "meaning_zh": "发抖；颤抖；震动",
+        "source_page": 80,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дрожать",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=80",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8207,
+      "accent": "друго́й",
+      "part": "代词性形容词",
+      "meaning": "别的；另外的；不同的；第二个；另一个",
+      "perfective": "",
+      "note": "на другой день可指第二天；不泛译为次等。",
+      "stage": 1,
+      "original": {
+        "word": "другой",
+        "part_of_speech": "形",
+        "meaning_zh": "别的；另外的；不同的；其次的",
+        "source_page": 80,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "другой",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=80",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8208,
+      "accent": "дру́жба",
+      "part": "名词·阴性",
+      "meaning": "友谊；友情",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "дружба",
+        "part_of_speech": "阴",
+        "meaning_zh": "友谊；友情",
+        "source_page": 80,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дружба",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=80",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8209,
+      "accent": "дру́жеский",
+      "part": "形容词",
+      "meaning": "朋友之间的；友谊的；友好的",
+      "perfective": "",
+      "note": "侧重朋友间的关系、态度或举动。",
+      "stage": 2,
+      "original": {
+        "word": "дружеский",
+        "part_of_speech": null,
+        "meaning_zh": "友谊的；友好的",
+        "source_page": 80,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дружеский",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=80",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8210,
+      "accent": "дру́жественный",
+      "part": "形容词",
+      "meaning": "友好的；友善的；友爱的",
+      "perfective": "",
+      "note": "常用于国家、民族等关系，也可形容友好态度、祝愿。",
+      "stage": 2,
+      "original": {
+        "word": "дружественный",
+        "part_of_speech": "形",
+        "meaning_zh": "友好的；友爱的；友谊的；友善的",
+        "source_page": 80,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дружественный",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=80",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8211,
+      "accent": "дружи́ть",
+      "part": "动词·未完成体",
+      "meaning": "交朋友；交好；要好；保持友谊",
+      "perfective": "",
+      "note": "подружиться表示结为朋友，不代替一切持续友谊状态。",
+      "stage": 1,
+      "original": {
+        "word": "дружить",
+        "part_of_speech": "未",
+        "meaning_zh": "交好；要好；相处融洽",
+        "source_page": 81,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дружить",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=81",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8212,
+      "accent": "дру́жный",
+      "part": "形容词",
+      "meaning": "和睦的；团结的；齐心协力的；一致的",
+      "perfective": "",
+      "note": "侧重相处和谐或行动一致，区别дружеский、дружественный。",
+      "stage": 2,
+      "original": {
+        "word": "дружный",
+        "part_of_speech": "形",
+        "meaning_zh": "友好的；和睦的；团结的",
+        "source_page": 81,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дружный",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=81",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8214,
+      "accent": "дурно́й",
+      "part": "形容词",
+      "meaning": "坏的；不好的；恶劣的；不道德的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "дурной",
+        "part_of_speech": "形",
+        "meaning_zh": "坏的；不好的；不道德的",
+        "source_page": 81,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дурной",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=81",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8215,
+      "accent": "дуть",
+      "part": "动词·未完成体",
+      "meaning": "吹；刮",
+      "perfective": "ду́нуть",
+      "note": "完成体表示吹一下；风持续吹不机械改为单次动作。",
+      "stage": 1,
+      "original": {
+        "word": "дуть",
+        "part_of_speech": "未",
+        "meaning_zh": "吹；刮",
+        "source_page": 81,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дуть",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=81",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8216,
+      "accent": "дух",
+      "part": "名词·阳性",
+      "meaning": "精神；斗志；勇气；灵魂；精灵",
+      "perfective": "",
+      "note": "鬼怪等宗教、神话义须结合语境。",
+      "stage": 2,
+      "original": {
+        "word": "дух",
+        "part_of_speech": "阳",
+        "meaning_zh": "精神；斗志；精灵；鬼怪",
+        "source_page": 81,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дух",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=81",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    },
+    {
+      "id": 8217,
+      "accent": "духо́вный",
+      "part": "形容词",
+      "meaning": "精神的；精神上的；宗教的；教会的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "духовный",
+        "part_of_speech": "形",
+        "meaning_zh": "精神上的；精神的；宗教的",
+        "source_page": 81,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "духовный",
+      "method": "2026-09-14当前助手逐项核验专四PDF78至81页，重点对照体标记、形近词、同形动词及近义形容词；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=81",
+        "逐项视觉对照原书重音、词性和中文，当前助手复核教学义项；不算外部词典核验。"
+      ]
+    }
+  ]
+}
