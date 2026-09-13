@@ -1,0 +1,730 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8031,
+      "accent": "гриб",
+      "part": "名词·阳性",
+      "meaning": "蘑菇；真菌",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "гриб",
+        "part_of_speech": "阳",
+        "meaning_zh": "蘑菇；真菌",
+        "source_page": 63,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гриб",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=63",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8032,
+      "accent": "грипп",
+      "part": "名词·阳性",
+      "meaning": "流行性感冒；流感",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "грипп",
+        "part_of_speech": "阳",
+        "meaning_zh": "流行性感冒；流感",
+        "source_page": 64,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "грипп",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=64",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8033,
+      "accent": "гроза́",
+      "part": "名词·阴性",
+      "meaning": "雷雨；雷暴",
+      "perfective": "",
+      "note": "核心为伴有雷电的天气，不泛指一切暴风雨。",
+      "stage": 2,
+      "original": {
+        "word": "гроза",
+        "part_of_speech": "阴",
+        "meaning_zh": "雷雨；暴风雨",
+        "source_page": 64,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гроза",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=64",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8034,
+      "accent": "гром",
+      "part": "名词·阳性",
+      "meaning": "雷声；轰鸣；巨响",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "гром",
+        "part_of_speech": "阳",
+        "meaning_zh": "雷声；轰鸣；巨响",
+        "source_page": 64,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гром",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=64",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8035,
+      "accent": "громи́ть",
+      "part": "动词·未完成体",
+      "meaning": "击溃；歼灭；摧毁；粉碎",
+      "perfective": "разгроми́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "громить",
+        "part_of_speech": "未",
+        "meaning_zh": "击退；击溃；歼灭；粉碎",
+        "source_page": 64,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "громить",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=64",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8036,
+      "accent": "гро́мкий",
+      "part": "形容词",
+      "meaning": "响亮的；大声的；轰动的；尽人皆知的；夸大的",
+      "perfective": "",
+      "note": "夸大义多用于言辞，如громкие слова。",
+      "stage": 1,
+      "original": {
+        "word": "громкий",
+        "part_of_speech": "形",
+        "meaning_zh": "大声的；高声的；尽人皆知的；夸大的",
+        "source_page": 64,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "громкий",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=64",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8037,
+      "accent": "гру́бый",
+      "part": "形容词",
+      "meaning": "粗糙的；粗陋的；粗暴的；粗鲁的；严重的",
+      "perfective": "",
+      "note": "严重义如грубая ошибка严重错误，不译为一般大小。",
+      "stage": 1,
+      "original": {
+        "word": "грубый",
+        "part_of_speech": "形",
+        "meaning_zh": "粗的；粗糙的；粗暴的",
+        "source_page": 64,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "грубый",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=64",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8038,
+      "accent": "грудь",
+      "part": "名词·阴性",
+      "meaning": "胸；胸部；乳房",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "грудь",
+        "part_of_speech": "阴",
+        "meaning_zh": "胸；胸部；乳房",
+        "source_page": 64,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "грудь",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=64",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8039,
+      "accent": "груз",
+      "part": "名词·阳性",
+      "meaning": "重物；货物；负担",
+      "perfective": "",
+      "note": "负担也可用于转义。",
+      "stage": 2,
+      "original": {
+        "word": "груз",
+        "part_of_speech": "阳",
+        "meaning_zh": "重物；货物",
+        "source_page": 64,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "груз",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=64",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8040,
+      "accent": "грузови́к",
+      "part": "名词·阳性",
+      "meaning": "卡车；载重汽车",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "грузовик",
+        "part_of_speech": "阳",
+        "meaning_zh": "载重车；卡车",
+        "source_page": 64,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "грузовик",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=64",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8041,
+      "accent": "гру́ппа",
+      "part": "名词·阴性",
+      "meaning": "群；组；班；队；团体",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "группа",
+        "part_of_speech": "阴",
+        "meaning_zh": "群；组；班；队",
+        "source_page": 64,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "группа",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=64",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8042,
+      "accent": "гру́стный",
+      "part": "形容词",
+      "meaning": "忧愁的；忧郁的；令人伤感的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "грустный",
+        "part_of_speech": "形",
+        "meaning_zh": "忧愁的；忧郁的；令人伤感的",
+        "source_page": 64,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "грустный",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=64",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8043,
+      "accent": "гру́ша",
+      "part": "名词·阴性",
+      "meaning": "梨；梨树",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "груша",
+        "part_of_speech": "阴",
+        "meaning_zh": "梨",
+        "source_page": 64,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "груша",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=64",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8044,
+      "accent": "гря́зный",
+      "part": "形容词",
+      "meaning": "脏的；泥泞的；污秽的；卑鄙下流的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "грязный",
+        "part_of_speech": "形",
+        "meaning_zh": "泥泞的；脏的；肮脏的；卑鄙下流的",
+        "source_page": 64,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "грязный",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=64",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8045,
+      "accent": "грязь",
+      "part": "名词·阴性",
+      "meaning": "泥；泥泞；污垢；污秽",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "грязь",
+        "part_of_speech": "阴",
+        "meaning_zh": "泥泞；污垢；肮脏",
+        "source_page": 65,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "грязь",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=65",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8046,
+      "accent": "губа́",
+      "part": "名词·阴性",
+      "meaning": "唇；嘴唇",
+      "perfective": "",
+      "note": "本来源词条讲人体嘴唇，地理同形词另作专门义项，不混入狭入口的误释。",
+      "stage": 1,
+      "original": {
+        "word": "губа",
+        "part_of_speech": "阴",
+        "meaning_zh": "嘴唇；唇；河口或海湾的狭入口",
+        "source_page": 65,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "губа",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=65",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8047,
+      "accent": "гудо́к",
+      "part": "名词·阳性",
+      "meaning": "汽笛；喇叭；鸣笛声；电话信号音",
+      "perfective": "",
+      "note": "电话中指忙音、回铃音等，不笼统等同来电铃声；古乐器同形词不混入本条。",
+      "stage": 2,
+      "original": {
+        "word": "гудок",
+        "part_of_speech": "阳",
+        "meaning_zh": "汽笛；汽笛声；鸣笛声；电话铃声",
+        "source_page": 65,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гудок",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=65",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。",
+        "https://gramota.ru/poisk?mode=slovari&query=гудок",
+        "词典明确短长电话信号表示占线或空闲；对原书电话铃声作语义纠正。"
+      ]
+    },
+    {
+      "id": 8048,
+      "accent": "гуля́ть",
+      "part": "动词·未完成体",
+      "meaning": "散步；漫步；游玩；休息；闲着",
+      "perfective": "погуля́ть",
+      "note": "完成体常表示散步或游玩一段时间。",
+      "stage": 1,
+      "original": {
+        "word": "гулять",
+        "part_of_speech": "未",
+        "meaning_zh": "散步；漫步；休息；闲着",
+        "source_page": 65,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гулять",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=65",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8049,
+      "accent": "густо́й",
+      "part": "形容词",
+      "meaning": "浓密的；稠的；浓厚的",
+      "perfective": "",
+      "note": "如头发浓密、粥稠，不泛指物体厚度。",
+      "stage": 2,
+      "original": {
+        "word": "густой",
+        "part_of_speech": "形",
+        "meaning_zh": "浓密的；稠的；厚的",
+        "source_page": 65,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "густой",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=65",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8050,
+      "accent": "гусь",
+      "part": "名词·阳性",
+      "meaning": "鹅",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "гусь",
+        "part_of_speech": "阳",
+        "meaning_zh": "鹅",
+        "source_page": 65,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гусь",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=65",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8051,
+      "accent": "да",
+      "part": "语气词；连词",
+      "meaning": "是；对；是吗；和；但是",
+      "perfective": "",
+      "note": "语气词表示肯定或询问；连词义依上下文；да здравствует中表示祝愿。",
+      "stage": 1,
+      "original": {
+        "word": "да",
+        "part_of_speech": "语",
+        "meaning_zh": "是；对；真的吗；是吗",
+        "source_page": 65,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "да",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=65",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8053,
+      "accent": "дава́ться",
+      "part": "动词·未完成体",
+      "meaning": "被给予；被获得；被掌握；让人捉住或接近自己",
+      "perfective": "да́ться",
+      "note": "掌握、获得的难易由легко、трудно等说明；本词不恒等于容易理解。",
+      "stage": 2,
+      "original": {
+        "word": "даваться",
+        "part_of_speech": "未",
+        "meaning_zh": "给予；被给予；容易得到；容易理解",
+        "source_page": 65,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "даваться",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=65",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。",
+        "https://gramota.ru/poisk?mode=slovari&query=даваться",
+        "https://gramota.ru/poisk?mode=slovari&query=трудно",
+        "复核重音、未完成体及даться；难易须依搭配，词典例子包含трудно даётся。"
+      ]
+    },
+    {
+      "id": 8054,
+      "accent": "дави́ть",
+      "part": "动词·未完成体",
+      "meaning": "压；挤压；压迫；压制；榨取；压死",
+      "perfective": "задави́ть",
+      "note": "体对用于压死、碾死或压倒等结果；挤汁可用выдавить，不把задавить套用于全部义项。",
+      "stage": 2,
+      "original": {
+        "word": "давить",
+        "part_of_speech": "完",
+        "meaning_zh": "压；挤；压制；压迫；榨取",
+        "source_page": 66,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "давить",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=66",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8055,
+      "accent": "давле́ние",
+      "part": "名词·中性",
+      "meaning": "压力；压强；血压",
+      "perfective": "",
+      "note": "水压、舆论压力是具体搭配用法。",
+      "stage": 2,
+      "original": {
+        "word": "давление",
+        "part_of_speech": "中",
+        "meaning_zh": "压力；水压；舆论压力",
+        "source_page": 66,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "давление",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=66",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8056,
+      "accent": "давно́",
+      "part": "副词",
+      "meaning": "很久以前；早已；很久",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "давно",
+        "part_of_speech": "副",
+        "meaning_zh": "很久以前；很早；很久",
+        "source_page": 66,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "давно",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=66",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8057,
+      "accent": "да́же",
+      "part": "语气词；连词",
+      "meaning": "甚至；连……也",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "даже",
+        "part_of_speech": "语",
+        "meaning_zh": "甚至；连……也",
+        "source_page": 66,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "даже",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=66",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8058,
+      "accent": "далёкий",
+      "part": "形容词",
+      "meaning": "远的；遥远的；久远的；相隔很长时间的",
+      "perfective": "",
+      "note": "时间与空间均可；保留ё。",
+      "stage": 1,
+      "original": {
+        "word": "далёкий",
+        "part_of_speech": "形",
+        "meaning_zh": "远的；遥远的；远距离的",
+        "source_page": 66,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "далёкий",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=66",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8059,
+      "accent": "далеко́",
+      "part": "副词；谓语用法",
+      "meaning": "远；在远处；离……远；远远地",
+      "perfective": "",
+      "note": "далеко не远非、远远不是；比较级дальше。",
+      "stage": 1,
+      "original": {
+        "word": "далеко",
+        "part_of_speech": "副",
+        "meaning_zh": "远；在远处；离……远",
+        "source_page": 66,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "далеко",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=66",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8060,
+      "accent": "дальне́йший",
+      "part": "形容词",
+      "meaning": "今后的；进一步的；继续下去的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "дальнейший",
+        "part_of_speech": "形",
+        "meaning_zh": "今后的；进一步的；继续的",
+        "source_page": 66,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дальнейший",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=66",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    },
+    {
+      "id": 8061,
+      "accent": "да́льний",
+      "part": "形容词",
+      "meaning": "远的；远方的；远距离的；远亲的",
+      "perfective": "",
+      "note": "远亲义如дальний родственник。",
+      "stage": 1,
+      "original": {
+        "word": "дальний",
+        "part_of_speech": "形",
+        "meaning_zh": "远的；远方的；远距离的",
+        "source_page": 66,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дальний",
+      "method": "2026-09-13当前助手逐词审核专四PDF63至66页，校正漏义、同形词混义和体标记；8047、8053另作外部词典抽核，不代表全批词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=66",
+        "当前助手已逐项视觉对照词头、重音、词性、中文及相邻条边界。"
+      ]
+    }
+  ]
+}

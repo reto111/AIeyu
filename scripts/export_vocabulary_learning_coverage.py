@@ -37,7 +37,8 @@ def main():
                                     status='本轮未逐词审核，或旧审核与当前值不一致'))
     summary = dict(total=len(reviewed)+len(pending), model_reviewed=len(reviewed), pending=len(pending),
                    stages={STAGE_NAMES[s]:sum(r['stage']==s for r in reviewed) for s in range(1,5)},
-                   external_dictionary_spotchecks=sum(r['evidence_json'].startswith('["https://') for r in reviewed),
+                   external_dictionary_spotchecks=sum(any(isinstance(source, str) and source.startswith('https://')
+                       for source in json.loads(r['evidence_json'])) for r in reviewed),
                    source_pdf_visual_checks=sum('pdf#page=' in r['evidence_json'] for r in reviewed),
                    next_pending_id=pending[0]['id'] if pending else None,
                    visually_confirmed_archived=sum(r['state']=='archived' for r in archived))

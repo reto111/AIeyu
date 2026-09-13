@@ -1,0 +1,965 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 7989,
+      "accent": "голова́",
+      "part": "名词·阴性",
+      "meaning": "头；头脑；具有某种才智的人；头（牲畜的计量单位）",
+      "perfective": "",
+      "note": "牲畜计量义指一头牲畜，不是表示总头数的专门名词。",
+      "stage": 1,
+      "original": {
+        "word": "голова",
+        "part_of_speech": "阴",
+        "meaning_zh": "头；头部；头脑；（牲畜的）头数",
+        "source_page": 59,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "голова",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=59",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 7990,
+      "accent": "го́лод",
+      "part": "名词·阳性",
+      "meaning": "饥饿；饥荒；匮乏",
+      "perfective": "",
+      "note": "匮乏为转义，如书籍或信息不足。",
+      "stage": 1,
+      "original": {
+        "word": "голод",
+        "part_of_speech": "阳",
+        "meaning_zh": "饥饿；饥荒；缺乏",
+        "source_page": 59,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "голод",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=59",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 7991,
+      "accent": "голо́дный",
+      "part": "形容词",
+      "meaning": "饥饿的；挨饿的；闹饥荒的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "голодный",
+        "part_of_speech": "形",
+        "meaning_zh": "饥饿的；饥荒的",
+        "source_page": 59,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "голодный",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=59",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 7992,
+      "accent": "го́лос",
+      "part": "名词·阳性",
+      "meaning": "声音；嗓音；歌喉；声部；发言权；选票；票数；呼声",
+      "perfective": "",
+      "note": "投票和票数义用于表决、选举等语境。",
+      "stage": 1,
+      "original": {
+        "word": "голос",
+        "part_of_speech": "阳",
+        "meaning_zh": "声音；嗓音；歌喉；发言权",
+        "source_page": 59,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "голос",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=59",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 7993,
+      "accent": "голосова́ть",
+      "part": "动词·未完成体",
+      "meaning": "投票；表决",
+      "perfective": "проголосова́ть",
+      "note": "голосовать за支持，против反对。",
+      "stage": 2,
+      "original": {
+        "word": "голосовать",
+        "part_of_speech": "未",
+        "meaning_zh": "投票；表决",
+        "source_page": 60,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "голосовать",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=60",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 7994,
+      "accent": "голубо́й",
+      "part": "形容词",
+      "meaning": "天蓝色的；淡蓝色的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "голубой",
+        "part_of_speech": "形",
+        "meaning_zh": "天蓝色的；淡蓝色的",
+        "source_page": 60,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "голубой",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=60",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 7995,
+      "accent": "го́лый",
+      "part": "形容词",
+      "meaning": "裸露的；赤裸的；光秃的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "голый",
+        "part_of_speech": "形",
+        "meaning_zh": "裸体的；赤裸的；光秃的",
+        "source_page": 60,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "голый",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=60",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 7996,
+      "accent": "гора́",
+      "part": "名词·阴性",
+      "meaning": "山；一大堆",
+      "perfective": "",
+      "note": "复数горы还可指山区、山地。",
+      "stage": 1,
+      "original": {
+        "word": "гора",
+        "part_of_speech": "阴",
+        "meaning_zh": "山；山区；一大堆",
+        "source_page": 60,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гора",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=60",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 7997,
+      "accent": "гора́здо",
+      "part": "副词",
+      "meaning": "……得多；大大地",
+      "perfective": "",
+      "note": "常修饰比较级，如гораздо лучше好得多。",
+      "stage": 2,
+      "original": {
+        "word": "гораздо",
+        "part_of_speech": "副",
+        "meaning_zh": "得多；大大地",
+        "source_page": 60,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гораздо",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=60",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 7998,
+      "accent": "горди́ться",
+      "part": "动词·未完成体",
+      "meaning": "为……自豪；骄傲；自负",
+      "perfective": "",
+      "note": "支配第五格；不把возгордиться（变得骄傲）当作全部用法的体对。",
+      "stage": 1,
+      "original": {
+        "word": "гордиться",
+        "part_of_speech": "Ж",
+        "meaning_zh": "为……感到自豪；骄傲",
+        "source_page": 60,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гордиться",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=60",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 7999,
+      "accent": "го́рдость",
+      "part": "名词·阴性",
+      "meaning": "自豪；自尊心；骄傲；令人自豪的人或事物",
+      "perfective": "",
+      "note": "可褒可贬，依上下文判断。",
+      "stage": 2,
+      "original": {
+        "word": "гордость",
+        "part_of_speech": "阴",
+        "meaning_zh": "自豪；骄傲；令人自豪的人或物",
+        "source_page": 60,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гордость",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=60",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8000,
+      "accent": "го́рдый",
+      "part": "形容词",
+      "meaning": "自豪的；有自尊心的；骄傲的；傲慢的",
+      "perfective": "",
+      "note": "可修饰姿态、神情；不泛译所有雄伟事物。",
+      "stage": 2,
+      "original": {
+        "word": "гордый",
+        "part_of_speech": "形",
+        "meaning_zh": "有自尊心的；自豪的；雄伟的",
+        "source_page": 60,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гордый",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=60",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8001,
+      "accent": "го́ре",
+      "part": "名词·中性",
+      "meaning": "悲伤；悲痛；不幸；灾祸",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "горе",
+        "part_of_speech": "中",
+        "meaning_zh": "悲伤；痛苦；不幸的事",
+        "source_page": 60,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "горе",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=60",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8002,
+      "accent": "горе́ть",
+      "part": "动词·未完成体",
+      "meaning": "燃烧；亮着；发烧；发红；发光；充满强烈感情",
+      "perfective": "сгоре́ть",
+      "note": "完成体限燃烧至烧掉、烧完等结果，不套用于灯亮着或充满感情。",
+      "stage": 1,
+      "original": {
+        "word": "гореть",
+        "part_of_speech": "未",
+        "meaning_zh": "燃烧；亮着；发烧；发红；发光；充满（感情）",
+        "source_page": 60,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гореть",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=60",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8003,
+      "accent": "горизо́нт",
+      "part": "名词·阳性",
+      "meaning": "地平线；视野；眼界",
+      "perfective": "",
+      "note": "海上可指水天相接的线，不是任意水平线。",
+      "stage": 2,
+      "original": {
+        "word": "горизонт",
+        "part_of_speech": "阳",
+        "meaning_zh": "地平线；水平线；见识范围",
+        "source_page": 61,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "горизонт",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=61",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8004,
+      "accent": "го́рло",
+      "part": "名词·中性",
+      "meaning": "咽喉；嗓子；瓶颈；瓶口",
+      "perfective": "",
+      "note": "瓶颈义指容器的狭窄颈口，不泛指人体颈部。",
+      "stage": 1,
+      "original": {
+        "word": "горло",
+        "part_of_speech": "中",
+        "meaning_zh": "咽喉；嗓子；瓶颈；颈部",
+        "source_page": 61,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "горло",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=61",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8005,
+      "accent": "го́рный",
+      "part": "形容词",
+      "meaning": "山的；山区的；多山的；矿业的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "горный",
+        "part_of_speech": "形",
+        "meaning_zh": "山的；山区的；多山的；矿业的",
+        "source_page": 61,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "горный",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=61",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8007,
+      "accent": "городско́й",
+      "part": "形容词",
+      "meaning": "城市的；市区的；市政的",
+      "perfective": "",
+      "note": "городской житель意为城市居民。",
+      "stage": 1,
+      "original": {
+        "word": "городской",
+        "part_of_speech": "形",
+        "meaning_zh": "城市的；市区的；市民的",
+        "source_page": 61,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "городской",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=61",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8008,
+      "accent": "го́рький",
+      "part": "形容词",
+      "meaning": "苦的；痛苦的；辛酸的；困苦的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "горький",
+        "part_of_speech": "形",
+        "meaning_zh": "苦的；痛苦的；困苦的",
+        "source_page": 61,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "горький",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=61",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8009,
+      "accent": "горя́чий",
+      "part": "形容词",
+      "meaning": "热的；烫的；热情的；急躁的；紧张忙碌的",
+      "perfective": "",
+      "note": "按所修饰的人、物或时期区分义项。",
+      "stage": 1,
+      "original": {
+        "word": "горячий",
+        "part_of_speech": "形",
+        "meaning_zh": "热的；热情的；紧张的；忙碌的；暴躁的",
+        "source_page": 61,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "горячий",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=61",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8010,
+      "accent": "го́спиталь",
+      "part": "名词·阳性",
+      "meaning": "军医院；医院",
+      "perfective": "",
+      "note": "通常用于军人或特定人员的医院，不代替一切普通医院。",
+      "stage": 2,
+      "original": {
+        "word": "госпиталь",
+        "part_of_speech": "阳",
+        "meaning_zh": "医院；病院（多指军医院）",
+        "source_page": 61,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "госпиталь",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=61",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8011,
+      "accent": "господи́н",
+      "part": "名词·阳性",
+      "meaning": "先生；主人；老爷；主宰",
+      "perfective": "",
+      "note": "复数господа；先生为称呼，老爷带旧时色彩。",
+      "stage": 2,
+      "original": {
+        "word": "господин",
+        "part_of_speech": "阳",
+        "meaning_zh": "先生；主人；老爷",
+        "source_page": 61,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "господин",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=61",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8012,
+      "accent": "гостеприи́мный",
+      "part": "形容词",
+      "meaning": "好客的；热情待客的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "гостеприимный",
+        "part_of_speech": "形",
+        "meaning_zh": "好客的；热情的",
+        "source_page": 62,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гостеприимный",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=62",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8013,
+      "accent": "гости́ница",
+      "part": "名词·阴性",
+      "meaning": "旅馆；宾馆；酒店",
+      "perfective": "",
+      "note": "饭店义指提供住宿的酒店，不是普通餐馆。",
+      "stage": 1,
+      "original": {
+        "word": "гостиница",
+        "part_of_speech": "阴",
+        "meaning_zh": "旅馆；宾馆；饭店",
+        "source_page": 62,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гостиница",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=62",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8014,
+      "accent": "гость",
+      "part": "名词·阳性",
+      "meaning": "客人；来宾",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "гость",
+        "part_of_speech": "阳",
+        "meaning_zh": "客人；来宾",
+        "source_page": 62,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гость",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=62",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8015,
+      "accent": "госуда́рственный",
+      "part": "形容词",
+      "meaning": "国家的；国有的；国营的；国立的；国务的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "государственный",
+        "part_of_speech": "形",
+        "meaning_zh": "国家的；国营的；国立的；国务的",
+        "source_page": 62,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "государственный",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=62",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8016,
+      "accent": "госуда́рство",
+      "part": "名词·中性",
+      "meaning": "国家；国家政权",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "государство",
+        "part_of_speech": "中",
+        "meaning_zh": "国家；国家政权",
+        "source_page": 62,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "государство",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=62",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8018,
+      "accent": "гото́виться",
+      "part": "动词·未完成体",
+      "meaning": "准备；做准备；即将发生；正在酝酿",
+      "perfective": "подгото́виться",
+      "note": "体对限做好准备；即将发生义不机械换用完成体。",
+      "stage": 1,
+      "original": {
+        "word": "готовиться",
+        "part_of_speech": "未",
+        "meaning_zh": "准备；为……做准备；即将发生",
+        "source_page": 62,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "готовиться",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=62",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8019,
+      "accent": "гото́вый",
+      "part": "形容词",
+      "meaning": "准备好的；现成的；愿意的；情愿的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "готовый",
+        "part_of_speech": "形",
+        "meaning_zh": "准备好的；现成的；愿意的",
+        "source_page": 62,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "готовый",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=62",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8020,
+      "accent": "гра́дус",
+      "part": "名词·阳性",
+      "meaning": "度（角度、温度、酒精度等的单位）",
+      "perfective": "",
+      "note": "表示计量单位，不直接等同角度或温度本身。",
+      "stage": 1,
+      "original": {
+        "word": "градус",
+        "part_of_speech": "阳",
+        "meaning_zh": "度；角度；温度；酒精度",
+        "source_page": 62,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "градус",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=62",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8021,
+      "accent": "граждани́н",
+      "part": "名词·阳性",
+      "meaning": "公民；先生（对成年男子的正式称呼）",
+      "perfective": "",
+      "note": "复数граждане；称呼用法有特定语体。",
+      "stage": 2,
+      "original": {
+        "word": "гражданин",
+        "part_of_speech": "阳",
+        "meaning_zh": "公民；先生（对成年男子的称呼）",
+        "source_page": 63,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гражданин",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=63",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8022,
+      "accent": "гражда́нский",
+      "part": "形容词",
+      "meaning": "公民的；民事的；非军事的；民用的",
+      "perfective": "",
+      "note": "гражданская война是内战，不能把本词泛译为国内的。",
+      "stage": 2,
+      "original": {
+        "word": "гражданский",
+        "part_of_speech": "形",
+        "meaning_zh": "民事的；公民的；国内的",
+        "source_page": 63,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "гражданский",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=63",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8023,
+      "accent": "грамм",
+      "part": "名词·阳性",
+      "meaning": "克",
+      "perfective": "",
+      "note": "质量单位。",
+      "stage": 1,
+      "original": {
+        "word": "грамм",
+        "part_of_speech": "阳",
+        "meaning_zh": "克",
+        "source_page": 63,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "грамм",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=63",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8024,
+      "accent": "гра́мота",
+      "part": "名词·阴性",
+      "meaning": "识字能力；基本知识；证书；文书",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "грамота",
+        "part_of_speech": "阴",
+        "meaning_zh": "识字；基本常识；证书；公文",
+        "source_page": 63,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "грамота",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=63",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8025,
+      "accent": "гра́мотный",
+      "part": "形容词",
+      "meaning": "识字的；有文化的；文理通顺的；符合语言规范的；内行的",
+      "perfective": "",
+      "note": "内行义指掌握某领域知识、做事合乎要求。",
+      "stage": 2,
+      "original": {
+        "word": "грамотный",
+        "part_of_speech": "形",
+        "meaning_zh": "识字的；有文化的；文理通顺的；无语法错误的",
+        "source_page": 63,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "грамотный",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=63",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8026,
+      "accent": "грани́ца",
+      "part": "名词·阴性",
+      "meaning": "边界；交界线；国界；界限；范围",
+      "perfective": "",
+      "note": "学科交界处是搭配语境，不译成独立的交叉领域义。",
+      "stage": 2,
+      "original": {
+        "word": "граница",
+        "part_of_speech": "阴",
+        "meaning_zh": "边界；国境线；界限；交叉领域",
+        "source_page": 63,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "граница",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=63",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8027,
+      "accent": "греме́ть",
+      "part": "动词·未完成体",
+      "meaning": "轰鸣；发出响亮的声音",
+      "perfective": "",
+      "note": "不把开始轰鸣或响过一次强配为所有义的完成体。",
+      "stage": 2,
+      "original": {
+        "word": "греметь",
+        "part_of_speech": "未",
+        "meaning_zh": "轰鸣；发出很响的声音",
+        "source_page": 63,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "греметь",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=63",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8028,
+      "accent": "греть",
+      "part": "动词·未完成体",
+      "meaning": "加热；使温暖；保暖",
+      "perfective": "нагре́ть",
+      "note": "加热对应нагреть；使人暖和常用согреть，保暖状态不强配。",
+      "stage": 1,
+      "original": {
+        "word": "греть",
+        "part_of_speech": "未",
+        "meaning_zh": "加热；使温暖；保暖",
+        "source_page": 63,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "греть",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=63",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8029,
+      "accent": "гре́ться",
+      "part": "动词·未完成体",
+      "meaning": "取暖；受热；变热",
+      "perfective": "согре́ться",
+      "note": "体对限暖和起来；物体受热变热可用нагреться。",
+      "stage": 1,
+      "original": {
+        "word": "греться",
+        "part_of_speech": "未",
+        "meaning_zh": "取暖；受热",
+        "source_page": 63,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "греться",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=63",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    },
+    {
+      "id": 8030,
+      "accent": "грех",
+      "part": "名词·阳性",
+      "meaning": "罪孽；罪过；过错；过失",
+      "perfective": "",
+      "note": "宗教义与日常过失义需按语境区分。",
+      "stage": 2,
+      "original": {
+        "word": "грех",
+        "part_of_speech": "阳",
+        "meaning_zh": "罪孽；罪过；过失",
+        "source_page": 63,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "грех",
+      "method": "2026-09-13当前助手逐词俄中核验，视觉对照专四扫描书PDF59至63页，复核重音、词性、核心义项及动词体对适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=63",
+        "已逐项视觉核对原词头、重音、词性和中文；教学释义由当前助手整理，不作为全量外部词典核验。"
+      ]
+    }
+  ]
+}
