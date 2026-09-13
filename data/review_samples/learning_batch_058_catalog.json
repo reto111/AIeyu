@@ -1,0 +1,725 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8083,
+      "accent": "девяно́сто",
+      "part": "基数词",
+      "meaning": "九十",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "девяносто",
+        "part_of_speech": "数",
+        "meaning_zh": "九十；90",
+        "source_page": 68,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "девяносто",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=68",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8084,
+      "accent": "девяно́стый",
+      "part": "序数词",
+      "meaning": "第九十",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "девяностый",
+        "part_of_speech": "数",
+        "meaning_zh": "第九十；第90个",
+        "source_page": 68,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "девяностый",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=68",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8085,
+      "accent": "девятна́дцатый",
+      "part": "序数词",
+      "meaning": "第十九",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "девятнадцатый",
+        "part_of_speech": "数",
+        "meaning_zh": "第十九；第19个",
+        "source_page": 68,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "девятнадцатый",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=68",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8086,
+      "accent": "девятна́дцать",
+      "part": "基数词",
+      "meaning": "十九",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "девятнадцать",
+        "part_of_speech": null,
+        "meaning_zh": "十九；19",
+        "source_page": 68,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "девятнадцать",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=68",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8087,
+      "accent": "девя́тый",
+      "part": "序数词",
+      "meaning": "第九",
+      "perfective": "",
+      "note": "одна девятая为九分之一，不把分数整搭配当作词头本身的义项。",
+      "stage": 1,
+      "original": {
+        "word": "девятый",
+        "part_of_speech": null,
+        "meaning_zh": "第九；九分之一",
+        "source_page": 68,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "девятый",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=68",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8088,
+      "accent": "де́вять",
+      "part": "基数词",
+      "meaning": "九",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "девять",
+        "part_of_speech": "数",
+        "meaning_zh": "九；9",
+        "source_page": 68,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "девять",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=68",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8089,
+      "accent": "девятьсо́т",
+      "part": "基数词",
+      "meaning": "九百",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "девятьсот",
+        "part_of_speech": "数",
+        "meaning_zh": "九百；900",
+        "source_page": 69,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "девятьсот",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=69",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8090,
+      "accent": "дед",
+      "part": "名词·阳性",
+      "meaning": "祖父；外祖父；老头",
+      "perfective": "",
+      "note": "复数деды可指祖先。",
+      "stage": 1,
+      "original": {
+        "word": "дед",
+        "part_of_speech": "阳",
+        "meaning_zh": "祖父；外祖父；祖先",
+        "source_page": 69,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дед",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=69",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8091,
+      "accent": "де́душка",
+      "part": "名词·阳性",
+      "meaning": "爷爷；外公；老爷爷",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "дедушка",
+        "part_of_speech": "阳",
+        "meaning_zh": "爷爷；姥爷；老爷爷",
+        "source_page": 69,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дедушка",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=69",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8092,
+      "accent": "дежу́рить",
+      "part": "动词·未完成体",
+      "meaning": "值班；值日；守候",
+      "perfective": "",
+      "note": "不把值班一段时间的подежурить强配为所有用法的唯一完成体。",
+      "stage": 1,
+      "original": {
+        "word": "дежурить",
+        "part_of_speech": "未",
+        "meaning_zh": "值班；值日",
+        "source_page": 69,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дежурить",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=69",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8093,
+      "accent": "дежу́рный",
+      "part": "形容词；名词化用法",
+      "meaning": "值班的；值日的；值班人员",
+      "perfective": "",
+      "note": "指女性值班人员时用дежурная。",
+      "stage": 1,
+      "original": {
+        "word": "дежурный",
+        "part_of_speech": "形",
+        "meaning_zh": "值班的；值日的；值班人员",
+        "source_page": 69,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дежурный",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=69",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8094,
+      "accent": "де́йствие",
+      "part": "名词·中性",
+      "meaning": "行动；行为；运转；作用；效力；情节；幕（戏剧）",
+      "perfective": "",
+      "note": "法律的效力、作品情节及戏剧的幕是不同义项。",
+      "stage": 2,
+      "original": {
+        "word": "действие",
+        "part_of_speech": "中",
+        "meaning_zh": "行为；行动；作用；运转",
+        "source_page": 69,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "действие",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=69",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8095,
+      "accent": "де́йствовать",
+      "part": "动词·未完成体",
+      "meaning": "行动；行事；起作用；运转；有效",
+      "perfective": "поде́йствовать",
+      "note": "完成体主要用于发生作用、产生影响，不能代替法律持续有效等状态。",
+      "stage": 2,
+      "original": {
+        "word": "действовать",
+        "part_of_speech": "未",
+        "meaning_zh": "行动；行事；起作用；运转；有效",
+        "source_page": 69,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "действовать",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=69",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8096,
+      "accent": "дека́брь",
+      "part": "名词·阳性",
+      "meaning": "十二月",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "декабрь",
+        "part_of_speech": "阳",
+        "meaning_zh": "十二月；12月",
+        "source_page": 69,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "декабрь",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=69",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8097,
+      "accent": "дека́н",
+      "part": "名词·阳性",
+      "meaning": "系主任；学院院长",
+      "perfective": "",
+      "note": "用于大学факультет的负责人，依学校组织译为系主任或院长。",
+      "stage": 2,
+      "original": {
+        "word": "декан",
+        "part_of_speech": "阳",
+        "meaning_zh": "系主任；院长",
+        "source_page": 70,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "декан",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=70",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8099,
+      "accent": "де́латься",
+      "part": "动词·未完成体",
+      "meaning": "变成；成为；被做；被制造",
+      "perfective": "сде́латься",
+      "note": "本来源重点为变成、成为；被做是делать的被动用法。",
+      "stage": 2,
+      "original": {
+        "word": "делаться",
+        "part_of_speech": "未",
+        "meaning_zh": "变成；成为",
+        "source_page": 70,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "делаться",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=70",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8100,
+      "accent": "делега́т",
+      "part": "名词·阳性",
+      "meaning": "代表；会议代表",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "делегат",
+        "part_of_speech": "阳",
+        "meaning_zh": "代表；代表人",
+        "source_page": 70,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "делегат",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=70",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8101,
+      "accent": "делега́ция",
+      "part": "名词·阴性",
+      "meaning": "代表团",
+      "perfective": "",
+      "note": "不是泛指所有代表机构。",
+      "stage": 2,
+      "original": {
+        "word": "делегация",
+        "part_of_speech": null,
+        "meaning_zh": "代表团；代表机构",
+        "source_page": 70,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "делегация",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=70",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8102,
+      "accent": "дели́ть",
+      "part": "动词·未完成体",
+      "meaning": "分；划分；分配；分享；分担；除",
+      "perfective": "раздели́ть",
+      "note": "分担可用于悲伤与欢乐；除法用делить на。",
+      "stage": 1,
+      "original": {
+        "word": "делить",
+        "part_of_speech": "Ж",
+        "meaning_zh": "分；划分；分类；除",
+        "source_page": 70,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "делить",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=70",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8103,
+      "accent": "дели́ться",
+      "part": "动词·未完成体",
+      "meaning": "分成；分开；分享；交流；可被整除",
+      "perfective": "",
+      "note": "分享对应подели́ться，分成对应раздели́ться；可整除状态不强配单次完成体。",
+      "stage": 2,
+      "original": {
+        "word": "делиться",
+        "part_of_speech": "未",
+        "meaning_zh": "分开；分成；分享；分担；除尽",
+        "source_page": 70,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "делиться",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=70",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8104,
+      "accent": "де́ло",
+      "part": "名词·中性",
+      "meaning": "事情；工作；事务；事业；业务；责任；案件；情况",
+      "perfective": "",
+      "note": "具体义依语境，固定表达如на самом деле另看搭配。",
+      "stage": 1,
+      "original": {
+        "word": "дело",
+        "part_of_speech": "中",
+        "meaning_zh": "事情；工作；事务；案件；情况",
+        "source_page": 70,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дело",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=70",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8105,
+      "accent": "делово́й",
+      "part": "形容词",
+      "meaning": "事务上的；业务的；商务的；办事能干的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "деловой",
+        "part_of_speech": "形",
+        "meaning_zh": "事务上的；商务的；办事能干的",
+        "source_page": 71,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "деловой",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=71",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8106,
+      "accent": "демократи́ческий",
+      "part": "形容词",
+      "meaning": "民主的；民主制度的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "демократический",
+        "part_of_speech": "形",
+        "meaning_zh": "民主的；民主制度的",
+        "source_page": 71,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "демократический",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=71",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8107,
+      "accent": "демокра́тия",
+      "part": "名词·阴性",
+      "meaning": "民主；民主制度",
+      "perfective": "",
+      "note": "修正阮字词性乱码。",
+      "stage": 2,
+      "original": {
+        "word": "демократия",
+        "part_of_speech": "阮",
+        "meaning_zh": "民主；民主制度",
+        "source_page": 71,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "демократия",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=71",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8108,
+      "accent": "демонстра́ция",
+      "part": "名词·阴性",
+      "meaning": "游行示威；展示；演示；放映",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "демонстрация",
+        "part_of_speech": "阮",
+        "meaning_zh": "游行；示威；放映；展示",
+        "source_page": 71,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "демонстрация",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=71",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8110,
+      "accent": "де́ньги",
+      "part": "名词·复数",
+      "meaning": "钱；货币；款项；资金",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "деньги",
+        "part_of_speech": "复",
+        "meaning_zh": "钱；货币；款项",
+        "source_page": 72,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "деньги",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=72",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8111,
+      "accent": "дереве́нский",
+      "part": "形容词",
+      "meaning": "农村的；乡村的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "деревенский",
+        "part_of_speech": "形",
+        "meaning_zh": "农村的；乡村的",
+        "source_page": 72,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "деревенский",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=72",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8112,
+      "accent": "дере́вня",
+      "part": "名词·阴性",
+      "meaning": "村庄；农村；乡村",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "деревня",
+        "part_of_speech": "阴",
+        "meaning_zh": "村；村庄；农村",
+        "source_page": 72,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "деревня",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=72",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8113,
+      "accent": "де́рево",
+      "part": "名词·中性",
+      "meaning": "树；树木；木头；木材",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "дерево",
+        "part_of_speech": "中",
+        "meaning_zh": "树；木头；木材",
+        "source_page": 72,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дерево",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=72",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8114,
+      "accent": "деревя́нный",
+      "part": "形容词",
+      "meaning": "木制的；木头做的；呆板的；僵硬的",
+      "perfective": "",
+      "note": "呆板为转义，可形容表情或动作。",
+      "stage": 1,
+      "original": {
+        "word": "деревянный",
+        "part_of_speech": "形",
+        "meaning_zh": "木头做的；木制的；木质的",
+        "source_page": 72,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "деревянный",
+      "method": "2026-09-14当前助手逐词对照专四PDF68至72页，核定重音、词性、核心中文和动词体用法；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=72",
+        "逐词视觉核查原词条与续页，教学释义经当前助手俄中语义对照整理，不代表外部词典全核。"
+      ]
+    }
+  ]
+}

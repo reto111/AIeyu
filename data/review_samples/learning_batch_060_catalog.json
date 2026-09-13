@@ -1,0 +1,965 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8145,
+      "accent": "дно",
+      "part": "名词·中性",
+      "meaning": "底；底部；河底；海底；社会底层",
+      "perfective": "",
+      "note": "社会底层为转义。",
+      "stage": 2,
+      "original": {
+        "word": "дно",
+        "part_of_speech": "中",
+        "meaning_zh": "底；底部；海底；社会底层",
+        "source_page": 74,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дно",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=74",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8146,
+      "accent": "до",
+      "part": "前置词",
+      "meaning": "到；直到；在……以前；达到；将近",
+      "perfective": "",
+      "note": "支配第二格，时间、空间、数量和程度用法须结合搭配。",
+      "stage": 1,
+      "original": {
+        "word": "до",
+        "part_of_speech": "前",
+        "meaning_zh": "到；直到；在……以前；达到；将近",
+        "source_page": 75,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "до",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=75",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8147,
+      "accent": "добавля́ть",
+      "part": "动词·未完成体",
+      "meaning": "添加；增加；补充",
+      "perfective": "доба́вить",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "добавлять",
+        "part_of_speech": "Ж",
+        "meaning_zh": "添加；增加；补充",
+        "source_page": 75,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "добавлять",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=75",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8148,
+      "accent": "добива́ться",
+      "part": "动词·未完成体",
+      "meaning": "努力争取；设法达到；获得",
+      "perfective": "доби́ться",
+      "note": "支配第二格；未完成体可表示争取过程，不保证已取得结果。",
+      "stage": 2,
+      "original": {
+        "word": "добиваться",
+        "part_of_speech": "未",
+        "meaning_zh": "争取达到；取得；获得",
+        "source_page": 75,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "добиваться",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=75",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8149,
+      "accent": "добро́",
+      "part": "名词·中性",
+      "meaning": "善；善事；好事；财物",
+      "perfective": "",
+      "note": "本条名词，财物义有口语色彩。",
+      "stage": 2,
+      "original": {
+        "word": "добро",
+        "part_of_speech": "中",
+        "meaning_zh": "善事；好事；善；财物",
+        "source_page": 75,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "добро",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=75",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8150,
+      "accent": "доброво́лец",
+      "part": "名词·阳性",
+      "meaning": "志愿者；志愿兵",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "доброволец",
+        "part_of_speech": "阳",
+        "meaning_zh": "志愿者；志愿兵",
+        "source_page": 75,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "доброволец",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=75",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8151,
+      "accent": "доброво́льный",
+      "part": "形容词",
+      "meaning": "自愿的；志愿的；义务性的",
+      "perfective": "",
+      "note": "义务性指自愿参与，不是强制应尽的义务。",
+      "stage": 2,
+      "original": {
+        "word": "добровольный",
+        "part_of_speech": null,
+        "meaning_zh": "自愿的；义务的",
+        "source_page": 75,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "добровольный",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=75",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8152,
+      "accent": "до́брый",
+      "part": "形容词",
+      "meaning": "善良的；亲切的；好的；良好的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "добрый",
+        "part_of_speech": "形",
+        "meaning_zh": "善良的；好的；亲切的",
+        "source_page": 75,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "добрый",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=75",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8153,
+      "accent": "добыва́ть",
+      "part": "动词·未完成体",
+      "meaning": "取得；弄到；获取；开采；采掘",
+      "perfective": "добы́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "добывать",
+        "part_of_speech": "未",
+        "meaning_zh": "取得；获得；开采",
+        "source_page": 75,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "добывать",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=75",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8154,
+      "accent": "добы́ча",
+      "part": "名词·阴性",
+      "meaning": "开采；采掘；开采物；采掘量；猎物；战利品",
+      "perfective": "",
+      "note": "猎物及战利品义依狩猎或战争语境，不泛译成所有产量。",
+      "stage": 2,
+      "original": {
+        "word": "добыча",
+        "part_of_speech": "阴",
+        "meaning_zh": "开采；采掘；开采物；产量",
+        "source_page": 75,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "добыча",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=75",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8155,
+      "accent": "дове́рие",
+      "part": "名词·中性",
+      "meaning": "信任；信赖",
+      "perfective": "",
+      "note": "恢复е，不使用довёрие。",
+      "stage": 2,
+      "original": {
+        "word": "довёрие",
+        "part_of_speech": "中",
+        "meaning_zh": "信任；信赖",
+        "source_page": 75,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "доверие",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=75",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8156,
+      "accent": "доверя́ть",
+      "part": "动词·未完成体",
+      "meaning": "信任；相信；委托；托付",
+      "perfective": "дове́рить",
+      "note": "完成体主要表示把某事物托付出去，不机械代替持续信任。",
+      "stage": 2,
+      "original": {
+        "word": "доверять",
+        "part_of_speech": "未",
+        "meaning_zh": "信任；相信；委托；托付",
+        "source_page": 76,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "доверять",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=76",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8157,
+      "accent": "доводи́ть",
+      "part": "动词·未完成体",
+      "meaning": "带到；领到；使达到；使陷入某种境地",
+      "perfective": "довести́",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "доводить",
+        "part_of_speech": "Ж",
+        "meaning_zh": "领到；带到；使达到；致使",
+        "source_page": 76,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "доводить",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=76",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8158,
+      "accent": "дово́льный",
+      "part": "形容词",
+      "meaning": "满意的；满足的；满足于……的",
+      "perfective": "",
+      "note": "支配第五格；区别副词довольно相当、够了。",
+      "stage": 1,
+      "original": {
+        "word": "довольный",
+        "part_of_speech": "形",
+        "meaning_zh": "满意的；满足的",
+        "source_page": 76,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "довольный",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=76",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8159,
+      "accent": "дога́дываться",
+      "part": "动词·未完成体",
+      "meaning": "猜想；猜到；领悟",
+      "perfective": "догада́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "догадываться",
+        "part_of_speech": "未",
+        "meaning_zh": "猜到；猜想；领悟",
+        "source_page": 76,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "догадываться",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=76",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8160,
+      "accent": "догова́риваться",
+      "part": "动词·未完成体",
+      "meaning": "商议；商定；约定；达成协议",
+      "perfective": "договори́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "договариваться",
+        "part_of_speech": "未",
+        "meaning_zh": "商定；约定；谈妥",
+        "source_page": 76,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "договариваться",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=76",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8161,
+      "accent": "догово́р",
+      "part": "名词·阳性",
+      "meaning": "条约；契约；合同；协议",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "договор",
+        "part_of_speech": "阳",
+        "meaning_zh": "条约；契约；合同",
+        "source_page": 76,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "договор",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=76",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8162,
+      "accent": "догоня́ть",
+      "part": "动词·未完成体",
+      "meaning": "追赶；赶上；追上；把……赶到某处",
+      "perfective": "догна́ть",
+      "note": "赶到某处义用于驱赶牲畜等语境。",
+      "stage": 2,
+      "original": {
+        "word": "догонять",
+        "part_of_speech": null,
+        "meaning_zh": "追上；赶上；把……赶到……",
+        "source_page": 76,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "догонять",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=76",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8163,
+      "accent": "доезжа́ть",
+      "part": "动词·未完成体",
+      "meaning": "乘车等到达；骑乘到达",
+      "perfective": "дое́хать",
+      "note": "强调借助交通工具或骑乘，不泛指步行到达。",
+      "stage": 1,
+      "original": {
+        "word": "доезжать",
+        "part_of_speech": "未",
+        "meaning_zh": "到达；（乘车、骑马等）到达",
+        "source_page": 76,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "доезжать",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=76",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8164,
+      "accent": "дождь",
+      "part": "名词·阳性",
+      "meaning": "雨",
+      "perfective": "",
+      "note": "下雨通常用идёт дождь，不把本词误作动词。",
+      "stage": 1,
+      "original": {
+        "word": "дождь",
+        "part_of_speech": "阳",
+        "meaning_zh": "雨；下雨",
+        "source_page": 76,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дождь",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=76",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8165,
+      "accent": "дожида́ться",
+      "part": "动词·未完成体",
+      "meaning": "等待；等候；一直等到",
+      "perfective": "дожда́ться",
+      "note": "未完成体不保证等到，完成体强调等待结果。",
+      "stage": 2,
+      "original": {
+        "word": "дожидаться",
+        "part_of_speech": "完",
+        "meaning_zh": "等到；等候到",
+        "source_page": 76,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дожидаться",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=76",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8166,
+      "accent": "дока́зывать",
+      "part": "动词·未完成体",
+      "meaning": "证明；证实；论证",
+      "perfective": "доказа́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "доказывать",
+        "part_of_speech": "未",
+        "meaning_zh": "证明；证实",
+        "source_page": 77,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "доказывать",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=77",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8167,
+      "accent": "докла́д",
+      "part": "名词·阳性",
+      "meaning": "报告；汇报；通报",
+      "perfective": "",
+      "note": "通报义可指向上级报告来访者。",
+      "stage": 2,
+      "original": {
+        "word": "доклад",
+        "part_of_speech": "阳",
+        "meaning_zh": "报告；学术报告；汇报",
+        "source_page": 77,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "доклад",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=77",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8168,
+      "accent": "докла́дывать",
+      "part": "动词·未完成体",
+      "meaning": "报告；汇报；通报",
+      "perfective": "доложи́ть",
+      "note": "本来源为报告义，不混入докласть补放的另一体对。",
+      "stage": 2,
+      "original": {
+        "word": "докладывать",
+        "part_of_speech": "未",
+        "meaning_zh": "报告；汇报；通报；传达",
+        "source_page": 77,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "докладывать",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=77",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8169,
+      "accent": "до́ктор",
+      "part": "名词·阳性",
+      "meaning": "医生；博士",
+      "perfective": "",
+      "note": "博士为学位称谓，具体学位制度依国家而异。",
+      "stage": 1,
+      "original": {
+        "word": "доктор",
+        "part_of_speech": "阳",
+        "meaning_zh": "医生；博士",
+        "source_page": 77,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "доктор",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=77",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8170,
+      "accent": "докуме́нт",
+      "part": "名词·阳性",
+      "meaning": "文件；证件；文献",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "документ",
+        "part_of_speech": "阳",
+        "meaning_zh": "文件；证件；文献",
+        "source_page": 77,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "документ",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=77",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8171,
+      "accent": "долг",
+      "part": "名词·阳性",
+      "meaning": "义务；责任；债务；债款",
+      "perfective": "",
+      "note": "义务、责任义通常单数；债务义可有复数。",
+      "stage": 2,
+      "original": {
+        "word": "долг",
+        "part_of_speech": "阳",
+        "meaning_zh": "义务；责任；债务；债款",
+        "source_page": 77,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "долг",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=77",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8172,
+      "accent": "до́лгий",
+      "part": "形容词",
+      "meaning": "长久的；持续时间长的",
+      "perfective": "",
+      "note": "主要指时间，不用于一般物体长度。",
+      "stage": 1,
+      "original": {
+        "word": "долгий",
+        "part_of_speech": "彤",
+        "meaning_zh": "长的；长时间的",
+        "source_page": 77,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "долгий",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=77",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8173,
+      "accent": "до́лжен",
+      "part": "形容词短尾·谓语用法",
+      "meaning": "应当；必须；按理应该；欠……的",
+      "perfective": "",
+      "note": "形式должна、должно、должны；欠款义如я должен тебе деньги。",
+      "stage": 1,
+      "original": {
+        "word": "должен",
+        "part_of_speech": "用 作 谓 语",
+        "meaning_zh": "应当；必须；应该",
+        "source_page": 77,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "должен",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=77",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8174,
+      "accent": "до́лжность",
+      "part": "名词·阴性",
+      "meaning": "职位；职务",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "должность",
+        "part_of_speech": "阴",
+        "meaning_zh": "职位；职务",
+        "source_page": 77,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "должность",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=77",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8175,
+      "accent": "до́ллар",
+      "part": "名词·阳性",
+      "meaning": "美元；元（美国及部分其他国家的货币单位）",
+      "perfective": "",
+      "note": "具体是哪国货币依语境。",
+      "stage": 1,
+      "original": {
+        "word": "доллар",
+        "part_of_speech": "阳",
+        "meaning_zh": "美元；元（货币单位）",
+        "source_page": 77,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "доллар",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=77",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8177,
+      "accent": "до́ма",
+      "part": "副词",
+      "meaning": "在家；在家里",
+      "perfective": "",
+      "note": "区别дом的形式дома́（房屋，复数）。",
+      "stage": 1,
+      "original": {
+        "word": "дома",
+        "part_of_speech": "副",
+        "meaning_zh": "在家；在家里",
+        "source_page": 78,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дома",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=78",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8178,
+      "accent": "дома́шний",
+      "part": "形容词",
+      "meaning": "家庭的；家常的；家用的；家养的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "домашний",
+        "part_of_speech": "形",
+        "meaning_zh": "家庭的；家常的；家里饲养的",
+        "source_page": 78,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "домашний",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=78",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8179,
+      "accent": "домо́й",
+      "part": "副词",
+      "meaning": "回家；回故乡",
+      "perfective": "",
+      "note": "表示方向，区别дома在家。",
+      "stage": 1,
+      "original": {
+        "word": "домой",
+        "part_of_speech": "#!",
+        "meaning_zh": "回家；回故乡",
+        "source_page": 78,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "домой",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=78",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8180,
+      "accent": "доноси́ться",
+      "part": "动词·未完成体",
+      "meaning": "传来；传到",
+      "perfective": "донести́сь",
+      "note": "本条用于声音、气味等传来。",
+      "stage": 2,
+      "original": {
+        "word": "доноситься",
+        "part_of_speech": "未",
+        "meaning_zh": "传来；传到",
+        "source_page": 78,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "доноситься",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=78",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8181,
+      "accent": "дополни́тельный",
+      "part": "形容词",
+      "meaning": "补充的；附加的；额外的",
+      "perfective": "",
+      "note": "语法搭配可译补语的，如дополнительное предложение。",
+      "stage": 2,
+      "original": {
+        "word": "дополнительный",
+        "part_of_speech": "形",
+        "meaning_zh": "补充的；附加的",
+        "source_page": 78,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дополнительный",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=78",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8182,
+      "accent": "допро́с",
+      "part": "名词·阳性",
+      "meaning": "审问；讯问；审讯",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "допрос",
+        "part_of_speech": "阳",
+        "meaning_zh": "审问；审讯",
+        "source_page": 78,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "допрос",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=78",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8183,
+      "accent": "допуска́ть",
+      "part": "动词·未完成体",
+      "meaning": "准许进入；准许接近；允许；容忍；犯下；假定",
+      "perfective": "допусти́ть",
+      "note": "犯下用于错误、违规等；不泛指做出任何行动。",
+      "stage": 2,
+      "original": {
+        "word": "допускать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "准许进入；准许接近；容忍",
+        "source_page": 78,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "допускать",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=78",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8184,
+      "accent": "допу́стим",
+      "part": "插入语；动词形式",
+      "meaning": "假定；假设；比如说",
+      "perfective": "",
+      "note": "本条重点为插入语，也是допустить的第一人称复数形式。",
+      "stage": 2,
+      "original": {
+        "word": "допустим",
+        "part_of_speech": "插",
+        "meaning_zh": "假定；假设；比如说",
+        "source_page": 78,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "допустим",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=78",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    },
+    {
+      "id": 8185,
+      "accent": "доро́га",
+      "part": "名词·阴性",
+      "meaning": "路；道路；通路；旅途；人生道路",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "дорога",
+        "part_of_speech": "阴",
+        "meaning_zh": "道路；路；旅途；生活道路",
+        "source_page": 78,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дорога",
+      "method": "2026-09-14当前助手逐词俄中审核，视觉对照专四PDF74至78页，复核重音、词性、未完成体过程义及完成体适用范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=78",
+        "原页逐词视觉核查；模型补充核心常用义并标明语境，不算作外部词典核验。"
+      ]
+    }
+  ]
+}

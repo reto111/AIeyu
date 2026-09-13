@@ -1,0 +1,485 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8062,
+      "accent": "да́льше",
+      "part": "副词；比较级",
+      "meaning": "更远；以后；往后；继续下去",
+      "perfective": "",
+      "note": "也是далеко、далёкий的比较级形式，具体用法依语境。",
+      "stage": 1,
+      "original": {
+        "word": "дальше",
+        "part_of_speech": "副",
+        "meaning_zh": "以后；往后；继续下去",
+        "source_page": 66,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дальше",
+      "method": "2026-09-14当前助手逐词俄中语义审核及专四PDF66至68页视觉比对；不调用外部模型，不把模型审核当作词典全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=66",
+        "当前助手逐项视觉核对原页词头、重音、词性及中文，整理核心义及体对适用范围。"
+      ]
+    },
+    {
+      "id": 8063,
+      "accent": "да́нные",
+      "part": "名词·复数",
+      "meaning": "资料；数据；条件；资质",
+      "perfective": "",
+      "note": "资质义如具有从事某事的条件，不混同形容词данный的复数形式。",
+      "stage": 2,
+      "original": {
+        "word": "данные",
+        "part_of_speech": "复",
+        "meaning_zh": "资料；数据",
+        "source_page": 66,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "данные",
+      "method": "2026-09-14当前助手逐词俄中语义审核及专四PDF66至68页视觉比对；不调用外部模型，不把模型审核当作词典全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=66",
+        "当前助手逐项视觉核对原页词头、重音、词性及中文，整理核心义及体对适用范围。"
+      ]
+    },
+    {
+      "id": 8064,
+      "accent": "да́нный",
+      "part": "形容词；形动词用法",
+      "meaning": "这个；所说的；指定的；已知的；给定的",
+      "perfective": "",
+      "note": "也可作дать的被动过去时形动词，表示被给予的。",
+      "stage": 2,
+      "original": {
+        "word": "данный",
+        "part_of_speech": "形",
+        "meaning_zh": "这个；所说的那个；已知的",
+        "source_page": 66,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "данный",
+      "method": "2026-09-14当前助手逐词俄中语义审核及专四PDF66至68页视觉比对；不调用外部模型，不把模型审核当作词典全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=66",
+        "当前助手逐项视觉核对原页词头、重音、词性及中文，整理核心义及体对适用范围。"
+      ]
+    },
+    {
+      "id": 8065,
+      "accent": "дари́ть",
+      "part": "动词·未完成体",
+      "meaning": "赠送；送给",
+      "perfective": "подари́ть",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "дарить",
+        "part_of_speech": null,
+        "meaning_zh": "赠送；送给",
+        "source_page": 66,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дарить",
+      "method": "2026-09-14当前助手逐词俄中语义审核及专四PDF66至68页视觉比对；不调用外部模型，不把模型审核当作词典全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=66",
+        "当前助手逐项视觉核对原页词头、重音、词性及中文，整理核心义及体对适用范围。"
+      ]
+    },
+    {
+      "id": 8066,
+      "accent": "да́ром",
+      "part": "副词",
+      "meaning": "免费地；不花钱地；极便宜地；白白地；徒然",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "даром",
+        "part_of_speech": "副",
+        "meaning_zh": "免费；白白地；徒然",
+        "source_page": 67,
+        "source_line": "1"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "даром",
+      "method": "2026-09-14当前助手逐词俄中语义审核及专四PDF66至68页视觉比对；不调用外部模型，不把模型审核当作词典全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=67",
+        "当前助手逐项视觉核对原页词头、重音、词性及中文，整理核心义及体对适用范围。"
+      ]
+    },
+    {
+      "id": 8067,
+      "accent": "да́ча",
+      "part": "名词·阴性",
+      "meaning": "乡间住宅；郊外别墅",
+      "perfective": "",
+      "note": "本条指供休息居住的郊外住宅，不必豪华。",
+      "stage": 1,
+      "original": {
+        "word": "дача",
+        "part_of_speech": null,
+        "meaning_zh": "别墅；郊外住宅；乡间住宅",
+        "source_page": 67,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дача",
+      "method": "2026-09-14当前助手逐词俄中语义审核及专四PDF66至68页视觉比对；不调用外部模型，不把模型审核当作词典全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=67",
+        "当前助手逐项视觉核对原页词头、重音、词性及中文，整理核心义及体对适用范围。"
+      ]
+    },
+    {
+      "id": 8068,
+      "accent": "двадца́тый",
+      "part": "序数词",
+      "meaning": "第二十",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "двадцатый",
+        "part_of_speech": "数",
+        "meaning_zh": "第二十；第20个",
+        "source_page": 67,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "двадцатый",
+      "method": "2026-09-14当前助手逐词俄中语义审核及专四PDF66至68页视觉比对；不调用外部模型，不把模型审核当作词典全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=67",
+        "当前助手逐项视觉核对原页词头、重音、词性及中文，整理核心义及体对适用范围。"
+      ]
+    },
+    {
+      "id": 8069,
+      "accent": "два́дцать",
+      "part": "基数词",
+      "meaning": "二十",
+      "perfective": "",
+      "note": "不是副词；дважды才是两次、两倍。",
+      "stage": 1,
+      "original": {
+        "word": "двадцать",
+        "part_of_speech": "副",
+        "meaning_zh": "二十；20",
+        "source_page": 67,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "двадцать",
+      "method": "2026-09-14当前助手逐词俄中语义审核及专四PDF66至68页视觉比对；不调用外部模型，不把模型审核当作词典全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=67",
+        "当前助手逐项视觉核对原页词头、重音、词性及中文，整理核心义及体对适用范围。"
+      ]
+    },
+    {
+      "id": 8070,
+      "accent": "двена́дцатый",
+      "part": "序数词",
+      "meaning": "第十二",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "двенадцатый",
+        "part_of_speech": "数",
+        "meaning_zh": "第十二；第12个",
+        "source_page": 67,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "двенадцатый",
+      "method": "2026-09-14当前助手逐词俄中语义审核及专四PDF66至68页视觉比对；不调用外部模型，不把模型审核当作词典全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=67",
+        "当前助手逐项视觉核对原页词头、重音、词性及中文，整理核心义及体对适用范围。"
+      ]
+    },
+    {
+      "id": 8071,
+      "accent": "двена́дцать",
+      "part": "基数词",
+      "meaning": "十二",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "двенадцать",
+        "part_of_speech": "数",
+        "meaning_zh": "十二；12",
+        "source_page": 67,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "двенадцать",
+      "method": "2026-09-14当前助手逐词俄中语义审核及专四PDF66至68页视觉比对；不调用外部模型，不把模型审核当作词典全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=67",
+        "当前助手逐项视觉核对原页词头、重音、词性及中文，整理核心义及体对适用范围。"
+      ]
+    },
+    {
+      "id": 8073,
+      "accent": "две́сти",
+      "part": "基数词",
+      "meaning": "二百",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "двести",
+        "part_of_speech": "数",
+        "meaning_zh": "二百；200",
+        "source_page": 67,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "двести",
+      "method": "2026-09-14当前助手逐词俄中语义审核及专四PDF66至68页视觉比对；不调用外部模型，不把模型审核当作词典全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=67",
+        "当前助手逐项视觉核对原页词头、重音、词性及中文，整理核心义及体对适用范围。"
+      ]
+    },
+    {
+      "id": 8074,
+      "accent": "дви́гать",
+      "part": "动词·未完成体",
+      "meaning": "移动；推动；摇动；使运转；促进",
+      "perfective": "дви́нуть",
+      "note": "完成体适用于推动或移动一下等动作，不泛指持续运转状态的完成。",
+      "stage": 2,
+      "original": {
+        "word": "двигать",
+        "part_of_speech": "未",
+        "meaning_zh": "移动；推动；摆动",
+        "source_page": 67,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "двигать",
+      "method": "2026-09-14当前助手逐词俄中语义审核及专四PDF66至68页视觉比对；不调用外部模型，不把模型审核当作词典全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=67",
+        "当前助手逐项视觉核对原页词头、重音、词性及中文，整理核心义及体对适用范围。"
+      ]
+    },
+    {
+      "id": 8075,
+      "accent": "дви́гаться",
+      "part": "动词·未完成体",
+      "meaning": "移动；运动；行进；进展；出发",
+      "perfective": "дви́нуться",
+      "note": "完成体可表示动一下或出发；持续运动与进展须结合语境。",
+      "stage": 2,
+      "original": {
+        "word": "двигаться",
+        "part_of_speech": "未",
+        "meaning_zh": "移动；运动；进展；出发",
+        "source_page": 67,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "двигаться",
+      "method": "2026-09-14当前助手逐词俄中语义审核及专四PDF66至68页视觉比对；不调用外部模型，不把模型审核当作词典全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=67",
+        "当前助手逐项视觉核对原页词头、重音、词性及中文，整理核心义及体对适用范围。"
+      ]
+    },
+    {
+      "id": 8076,
+      "accent": "движе́ние",
+      "part": "名词·中性",
+      "meaning": "运动；移动；动作；交通；社会运动",
+      "perfective": "",
+      "note": "词头恢复е；社会运动义与物体运动义分清。",
+      "stage": 2,
+      "original": {
+        "word": "движёние",
+        "part_of_speech": "中",
+        "meaning_zh": "运动；移动；交通；运动（社会活动）",
+        "source_page": 68,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "движение",
+      "method": "2026-09-14当前助手逐词俄中语义审核及专四PDF66至68页视觉比对；不调用外部模型，不把模型审核当作词典全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=68",
+        "当前助手逐项视觉核对原页词头、重音、词性及中文，整理核心义及体对适用范围。"
+      ]
+    },
+    {
+      "id": 8077,
+      "accent": "дво́е",
+      "part": "集合数词",
+      "meaning": "两个；两个人；两副；两双",
+      "perfective": "",
+      "note": "两副、两双用于某些只有复数形式的成对物品名词，不代替所有名词前的два。",
+      "stage": 1,
+      "original": {
+        "word": "двое",
+        "part_of_speech": "数 , 集",
+        "meaning_zh": "两个人；两个；两对",
+        "source_page": 68,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "двое",
+      "method": "2026-09-14当前助手逐词俄中语义审核及专四PDF66至68页视觉比对；不调用外部模型，不把模型审核当作词典全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=68",
+        "当前助手逐项视觉核对原页词头、重音、词性及中文，整理核心义及体对适用范围。"
+      ]
+    },
+    {
+      "id": 8078,
+      "accent": "дво́йка",
+      "part": "名词·阴性",
+      "meaning": "数字二；两分（成绩）",
+      "perfective": "",
+      "note": "两分在俄语常见五分制中是不及格成绩。",
+      "stage": 1,
+      "original": {
+        "word": "двойка",
+        "part_of_speech": "阴",
+        "meaning_zh": "二；两分（成绩）",
+        "source_page": 68,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "двойка",
+      "method": "2026-09-14当前助手逐词俄中语义审核及专四PDF66至68页视觉比对；不调用外部模型，不把模型审核当作词典全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=68",
+        "当前助手逐项视觉核对原页词头、重音、词性及中文，整理核心义及体对适用范围。"
+      ]
+    },
+    {
+      "id": 8079,
+      "accent": "двор",
+      "part": "名词·阳性",
+      "meaning": "院子；庭院；农户",
+      "perfective": "",
+      "note": "户外为на дворе等搭配义，不作裸词通用的独立处所义。",
+      "stage": 1,
+      "original": {
+        "word": "двор",
+        "part_of_speech": "阳",
+        "meaning_zh": "院子；庭院；户外；农户",
+        "source_page": 68,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "двор",
+      "method": "2026-09-14当前助手逐词俄中语义审核及专四PDF66至68页视觉比对；不调用外部模型，不把模型审核当作词典全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=68",
+        "当前助手逐项视觉核对原页词头、重音、词性及中文，整理核心义及体对适用范围。"
+      ]
+    },
+    {
+      "id": 8080,
+      "accent": "дворе́ц",
+      "part": "名词·阳性",
+      "meaning": "宫殿；宫；大型公共活动场馆",
+      "perfective": "",
+      "note": "如文化宫、体育馆，不能指所有普通小馆。",
+      "stage": 2,
+      "original": {
+        "word": "дворец",
+        "part_of_speech": "阳",
+        "meaning_zh": "宫殿；殿堂；宫；馆",
+        "source_page": 68,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дворец",
+      "method": "2026-09-14当前助手逐词俄中语义审核及专四PDF66至68页视觉比对；不调用外部模型，不把模型审核当作词典全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=68",
+        "当前助手逐项视觉核对原页词头、重音、词性及中文，整理核心义及体对适用范围。"
+      ]
+    },
+    {
+      "id": 8081,
+      "accent": "де́вочка",
+      "part": "名词·阴性",
+      "meaning": "女孩；小姑娘",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "девочка",
+        "part_of_speech": "阴",
+        "meaning_zh": "女孩；小姑娘",
+        "source_page": 68,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "девочка",
+      "method": "2026-09-14当前助手逐词俄中语义审核及专四PDF66至68页视觉比对；不调用外部模型，不把模型审核当作词典全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=68",
+        "当前助手逐项视觉核对原页词头、重音、词性及中文，整理核心义及体对适用范围。"
+      ]
+    },
+    {
+      "id": 8082,
+      "accent": "де́вушка",
+      "part": "名词·阴性",
+      "meaning": "姑娘；年轻女子；少女",
+      "perfective": "",
+      "note": "词头恢复е，不使用дёвушка。",
+      "stage": 1,
+      "original": {
+        "word": "дёвушка",
+        "part_of_speech": "阴",
+        "meaning_zh": "少女；姑娘；年轻女子",
+        "source_page": 68,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "девушка",
+      "method": "2026-09-14当前助手逐词俄中语义审核及专四PDF66至68页视觉比对；不调用外部模型，不把模型审核当作词典全核。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=68",
+        "当前助手逐项视觉核对原页词头、重音、词性及中文，整理核心义及体对适用范围。"
+      ]
+    }
+  ]
+}

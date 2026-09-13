@@ -1,0 +1,725 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8115,
+      "accent": "держа́ва",
+      "part": "名词·阴性",
+      "meaning": "国家；强国；大国",
+      "perfective": "",
+      "note": "多见于政治、历史语境。",
+      "stage": 2,
+      "original": {
+        "word": "держава",
+        "part_of_speech": "阴",
+        "meaning_zh": "国家；强国；大国",
+        "source_page": 72,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "держава",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=72",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8116,
+      "accent": "держа́ть",
+      "part": "动词·未完成体",
+      "meaning": "拿着；握着；抱着；挡住；保持；存放",
+      "perfective": "",
+      "note": "不把持有状态统一配为подержать或удержать；需按持续时间、保持住等意义分别选。",
+      "stage": 1,
+      "original": {
+        "word": "держать",
+        "part_of_speech": "未",
+        "meaning_zh": "拿着；握住；堵住；使处于某种状态；存放",
+        "source_page": 72,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "держать",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=72",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8117,
+      "accent": "держа́ться",
+      "part": "动词·未完成体",
+      "meaning": "抓住；扶住；保持；维持；坚持",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "держаться",
+        "part_of_speech": "未",
+        "meaning_zh": "抓住；拉住；保持；维持",
+        "source_page": 72,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "держаться",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=72",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8118,
+      "accent": "деся́ток",
+      "part": "名词·阳性",
+      "meaning": "十个；十个为一组；约十个；十位",
+      "perfective": "",
+      "note": "可精确表示十个；复数десятки表示几十，年龄中用于十年段。",
+      "stage": 1,
+      "original": {
+        "word": "десяток",
+        "part_of_speech": "阳",
+        "meaning_zh": "十个左右；十位数",
+        "source_page": 72,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "десяток",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=72",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8119,
+      "accent": "деся́тый",
+      "part": "序数词",
+      "meaning": "第十",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "десятый",
+        "part_of_speech": "数",
+        "meaning_zh": "第十；第10个",
+        "source_page": 72,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "десятый",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=72",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8120,
+      "accent": "де́сять",
+      "part": "基数词",
+      "meaning": "十",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "десять",
+        "part_of_speech": "数",
+        "meaning_zh": "十；10",
+        "source_page": 72,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "десять",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=72",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8121,
+      "accent": "дета́ль",
+      "part": "名词·阴性",
+      "meaning": "细节；详情；零件；部件",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "деталь",
+        "part_of_speech": "阮",
+        "meaning_zh": "细节；详细内容；零件；配件",
+        "source_page": 72,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "деталь",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=72",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8122,
+      "accent": "де́ти",
+      "part": "名词·复数",
+      "meaning": "儿童；孩子们；子女",
+      "perfective": "",
+      "note": "子女义可指成年子女，不能仅限幼儿。",
+      "stage": 1,
+      "original": {
+        "word": "дети",
+        "part_of_speech": "复",
+        "meaning_zh": "儿童；孩子们",
+        "source_page": 72,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дети",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=72",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8123,
+      "accent": "де́тский",
+      "part": "形容词",
+      "meaning": "儿童的；孩子的；儿童特有的；幼稚的",
+      "perfective": "",
+      "note": "幼稚义为转义，如不成熟的议论。",
+      "stage": 1,
+      "original": {
+        "word": "детский",
+        "part_of_speech": "形",
+        "meaning_zh": "儿童的；孩子的；子女的；儿童特有的",
+        "source_page": 73,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "детский",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=73",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8124,
+      "accent": "дешёвый",
+      "part": "形容词",
+      "meaning": "便宜的；廉价的",
+      "perfective": "",
+      "note": "保留ё。",
+      "stage": 1,
+      "original": {
+        "word": "дешёвый",
+        "part_of_speech": "形",
+        "meaning_zh": "便宜的；廉价的",
+        "source_page": 73,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дешёвый",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=73",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8125,
+      "accent": "де́ятель",
+      "part": "名词·阳性",
+      "meaning": "活动家；某领域的活跃人物",
+      "perfective": "",
+      "note": "不泛指任意人物，如государственный деятель国家活动家。",
+      "stage": 2,
+      "original": {
+        "word": "деятель",
+        "part_of_speech": "阳",
+        "meaning_zh": "活动家；人物",
+        "source_page": 73,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "деятель",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=73",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8126,
+      "accent": "де́ятельность",
+      "part": "名词·阴性",
+      "meaning": "活动；工作；职能活动",
+      "perfective": "",
+      "note": "恢复е，事业需依具体搭配，不泛指所有事业或行业。",
+      "stage": 2,
+      "original": {
+        "word": "дёятельность",
+        "part_of_speech": "阴",
+        "meaning_zh": "活动；工作；事业",
+        "source_page": 73,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "деятельность",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=73",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8127,
+      "accent": "диало́г",
+      "part": "名词·阳性",
+      "meaning": "对话；对白",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "диалог",
+        "part_of_speech": "阳",
+        "meaning_zh": "对话；会话",
+        "source_page": 73,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "диалог",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=73",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8128,
+      "accent": "диви́зия",
+      "part": "名词·阴性",
+      "meaning": "师（军队编制单位）",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "дивизия",
+        "part_of_speech": null,
+        "meaning_zh": "师；师团；师级部队",
+        "source_page": 73,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дивизия",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=73",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8129,
+      "accent": "ди́кий",
+      "part": "形容词",
+      "meaning": "野生的；荒野的；未开发的；野蛮的；粗野的；自行组织的",
+      "perfective": "",
+      "note": "自行组织义限口语特定搭配，如自行安排度假，不泛指自主独立。",
+      "stage": 2,
+      "original": {
+        "word": "дикий",
+        "part_of_speech": "形",
+        "meaning_zh": "野的；荒野的；野蛮的；未开化的；独立行动的",
+        "source_page": 73,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дикий",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=73",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8130,
+      "accent": "дикта́нт",
+      "part": "名词·阳性",
+      "meaning": "听写；听写练习；听写作业",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "диктант",
+        "part_of_speech": null,
+        "meaning_zh": "听写；听写练习",
+        "source_page": 73,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "диктант",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=73",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8131,
+      "accent": "диктату́ра",
+      "part": "名词·阴性",
+      "meaning": "专政；独裁；专制",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "диктатура",
+        "part_of_speech": "阮",
+        "meaning_zh": "专政；独裁；专制",
+        "source_page": 73,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "диктатура",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=73",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8132,
+      "accent": "дипло́м",
+      "part": "名词·阳性",
+      "meaning": "文凭；毕业证书；毕业论文；毕业设计",
+      "perfective": "",
+      "note": "毕业论文、设计为相应语境中的口语用法。",
+      "stage": 2,
+      "original": {
+        "word": "диплом",
+        "part_of_speech": "阳",
+        "meaning_zh": "毕业证书；文凭；毕业论文",
+        "source_page": 73,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "диплом",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=73",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8133,
+      "accent": "дипломати́ческий",
+      "part": "形容词",
+      "meaning": "外交的；有外交手腕的；圆滑的；巧妙的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "дипломатический",
+        "part_of_speech": "形",
+        "meaning_zh": "外交的；外交式的；圆滑的",
+        "source_page": 73,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дипломатический",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=73",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8134,
+      "accent": "диплома́тия",
+      "part": "名词·阴性",
+      "meaning": "外交；外交手腕",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "дипломатия",
+        "part_of_speech": "阮",
+        "meaning_zh": "外交；外交手腕",
+        "source_page": 73,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дипломатия",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=73",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8135,
+      "accent": "дире́ктор",
+      "part": "名词·阳性",
+      "meaning": "经理；厂长；校长；所长；院长",
+      "perfective": "",
+      "note": "依机构译名；校长常指中小学负责人，大学校长通常为ректор。",
+      "stage": 1,
+      "original": {
+        "word": "директор",
+        "part_of_speech": "阳",
+        "meaning_zh": "经理；厂长；校长；院长",
+        "source_page": 73,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "директор",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=73",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8136,
+      "accent": "диск",
+      "part": "名词·阳性",
+      "meaning": "圆盘；铁饼；磁盘；光盘；弹盘",
+      "perfective": "",
+      "note": "各专业义依语境。",
+      "stage": 2,
+      "original": {
+        "word": "диск",
+        "part_of_speech": "阳",
+        "meaning_zh": "圆盘；铁饼；磁盘；弹盘",
+        "source_page": 74,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "диск",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=74",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8137,
+      "accent": "диску́ссия",
+      "part": "名词·阴性",
+      "meaning": "讨论；辩论",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "дискуссия",
+        "part_of_speech": "阴",
+        "meaning_zh": "讨论；辩论",
+        "source_page": 74,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дискуссия",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=74",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8138,
+      "accent": "дисципли́на",
+      "part": "名词·阴性",
+      "meaning": "纪律；学科；课程",
+      "perfective": "",
+      "note": "原书分别列纪律义和学科义，保留两个核心方向。",
+      "stage": 2,
+      "original": {
+        "word": "дисциплина",
+        "part_of_speech": "阴",
+        "meaning_zh": "纪律；学科；课程",
+        "source_page": 74,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дисциплина",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=74",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8139,
+      "accent": "длина́",
+      "part": "名词·阴性",
+      "meaning": "长度；长短",
+      "perfective": "",
+      "note": "不是长度单位本身；меры длины才表示长度单位。",
+      "stage": 1,
+      "original": {
+        "word": "длина",
+        "part_of_speech": "阴",
+        "meaning_zh": "长度；长度单位",
+        "source_page": 74,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "длина",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=74",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8140,
+      "accent": "дли́нный",
+      "part": "形容词",
+      "meaning": "长的；持续时间长的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "длинный",
+        "part_of_speech": "彤",
+        "meaning_zh": "长的；持续时间长的；长时间的",
+        "source_page": 74,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "длинный",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=74",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8141,
+      "accent": "дли́ться",
+      "part": "动词·未完成体",
+      "meaning": "持续；延续",
+      "perfective": "продли́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "длиться",
+        "part_of_speech": "未",
+        "meaning_zh": "持续；延续；拖长",
+        "source_page": 74,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "длиться",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=74",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8142,
+      "accent": "дневни́к",
+      "part": "名词·阳性",
+      "meaning": "日记；日志；日记本；学生记分册",
+      "perfective": "",
+      "note": "记分册义指中小学生记录成绩和作业等的册子。",
+      "stage": 1,
+      "original": {
+        "word": "дневник",
+        "part_of_speech": "阳",
+        "meaning_zh": "日记；日志；记分册",
+        "source_page": 74,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дневник",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=74",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8143,
+      "accent": "дневно́й",
+      "part": "形容词",
+      "meaning": "白天的；日间的；一天的；每日的",
+      "perfective": "",
+      "note": "如дневной заработок日工资。",
+      "stage": 2,
+      "original": {
+        "word": "дневной",
+        "part_of_speech": "形",
+        "meaning_zh": "白天的；日间的",
+        "source_page": 74,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "дневной",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=74",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    },
+    {
+      "id": 8144,
+      "accent": "днём",
+      "part": "副词",
+      "meaning": "在白天；白天",
+      "perfective": "",
+      "note": "本条为副词，也与день的单数第五格同形；保留ё。",
+      "stage": 1,
+      "original": {
+        "word": "днём",
+        "part_of_speech": "副",
+        "meaning_zh": "白天；在白天",
+        "source_page": 74,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "днём",
+      "method": "2026-09-14当前助手逐词审核并对照专四PDF72至74页，修复体性标记噪声、ё混淆及搭配误当独立义项；未使用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=74",
+        "逐项视觉核对重音、词性、原书中文及上下文；当前助手整理教学核心义，不代表外部词典全核。"
+      ]
+    }
+  ]
+}
