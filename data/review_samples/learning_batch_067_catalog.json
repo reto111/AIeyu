@@ -1,0 +1,462 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8371,
+      "accent": "заслу́га",
+      "part": "名词·阴性",
+      "meaning": "功绩；功劳；功勋",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "заслуга",
+        "part_of_speech": "阴",
+        "meaning_zh": "功绩；功劳；功勋",
+        "source_page": 97,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заслуга",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF97至98页，核对重音、性体、核心义与跨页续文；不把同形词及另一体专有义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=97",
+        "逐词视觉核对。"
+      ]
+    },
+    {
+      "id": 8372,
+      "accent": "заслу́женный",
+      "part": "形容词",
+      "meaning": "有功的；功勋卓著的；应得的",
+      "perfective": "",
+      "note": "功勋称号中不宜笼统译为荣誉的。",
+      "stage": 2,
+      "original": {
+        "word": "заслуженный",
+        "part_of_speech": "形",
+        "meaning_zh": "有功的；功绩卓越的；荣誉的",
+        "source_page": 97,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заслуженный",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF97至98页，核对重音、性体、核心义与跨页续文；不把同形词及另一体专有义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=97",
+        "核对功勋称号义，不泛译荣誉的。"
+      ]
+    },
+    {
+      "id": 8373,
+      "accent": "заслу́живать",
+      "part": "动词·未完成体",
+      "meaning": "赢得；获得；值得；配得上",
+      "perfective": "заслужи́ть",
+      "note": "取得义可配заслужить；值得义常接第二格，不机械替换成完成体。",
+      "stage": 2,
+      "original": {
+        "word": "заслуживать",
+        "part_of_speech": "完",
+        "meaning_zh": "值得；应得；配得上",
+        "source_page": 97,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заслуживать",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF97至98页，核对重音、性体、核心义与跨页续文；不把同形词及另一体专有义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=97",
+        "区分取得和值得的支配形式。"
+      ]
+    },
+    {
+      "id": 8374,
+      "accent": "засмея́ться",
+      "part": "动词·完成体",
+      "meaning": "笑起来；开始笑",
+      "perfective": "",
+      "note": "смея́ться表示笑的过程，不强配为等义体对。",
+      "stage": 1,
+      "original": {
+        "word": "засмеяться",
+        "part_of_speech": "完",
+        "meaning_zh": "笑起来；开始笑",
+        "source_page": 97,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "засмеяться",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF97至98页，核对重音、性体、核心义与跨页续文；不把同形词及另一体专有义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=97",
+        "核对起始义完成体。"
+      ]
+    },
+    {
+      "id": 8375,
+      "accent": "заставля́ть",
+      "part": "动词·未完成体",
+      "meaning": "迫使；强迫；使不得不",
+      "perfective": "заста́вить",
+      "note": "常接第四格加动词不定式。",
+      "stage": 2,
+      "original": {
+        "word": "заставлять",
+        "part_of_speech": "完",
+        "meaning_zh": "迫使；强迫；使不得不",
+        "source_page": 97,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заставлять",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF97至98页，核对重音、性体、核心义与跨页续文；不把同形词及另一体专有义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=97",
+        "核对强迫义与体对。"
+      ]
+    },
+    {
+      "id": 8376,
+      "accent": "за́суха",
+      "part": "名词·阴性",
+      "meaning": "干旱；旱灾",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "засуха",
+        "part_of_speech": "阴",
+        "meaning_zh": "旱灾；干旱",
+        "source_page": 97,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "засуха",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF97至98页，核对重音、性体、核心义与跨页续文；不把同形词及另一体专有义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=97",
+        "核对词头重音与阴性。"
+      ]
+    },
+    {
+      "id": 8377,
+      "accent": "засыпа́ть",
+      "part": "动词·未完成体",
+      "meaning": "入睡；睡着",
+      "perfective": "засну́ть",
+      "note": "原条为入睡义；不混入撒满、填满的同形词义。",
+      "stage": 1,
+      "original": {
+        "word": "засыпать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "入睡；睡着；（使）撒满、填满",
+        "source_page": 97,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "засыпать",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF97至98页，核对重音、性体、核心义与跨页续文；不把同形词及另一体专有义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=97",
+        "原条仅为入睡义，另一体заснуть。"
+      ]
+    },
+    {
+      "id": 8378,
+      "accent": "заты́лок",
+      "part": "名词·阳性",
+      "meaning": "后脑勺；后脑",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "затылок",
+        "part_of_speech": "阳",
+        "meaning_zh": "后脑勺；后脑",
+        "source_page": 97,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "затылок",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF97至98页，核对重音、性体、核心义与跨页续文；不把同形词及另一体专有义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=97",
+        "逐词视觉核对。"
+      ]
+    },
+    {
+      "id": 8379,
+      "accent": "захва́тчик",
+      "part": "名词·阳性",
+      "meaning": "侵略者；掠夺者",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "захватчик",
+        "part_of_speech": "阳",
+        "meaning_zh": "侵略者；掠夺者",
+        "source_page": 97,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "захватчик",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF97至98页，核对重音、性体、核心义与跨页续文；不把同形词及另一体专有义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=97",
+        "逐词视觉核对。"
+      ]
+    },
+    {
+      "id": 8380,
+      "accent": "захва́тывать",
+      "part": "动词·未完成体",
+      "meaning": "抓住；夺取；占领；捕获；顺便带上；吸引",
+      "perfective": "захвати́ть",
+      "note": "各义按宾语区分。",
+      "stage": 2,
+      "original": {
+        "word": "захватывать",
+        "part_of_speech": "未",
+        "meaning_zh": "抓住；夺取；吸引",
+        "source_page": 97,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "захватывать",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF97至98页，核对重音、性体、核心义与跨页续文；不把同形词及另一体专有义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=97",
+        "data/words/tem4_russian_words.pdf#page=98",
+        "核对四义及跨页吸引义例句。"
+      ]
+    },
+    {
+      "id": 8381,
+      "accent": "захо́д",
+      "part": "名词·阳性",
+      "meaning": "（日、月、星等）落下；落到地平线以下",
+      "perfective": "",
+      "note": "本来源为天体落下义。",
+      "stage": 2,
+      "original": {
+        "word": "заход",
+        "part_of_speech": "阳",
+        "meaning_zh": "（太阳、月亮等）落山；落到地平线下",
+        "source_page": 98,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заход",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF97至98页，核对重音、性体、核心义与跨页续文；不把同形词及另一体专有义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=98",
+        "本条天体落下义。"
+      ]
+    },
+    {
+      "id": 8382,
+      "accent": "заходи́ть",
+      "part": "动词·未完成体",
+      "meaning": "走进；顺便访问；走远；走到后面；（天体）落下",
+      "perfective": "зайти́",
+      "note": "天体义不限于太阳，不直接把动词译成名词日落。",
+      "stage": 1,
+      "original": {
+        "word": "заходить",
+        "part_of_speech": "未",
+        "meaning_zh": "走进；顺便访问；走到后面；日落",
+        "source_page": 98,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заходить",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF97至98页，核对重音、性体、核心义与跨页续文；不把同形词及另一体专有义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=98",
+        "核对进入、顺访、走远及天体落下义。"
+      ]
+    },
+    {
+      "id": 8383,
+      "accent": "захоте́ться",
+      "part": "动词·完成体·无人称",
+      "meaning": "想要；产生做某事的愿望",
+      "perfective": "",
+      "note": "常用кому захотелось；不强加突然这一必然含义。",
+      "stage": 2,
+      "original": {
+        "word": "захотеться",
+        "part_of_speech": "完",
+        "meaning_zh": "想要；突然想做某事",
+        "source_page": 98,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "захотеться",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF97至98页，核对重音、性体、核心义与跨页续文；不把同形词及另一体专有义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=98",
+        "核对无人称完成体。"
+      ]
+    },
+    {
+      "id": 8384,
+      "accent": "зачёт",
+      "part": "名词·阳性",
+      "meaning": "考查；测验；评定及格",
+      "perfective": "",
+      "note": "本来源为高校考查义。保留ё。",
+      "stage": 1,
+      "original": {
+        "word": "зачёт",
+        "part_of_speech": "阳",
+        "meaning_zh": "测验；考查；评定及格",
+        "source_page": 98,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зачёт",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF97至98页，核对重音、性体、核心义与跨页续文；不把同形词及另一体专有义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=98",
+        "核对ё和阳性。"
+      ]
+    },
+    {
+      "id": 8385,
+      "accent": "защи́та",
+      "part": "名词·阴性",
+      "meaning": "保卫；保护；防护；辩护；答辩",
+      "perfective": "",
+      "note": "защита диссертации为论文答辩。",
+      "stage": 2,
+      "original": {
+        "word": "защита",
+        "part_of_speech": "阴",
+        "meaning_zh": "保卫；捍卫；防护",
+        "source_page": 98,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "защита",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF97至98页，核对重音、性体、核心义与跨页续文；不把同形词及另一体专有义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=98",
+        "原例明确论文答辩，补回漏义。"
+      ]
+    },
+    {
+      "id": 8386,
+      "accent": "защи́тник",
+      "part": "名词·阳性",
+      "meaning": "保卫者；保护者；后卫",
+      "perfective": "",
+      "note": "后卫义用于体育。",
+      "stage": 2,
+      "original": {
+        "word": "защитник",
+        "part_of_speech": "阳",
+        "meaning_zh": "保卫者；保护者；后卫",
+        "source_page": 98,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "защитник",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF97至98页，核对重音、性体、核心义与跨页续文；不把同形词及另一体专有义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=98",
+        "核对保护者及体育后卫义。"
+      ]
+    },
+    {
+      "id": 8387,
+      "accent": "защища́ть",
+      "part": "动词·未完成体",
+      "meaning": "保卫；保护；维护；防护；辩护；答辩",
+      "perfective": "защити́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "защищать",
+        "part_of_speech": "未",
+        "meaning_zh": "保卫；保护；维护；答辩",
+        "source_page": 98,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "защищать",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF97至98页，核对重音、性体、核心义与跨页续文；不把同形词及另一体专有义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=98",
+        "核对保卫、防护及辩护、答辩义。"
+      ]
+    },
+    {
+      "id": 8388,
+      "accent": "заявле́ние",
+      "part": "名词·中性",
+      "meaning": "声明；申请；申请书",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "заявление",
+        "part_of_speech": "中",
+        "meaning_zh": "声明；申请书；申请",
+        "source_page": 98,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заявление",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF97至98页，核对重音、性体、核心义与跨页续文；不把同形词及另一体专有义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=98",
+        "核对中性与两组义项。"
+      ]
+    },
+    {
+      "id": 8389,
+      "accent": "заявля́ть",
+      "part": "动词·未完成体",
+      "meaning": "声明；宣称；申述；表示",
+      "perfective": "заяви́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "заявлять",
+        "part_of_speech": "完",
+        "meaning_zh": "声明；宣称；宣布",
+        "source_page": 98,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заявлять",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF97至98页，核对重音、性体、核心义与跨页续文；不把同形词及另一体专有义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=98",
+        "核对声明、表示及另一体。"
+      ]
+    }
+  ]
+}
