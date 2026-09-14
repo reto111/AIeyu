@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8659,
+      "accent": "корзи́на",
+      "part": "名词·阴性",
+      "meaning": "篮子；筐子",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "корзина",
+        "part_of_speech": "阴",
+        "meaning_zh": "篮子；筐子",
+        "source_page": 125,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "корзина",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF125页，核心义、性别、重音和同形词边界；已有正确的常用义不因原页简略而一律删去。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=125",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8660,
+      "accent": "коридо́р",
+      "part": "名词·阳性",
+      "meaning": "走廊；通道",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "коридор",
+        "part_of_speech": "阳",
+        "meaning_zh": "走廊；通道",
+        "source_page": 125,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "коридор",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF125页，核心义、性别、重音和同形词边界；已有正确的常用义不因原页简略而一律删去。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=125",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8661,
+      "accent": "кори́чневый",
+      "part": "形容词",
+      "meaning": "褐色的；咖啡色的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "коричневый",
+        "part_of_speech": "形",
+        "meaning_zh": "褐色的；咖啡色的",
+        "source_page": 125,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "коричневый",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF125页，核心义、性别、重音和同形词边界；已有正确的常用义不因原页简略而一律删去。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=125",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8662,
+      "accent": "коро́ва",
+      "part": "名词·阴性",
+      "meaning": "母牛",
+      "perfective": "",
+      "note": "молочная корова为奶牛；不把所有母牛都限定为奶牛。",
+      "stage": 1,
+      "original": {
+        "word": "корова",
+        "part_of_speech": "阴",
+        "meaning_zh": "母牛；奶牛",
+        "source_page": 125,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "корова",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF125页，核心义、性别、重音和同形词边界；已有正确的常用义不因原页简略而一律删去。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=125",
+        "奶牛为молочная корова搭配。"
+      ]
+    },
+    {
+      "id": 8663,
+      "accent": "коро́ткий",
+      "part": "形容词",
+      "meaning": "短的；短暂的；简短的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "короткий",
+        "part_of_speech": "形",
+        "meaning_zh": "短的；短暂的；简短的",
+        "source_page": 125,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "короткий",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF125页，核心义、性别、重音和同形词边界；已有正确的常用义不因原页简略而一律删去。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=125",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8664,
+      "accent": "ко́рпус",
+      "part": "名词·阳性",
+      "meaning": "楼房；建筑物；躯干；外壳；军团",
+      "perfective": "",
+      "note": "原来源主项为大楼；建筑群不能作为任意корпус的直接译义。",
+      "stage": 2,
+      "original": {
+        "word": "корпус",
+        "part_of_speech": "阳",
+        "meaning_zh": "楼房；主体建筑；建筑群；军团",
+        "source_page": 125,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "корпус",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF125页，核心义、性别、重音和同形词边界；已有正确的常用义不因原页简略而一律删去。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=125",
+        "原条大楼，既有建筑群过宽。"
+      ]
+    },
+    {
+      "id": 8665,
+      "accent": "корреспонде́нт",
+      "part": "名词·阳性",
+      "meaning": "记者；通讯员",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "корреспондент",
+        "part_of_speech": "阳",
+        "meaning_zh": "记者；通讯员",
+        "source_page": 125,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "корреспондент",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF125页，核心义、性别、重音和同形词边界；已有正确的常用义不因原页简略而一律删去。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=125",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8666,
+      "accent": "коса́",
+      "part": "名词·阴性",
+      "meaning": "发辫；辫子",
+      "perfective": "",
+      "note": "本来源为发辫词条；镰刀、沙嘴是另列同形词，不能在同一条中不加区别堆放。",
+      "stage": 2,
+      "original": {
+        "word": "коса",
+        "part_of_speech": "阴",
+        "meaning_zh": "辫子；镰刀；沙嘴",
+        "source_page": 125,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "коса",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF125页，核心义、性别、重音和同形词边界；已有正确的常用义不因原页简略而一律删去。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=125",
+        "原条为发辫，不混同形镰刀、沙嘴。"
+      ]
+    },
+    {
+      "id": 8667,
+      "accent": "косми́ческий",
+      "part": "形容词",
+      "meaning": "宇宙的；航天的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "космический",
+        "part_of_speech": "形",
+        "meaning_zh": "宇宙的；航天的",
+        "source_page": 125,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "космический",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF125页，核心义、性别、重音和同形词边界；已有正确的常用义不因原页简略而一律删去。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=125",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8668,
+      "accent": "космона́вт",
+      "part": "名词·阳性",
+      "meaning": "宇航员；宇宙航行员",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "космонавт",
+        "part_of_speech": "阳",
+        "meaning_zh": "宇航员；宇宙航行员",
+        "source_page": 125,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "космонавт",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF125页，核心义、性别、重音和同形词边界；已有正确的常用义不因原页简略而一律删去。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=125",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8669,
+      "accent": "ко́смос",
+      "part": "名词·阳性",
+      "meaning": "宇宙；太空",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "космос",
+        "part_of_speech": "阳",
+        "meaning_zh": "宇宙；太空",
+        "source_page": 125,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "космос",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF125页，核心义、性别、重音和同形词边界；已有正确的常用义不因原页简略而一律删去。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=125",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8670,
+      "accent": "косо́й",
+      "part": "形容词",
+      "meaning": "斜的；歪的；歪斜的；斜视的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "косой",
+        "part_of_speech": "形",
+        "meaning_zh": "斜的；歪的；斜视的",
+        "source_page": 125,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "косой",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF125页，核心义、性别、重音和同形词边界；已有正确的常用义不因原页简略而一律删去。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=125",
+        "原页斜、歪；保留常用斜视义。"
+      ]
+    },
+    {
+      "id": 8671,
+      "accent": "костёр",
+      "part": "名词·阳性",
+      "meaning": "篝火；营火",
+      "perfective": "",
+      "note": "ё正确。",
+      "stage": 2,
+      "original": {
+        "word": "костёр",
+        "part_of_speech": "阳",
+        "meaning_zh": "篝火；营火",
+        "source_page": 125,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "костёр",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF125页，核心义、性别、重音和同形词边界；已有正确的常用义不因原页简略而一律删去。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=125",
+        "保留ё。"
+      ]
+    }
+  ]
+}

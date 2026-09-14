@@ -1,0 +1,655 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8604,
+      "accent": "ко́жа",
+      "part": "名词·阴性",
+      "meaning": "皮肤；皮革",
+      "perfective": "",
+      "note": "искусственная кожа为人造革，不混入本词单独义。",
+      "stage": 1,
+      "original": {
+        "word": "кожа",
+        "part_of_speech": "阴",
+        "meaning_zh": "皮肤；皮革；人造革",
+        "source_page": 121,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кожа",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=121",
+        "人造革为修饰词组。"
+      ]
+    },
+    {
+      "id": 8605,
+      "accent": "козёл",
+      "part": "名词·阳性",
+      "meaning": "公山羊",
+      "perfective": "",
+      "note": "替罪羊是козёл отпущения这一词组。",
+      "stage": 2,
+      "original": {
+        "word": "козёл",
+        "part_of_speech": "阳",
+        "meaning_zh": "公山羊；替罪羊",
+        "source_page": 121,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "козёл",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=121",
+        "替罪羊为козёл отпущения。"
+      ]
+    },
+    {
+      "id": 8606,
+      "accent": "колбаса́",
+      "part": "名词·阴性",
+      "meaning": "香肠；腊肠",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "колбаса",
+        "part_of_speech": "阴",
+        "meaning_zh": "香肠；腊肠",
+        "source_page": 121,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "колбаса",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=121",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8607,
+      "accent": "колеба́ться",
+      "part": "动词·未完成体",
+      "meaning": "摇摆；摆动；波动；动摇；犹豫不决",
+      "perfective": "поколеба́ться",
+      "note": "完成体按摆动、波动等动作范围使用；犹豫的状态义不机械替换。",
+      "stage": 2,
+      "original": {
+        "word": "колебаться",
+        "part_of_speech": "未",
+        "meaning_zh": "摆动；波动；动摇；不稳定",
+        "source_page": 121,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "колебаться",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=121",
+        "犹豫不决义原书只用未完成体。"
+      ]
+    },
+    {
+      "id": 8608,
+      "accent": "коле́но",
+      "part": "名词·中性",
+      "meaning": "膝；膝盖；膝部",
+      "perfective": "",
+      "note": "修复е误作ё。",
+      "stage": 1,
+      "original": {
+        "word": "колёно",
+        "part_of_speech": "中",
+        "meaning_zh": "膝；膝盖；膝部",
+        "source_page": 121,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "колено",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=121",
+        "е误识为ё，原词колено。"
+      ]
+    },
+    {
+      "id": 8609,
+      "accent": "колесо́",
+      "part": "名词·中性",
+      "meaning": "轮子；车轮",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "колесо",
+        "part_of_speech": "中",
+        "meaning_zh": "轮子；车轮",
+        "source_page": 121,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "колесо",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=121",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8610,
+      "accent": "коли́чество",
+      "part": "名词·中性",
+      "meaning": "数目；数量；量",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "количество",
+        "part_of_speech": "中",
+        "meaning_zh": "数量；总量",
+        "source_page": 121,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "количество",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=121",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8611,
+      "accent": "колле́га",
+      "part": "名词·通性",
+      "meaning": "同事；同行",
+      "perfective": "",
+      "note": "指男性或女性时按实际所指配合。",
+      "stage": 1,
+      "original": {
+        "word": "коллега",
+        "part_of_speech": "阳 及 阴",
+        "meaning_zh": "同事；同行",
+        "source_page": 121,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "коллега",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=121",
+        "原页同时说明男女用法。"
+      ]
+    },
+    {
+      "id": 8612,
+      "accent": "коллекти́в",
+      "part": "名词·阳性",
+      "meaning": "团体；集体；全体人员",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "коллектив",
+        "part_of_speech": "阳",
+        "meaning_zh": "团体；集体；全体人员",
+        "source_page": 121,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "коллектив",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=121",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8613,
+      "accent": "коло́дец",
+      "part": "名词·阳性",
+      "meaning": "井",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "колодец",
+        "part_of_speech": "阳",
+        "meaning_zh": "井",
+        "source_page": 121,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "колодец",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=121",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8614,
+      "accent": "колоко́льчик",
+      "part": "名词·阳性",
+      "meaning": "铃；铃铛；小钟",
+      "perfective": "",
+      "note": "дверной колокольчик为门铃。",
+      "stage": 2,
+      "original": {
+        "word": "колокольчик",
+        "part_of_speech": "阳",
+        "meaning_zh": "铃；铃铛；小钟；门铃",
+        "source_page": 121,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "колокольчик",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=121",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8615,
+      "accent": "колхо́зник",
+      "part": "名词·阳性",
+      "meaning": "集体农庄社员",
+      "perfective": "",
+      "note": "历史社会词汇。",
+      "stage": 3,
+      "original": {
+        "word": "колхозник",
+        "part_of_speech": null,
+        "meaning_zh": "集体农庄社员",
+        "source_page": 121,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "колхозник",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=121",
+        "历史社会词，不作为初学优先词。"
+      ]
+    },
+    {
+      "id": 8616,
+      "accent": "колыбе́ль",
+      "part": "名词·阴性",
+      "meaning": "摇篮；发源地；发祥地",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "колыбель",
+        "part_of_speech": "阴",
+        "meaning_zh": "摇篮；发源地；发祥地",
+        "source_page": 121,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "колыбель",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=121",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8617,
+      "accent": "кольцо́",
+      "part": "名词·中性",
+      "meaning": "环；圈；戒指；环状物；吊环",
+      "perfective": "",
+      "note": "吊环常用复数кольца。",
+      "stage": 1,
+      "original": {
+        "word": "кольцо",
+        "part_of_speech": "中",
+        "meaning_zh": "环；圈；戒指；环状物",
+        "source_page": 121,
+        "source_line": "17"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кольцо",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=121",
+        "data/words/tem4_russian_words.pdf#page=122",
+        "跨页核对环状与吊环。"
+      ]
+    },
+    {
+      "id": 8618,
+      "accent": "кома́нда",
+      "part": "名词·阴性",
+      "meaning": "口令；命令；队；队伍；球队",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "команда",
+        "part_of_speech": "阴",
+        "meaning_zh": "口令；命令；球队；队伍",
+        "source_page": 122,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "команда",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=122",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8619,
+      "accent": "команди́р",
+      "part": "名词·阳性",
+      "meaning": "指挥员；指挥官",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "командир",
+        "part_of_speech": "阳",
+        "meaning_zh": "指挥员；指挥官",
+        "source_page": 122,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "командир",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=122",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8620,
+      "accent": "командиро́вка",
+      "part": "名词·阴性",
+      "meaning": "出差",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "командировка",
+        "part_of_speech": "阴",
+        "meaning_zh": "出差；出差旅行",
+        "source_page": 122,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "командировка",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=122",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8621,
+      "accent": "кома́ндовать",
+      "part": "动词·未完成体",
+      "meaning": "发口令；指挥；命令；吩咐",
+      "perfective": "скома́ндовать",
+      "note": "完成体主要指发出命令或口令；指挥某部队常接第五格。",
+      "stage": 2,
+      "original": {
+        "word": "командовать",
+        "part_of_speech": "未",
+        "meaning_zh": "指挥；命令；吩咐",
+        "source_page": 122,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "командовать",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=122",
+        "完成体用于发出口令，不笼统用于持续指挥。"
+      ]
+    },
+    {
+      "id": 8622,
+      "accent": "комба́йн",
+      "part": "名词·阳性",
+      "meaning": "联合收割机；联合采煤机",
+      "perfective": "",
+      "note": "按修饰词辨认具体机械。",
+      "stage": 3,
+      "original": {
+        "word": "комбайн",
+        "part_of_speech": "阳",
+        "meaning_zh": "联合收割机；联合采煤机",
+        "source_page": 122,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "комбайн",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=122",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8623,
+      "accent": "комбина́т",
+      "part": "名词·阳性",
+      "meaning": "联合企业；综合企业",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "комбинат",
+        "part_of_speech": "阳",
+        "meaning_zh": "联合企业；综合企业",
+        "source_page": 122,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "комбинат",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=122",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8624,
+      "accent": "коме́дия",
+      "part": "名词·阴性",
+      "meaning": "喜剧；喜剧作品",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "комедия",
+        "part_of_speech": "阴",
+        "meaning_zh": "喜剧；喜剧作品",
+        "source_page": 122,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "комедия",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=122",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8625,
+      "accent": "комите́т",
+      "part": "名词·阳性",
+      "meaning": "委员会",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "комитет",
+        "part_of_speech": "阳",
+        "meaning_zh": "委员会",
+        "source_page": 122,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "комитет",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=122",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8626,
+      "accent": "коммуни́зм",
+      "part": "名词·阳性",
+      "meaning": "共产主义；共产主义制度",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "коммунизм",
+        "part_of_speech": "阳",
+        "meaning_zh": "共产主义；共产主义制度",
+        "source_page": 122,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "коммунизм",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=122",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8627,
+      "accent": "коммуни́ст",
+      "part": "名词·阳性",
+      "meaning": "共产党员；共产主义者",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "коммунист",
+        "part_of_speech": "阳",
+        "meaning_zh": "共产党员；共产主义者",
+        "source_page": 122,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "коммунист",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=122",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8628,
+      "accent": "коммунисти́ческий",
+      "part": "形容词",
+      "meaning": "共产主义的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "коммунистический",
+        "part_of_speech": "形",
+        "meaning_zh": "共产主义的",
+        "source_page": 122,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "коммунистический",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=122",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8630,
+      "accent": "компа́ния",
+      "part": "名词·阴性",
+      "meaning": "一伙人；伙伴；公司；企业",
+      "perfective": "",
+      "note": "区别кампания运动、活动。",
+      "stage": 2,
+      "original": {
+        "word": "компания",
+        "part_of_speech": null,
+        "meaning_zh": "一伙人；伙伴；公司；企业",
+        "source_page": 122,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "компания",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=122",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8631,
+      "accent": "ко́мпас",
+      "part": "名词·阳性",
+      "meaning": "指南针；罗盘",
+      "perfective": "",
+      "note": "本来源采用通用重音。",
+      "stage": 2,
+      "original": {
+        "word": "компас",
+        "part_of_speech": "阳",
+        "meaning_zh": "指南针；罗盘",
+        "source_page": 122,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "компас",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF121至123页，重音、性体、核心意义和跨页，区分修饰搭配及单次动作。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=122",
+        "data/words/tem4_russian_words.pdf#page=123",
+        "跨页核对。"
+      ]
+    }
+  ]
+}

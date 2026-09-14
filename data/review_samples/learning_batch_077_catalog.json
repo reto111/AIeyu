@@ -1,0 +1,655 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8632,
+      "accent": "компози́тор",
+      "part": "名词·阳性",
+      "meaning": "作曲家",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "композитор",
+        "part_of_speech": "阳",
+        "meaning_zh": "作曲家",
+        "source_page": 123,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "композитор",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=123",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8633,
+      "accent": "комсомо́л",
+      "part": "名词·阳性",
+      "meaning": "共青团",
+      "perfective": "",
+      "note": "本来源涉及苏联历史语境。",
+      "stage": 3,
+      "original": {
+        "word": "комсомол",
+        "part_of_speech": "阳",
+        "meaning_zh": "共青团",
+        "source_page": 123,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "комсомол",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=123",
+        "历史组织词。"
+      ]
+    },
+    {
+      "id": 8634,
+      "accent": "комсомо́лец",
+      "part": "名词·阳性",
+      "meaning": "共青团员",
+      "perfective": "",
+      "note": "本来源涉及苏联历史语境。",
+      "stage": 3,
+      "original": {
+        "word": "комсомолец",
+        "part_of_speech": "阳",
+        "meaning_zh": "共青团员",
+        "source_page": 123,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "комсомолец",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=123",
+        "历史组织词。"
+      ]
+    },
+    {
+      "id": 8635,
+      "accent": "конве́рт",
+      "part": "名词·阳性",
+      "meaning": "信封",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "конверт",
+        "part_of_speech": "阳",
+        "meaning_zh": "信封",
+        "source_page": 123,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "конверт",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=123",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8636,
+      "accent": "конгре́сс",
+      "part": "名词·阳性",
+      "meaning": "代表大会；大会",
+      "perfective": "",
+      "note": "常用于国际性会议。",
+      "stage": 2,
+      "original": {
+        "word": "конгресс",
+        "part_of_speech": "阳",
+        "meaning_zh": "（国际）代表大会；代表大会",
+        "source_page": 123,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "конгресс",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=123",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8637,
+      "accent": "коне́ц",
+      "part": "名词·阳性",
+      "meaning": "末尾；末端；尽头；终点；结尾；结束",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "конец",
+        "part_of_speech": "阳",
+        "meaning_zh": "末尾；尽头；终点；结尾；结束",
+        "source_page": 123,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "конец",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=123",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8638,
+      "accent": "коне́чный",
+      "part": "形容词",
+      "meaning": "有限的；最终的；最后的；终点的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "конечный",
+        "part_of_speech": "形",
+        "meaning_zh": "有限的；最终的；最后的；终点的",
+        "source_page": 123,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "конечный",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=123",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8639,
+      "accent": "конкре́тный",
+      "part": "形容词",
+      "meaning": "具体的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "конкретный",
+        "part_of_speech": "形",
+        "meaning_zh": "具体的",
+        "source_page": 123,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "конкретный",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=123",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8640,
+      "accent": "ко́нкурс",
+      "part": "名词·阳性",
+      "meaning": "竞赛；比赛；竞赛会",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "конкурс",
+        "part_of_speech": "阳",
+        "meaning_zh": "竞赛；比赛；竞赛会",
+        "source_page": 123,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "конкурс",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=123",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8641,
+      "accent": "конспе́кт",
+      "part": "名词·阳性",
+      "meaning": "摘要；提纲；提要；概要笔记",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "конспект",
+        "part_of_speech": "阳",
+        "meaning_zh": "摘要；提纲；提要；讲义提纲",
+        "source_page": 123,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "конспект",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=123",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8642,
+      "accent": "конститу́ция",
+      "part": "名词·阴性",
+      "meaning": "宪法",
+      "perfective": "",
+      "note": "本来源为法律文本义。",
+      "stage": 2,
+      "original": {
+        "word": "конституция",
+        "part_of_speech": "阴",
+        "meaning_zh": "宪法",
+        "source_page": 123,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "конституция",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=123",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8643,
+      "accent": "констру́ктор",
+      "part": "名词·阳性",
+      "meaning": "设计师；设计人员",
+      "perfective": "",
+      "note": "本来源为人员义。",
+      "stage": 2,
+      "original": {
+        "word": "конструктор",
+        "part_of_speech": "阳",
+        "meaning_zh": "设计师；设计人员",
+        "source_page": 123,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "конструктор",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=123",
+        "设计师义核对。"
+      ]
+    },
+    {
+      "id": 8644,
+      "accent": "консульта́ция",
+      "part": "名词·阴性",
+      "meaning": "答疑；咨询；指导；咨询处",
+      "perfective": "",
+      "note": "咨询处义依具体机构搭配理解。",
+      "stage": 2,
+      "original": {
+        "word": "консультация",
+        "part_of_speech": "阴",
+        "meaning_zh": "答疑；咨询；指导",
+        "source_page": 123,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "консультация",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=123",
+        "data/words/tem4_russian_words.pdf#page=124",
+        "补跨页咨询处义。"
+      ]
+    },
+    {
+      "id": 8645,
+      "accent": "контине́нт",
+      "part": "名词·阳性",
+      "meaning": "大陆；洲",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "континент",
+        "part_of_speech": "阳",
+        "meaning_zh": "大陆；洲",
+        "source_page": 124,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "континент",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=124",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8646,
+      "accent": "контро́льный",
+      "part": "形容词",
+      "meaning": "检查的；控制的；管制的；测验的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "контрольный",
+        "part_of_speech": "形",
+        "meaning_zh": "检查的；控制的；管制的；测验的",
+        "source_page": 124,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "контрольный",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=124",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8647,
+      "accent": "конфере́нция",
+      "part": "名词·阴性",
+      "meaning": "会议；代表会议；学术会议",
+      "perfective": "",
+      "note": "具体会议类型依修饰词。",
+      "stage": 2,
+      "original": {
+        "word": "конференция",
+        "part_of_speech": "阴",
+        "meaning_zh": "会议；代表大会；学术会议",
+        "source_page": 124,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "конференция",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=124",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8648,
+      "accent": "конфе́та",
+      "part": "名词·阴性",
+      "meaning": "糖果",
+      "perfective": "",
+      "note": "шоколадная конфета为巧克力糖，不能把所有糖果当巧克力。",
+      "stage": 1,
+      "original": {
+        "word": "конфета",
+        "part_of_speech": "阴",
+        "meaning_zh": "糖果；巧克力糖",
+        "source_page": 124,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "конфета",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=124",
+        "巧克力糖来自修饰词。"
+      ]
+    },
+    {
+      "id": 8649,
+      "accent": "конце́рт",
+      "part": "名词·阳性",
+      "meaning": "音乐会；演奏会；协奏曲",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "концерт",
+        "part_of_speech": "阳",
+        "meaning_zh": "音乐会；演奏会；协奏曲",
+        "source_page": 124,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "концерт",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=124",
+        "核对音乐会及协奏曲。"
+      ]
+    },
+    {
+      "id": 8650,
+      "accent": "конча́ть",
+      "part": "动词·未完成体",
+      "meaning": "做完；办完；结束；终止；毕业",
+      "perfective": "ко́нчить",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "кончать",
+        "part_of_speech": "未",
+        "meaning_zh": "做完；办完；结束；终止；毕业",
+        "source_page": 124,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кончать",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=124",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8651,
+      "accent": "конча́ться",
+      "part": "动词·未完成体",
+      "meaning": "完结；结束；终止；用完",
+      "perfective": "ко́нчиться",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "кончаться",
+        "part_of_speech": "未",
+        "meaning_zh": "完；完结；结束；终止",
+        "source_page": 124,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кончаться",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=124",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8652,
+      "accent": "конь",
+      "part": "名词·阳性",
+      "meaning": "马；（国际象棋的）马",
+      "perfective": "",
+      "note": "棋子含义注意所指棋种。",
+      "stage": 1,
+      "original": {
+        "word": "конь",
+        "part_of_speech": "阳",
+        "meaning_zh": "马；象棋中的马",
+        "source_page": 124,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "конь",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=124",
+        "原页马义；棋子义限定国际象棋。"
+      ]
+    },
+    {
+      "id": 8653,
+      "accent": "коньки́",
+      "part": "名词·复数",
+      "meaning": "冰鞋；滑冰",
+      "perfective": "",
+      "note": "滑冰为口语活动义。",
+      "stage": 1,
+      "original": {
+        "word": "коньки",
+        "part_of_speech": "复",
+        "meaning_zh": "冰鞋；滑冰",
+        "source_page": 124,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "коньки",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=124",
+        "核对复数及口语活动义。"
+      ]
+    },
+    {
+      "id": 8654,
+      "accent": "копа́ть",
+      "part": "动词·未完成体",
+      "meaning": "挖；掘；翻土；挖出",
+      "perfective": "копну́ть",
+      "note": "完成体表示挖一下，不等同完成全部挖掘。",
+      "stage": 2,
+      "original": {
+        "word": "копать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "挖；掘；翻土",
+        "source_page": 124,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "копать",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=124",
+        "完成体单次挖。"
+      ]
+    },
+    {
+      "id": 8655,
+      "accent": "копе́йка",
+      "part": "名词·阴性",
+      "meaning": "戈比；小钱",
+      "perfective": "",
+      "note": "без копейки为一文不名；不把整句义直接并入。",
+      "stage": 2,
+      "original": {
+        "word": "копейка",
+        "part_of_speech": "阴",
+        "meaning_zh": "戈比；一点钱",
+        "source_page": 124,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "копейка",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=124",
+        "核对钱币及搭配。"
+      ]
+    },
+    {
+      "id": 8656,
+      "accent": "кора́бль",
+      "part": "名词·阳性",
+      "meaning": "舰；船；大船",
+      "perfective": "",
+      "note": "космический корабль为宇宙飞船，需结合修饰词。",
+      "stage": 1,
+      "original": {
+        "word": "корабль",
+        "part_of_speech": "阳",
+        "meaning_zh": "舰；大船；飞船",
+        "source_page": 124,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "корабль",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=124",
+        "宇宙飞船为修饰搭配。"
+      ]
+    },
+    {
+      "id": 8657,
+      "accent": "коренно́й",
+      "part": "形容词",
+      "meaning": "本地的；土生土长的；根本的；基本的；主要的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "коренной",
+        "part_of_speech": "形",
+        "meaning_zh": "根本的；本地的；土生土长的；核心的",
+        "source_page": 124,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "коренной",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=124",
+        "核对本地及根本义。"
+      ]
+    },
+    {
+      "id": 8658,
+      "accent": "ко́рень",
+      "part": "名词·阳性",
+      "meaning": "根；根部；根源；词根",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "корень",
+        "part_of_speech": "阳",
+        "meaning_zh": "根；根部；词根；根源",
+        "source_page": 124,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "корень",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF123至125页对应词条与续文，核对词性、重音、核心意义和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=124",
+        "data/words/tem4_russian_words.pdf#page=125",
+        "跨页根源及词根核对。"
+      ]
+    }
+  ]
+}
