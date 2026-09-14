@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8355,
+      "accent": "запи́ска",
+      "part": "名词·阴性",
+      "meaning": "便条；札记；笔记",
+      "perfective": "",
+      "note": "札记、笔记义常用复数записки。",
+      "stage": 1,
+      "original": {
+        "word": "записка",
+        "part_of_speech": "只 用 复",
+        "meaning_zh": "便条；札记；笔记",
+        "source_page": 95,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "записка",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF95至96页，区分原书另一体专有义与词头核心义，保留重音、性体和中文释义核对证据。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=95",
+        "核对便条及复数札记义。"
+      ]
+    },
+    {
+      "id": 8356,
+      "accent": "запи́сывать",
+      "part": "动词·未完成体",
+      "meaning": "写下；记录；录音；录制；登记",
+      "perfective": "записа́ть",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "записывать",
+        "part_of_speech": "未",
+        "meaning_zh": "记录；写下；录制",
+        "source_page": 95,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "записывать",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF95至96页，区分原书另一体专有义与词头核心义，保留重音、性体和中文释义核对证据。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=95",
+        "核对词头、另一体及记录、录音、登记义。"
+      ]
+    },
+    {
+      "id": 8357,
+      "accent": "запи́сываться",
+      "part": "动词·未完成体",
+      "meaning": "登记；报名；注册；挂号",
+      "perfective": "записа́ться",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "записываться",
+        "part_of_speech": null,
+        "meaning_zh": "登记；报名；注册；挂号",
+        "source_page": 95,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "записываться",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF95至96页，区分原书另一体专有义与词头核心义，保留重音、性体和中文释义核对证据。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=95",
+        "核对登记及报名挂号搭配。"
+      ]
+    },
+    {
+      "id": 8358,
+      "accent": "за́пись",
+      "part": "名词·阴性",
+      "meaning": "记录；笔记；录音；录制的内容",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "запись",
+        "part_of_speech": "阴",
+        "meaning_zh": "记录；笔记；录音",
+        "source_page": 95,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "запись",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF95至96页，区分原书另一体专有义与词头核心义，保留重音、性体和中文释义核对证据。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=95",
+        "核对阴性及记录、录音义。"
+      ]
+    },
+    {
+      "id": 8359,
+      "accent": "запла́кать",
+      "part": "动词·完成体",
+      "meaning": "哭起来；开始哭",
+      "perfective": "",
+      "note": "пла́кать表示哭的过程，不强配为完全同义体对。",
+      "stage": 1,
+      "original": {
+        "word": "заплакать",
+        "part_of_speech": null,
+        "meaning_zh": "哭起来；开始哭",
+        "source_page": 95,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заплакать",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF95至96页，区分原书另一体专有义与词头核心义，保留重音、性体和中文释义核对证据。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=95",
+        "起始动作完成体，不强配плакать。"
+      ]
+    },
+    {
+      "id": 8360,
+      "accent": "заполня́ть",
+      "part": "动词·未完成体",
+      "meaning": "填满；装满；填写",
+      "perfective": "запо́лнить",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "заполнять",
+        "part_of_speech": "未",
+        "meaning_zh": "填满；装满；填写",
+        "source_page": 95,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заполнять",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF95至96页，区分原书另一体专有义与词头核心义，保留重音、性体和中文释义核对证据。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=95",
+        "核对填满和填写义及另一体。"
+      ]
+    },
+    {
+      "id": 8361,
+      "accent": "запомина́ть",
+      "part": "动词·未完成体",
+      "meaning": "记住；记牢",
+      "perfective": "запо́мнить",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "запоминать",
+        "part_of_speech": "未",
+        "meaning_zh": "记住；记牢",
+        "source_page": 95,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "запоминать",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF95至96页，区分原书另一体专有义与词头核心义，保留重音、性体和中文释义核对证据。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=95",
+        "data/words/tem4_russian_words.pdf#page=96",
+        "跨页核对记住记牢及完成体。"
+      ]
+    },
+    {
+      "id": 8362,
+      "accent": "запреща́ть",
+      "part": "动词·未完成体",
+      "meaning": "禁止；不准；不允许",
+      "perfective": "запрети́ть",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "запрещать",
+        "part_of_speech": "未",
+        "meaning_zh": "禁止；不准；不允许",
+        "source_page": 96,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "запрещать",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF95至96页，区分原书另一体专有义与词头核心义，保留重音、性体和中文释义核对证据。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=96",
+        "核对禁止义及另一体。"
+      ]
+    },
+    {
+      "id": 8363,
+      "accent": "запуска́ть",
+      "part": "动词·未完成体",
+      "meaning": "投掷；发射；放飞；启动；伸入；放入",
+      "perfective": "запусти́ть",
+      "note": "义项随宾语区分，不泛指开始任何活动。",
+      "stage": 2,
+      "original": {
+        "word": "запускать",
+        "part_of_speech": "未",
+        "meaning_zh": "启动；发射；放出；开始",
+        "source_page": 96,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "запускать",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF95至96页，区分原书另一体专有义与词头核心义，保留重音、性体和中文释义核对证据。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=96",
+        "核对投掷、发射、伸入、放入等搭配，不泛译开始。"
+      ]
+    },
+    {
+      "id": 8364,
+      "accent": "зараба́тывать",
+      "part": "动词·未完成体",
+      "meaning": "挣钱；赚得",
+      "perfective": "зарабо́тать",
+      "note": "заработать另有开始工作或运转义，不能反填给зарабатывать。",
+      "stage": 1,
+      "original": {
+        "word": "зарабатывать",
+        "part_of_speech": null,
+        "meaning_zh": "赚钱；挣钱；开始工作",
+        "source_page": 96,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зарабатывать",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF95至96页，区分原书另一体专有义与词头核心义，保留重音、性体和中文释义核对证据。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=96",
+        "开始工作为原书标明的只用完成体义，剔出未完成体核心义。"
+      ]
+    },
+    {
+      "id": 8365,
+      "accent": "заража́ться",
+      "part": "动词·未完成体",
+      "meaning": "感染；染上（疾病）",
+      "perfective": "зарази́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "заражаться",
+        "part_of_speech": "未",
+        "meaning_zh": "感染；染上（疾病）",
+        "source_page": 96,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заражаться",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF95至96页，区分原书另一体专有义与词头核心义，保留重音、性体和中文释义核对证据。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=96",
+        "核对感染义及未完成体、完成体。"
+      ]
+    },
+    {
+      "id": 8366,
+      "accent": "зарпла́та",
+      "part": "名词·阴性",
+      "meaning": "工资；薪水",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "зарплата",
+        "part_of_speech": "阴",
+        "meaning_zh": "工资；薪水",
+        "source_page": 96,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зарплата",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF95至96页，区分原书另一体专有义与词头核心义，保留重音、性体和中文释义核对证据。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=96",
+        "核对阴性工资义。"
+      ]
+    },
+    {
+      "id": 8367,
+      "accent": "зарубе́жный",
+      "part": "形容词",
+      "meaning": "国外的；外国的",
+      "perfective": "",
+      "note": "此处为е，不是ё。",
+      "stage": 2,
+      "original": {
+        "word": "зарубежный",
+        "part_of_speech": "形",
+        "meaning_zh": "国外的；外国的",
+        "source_page": 96,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зарубежный",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF95至96页，区分原书另一体专有义与词头核心义，保留重音、性体和中文释义核对证据。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=96",
+        "核对国外的及ё。"
+      ]
+    },
+    {
+      "id": 8368,
+      "accent": "заря́",
+      "part": "名词·阴性",
+      "meaning": "朝霞；晚霞；曙光；黎明；初期",
+      "perfective": "",
+      "note": "вечерняя заря为晚霞；на заре用于某事物初期。",
+      "stage": 2,
+      "original": {
+        "word": "заря",
+        "part_of_speech": "阴",
+        "meaning_zh": "晨光；曙光；黎明；初期",
+        "source_page": 96,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заря",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF95至96页，区分原书另一体专有义与词头核心义，保留重音、性体和中文释义核对证据。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=96",
+        "原页вечерняя заря支持晚霞义，补齐遗漏。"
+      ]
+    },
+    {
+      "id": 8369,
+      "accent": "заря́дка",
+      "part": "名词·阴性",
+      "meaning": "健身体操；早操",
+      "perfective": "",
+      "note": "本来源为体操义；不是任意锻炼的总称。",
+      "stage": 1,
+      "original": {
+        "word": "зарядка",
+        "part_of_speech": "阴",
+        "meaning_zh": "体操；早操；锻炼",
+        "source_page": 96,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зарядка",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF95至96页，区分原书另一体专有义与词头核心义，保留重音、性体和中文释义核对证据。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=96",
+        "原页本条为体操锻炼义，不把所有运动等同本词。"
+      ]
+    },
+    {
+      "id": 8370,
+      "accent": "заседа́ние",
+      "part": "名词·中性",
+      "meaning": "会议；开会",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "заседание",
+        "part_of_speech": "中",
+        "meaning_zh": "会议；会议活动",
+        "source_page": 96,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заседание",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF95至96页，区分原书另一体专有义与词头核心义，保留重音、性体和中文释义核对证据。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=96",
+        "核对中性与会议义。"
+      ]
+    }
+  ]
+}

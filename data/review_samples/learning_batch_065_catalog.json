@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8345,
+      "accent": "занима́ть",
+      "part": "动词·未完成体",
+      "meaning": "占据；占用；占领；担任；花费（时间）",
+      "perfective": "заня́ть",
+      "note": "本条为占据义；借入、借出须按另一词义及搭配区分。",
+      "stage": 1,
+      "original": {
+        "word": "занимать",
+        "part_of_speech": "未",
+        "meaning_zh": "占用；占领；担任；耗费（时间）",
+        "source_page": 94,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "занимать",
+      "method": "2026-09-14当前助手逐词核对专四PDF94至95页的词头、重音、性体与中文核心义；不把搭配意义或相近词义直接混入词条。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=94",
+        "原页视觉核对；本条采用占据义，不混入同形借贷义。"
+      ]
+    },
+    {
+      "id": 8346,
+      "accent": "занима́ться",
+      "part": "动词·未完成体",
+      "meaning": "从事；学习；工作；指导学习；照料；关注",
+      "perfective": "заня́ться",
+      "note": "从事、着手做可与заняться对应；持续学习、工作常只用未完成体，不译为占用。",
+      "stage": 1,
+      "original": {
+        "word": "заниматься",
+        "part_of_speech": "未",
+        "meaning_zh": "从事；学习；工作；占用；照料",
+        "source_page": 94,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заниматься",
+      "method": "2026-09-14当前助手逐词核对专四PDF94至95页的词头、重音、性体与中文核心义；不把搭配意义或相近词义直接混入词条。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=94",
+        "原页视觉核对四项中文，去除混入的占用。"
+      ]
+    },
+    {
+      "id": 8347,
+      "accent": "заня́тие",
+      "part": "名词·中性",
+      "meaning": "工作；学习；事情；职业；活动；课",
+      "perfective": "",
+      "note": "课、上课活动通常用复数занятия；不直接等同于课后作业。",
+      "stage": 1,
+      "original": {
+        "word": "занятие",
+        "part_of_speech": "中",
+        "meaning_zh": "工作；学习；课；课程；活动；作业",
+        "source_page": 94,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "занятие",
+      "method": "2026-09-14当前助手逐词核对专四PDF94至95页的词头、重音、性体与中文核心义；不把搭配意义或相近词义直接混入词条。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=94",
+        "原页视觉核对；复数课义保留。"
+      ]
+    },
+    {
+      "id": 8348,
+      "accent": "за́нятый",
+      "part": "形容词",
+      "meaning": "忙的；有事的；没有空的；被占用的",
+      "perfective": "",
+      "note": "词头重音在首音节；短尾形式有重音变化。",
+      "stage": 1,
+      "original": {
+        "word": "занятый",
+        "part_of_speech": "形",
+        "meaning_zh": "有事的；没有空的；被占用的",
+        "source_page": 94,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "занятый",
+      "method": "2026-09-14当前助手逐词核对专四PDF94至95页的词头、重音、性体与中文核心义；不把搭配意义或相近词义直接混入词条。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=94",
+        "原页视觉核对词头重音与形容词释义。"
+      ]
+    },
+    {
+      "id": 8349,
+      "accent": "зао́чный",
+      "part": "形容词",
+      "meaning": "函授的；不在场的；缺席进行的",
+      "perfective": "",
+      "note": "原页为函授义；不是所有非全日制学习的统称。",
+      "stage": 2,
+      "original": {
+        "word": "заочный",
+        "part_of_speech": "形",
+        "meaning_zh": "函授的；非全日制的",
+        "source_page": 95,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заочный",
+      "method": "2026-09-14当前助手逐词核对专四PDF94至95页的词头、重音、性体与中文核心义；不把搭配意义或相近词义直接混入词条。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=95",
+        "原页函授义核对；不以非全日制替代核心概念。"
+      ]
+    },
+    {
+      "id": 8350,
+      "accent": "за́пад",
+      "part": "名词·阳性",
+      "meaning": "西；西方；西部；西欧；西方国家",
+      "perfective": "",
+      "note": "方向词一般小写；西方国家这一地区文化概念常写Запад。",
+      "stage": 1,
+      "original": {
+        "word": "запад",
+        "part_of_speech": "阳",
+        "meaning_zh": "西方；西部；西欧；西方国家",
+        "source_page": 95,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "запад",
+      "method": "2026-09-14当前助手逐词核对专四PDF94至95页的词头、重音、性体与中文核心义；不把搭配意义或相近词义直接混入词条。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=95",
+        "原页视觉核对阳性、方向和地区义。"
+      ]
+    },
+    {
+      "id": 8351,
+      "accent": "за́падный",
+      "part": "形容词",
+      "meaning": "西方的；西部的；西欧的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "западный",
+        "part_of_speech": "形",
+        "meaning_zh": "西方的；西部的；西欧的",
+        "source_page": 95,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "западный",
+      "method": "2026-09-14当前助手逐词核对专四PDF94至95页的词头、重音、性体与中文核心义；不把搭配意义或相近词义直接混入词条。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=95",
+        "原页视觉核对形容词两组义项。"
+      ]
+    },
+    {
+      "id": 8352,
+      "accent": "запа́с",
+      "part": "名词·阳性",
+      "meaning": "储备；储备物；存量；积累（知识、经验等）",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "запас",
+        "part_of_speech": "阳",
+        "meaning_zh": "储备；储存物；知识和经验积累",
+        "source_page": 95,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "запас",
+      "method": "2026-09-14当前助手逐词核对专四PDF94至95页的词头、重音、性体与中文核心义；不把搭配意义或相近词义直接混入词条。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=95",
+        "原页视觉核对储备及知识等积累义。"
+      ]
+    },
+    {
+      "id": 8353,
+      "accent": "за́пах",
+      "part": "名词·阳性",
+      "meaning": "气味",
+      "perfective": "",
+      "note": "指嗅觉感知，不把中文味道扩展为味觉。",
+      "stage": 1,
+      "original": {
+        "word": "запах",
+        "part_of_speech": "阳",
+        "meaning_zh": "气味；味道",
+        "source_page": 95,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "запах",
+      "method": "2026-09-14当前助手逐词核对专四PDF94至95页的词头、重音、性体与中文核心义；不把搭配意义或相近词义直接混入词条。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=95",
+        "原页视觉核对气味，不与味觉混淆。"
+      ]
+    },
+    {
+      "id": 8354,
+      "accent": "запира́ть",
+      "part": "动词·未完成体",
+      "meaning": "锁上；锁住；关起来",
+      "perfective": "запере́ть",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "запирать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "锁上；锁住",
+        "source_page": 95,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "запирать",
+      "method": "2026-09-14当前助手逐词核对专四PDF94至95页的词头、重音、性体与中文核心义；不把搭配意义或相近词义直接混入词条。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=95",
+        "原页视觉核对未完成体及запереть完成体。"
+      ]
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 {
- "updated":"2026-09-10",
+ "updated":"2026-09-14",
  "scope":"本轮逐词审核中已读但尚未确认的核心标注；未检查的普通pending不在本表。",
  "records":[
+ {"id":8316,"word":"заигрывать","source":"data/words/tem4_russian_words.pdf#page=91","status":"pending","reason":"原书将开始演奏/游戏与заиграть配对；现代词典还列调情、讨好及玩坏等不同义，当前检索不足以核定原来源起始义的通用程度。先修正文稿思路但不入标注库，不直接把主词义改成调情或强配统一完成体。","reference":"https://gramota.ru/meta/zaigrat","next":"逐条核词典заигрывать与заиграть义项编号、语体，确认本来源保留范围及另一体后再导入。"},
  {"id":6229,"word":"НОАК","status":"pending","reason":"核心中文应为中国人民解放军，非中国大民解放军。当前普通词重音校验不接受无重音的多元音缩略语；尚未核实按字母或按音节读法，不为通过校验强加重音。","next":"核缩略语读音，再决定具体标注或明确的缩略语校验例外。"},
  {"id":5984,"word":"Кыргызская","source":"data/words/tem8_russian_words.pdf#page=87","status":"pending","reason":"原书用大写阴性形式，页上重音与常见现代形式存在疑点；Gramota只收普通形容词киргизский，Кыргызская Республика是实际官方专名用法，不能简单归为OCR全替换。暂不写重音标注，不归档。","reference":"https://gramota.ru/poisk?mode=spravka&query=%D0%BA%D0%B8%D1%80%D0%B3%D0%B8%D0%B7%D1%81%D0%BA%D0%B8%D0%B9+%D1%81%D0%BE%D0%BC","next":"核官方专名俄语读音或可靠发音资料，决定保留专名阴性形式还是另提供规范普通词入口。"}
  ]

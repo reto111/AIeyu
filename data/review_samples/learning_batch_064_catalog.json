@@ -1,0 +1,941 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8303,
+      "accent": "загова́ривать",
+      "part": "动词·未完成体",
+      "meaning": "开始说话；谈起",
+      "perfective": "заговори́ть",
+      "note": "本来源为开始说话义，不混入念咒等同形词义。",
+      "stage": 2,
+      "original": {
+        "word": "заговаривать",
+        "part_of_speech": "未",
+        "meaning_zh": "开始说话；谈起",
+        "source_page": 90,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заговаривать",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=90",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8304,
+      "accent": "загора́ть",
+      "part": "动词·未完成体",
+      "meaning": "晒太阳；晒黑",
+      "perfective": "загоре́ть",
+      "note": "完成体指晒黑的结果，不等于任意晒太阳活动。",
+      "stage": 1,
+      "original": {
+        "word": "загорать",
+        "part_of_speech": "未",
+        "meaning_zh": "晒黑；晒太阳",
+        "source_page": 90,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "загорать",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=90",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8305,
+      "accent": "загора́ться",
+      "part": "动词·未完成体",
+      "meaning": "起火；燃烧起来；亮起来",
+      "perfective": "загоре́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "загораться",
+        "part_of_speech": "未",
+        "meaning_zh": "起火；燃烧起来；发出亮光",
+        "source_page": 90,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "загораться",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=90",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8306,
+      "accent": "задава́ть",
+      "part": "动词·未完成体",
+      "meaning": "提出；布置；指定；设定",
+      "perfective": "зада́ть",
+      "note": "如提问题、布置作业；不泛译所有给予行为。",
+      "stage": 1,
+      "original": {
+        "word": "задавать",
+        "part_of_speech": "未",
+        "meaning_zh": "提出；给予；布置；指定",
+        "source_page": 90,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "задавать",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=90",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8307,
+      "accent": "зада́ние",
+      "part": "名词·中性",
+      "meaning": "任务；作业；指定的工作",
+      "perfective": "",
+      "note": "任命是旧释误用，不能作为本词一般义。",
+      "stage": 1,
+      "original": {
+        "word": "задание",
+        "part_of_speech": "中",
+        "meaning_zh": "任务；作业；任命；使命",
+        "source_page": 90,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "задание",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=90",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8308,
+      "accent": "зада́ча",
+      "part": "名词·阴性",
+      "meaning": "任务；习题；问题",
+      "perfective": "",
+      "note": "修正误标阳性。",
+      "stage": 1,
+      "original": {
+        "word": "задача",
+        "part_of_speech": "阳",
+        "meaning_zh": "任务；习题",
+        "source_page": 90,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "задача",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=90",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8309,
+      "accent": "заде́рживать",
+      "part": "动词·未完成体",
+      "meaning": "拦住；阻止；扣留；耽搁；拖延",
+      "perfective": "задержа́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "задерживать",
+        "part_of_speech": "未",
+        "meaning_zh": "扣留；阻留；延误；拖延",
+        "source_page": 90,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "задерживать",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=90",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8310,
+      "accent": "заде́рживаться",
+      "part": "动词·未完成体",
+      "meaning": "停留；耽搁；延误；晚点",
+      "perfective": "задержа́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "задерживаться",
+        "part_of_speech": "未",
+        "meaning_zh": "停留；耽搁；延误；晚点",
+        "source_page": 91,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "задерживаться",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=91",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8311,
+      "accent": "за́дний",
+      "part": "形容词",
+      "meaning": "后面的；后部的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "задний",
+        "part_of_speech": "形",
+        "meaning_zh": "后面的；后部的",
+        "source_page": 91,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "задний",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=91",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8312,
+      "accent": "заду́мываться",
+      "part": "动词·未完成体",
+      "meaning": "思考；沉思；考虑",
+      "perfective": "заду́маться",
+      "note": "常用над чем或о чём。",
+      "stage": 2,
+      "original": {
+        "word": "задумываться",
+        "part_of_speech": "未",
+        "meaning_zh": "思考；沉思；考虑",
+        "source_page": 91,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "задумываться",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=91",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8313,
+      "accent": "заезжа́ть",
+      "part": "动词·未完成体",
+      "meaning": "乘车等顺路去；顺便探访",
+      "perfective": "зае́хать",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "заезжать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "顺路去；顺便访问",
+        "source_page": 91,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заезжать",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=91",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8314,
+      "accent": "зажига́ть",
+      "part": "动词·未完成体",
+      "meaning": "点燃；点着；打开灯",
+      "perfective": "заже́чь",
+      "note": "不是完成体；区别заживать伤口愈合。",
+      "stage": 1,
+      "original": {
+        "word": "зажигать",
+        "part_of_speech": "完",
+        "meaning_zh": "点燃；点着；生火",
+        "source_page": 91,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зажигать",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=91",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8315,
+      "accent": "зазнава́ться",
+      "part": "动词·未完成体",
+      "meaning": "自高自大；自命不凡；骄傲起来",
+      "perfective": "зазна́ться",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "зазнаваться",
+        "part_of_speech": "未",
+        "meaning_zh": "自高自大；骄傲起来",
+        "source_page": 91,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зазнаваться",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=91",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8317,
+      "accent": "зака́з",
+      "part": "名词·阳性",
+      "meaning": "订购；订做；订单；订购物品",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "заказ",
+        "part_of_speech": "阳",
+        "meaning_zh": "订购；订做；订单",
+        "source_page": 91,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заказ",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=91",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8318,
+      "accent": "закаля́ть",
+      "part": "动词·未完成体",
+      "meaning": "淬火；使硬化；锻炼身体或意志",
+      "perfective": "закали́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "закалять",
+        "part_of_speech": "未",
+        "meaning_zh": "使硬化；淬火；锻炼（身体、意志）",
+        "source_page": 91,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "закалять",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=91",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8319,
+      "accent": "закры́тый",
+      "part": "形容词；形动词用法",
+      "meaning": "关闭的；封闭的；有遮盖的；不公开的；室内的",
+      "perfective": "",
+      "note": "内海来自закрытое море，不能笼统译为所有内陆事物。",
+      "stage": 2,
+      "original": {
+        "word": "закрытый",
+        "part_of_speech": null,
+        "meaning_zh": "关闭的；封闭的；秘密的；室内的；内海的",
+        "source_page": 92,
+        "source_line": "1"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "закрытый",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=92",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8321,
+      "accent": "зака́т",
+      "part": "名词·阳性",
+      "meaning": "日落；落日时分；衰落期",
+      "perfective": "",
+      "note": "晚年义须结合на закате жизни等搭配。",
+      "stage": 2,
+      "original": {
+        "word": "закат",
+        "part_of_speech": "阳",
+        "meaning_zh": "日落；晚年",
+        "source_page": 92,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "закат",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=92",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8322,
+      "accent": "заключа́ть",
+      "part": "动词·未完成体",
+      "meaning": "关押；监禁；得出结论；签订；订立",
+      "perfective": "заключи́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "заключать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "关押；得出结论；签订；订立",
+        "source_page": 92,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заключать",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=92",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8323,
+      "accent": "заключе́ние",
+      "part": "名词·中性",
+      "meaning": "监禁；关押；结论；结尾；结束部分",
+      "perfective": "",
+      "note": "恢复е；不是заключённый被关押的。",
+      "stage": 2,
+      "original": {
+        "word": "заключёние",
+        "part_of_speech": "中",
+        "meaning_zh": "结论；禁闭；结尾",
+        "source_page": 92,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заключение",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=92",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8324,
+      "accent": "зако́н",
+      "part": "名词·阳性",
+      "meaning": "法律；法规；规律；定律；法则",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "закон",
+        "part_of_speech": null,
+        "meaning_zh": "法律；规律；定律；法则",
+        "source_page": 92,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "закон",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=92",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8325,
+      "accent": "закрича́ть",
+      "part": "动词·完成体",
+      "meaning": "叫喊起来；开始喊叫",
+      "perfective": "",
+      "note": "кри́чать表示持续喊叫，不是严格的起始义体对。",
+      "stage": 2,
+      "original": {
+        "word": "закричать",
+        "part_of_speech": "完",
+        "meaning_zh": "叫喊起来；开始喊叫",
+        "source_page": 92,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "закричать",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=92",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8327,
+      "accent": "закрыва́ться",
+      "part": "动词·未完成体",
+      "meaning": "关上；合上；闭幕；停业；给自己盖上",
+      "perfective": "закры́ться",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "закрываться",
+        "part_of_speech": "未",
+        "meaning_zh": "关上；闭上；闭幕；停业；给自己盖上",
+        "source_page": 92,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "закрываться",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=92",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8328,
+      "accent": "заку́ривать",
+      "part": "动词·未完成体",
+      "meaning": "点烟；开始吸烟；染上吸烟习惯",
+      "perfective": "закури́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "закуривать",
+        "part_of_speech": "未",
+        "meaning_zh": "点烟；开始吸烟",
+        "source_page": 93,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "закуривать",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=93",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8329,
+      "accent": "заку́ска",
+      "part": "名词·阴性",
+      "meaning": "小菜；开胃菜；下酒菜",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "закуска",
+        "part_of_speech": "阴",
+        "meaning_zh": "小菜；下酒菜",
+        "source_page": 93,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "закуска",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=93",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8330,
+      "accent": "зал",
+      "part": "名词·阳性",
+      "meaning": "大厅；礼堂；厅；活动室；客厅",
+      "perfective": "",
+      "note": "候车室、阅览室、体育馆等来自相应定语搭配。",
+      "stage": 1,
+      "original": {
+        "word": "зал",
+        "part_of_speech": "阳",
+        "meaning_zh": "大厅；礼堂；候车室；阅览室；体育馆",
+        "source_page": 93,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зал",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=93",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8331,
+      "accent": "замедля́ть",
+      "part": "动词·未完成体",
+      "meaning": "放慢；减速；延迟",
+      "perfective": "заме́длить",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "замедлять",
+        "part_of_speech": "未",
+        "meaning_zh": "放慢；减速",
+        "source_page": 93,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "замедлять",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=93",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8332,
+      "accent": "замерза́ть",
+      "part": "动词·未完成体",
+      "meaning": "结冰；冻结；冻僵；冻死",
+      "perfective": "замёрзнуть",
+      "note": "完成体保留ё。",
+      "stage": 2,
+      "original": {
+        "word": "замерзать",
+        "part_of_speech": "未",
+        "meaning_zh": "结冰；冻僵",
+        "source_page": 93,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "замерзать",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=93",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8333,
+      "accent": "замести́тель",
+      "part": "名词·阳性",
+      "meaning": "副职；副手；代理人；替代者",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "заместитель",
+        "part_of_speech": "阳",
+        "meaning_zh": "代替的人；副职；副手",
+        "source_page": 93,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заместитель",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=93",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8334,
+      "accent": "заме́тка",
+      "part": "名词·阴性",
+      "meaning": "记号；标记；笔记；简讯；短文",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "заметка",
+        "part_of_speech": null,
+        "meaning_zh": "记号；便条；简讯；短文",
+        "source_page": 93,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заметка",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=93",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8335,
+      "accent": "заме́тный",
+      "part": "形容词",
+      "meaning": "明显的；显著的；可察觉的；突出的；著名的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "заметный",
+        "part_of_speech": "形",
+        "meaning_zh": "明显的；显著的；出色的；著名的",
+        "source_page": 93,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заметный",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=93",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8336,
+      "accent": "замеча́ние",
+      "part": "名词·中性",
+      "meaning": "评论；意见；评语；责备",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "замечание",
+        "part_of_speech": "中",
+        "meaning_zh": "评论；意见；责备",
+        "source_page": 93,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "замечание",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=93",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8337,
+      "accent": "замеча́тельный",
+      "part": "形容词",
+      "meaning": "出色的；卓越的；极好的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "замечательный",
+        "part_of_speech": "形",
+        "meaning_zh": "出色的；卓越的；非常好的",
+        "source_page": 93,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "замечательный",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=93",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8338,
+      "accent": "замеча́ть",
+      "part": "动词·未完成体",
+      "meaning": "注意到；察觉；发现；记住；指出；说到",
+      "perfective": "заме́тить",
+      "note": "具体义按宾语或引语分辨。",
+      "stage": 2,
+      "original": {
+        "word": "замечать",
+        "part_of_speech": "未",
+        "meaning_zh": "注意到；察觉；看出；指出",
+        "source_page": 93,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "замечать",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=93",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8339,
+      "accent": "замира́ть",
+      "part": "动词·未完成体",
+      "meaning": "停住；呆住；停止；静下来",
+      "perfective": "замере́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "замирать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "停住；愣住；停止；静下来",
+        "source_page": 94,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "замирать",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=94",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8340,
+      "accent": "замо́к",
+      "part": "名词·阳性",
+      "meaning": "锁",
+      "perfective": "",
+      "note": "原页94仅列замо́к锁；за́мок城堡是不同重音的同形词，不混入本条核心义。",
+      "stage": 1,
+      "original": {
+        "word": "замок",
+        "part_of_speech": "阳",
+        "meaning_zh": "锁；城堡",
+        "source_page": 94,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "замок",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=94",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8341,
+      "accent": "замолча́ть",
+      "part": "动词·完成体",
+      "meaning": "停止说话；沉默下来；停止发声",
+      "perfective": "",
+      "note": "молча́ть为沉默状态，不把它显示为完全等义的起始动作体对。",
+      "stage": 2,
+      "original": {
+        "word": "замолчать",
+        "part_of_speech": "完",
+        "meaning_zh": "停止说话；沉默起来",
+        "source_page": 94,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "замолчать",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=94",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8342,
+      "accent": "за́муж",
+      "part": "副词",
+      "meaning": "出嫁；嫁给",
+      "perfective": "",
+      "note": "与выйти等动词搭配表示结婚方向或变化。",
+      "stage": 1,
+      "original": {
+        "word": "замуж",
+        "part_of_speech": "副",
+        "meaning_zh": "出嫁；嫁给",
+        "source_page": 94,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "замуж",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=94",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8343,
+      "accent": "за́мужем",
+      "part": "副词·谓语用法",
+      "meaning": "已婚；已出嫁（女性）",
+      "perfective": "",
+      "note": "表示婚姻状态，区别замуж。",
+      "stage": 1,
+      "original": {
+        "word": "замужем",
+        "part_of_speech": "副",
+        "meaning_zh": "已出嫁；已婚（女性）",
+        "source_page": 94,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "замужем",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=94",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    },
+    {
+      "id": 8344,
+      "accent": "за́навес",
+      "part": "名词·阳性",
+      "meaning": "帷幔；帘幕；舞台幕布",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "занавес",
+        "part_of_speech": "阳",
+        "meaning_zh": "帷幔；幕；幕布",
+        "source_page": 94,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "занавес",
+      "method": "2026-09-14当前助手逐词对照专四PDF90至94页，核心义、性体、重音及同形词边界核验；8316原书与现代词典义项对应尚需查清，单列未决。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=94",
+        "逐词视觉核对词头、重音、词性、中文及续页，核心释义由当前助手整理，不代表词典全核。"
+      ]
+    }
+  ]
+}
