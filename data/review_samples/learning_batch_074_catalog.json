@@ -1,0 +1,606 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8548,
+      "accent": "карто́фель",
+      "part": "名词·阳性",
+      "meaning": "马铃薯；土豆",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "картофель",
+        "part_of_speech": "阳",
+        "meaning_zh": "马铃薯；土豆",
+        "source_page": 116,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "картофель",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=116",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8549,
+      "accent": "каса́ться",
+      "part": "动词·未完成体",
+      "meaning": "接触；触及；提及；涉及；关系到",
+      "perfective": "косну́ться",
+      "note": "常接第二格；关系到这一持续关系义不机械改为完成体。",
+      "stage": 2,
+      "original": {
+        "word": "касаться",
+        "part_of_speech": "未",
+        "meaning_zh": "接触；触及；涉及；关系到",
+        "source_page": 116,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "касаться",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=116",
+        "关系到的持续义不机械替换完成体。"
+      ]
+    },
+    {
+      "id": 8550,
+      "accent": "ка́сса",
+      "part": "名词·阴性",
+      "meaning": "钱柜；出纳处；收款处；售票处",
+      "perfective": "",
+      "note": "несгораемая касса为保险柜，不能把所有касса都译作保险柜。",
+      "stage": 1,
+      "original": {
+        "word": "касса",
+        "part_of_speech": "阴",
+        "meaning_zh": "保险柜；出纳处；收款处；售票处",
+        "source_page": 116,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "касса",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=116",
+        "钱柜为核心，保险柜为修饰搭配。"
+      ]
+    },
+    {
+      "id": 8551,
+      "accent": "касси́р",
+      "part": "名词·阳性",
+      "meaning": "出纳员；收银员；售票员",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "кассир",
+        "part_of_speech": "阳",
+        "meaning_zh": "出纳员；售票员",
+        "source_page": 116,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кассир",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=116",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8552,
+      "accent": "ката́ться",
+      "part": "动词·未完成体",
+      "meaning": "滚动；打滚；乘坐游玩；骑行游玩；滑行",
+      "perfective": "",
+      "note": "骑车、滑冰等按на加交通或活动工具名词区分。",
+      "stage": 1,
+      "original": {
+        "word": "кататься",
+        "part_of_speech": "未",
+        "meaning_zh": "游玩；骑；乘坐",
+        "source_page": 116,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кататься",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=116",
+        "补滚动义，限定骑乘为游玩活动。"
+      ]
+    },
+    {
+      "id": 8553,
+      "accent": "кати́ться",
+      "part": "动词·未完成体",
+      "meaning": "滚动；滚落；流淌",
+      "perfective": "",
+      "note": "眼泪流淌为常见搭配，不泛译所有流出。",
+      "stage": 2,
+      "original": {
+        "word": "катиться",
+        "part_of_speech": "未",
+        "meaning_zh": "滚动；滚落；流出",
+        "source_page": 116,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "катиться",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=116",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8554,
+      "accent": "като́к",
+      "part": "名词·阳性",
+      "meaning": "溜冰场；压路机；滚筒",
+      "perfective": "",
+      "note": "原页教学主项为溜冰场。",
+      "stage": 2,
+      "original": {
+        "word": "каток",
+        "part_of_speech": "阳",
+        "meaning_zh": "溜冰场；压路机；滚筒",
+        "source_page": 116,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "каток",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=116",
+        "原页溜冰场，保留既有常见机械义。"
+      ]
+    },
+    {
+      "id": 8555,
+      "accent": "кафе́",
+      "part": "名词·中性·不变格",
+      "meaning": "咖啡馆；小餐馆",
+      "perfective": "",
+      "note": "интернет-кафе是网吧，кафе-мороженое是冷饮店，不把修饰词组直接并入词义。",
+      "stage": 1,
+      "original": {
+        "word": "кафе",
+        "part_of_speech": "中 , 不 变",
+        "meaning_zh": "咖啡馆；小餐馆；咖啡冷饮厅；网吧",
+        "source_page": 116,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кафе",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=116",
+        "网吧来自интернет-кафе，非单词核心。"
+      ]
+    },
+    {
+      "id": 8556,
+      "accent": "ка́федра",
+      "part": "名词·阴性",
+      "meaning": "讲台；讲坛；教研室",
+      "perfective": "",
+      "note": "组织单位译名依院校设置，不能一律等同于系。",
+      "stage": 2,
+      "original": {
+        "word": "кафедра",
+        "part_of_speech": "阳",
+        "meaning_zh": "讲台；讲坛；系；教研室",
+        "source_page": 116,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кафедра",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=116",
+        "data/words/tem4_russian_words.pdf#page=117",
+        "跨页核对教研室。"
+      ]
+    },
+    {
+      "id": 8557,
+      "accent": "кача́ть",
+      "part": "动词·未完成体",
+      "meaning": "摇；摇动；摇晃；摆动",
+      "perfective": "качну́ть",
+      "note": "另一体侧重摇动一下。",
+      "stage": 2,
+      "original": {
+        "word": "качать",
+        "part_of_speech": "未",
+        "meaning_zh": "摇；摇晃；摆动",
+        "source_page": 117,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "качать",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=117",
+        "核对单次完成体。"
+      ]
+    },
+    {
+      "id": 8558,
+      "accent": "кача́ться",
+      "part": "动词·未完成体",
+      "meaning": "摇晃；摆动；摇摆；松动；蹒跚行走",
+      "perfective": "качну́ться",
+      "note": "完成体侧重一次摇动；不强用于全部义项。",
+      "stage": 2,
+      "original": {
+        "word": "качаться",
+        "part_of_speech": "未",
+        "meaning_zh": "摇晃；摆动；摇摆；蹒跚行走",
+        "source_page": 117,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "качаться",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=117",
+        "补牙齿松动义。"
+      ]
+    },
+    {
+      "id": 8559,
+      "accent": "ка́чество",
+      "part": "名词·中性",
+      "meaning": "质；性质；质量；品质；品格",
+      "perfective": "",
+      "note": "作为来自в качестве词组，不直接列为名词义。",
+      "stage": 2,
+      "original": {
+        "word": "качество",
+        "part_of_speech": "中",
+        "meaning_zh": "质量；品质；品格",
+        "source_page": 117,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "качество",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=117",
+        "核对性质、品质、质量。"
+      ]
+    },
+    {
+      "id": 8561,
+      "accent": "ка́шель",
+      "part": "名词·阳性",
+      "meaning": "咳嗽",
+      "perfective": "",
+      "note": "名词，不译为咳出。",
+      "stage": 1,
+      "original": {
+        "word": "кашель",
+        "part_of_speech": "阳",
+        "meaning_zh": "咳嗽；咳出",
+        "source_page": 117,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кашель",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=117",
+        "名词咳嗽，不是动词咳出。"
+      ]
+    },
+    {
+      "id": 8562,
+      "accent": "ка́шлять",
+      "part": "动词·未完成体",
+      "meaning": "咳嗽",
+      "perfective": "ка́шлянуть",
+      "note": "完成体为咳嗽一下；咳血等需结合宾语。",
+      "stage": 1,
+      "original": {
+        "word": "кашлять",
+        "part_of_speech": "未",
+        "meaning_zh": "咳嗽；咳出",
+        "source_page": 117,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кашлять",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=117",
+        "咳血由宾语表达，非直接咳出义。"
+      ]
+    },
+    {
+      "id": 8563,
+      "accent": "квадра́тный",
+      "part": "形容词",
+      "meaning": "正方形的；方的；平方的；二次方的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "квадратный",
+        "part_of_speech": "形",
+        "meaning_zh": "正方形的；方的；平方的",
+        "source_page": 117,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "квадратный",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=117",
+        "补二次方义。"
+      ]
+    },
+    {
+      "id": 8564,
+      "accent": "квалифици́рованный",
+      "part": "形容词",
+      "meaning": "熟练的；有专业技能的；需要专门技能的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "квалифицированный",
+        "part_of_speech": "形",
+        "meaning_zh": "熟练的；有资格的；专业的；需要专门技能的",
+        "source_page": 117,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "квалифицированный",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=117",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8565,
+      "accent": "кварта́л",
+      "part": "名词·阳性",
+      "meaning": "季度；街区",
+      "perfective": "",
+      "note": "两义的词头重音均在最后音节。",
+      "stage": 2,
+      "original": {
+        "word": "квартал",
+        "part_of_speech": "阳",
+        "meaning_zh": "季度；街区；居民区",
+        "source_page": 117,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "квартал",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=117",
+        "两义均末音节重音。"
+      ]
+    },
+    {
+      "id": 8566,
+      "accent": "кварти́ра",
+      "part": "名词·阴性",
+      "meaning": "住宅；寓所；套房",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "квартира",
+        "part_of_speech": "阴",
+        "meaning_zh": "住宅；寓所；套房",
+        "source_page": 117,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "квартира",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=117",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8567,
+      "accent": "ке́пка",
+      "part": "名词·阴性",
+      "meaning": "鸭舌帽；便帽",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "кепка",
+        "part_of_speech": "阴",
+        "meaning_zh": "鸭舌帽；便帽",
+        "source_page": 117,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кепка",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=117",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8568,
+      "accent": "кероси́н",
+      "part": "名词·阳性",
+      "meaning": "煤油；火油",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "керосин",
+        "part_of_speech": "阳",
+        "meaning_zh": "煤油；火油",
+        "source_page": 117,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "керосин",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=117",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8569,
+      "accent": "кива́ть",
+      "part": "动词·未完成体",
+      "meaning": "点头；点头示意",
+      "perfective": "кивну́ть",
+      "note": "完成体为点一下头。",
+      "stage": 2,
+      "original": {
+        "word": "кивать",
+        "part_of_speech": "未",
+        "meaning_zh": "点头；向某人或某物示意",
+        "source_page": 118,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кивать",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=118",
+        "核对点头示意与单次完成体。"
+      ]
+    },
+    {
+      "id": 8570,
+      "accent": "кида́ться",
+      "part": "动词·未完成体",
+      "meaning": "扑向；奔向；投向",
+      "perfective": "ки́нуться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "кидаться",
+        "part_of_speech": "完",
+        "meaning_zh": "扑向；奔向；投身于",
+        "source_page": 118,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кидаться",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=118",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8571,
+      "accent": "килогра́мм",
+      "part": "名词·阳性",
+      "meaning": "公斤；千克",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "килограмм",
+        "part_of_speech": "阳",
+        "meaning_zh": "公斤；千克",
+        "source_page": 118,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "килограмм",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=118",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8572,
+      "accent": "киломе́тр",
+      "part": "名词·阳性",
+      "meaning": "公里；千米",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "километр",
+        "part_of_speech": "阳",
+        "meaning_zh": "公里；千米",
+        "source_page": 118,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "километр",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=118",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8573,
+      "accent": "кино́",
+      "part": "名词·中性·不变格",
+      "meaning": "电影艺术；电影业；电影；影片；电影院",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "кино",
+        "part_of_speech": "中 , 不 变",
+        "meaning_zh": "电影艺术；电影业；电影；影片；电影院",
+        "source_page": 118,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кино",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF116至118页，重音、性体及中文核心义逐项检查，单次动作另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=118",
+        "核对中性不变格及三义。"
+      ]
+    }
+  ]
+}

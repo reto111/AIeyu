@@ -1,0 +1,678 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8574,
+      "accent": "кинотеа́тр",
+      "part": "名词·阳性",
+      "meaning": "电影院",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "кинотеатр",
+        "part_of_speech": "阳",
+        "meaning_zh": "电影院",
+        "source_page": 118,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кинотеатр",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=118",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8575,
+      "accent": "кипе́ть",
+      "part": "动词·未完成体",
+      "meaning": "沸腾；烧开；（情绪）涌起；热烈进行",
+      "perfective": "вскипе́ть",
+      "note": "液体自身沸腾，区别кипятить把液体煮沸；转义按语境用。",
+      "stage": 2,
+      "original": {
+        "word": "кипёть",
+        "part_of_speech": "完",
+        "meaning_zh": "沸腾；开；涌起；热烈进行",
+        "source_page": 118,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кипеть",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=118",
+        "е误识为ё，核对自动沸腾义。"
+      ]
+    },
+    {
+      "id": 8576,
+      "accent": "кипяти́ть",
+      "part": "动词·未完成体",
+      "meaning": "煮沸；烧开；在沸水中煮；煮沸消毒",
+      "perfective": "вскипяти́ть",
+      "note": "另一体主要对应煮沸的结果，不机械套在持续消毒活动上。",
+      "stage": 2,
+      "original": {
+        "word": "кипятить",
+        "part_of_speech": "未",
+        "meaning_zh": "煮沸；烧开；煮；煮沸消毒",
+        "source_page": 118,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кипятить",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=118",
+        "核对使液体沸腾及在沸水中煮。"
+      ]
+    },
+    {
+      "id": 8577,
+      "accent": "кирпи́ч",
+      "part": "名词·阳性",
+      "meaning": "砖；砖形物",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "кирпич",
+        "part_of_speech": "阳",
+        "meaning_zh": "砖；砖形物",
+        "source_page": 118,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кирпич",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=118",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8578,
+      "accent": "кислоро́д",
+      "part": "名词·阳性",
+      "meaning": "氧；氧气",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "кислород",
+        "part_of_speech": "阳",
+        "meaning_zh": "氧；氧气",
+        "source_page": 118,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кислород",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=118",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8579,
+      "accent": "ки́слый",
+      "part": "形容词",
+      "meaning": "酸的；发酸的；腌酸的；愁眉苦脸的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "кислый",
+        "part_of_speech": "形",
+        "meaning_zh": "酸的；发酸的；愁眉苦脸的",
+        "source_page": 118,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кислый",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=118",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8580,
+      "accent": "кита́ец",
+      "part": "名词·阳性",
+      "meaning": "中国人",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "китаец",
+        "part_of_speech": "阳",
+        "meaning_zh": "中国人",
+        "source_page": 119,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "китаец",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=119",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8581,
+      "accent": "Кита́й",
+      "part": "名词·阳性·专名",
+      "meaning": "中国",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "Китай",
+        "part_of_speech": "阳",
+        "meaning_zh": "中国",
+        "source_page": 119,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "Китай",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=119",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8583,
+      "accent": "класс",
+      "part": "名词·阳性",
+      "meaning": "阶级；年级；班级；教室；等级；水平",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "класс",
+        "part_of_speech": "阳",
+        "meaning_zh": "阶级；年级；班级；等级；水平",
+        "source_page": 119,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "класс",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=119",
+        "补教室义。"
+      ]
+    },
+    {
+      "id": 8584,
+      "accent": "класси́ческий",
+      "part": "形容词",
+      "meaning": "经典的；古典的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "классический",
+        "part_of_speech": "形",
+        "meaning_zh": "经典的；古典的",
+        "source_page": 119,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "классический",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=119",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8585,
+      "accent": "кла́ссовый",
+      "part": "形容词",
+      "meaning": "阶级的",
+      "perfective": "",
+      "note": "区别классный班级的。",
+      "stage": 3,
+      "original": {
+        "word": "классовый",
+        "part_of_speech": "形",
+        "meaning_zh": "阶级的",
+        "source_page": 119,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "классовый",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=119",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8586,
+      "accent": "класть",
+      "part": "动词·未完成体",
+      "meaning": "放；搁；存放；安置；添加",
+      "perfective": "положи́ть",
+      "note": "放下武器来自класть оружие；食物中加盐等属于添加义。",
+      "stage": 1,
+      "original": {
+        "word": "класть",
+        "part_of_speech": "未",
+        "meaning_zh": "放；搁；存放；安置；放下武器",
+        "source_page": 119,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "класть",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=119",
+        "放下武器是宾语搭配，补添加义。"
+      ]
+    },
+    {
+      "id": 8587,
+      "accent": "клётка",
+      "part": "名词·阴性",
+      "meaning": "笼子；格子；方格；细胞",
+      "perfective": "",
+      "note": "ё正确，不能替换为е。",
+      "stage": 1,
+      "original": {
+        "word": "клётка",
+        "part_of_speech": "阴",
+        "meaning_zh": "笼子；格子；方格；细胞",
+        "source_page": 119,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "клётка",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=119",
+        "保留正确ё。"
+      ]
+    },
+    {
+      "id": 8588,
+      "accent": "кли́мат",
+      "part": "名词·阳性",
+      "meaning": "气候；气氛；氛围",
+      "perfective": "",
+      "note": "转义见家庭或政治氛围。",
+      "stage": 2,
+      "original": {
+        "word": "климат",
+        "part_of_speech": "阳",
+        "meaning_zh": "气候",
+        "source_page": 119,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "климат",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=119",
+        "补转义气氛。"
+      ]
+    },
+    {
+      "id": 8589,
+      "accent": "клуб",
+      "part": "名词·阳性",
+      "meaning": "俱乐部；社团",
+      "perfective": "",
+      "note": "本条不混入烟团等另一词义。",
+      "stage": 1,
+      "original": {
+        "word": "клуб",
+        "part_of_speech": "阳",
+        "meaning_zh": "俱乐部；社团",
+        "source_page": 119,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "клуб",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=119",
+        "本条俱乐部义。"
+      ]
+    },
+    {
+      "id": 8590,
+      "accent": "ключ",
+      "part": "名词·阳性",
+      "meaning": "钥匙；关键；解决办法；答案",
+      "perfective": "",
+      "note": "本来源为钥匙义词条，不混入泉水的同形词。",
+      "stage": 1,
+      "original": {
+        "word": "ключ",
+        "part_of_speech": "阳",
+        "meaning_zh": "钥匙；关键；解决办法；答案",
+        "source_page": 120,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ключ",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=120",
+        "原条钥匙及关键义，不混同形泉水义。"
+      ]
+    },
+    {
+      "id": 8591,
+      "accent": "кля́сться",
+      "part": "动词·未完成体",
+      "meaning": "宣誓；发誓",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "клясться",
+        "part_of_speech": "未",
+        "meaning_zh": "宣誓；发誓",
+        "source_page": 120,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "клясться",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=120",
+        "原条未配完成体。"
+      ]
+    },
+    {
+      "id": 8592,
+      "accent": "кля́тва",
+      "part": "名词·阴性",
+      "meaning": "誓言；誓约",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "клятва",
+        "part_of_speech": "阴",
+        "meaning_zh": "誓言；誓约",
+        "source_page": 120,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "клятва",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=120",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8594,
+      "accent": "кни́жный",
+      "part": "形容词",
+      "meaning": "书的；书本的；脱离实际的；抽象的；书面语的",
+      "perfective": "",
+      "note": "书店等来自关系形容词与名词组合。",
+      "stage": 2,
+      "original": {
+        "word": "книжный",
+        "part_of_speech": null,
+        "meaning_zh": "书本的；脱离实际的；抽象的；书面的",
+        "source_page": 120,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "книжный",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=120",
+        "补书的基本关系义。"
+      ]
+    },
+    {
+      "id": 8595,
+      "accent": "ковёр",
+      "part": "名词·阳性",
+      "meaning": "地毯；壁毯",
+      "perfective": "",
+      "note": "保留ё。",
+      "stage": 1,
+      "original": {
+        "word": "ковёр",
+        "part_of_speech": "阳",
+        "meaning_zh": "地毯",
+        "source_page": 120,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ковёр",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=120",
+        "保留正确ё。"
+      ]
+    },
+    {
+      "id": 8596,
+      "accent": "когда́",
+      "part": "副词；连词",
+      "meaning": "什么时候；何时；在……时候；当……时",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "когда",
+        "part_of_speech": "副",
+        "meaning_zh": "什么时候；何时；在……时候；当……时候",
+        "source_page": 120,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "когда",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=120",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8597,
+      "accent": "когда́-нибудь",
+      "part": "副词",
+      "meaning": "将来某个时候；随便什么时候",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "когда-нибудь",
+        "part_of_speech": "副",
+        "meaning_zh": "将来某个时候；随便什么时候",
+        "source_page": 120,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "когда-нибудь",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=120",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8598,
+      "accent": "когда́-то",
+      "part": "副词",
+      "meaning": "从前某个时候；曾经；将来某个时候",
+      "perfective": "",
+      "note": "时间方向由上下文区分。",
+      "stage": 1,
+      "original": {
+        "word": "когда-то",
+        "part_of_speech": "副",
+        "meaning_zh": "从前某个时候；曾经；将来某个时候",
+        "source_page": 120,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "когда-то",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=120",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8599,
+      "accent": "ко́е-где́",
+      "part": "副词",
+      "meaning": "在某些地方；在有些地方",
+      "perfective": "",
+      "note": "где使用е，不是ё。",
+      "stage": 2,
+      "original": {
+        "word": "кое-гдё",
+        "part_of_speech": "副",
+        "meaning_zh": "在某些地方；在有些地方",
+        "source_page": 120,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кое-где",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=120",
+        "修复где的е，不使用ё。"
+      ]
+    },
+    {
+      "id": 8600,
+      "accent": "ко́е-как",
+      "part": "副词",
+      "meaning": "好不容易；勉勉强强；马马虎虎；漫不经心地",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "кое-как",
+        "part_of_speech": "副",
+        "meaning_zh": "好不容易；勉勉强强；马马虎虎",
+        "source_page": 120,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кое-как",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=120",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8601,
+      "accent": "ко́е-како́й",
+      "part": "不定代词",
+      "meaning": "一些；某些",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "кое-какой",
+        "part_of_speech": "代",
+        "meaning_zh": "一些；某些",
+        "source_page": 120,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кое-какой",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=120",
+        "逐项核对词段重音。"
+      ]
+    },
+    {
+      "id": 8602,
+      "accent": "ко́е-кто",
+      "part": "不定代词",
+      "meaning": "某些人；有些人",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "кое-кто",
+        "part_of_speech": "代",
+        "meaning_zh": "某些人；有些人",
+        "source_page": 120,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кое-кто",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=120",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8603,
+      "accent": "ко́е-что",
+      "part": "不定代词",
+      "meaning": "某些东西；一些事物",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "кое-что",
+        "part_of_speech": "代",
+        "meaning_zh": "某些东西；一些事物",
+        "source_page": 120,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кое-что",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF118至121页，е/ё局部修复，词义和同形词区别，重音及性体核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=120",
+        "data/words/tem4_russian_words.pdf#page=121",
+        "跨页核对。"
+      ]
+    }
+  ]
+}

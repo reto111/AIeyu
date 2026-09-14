@@ -1,0 +1,559 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8421,
+      "accent": "знако́миться",
+      "part": "动词·未完成体",
+      "meaning": "结识；相识；了解；熟悉",
+      "perfective": "познако́миться",
+      "note": "常接с加第五格。",
+      "stage": 1,
+      "original": {
+        "word": "знакомиться",
+        "part_of_speech": "未",
+        "meaning_zh": "结识；相识；了解；熟悉",
+        "source_page": 101,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "знакомиться",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=101",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8422,
+      "accent": "знако́мство",
+      "part": "名词·中性",
+      "meaning": "相识；交往；了解；熟悉",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "знакомство",
+        "part_of_speech": "中",
+        "meaning_zh": "相识；交往；熟悉",
+        "source_page": 101,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "знакомство",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=101",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8423,
+      "accent": "знако́мый",
+      "part": "形容词；名词化用法",
+      "meaning": "熟悉的；相识的；有所了解的；熟人",
+      "perfective": "",
+      "note": "熟人为名词化用法。",
+      "stage": 1,
+      "original": {
+        "word": "знакомый",
+        "part_of_speech": "形",
+        "meaning_zh": "熟悉的；了解的；熟人",
+        "source_page": 102,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "знакомый",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=102",
+        "形容词与名词化义区分。"
+      ]
+    },
+    {
+      "id": 8424,
+      "accent": "знамени́тый",
+      "part": "形容词",
+      "meaning": "著名的；有名的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "знаменитый",
+        "part_of_speech": "形",
+        "meaning_zh": "有名的；著名的",
+        "source_page": 102,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "знаменитый",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=102",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8425,
+      "accent": "зна́мя",
+      "part": "名词·中性",
+      "meaning": "旗帜；旗子",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "знамя",
+        "part_of_speech": "中",
+        "meaning_zh": "旗帜；旗子",
+        "source_page": 102,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "знамя",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=102",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8426,
+      "accent": "зна́ние",
+      "part": "名词·中性",
+      "meaning": "知道；了解；认识；知识",
+      "perfective": "",
+      "note": "知识常用复数знания，也可作单数概括义。",
+      "stage": 1,
+      "original": {
+        "word": "знание",
+        "part_of_speech": "中",
+        "meaning_zh": "知识；了解；认识",
+        "source_page": 102,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "знание",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=102",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8428,
+      "accent": "значе́ние",
+      "part": "名词·中性",
+      "meaning": "意义；意思；含义；重要性",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "значение",
+        "part_of_speech": "中",
+        "meaning_zh": "意义；意思；重要性",
+        "source_page": 103,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "значение",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=103",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8429,
+      "accent": "значи́тельный",
+      "part": "形容词",
+      "meaning": "重大的；重要的；可观的；相当大的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "значительный",
+        "part_of_speech": "形",
+        "meaning_zh": "重大的；重要的；可观的",
+        "source_page": 103,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "значительный",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=103",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8430,
+      "accent": "зна́чить",
+      "part": "动词·未完成体",
+      "meaning": "意味着；意思是；表明；说明",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "значить",
+        "part_of_speech": "未",
+        "meaning_zh": "意味着；意思是；表明；说明",
+        "source_page": 103,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "значить",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=103",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8431,
+      "accent": "значо́к",
+      "part": "名词·阳性",
+      "meaning": "徽章；证章；记号；符号",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "значок",
+        "part_of_speech": "阳",
+        "meaning_zh": "徽章；证章；记号；符号",
+        "source_page": 103,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "значок",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=103",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8432,
+      "accent": "зноби́ть",
+      "part": "动词·未完成体·无人称",
+      "meaning": "使感到发冷；使打寒战",
+      "perfective": "",
+      "note": "Меня знобит表示我感到发冷。",
+      "stage": 2,
+      "original": {
+        "word": "знобить",
+        "part_of_speech": "未 , 无 人 称",
+        "meaning_zh": "感到发冷；寒战",
+        "source_page": 103,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "знобить",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=103",
+        "核对无人称用法。"
+      ]
+    },
+    {
+      "id": 8433,
+      "accent": "зо́лото",
+      "part": "名词·中性",
+      "meaning": "金；黄金；金器；金首饰",
+      "perfective": "",
+      "note": "黑金等修饰词组的指代不直接列为本词意义。",
+      "stage": 1,
+      "original": {
+        "word": "золото",
+        "part_of_speech": "中",
+        "meaning_zh": "金；黄金；金器；金首饰",
+        "source_page": 103,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "золото",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=103",
+        "不混入黑金等修饰搭配的指代。"
+      ]
+    },
+    {
+      "id": 8434,
+      "accent": "золото́й",
+      "part": "形容词",
+      "meaning": "金的；金制的；金色的；昌盛的；极好的；珍贵的",
+      "perfective": "",
+      "note": "转义随搭配理解。",
+      "stage": 2,
+      "original": {
+        "word": "золотой",
+        "part_of_speech": "形",
+        "meaning_zh": "金的；金制的；金色的；极好的",
+        "source_page": 103,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "золотой",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=103",
+        "补回昌盛等转义，避免直接收入金婚等搭配。"
+      ]
+    },
+    {
+      "id": 8435,
+      "accent": "зо́нтик",
+      "part": "名词·阳性",
+      "meaning": "伞；雨伞；阳伞",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "зонтик",
+        "part_of_speech": "阳",
+        "meaning_zh": "伞；雨伞；阳伞",
+        "source_page": 103,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зонтик",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=103",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8436,
+      "accent": "зоопа́рк",
+      "part": "名词·阳性",
+      "meaning": "动物园",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "зоопарк",
+        "part_of_speech": "阳",
+        "meaning_zh": "动物园",
+        "source_page": 103,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зоопарк",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=103",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8437,
+      "accent": "зре́ние",
+      "part": "名词·中性",
+      "meaning": "视觉；视力",
+      "perfective": "",
+      "note": "поле зрения为视野，точка зрения为观点，不把词组全义混入本词。",
+      "stage": 2,
+      "original": {
+        "word": "зрение",
+        "part_of_speech": "中",
+        "meaning_zh": "视觉；视力；视野；看法",
+        "source_page": 103,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зрение",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=103",
+        "data/words/tem4_russian_words.pdf#page=104",
+        "视野、观点属于词组而非词头直接义。"
+      ]
+    },
+    {
+      "id": 8438,
+      "accent": "зри́тель",
+      "part": "名词·阳性",
+      "meaning": "观众；观看者；旁观者",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "зритель",
+        "part_of_speech": "阳",
+        "meaning_zh": "观众；观看者；旁观者",
+        "source_page": 104,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зритель",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=104",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8439,
+      "accent": "зря",
+      "part": "副词",
+      "meaning": "徒然；白白地；无缘无故地",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "зря",
+        "part_of_speech": "副",
+        "meaning_zh": "徒然；白白地；无缘无故地",
+        "source_page": 104,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зря",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=104",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8440,
+      "accent": "зуб",
+      "part": "名词·阳性",
+      "meaning": "牙；牙齿；（工具、机器上的）齿",
+      "perfective": "",
+      "note": "牙齿复数зубы；工具齿常用зубья。",
+      "stage": 1,
+      "original": {
+        "word": "зуб",
+        "part_of_speech": "阳",
+        "meaning_zh": "牙；牙齿；锯齿",
+        "source_page": 104,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зуб",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=104",
+        "牙齿与工具齿复数不同。"
+      ]
+    },
+    {
+      "id": 8441,
+      "accent": "и",
+      "part": "连词",
+      "meaning": "和；并且；而且；于是",
+      "perfective": "",
+      "note": "语境中还可承接结果或表达转折；不能机械等同于因此或然而。",
+      "stage": 1,
+      "original": {
+        "word": "и",
+        "part_of_speech": "#",
+        "meaning_zh": "和；而且；于是；因此；然而；可是",
+        "source_page": 104,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "и",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=104",
+        "核对并列、承接及语境关系。"
+      ]
+    },
+    {
+      "id": 8442,
+      "accent": "иго́лка",
+      "part": "名词·阴性",
+      "meaning": "针；唱针；针叶；刺",
+      "perfective": "",
+      "note": "松针和动物刺属于相应搭配。",
+      "stage": 1,
+      "original": {
+        "word": "иголка",
+        "part_of_speech": "阴",
+        "meaning_zh": "针；唱针；松针；刺",
+        "source_page": 104,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "иголка",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=104",
+        "核对针和针状物。"
+      ]
+    },
+    {
+      "id": 8443,
+      "accent": "игра́",
+      "part": "名词·阴性",
+      "meaning": "游戏；比赛；演奏；表演；花招",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "игра",
+        "part_of_speech": "阴",
+        "meaning_zh": "游戏；比赛；演奏；表演",
+        "source_page": 104,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "игра",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=104",
+        "补回花招义。"
+      ]
+    },
+    {
+      "id": 8444,
+      "accent": "игра́ть",
+      "part": "动词·未完成体",
+      "meaning": "玩；做游戏；参加比赛；演奏；扮演",
+      "perfective": "сыгра́ть",
+      "note": "起作用属于играть роль搭配；持续活动不机械替换完成体。",
+      "stage": 1,
+      "original": {
+        "word": "играть",
+        "part_of_speech": "Ж",
+        "meaning_zh": "玩；参加比赛；演奏；扮演；起作用",
+        "source_page": 104,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "играть",
+      "method": "2026-09-14当前助手逐词对照专四PDF101至105页的对应词条和续文；核对重音性体及核心中文，固定搭配另注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=104",
+        "data/words/tem4_russian_words.pdf#page=105",
+        "核对跨页扮演与角色搭配。"
+      ]
+    }
+  ]
+}

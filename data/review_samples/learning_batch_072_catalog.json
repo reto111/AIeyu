@@ -1,0 +1,534 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8500,
+      "accent": "информа́ция",
+      "part": "名词·阴性",
+      "meaning": "信息；消息；通报；报道；资料",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "информация",
+        "part_of_speech": "阴",
+        "meaning_zh": "信息；消息；资料",
+        "source_page": 111,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "информация",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF111至113页，核对核心义、性体、重音及跨页；补漏不混入固定词组全义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=111",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8501,
+      "accent": "исключа́ть",
+      "part": "动词·未完成体",
+      "meaning": "除去；取消；开除；排除",
+      "perfective": "исключи́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "исключать",
+        "part_of_speech": "未",
+        "meaning_zh": "除去；取消；开除；排除",
+        "source_page": 111,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "исключать",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF111至113页，核对核心义、性体、重音及跨页；补漏不混入固定词组全义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=111",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8502,
+      "accent": "иску́сственный",
+      "part": "形容词",
+      "meaning": "人工的；人造的；假装的；矫揉造作的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "искусственный",
+        "part_of_speech": "形",
+        "meaning_zh": "人工的；人造的；假装的",
+        "source_page": 111,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "искусственный",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF111至113页，核对核心义、性体、重音及跨页；补漏不混入固定词组全义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=111",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8503,
+      "accent": "иску́сство",
+      "part": "名词·中性",
+      "meaning": "艺术；技艺；技能；技巧",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "искусство",
+        "part_of_speech": "中",
+        "meaning_zh": "艺术；技艺；技能",
+        "source_page": 111,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "искусство",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF111至113页，核对核心义、性体、重音及跨页；补漏不混入固定词组全义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=111",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8504,
+      "accent": "исполня́ть",
+      "part": "动词·未完成体",
+      "meaning": "履行；执行；实现；表演；演奏；朗诵；扮演",
+      "perfective": "испо́лнить",
+      "note": "表演等义按作品或角色宾语区分。",
+      "stage": 2,
+      "original": {
+        "word": "исполнять",
+        "part_of_speech": "未",
+        "meaning_zh": "履行；执行；实现；朗诵；扮演",
+        "source_page": 111,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "исполнять",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF111至113页，核对核心义、性体、重音及跨页；补漏不混入固定词组全义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=111",
+        "补回表演和演奏义。"
+      ]
+    },
+    {
+      "id": 8505,
+      "accent": "исполня́ться",
+      "part": "动词·未完成体",
+      "meaning": "实现；满（岁数或年数）",
+      "perfective": "испо́лниться",
+      "note": "年龄常用кому исполнилось加岁数。",
+      "stage": 2,
+      "original": {
+        "word": "исполняться",
+        "part_of_speech": "未",
+        "meaning_zh": "实现；满（岁）",
+        "source_page": 111,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "исполняться",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF111至113页，核对核心义、性体、重音及跨页；补漏不混入固定词组全义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=111",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8506,
+      "accent": "испо́льзовать",
+      "part": "动词·兼体",
+      "meaning": "利用；使用",
+      "perfective": "",
+      "note": "本词可作未完成体或完成体，依语境判断。",
+      "stage": 1,
+      "original": {
+        "word": "использовать",
+        "part_of_speech": "未 , 完",
+        "meaning_zh": "利用；使用",
+        "source_page": 111,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "использовать",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF111至113页，核对核心义、性体、重音及跨页；补漏不混入固定词组全义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=111",
+        "原书明确兼体，不造另一个体。"
+      ]
+    },
+    {
+      "id": 8507,
+      "accent": "исправля́ть",
+      "part": "动词·未完成体",
+      "meaning": "修理；改正；纠正；改善；改造",
+      "perfective": "испра́вить",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "исправлять",
+        "part_of_speech": "完",
+        "meaning_zh": "改正；修理；纠正",
+        "source_page": 111,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "исправлять",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF111至113页，核对核心义、性体、重音及跨页；补漏不混入固定词组全义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=111",
+        "data/words/tem4_russian_words.pdf#page=112",
+        "跨页核对改造、改善义。"
+      ]
+    },
+    {
+      "id": 8508,
+      "accent": "испыта́ние",
+      "part": "名词·中性",
+      "meaning": "检验；试验；考验",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "испытание",
+        "part_of_speech": "中",
+        "meaning_zh": "试验；考验",
+        "source_page": 112,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "испытание",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF111至113页，核对核心义、性体、重音及跨页；补漏不混入固定词组全义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=112",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8509,
+      "accent": "испы́тывать",
+      "part": "动词·未完成体",
+      "meaning": "检验；试验；体验；经受；感受",
+      "perfective": "испыта́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "испытывать",
+        "part_of_speech": "未",
+        "meaning_zh": "试验；体验；经受；感受",
+        "source_page": 112,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "испытывать",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF111至113页，核对核心义、性体、重音及跨页；补漏不混入固定词组全义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=112",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8510,
+      "accent": "иссле́дование",
+      "part": "名词·中性",
+      "meaning": "研究；调查",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "исследование",
+        "part_of_speech": "中",
+        "meaning_zh": "研究；调查",
+        "source_page": 112,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "исследование",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF111至113页，核对核心义、性体、重音及跨页；补漏不混入固定词组全义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=112",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8511,
+      "accent": "и́стина",
+      "part": "名词·阴性",
+      "meaning": "真理；真相；真实情况；真实性",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "истина",
+        "part_of_speech": "阮",
+        "meaning_zh": "真理；真相；真实性",
+        "source_page": 112,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "истина",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF111至113页，核对核心义、性体、重音及跨页；补漏不混入固定词组全义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=112",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8512,
+      "accent": "истори́ческий",
+      "part": "形容词",
+      "meaning": "历史的；具有历史意义的；历史上实际发生的；历史题材的；历史主义的",
+      "perfective": "",
+      "note": "按搭配选择译义。",
+      "stage": 2,
+      "original": {
+        "word": "исторический",
+        "part_of_speech": "形",
+        "meaning_zh": "历史的；具有历史意义的；历史上实际发生的；历史题材的；历史主义的",
+        "source_page": 112,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "исторический",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF111至113页，核对核心义、性体、重音及跨页；补漏不混入固定词组全义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=112",
+        "核对五组语境义。"
+      ]
+    },
+    {
+      "id": 8513,
+      "accent": "исто́рия",
+      "part": "名词·阴性",
+      "meaning": "历史；历史学；经历；故事；事情；事件",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "история",
+        "part_of_speech": "阴",
+        "meaning_zh": "历史；经历；故事；事情",
+        "source_page": 112,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "история",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF111至113页，核对核心义、性体、重音及跨页；补漏不混入固定词组全义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=112",
+        "补历史学义。"
+      ]
+    },
+    {
+      "id": 8514,
+      "accent": "исто́чник",
+      "part": "名词·阳性",
+      "meaning": "泉；泉水；来源；源泉；根源",
+      "perfective": "",
+      "note": "原页先列泉水义，不能遗漏。",
+      "stage": 2,
+      "original": {
+        "word": "источник",
+        "part_of_speech": "阳",
+        "meaning_zh": "来源；源泉；根源",
+        "source_page": 112,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "источник",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF111至113页，核对核心义、性体、重音及跨页；补漏不混入固定词组全义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=112",
+        "补原页泉、泉水义。"
+      ]
+    },
+    {
+      "id": 8515,
+      "accent": "исчеза́ть",
+      "part": "动词·未完成体",
+      "meaning": "消失；失踪",
+      "perfective": "исче́знуть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "исчезать",
+        "part_of_speech": "未",
+        "meaning_zh": "消失；失踪",
+        "source_page": 112,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "исчезать",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF111至113页，核对核心义、性体、重音及跨页；补漏不混入固定词组全义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=112",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8516,
+      "accent": "ито́г",
+      "part": "名词·阳性",
+      "meaning": "总数；总计；结果；总结",
+      "perfective": "",
+      "note": "в итоге表示结果、最后，最后不是名词单独义。",
+      "stage": 2,
+      "original": {
+        "word": "итог",
+        "part_of_speech": "阳",
+        "meaning_zh": "结果；总计；总结；最后",
+        "source_page": 113,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "итог",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF111至113页，核对核心义、性体、重音及跨页；补漏不混入固定词组全义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=113",
+        "最后来自в итоге，不直接并入名词。"
+      ]
+    },
+    {
+      "id": 8517,
+      "accent": "ию́ль",
+      "part": "名词·阳性",
+      "meaning": "七月",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "июль",
+        "part_of_speech": "阳",
+        "meaning_zh": "七月",
+        "source_page": 113,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "июль",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF111至113页，核对核心义、性体、重音及跨页；补漏不混入固定词组全义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=113",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8518,
+      "accent": "ию́нь",
+      "part": "名词·阳性",
+      "meaning": "六月",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "июнь",
+        "part_of_speech": "阳",
+        "meaning_zh": "六月",
+        "source_page": 113,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "июнь",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF111至113页，核对核心义、性体、重音及跨页；补漏不混入固定词组全义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=113",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8519,
+      "accent": "кабине́т",
+      "part": "名词·阳性",
+      "meaning": "办公室；书房；专门教室；研究室",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "кабинет",
+        "part_of_speech": "阳",
+        "meaning_zh": "办公室；书房；专门教室；研究室",
+        "source_page": 113,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кабинет",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF111至113页，核对核心义、性体、重音及跨页；补漏不混入固定词组全义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=113",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8520,
+      "accent": "ка́дры",
+      "part": "名词·复数",
+      "meaning": "干部；人员；人才",
+      "perfective": "",
+      "note": "отдел кадров为人事部门；不与电影镜头、帧的同形复数混合。",
+      "stage": 2,
+      "original": {
+        "word": "кадры",
+        "part_of_speech": "复",
+        "meaning_zh": "干部；人员；人事；人才",
+        "source_page": 113,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кадры",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF111至113页，核对核心义、性体、重音及跨页；补漏不混入固定词组全义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=113",
+        "人员义复数，不混电影帧。"
+      ]
+    },
+    {
+      "id": 8521,
+      "accent": "ка́ждый",
+      "part": "代词性形容词；名词化用法",
+      "meaning": "每；每一个；每个人",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "каждый",
+        "part_of_speech": "形",
+        "meaning_zh": "每；每一个；每个",
+        "source_page": 113,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "каждый",
+      "method": "2026-09-14当前助手逐词视觉对照专四PDF111至113页，核对核心义、性体、重音及跨页；补漏不混入固定词组全义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=113",
+        "核对形容词性代词与名词化用法。"
+      ]
+    }
+  ]
+}

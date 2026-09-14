@@ -1,0 +1,606 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8445,
+      "accent": "игру́шка",
+      "part": "名词·阴性",
+      "meaning": "玩具",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "игрушка",
+        "part_of_speech": "阴",
+        "meaning_zh": "玩具",
+        "source_page": 105,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "игрушка",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=105",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8446,
+      "accent": "идеа́л",
+      "part": "名词·阳性",
+      "meaning": "理想；典范；理想中的人或事物",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "идеал",
+        "part_of_speech": "阳",
+        "meaning_zh": "理想；典范；理想中的人或物",
+        "source_page": 105,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "идеал",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=105",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8447,
+      "accent": "иде́йный",
+      "part": "形容词",
+      "meaning": "思想上的；有思想性的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "идейный",
+        "part_of_speech": "形",
+        "meaning_zh": "思想的；有思想性的",
+        "source_page": 105,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "идейный",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=105",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8448,
+      "accent": "идеоло́гия",
+      "part": "名词·阴性",
+      "meaning": "思想体系；意识形态",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "идеология",
+        "part_of_speech": null,
+        "meaning_zh": "思想；思想体系；意识形态",
+        "source_page": 105,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "идеология",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=105",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8451,
+      "accent": "из",
+      "part": "前置词",
+      "meaning": "从……里；来自；……中的；用……制成；出于；由于",
+      "perfective": "",
+      "note": "接第二格；演变成为由из加名词与动词等共同表达，不作介词单独义。",
+      "stage": 1,
+      "original": {
+        "word": "из",
+        "part_of_speech": "前",
+        "meaning_zh": "从……里；由……；在……之中；用……制成；由于；演变成为",
+        "source_page": 105,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "из",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=105",
+        "介词支配第二格，演变成须由完整句式表达。"
+      ]
+    },
+    {
+      "id": 8452,
+      "accent": "изба́",
+      "part": "名词·阴性",
+      "meaning": "农家小木屋；农舍",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "изба",
+        "part_of_speech": "阴",
+        "meaning_zh": "农家小木屋；农舍",
+        "source_page": 105,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "изба",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=105",
+        "data/words/tem4_russian_words.pdf#page=106",
+        "核对跨页，不混入阅览室搭配。"
+      ]
+    },
+    {
+      "id": 8453,
+      "accent": "избега́ть",
+      "part": "动词·未完成体",
+      "meaning": "避免；回避；躲避；免遭",
+      "perfective": "избежа́ть",
+      "note": "通常接第二格。",
+      "stage": 2,
+      "original": {
+        "word": "избегать",
+        "part_of_speech": "未",
+        "meaning_zh": "摆脱；免除；回避；躲避；避免",
+        "source_page": 106,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "избегать",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=106",
+        "核对避免义及完成体。"
+      ]
+    },
+    {
+      "id": 8454,
+      "accent": "избира́ть",
+      "part": "动词·未完成体",
+      "meaning": "选择；挑选；选举",
+      "perfective": "избра́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "избирать",
+        "part_of_speech": "未",
+        "meaning_zh": "选择；挑选；选举",
+        "source_page": 106,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "избирать",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=106",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8455,
+      "accent": "изве́стие",
+      "part": "名词·中性",
+      "meaning": "消息；音信；新闻；通报",
+      "perfective": "",
+      "note": "通报可用于复数刊物名称。",
+      "stage": 2,
+      "original": {
+        "word": "известие",
+        "part_of_speech": "中",
+        "meaning_zh": "消息；新闻；通报",
+        "source_page": 106,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "известие",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=106",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8456,
+      "accent": "изве́стно",
+      "part": "谓语词；插入语用法",
+      "meaning": "已知；为人所知；当然",
+      "perfective": "",
+      "note": "как известно才是众所周知的常用搭配；修复е误识为ё。",
+      "stage": 1,
+      "original": {
+        "word": "извёстно",
+        "part_of_speech": null,
+        "meaning_zh": "众所周知；已知；显然",
+        "source_page": 106,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "известно",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=106",
+        "原词为известно，е不是ё；区分谓语和插入语。"
+      ]
+    },
+    {
+      "id": 8457,
+      "accent": "извине́ние",
+      "part": "名词·中性",
+      "meaning": "道歉；请求原谅",
+      "perfective": "",
+      "note": "本来源指请求对方原谅，不反译为宽恕别人。",
+      "stage": 1,
+      "original": {
+        "word": "извинение",
+        "part_of_speech": "中",
+        "meaning_zh": "原谅；道歉；请求谅解",
+        "source_page": 106,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "извинение",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=106",
+        "核对请求原谅和道歉，不反转为给予原谅。"
+      ]
+    },
+    {
+      "id": 8458,
+      "accent": "извиня́ть",
+      "part": "动词·未完成体",
+      "meaning": "原谅；宽恕",
+      "perfective": "извини́ть",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "извинять",
+        "part_of_speech": "未",
+        "meaning_zh": "原谅；宽恕",
+        "source_page": 106,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "извинять",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=106",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8459,
+      "accent": "извиня́ться",
+      "part": "动词·未完成体",
+      "meaning": "道歉；请求原谅",
+      "perfective": "извини́ться",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "извиняться",
+        "part_of_speech": "未",
+        "meaning_zh": "请求原谅；道歉",
+        "source_page": 106,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "извиняться",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=106",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8460,
+      "accent": "издава́ть",
+      "part": "动词·未完成体",
+      "meaning": "出版；发行；颁布；公布",
+      "perfective": "изда́ть",
+      "note": "本来源列出版及颁布义。",
+      "stage": 2,
+      "original": {
+        "word": "издавать",
+        "part_of_speech": "未",
+        "meaning_zh": "出版；发行；颁布",
+        "source_page": 106,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "издавать",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=106",
+        "核对出版和颁布义。"
+      ]
+    },
+    {
+      "id": 8461,
+      "accent": "издалека́",
+      "part": "副词",
+      "meaning": "从远处；远远地",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "издалека",
+        "part_of_speech": "副",
+        "meaning_zh": "从远处；远远地",
+        "source_page": 106,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "издалека",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=106",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8462,
+      "accent": "и́здали",
+      "part": "副词",
+      "meaning": "从远处；远远地",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "издали",
+        "part_of_speech": "副",
+        "meaning_zh": "从远处；自远处",
+        "source_page": 106,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "издали",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=106",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8463,
+      "accent": "изда́ние",
+      "part": "名词·中性",
+      "meaning": "出版；颁布；出版物；刊物；版本；版次",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "издание",
+        "part_of_speech": "中",
+        "meaning_zh": "出版；版本；出版物",
+        "source_page": 107,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "издание",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=107",
+        "核对出版物、版次等义。"
+      ]
+    },
+    {
+      "id": 8464,
+      "accent": "изда́тельство",
+      "part": "名词·中性",
+      "meaning": "出版社；出版机构",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "издательство",
+        "part_of_speech": "中",
+        "meaning_zh": "出版社；出版机构",
+        "source_page": 107,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "издательство",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=107",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8465,
+      "accent": "из-за",
+      "part": "前置词",
+      "meaning": "从……后面；从……那边；从……旁边；由于；因为",
+      "perfective": "",
+      "note": "接第二格；如встать из-за стола为从桌旁起身。",
+      "stage": 1,
+      "original": {
+        "word": "из-за",
+        "part_of_speech": "前",
+        "meaning_zh": "从……后面；由于；因为",
+        "source_page": 107,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "из-за",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=107",
+        "核对位置和原因义。"
+      ]
+    },
+    {
+      "id": 8466,
+      "accent": "изложе́ние",
+      "part": "名词·中性",
+      "meaning": "叙述；讲述；书面转述",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "изложение",
+        "part_of_speech": "中",
+        "meaning_zh": "叙述；讲述；书面转述",
+        "source_page": 107,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "изложение",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=107",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8467,
+      "accent": "измене́ние",
+      "part": "名词·中性",
+      "meaning": "改变；变化；变动；修改",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "изменение",
+        "part_of_speech": "中",
+        "meaning_zh": "改变；变化；变动；修改",
+        "source_page": 107,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "изменение",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=107",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8468,
+      "accent": "изменя́ть",
+      "part": "动词·未完成体",
+      "meaning": "改变；更改；背叛；违背",
+      "perfective": "измени́ть",
+      "note": "改变某物接第四格；背叛某人或原则接第三格。",
+      "stage": 2,
+      "original": {
+        "word": "изменять",
+        "part_of_speech": "未",
+        "meaning_zh": "更改；改变；背叛；违背",
+        "source_page": 107,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "изменять",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=107",
+        "改变接第四格；背叛接第三格。"
+      ]
+    },
+    {
+      "id": 8469,
+      "accent": "изменя́ться",
+      "part": "动词·未完成体",
+      "meaning": "改变；发生变化",
+      "perfective": "измени́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "изменяться",
+        "part_of_speech": "未",
+        "meaning_zh": "改变；发生变化",
+        "source_page": 107,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "изменяться",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=107",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8470,
+      "accent": "измеря́ть",
+      "part": "动词·未完成体",
+      "meaning": "测量；衡量",
+      "perfective": "изме́рить",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "измерять",
+        "part_of_speech": "未",
+        "meaning_zh": "测量；衡量",
+        "source_page": 107,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "измерять",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=107",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8471,
+      "accent": "изнутри́",
+      "part": "副词",
+      "meaning": "从里面；从内部；在内部",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "изнутри",
+        "part_of_speech": "副",
+        "meaning_zh": "从里面；从内部",
+        "source_page": 107,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "изнутри",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF105至107页，修复е/ё误识，区分介词语境、词性及动词义项支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=107",
+        "逐项核对。"
+      ]
+    }
+  ]
+}

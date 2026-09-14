@@ -1,0 +1,725 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8390,
+      "accent": "за́яц",
+      "part": "名词·阳性",
+      "meaning": "野兔；兔子",
+      "perfective": "",
+      "note": "胆小如兔来自трусливый как заяц的比喻；ехать зайцем指逃票乘车。",
+      "stage": 1,
+      "original": {
+        "word": "заяц",
+        "part_of_speech": "阳",
+        "meaning_zh": "兔子；胆小的人",
+        "source_page": 99,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заяц",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=99",
+        "兔义与比喻、逃票搭配分开。"
+      ]
+    },
+    {
+      "id": 8391,
+      "accent": "зва́ние",
+      "part": "名词·中性",
+      "meaning": "称号；职称；军衔",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "звание",
+        "part_of_speech": "中",
+        "meaning_zh": "称号；职称",
+        "source_page": 99,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "звание",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=99",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8392,
+      "accent": "звать",
+      "part": "动词·未完成体",
+      "meaning": "叫；呼唤；招呼；邀请；称呼",
+      "perfective": "позва́ть",
+      "note": "позвать对应呼唤、邀请；Как его зовут中的名字称呼义不这样替换。",
+      "stage": 1,
+      "original": {
+        "word": "звать",
+        "part_of_speech": "未",
+        "meaning_zh": "叫；呼唤；招呼；邀请",
+        "source_page": 99,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "звать",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=99",
+        "称呼义不强配позвать。"
+      ]
+    },
+    {
+      "id": 8393,
+      "accent": "звене́ть",
+      "part": "动词·未完成体",
+      "meaning": "发出清脆的声音；叮当作响",
+      "perfective": "прозвене́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "звенеть",
+        "part_of_speech": "Ж",
+        "meaning_zh": "发出清脆声音；叮当作响",
+        "source_page": 99,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "звенеть",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=99",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8394,
+      "accent": "зверь",
+      "part": "名词·阳性",
+      "meaning": "野兽；兽类",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "зверь",
+        "part_of_speech": "阳",
+        "meaning_zh": "野兽；兽类",
+        "source_page": 99,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зверь",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=99",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8395,
+      "accent": "звони́ть",
+      "part": "动词·未完成体",
+      "meaning": "打铃；按铃；打电话；铃响",
+      "perfective": "позвони́ть",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "звонить",
+        "part_of_speech": "未",
+        "meaning_zh": "打铃；按铃；打电话",
+        "source_page": 99,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "звонить",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=99",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8396,
+      "accent": "зво́нкий",
+      "part": "形容词",
+      "meaning": "响亮的；清脆的；洪亮的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "звонкий",
+        "part_of_speech": "形",
+        "meaning_zh": "响亮的；清脆的；洪亮的",
+        "source_page": 99,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "звонкий",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=99",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8397,
+      "accent": "звук",
+      "part": "名词·阳性",
+      "meaning": "声音；声响",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "звук",
+        "part_of_speech": "阳",
+        "meaning_zh": "声音；声响",
+        "source_page": 99,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "звук",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=99",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8398,
+      "accent": "звукоза́пись",
+      "part": "名词·阴性",
+      "meaning": "录音；录音材料",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "звукозапись",
+        "part_of_speech": "阴",
+        "meaning_zh": "录音；录音材料",
+        "source_page": 99,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "звукозапись",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=99",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8399,
+      "accent": "звуча́ть",
+      "part": "动词·未完成体",
+      "meaning": "发出声音；响起；听起来；（声音中）含有某种意味",
+      "perfective": "прозвуча́ть",
+      "note": "另一体主要对应发声这一有界事件。",
+      "stage": 2,
+      "original": {
+        "word": "звучать",
+        "part_of_speech": "未",
+        "meaning_zh": "发出声音；听起来；含有某种意味",
+        "source_page": 99,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "звучать",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=99",
+        "声音中含有意味义核对。"
+      ]
+    },
+    {
+      "id": 8400,
+      "accent": "зда́ние",
+      "part": "名词·中性",
+      "meaning": "建筑物；大楼",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "здание",
+        "part_of_speech": "中",
+        "meaning_zh": "建筑物；大楼",
+        "source_page": 99,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "здание",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=99",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8401,
+      "accent": "здоро́ваться",
+      "part": "动词·未完成体",
+      "meaning": "问好；打招呼",
+      "perfective": "поздоро́ваться",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "здороваться",
+        "part_of_speech": "未",
+        "meaning_zh": "问好；打招呼",
+        "source_page": 100,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "здороваться",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=100",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8402,
+      "accent": "здо́рово",
+      "part": "副词·口语",
+      "meaning": "很好；很棒；非常；痛快地",
+      "perfective": "",
+      "note": "本条重音在首音节；不混入问候语здоро́во。",
+      "stage": 1,
+      "original": {
+        "word": "здорово",
+        "part_of_speech": "副",
+        "meaning_zh": "极好；非常；痛快地",
+        "source_page": 100,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "здорово",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=100",
+        "本条重音首音节，不混问候语。"
+      ]
+    },
+    {
+      "id": 8403,
+      "accent": "здоро́вый",
+      "part": "形容词；名词化用法",
+      "meaning": "健康的；健全的；正确合理的；健康的人",
+      "perfective": "",
+      "note": "健康的人为名词化用法。",
+      "stage": 1,
+      "original": {
+        "word": "здоровый",
+        "part_of_speech": "形",
+        "meaning_zh": "健康的；健全的；合理的；健康的人",
+        "source_page": 100,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "здоровый",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=100",
+        "核对名词化用法。"
+      ]
+    },
+    {
+      "id": 8404,
+      "accent": "здоро́вье",
+      "part": "名词·中性",
+      "meaning": "健康；身体状况",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "здоровье",
+        "part_of_speech": "中",
+        "meaning_zh": "健康；身体状况",
+        "source_page": 100,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "здоровье",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=100",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8405,
+      "accent": "здра́вствовать",
+      "part": "动词·未完成体",
+      "meaning": "身体健康；健在",
+      "perfective": "",
+      "note": "здравствуй(те)用于问好；да здравствует用于祝愿万岁，不把二者当作不定式的直接译义。",
+      "stage": 2,
+      "original": {
+        "word": "здравствовать",
+        "part_of_speech": "未",
+        "meaning_zh": "健康；健在；你好；万岁",
+        "source_page": 100,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "здравствовать",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=100",
+        "你好、万岁仅对应特定形式搭配。"
+      ]
+    },
+    {
+      "id": 8406,
+      "accent": "зелене́ть",
+      "part": "动词·未完成体",
+      "meaning": "变绿；泛绿；呈现绿色",
+      "perfective": "позелене́ть",
+      "note": "完成体对应变绿；本词不直接等于发芽。",
+      "stage": 2,
+      "original": {
+        "word": "зеленеть",
+        "part_of_speech": "未",
+        "meaning_zh": "发芽；变绿",
+        "source_page": 100,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зеленеть",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=100",
+        "纠正发芽泛化，核心变绿。"
+      ]
+    },
+    {
+      "id": 8408,
+      "accent": "землетрясе́ние",
+      "part": "名词·中性",
+      "meaning": "地震",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "землетрясение",
+        "part_of_speech": "中",
+        "meaning_zh": "地震",
+        "source_page": 100,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "землетрясение",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=100",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8409,
+      "accent": "земля́",
+      "part": "名词·阴性",
+      "meaning": "地球；陆地；田地；土地；泥土；地面；国土",
+      "perfective": "",
+      "note": "指行星地球时常写Земля。",
+      "stage": 1,
+      "original": {
+        "word": "земля",
+        "part_of_speech": "阴",
+        "meaning_zh": "地球；陆地；田地；土地；泥土；地面；国土",
+        "source_page": 100,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "земля",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=100",
+        "核对六组义项。"
+      ]
+    },
+    {
+      "id": 8410,
+      "accent": "земля́к",
+      "part": "名词·阳性",
+      "meaning": "同乡；老乡",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "земляк",
+        "part_of_speech": "阳",
+        "meaning_zh": "同乡",
+        "source_page": 100,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "земляк",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=100",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8411,
+      "accent": "зе́ркало",
+      "part": "名词·中性",
+      "meaning": "镜子",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "зеркало",
+        "part_of_speech": "中",
+        "meaning_zh": "镜子；镜面",
+        "source_page": 101,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зеркало",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=101",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8412,
+      "accent": "зерно́",
+      "part": "名词·中性",
+      "meaning": "谷粒；种子；谷物",
+      "perfective": "",
+      "note": "谷物可作集合义。",
+      "stage": 2,
+      "original": {
+        "word": "зерно",
+        "part_of_speech": "中",
+        "meaning_zh": "谷粒；种子；谷物",
+        "source_page": 101,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зерно",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=101",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8413,
+      "accent": "зима́",
+      "part": "名词·阴性",
+      "meaning": "冬天；冬季",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "зима",
+        "part_of_speech": "阴",
+        "meaning_zh": "冬天；冬季",
+        "source_page": 101,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зима",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=101",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8414,
+      "accent": "зи́мний",
+      "part": "形容词",
+      "meaning": "冬季的；冬天的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "зимний",
+        "part_of_speech": null,
+        "meaning_zh": "冬季的；冬天的",
+        "source_page": 101,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зимний",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=101",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8415,
+      "accent": "зимо́й",
+      "part": "副词",
+      "meaning": "在冬天",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "зимой",
+        "part_of_speech": "№\\",
+        "meaning_zh": "在冬天；冬季",
+        "source_page": 101,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зимой",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=101",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8416,
+      "accent": "зли́ться",
+      "part": "动词·未完成体",
+      "meaning": "生气；发怒",
+      "perfective": "",
+      "note": "不强配起始或结果意义不同的动词。",
+      "stage": 1,
+      "original": {
+        "word": "злиться",
+        "part_of_speech": "未",
+        "meaning_zh": "生气；发怒",
+        "source_page": 101,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "злиться",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=101",
+        "原页未配完成体，不强造。"
+      ]
+    },
+    {
+      "id": 8417,
+      "accent": "зло",
+      "part": "名词·中性",
+      "meaning": "恶；坏事；灾难；不幸",
+      "perfective": "",
+      "note": "本条名词义，不混入副词凶恶地。",
+      "stage": 2,
+      "original": {
+        "word": "зло",
+        "part_of_speech": "中",
+        "meaning_zh": "恶；恶事；灾难；不幸",
+        "source_page": 101,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "зло",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=101",
+        "本条为中性名词而非副词。"
+      ]
+    },
+    {
+      "id": 8418,
+      "accent": "злой",
+      "part": "形容词",
+      "meaning": "凶恶的；恶毒的；坏的；可恶的；生气的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "злой",
+        "part_of_speech": "形",
+        "meaning_zh": "凶恶的；坏的；可恶的",
+        "source_page": 101,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "злой",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=101",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8419,
+      "accent": "знак",
+      "part": "名词·阳性",
+      "meaning": "记号；标记；符号；征兆；信号；示意",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "знак",
+        "part_of_speech": "阳",
+        "meaning_zh": "记号；标记；征兆；符号；信号",
+        "source_page": 101,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "знак",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=101",
+        "核对记号、征兆、示意义。"
+      ]
+    },
+    {
+      "id": 8420,
+      "accent": "знако́мить",
+      "part": "动词·未完成体",
+      "meaning": "使认识；介绍；使了解；使熟悉",
+      "perfective": "познако́мить",
+      "note": "使了解还可用ознако́мить；另一体按具体意义选用。",
+      "stage": 1,
+      "original": {
+        "word": "знакомить",
+        "part_of_speech": "未",
+        "meaning_zh": "使认识；介绍；使了解",
+        "source_page": 101,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "знакомить",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF99至101页；重音、词性、中文核心义及另一体分义审核，未宣称全量词典核验。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=101",
+        "两个完成体按使相识及使了解区分。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,633 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8522,
+      "accent": "каза́ться",
+      "part": "动词·未完成体",
+      "meaning": "看起来；好像；似乎；觉得",
+      "perfective": "показа́ться",
+      "note": "作插入语кажется时常译似乎。",
+      "stage": 1,
+      "original": {
+        "word": "казаться",
+        "part_of_speech": "未",
+        "meaning_zh": "看起来；好像；似乎；觉得",
+        "source_page": 113,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "казаться",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=113",
+        "data/words/tem4_russian_words.pdf#page=114",
+        "核对跨页插入语用法。"
+      ]
+    },
+    {
+      "id": 8523,
+      "accent": "казни́ть",
+      "part": "动词·兼体",
+      "meaning": "处决；处以死刑",
+      "perfective": "",
+      "note": "不等同于只作出死刑判决；教材明确可有完成与未完成两种体意义。",
+      "stage": 3,
+      "original": {
+        "word": "казнить",
+        "part_of_speech": "未",
+        "meaning_zh": "处决；判处死刑",
+        "source_page": 114,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "казнить",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=114",
+        "https://nvsu.ru/ru/Intellekt/2280/Karpov_Morfologiya_UP.pdf",
+        "检索返回教材明确列为双体动词；原书仅列未完成体，不作为全体用法。"
+      ]
+    },
+    {
+      "id": 8524,
+      "accent": "как",
+      "part": "副词；连词",
+      "meaning": "怎样；如何；多么；像；如同；作为；当……时",
+      "perfective": "",
+      "note": "随问句、比较、身份或时间从句分辨。",
+      "stage": 1,
+      "original": {
+        "word": "как",
+        "part_of_speech": "副",
+        "meaning_zh": "怎样；如何；怎么样；多么；在多大程度上；多少；像；如同",
+        "source_page": 114,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "как",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=114",
+        "核对副词、连词各义。"
+      ]
+    },
+    {
+      "id": 8525,
+      "accent": "кака́о",
+      "part": "名词·中性·不变格",
+      "meaning": "可可粉；可可饮料",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "какао",
+        "part_of_speech": "中 , 不 变",
+        "meaning_zh": "可可；可可饮料",
+        "source_page": 114,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "какао",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=114",
+        "核对中性不变格。"
+      ]
+    },
+    {
+      "id": 8526,
+      "accent": "как-нибудь",
+      "part": "副词",
+      "meaning": "用某种办法；想方设法；随便地；马马虎虎地",
+      "perfective": "",
+      "note": "本来源两组义，不机械理解为做事都马虎。",
+      "stage": 2,
+      "original": {
+        "word": "как-нибудь",
+        "part_of_speech": "副",
+        "meaning_zh": "不管怎样；想方设法；随便地；马马虎虎地",
+        "source_page": 114,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "как-нибудь",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=114",
+        "核对原书两组义。"
+      ]
+    },
+    {
+      "id": 8527,
+      "accent": "како́й",
+      "part": "代词性形容词",
+      "meaning": "什么样的；怎样的；哪个；多么……",
+      "perfective": "",
+      "note": "疑问、关系或感叹用法随句子判断。",
+      "stage": 1,
+      "original": {
+        "word": "какой",
+        "part_of_speech": "代",
+        "meaning_zh": "什么样的；怎样的；多么……",
+        "source_page": 114,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "какой",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=114",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8528,
+      "accent": "како́й-либо",
+      "part": "不定代词",
+      "meaning": "某种；任何一种；随便什么样的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "какой-либо",
+        "part_of_speech": "代",
+        "meaning_zh": "任何一种；随便什么样的",
+        "source_page": 114,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "какой-либо",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=114",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8529,
+      "accent": "како́й-нибудь",
+      "part": "不定代词",
+      "meaning": "随便某个；任何一个；随便什么样的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "какой-нибудь",
+        "part_of_speech": "代",
+        "meaning_zh": "随便什么样的；任何的",
+        "source_page": 114,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "какой-нибудь",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=114",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8530,
+      "accent": "како́й-то",
+      "part": "不定代词",
+      "meaning": "某一个；某种；不知什么样的",
+      "perfective": "",
+      "note": "可带不确定、近似或说不清的语气，不直接当副词似乎使用。",
+      "stage": 1,
+      "original": {
+        "word": "какой-то",
+        "part_of_speech": "代",
+        "meaning_zh": "某一个；不知什么样的；似乎；有点像",
+        "source_page": 114,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "какой-то",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=114",
+        "不直接用副词似乎代替形容词性代词。"
+      ]
+    },
+    {
+      "id": 8531,
+      "accent": "как-то",
+      "part": "副词",
+      "meaning": "以某种方式；设法；不知怎样；有点；有一次",
+      "perfective": "",
+      "note": "原来源为带连字符的副词。",
+      "stage": 2,
+      "original": {
+        "word": "как-то",
+        "part_of_speech": "副",
+        "meaning_zh": "以某种方式；设法；不知怎样；有点；有一次",
+        "source_page": 114,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "как-то",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=114",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8532,
+      "accent": "календа́рь",
+      "part": "名词·阳性",
+      "meaning": "历法；日历；日程表",
+      "perfective": "",
+      "note": "календарь занятий可指课程安排。",
+      "stage": 1,
+      "original": {
+        "word": "календарь",
+        "part_of_speech": "阳",
+        "meaning_zh": "日历；历法；课程表",
+        "source_page": 114,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "календарь",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=114",
+        "data/words/tem4_russian_words.pdf#page=115",
+        "日程表一般义；课程表为搭配。"
+      ]
+    },
+    {
+      "id": 8533,
+      "accent": "ка́менный",
+      "part": "形容词",
+      "meaning": "石头的；石制的；呆滞无表情的；冷酷的；无情的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "каменный",
+        "part_of_speech": "形",
+        "meaning_zh": "石头的；石制的；冷酷的；无情的",
+        "source_page": 115,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "каменный",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=115",
+        "补呆滞无表情义。"
+      ]
+    },
+    {
+      "id": 8534,
+      "accent": "ка́мень",
+      "part": "名词·阳性",
+      "meaning": "石头；宝石；结石",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "камень",
+        "part_of_speech": "阳",
+        "meaning_zh": "石头；宝石；结石",
+        "source_page": 115,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "камень",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=115",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8535,
+      "accent": "кана́л",
+      "part": "名词·阳性",
+      "meaning": "运河；渠道；管道；通道；途径",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "канал",
+        "part_of_speech": "阳",
+        "meaning_zh": "运河；管道；渠道；途径；方法",
+        "source_page": 115,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "канал",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=115",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8536,
+      "accent": "кандида́т",
+      "part": "名词·阳性",
+      "meaning": "候选人；候补人；副博士",
+      "perfective": "",
+      "note": "学位义通常在кандидат наук等结构中。",
+      "stage": 2,
+      "original": {
+        "word": "кандидат",
+        "part_of_speech": "阳",
+        "meaning_zh": "候选人；候补人；副博士",
+        "source_page": 115,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кандидат",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=115",
+        "核对学位称谓。"
+      ]
+    },
+    {
+      "id": 8537,
+      "accent": "кани́кулы",
+      "part": "名词·复数",
+      "meaning": "假期；寒暑假",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "каникулы",
+        "part_of_speech": "复",
+        "meaning_zh": "假期；寒暑假",
+        "source_page": 115,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "каникулы",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=115",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8538,
+      "accent": "капитали́зм",
+      "part": "名词·阳性",
+      "meaning": "资本主义；资本主义制度",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "капитализм",
+        "part_of_speech": "阳",
+        "meaning_zh": "资本主义；资本主义制度",
+        "source_page": 115,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "капитализм",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=115",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8539,
+      "accent": "капитали́ст",
+      "part": "名词·阳性",
+      "meaning": "资本家",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "капиталист",
+        "part_of_speech": "阳",
+        "meaning_zh": "资本家",
+        "source_page": 115,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "капиталист",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=115",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8540,
+      "accent": "капиталисти́ческий",
+      "part": "形容词",
+      "meaning": "资本主义的；资本主义制度的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "капиталистический",
+        "part_of_speech": "形",
+        "meaning_zh": "资本主义的；资本主义制度的",
+        "source_page": 115,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "капиталистический",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=115",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8541,
+      "accent": "капита́н",
+      "part": "名词·阳性",
+      "meaning": "船长；队长；大尉（军衔）",
+      "perfective": "",
+      "note": "军衔中文按国家体系区分，不把原书译名套用于所有军队。",
+      "stage": 2,
+      "original": {
+        "word": "капитан",
+        "part_of_speech": "阳",
+        "meaning_zh": "大尉；船长；队长",
+        "source_page": 115,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "капитан",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=115",
+        "核对船长、队长与军衔用法。"
+      ]
+    },
+    {
+      "id": 8542,
+      "accent": "ка́пля",
+      "part": "名词·阴性",
+      "meaning": "滴；一点点；滴剂",
+      "perfective": "",
+      "note": "滴剂常用复数капли。",
+      "stage": 1,
+      "original": {
+        "word": "капля",
+        "part_of_speech": "阴",
+        "meaning_zh": "滴；一点点；滴剂",
+        "source_page": 115,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "капля",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=115",
+        "核对滴剂复数。"
+      ]
+    },
+    {
+      "id": 8543,
+      "accent": "капу́ста",
+      "part": "名词·阴性",
+      "meaning": "洋白菜；卷心菜；甘蓝",
+      "perfective": "",
+      "note": "цветная капуста是菜花，морская капуста是海带，不直接混入капуста单独释义。",
+      "stage": 1,
+      "original": {
+        "word": "капуста",
+        "part_of_speech": "阴",
+        "meaning_zh": "洋白菜；卷心菜；甘蓝；菜花；海带",
+        "source_page": 115,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "капуста",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=115",
+        "菜花、海带来自修饰词组，不作独立词头义。"
+      ]
+    },
+    {
+      "id": 8544,
+      "accent": "каранда́ш",
+      "part": "名词·阳性",
+      "meaning": "铅笔",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "карандаш",
+        "part_of_speech": "阳",
+        "meaning_zh": "铅笔",
+        "source_page": 115,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "карандаш",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=115",
+        "data/words/tem4_russian_words.pdf#page=116",
+        "跨页核对。"
+      ]
+    },
+    {
+      "id": 8545,
+      "accent": "карма́н",
+      "part": "名词·阳性",
+      "meaning": "口袋；衣袋",
+      "perfective": "",
+      "note": "не по карману为买不起，不是支付能力范围这一名词义。",
+      "stage": 1,
+      "original": {
+        "word": "карман",
+        "part_of_speech": "阳",
+        "meaning_zh": "口袋；衣袋；支付能力范围",
+        "source_page": 116,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "карман",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=116",
+        "买不起来自не по карману。"
+      ]
+    },
+    {
+      "id": 8546,
+      "accent": "ка́рта",
+      "part": "名词·阴性",
+      "meaning": "地图；纸牌；卡片",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "карта",
+        "part_of_speech": "阮",
+        "meaning_zh": "地图；纸牌；卡片",
+        "source_page": 116,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "карта",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=116",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8547,
+      "accent": "карти́на",
+      "part": "名词·阴性",
+      "meaning": "画；画面；景象；情景；影片；（戏剧的）场",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "картина",
+        "part_of_speech": "阮",
+        "meaning_zh": "画；画面；影片；场（戏剧）",
+        "source_page": 116,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "картина",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF113至116页；казнить另参考大学形态学教材的兼体说明；固定词组与核心义分开。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=116",
+        "补原页景象情景义。"
+      ]
+    }
+  ]
+}

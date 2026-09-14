@@ -1,0 +1,631 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8472,
+      "accent": "изобража́ть",
+      "part": "动词·未完成体",
+      "meaning": "画出；描绘；描写；模仿",
+      "perfective": "изобрази́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "изображать",
+        "part_of_speech": "未",
+        "meaning_zh": "描绘；画；描写；模仿",
+        "source_page": 107,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "изображать",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=107",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8473,
+      "accent": "изобрета́ть",
+      "part": "动词·未完成体",
+      "meaning": "发明；创造",
+      "perfective": "изобрести́",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "изобретать",
+        "part_of_speech": "未",
+        "meaning_zh": "发明；创造",
+        "source_page": 108,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "изобретать",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=108",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8474,
+      "accent": "изобрете́ние",
+      "part": "名词·中性",
+      "meaning": "发明；发明物",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "изобретение",
+        "part_of_speech": "中",
+        "meaning_zh": "发明；发明物",
+        "source_page": 108,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "изобретение",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=108",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8475,
+      "accent": "из-под",
+      "part": "前置词",
+      "meaning": "从……下面；从……附近",
+      "perfective": "",
+      "note": "接第二格；выйти из-под влияния整个词组表示摆脱影响。",
+      "stage": 1,
+      "original": {
+        "word": "из-под",
+        "part_of_speech": "前",
+        "meaning_zh": "从……下面；从……附近；摆脱……",
+        "source_page": 108,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "из-под",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=108",
+        "介词与动词共同表达摆脱。"
+      ]
+    },
+    {
+      "id": 8477,
+      "accent": "и́менно",
+      "part": "语气词；连接用法",
+      "meaning": "正是；恰恰是；就是说；即",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "именно",
+        "part_of_speech": "语",
+        "meaning_zh": "正是；恰恰是；就是说；即",
+        "source_page": 108,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "именно",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=108",
+        "核对语气词和连接用法。"
+      ]
+    },
+    {
+      "id": 8478,
+      "accent": "име́ть",
+      "part": "动词·未完成体",
+      "meaning": "有；拥有；具有；保持；把……作为",
+      "perfective": "",
+      "note": "动词和搭配共同决定译法；不强造统一完成体。",
+      "stage": 1,
+      "original": {
+        "word": "иметь",
+        "part_of_speech": "未",
+        "meaning_zh": "有；拥有；保持；把……作为",
+        "source_page": 108,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "иметь",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=108",
+        "不混入иметь в виду等搭配全义。"
+      ]
+    },
+    {
+      "id": 8479,
+      "accent": "име́ться",
+      "part": "动词·未完成体",
+      "meaning": "有；存在",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "иметься",
+        "part_of_speech": "未",
+        "meaning_zh": "有；存在",
+        "source_page": 109,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "иметься",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=109",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8480,
+      "accent": "империали́зм",
+      "part": "名词·阳性",
+      "meaning": "帝国主义",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "империализм",
+        "part_of_speech": "阳",
+        "meaning_zh": "帝国主义",
+        "source_page": 109,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "империализм",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=109",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8481,
+      "accent": "империалисти́ческий",
+      "part": "形容词",
+      "meaning": "帝国主义的；帝国主义者的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "империалистический",
+        "part_of_speech": "形",
+        "meaning_zh": "帝国主义的",
+        "source_page": 109,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "империалистический",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=109",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8482,
+      "accent": "и́мя",
+      "part": "名词·中性",
+      "meaning": "名字；名称；名望；声誉；名词性词类",
+      "perfective": "",
+      "note": "语法中用于имя существительное等术语，不单指名词这一词类。",
+      "stage": 1,
+      "original": {
+        "word": "имя",
+        "part_of_speech": "中",
+        "meaning_zh": "名字；名称；名望；声誉",
+        "source_page": 109,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "имя",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=109",
+        "补名词性词类的语法义。"
+      ]
+    },
+    {
+      "id": 8483,
+      "accent": "индустриализа́ция",
+      "part": "名词·阴性",
+      "meaning": "工业化",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "индустриализация",
+        "part_of_speech": "阴",
+        "meaning_zh": "工业化",
+        "source_page": 109,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "индустриализация",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=109",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8484,
+      "accent": "инжене́р",
+      "part": "名词·阳性",
+      "meaning": "工程师",
+      "perfective": "",
+      "note": "е不是ё。",
+      "stage": 1,
+      "original": {
+        "word": "инженер",
+        "part_of_speech": "阳",
+        "meaning_zh": "工程师",
+        "source_page": 109,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "инженер",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=109",
+        "逐项核对；е非ё。"
+      ]
+    },
+    {
+      "id": 8485,
+      "accent": "ино́й",
+      "part": "代词性形容词",
+      "meaning": "另一种的；另外的；别的；某些的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "иной",
+        "part_of_speech": "形",
+        "meaning_zh": "另一种的；另外的；别的；某些的",
+        "source_page": 109,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "иной",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=109",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8486,
+      "accent": "иностра́нец",
+      "part": "名词·阳性",
+      "meaning": "外国人",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "иностранец",
+        "part_of_speech": "阳",
+        "meaning_zh": "外国人",
+        "source_page": 109,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "иностранец",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=109",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8487,
+      "accent": "иностра́нный",
+      "part": "形容词",
+      "meaning": "外国的；对外的",
+      "perfective": "",
+      "note": "对外义见иностранные дела等搭配。",
+      "stage": 1,
+      "original": {
+        "word": "иностранный",
+        "part_of_speech": "形",
+        "meaning_zh": "外国的；对外的",
+        "source_page": 109,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "иностранный",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=109",
+        "data/words/tem4_russian_words.pdf#page=110",
+        "跨页核对对外事务义。"
+      ]
+    },
+    {
+      "id": 8488,
+      "accent": "институ́т",
+      "part": "名词·阳性",
+      "meaning": "学院；研究所",
+      "perfective": "",
+      "note": "本来源为教育和研究机构，不泛译一切机构。",
+      "stage": 1,
+      "original": {
+        "word": "институт",
+        "part_of_speech": "阳",
+        "meaning_zh": "学院；研究所；机构",
+        "source_page": 110,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "институт",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=110",
+        "学院和研究所，不泛指所有机构。"
+      ]
+    },
+    {
+      "id": 8489,
+      "accent": "инструме́нт",
+      "part": "名词·阳性",
+      "meaning": "工具；器械；仪器；乐器",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "инструмент",
+        "part_of_speech": "阳",
+        "meaning_zh": "工具；器械；仪器；乐器",
+        "source_page": 110,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "инструмент",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=110",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8490,
+      "accent": "интеллиге́нт",
+      "part": "名词·阳性",
+      "meaning": "知识分子",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "интеллигент",
+        "part_of_speech": "阳",
+        "meaning_zh": "知识分子；有文化的人",
+        "source_page": 110,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "интеллигент",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=110",
+        "逐项核对。"
+      ]
+    },
+    {
+      "id": 8491,
+      "accent": "интеллиге́нция",
+      "part": "名词·阴性·集合义",
+      "meaning": "知识分子阶层；知识界",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "интеллигенция",
+        "part_of_speech": "阴",
+        "meaning_zh": "知识分子阶层；知识界",
+        "source_page": 110,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "интеллигенция",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=110",
+        "核对集合义。"
+      ]
+    },
+    {
+      "id": 8492,
+      "accent": "интерве́нция",
+      "part": "名词·阴性",
+      "meaning": "武装干涉；外国干涉",
+      "perfective": "",
+      "note": "本来源为国家间干涉义。",
+      "stage": 3,
+      "original": {
+        "word": "интервенция",
+        "part_of_speech": "阴",
+        "meaning_zh": "武装干涉；外国干涉",
+        "source_page": 110,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "интервенция",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=110",
+        "本来源为外国武装干涉。"
+      ]
+    },
+    {
+      "id": 8493,
+      "accent": "интервью́",
+      "part": "名词·中性·不变格",
+      "meaning": "采访；访谈；访谈记录",
+      "perfective": "",
+      "note": "дать интервью是接受采访，взять интервью是采访别人。",
+      "stage": 2,
+      "original": {
+        "word": "интервью",
+        "part_of_speech": "中 , 不 变",
+        "meaning_zh": "采访；访谈；采访记录",
+        "source_page": 110,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "интервью",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=110",
+        "核对中性不变格。"
+      ]
+    },
+    {
+      "id": 8494,
+      "accent": "интере́с",
+      "part": "名词·阳性",
+      "meaning": "兴趣；趣味；利益",
+      "perfective": "",
+      "note": "利益义常用复数интересы。",
+      "stage": 1,
+      "original": {
+        "word": "интерес",
+        "part_of_speech": "阳",
+        "meaning_zh": "兴趣；趣味；利益",
+        "source_page": 110,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "интерес",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=110",
+        "利益义常用复数。"
+      ]
+    },
+    {
+      "id": 8495,
+      "accent": "интере́сно",
+      "part": "副词；谓语用法",
+      "meaning": "有趣地；有意思；令人感兴趣",
+      "perfective": "",
+      "note": "不直接替代动词интересоваться。",
+      "stage": 1,
+      "original": {
+        "word": "интересно",
+        "part_of_speech": "副",
+        "meaning_zh": "有趣；有意思；感兴趣",
+        "source_page": 110,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "интересно",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=110",
+        "副词及谓语用法。"
+      ]
+    },
+    {
+      "id": 8497,
+      "accent": "интересова́ть",
+      "part": "动词·未完成体",
+      "meaning": "使感兴趣；引起兴趣",
+      "perfective": "",
+      "note": "持续使人感兴趣不强配起始完成体。",
+      "stage": 2,
+      "original": {
+        "word": "интересовать",
+        "part_of_speech": "未",
+        "meaning_zh": "使感兴趣；引起兴趣",
+        "source_page": 110,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "интересовать",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=110",
+        "核对使感兴趣义。"
+      ]
+    },
+    {
+      "id": 8498,
+      "accent": "интересова́ться",
+      "part": "动词·未完成体",
+      "meaning": "对……感兴趣；关心",
+      "perfective": "заинтересова́ться",
+      "note": "完成体侧重产生兴趣；常接第五格。",
+      "stage": 1,
+      "original": {
+        "word": "интересоваться",
+        "part_of_speech": "未",
+        "meaning_zh": "对……感兴趣",
+        "source_page": 110,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "интересоваться",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=110",
+        "完成体带产生兴趣意义。"
+      ]
+    },
+    {
+      "id": 8499,
+      "accent": "интона́ция",
+      "part": "名词·阴性",
+      "meaning": "语调；语气；口吻",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "интонация",
+        "part_of_speech": "阴",
+        "meaning_zh": "语调；语气；口吻",
+        "source_page": 110,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "интонация",
+      "method": "2026-09-14当前助手逐词视觉核对专四PDF107至111页，核对词头重音、性体、核心义与续页，教学阶段为建议。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=110",
+        "data/words/tem4_russian_words.pdf#page=111",
+        "跨页核对语调及口吻。"
+      ]
+    }
+  ]
+}
