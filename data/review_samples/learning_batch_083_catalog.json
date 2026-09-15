@@ -1,0 +1,698 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8788,
+      "accent": "лу́чше",
+      "part": "比较级；谓语及建议用法",
+      "meaning": "更好；比较好；最好还是",
+      "perfective": "",
+      "note": "最好通常由лучше всех或建议语境表达，不混同普通最高级。",
+      "stage": 1,
+      "original": {
+        "word": "лучше",
+        "part_of_speech": "比 较 级",
+        "meaning_zh": "比较好；更好；最好；最好还是",
+        "source_page": 135,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лучше",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=135"
+      ]
+    },
+    {
+      "id": 8789,
+      "accent": "лу́чший",
+      "part": "形容词·比较及最高级用法",
+      "meaning": "较好的；最好的；优秀的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "лучший",
+        "part_of_speech": "形",
+        "meaning_zh": "较好的；最好的；优秀的",
+        "source_page": 135,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лучший",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=135"
+      ]
+    },
+    {
+      "id": 8790,
+      "accent": "лы́жи",
+      "part": "名词·复数",
+      "meaning": "滑雪板",
+      "perfective": "",
+      "note": "ходить на лыжах为滑雪活动。",
+      "stage": 1,
+      "original": {
+        "word": "лыжи",
+        "part_of_speech": "复",
+        "meaning_zh": "滑雪板；滑雪",
+        "source_page": 135,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лыжи",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=135"
+      ]
+    },
+    {
+      "id": 8791,
+      "accent": "люби́мый",
+      "part": "形容词",
+      "meaning": "喜爱的；心爱的；亲爱的；最喜欢的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "любимый",
+        "part_of_speech": "形",
+        "meaning_zh": "敬爱的；亲爱的；喜爱的；最喜欢的",
+        "source_page": 135,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "любимый",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=135"
+      ]
+    },
+    {
+      "id": 8792,
+      "accent": "люби́тель",
+      "part": "名词·阳性",
+      "meaning": "爱好者；业余从事者",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "любитель",
+        "part_of_speech": "阳",
+        "meaning_zh": "爱好者；爱好……的人；业余……者",
+        "source_page": 135,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "любитель",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=135",
+        "data/words/tem4_russian_words.pdf#page=136"
+      ]
+    },
+    {
+      "id": 8794,
+      "accent": "любова́ться",
+      "part": "动词·未完成体",
+      "meaning": "欣赏；观赏；玩赏",
+      "perfective": "полюбова́ться",
+      "note": "完成体侧重欣赏一番；常接第五格。",
+      "stage": 2,
+      "original": {
+        "word": "любоваться",
+        "part_of_speech": "未",
+        "meaning_zh": "欣赏；观赏；玩赏",
+        "source_page": 136,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "любоваться",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=136"
+      ]
+    },
+    {
+      "id": 8795,
+      "accent": "любо́вь",
+      "part": "名词·阴性",
+      "meaning": "爱；爱情；爱戴；爱好",
+      "perfective": "",
+      "note": "删除错误混入的源泉。",
+      "stage": 1,
+      "original": {
+        "word": "любовь",
+        "part_of_speech": "阴",
+        "meaning_zh": "爱；爱戴；爱好；源泉",
+        "source_page": 136,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "любовь",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=136",
+        "源泉为错误混入，无对应原页义。"
+      ]
+    },
+    {
+      "id": 8796,
+      "accent": "любо́й",
+      "part": "代词性形容词",
+      "meaning": "任何的；随便哪个；任何人",
+      "perfective": "",
+      "note": "任何人为名词化用法。",
+      "stage": 1,
+      "original": {
+        "word": "любой",
+        "part_of_speech": "形",
+        "meaning_zh": "任何的；不论什么样的；随便哪个",
+        "source_page": 136,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "любой",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=136"
+      ]
+    },
+    {
+      "id": 8797,
+      "accent": "любопы́тный",
+      "part": "形容词；名词化用法",
+      "meaning": "好奇的；有趣的；好奇的人",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "любопытный",
+        "part_of_speech": "形",
+        "meaning_zh": "好奇的；有趣的；好奇的人",
+        "source_page": 136,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "любопытный",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=136"
+      ]
+    },
+    {
+      "id": 8798,
+      "accent": "любопы́тство",
+      "part": "名词·中性",
+      "meaning": "好奇心",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "любопытство",
+        "part_of_speech": "中",
+        "meaning_zh": "好奇心",
+        "source_page": 136,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "любопытство",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=136"
+      ]
+    },
+    {
+      "id": 8799,
+      "accent": "лю́ди",
+      "part": "名词·复数",
+      "meaning": "人们；人士；人员；人手",
+      "perfective": "",
+      "note": "человек的复数。",
+      "stage": 1,
+      "original": {
+        "word": "люди",
+        "part_of_speech": "复",
+        "meaning_zh": "人们；人士；人员；人手",
+        "source_page": 136,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "люди",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=136"
+      ]
+    },
+    {
+      "id": 8800,
+      "accent": "мавзоле́й",
+      "part": "名词·阳性",
+      "meaning": "陵墓",
+      "perfective": "",
+      "note": "不泛指任何普通墓穴。",
+      "stage": 3,
+      "original": {
+        "word": "мавзолей",
+        "part_of_speech": "阳",
+        "meaning_zh": "陵墓；墓",
+        "source_page": 136,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мавзолей",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=136"
+      ]
+    },
+    {
+      "id": 8802,
+      "accent": "маги́стр",
+      "part": "名词·阳性",
+      "meaning": "硕士",
+      "perfective": "",
+      "note": "硕士学位为степень магистра；本词可表示学位称号。",
+      "stage": 2,
+      "original": {
+        "word": "магистр",
+        "part_of_speech": "阳",
+        "meaning_zh": "硕士；硕士学位",
+        "source_page": 136,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "магистр",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=136"
+      ]
+    },
+    {
+      "id": 8803,
+      "accent": "магистра́ль",
+      "part": "名词·阴性",
+      "meaning": "干线；交通要道；主要管道",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "магистраль",
+        "part_of_speech": "阴",
+        "meaning_zh": "干线；交通要道；主要管道",
+        "source_page": 137,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "магистраль",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=137"
+      ]
+    },
+    {
+      "id": 8804,
+      "accent": "магнитофо́н",
+      "part": "名词·阳性",
+      "meaning": "录音机；磁带录音机",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "магнитофон",
+        "part_of_speech": "阳",
+        "meaning_zh": "录音机；磁带录音机",
+        "source_page": 137,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "магнитофон",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=137"
+      ]
+    },
+    {
+      "id": 8805,
+      "accent": "май",
+      "part": "名词·阳性",
+      "meaning": "五月",
+      "perfective": "",
+      "note": "五一节是Первое мая，不是整个月的词义。",
+      "stage": 1,
+      "original": {
+        "word": "май",
+        "part_of_speech": "阳",
+        "meaning_zh": "五月；五一节",
+        "source_page": 137,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "май",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=137"
+      ]
+    },
+    {
+      "id": 8806,
+      "accent": "майо́р",
+      "part": "名词·阳性",
+      "meaning": "少校",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "майор",
+        "part_of_speech": "阳",
+        "meaning_zh": "少校",
+        "source_page": 137,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "майор",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=137"
+      ]
+    },
+    {
+      "id": 8807,
+      "accent": "ма́ксимум",
+      "part": "名词·阳性；副词及定语用法",
+      "meaning": "最大限度；最高限度；最大数量；最多；最高的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "максимум",
+        "part_of_speech": "阳",
+        "meaning_zh": "最大限度；最高限度；最多",
+        "source_page": 137,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "максимум",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=137"
+      ]
+    },
+    {
+      "id": 8809,
+      "accent": "ма́льчик",
+      "part": "名词·阳性",
+      "meaning": "男孩子；男孩",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "мальчик",
+        "part_of_speech": "阳",
+        "meaning_zh": "男孩子",
+        "source_page": 137,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мальчик",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=137"
+      ]
+    },
+    {
+      "id": 8810,
+      "accent": "ма́рка",
+      "part": "名词·阴性",
+      "meaning": "邮票；牌子；牌号；商标；等级",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "марка",
+        "part_of_speech": "阴",
+        "meaning_zh": "邮票；牌子；牌号；商标；等级",
+        "source_page": 137,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "марка",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=137"
+      ]
+    },
+    {
+      "id": 8811,
+      "accent": "маркси́зм",
+      "part": "名词·阳性",
+      "meaning": "马克思主义",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "марксизм",
+        "part_of_speech": "阳",
+        "meaning_zh": "马克思主义",
+        "source_page": 137,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "марксизм",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=137"
+      ]
+    },
+    {
+      "id": 8812,
+      "accent": "маркси́стский",
+      "part": "形容词",
+      "meaning": "马克思主义的；马克思主义者的",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "марксистский",
+        "part_of_speech": "形",
+        "meaning_zh": "马克思主义的",
+        "source_page": 137,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "марксистский",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=137"
+      ]
+    },
+    {
+      "id": 8813,
+      "accent": "ма́сло",
+      "part": "名词·中性",
+      "meaning": "油；黄油；油画颜料；油画",
+      "perfective": "",
+      "note": "黄油不等于稀奶油；油画为口语用法。",
+      "stage": 1,
+      "original": {
+        "word": "масло",
+        "part_of_speech": "中",
+        "meaning_zh": "油；黄油；奶油；油画颜料",
+        "source_page": 137,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "масло",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=137",
+        "data/words/tem4_russian_words.pdf#page=138"
+      ]
+    },
+    {
+      "id": 8814,
+      "accent": "ма́сса",
+      "part": "名词·阴性",
+      "meaning": "质量；物质；大量；群众",
+      "perfective": "",
+      "note": "群众常用复数массы；质量是物理量，不是品质。",
+      "stage": 2,
+      "original": {
+        "word": "масса",
+        "part_of_speech": "阴",
+        "meaning_zh": "质量；许多；大量；群众",
+        "source_page": 138,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "масса",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=138"
+      ]
+    },
+    {
+      "id": 8815,
+      "accent": "ма́ссовый",
+      "part": "形容词",
+      "meaning": "群众的；大批量的；大规模的；大众的；普及的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "массовый",
+        "part_of_speech": "形",
+        "meaning_zh": "群众的；大规模的；大众的；普及的",
+        "source_page": 138,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "массовый",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=138"
+      ]
+    },
+    {
+      "id": 8816,
+      "accent": "ма́стер",
+      "part": "名词·阳性",
+      "meaning": "工匠；匠人；工长；行家；能手",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "мастер",
+        "part_of_speech": "阳",
+        "meaning_zh": "工匠；匠人；工长；能手",
+        "source_page": 138,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мастер",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=138"
+      ]
+    },
+    {
+      "id": 8817,
+      "accent": "мастерска́я",
+      "part": "名词·阴性",
+      "meaning": "作坊；工场；修理车间；工作室",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "мастерская",
+        "part_of_speech": "阴",
+        "meaning_zh": "作坊；工场；修理厂；工作室",
+        "source_page": 138,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мастерская",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=138"
+      ]
+    },
+    {
+      "id": 8818,
+      "accent": "мастерство́",
+      "part": "名词·中性",
+      "meaning": "手艺；技艺；技能；技巧",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "мастерство",
+        "part_of_speech": "中",
+        "meaning_zh": "手艺；技艺；技巧",
+        "source_page": 138,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мастерство",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=138"
+      ]
+    },
+    {
+      "id": 8819,
+      "accent": "матема́тик",
+      "part": "名词·阳性",
+      "meaning": "数学家",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "математик",
+        "part_of_speech": "阳",
+        "meaning_zh": "数学家",
+        "source_page": 138,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "математик",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=138"
+      ]
+    },
+    {
+      "id": 8820,
+      "accent": "матема́тика",
+      "part": "名词·阴性",
+      "meaning": "数学",
+      "perfective": "",
+      "note": "高等、应用、计算数学是带修饰词的学科分支，不逐个混入本词义。",
+      "stage": 1,
+      "original": {
+        "word": "математика",
+        "part_of_speech": "阴",
+        "meaning_zh": "数学；高等数学；应用数学；计算数学",
+        "source_page": 138,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "математика",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF135至138页，修正词义错配、补义与词性，另一体说明其动作范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=138"
+      ]
+    }
+  ]
+}

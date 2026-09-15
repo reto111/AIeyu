@@ -1,0 +1,626 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8761,
+      "accent": "лиса́",
+      "part": "名词·阴性",
+      "meaning": "狐狸",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "лиса",
+        "part_of_speech": "阴",
+        "meaning_zh": "狐狸",
+        "source_page": 133,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лиса",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=133"
+      ]
+    },
+    {
+      "id": 8762,
+      "accent": "литерату́ра",
+      "part": "名词·阴性",
+      "meaning": "文学；文学作品；书籍；文献；资料",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "литература",
+        "part_of_speech": "阴",
+        "meaning_zh": "文学；文学作品；书籍；资料",
+        "source_page": 133,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "литература",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=133"
+      ]
+    },
+    {
+      "id": 8763,
+      "accent": "литерату́рный",
+      "part": "形容词",
+      "meaning": "文学的；文学作品的；符合标准语规范的",
+      "perfective": "",
+      "note": "литературный язык为标准语。",
+      "stage": 2,
+      "original": {
+        "word": "литературный",
+        "part_of_speech": "形",
+        "meaning_zh": "文学的；文学作品的；符合标准语规范的",
+        "source_page": 133,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "литературный",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=133"
+      ]
+    },
+    {
+      "id": 8764,
+      "accent": "лить",
+      "part": "动词·未完成体",
+      "meaning": "倒；灌；斟；使流出；不停地流",
+      "perfective": "",
+      "note": "不同前缀会改变方向和结果，不设统一完成体。",
+      "stage": 2,
+      "original": {
+        "word": "лить",
+        "part_of_speech": "未",
+        "meaning_zh": "倒；灌；斟；使流出；不停地流",
+        "source_page": 133,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лить",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=133"
+      ]
+    },
+    {
+      "id": 8765,
+      "accent": "лифт",
+      "part": "名词·阳性",
+      "meaning": "电梯；升降机",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "лифт",
+        "part_of_speech": "阳",
+        "meaning_zh": "电梯；升降机",
+        "source_page": 133,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лифт",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=133"
+      ]
+    },
+    {
+      "id": 8766,
+      "accent": "лицо́",
+      "part": "名词·中性",
+      "meaning": "脸；面孔；面目；人；人称",
+      "perfective": "",
+      "note": "法人是юридическое лицо这一词组，不能译作任意лицо。",
+      "stage": 1,
+      "original": {
+        "word": "лицо",
+        "part_of_speech": "中",
+        "meaning_zh": "脸；面孔；面目；人；法人；人称",
+        "source_page": 133,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лицо",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=133"
+      ]
+    },
+    {
+      "id": 8767,
+      "accent": "ли́чный",
+      "part": "形容词",
+      "meaning": "私人的；个人的；亲身的；本人的；人称的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "личный",
+        "part_of_speech": "形",
+        "meaning_zh": "私人的；个人的；亲身的；人称的",
+        "source_page": 133,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "личный",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=133"
+      ]
+    },
+    {
+      "id": 8768,
+      "accent": "лиша́ться",
+      "part": "动词·未完成体",
+      "meaning": "失去；丧失",
+      "perfective": "лиши́ться",
+      "note": "接第二格，区别лишать使别人失去。",
+      "stage": 2,
+      "original": {
+        "word": "лишаться",
+        "part_of_speech": "未",
+        "meaning_zh": "失去；丧失",
+        "source_page": 134,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лишаться",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=134"
+      ]
+    },
+    {
+      "id": 8769,
+      "accent": "ли́шний",
+      "part": "形容词",
+      "meaning": "剩余的；多余的；不必要的；额外的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "лишний",
+        "part_of_speech": "形",
+        "meaning_zh": "剩余的；多余的；不必要的；额外的",
+        "source_page": 134,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лишний",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=134"
+      ]
+    },
+    {
+      "id": 8770,
+      "accent": "лишь",
+      "part": "语气词",
+      "meaning": "只；仅仅",
+      "perfective": "",
+      "note": "但愿为лишь бы整体意义。",
+      "stage": 2,
+      "original": {
+        "word": "лишь",
+        "part_of_speech": "语",
+        "meaning_zh": "只；仅仅；但愿",
+        "source_page": 134,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лишь",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=134"
+      ]
+    },
+    {
+      "id": 8771,
+      "accent": "лоб",
+      "part": "名词·阳性",
+      "meaning": "额头；脑门",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "лоб",
+        "part_of_speech": "阳",
+        "meaning_zh": "额头；脑门",
+        "source_page": 134,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лоб",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=134"
+      ]
+    },
+    {
+      "id": 8772,
+      "accent": "лови́ть",
+      "part": "动词·未完成体",
+      "meaning": "接住；捕；捉；抓住；留神听看",
+      "perfective": "пойма́ть",
+      "note": "另一体主要对应捕捉、接住结果；留神听看义按搭配理解。",
+      "stage": 1,
+      "original": {
+        "word": "ловить",
+        "part_of_speech": "Ж",
+        "meaning_zh": "接；捕；捉；抓住；留神听看",
+        "source_page": 134,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ловить",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=134"
+      ]
+    },
+    {
+      "id": 8773,
+      "accent": "ло́вкий",
+      "part": "形容词",
+      "meaning": "灵巧的；敏捷的；机灵的；麻利的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "ловкий",
+        "part_of_speech": "形",
+        "meaning_zh": "灵巧的；敏捷的；机灵的；麻利的",
+        "source_page": 134,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ловкий",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=134"
+      ]
+    },
+    {
+      "id": 8774,
+      "accent": "ло́гика",
+      "part": "名词·阴性",
+      "meaning": "逻辑；逻辑学；常理",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "логика",
+        "part_of_speech": "阴",
+        "meaning_zh": "逻辑；逻辑学；常理",
+        "source_page": 134,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "логика",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=134"
+      ]
+    },
+    {
+      "id": 8775,
+      "accent": "ло́дка",
+      "part": "名词·阴性",
+      "meaning": "小船；艇",
+      "perfective": "",
+      "note": "潜水艇是подводная лодка。",
+      "stage": 1,
+      "original": {
+        "word": "лодка",
+        "part_of_speech": "阴",
+        "meaning_zh": "小船；艇；潜水艇",
+        "source_page": 134,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лодка",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=134"
+      ]
+    },
+    {
+      "id": 8776,
+      "accent": "ложи́ться",
+      "part": "动词·未完成体",
+      "meaning": "躺下；卧倒；就寝；住院；落到……身上",
+      "perfective": "лечь",
+      "note": "住院见ложиться в больницу；责任等落到某人身上为转义。",
+      "stage": 1,
+      "original": {
+        "word": "ложиться",
+        "part_of_speech": "未",
+        "meaning_zh": "躺下；卧倒；就寝；落到……身上",
+        "source_page": 134,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ложиться",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=134"
+      ]
+    },
+    {
+      "id": 8777,
+      "accent": "ло́жка",
+      "part": "名词·阴性",
+      "meaning": "匙子；勺子",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "ложка",
+        "part_of_speech": "阴",
+        "meaning_zh": "匙子；勺子",
+        "source_page": 134,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ложка",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=134"
+      ]
+    },
+    {
+      "id": 8778,
+      "accent": "ложь",
+      "part": "名词·阴性",
+      "meaning": "假话；谎言；虚假",
+      "perfective": "",
+      "note": "不直接当作动词说谎。",
+      "stage": 2,
+      "original": {
+        "word": "ложь",
+        "part_of_speech": "阴",
+        "meaning_zh": "假话；谎言；说谎",
+        "source_page": 134,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ложь",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=134"
+      ]
+    },
+    {
+      "id": 8779,
+      "accent": "ло́зунг",
+      "part": "名词·阳性",
+      "meaning": "口号；标语",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "лозунг",
+        "part_of_speech": "阳",
+        "meaning_zh": "口号；标语",
+        "source_page": 135,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лозунг",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=135"
+      ]
+    },
+    {
+      "id": 8780,
+      "accent": "лома́ть",
+      "part": "动词·未完成体",
+      "meaning": "折断；打碎；弄坏；拆毁；破坏；骤然改变",
+      "perfective": "слома́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "ломать",
+        "part_of_speech": "未",
+        "meaning_zh": "折；折断；打碎；弄坏；拆毁；破坏",
+        "source_page": 135,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ломать",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=135"
+      ]
+    },
+    {
+      "id": 8781,
+      "accent": "лома́ться",
+      "part": "动词·未完成体",
+      "meaning": "断裂；损坏；破除；骤变；变声",
+      "perfective": "слома́ться",
+      "note": "原页голос ломается主要指变声，不笼统译为声音发抖。",
+      "stage": 2,
+      "original": {
+        "word": "ломаться",
+        "part_of_speech": "未",
+        "meaning_zh": "断裂；损坏；破除；骤变；声音发抖",
+        "source_page": 135,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ломаться",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=135"
+      ]
+    },
+    {
+      "id": 8782,
+      "accent": "лопа́та",
+      "part": "名词·阴性",
+      "meaning": "铁锹；铲子",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "лопата",
+        "part_of_speech": "阴",
+        "meaning_zh": "铁锹；铲子",
+        "source_page": 135,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лопата",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=135"
+      ]
+    },
+    {
+      "id": 8783,
+      "accent": "ло́шадь",
+      "part": "名词·阴性",
+      "meaning": "马",
+      "perfective": "",
+      "note": "语法阴性不意味着所指一定为母马。",
+      "stage": 1,
+      "original": {
+        "word": "лошадь",
+        "part_of_speech": "阴",
+        "meaning_zh": "马；母马",
+        "source_page": 135,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лошадь",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=135"
+      ]
+    },
+    {
+      "id": 8784,
+      "accent": "луг",
+      "part": "名词·阳性",
+      "meaning": "草地；草甸；牧草地",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "луг",
+        "part_of_speech": "阳",
+        "meaning_zh": "草地；牧场",
+        "source_page": 135,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "луг",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=135"
+      ]
+    },
+    {
+      "id": 8785,
+      "accent": "лук",
+      "part": "名词·阳性",
+      "meaning": "葱；洋葱",
+      "perfective": "",
+      "note": "原条为蔬菜，不混入弓这一同形词。",
+      "stage": 1,
+      "original": {
+        "word": "лук",
+        "part_of_speech": "阳",
+        "meaning_zh": "葱；洋葱；弓",
+        "source_page": 135,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лук",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=135"
+      ]
+    },
+    {
+      "id": 8786,
+      "accent": "луна́",
+      "part": "名词·阴性",
+      "meaning": "月亮；月球",
+      "perfective": "",
+      "note": "指天体专名时写Луна。",
+      "stage": 1,
+      "original": {
+        "word": "луна",
+        "part_of_speech": "阴",
+        "meaning_zh": "月亮；月球",
+        "source_page": 135,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "луна",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=135"
+      ]
+    },
+    {
+      "id": 8787,
+      "accent": "луч",
+      "part": "名词·阳性",
+      "meaning": "光线；光束",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "луч",
+        "part_of_speech": "阳",
+        "meaning_zh": "光线；光束",
+        "source_page": 135,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "луч",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF133至135页对应词条，分清词头核心义、搭配、名词性别和动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=135"
+      ]
+    }
+  ]
+}

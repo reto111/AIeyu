@@ -1,0 +1,604 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8709,
+      "accent": "кто-то",
+      "part": "不定代词",
+      "meaning": "某人；有人；不知是谁",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "кто-то",
+        "part_of_speech": "代",
+        "meaning_zh": "有人；某人；不知是谁",
+        "source_page": 129,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кто-то",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=129"
+      ]
+    },
+    {
+      "id": 8710,
+      "accent": "куда́",
+      "part": "副词",
+      "meaning": "往哪儿；到哪儿",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "куда",
+        "part_of_speech": "副",
+        "meaning_zh": "往哪儿；到哪儿",
+        "source_page": 129,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "куда",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=129"
+      ]
+    },
+    {
+      "id": 8711,
+      "accent": "куда́-нибудь",
+      "part": "副词",
+      "meaning": "到某个地方；随便到哪里",
+      "perfective": "",
+      "note": "不指定具体目的地。",
+      "stage": 1,
+      "original": {
+        "word": "куда-нибудь",
+        "part_of_speech": "副",
+        "meaning_zh": "不论往何处；不管到哪里",
+        "source_page": 129,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "куда-нибудь",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=129"
+      ]
+    },
+    {
+      "id": 8712,
+      "accent": "куда́-то",
+      "part": "副词",
+      "meaning": "往某处；不知往哪里",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "куда-то",
+        "part_of_speech": "副",
+        "meaning_zh": "往某处；不知往哪里",
+        "source_page": 129,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "куда-то",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=129"
+      ]
+    },
+    {
+      "id": 8713,
+      "accent": "ку́кла",
+      "part": "名词·阴性",
+      "meaning": "玩偶；娃娃；木偶；受人摆布的人",
+      "perfective": "",
+      "note": "不限布制，橡皮娃娃也是кукла。",
+      "stage": 1,
+      "original": {
+        "word": "кукла",
+        "part_of_speech": "阴",
+        "meaning_zh": "布娃娃；木偶；受人摆布的人",
+        "source_page": 129,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кукла",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=129"
+      ]
+    },
+    {
+      "id": 8714,
+      "accent": "кукуру́за",
+      "part": "名词·阴性",
+      "meaning": "玉米；苞米",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "кукуруза",
+        "part_of_speech": "阴",
+        "meaning_zh": "玉米；苞米",
+        "source_page": 129,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кукуруза",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=129"
+      ]
+    },
+    {
+      "id": 8715,
+      "accent": "кула́к",
+      "part": "名词·阳性",
+      "meaning": "拳头；集结的兵力；富农",
+      "perfective": "",
+      "note": "富农为历史社会语境。",
+      "stage": 2,
+      "original": {
+        "word": "кулак",
+        "part_of_speech": "阳",
+        "meaning_zh": "拳头；富农",
+        "source_page": 129,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кулак",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=129"
+      ]
+    },
+    {
+      "id": 8716,
+      "accent": "культу́ра",
+      "part": "名词·阴性",
+      "meaning": "文化；文明；修养；文化程度；作物",
+      "perfective": "",
+      "note": "作物常用复数культуры，不限定全部为粮食作物。",
+      "stage": 1,
+      "original": {
+        "word": "культура",
+        "part_of_speech": "阴",
+        "meaning_zh": "文化；文明；文化程度；农作物",
+        "source_page": 129,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "культура",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=129"
+      ]
+    },
+    {
+      "id": 8717,
+      "accent": "культу́рный",
+      "part": "形容词",
+      "meaning": "文化的；有文化的；文明的；有修养的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "культурный",
+        "part_of_speech": "形",
+        "meaning_zh": "文化的；有文化的；文明的；有修养的",
+        "source_page": 129,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "культурный",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=129"
+      ]
+    },
+    {
+      "id": 8718,
+      "accent": "купа́ться",
+      "part": "动词·未完成体",
+      "meaning": "洗澡；游泳；在水中嬉游",
+      "perfective": "искупа́ться",
+      "note": "вы́купаться也可表示洗过澡；不等同一切竞技游泳动作。",
+      "stage": 1,
+      "original": {
+        "word": "купаться",
+        "part_of_speech": "未",
+        "meaning_zh": "洗澡；游泳",
+        "source_page": 129,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "купаться",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=129"
+      ]
+    },
+    {
+      "id": 8719,
+      "accent": "кури́ть",
+      "part": "动词·未完成体",
+      "meaning": "吸烟；抽烟",
+      "perfective": "покури́ть",
+      "note": "完成体表示抽一会儿烟，不等于持续习惯。",
+      "stage": 1,
+      "original": {
+        "word": "курить",
+        "part_of_speech": "未",
+        "meaning_zh": "吸烟；抽烟",
+        "source_page": 129,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "курить",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=129"
+      ]
+    },
+    {
+      "id": 8720,
+      "accent": "ку́рица",
+      "part": "名词·阴性",
+      "meaning": "母鸡；鸡；鸡肉",
+      "perfective": "",
+      "note": "鸡肉义依食物语境。",
+      "stage": 1,
+      "original": {
+        "word": "курица",
+        "part_of_speech": "阴",
+        "meaning_zh": "母鸡；鸡",
+        "source_page": 129,
+        "source_line": "17"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "курица",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=129",
+        "data/words/tem4_russian_words.pdf#page=130"
+      ]
+    },
+    {
+      "id": 8721,
+      "accent": "куро́рт",
+      "part": "名词·阳性",
+      "meaning": "疗养地；度假胜地",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "курорт",
+        "part_of_speech": "阳",
+        "meaning_zh": "疗养地；度假胜地",
+        "source_page": 130,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "курорт",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=130"
+      ]
+    },
+    {
+      "id": 8722,
+      "accent": "курс",
+      "part": "名词·阳性",
+      "meaning": "方向；航向；课程；教程；大学年级；培训班",
+      "perfective": "",
+      "note": "培训班常用复数курсы。",
+      "stage": 1,
+      "original": {
+        "word": "курс",
+        "part_of_speech": "阳",
+        "meaning_zh": "方向；航向；课程；教程；年级；进修班",
+        "source_page": 130,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "курс",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=130"
+      ]
+    },
+    {
+      "id": 8723,
+      "accent": "ку́ртка",
+      "part": "名词·阴性",
+      "meaning": "短上衣；夹克",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "куртка",
+        "part_of_speech": "阴",
+        "meaning_zh": "短上衣；上装；夹克",
+        "source_page": 130,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "куртка",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=130"
+      ]
+    },
+    {
+      "id": 8724,
+      "accent": "кусо́к",
+      "part": "名词·阳性",
+      "meaning": "块；片；段；部分",
+      "perfective": "",
+      "note": "与名词搭配选择量词，不限定为小块。",
+      "stage": 1,
+      "original": {
+        "word": "кусок",
+        "part_of_speech": "阳",
+        "meaning_zh": "一块；小块；一部分；一段",
+        "source_page": 130,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кусок",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=130"
+      ]
+    },
+    {
+      "id": 8725,
+      "accent": "ку́хня",
+      "part": "名词·阴性",
+      "meaning": "厨房；饭菜；菜肴；烹饪方式",
+      "perfective": "",
+      "note": "如китайская кухня为中国菜。",
+      "stage": 1,
+      "original": {
+        "word": "кухня",
+        "part_of_speech": "阴",
+        "meaning_zh": "厨房；菜肴；烹饪",
+        "source_page": 130,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кухня",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=130"
+      ]
+    },
+    {
+      "id": 8726,
+      "accent": "ку́шать",
+      "part": "动词·未完成体",
+      "meaning": "吃；喝",
+      "perfective": "ску́шать",
+      "note": "有礼貌或亲昵语气；喝义依饮品搭配。",
+      "stage": 1,
+      "original": {
+        "word": "кушать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "吃；喝",
+        "source_page": 130,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кушать",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=130"
+      ]
+    },
+    {
+      "id": 8727,
+      "accent": "ла́герь",
+      "part": "名词·阳性",
+      "meaning": "营地；营；拘留营；阵营",
+      "perfective": "",
+      "note": "不把名词直接当野营这一活动动词。",
+      "stage": 2,
+      "original": {
+        "word": "лагерь",
+        "part_of_speech": "阳",
+        "meaning_zh": "野营；露营；营地；阵营；拘留所",
+        "source_page": 130,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лагерь",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=130"
+      ]
+    },
+    {
+      "id": 8728,
+      "accent": "ла́дно",
+      "part": "语气词",
+      "meaning": "好吧；行；可以",
+      "perfective": "",
+      "note": "本来源为表示同意的用法。",
+      "stage": 1,
+      "original": {
+        "word": "ладно",
+        "part_of_speech": "语",
+        "meaning_zh": "好吧；行；可以",
+        "source_page": 130,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ладно",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=130"
+      ]
+    },
+    {
+      "id": 8729,
+      "accent": "ладо́нь",
+      "part": "名词·阴性",
+      "meaning": "手掌",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "ладонь",
+        "part_of_speech": "阴",
+        "meaning_zh": "手掌",
+        "source_page": 130,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ладонь",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=130"
+      ]
+    },
+    {
+      "id": 8730,
+      "accent": "ла́мпа",
+      "part": "名词·阴性",
+      "meaning": "灯；灯泡；灯管；电子管",
+      "perfective": "",
+      "note": "具体设备义依修饰词。",
+      "stage": 1,
+      "original": {
+        "word": "лампа",
+        "part_of_speech": "阴",
+        "meaning_zh": "灯；灯泡；灯管",
+        "source_page": 130,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лампа",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=130"
+      ]
+    },
+    {
+      "id": 8731,
+      "accent": "ла́сковый",
+      "part": "形容词",
+      "meaning": "温柔的；亲热的；温和的；和蔼可亲的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "ласковый",
+        "part_of_speech": "形",
+        "meaning_zh": "温柔的；亲热的；温和的；和蔼可亲的",
+        "source_page": 130,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ласковый",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=130"
+      ]
+    },
+    {
+      "id": 8732,
+      "accent": "ла́ять",
+      "part": "动词·未完成体",
+      "meaning": "吠；吠叫",
+      "perfective": "прола́ять",
+      "note": "完成体表示发出吠声；不泛译所有叫声。",
+      "stage": 2,
+      "original": {
+        "word": "лаять",
+        "part_of_speech": "Ж",
+        "meaning_zh": "吠；叫",
+        "source_page": 130,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лаять",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=130"
+      ]
+    },
+    {
+      "id": 8733,
+      "accent": "лев",
+      "part": "名词·阳性",
+      "meaning": "狮子",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "лев",
+        "part_of_speech": "阳",
+        "meaning_zh": "狮子",
+        "source_page": 131,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лев",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=131"
+      ]
+    },
+    {
+      "id": 8735,
+      "accent": "лёгкое",
+      "part": "名词·中性",
+      "meaning": "肺",
+      "perfective": "",
+      "note": "区别形容词лёгкий的中性形式；本条是器官名。",
+      "stage": 2,
+      "original": {
+        "word": "лёгкое",
+        "part_of_speech": "中",
+        "meaning_zh": "肺；肺部",
+        "source_page": 131,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лёгкое",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF129至131页，核对重音性体和核心义，不把单次动作当通用体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=131"
+      ]
+    }
+  ]
+}

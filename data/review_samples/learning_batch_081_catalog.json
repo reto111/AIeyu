@@ -1,0 +1,581 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8736,
+      "accent": "легкомы́сленный",
+      "part": "形容词",
+      "meaning": "轻率的；轻浮的；轻佻的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "легкомысленный",
+        "part_of_speech": "形",
+        "meaning_zh": "轻率的；轻浮的；轻佻的",
+        "source_page": 131,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "легкомысленный",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=131"
+      ]
+    },
+    {
+      "id": 8737,
+      "accent": "лёд",
+      "part": "名词·阳性",
+      "meaning": "冰",
+      "perfective": "",
+      "note": "保留ё。",
+      "stage": 1,
+      "original": {
+        "word": "лёд",
+        "part_of_speech": "阳",
+        "meaning_zh": "冰",
+        "source_page": 131,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лёд",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=131"
+      ]
+    },
+    {
+      "id": 8738,
+      "accent": "лезть",
+      "part": "动词·未完成体",
+      "meaning": "爬；钻；挤进",
+      "perfective": "",
+      "note": "原词表示运动过程，不强配单一完成体。",
+      "stage": 2,
+      "original": {
+        "word": "лезть",
+        "part_of_speech": "未",
+        "meaning_zh": "爬；钻；挤进",
+        "source_page": 131,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лезть",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=131"
+      ]
+    },
+    {
+      "id": 8739,
+      "accent": "лейтена́нт",
+      "part": "名词·阳性",
+      "meaning": "中尉；尉官",
+      "perfective": "",
+      "note": "军衔译名依国家体系和修饰词区分。",
+      "stage": 2,
+      "original": {
+        "word": "лейтенант",
+        "part_of_speech": "阳",
+        "meaning_zh": "尉官；中尉",
+        "source_page": 131,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лейтенант",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=131"
+      ]
+    },
+    {
+      "id": 8740,
+      "accent": "лека́рство",
+      "part": "名词·中性",
+      "meaning": "药；药剂；药物",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "лекарство",
+        "part_of_speech": "中",
+        "meaning_zh": "药；药剂；药物",
+        "source_page": 131,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лекарство",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=131"
+      ]
+    },
+    {
+      "id": 8741,
+      "accent": "ле́кция",
+      "part": "名词·阴性",
+      "meaning": "课；讲课；讲座；讲义",
+      "perfective": "",
+      "note": "讲义义可用复数；讲义提纲是конспект лекций整个词组。",
+      "stage": 1,
+      "original": {
+        "word": "лекция",
+        "part_of_speech": "阴",
+        "meaning_zh": "课；讲课；讲座；讲义提纲",
+        "source_page": 131,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лекция",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=131"
+      ]
+    },
+    {
+      "id": 8742,
+      "accent": "лени́вый",
+      "part": "形容词",
+      "meaning": "懒惰的；怠惰的；懒洋洋的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "ленивый",
+        "part_of_speech": "形",
+        "meaning_zh": "懒惰的；怠惰的；懒洋洋的",
+        "source_page": 131,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ленивый",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=131"
+      ]
+    },
+    {
+      "id": 8743,
+      "accent": "ле́нинский",
+      "part": "形容词",
+      "meaning": "列宁的；列宁主义的",
+      "perfective": "",
+      "note": "历史政治词。",
+      "stage": 3,
+      "original": {
+        "word": "ленинский",
+        "part_of_speech": "形",
+        "meaning_zh": "列宁的；列宁主义的",
+        "source_page": 132,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ленинский",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=132"
+      ]
+    },
+    {
+      "id": 8744,
+      "accent": "лени́ться",
+      "part": "动词·未完成体",
+      "meaning": "懒惰；偷懒；懒于",
+      "perfective": "",
+      "note": "常接不定式。",
+      "stage": 1,
+      "original": {
+        "word": "лениться",
+        "part_of_speech": "未",
+        "meaning_zh": "懒惰；偷懒；懒于",
+        "source_page": 132,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лениться",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=132"
+      ]
+    },
+    {
+      "id": 8745,
+      "accent": "ле́нта",
+      "part": "名词·阴性",
+      "meaning": "丝带；带子；条；带状物；色带",
+      "perfective": "",
+      "note": "具体材料或用途依搭配。",
+      "stage": 2,
+      "original": {
+        "word": "лента",
+        "part_of_speech": "阴",
+        "meaning_zh": "丝带；带子；条；带状物；色带",
+        "source_page": 132,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лента",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=132"
+      ]
+    },
+    {
+      "id": 8746,
+      "accent": "лес",
+      "part": "名词·阳性",
+      "meaning": "树林；森林；木材",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "лес",
+        "part_of_speech": "阳",
+        "meaning_zh": "树林；森林；木材",
+        "source_page": 132,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лес",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=132"
+      ]
+    },
+    {
+      "id": 8747,
+      "accent": "ле́стница",
+      "part": "名词·阴性",
+      "meaning": "楼梯；梯子；阶梯",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "лестница",
+        "part_of_speech": "阴",
+        "meaning_zh": "楼梯；阶梯",
+        "source_page": 132,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лестница",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=132"
+      ]
+    },
+    {
+      "id": 8748,
+      "accent": "лета́ть",
+      "part": "动词·未完成体·不定向",
+      "meaning": "飞；飞行；乘飞机；疾驰；来回奔跑",
+      "perfective": "",
+      "note": "与лететь均为未完成体，方向性不同，不互标为完成体。",
+      "stage": 1,
+      "original": {
+        "word": "летать",
+        "part_of_speech": "未",
+        "meaning_zh": "飞；飞行；疾驰；来回奔跑",
+        "source_page": 132,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "летать",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=132"
+      ]
+    },
+    {
+      "id": 8749,
+      "accent": "лете́ть",
+      "part": "动词·未完成体·定向",
+      "meaning": "飞；飞行；乘飞机前往；疾驰；飞逝",
+      "perfective": "",
+      "note": "与летать区别主要是方向及重复性，不是体差异。",
+      "stage": 1,
+      "original": {
+        "word": "лететь",
+        "part_of_speech": "未",
+        "meaning_zh": "飞；乘坐飞行；飞逝",
+        "source_page": 132,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лететь",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=132"
+      ]
+    },
+    {
+      "id": 8750,
+      "accent": "ле́тний",
+      "part": "形容词",
+      "meaning": "夏天的；夏季的",
+      "perfective": "",
+      "note": "此处е，不是лётный飞行的。",
+      "stage": 1,
+      "original": {
+        "word": "летний",
+        "part_of_speech": "形",
+        "meaning_zh": "夏天的；夏季的",
+        "source_page": 132,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "летний",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=132"
+      ]
+    },
+    {
+      "id": 8751,
+      "accent": "ле́то",
+      "part": "名词·中性",
+      "meaning": "夏天；夏季",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "лето",
+        "part_of_speech": "中",
+        "meaning_zh": "夏天；夏季",
+        "source_page": 132,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лето",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=132"
+      ]
+    },
+    {
+      "id": 8752,
+      "accent": "ле́том",
+      "part": "副词",
+      "meaning": "在夏天；在夏季",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "летом",
+        "part_of_speech": "副",
+        "meaning_zh": "在夏天；在夏季",
+        "source_page": 132,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "летом",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=132"
+      ]
+    },
+    {
+      "id": 8753,
+      "accent": "лётчик",
+      "part": "名词·阳性",
+      "meaning": "飞行员",
+      "perfective": "",
+      "note": "保留ё。",
+      "stage": 1,
+      "original": {
+        "word": "лётчик",
+        "part_of_speech": "阳",
+        "meaning_zh": "飞行员",
+        "source_page": 132,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лётчик",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=132"
+      ]
+    },
+    {
+      "id": 8754,
+      "accent": "лече́ние",
+      "part": "名词·中性",
+      "meaning": "医治；治疗",
+      "perfective": "",
+      "note": "疗程为курс лечения，不是本词独立核心义。",
+      "stage": 2,
+      "original": {
+        "word": "лечение",
+        "part_of_speech": "中",
+        "meaning_zh": "治疗；医治；疗程",
+        "source_page": 132,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лечение",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=132"
+      ]
+    },
+    {
+      "id": 8755,
+      "accent": "лечи́ться",
+      "part": "动词·未完成体",
+      "meaning": "接受治疗；治病",
+      "perfective": "вы́лечиться",
+      "note": "完成体侧重治愈的结果。",
+      "stage": 1,
+      "original": {
+        "word": "лечиться",
+        "part_of_speech": "未",
+        "meaning_zh": "治疗；接受治疗",
+        "source_page": 132,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "лечиться",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=132"
+      ]
+    },
+    {
+      "id": 8756,
+      "accent": "ли",
+      "part": "语气词",
+      "meaning": "是否；是不是；是吗",
+      "perfective": "",
+      "note": "通常置于被强调的词之后。",
+      "stage": 1,
+      "original": {
+        "word": "ли",
+        "part_of_speech": null,
+        "meaning_zh": "是否；是不是；是吗",
+        "source_page": 132,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ли",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=132"
+      ]
+    },
+    {
+      "id": 8757,
+      "accent": "ли́бо",
+      "part": "连词",
+      "meaning": "或者；或是",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "либо",
+        "part_of_speech": "连",
+        "meaning_zh": "或者；或是",
+        "source_page": 132,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "либо",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=132"
+      ]
+    },
+    {
+      "id": 8758,
+      "accent": "ликвиди́ровать",
+      "part": "动词·兼体",
+      "meaning": "消除；清除；消灭；清算",
+      "perfective": "",
+      "note": "原书标兼体，不强配带一次性意味的另词。",
+      "stage": 3,
+      "original": {
+        "word": "ликвидировать",
+        "part_of_speech": "未 , 完",
+        "meaning_zh": "消除；清除；消灭；清算",
+        "source_page": 132,
+        "source_line": "17"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ликвидировать",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=132"
+      ]
+    },
+    {
+      "id": 8759,
+      "accent": "лине́йка",
+      "part": "名词·阴性",
+      "meaning": "直尺；尺；行线；集合队列",
+      "perfective": "",
+      "note": "原页前两义为行线和尺；队列是独立常用义，不译为任意队形。",
+      "stage": 1,
+      "original": {
+        "word": "линейка",
+        "part_of_speech": "阴",
+        "meaning_zh": "直尺；直线；行线；队列",
+        "source_page": 132,
+        "source_line": "18"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "линейка",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=132",
+        "data/words/tem4_russian_words.pdf#page=133"
+      ]
+    },
+    {
+      "id": 8760,
+      "accent": "ли́ния",
+      "part": "名词·阴性",
+      "meaning": "线；线条；线路；航线；方针；路线",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "линия",
+        "part_of_speech": "阮",
+        "meaning_zh": "线；线条；线路；航线；方针；路线",
+        "source_page": 133,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "линия",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF131至133页，特别区分运动动词方向与体、名词和搭配释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=133"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,791 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8672,
+      "accent": "кость",
+      "part": "名词·阴性",
+      "meaning": "骨；骨头；骨骼",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "кость",
+        "part_of_speech": "阴",
+        "meaning_zh": "骨；骨头；骨骼",
+        "source_page": 126,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кость",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=126"
+      ]
+    },
+    {
+      "id": 8673,
+      "accent": "костю́м",
+      "part": "名词·阳性",
+      "meaning": "服装；衣服；西装；套装",
+      "perfective": "",
+      "note": "运动服为спортивный костюм，不直接并入单词核心义。",
+      "stage": 1,
+      "original": {
+        "word": "костюм",
+        "part_of_speech": "阳",
+        "meaning_zh": "服装；衣服；西装；运动服",
+        "source_page": 126,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "костюм",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=126"
+      ]
+    },
+    {
+      "id": 8674,
+      "accent": "кото́рый",
+      "part": "代词性形容词",
+      "meaning": "哪个；哪一个；第几",
+      "perfective": "",
+      "note": "也引导关系从句，回指前面的名词；不机械译为那个或这种。",
+      "stage": 1,
+      "original": {
+        "word": "который",
+        "part_of_speech": "代",
+        "meaning_zh": "哪个；哪一个；第几；那个；这种",
+        "source_page": 126,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "который",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=126"
+      ]
+    },
+    {
+      "id": 8675,
+      "accent": "ко́фта",
+      "part": "名词·阴性",
+      "meaning": "女短上衣；开衫",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "кофта",
+        "part_of_speech": "阴",
+        "meaning_zh": "女短上衣；女式外套",
+        "source_page": 126,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кофта",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=126"
+      ]
+    },
+    {
+      "id": 8676,
+      "accent": "ко́шка",
+      "part": "名词·阴性",
+      "meaning": "猫；母猫",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "кошка",
+        "part_of_speech": "阴",
+        "meaning_zh": "猫",
+        "source_page": 126,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кошка",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=126"
+      ]
+    },
+    {
+      "id": 8677,
+      "accent": "край",
+      "part": "名词·阳性",
+      "meaning": "边；边缘；地区；地方；边疆区",
+      "perfective": "",
+      "note": "故乡来自родной край，不能把任意край译作故乡。",
+      "stage": 2,
+      "original": {
+        "word": "край",
+        "part_of_speech": "阳",
+        "meaning_zh": "边缘；边；地区；边疆区；故乡",
+        "source_page": 126,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "край",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=126"
+      ]
+    },
+    {
+      "id": 8678,
+      "accent": "краса́вец",
+      "part": "名词·阳性",
+      "meaning": "美男子；美丽的事物",
+      "perfective": "",
+      "note": "女性常用красавица；事物义属转义。",
+      "stage": 2,
+      "original": {
+        "word": "красавец",
+        "part_of_speech": "阳",
+        "meaning_zh": "美男子；漂亮的人；美丽的事物",
+        "source_page": 126,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "красавец",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=126"
+      ]
+    },
+    {
+      "id": 8680,
+      "accent": "кра́ска",
+      "part": "名词·阴性",
+      "meaning": "颜料；染料；色彩；色调；红晕",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "краска",
+        "part_of_speech": "阴",
+        "meaning_zh": "颜料；染料；色彩；红晕",
+        "source_page": 126,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "краска",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=126"
+      ]
+    },
+    {
+      "id": 8681,
+      "accent": "красне́ть",
+      "part": "动词·未完成体",
+      "meaning": "变红；发红；脸红；呈红色",
+      "perfective": "покрасне́ть",
+      "note": "完成体主要对应变红的变化结果。",
+      "stage": 1,
+      "original": {
+        "word": "краснеть",
+        "part_of_speech": "未",
+        "meaning_zh": "变红；发红；脸红",
+        "source_page": 126,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "краснеть",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=126"
+      ]
+    },
+    {
+      "id": 8683,
+      "accent": "красота́",
+      "part": "名词·阴性",
+      "meaning": "美；美丽；美景",
+      "perfective": "",
+      "note": "美景常用复数красоты。",
+      "stage": 1,
+      "original": {
+        "word": "красота",
+        "part_of_speech": "阴",
+        "meaning_zh": "美丽；美好",
+        "source_page": 126,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "красота",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=126"
+      ]
+    },
+    {
+      "id": 8684,
+      "accent": "красть",
+      "part": "动词·未完成体",
+      "meaning": "偷窃；盗窃",
+      "perfective": "укра́сть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "красть",
+        "part_of_speech": "未",
+        "meaning_zh": "偷窃；盗窃",
+        "source_page": 126,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "красть",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=126",
+        "data/words/tem4_russian_words.pdf#page=127"
+      ]
+    },
+    {
+      "id": 8685,
+      "accent": "кра́ткий",
+      "part": "形容词",
+      "meaning": "短暂的；简短的；简明的；短的",
+      "perfective": "",
+      "note": "语音中的短音、语法中的短尾形式须结合搭配。",
+      "stage": 2,
+      "original": {
+        "word": "краткий",
+        "part_of_speech": "形",
+        "meaning_zh": "简短的；简明的；短的",
+        "source_page": 127,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "краткий",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=127"
+      ]
+    },
+    {
+      "id": 8686,
+      "accent": "кре́пкий",
+      "part": "形容词",
+      "meaning": "坚硬的；牢固的；结实的；强壮的；坚强的；浓的；强烈的；酣的",
+      "perfective": "",
+      "note": "酣见крепкий сон；酒的强烈与茶的浓按宾语区分。",
+      "stage": 2,
+      "original": {
+        "word": "крепкий",
+        "part_of_speech": "副 крёпко",
+        "meaning_zh": "坚硬的；结实的；强壮的；坚强的；浓的；猛烈的",
+        "source_page": 127,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "крепкий",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=127"
+      ]
+    },
+    {
+      "id": 8687,
+      "accent": "кре́пость",
+      "part": "名词·阴性",
+      "meaning": "要塞；堡垒",
+      "perfective": "",
+      "note": "原条为要塞义，不混入坚固程度等同形词义；е不是ё。",
+      "stage": 2,
+      "original": {
+        "word": "крёпость",
+        "part_of_speech": "阴",
+        "meaning_zh": "要塞；堡垒",
+        "source_page": 127,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "крепость",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=127",
+        "原条要塞义，е非ё。"
+      ]
+    },
+    {
+      "id": 8688,
+      "accent": "кре́сло",
+      "part": "名词·中性",
+      "meaning": "扶手椅；安乐椅",
+      "perfective": "",
+      "note": "е不是ё。",
+      "stage": 1,
+      "original": {
+        "word": "крёсло",
+        "part_of_speech": "中",
+        "meaning_zh": "扶手椅；安乐椅",
+        "source_page": 127,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кресло",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=127",
+        "е非ё。"
+      ]
+    },
+    {
+      "id": 8689,
+      "accent": "крестья́нин",
+      "part": "名词·阳性",
+      "meaning": "农民",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "крестьянин",
+        "part_of_speech": "阳",
+        "meaning_zh": "农民",
+        "source_page": 127,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "крестьянин",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=127"
+      ]
+    },
+    {
+      "id": 8690,
+      "accent": "криво́й",
+      "part": "形容词",
+      "meaning": "弯曲的；歪斜的",
+      "perfective": "",
+      "note": "本来源为形状不直，不把它和косой的斜视义直接混同。",
+      "stage": 2,
+      "original": {
+        "word": "кривой",
+        "part_of_speech": "形",
+        "meaning_zh": "弯曲的；歪斜的；斜视的",
+        "source_page": 127,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кривой",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=127"
+      ]
+    },
+    {
+      "id": 8692,
+      "accent": "кри́тика",
+      "part": "名词·阴性",
+      "meaning": "批评；评论；批判",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "критика",
+        "part_of_speech": "阮",
+        "meaning_zh": "批评；评论；批判",
+        "source_page": 127,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "критика",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=127"
+      ]
+    },
+    {
+      "id": 8693,
+      "accent": "критикова́ть",
+      "part": "动词·未完成体",
+      "meaning": "批评；评论；指责",
+      "perfective": "",
+      "note": "原页критикнуть为一次性口语动作，不作为通用等义体对展示。",
+      "stage": 2,
+      "original": {
+        "word": "критиковать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "批评；评论；指责",
+        "source_page": 127,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "критиковать",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=127"
+      ]
+    },
+    {
+      "id": 8694,
+      "accent": "крича́ть",
+      "part": "动词·未完成体",
+      "meaning": "叫喊；呼喊；斥责；责骂",
+      "perfective": "кри́кнуть",
+      "note": "完成体为喊一声；责骂某人常接на加第四格。",
+      "stage": 1,
+      "original": {
+        "word": "кричать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "叫喊；呼喊；斥责；责骂",
+        "source_page": 127,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кричать",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=127"
+      ]
+    },
+    {
+      "id": 8695,
+      "accent": "крова́ть",
+      "part": "名词·阴性",
+      "meaning": "床",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "кровать",
+        "part_of_speech": "阴",
+        "meaning_zh": "床",
+        "source_page": 127,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кровать",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=127",
+        "data/words/tem4_russian_words.pdf#page=128"
+      ]
+    },
+    {
+      "id": 8696,
+      "accent": "кро́ме",
+      "part": "前置词",
+      "meaning": "除……以外；除……之外还",
+      "perfective": "",
+      "note": "接第二格，既可排除也可补充；此外常由кроме того表达。",
+      "stage": 1,
+      "original": {
+        "word": "кроме",
+        "part_of_speech": "前",
+        "meaning_zh": "除……以外；此外",
+        "source_page": 128,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кроме",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=128"
+      ]
+    },
+    {
+      "id": 8697,
+      "accent": "круг",
+      "part": "名词·阳性",
+      "meaning": "圆；圆圈；圆形场地；环形物；范围；圈子；界",
+      "perfective": "",
+      "note": "圈子、界见社交或文学领域等语境。",
+      "stage": 2,
+      "original": {
+        "word": "круг",
+        "part_of_speech": "阳",
+        "meaning_zh": "圆；圆圈；圆形场地；环形物",
+        "source_page": 128,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "круг",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=128"
+      ]
+    },
+    {
+      "id": 8698,
+      "accent": "кру́глый",
+      "part": "形容词",
+      "meaning": "圆的；圆形的；完全的；十足的；整整的",
+      "perfective": "",
+      "note": "整整一年来自круглый год，不把一年限定写进词头义。",
+      "stage": 1,
+      "original": {
+        "word": "круглый",
+        "part_of_speech": "形",
+        "meaning_zh": "圆的；圆形的；整整的；完整一年的",
+        "source_page": 128,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "круглый",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=128"
+      ]
+    },
+    {
+      "id": 8699,
+      "accent": "круго́м",
+      "part": "副词；前置词",
+      "meaning": "绕着；四周；到处；在……周围",
+      "perfective": "",
+      "note": "作前置词接第二格。",
+      "stage": 2,
+      "original": {
+        "word": "кругом",
+        "part_of_speech": "副",
+        "meaning_zh": "围绕；绕着；四周；到处",
+        "source_page": 128,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кругом",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=128"
+      ]
+    },
+    {
+      "id": 8700,
+      "accent": "кружо́к",
+      "part": "名词·阳性",
+      "meaning": "小圈；小组；兴趣小组",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "кружок",
+        "part_of_speech": "阳",
+        "meaning_zh": "小圈；小组；兴趣小组",
+        "source_page": 128,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кружок",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=128"
+      ]
+    },
+    {
+      "id": 8701,
+      "accent": "кру́пный",
+      "part": "形容词",
+      "meaning": "大的；大粒的；大型的；重要的；重大的；严重的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "крупный",
+        "part_of_speech": "形",
+        "meaning_zh": "大的；大粒的；大型的；重要的；严重的",
+        "source_page": 128,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "крупный",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=128"
+      ]
+    },
+    {
+      "id": 8702,
+      "accent": "круто́й",
+      "part": "形容词",
+      "meaning": "陡的；陡峭的；急剧的；突然的",
+      "perfective": "",
+      "note": "本来源为地形与变化义。",
+      "stage": 2,
+      "original": {
+        "word": "крутой",
+        "part_of_speech": "形",
+        "meaning_zh": "陡的；陡峭的；急剧的；突然的",
+        "source_page": 128,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "крутой",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=128"
+      ]
+    },
+    {
+      "id": 8703,
+      "accent": "крыло́",
+      "part": "名词·中性",
+      "meaning": "翅膀；机翼；翼；派别的一翼",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "крыло",
+        "part_of_speech": "中",
+        "meaning_zh": "翅膀；机翼；翼",
+        "source_page": 128,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "крыло",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=128"
+      ]
+    },
+    {
+      "id": 8704,
+      "accent": "крыльцо́",
+      "part": "名词·中性",
+      "meaning": "门前台阶；门廊",
+      "perfective": "",
+      "note": "不泛指所有台阶。",
+      "stage": 2,
+      "original": {
+        "word": "крыльцо",
+        "part_of_speech": "中",
+        "meaning_zh": "台阶；门廊",
+        "source_page": 128,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "крыльцо",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=128"
+      ]
+    },
+    {
+      "id": 8705,
+      "accent": "кры́ша",
+      "part": "名词·阴性",
+      "meaning": "房顶；屋顶",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "крыша",
+        "part_of_speech": "阴",
+        "meaning_zh": "房顶；屋顶",
+        "source_page": 128,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "крыша",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=128"
+      ]
+    },
+    {
+      "id": 8706,
+      "accent": "кста́ти",
+      "part": "副词；插入语用法",
+      "meaning": "恰好；正是时候；顺便；顺便说一句",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "кстати",
+        "part_of_speech": "副",
+        "meaning_zh": "恰好；正是时候；顺便；顺便说一句",
+        "source_page": 129,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кстати",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=129"
+      ]
+    },
+    {
+      "id": 8707,
+      "accent": "кто",
+      "part": "代词",
+      "meaning": "谁；什么人",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "кто",
+        "part_of_speech": "代",
+        "meaning_zh": "谁；什么人",
+        "source_page": 129,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кто",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=129"
+      ]
+    },
+    {
+      "id": 8708,
+      "accent": "кто-нибудь",
+      "part": "不定代词",
+      "meaning": "某个人；随便什么人；任何人",
+      "perfective": "",
+      "note": "不指定具体人，按问句或请求等语境翻译。",
+      "stage": 1,
+      "original": {
+        "word": "кто-нибудь",
+        "part_of_speech": "代",
+        "meaning_zh": "无论谁；任何人；随便什么人",
+        "source_page": 129,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "кто-нибудь",
+      "method": "2026-09-14当前助手逐词对照专四PDF126至129页，核对重音、性体、中文核心义与续文；修复е/ё误识并分开固定搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=129"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+ "method":"2026-09-14当前助手逐项视觉核对专四PDF141至142页，核心义与搭配分开，核对重音及词性。",
+ "columns":["id","accent","part","meaning","perfective","note","stage"],
+ "sources":{"8849":["data/words/tem4_russian_words.pdf#page=141"],"8850":["data/words/tem4_russian_words.pdf#page=141"],"8851":["data/words/tem4_russian_words.pdf#page=141"],"8852":["data/words/tem4_russian_words.pdf#page=141"],"8853":["data/words/tem4_russian_words.pdf#page=141"],"8855":["data/words/tem4_russian_words.pdf#page=141"],"8856":["data/words/tem4_russian_words.pdf#page=141"],"8857":["data/words/tem4_russian_words.pdf#page=141"],"8858":["data/words/tem4_russian_words.pdf#page=141"],"8859":["data/words/tem4_russian_words.pdf#page=141","data/words/tem4_russian_words.pdf#page=142"],"8860":["data/words/tem4_russian_words.pdf#page=142"]},
+ "rows":[
+ [8849,"мероприя́тие","名词·中性","措施；活动；有组织的活动项目","","原页列措施，保留常用活动义；不泛指任意事项。",2],
+ [8850,"мёртвый","形容词","死的；无生气的；死气沉沉的；僵死的；不起作用的","","保留ё。",2],
+ [8851,"ме́стность","名词·阴性","地方；地带；地区；地形","","",2],
+ [8852,"ме́стный","形容词","地方的；本地的；当地的；局部的","","",2],
+ [8853,"ме́сто","名词·中性","地方；位置；座位；地区；地位；名次；职位；名额","","地方机关义常用复数места。",1],
+ [8855,"мета́лл","名词·阳性","金属","","有色、贵重、黑色金属是分类词组，不把钢铁当所有金属的同义词。",2],
+ [8856,"ме́тод","名词·阳性","方法；方式","","",2],
+ [8857,"метр","名词·阳性","米；公尺；米尺","","原页第二义是米尺，补回。",1],
+ [8858,"метро́","名词·中性·不变格","地铁；地下铁路","","",1],
+ [8859,"мех","名词·阳性","兽毛；毛皮；裘皮衣服","","衣服义常用复数меха，不泛指任何皮衣。",2],
+ [8860,"механиза́ция","名词·阴性","机械化","","",3]
+ ]
+}

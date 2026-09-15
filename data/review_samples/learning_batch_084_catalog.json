@@ -1,0 +1,653 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8821,
+      "accent": "математи́ческий",
+      "part": "形容词",
+      "meaning": "数学的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "математический",
+        "part_of_speech": "形",
+        "meaning_zh": "数学的",
+        "source_page": 138,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "математический",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=138"
+      ]
+    },
+    {
+      "id": 8822,
+      "accent": "материа́л",
+      "part": "名词·阳性",
+      "meaning": "材料；原料；资料；衣料",
+      "perfective": "",
+      "note": "资料常用复数материалы。",
+      "stage": 2,
+      "original": {
+        "word": "материал",
+        "part_of_speech": "阳",
+        "meaning_zh": "材料；原料；资料",
+        "source_page": 138,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "материал",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=138"
+      ]
+    },
+    {
+      "id": 8823,
+      "accent": "материа́льный",
+      "part": "形容词",
+      "meaning": "物质的；材料的；物质上的；钱财上的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "материальный",
+        "part_of_speech": "形",
+        "meaning_zh": "物质的；物质上的；钱财上的",
+        "source_page": 138,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "материальный",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=138"
+      ]
+    },
+    {
+      "id": 8824,
+      "accent": "мате́рия",
+      "part": "名词·阴性",
+      "meaning": "物质；布料；衣料",
+      "perfective": "",
+      "note": "物质存在的形式是формы существования материи整段，不并为单词义。",
+      "stage": 2,
+      "original": {
+        "word": "материя",
+        "part_of_speech": "阴",
+        "meaning_zh": "物质；物质存在的形式；布料；衣料",
+        "source_page": 138,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "материя",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=138",
+        "data/words/tem4_russian_words.pdf#page=139"
+      ]
+    },
+    {
+      "id": 8825,
+      "accent": "матро́с",
+      "part": "名词·阳性",
+      "meaning": "水兵；水手",
+      "perfective": "",
+      "note": "也可指商船水手，不限定全部为海军人员。",
+      "stage": 2,
+      "original": {
+        "word": "матрос",
+        "part_of_speech": "阳",
+        "meaning_zh": "水兵；海军士兵",
+        "source_page": 139,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "матрос",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=139"
+      ]
+    },
+    {
+      "id": 8826,
+      "accent": "матч",
+      "part": "名词·阳性",
+      "meaning": "比赛；场比赛",
+      "perfective": "",
+      "note": "决赛、友谊赛分别由финальный、дружеский等修饰语表示。",
+      "stage": 1,
+      "original": {
+        "word": "матч",
+        "part_of_speech": null,
+        "meaning_zh": "比赛；比赛场次；决赛；友谊赛",
+        "source_page": 139,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "матч",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=139"
+      ]
+    },
+    {
+      "id": 8827,
+      "accent": "мать",
+      "part": "名词·阴性",
+      "meaning": "母亲；妈妈；源泉；基础",
+      "perfective": "",
+      "note": "源泉、基础为原页明确列出的比喻义，不是此处的OCR噪声。",
+      "stage": 1,
+      "original": {
+        "word": "мать",
+        "part_of_speech": "阴",
+        "meaning_zh": "母亲；妈妈；源泉",
+        "source_page": 139,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мать",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=139"
+      ]
+    },
+    {
+      "id": 8828,
+      "accent": "маха́ть",
+      "part": "动词·未完成体",
+      "meaning": "挥动；摆动；抖动",
+      "perfective": "махну́ть",
+      "note": "完成体为挥动一下。",
+      "stage": 2,
+      "original": {
+        "word": "махать",
+        "part_of_speech": "未",
+        "meaning_zh": "挥动；摆动；抖动",
+        "source_page": 139,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "махать",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=139"
+      ]
+    },
+    {
+      "id": 8829,
+      "accent": "маши́на",
+      "part": "名词·阴性",
+      "meaning": "机器；汽车；机械装置",
+      "perfective": "",
+      "note": "国家机器是государственная машина。",
+      "stage": 1,
+      "original": {
+        "word": "машина",
+        "part_of_speech": "阴",
+        "meaning_zh": "机器；汽车；设备；国家机器",
+        "source_page": 139,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "машина",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=139"
+      ]
+    },
+    {
+      "id": 8830,
+      "accent": "машини́ст",
+      "part": "名词·阳性",
+      "meaning": "机车司机；机器操作员",
+      "perfective": "",
+      "note": "具体设备需按修饰词判断。",
+      "stage": 2,
+      "original": {
+        "word": "машинист",
+        "part_of_speech": "阳",
+        "meaning_zh": "机车司机；机器操作员",
+        "source_page": 139,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "машинист",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=139"
+      ]
+    },
+    {
+      "id": 8831,
+      "accent": "ме́бель",
+      "part": "名词·阴性·集合义",
+      "meaning": "家具",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "мебель",
+        "part_of_speech": "阴",
+        "meaning_zh": "家具",
+        "source_page": 139,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мебель",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=139"
+      ]
+    },
+    {
+      "id": 8832,
+      "accent": "мёд",
+      "part": "名词·阳性",
+      "meaning": "蜂蜜",
+      "perfective": "",
+      "note": "保留ё。",
+      "stage": 1,
+      "original": {
+        "word": "мёд",
+        "part_of_speech": "阳",
+        "meaning_zh": "蜂蜜",
+        "source_page": 139,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мёд",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=139"
+      ]
+    },
+    {
+      "id": 8833,
+      "accent": "меда́ль",
+      "part": "名词·阴性",
+      "meaning": "奖章；纪念章；奖牌",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "медаль",
+        "part_of_speech": "阴",
+        "meaning_zh": "奖章；纪念章；奖牌",
+        "source_page": 139,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "медаль",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=139"
+      ]
+    },
+    {
+      "id": 8834,
+      "accent": "медве́дь",
+      "part": "名词·阳性",
+      "meaning": "熊",
+      "perfective": "",
+      "note": "北极熊、棕熊、黑熊需相应修饰词，不能逐项当本词直接义。",
+      "stage": 1,
+      "original": {
+        "word": "медведь",
+        "part_of_speech": "阳",
+        "meaning_zh": "熊；北极熊；棕熊；黑熊",
+        "source_page": 139,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "медведь",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=139"
+      ]
+    },
+    {
+      "id": 8835,
+      "accent": "медици́на",
+      "part": "名词·阴性",
+      "meaning": "医学；医疗",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "медицина",
+        "part_of_speech": "阴",
+        "meaning_zh": "医学；医疗",
+        "source_page": 139,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "медицина",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=139"
+      ]
+    },
+    {
+      "id": 8836,
+      "accent": "медици́нский",
+      "part": "形容词",
+      "meaning": "医学的；医务的；医疗的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "медицинский",
+        "part_of_speech": "形",
+        "meaning_zh": "医学的；医务的；医疗的",
+        "source_page": 139,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "медицинский",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=139"
+      ]
+    },
+    {
+      "id": 8837,
+      "accent": "ме́дленный",
+      "part": "形容词",
+      "meaning": "慢的；缓慢的；（坡度）缓的",
+      "perfective": "",
+      "note": "缓坡义原页有明确搭配，不泛译缓坡这一名词。",
+      "stage": 1,
+      "original": {
+        "word": "медленный",
+        "part_of_speech": "形",
+        "meaning_zh": "慢的；缓慢的；缓坡的",
+        "source_page": 139,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "медленный",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=139",
+        "data/words/tem4_russian_words.pdf#page=140"
+      ]
+    },
+    {
+      "id": 8838,
+      "accent": "медь",
+      "part": "名词·阴性",
+      "meaning": "铜；铜制品；铜钱",
+      "perfective": "",
+      "note": "铜钱义不等于所有零钱。",
+      "stage": 2,
+      "original": {
+        "word": "медь",
+        "part_of_speech": "阮",
+        "meaning_zh": "铜；铜制品；零钱",
+        "source_page": 140,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "медь",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=140"
+      ]
+    },
+    {
+      "id": 8839,
+      "accent": "ме́жду",
+      "part": "前置词",
+      "meaning": "在……之间；介于……之间；相互之间",
+      "perfective": "",
+      "note": "本页常用第五格。",
+      "stage": 1,
+      "original": {
+        "word": "между",
+        "part_of_speech": "№",
+        "meaning_zh": "在……之间；介于……之间；相互之间",
+        "source_page": 140,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "между",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=140"
+      ]
+    },
+    {
+      "id": 8840,
+      "accent": "междунаро́дный",
+      "part": "形容词",
+      "meaning": "国际的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "международный",
+        "part_of_speech": "形",
+        "meaning_zh": "国际的",
+        "source_page": 140,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "международный",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=140"
+      ]
+    },
+    {
+      "id": 8841,
+      "accent": "мел",
+      "part": "名词·阳性",
+      "meaning": "白垩；粉笔",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "мел",
+        "part_of_speech": "阳",
+        "meaning_zh": "粉笔",
+        "source_page": 140,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мел",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=140"
+      ]
+    },
+    {
+      "id": 8842,
+      "accent": "ме́лочь",
+      "part": "名词·阴性",
+      "meaning": "小物件；零碎物品；零钱；小事",
+      "perfective": "",
+      "note": "修复е误识为ё。",
+      "stage": 2,
+      "original": {
+        "word": "мёлочь",
+        "part_of_speech": "阴",
+        "meaning_zh": "小物件；零碎物品；零钱；小事",
+        "source_page": 140,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мелочь",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=140",
+        "е非ё。"
+      ]
+    },
+    {
+      "id": 8843,
+      "accent": "мелька́ть",
+      "part": "动词·未完成体",
+      "meaning": "闪烁；闪现；隐约显出；闪过",
+      "perfective": "мелькну́ть",
+      "note": "完成体常表示闪过一下。",
+      "stage": 2,
+      "original": {
+        "word": "мелькать",
+        "part_of_speech": "未",
+        "meaning_zh": "闪烁；闪现；隐约显出；闪过",
+        "source_page": 140,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мелькать",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=140"
+      ]
+    },
+    {
+      "id": 8844,
+      "accent": "ме́нее",
+      "part": "比较级",
+      "meaning": "较少；较小；不那么；不如",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "менее",
+        "part_of_speech": "比 较 级",
+        "meaning_zh": "较少；较小；不那么；不如",
+        "source_page": 140,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "менее",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=140"
+      ]
+    },
+    {
+      "id": 8845,
+      "accent": "меньшинство́",
+      "part": "名词·中性",
+      "meaning": "少数；少数群体",
+      "perfective": "",
+      "note": "少数民族是национальные меньшинства。",
+      "stage": 2,
+      "original": {
+        "word": "меньшинство",
+        "part_of_speech": "中",
+        "meaning_zh": "少数；少数群体；少数民族",
+        "source_page": 140,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "меньшинство",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=140"
+      ]
+    },
+    {
+      "id": 8846,
+      "accent": "меню́",
+      "part": "名词·中性·不变格",
+      "meaning": "菜单；食谱",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "меню",
+        "part_of_speech": "中 , 不 变",
+        "meaning_zh": "菜单；食谱",
+        "source_page": 140,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "меню",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=140"
+      ]
+    },
+    {
+      "id": 8847,
+      "accent": "ме́ра",
+      "part": "名词·阴性",
+      "meaning": "度量单位；尺度；程度；办法；措施",
+      "perfective": "",
+      "note": "按照、随着由по мере等词组表达，不并为名词义。",
+      "stage": 2,
+      "original": {
+        "word": "мера",
+        "part_of_speech": "阮",
+        "meaning_zh": "度量单位；程度；办法；措施；按照；随着",
+        "source_page": 140,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мера",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=140"
+      ]
+    },
+    {
+      "id": 8848,
+      "accent": "мёрзнуть",
+      "part": "动词·未完成体",
+      "meaning": "结冰；冻结；感到冷；受冻；冻死；冻坏",
+      "perfective": "замёрзнуть",
+      "note": "完成体体现冻结或受冻的结果；两词均保留ё。",
+      "stage": 2,
+      "original": {
+        "word": "мёрзнуть",
+        "part_of_speech": "未",
+        "meaning_zh": "结冰；冻住",
+        "source_page": 141,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мёрзнуть",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF138至141页，补全原页核心义、修复е/ё并区分词组含义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=141",
+        "补原页感到冷、冻死、冻坏义。"
+      ]
+    }
+  ]
+}

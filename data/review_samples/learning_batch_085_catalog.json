@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8849,
+      "accent": "мероприя́тие",
+      "part": "名词·中性",
+      "meaning": "措施；活动；有组织的活动项目",
+      "perfective": "",
+      "note": "原页列措施，保留常用活动义；不泛指任意事项。",
+      "stage": 2,
+      "original": {
+        "word": "мероприятие",
+        "part_of_speech": "中",
+        "meaning_zh": "活动；措施；事项；活动项目",
+        "source_page": 141,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мероприятие",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF141至142页，核心义与搭配分开，核对重音及词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=141"
+      ]
+    },
+    {
+      "id": 8850,
+      "accent": "мёртвый",
+      "part": "形容词",
+      "meaning": "死的；无生气的；死气沉沉的；僵死的；不起作用的",
+      "perfective": "",
+      "note": "保留ё。",
+      "stage": 2,
+      "original": {
+        "word": "мёртвый",
+        "part_of_speech": "形",
+        "meaning_zh": "死的；无生气的；僵死的；停滞的",
+        "source_page": 141,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мёртвый",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF141至142页，核心义与搭配分开，核对重音及词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=141"
+      ]
+    },
+    {
+      "id": 8851,
+      "accent": "ме́стность",
+      "part": "名词·阴性",
+      "meaning": "地方；地带；地区；地形",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "местность",
+        "part_of_speech": "阴",
+        "meaning_zh": "地方；地带；地区；地形",
+        "source_page": 141,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "местность",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF141至142页，核心义与搭配分开，核对重音及词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=141"
+      ]
+    },
+    {
+      "id": 8852,
+      "accent": "ме́стный",
+      "part": "形容词",
+      "meaning": "地方的；本地的；当地的；局部的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "местный",
+        "part_of_speech": "形",
+        "meaning_zh": "地方的；本地的；当地的；局部的",
+        "source_page": 141,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "местный",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF141至142页，核心义与搭配分开，核对重音及词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=141"
+      ]
+    },
+    {
+      "id": 8853,
+      "accent": "ме́сто",
+      "part": "名词·中性",
+      "meaning": "地方；位置；座位；地区；地位；名次；职位；名额",
+      "perfective": "",
+      "note": "地方机关义常用复数места。",
+      "stage": 1,
+      "original": {
+        "word": "место",
+        "part_of_speech": "中",
+        "meaning_zh": "地方；位置；座位；地位；职位；名额",
+        "source_page": 141,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "место",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF141至142页，核心义与搭配分开，核对重音及词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=141"
+      ]
+    },
+    {
+      "id": 8855,
+      "accent": "мета́лл",
+      "part": "名词·阳性",
+      "meaning": "金属",
+      "perfective": "",
+      "note": "有色、贵重、黑色金属是分类词组，不把钢铁当所有金属的同义词。",
+      "stage": 2,
+      "original": {
+        "word": "металл",
+        "part_of_speech": "阳",
+        "meaning_zh": "金属；钢铁；有色金属；贵重金属",
+        "source_page": 141,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "металл",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF141至142页，核心义与搭配分开，核对重音及词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=141"
+      ]
+    },
+    {
+      "id": 8856,
+      "accent": "ме́тод",
+      "part": "名词·阳性",
+      "meaning": "方法；方式",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "метод",
+        "part_of_speech": "阳",
+        "meaning_zh": "方法；方式",
+        "source_page": 141,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "метод",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF141至142页，核心义与搭配分开，核对重音及词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=141"
+      ]
+    },
+    {
+      "id": 8857,
+      "accent": "метр",
+      "part": "名词·阳性",
+      "meaning": "米；公尺；米尺",
+      "perfective": "",
+      "note": "原页第二义是米尺，补回。",
+      "stage": 1,
+      "original": {
+        "word": "метр",
+        "part_of_speech": "阳",
+        "meaning_zh": "米；公尺；米制单位",
+        "source_page": 141,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "метр",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF141至142页，核心义与搭配分开，核对重音及词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=141"
+      ]
+    },
+    {
+      "id": 8858,
+      "accent": "метро́",
+      "part": "名词·中性·不变格",
+      "meaning": "地铁；地下铁路",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "метро",
+        "part_of_speech": "中 , 不 变",
+        "meaning_zh": "地铁；地下铁路",
+        "source_page": 141,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "метро",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF141至142页，核心义与搭配分开，核对重音及词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=141"
+      ]
+    },
+    {
+      "id": 8859,
+      "accent": "мех",
+      "part": "名词·阳性",
+      "meaning": "兽毛；毛皮；裘皮衣服",
+      "perfective": "",
+      "note": "衣服义常用复数меха，不泛指任何皮衣。",
+      "stage": 2,
+      "original": {
+        "word": "мех",
+        "part_of_speech": "阳",
+        "meaning_zh": "毛；毛皮；皮衣",
+        "source_page": 141,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мех",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF141至142页，核心义与搭配分开，核对重音及词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=141",
+        "data/words/tem4_russian_words.pdf#page=142"
+      ]
+    },
+    {
+      "id": 8860,
+      "accent": "механиза́ция",
+      "part": "名词·阴性",
+      "meaning": "机械化",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "механизация",
+        "part_of_speech": "阮",
+        "meaning_zh": "机械化",
+        "source_page": 142,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "механизация",
+      "method": "2026-09-14当前助手逐项视觉核对专四PDF141至142页，核心义与搭配分开，核对重音及词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=142"
+      ]
+    }
+  ]
+}
