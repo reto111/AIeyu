@@ -1,0 +1,697 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9004,
+      "accent": "нау́чно-техни́ческий",
+      "part": "形容词",
+      "meaning": "科学技术的；科技的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "научно-технический",
+        "part_of_speech": "形",
+        "meaning_zh": "科学技术的",
+        "source_page": 156,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "научно-технический",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=156"
+      ]
+    },
+    {
+      "id": 9005,
+      "accent": "нау́чный",
+      "part": "形容词",
+      "meaning": "科学的；学术的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "научный",
+        "part_of_speech": "形",
+        "meaning_zh": "科学的；学术的",
+        "source_page": 156,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "научный",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=156"
+      ]
+    },
+    {
+      "id": 9006,
+      "accent": "находи́ть",
+      "part": "动词，未完成体",
+      "meaning": "找到；发现；获得；求得；认为",
+      "perfective": "найти́",
+      "note": "认为义常接что从句或宾语与五格表语，属较书面用法。",
+      "stage": 1,
+      "original": {
+        "word": "находить",
+        "part_of_speech": null,
+        "meaning_zh": "找到；获得；求得；认为",
+        "source_page": 157,
+        "source_line": "1"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "находить",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=156",
+        "data/words/tem4_russian_words.pdf#page=157"
+      ]
+    },
+    {
+      "id": 9007,
+      "accent": "находи́ться",
+      "part": "动词，未完成体",
+      "meaning": "在；位于；处于",
+      "perfective": "",
+      "note": "本条为位置或状态义，无通用完成体；найтись表示被找到、出现等，不能当作位于的完成体。",
+      "stage": 1,
+      "original": {
+        "word": "находиться",
+        "part_of_speech": "未",
+        "meaning_zh": "在；位于；处于",
+        "source_page": 157,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "находиться",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=157"
+      ]
+    },
+    {
+      "id": 9008,
+      "accent": "национа́льность",
+      "part": "名词，阴性",
+      "meaning": "民族；民族属性；民族特色",
+      "perfective": "",
+      "note": "现代俄语常指民族归属，不默认译成法律意义上的国籍；国籍通常用гражданство。",
+      "stage": 2,
+      "original": {
+        "word": "национальность",
+        "part_of_speech": "阴",
+        "meaning_zh": "民族；民族性",
+        "source_page": 157,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "национальность",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=157"
+      ]
+    },
+    {
+      "id": 9009,
+      "accent": "национа́льный",
+      "part": "形容词",
+      "meaning": "民族的；国家的；国立的；国民的；全国的",
+      "perfective": "",
+      "note": "具体译法取决于机构、象征、经济等搭配。",
+      "stage": 2,
+      "original": {
+        "word": "национальный",
+        "part_of_speech": "形",
+        "meaning_zh": "民族的；国家的；国立的；国民的；全国的",
+        "source_page": 157,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "национальный",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=157"
+      ]
+    },
+    {
+      "id": 9010,
+      "accent": "на́ция",
+      "part": "名词，阴性",
+      "meaning": "民族；国家",
+      "perfective": "",
+      "note": "国家义见Организация Объединённых Наций联合国；不额外把民族国家当作所有场景的固定译法。",
+      "stage": 2,
+      "original": {
+        "word": "нация",
+        "part_of_speech": "阴",
+        "meaning_zh": "民族；民族国家",
+        "source_page": 157,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "нация",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=157"
+      ]
+    },
+    {
+      "id": 9011,
+      "accent": "нача́ло",
+      "part": "名词，中性",
+      "meaning": "开始；开端；起点；起源；基础；原则",
+      "perfective": "",
+      "note": "基础知识、原则义常以复数начала或началах出现。",
+      "stage": 1,
+      "original": {
+        "word": "начало",
+        "part_of_speech": "中",
+        "meaning_zh": "开端；开始；起点；起因；起源；基础；原则",
+        "source_page": 157,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "начало",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=157"
+      ]
+    },
+    {
+      "id": 9012,
+      "accent": "нача́льник",
+      "part": "名词，阳性",
+      "meaning": "负责人；主管；上司；首长",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "начальник",
+        "part_of_speech": "阳",
+        "meaning_zh": "负责人；主管；部门负责人",
+        "source_page": 157,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "начальник",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=157"
+      ]
+    },
+    {
+      "id": 9013,
+      "accent": "нача́льный",
+      "part": "形容词",
+      "meaning": "最初的；开始的；初级的；小学的",
+      "perfective": "",
+      "note": "начальная школа为小学。",
+      "stage": 1,
+      "original": {
+        "word": "начальный",
+        "part_of_speech": "形",
+        "meaning_zh": "最初的；初级的；小学的",
+        "source_page": 157,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "начальный",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=157"
+      ]
+    },
+    {
+      "id": 9015,
+      "accent": "начина́ться",
+      "part": "动词，未完成体",
+      "meaning": "开始；开始发生",
+      "perfective": "нача́ться",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "начинаться",
+        "part_of_speech": "未",
+        "meaning_zh": "开始；开始发生",
+        "source_page": 157,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "начинаться",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=157"
+      ]
+    },
+    {
+      "id": 9016,
+      "accent": "наш",
+      "part": "物主代词",
+      "meaning": "我们的",
+      "perfective": "",
+      "note": "形式随被修饰名词变化：наш、наша、наше、наши。",
+      "stage": 1,
+      "original": {
+        "word": "наш",
+        "part_of_speech": "阳",
+        "meaning_zh": "我们的",
+        "source_page": 157,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "наш",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=157"
+      ]
+    },
+    {
+      "id": 9017,
+      "accent": "не",
+      "part": "语气词",
+      "meaning": "不；没有；别；不要",
+      "perfective": "",
+      "note": "表示否定；不要与加强否定的ни混淆。",
+      "stage": 1,
+      "original": {
+        "word": "не",
+        "part_of_speech": "语",
+        "meaning_zh": "不；没有；别；不要",
+        "source_page": 158,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "не",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=158"
+      ]
+    },
+    {
+      "id": 9018,
+      "accent": "не́бо",
+      "part": "名词，中性",
+      "meaning": "天；天空",
+      "perfective": "",
+      "note": "露天对应под открытым небом，不是небо单独的副词义；别与нёбо上腭混淆。",
+      "stage": 1,
+      "original": {
+        "word": "небо",
+        "part_of_speech": "中",
+        "meaning_zh": "天空；天；露天",
+        "source_page": 158,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "небо",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=158"
+      ]
+    },
+    {
+      "id": 9019,
+      "accent": "небре́жный",
+      "part": "形容词",
+      "meaning": "漫不经心的；粗枝大叶的；草率的；潦草的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "небрежный",
+        "part_of_speech": "形",
+        "meaning_zh": "漫不经心的；粗枝大叶的；草率的",
+        "source_page": 158,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "небрежный",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=158"
+      ]
+    },
+    {
+      "id": 9020,
+      "accent": "небре́жно",
+      "part": "副词",
+      "meaning": "马马虎虎地；草率地；不认真地；潦草地",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "небрежно",
+        "part_of_speech": "副",
+        "meaning_zh": "马马虎虎地；草率地；不认真地",
+        "source_page": 158,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "небрежно",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=158"
+      ]
+    },
+    {
+      "id": 9021,
+      "accent": "нева́жно",
+      "part": "副词、谓语词",
+      "meaning": "不大好；不怎么样；不要紧；不重要",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "неважно",
+        "part_of_speech": "副",
+        "meaning_zh": "不大好；不怎么样；不要紧",
+        "source_page": 158,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "неважно",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=158"
+      ]
+    },
+    {
+      "id": 9022,
+      "accent": "неве́ста",
+      "part": "名词，阴性",
+      "meaning": "新娘；未婚妻",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "невеста",
+        "part_of_speech": "阴",
+        "meaning_zh": "新娘；未婚妻",
+        "source_page": 158,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "невеста",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=158"
+      ]
+    },
+    {
+      "id": 9023,
+      "accent": "невозмо́жно",
+      "part": "谓语词",
+      "meaning": "不可能；不能",
+      "perfective": "",
+      "note": "常接不定式表达无法完成某事。",
+      "stage": 1,
+      "original": {
+        "word": "невозможно",
+        "part_of_speech": null,
+        "meaning_zh": "不可能；不能",
+        "source_page": 158,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "невозможно",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=158"
+      ]
+    },
+    {
+      "id": 9024,
+      "accent": "не́где",
+      "part": "代词副词、谓语词",
+      "meaning": "没有地方；无处",
+      "perfective": "",
+      "note": "原词头ё应为е；如негде жить无处居住。",
+      "stage": 1,
+      "original": {
+        "word": "нёгде",
+        "part_of_speech": "副",
+        "meaning_zh": "没有地方；无处",
+        "source_page": 158,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "негде",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=158"
+      ]
+    },
+    {
+      "id": 9025,
+      "accent": "неда́вно",
+      "part": "副词",
+      "meaning": "不久以前；最近",
+      "perfective": "",
+      "note": "指过去不久，不表达未来的不久。",
+      "stage": 1,
+      "original": {
+        "word": "недавно",
+        "part_of_speech": "副",
+        "meaning_zh": "不久以前；最近",
+        "source_page": 158,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "недавно",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=158"
+      ]
+    },
+    {
+      "id": 9026,
+      "accent": "недалеко́",
+      "part": "副词、谓语词",
+      "meaning": "不远；很近；为期不远",
+      "perfective": "",
+      "note": "时间义是某时刻将近，如недалеко до праздника；不把很快当作任意动作的速度副词。",
+      "stage": 1,
+      "original": {
+        "word": "недалеко",
+        "part_of_speech": "副",
+        "meaning_zh": "不远；很近；不久；很快",
+        "source_page": 158,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "недалеко",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=158"
+      ]
+    },
+    {
+      "id": 9027,
+      "accent": "неда́ром",
+      "part": "副词",
+      "meaning": "不是无缘无故；难怪；无怪乎",
+      "perfective": "",
+      "note": "与分写не даром不免费区分。",
+      "stage": 2,
+      "original": {
+        "word": "недаром",
+        "part_of_speech": "副",
+        "meaning_zh": "不无原因；难怪；无怪乎",
+        "source_page": 158,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "недаром",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=158"
+      ]
+    },
+    {
+      "id": 9029,
+      "accent": "недоста́ток",
+      "part": "名词，阳性",
+      "meaning": "缺点；缺陷；缺乏；缺少；不足",
+      "perfective": "",
+      "note": "缺少什么常接二格，如недостаток времени。",
+      "stage": 2,
+      "original": {
+        "word": "недостаток",
+        "part_of_speech": "阳",
+        "meaning_zh": "缺点；缺陷；缺乏；缺少；不足",
+        "source_page": 158,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "недостаток",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=158",
+        "data/words/tem4_russian_words.pdf#page=159"
+      ]
+    },
+    {
+      "id": 9030,
+      "accent": "недоста́точно",
+      "part": "副词、谓语词",
+      "meaning": "不够；不足；不十分",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "недостаточно",
+        "part_of_speech": "副",
+        "meaning_zh": "不十分；不够；不足",
+        "source_page": 159,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "недостаточно",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=159"
+      ]
+    },
+    {
+      "id": 9031,
+      "accent": "не́жный",
+      "part": "形容词",
+      "meaning": "温柔的；温存的；柔软的；细嫩的；柔和的",
+      "perfective": "",
+      "note": "依感情、皮肤、颜色等搭配选择译义。",
+      "stage": 2,
+      "original": {
+        "word": "нежный",
+        "part_of_speech": "形",
+        "meaning_zh": "温柔的；温存的；柔软的；细嫩的；柔和的",
+        "source_page": 159,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "нежный",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=159"
+      ]
+    },
+    {
+      "id": 9032,
+      "accent": "незави́симость",
+      "part": "名词，阴性",
+      "meaning": "独立；独立性；自主性",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "независимость",
+        "part_of_speech": "阴",
+        "meaning_zh": "独立性；自主性",
+        "source_page": 159,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "независимость",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=159"
+      ]
+    },
+    {
+      "id": 9033,
+      "accent": "незави́симый",
+      "part": "形容词",
+      "meaning": "独立的；自主的；不依赖的",
+      "perfective": "",
+      "note": "不依赖某人某事用от加二格。",
+      "stage": 2,
+      "original": {
+        "word": "независимый",
+        "part_of_speech": "形",
+        "meaning_zh": "独立的；自主的；不依赖的；有独立性的",
+        "source_page": 159,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "независимый",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=159"
+      ]
+    },
+    {
+      "id": 9034,
+      "accent": "незаме́тный",
+      "part": "形容词",
+      "meaning": "不显著的；不易察觉的；不起眼的；平凡的",
+      "perfective": "",
+      "note": "原书平庸义用于不突出的人或外表，不等同于所有能力低下的评价。",
+      "stage": 2,
+      "original": {
+        "word": "незаметный",
+        "part_of_speech": "形",
+        "meaning_zh": "不显著的；不易察觉的；平庸的",
+        "source_page": 159,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "незаметный",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=159"
+      ]
+    },
+    {
+      "id": 9035,
+      "accent": "не́зачем",
+      "part": "代词副词、谓语词",
+      "meaning": "不必；无须；没有必要",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "незачем",
+        "part_of_speech": "副",
+        "meaning_zh": "不必；无须；没有必要",
+        "source_page": 159,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "незачем",
+      "method": "2026-09-15当前助手逐词视觉核对PDF156至159页，核重音、核心释义、词性；находиться位置义不机械配найтись。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=159"
+      ]
+    }
+  ]
+}

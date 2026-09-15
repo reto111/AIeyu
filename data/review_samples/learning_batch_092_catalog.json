@@ -1,0 +1,697 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9036,
+      "accent": "нездоро́виться",
+      "part": "动词，未完成体、无人称",
+      "meaning": "感到不舒服；有点病",
+      "perfective": "",
+      "note": "用三格表示感受者：мне нездоровится我不舒服。",
+      "stage": 2,
+      "original": {
+        "word": "нездоровиться",
+        "part_of_speech": "未 , 无 人 称",
+        "meaning_zh": "感到不舒服；有点病",
+        "source_page": 159,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "нездоровиться",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=159"
+      ]
+    },
+    {
+      "id": 9037,
+      "accent": "незнако́мый",
+      "part": "形容词、名词化用法",
+      "meaning": "陌生的；不熟悉的；不了解的；陌生人",
+      "perfective": "",
+      "note": "名词化时指不认识的人；不与неизвестный未知的完全等同。",
+      "stage": 1,
+      "original": {
+        "word": "незнакомый",
+        "part_of_speech": "形",
+        "meaning_zh": "陌生的；不熟悉的；不了解的",
+        "source_page": 159,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "незнакомый",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=159"
+      ]
+    },
+    {
+      "id": 9038,
+      "accent": "неизве́стный",
+      "part": "形容词",
+      "meaning": "未知的；不为人知的；不著名的；无名的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "неизвестный",
+        "part_of_speech": "形",
+        "meaning_zh": "未知的；不认识的；不著名的；无名的",
+        "source_page": 159,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "неизвестный",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=159",
+        "data/words/tem4_russian_words.pdf#page=160"
+      ]
+    },
+    {
+      "id": 9039,
+      "accent": "не́когда",
+      "part": "谓语词",
+      "meaning": "没空；没有时间",
+      "perfective": "",
+      "note": "本条是没时间义，常接不定式；另有曾经义的同形副词，不混作本例句译义。原词头ё应为е。",
+      "stage": 1,
+      "original": {
+        "word": "нёкогда",
+        "part_of_speech": "副",
+        "meaning_zh": "没空；没有时间",
+        "source_page": 160,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "некогда",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=160"
+      ]
+    },
+    {
+      "id": 9040,
+      "accent": "не́кого",
+      "part": "否定代词",
+      "meaning": "没有人可……；没有可以……的人",
+      "perfective": "",
+      "note": "无一格形式；не́кому是无人可去做，не́ с кем是无人可一起做。原词头ё应为е。",
+      "stage": 2,
+      "original": {
+        "word": "нёкого",
+        "part_of_speech": "代",
+        "meaning_zh": "没有人可……；没有可以……的人",
+        "source_page": 160,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "некого",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=160"
+      ]
+    },
+    {
+      "id": 9041,
+      "accent": "не́который",
+      "part": "不定代词",
+      "meaning": "某一；某些；有些",
+      "perfective": "",
+      "note": "复数некоторые也可独立指有些人。",
+      "stage": 1,
+      "original": {
+        "word": "некоторый",
+        "part_of_speech": "代",
+        "meaning_zh": "某一；某些；有些",
+        "source_page": 160,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "некоторый",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=160"
+      ]
+    },
+    {
+      "id": 9042,
+      "accent": "не́куда",
+      "part": "代词副词、谓语词",
+      "meaning": "无处可去；没有地方可放",
+      "perfective": "",
+      "note": "强调方向或去处；与表示地点的негде区分。原词头ё应为е。",
+      "stage": 1,
+      "original": {
+        "word": "нёкуда",
+        "part_of_speech": "副",
+        "meaning_zh": "没有地方；无处",
+        "source_page": 160,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "некуда",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=160"
+      ]
+    },
+    {
+      "id": 9043,
+      "accent": "нельзя́",
+      "part": "谓语词",
+      "meaning": "不可以；不允许；不能；不可能",
+      "perfective": "",
+      "note": "既可表达禁止，也可表达客观不可能，不能一概理解为不准。",
+      "stage": 1,
+      "original": {
+        "word": "нельзя",
+        "part_of_speech": null,
+        "meaning_zh": "不可以；不行；不准；不许",
+        "source_page": 160,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "нельзя",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=160"
+      ]
+    },
+    {
+      "id": 9044,
+      "accent": "неме́дленный",
+      "part": "形容词",
+      "meaning": "立即的；刻不容缓的；毫不迟疑的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "немедленный",
+        "part_of_speech": "形",
+        "meaning_zh": "立即的；刻不容缓的；毫不迟疑的",
+        "source_page": 160,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "немедленный",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=160"
+      ]
+    },
+    {
+      "id": 9045,
+      "accent": "не́мец",
+      "part": "名词，阳性",
+      "meaning": "德国人；德国男子",
+      "perfective": "",
+      "note": "女性对应не́мка。",
+      "stage": 1,
+      "original": {
+        "word": "немец",
+        "part_of_speech": "阳",
+        "meaning_zh": "德国人；德国男子",
+        "source_page": 160,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "немец",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=160"
+      ]
+    },
+    {
+      "id": 9046,
+      "accent": "неме́цкий",
+      "part": "形容词",
+      "meaning": "德国的；德国人的；德语的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "немецкий",
+        "part_of_speech": ")#",
+        "meaning_zh": "德国的；德国人的；德语的",
+        "source_page": 160,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "немецкий",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=160"
+      ]
+    },
+    {
+      "id": 9047,
+      "accent": "немно́го",
+      "part": "副词、不定数量词",
+      "meaning": "稍微；一点儿；不多；一些",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "немного",
+        "part_of_speech": "副",
+        "meaning_zh": "稍许；稍微；一点儿；不多",
+        "source_page": 160,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "немного",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=160"
+      ]
+    },
+    {
+      "id": 9048,
+      "accent": "немо́й",
+      "part": "形容词",
+      "meaning": "哑的；不能说话的；无声的；沉默的",
+      "perfective": "",
+      "note": "немое кино指无声电影。",
+      "stage": 2,
+      "original": {
+        "word": "немой",
+        "part_of_speech": "形",
+        "meaning_zh": "哑的；无声的；沉默的",
+        "source_page": 160,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "немой",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=160"
+      ]
+    },
+    {
+      "id": 9049,
+      "accent": "ненави́деть",
+      "part": "动词，未完成体",
+      "meaning": "憎恨；仇恨；痛恨；厌恶",
+      "perfective": "",
+      "note": "表示持续态度；возненавидеть偏开始憎恨，不强配为本条全义项的通用完成体。",
+      "stage": 2,
+      "original": {
+        "word": "ненавидеть",
+        "part_of_speech": "未",
+        "meaning_zh": "憎恨；仇恨；痛恨",
+        "source_page": 160,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ненавидеть",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=160"
+      ]
+    },
+    {
+      "id": 9050,
+      "accent": "необходи́мо",
+      "part": "谓语词",
+      "meaning": "必须；一定要；有必要",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "необходимо",
+        "part_of_speech": "副",
+        "meaning_zh": "必需；一定要；必须",
+        "source_page": 160,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "необходимо",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=160"
+      ]
+    },
+    {
+      "id": 9051,
+      "accent": "необходи́мость",
+      "part": "名词，阴性",
+      "meaning": "必要性；需要；必然性",
+      "perfective": "",
+      "note": "предметы первой необходимости才是生活必需品；本词不直接指具体物品。",
+      "stage": 2,
+      "original": {
+        "word": "необходимость",
+        "part_of_speech": "阴",
+        "meaning_zh": "必要性；必需品；必然性",
+        "source_page": 160,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "необходимость",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=160"
+      ]
+    },
+    {
+      "id": 9052,
+      "accent": "необходи́мый",
+      "part": "形容词",
+      "meaning": "必要的；必需的；必然的；不可避免的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "необходимый",
+        "part_of_speech": "形",
+        "meaning_zh": "必要的；必需的；必然的；不可避免的",
+        "source_page": 160,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "необходимый",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=160"
+      ]
+    },
+    {
+      "id": 9053,
+      "accent": "необыча́йный",
+      "part": "形容词",
+      "meaning": "非同寻常的；异常的；特别的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "необычайный",
+        "part_of_speech": "形",
+        "meaning_zh": "非常的；异常的",
+        "source_page": 160,
+        "source_line": "17"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "необычайный",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=160",
+        "data/words/tem4_russian_words.pdf#page=161"
+      ]
+    },
+    {
+      "id": 9054,
+      "accent": "неожи́данный",
+      "part": "形容词",
+      "meaning": "意外的；出乎意料的；突然的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "неожиданный",
+        "part_of_speech": "形",
+        "meaning_zh": "意外的；突然的",
+        "source_page": 161,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "неожиданный",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=161"
+      ]
+    },
+    {
+      "id": 9055,
+      "accent": "не́откуда",
+      "part": "代词副词、谓语词",
+      "meaning": "无处可获得；没有来源",
+      "perfective": "",
+      "note": "强调来源，如неоткуда получить помощь无处获得帮助；不是没有地方可去。原词头ё应为е。",
+      "stage": 2,
+      "original": {
+        "word": "нёоткуда",
+        "part_of_speech": "副",
+        "meaning_zh": "无处可……；没有地方可以……",
+        "source_page": 161,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "неоткуда",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=161"
+      ]
+    },
+    {
+      "id": 9056,
+      "accent": "неподви́жный",
+      "part": "形容词",
+      "meaning": "不动的；静止的；呆滞的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "неподвижный",
+        "part_of_speech": "形",
+        "meaning_zh": "不动的；静止的；呆滞的",
+        "source_page": 161,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "неподвижный",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=161"
+      ]
+    },
+    {
+      "id": 9057,
+      "accent": "непреме́нный",
+      "part": "形容词",
+      "meaning": "必不可少的；必须的；一定的",
+      "perfective": "",
+      "note": "如непременное условие必要条件。",
+      "stage": 2,
+      "original": {
+        "word": "непременный",
+        "part_of_speech": "形",
+        "meaning_zh": "一定的；必然的；必须的",
+        "source_page": 161,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "непременный",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=161"
+      ]
+    },
+    {
+      "id": 9058,
+      "accent": "непреры́вный",
+      "part": "形容词",
+      "meaning": "连续不断的；不停顿的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "непрерывный",
+        "part_of_speech": "形",
+        "meaning_zh": "连续不断的；不停顿的",
+        "source_page": 161,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "непрерывный",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=161"
+      ]
+    },
+    {
+      "id": 9059,
+      "accent": "не́сколько",
+      "part": "不定数量词、副词",
+      "meaning": "几个；一些；有些；稍微",
+      "perfective": "",
+      "note": "数量义与程度义分开理解。原词头ё应为е。",
+      "stage": 1,
+      "original": {
+        "word": "нёсколько",
+        "part_of_speech": "副",
+        "meaning_zh": "一点儿；有些；几个；一些",
+        "source_page": 161,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "несколько",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=161"
+      ]
+    },
+    {
+      "id": 9060,
+      "accent": "несмотря́",
+      "part": "复合前置词的组成部分",
+      "meaning": "尽管；不顾；不管",
+      "perfective": "",
+      "note": "必须以несмотря на加四格表达本条让步义；分写не смотря是没看、不看，意义不同。保留原词头并明确完整搭配。",
+      "stage": 2,
+      "original": {
+        "word": "несмотря",
+        "part_of_speech": "#",
+        "meaning_zh": "不顾；不管；尽管；虽然",
+        "source_page": 161,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "несмотря",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=161"
+      ]
+    },
+    {
+      "id": 9061,
+      "accent": "нести́",
+      "part": "动词，未完成体",
+      "meaning": "拿着送；携带；背；抱；承担；遭受；产卵",
+      "perfective": "",
+      "note": "单向运动动词，无全义项通用完成体；понести多表示开始携带，снести яйца是产卵的结果义。承担责任或遭受损失须结合名词搭配。",
+      "stage": 1,
+      "original": {
+        "word": "нести",
+        "part_of_speech": "未",
+        "meaning_zh": "拿着；送来；携带；承担；遭受",
+        "source_page": 161,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "нести",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=161"
+      ]
+    },
+    {
+      "id": 9062,
+      "accent": "несча́стный",
+      "part": "形容词",
+      "meaning": "不幸的；倒霉的；可怜的；悲伤的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "несчастный",
+        "part_of_speech": "形",
+        "meaning_zh": "不幸的；不吉利的；可怜的；悲伤的",
+        "source_page": 161,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "несчастный",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=161"
+      ]
+    },
+    {
+      "id": 9063,
+      "accent": "несча́стье",
+      "part": "名词，中性",
+      "meaning": "不幸；灾难；不幸的事故",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "несчастье",
+        "part_of_speech": "中",
+        "meaning_zh": "不幸；灾难；不幸的事故",
+        "source_page": 161,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "несчастье",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=161"
+      ]
+    },
+    {
+      "id": 9064,
+      "accent": "нет",
+      "part": "语气词、谓语词",
+      "meaning": "不；不是；没有",
+      "perfective": "",
+      "note": "表示没有时，所缺对象通常用二格。",
+      "stage": 1,
+      "original": {
+        "word": "нет",
+        "part_of_speech": "语",
+        "meaning_zh": "不；不是；没有；无",
+        "source_page": 161,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "нет",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=161"
+      ]
+    },
+    {
+      "id": 9065,
+      "accent": "нетерпе́ние",
+      "part": "名词，中性",
+      "meaning": "不耐烦；焦急；急切的心情",
+      "perfective": "",
+      "note": "с нетерпением ждать是急切期待，不一定含抱怨。",
+      "stage": 2,
+      "original": {
+        "word": "нетерпение",
+        "part_of_speech": "中",
+        "meaning_zh": "不耐烦；焦急的心情",
+        "source_page": 162,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "нетерпение",
+      "method": "2026-09-15当前助手逐词视觉核对PDF159至162页，区分否定代词的地点方向来源、复合前置词及例句义，复核重音与词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=162"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,696 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9066,
+      "accent": "неуже́ли",
+      "part": "语气词",
+      "meaning": "难道；莫非",
+      "perfective": "",
+      "note": "常用于惊讶或难以相信的问句。",
+      "stage": 1,
+      "original": {
+        "word": "неужели",
+        "part_of_speech": "语",
+        "meaning_zh": "难道；莫非",
+        "source_page": 162,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "неужели",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=162"
+      ]
+    },
+    {
+      "id": 9067,
+      "accent": "неуме́стный",
+      "part": "形容词",
+      "meaning": "不适当的；不合时宜的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "неуместный",
+        "part_of_speech": "形",
+        "meaning_zh": "不适当的；不合适的",
+        "source_page": 162,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "неуместный",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=162"
+      ]
+    },
+    {
+      "id": 9068,
+      "accent": "нефть",
+      "part": "名词，阴性",
+      "meaning": "石油",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "нефть",
+        "part_of_speech": "阴",
+        "meaning_zh": "石油",
+        "source_page": 162,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "нефть",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=162"
+      ]
+    },
+    {
+      "id": 9069,
+      "accent": "не́чего",
+      "part": "否定代词",
+      "meaning": "没有什么可……；没有东西可……",
+      "perfective": "",
+      "note": "无一格形式；не о чем говорить没有什么可谈的。有不定式时也可表示不必、不应，须结合句式。",
+      "stage": 1,
+      "original": {
+        "word": "нечего",
+        "part_of_speech": "代",
+        "meaning_zh": "没有什么可……；没有什么",
+        "source_page": 162,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "нечего",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=162"
+      ]
+    },
+    {
+      "id": 9070,
+      "accent": "ни",
+      "part": "语气词",
+      "meaning": "一点也不；无论；不管",
+      "perfective": "",
+      "note": "常加强已有否定，如ни одной ошибки；让步结构中如кто бы ни来表示无论谁。",
+      "stage": 1,
+      "original": {
+        "word": "ни",
+        "part_of_speech": "语",
+        "meaning_zh": "无论；不管；一点也不",
+        "source_page": 162,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ни",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=162"
+      ]
+    },
+    {
+      "id": 9071,
+      "accent": "нигде́",
+      "part": "否定代词副词",
+      "meaning": "哪里也不；任何地方都没有",
+      "perfective": "",
+      "note": "通常与не或нет连用，表示地点。",
+      "stage": 1,
+      "original": {
+        "word": "нигде",
+        "part_of_speech": "副",
+        "meaning_zh": "任何地方也没有；哪里也不",
+        "source_page": 162,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "нигде",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=162"
+      ]
+    },
+    {
+      "id": 9072,
+      "accent": "ни́жний",
+      "part": "形容词",
+      "meaning": "下面的；下层的；下游的；贴身穿的",
+      "perfective": "",
+      "note": "贴身义见нижнее бельё内衣；不泛指任何紧贴身体的物体。",
+      "stage": 1,
+      "original": {
+        "word": "нижний",
+        "part_of_speech": "形",
+        "meaning_zh": "下面的；下层的；下游的；贴身的",
+        "source_page": 162,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "нижний",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=162"
+      ]
+    },
+    {
+      "id": 9073,
+      "accent": "ни́зкий",
+      "part": "形容词",
+      "meaning": "低的；矮的；水平低的；低劣的；低沉的",
+      "perfective": "",
+      "note": "低沉义可形容声音；低的具体译法随温度、质量、身高等变化。",
+      "stage": 1,
+      "original": {
+        "word": "низкий",
+        "part_of_speech": "形",
+        "meaning_zh": "低的；矮的；低度的；低级的；低劣的",
+        "source_page": 162,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "низкий",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=162"
+      ]
+    },
+    {
+      "id": 9074,
+      "accent": "ника́к",
+      "part": "否定代词副词",
+      "meaning": "怎么也不；决不",
+      "perfective": "",
+      "note": "本条否定义通常与не连用。",
+      "stage": 1,
+      "original": {
+        "word": "никак",
+        "part_of_speech": "副",
+        "meaning_zh": "怎么也不；决不",
+        "source_page": 162,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "никак",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=162"
+      ]
+    },
+    {
+      "id": 9075,
+      "accent": "никогда́",
+      "part": "否定代词副词",
+      "meaning": "从来不；永远不；任何时候都不",
+      "perfective": "",
+      "note": "通常与не连用。",
+      "stage": 1,
+      "original": {
+        "word": "никогда",
+        "part_of_speech": "副",
+        "meaning_zh": "任何时候也不；永远不；从来不",
+        "source_page": 162,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "никогда",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=162"
+      ]
+    },
+    {
+      "id": 9076,
+      "accent": "никто́",
+      "part": "否定代词",
+      "meaning": "谁也不；没有人",
+      "perfective": "",
+      "note": "通常与否定谓语连用，如никто не пришёл。",
+      "stage": 1,
+      "original": {
+        "word": "никто",
+        "part_of_speech": "代",
+        "meaning_zh": "谁也不；没有人",
+        "source_page": 162,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "никто",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=162"
+      ]
+    },
+    {
+      "id": 9077,
+      "accent": "никуда́",
+      "part": "否定代词副词",
+      "meaning": "哪里也不去；任何地方都不去",
+      "perfective": "",
+      "note": "表达方向；须结合具体运动或转移谓语，不能与нигде的地点义混同。",
+      "stage": 1,
+      "original": {
+        "word": "никуда",
+        "part_of_speech": "副",
+        "meaning_zh": "任何地方也不；哪里也不",
+        "source_page": 162,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "никуда",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=162"
+      ]
+    },
+    {
+      "id": 9078,
+      "accent": "ниско́лько",
+      "part": "否定代词副词",
+      "meaning": "一点儿也没有；丝毫不",
+      "perfective": "",
+      "note": "原词头б应为о；通常与否定结构连用，也可单独作答。",
+      "stage": 1,
+      "original": {
+        "word": "нискблько",
+        "part_of_speech": "副",
+        "meaning_zh": "一点儿也没有；丝毫不",
+        "source_page": 163,
+        "source_line": "1"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "нисколько",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=163"
+      ]
+    },
+    {
+      "id": 9079,
+      "accent": "ни́тка",
+      "part": "名词，阴性",
+      "meaning": "线；缝纫线",
+      "perfective": "",
+      "note": "丝线是шёлковая нитка，线的材质不由本词单独限定。",
+      "stage": 1,
+      "original": {
+        "word": "нитка",
+        "part_of_speech": "阴",
+        "meaning_zh": "线；丝线",
+        "source_page": 163,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "нитка",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=163"
+      ]
+    },
+    {
+      "id": 9080,
+      "accent": "ниче́й",
+      "part": "否定物主代词",
+      "meaning": "谁的也不；不属于任何人的",
+      "perfective": "",
+      "note": "ничьих вещей не трогай别动任何人的东西；可表示无主的，不能漏掉否定。",
+      "stage": 2,
+      "original": {
+        "word": "ничей",
+        "part_of_speech": "代",
+        "meaning_zh": "无论任何人的；谁也不的",
+        "source_page": 163,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ничей",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=163"
+      ]
+    },
+    {
+      "id": 9081,
+      "accent": "ничто́",
+      "part": "否定代词",
+      "meaning": "什么也不；什么也没有",
+      "perfective": "",
+      "note": "随格变化为ничего、ничему等，通常与否定谓语连用。",
+      "stage": 1,
+      "original": {
+        "word": "ничто",
+        "part_of_speech": "代",
+        "meaning_zh": "什么也没有；任何事情都不",
+        "source_page": 163,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ничто",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=163"
+      ]
+    },
+    {
+      "id": 9082,
+      "accent": "нищета́",
+      "part": "名词，阴性",
+      "meaning": "赤贫；极端贫困；贫乏",
+      "perfective": "",
+      "note": "贫乏可为精神等方面的转义。",
+      "stage": 2,
+      "original": {
+        "word": "нищета",
+        "part_of_speech": "阮",
+        "meaning_zh": "极端贫困；赤贫；贫乏",
+        "source_page": 163,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "нищета",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=163"
+      ]
+    },
+    {
+      "id": 9083,
+      "accent": "новосе́лье",
+      "part": "名词，中性",
+      "meaning": "乔迁；迁入新居；乔迁庆祝会",
+      "perfective": "",
+      "note": "原页与现代词典均核定е，不照搬同根новосёл的ё。",
+      "stage": 2,
+      "original": {
+        "word": "новосёлье",
+        "part_of_speech": "中",
+        "meaning_zh": "乔迁新居；新居庆祝会",
+        "source_page": 163,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "новоселье",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=163",
+        "https://gramota.ru/meta/novosele"
+      ]
+    },
+    {
+      "id": 9084,
+      "accent": "но́вость",
+      "part": "名词，阴性",
+      "meaning": "新闻；消息；新情况",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "новость",
+        "part_of_speech": "阴",
+        "meaning_zh": "新闻；消息；新情况",
+        "source_page": 163,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "новость",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=163"
+      ]
+    },
+    {
+      "id": 9086,
+      "accent": "нога́",
+      "part": "名词，阴性",
+      "meaning": "腿；脚；器物的腿或支脚",
+      "perfective": "",
+      "note": "不把泛指所有支架的含义扩大到本词。",
+      "stage": 1,
+      "original": {
+        "word": "нога",
+        "part_of_speech": "阴",
+        "meaning_zh": "脚；腿；支架；支柱",
+        "source_page": 163,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "нога",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=163"
+      ]
+    },
+    {
+      "id": 9087,
+      "accent": "нож",
+      "part": "名词，阳性",
+      "meaning": "刀；小刀",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "нож",
+        "part_of_speech": "阳",
+        "meaning_zh": "刀；小刀",
+        "source_page": 163,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "нож",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=163"
+      ]
+    },
+    {
+      "id": 9088,
+      "accent": "но́жницы",
+      "part": "名词，仅复数",
+      "meaning": "剪刀；剪子",
+      "perfective": "",
+      "note": "只有复数形式，不按单数阴性词处理。",
+      "stage": 1,
+      "original": {
+        "word": "ножницы",
+        "part_of_speech": "复",
+        "meaning_zh": "剪子；剪刀",
+        "source_page": 163,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ножницы",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=163"
+      ]
+    },
+    {
+      "id": 9089,
+      "accent": "но́мер",
+      "part": "名词，阳性",
+      "meaning": "号码；编号；一期刊物；旅馆房间；节目；尺码",
+      "perfective": "",
+      "note": "补回原书房间、节目及尺码义；房间不等于仅有房间号。",
+      "stage": 1,
+      "original": {
+        "word": "номер",
+        "part_of_speech": "阳",
+        "meaning_zh": "号；号码；期号；房间号",
+        "source_page": 164,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "номер",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=164"
+      ]
+    },
+    {
+      "id": 9090,
+      "accent": "но́рма",
+      "part": "名词，阴性",
+      "meaning": "规范；准则；标准；定额",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "норма",
+        "part_of_speech": "阴",
+        "meaning_zh": "法规；规范；标准；定额",
+        "source_page": 164,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "норма",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=164"
+      ]
+    },
+    {
+      "id": 9091,
+      "accent": "норма́льный",
+      "part": "形容词",
+      "meaning": "正常的；合乎规范的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "нормальный",
+        "part_of_speech": "形",
+        "meaning_zh": "正常的；合乎规范的",
+        "source_page": 164,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "нормальный",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=164"
+      ]
+    },
+    {
+      "id": 9092,
+      "accent": "нос",
+      "part": "名词，阳性",
+      "meaning": "鼻子；船头；飞机头",
+      "perfective": "",
+      "note": "кончик носа是鼻尖，на носу表示眼前或即将来到；不把这些词组整体当作нос的独立义。",
+      "stage": 1,
+      "original": {
+        "word": "нос",
+        "part_of_speech": "阳",
+        "meaning_zh": "鼻子；鼻尖；船头；眼前",
+        "source_page": 164,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "нос",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=164"
+      ]
+    },
+    {
+      "id": 9093,
+      "accent": "носи́ть",
+      "part": "动词，未完成体",
+      "meaning": "携带；搬运；穿着；戴着；留着；具有；名叫",
+      "perfective": "",
+      "note": "留着用于发型等；具有用于性质特征；名叫用于姓名。属不定向或反复携带，与нести均未完成体，不互作体对。",
+      "stage": 1,
+      "original": {
+        "word": "носить",
+        "part_of_speech": "未",
+        "meaning_zh": "带着；携带；穿着；戴着；留着（发式）",
+        "source_page": 164,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "носить",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=164"
+      ]
+    },
+    {
+      "id": 9094,
+      "accent": "носки́",
+      "part": "名词，复数",
+      "meaning": "短袜；袜子",
+      "perfective": "",
+      "note": "本条按复数词头保留，单数为носо́к。",
+      "stage": 1,
+      "original": {
+        "word": "носки",
+        "part_of_speech": "复",
+        "meaning_zh": "短袜；袜子",
+        "source_page": 164,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "носки",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=164"
+      ]
+    },
+    {
+      "id": 9095,
+      "accent": "ночева́ть",
+      "part": "动词，未完成体",
+      "meaning": "过夜；留宿",
+      "perfective": "переночева́ть",
+      "note": "原书另列проночева́ть，侧重度过一夜。",
+      "stage": 1,
+      "original": {
+        "word": "ночевать",
+        "part_of_speech": "未",
+        "meaning_zh": "过夜；留宿",
+        "source_page": 164,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ночевать",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=164"
+      ]
+    },
+    {
+      "id": 9096,
+      "accent": "ночно́й",
+      "part": "形容词",
+      "meaning": "夜间的；夜里的；夜间使用的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "ночной",
+        "part_of_speech": "形",
+        "meaning_zh": "夜间的；夜里的",
+        "source_page": 164,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ночной",
+      "method": "2026-09-15当前助手逐词视觉核对PDF162至164页，修复нискблько字母错误，补номер和носить漏义，核对否定结构与名词数。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=164"
+      ]
+    }
+  ]
+}

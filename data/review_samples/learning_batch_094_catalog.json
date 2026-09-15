@@ -1,0 +1,698 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9097,
+      "accent": "ночь",
+      "part": "名词，阴性",
+      "meaning": "夜；夜晚",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "ночь",
+        "part_of_speech": "阴",
+        "meaning_zh": "夜；夜晚",
+        "source_page": 164,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ночь",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=164"
+      ]
+    },
+    {
+      "id": 9098,
+      "accent": "но́чью",
+      "part": "副词",
+      "meaning": "在夜间；夜里",
+      "perfective": "",
+      "note": "由ночь的五格形式副词化。",
+      "stage": 1,
+      "original": {
+        "word": "ночью",
+        "part_of_speech": "副",
+        "meaning_zh": "在夜间；晚上",
+        "source_page": 164,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ночью",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=164"
+      ]
+    },
+    {
+      "id": 9099,
+      "accent": "ноя́брь",
+      "part": "名词，阳性",
+      "meaning": "十一月",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "ноябрь",
+        "part_of_speech": "阳",
+        "meaning_zh": "十一月",
+        "source_page": 165,
+        "source_line": "1"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ноябрь",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=165"
+      ]
+    },
+    {
+      "id": 9100,
+      "accent": "нра́виться",
+      "part": "动词，未完成体",
+      "meaning": "使喜欢；讨人喜欢；合意",
+      "perfective": "понра́виться",
+      "note": "被喜欢的事物作主语，喜欢者用三格：мне нравится музыка我喜欢音乐。",
+      "stage": 1,
+      "original": {
+        "word": "нравиться",
+        "part_of_speech": "未",
+        "meaning_zh": "喜欢；使……喜欢",
+        "source_page": 165,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "нравиться",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=165"
+      ]
+    },
+    {
+      "id": 9101,
+      "accent": "нужда́ться",
+      "part": "动词，未完成体",
+      "meaning": "需要；缺少；生活贫困",
+      "perfective": "",
+      "note": "需要某物用в加六格；不加补语时也可指贫困。状态义不强配前缀完成体。",
+      "stage": 2,
+      "original": {
+        "word": "нуждаться",
+        "part_of_speech": "未",
+        "meaning_zh": "需要；有需要；依赖",
+        "source_page": 165,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "нуждаться",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=165"
+      ]
+    },
+    {
+      "id": 9102,
+      "accent": "ню́хать",
+      "part": "动词，未完成体",
+      "meaning": "闻；嗅",
+      "perfective": "поню́хать",
+      "note": "闻花香是нюхать цветы的搭配译法，不是单独新增义项。",
+      "stage": 1,
+      "original": {
+        "word": "нюхать",
+        "part_of_speech": "未",
+        "meaning_zh": "闻；嗅；闻花香",
+        "source_page": 165,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "нюхать",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=165"
+      ]
+    },
+    {
+      "id": 9103,
+      "accent": "обду́мывать",
+      "part": "动词，未完成体",
+      "meaning": "考虑；斟酌；深思熟虑",
+      "perfective": "обду́мать",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "обдумывать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "考虑；斟酌；深思熟虑",
+        "source_page": 165,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обдумывать",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=165"
+      ]
+    },
+    {
+      "id": 9104,
+      "accent": "обе́д",
+      "part": "名词，阳性",
+      "meaning": "午餐；午饭；宴会；中午",
+      "perfective": "",
+      "note": "原书另列宴会及正午时段；具体时间义随语境。",
+      "stage": 1,
+      "original": {
+        "word": "обед",
+        "part_of_speech": "阳",
+        "meaning_zh": "午餐；午饭；正午",
+        "source_page": 165,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обед",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=165"
+      ]
+    },
+    {
+      "id": 9105,
+      "accent": "обе́дать",
+      "part": "动词，未完成体",
+      "meaning": "吃午饭；用午餐",
+      "perfective": "пообе́дать",
+      "note": "原词头ё应为е。",
+      "stage": 1,
+      "original": {
+        "word": "обёдать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "吃午饭",
+        "source_page": 165,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обедать",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=165"
+      ]
+    },
+    {
+      "id": 9106,
+      "accent": "обезья́на",
+      "part": "名词，阴性",
+      "meaning": "猴；猿",
+      "perfective": "",
+      "note": "名词阴性不等于仅指雌性。",
+      "stage": 1,
+      "original": {
+        "word": "обезьяна",
+        "part_of_speech": "阴",
+        "meaning_zh": "猿；猴子",
+        "source_page": 165,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обезьяна",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=165"
+      ]
+    },
+    {
+      "id": 9107,
+      "accent": "обеспе́чивать",
+      "part": "动词，未完成体",
+      "meaning": "保障；保证；供应；供给；使生活有保障",
+      "perfective": "обеспе́чить",
+      "note": "обеспечить кого чем为给谁提供什么；重音在-пе́-，不读-чить重音。",
+      "stage": 2,
+      "original": {
+        "word": "обеспечивать",
+        "part_of_speech": "完",
+        "meaning_zh": "保障；保证；供应；供给；使生活有保障",
+        "source_page": 165,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обеспечивать",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=165",
+        "data/words/tem4_russian_words.pdf#page=166"
+      ]
+    },
+    {
+      "id": 9108,
+      "accent": "обеща́ние",
+      "part": "名词，中性",
+      "meaning": "诺言；承诺；许诺",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "обещание",
+        "part_of_speech": "中",
+        "meaning_zh": "诺言；承诺",
+        "source_page": 166,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обещание",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=166"
+      ]
+    },
+    {
+      "id": 9109,
+      "accent": "обеща́ть",
+      "part": "动词，兼体",
+      "meaning": "答应；承诺；预示；有希望成为",
+      "perfective": "пообеща́ть",
+      "note": "原书标未、完；常用未完成体，完成承诺可用пообещать。预示或有望义不机械套入完成体配对。",
+      "stage": 1,
+      "original": {
+        "word": "обещать",
+        "part_of_speech": "未 , 完",
+        "meaning_zh": "答应；承诺；预示；有希望成为",
+        "source_page": 166,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обещать",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=166"
+      ]
+    },
+    {
+      "id": 9110,
+      "accent": "оби́да",
+      "part": "名词，阴性",
+      "meaning": "委屈；欺侮；冒犯；怨气",
+      "perfective": "",
+      "note": "可指使人受委屈的行为，也可指由此产生的感受。",
+      "stage": 2,
+      "original": {
+        "word": "обида",
+        "part_of_speech": "阮",
+        "meaning_zh": "委屈；受欺负；怨恨",
+        "source_page": 166,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обида",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=166"
+      ]
+    },
+    {
+      "id": 9111,
+      "accent": "оби́дно",
+      "part": "副词、谓语词",
+      "meaning": "令人受委屈地；感到委屈；令人遗憾；难过",
+      "perfective": "",
+      "note": "作谓语时感受者用三格，如мне обидно。",
+      "stage": 2,
+      "original": {
+        "word": "обидно",
+        "part_of_speech": "副",
+        "meaning_zh": "感到委屈；感到遗憾；难过",
+        "source_page": 166,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обидно",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=166"
+      ]
+    },
+    {
+      "id": 9112,
+      "accent": "обижа́ть",
+      "part": "动词，未完成体",
+      "meaning": "冒犯；欺侮；使受委屈；使难受",
+      "perfective": "оби́деть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "обижать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "冒犯；欺侮；使受委屈；使难受",
+        "source_page": 166,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обижать",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=166"
+      ]
+    },
+    {
+      "id": 9113,
+      "accent": "обижа́ться",
+      "part": "动词，未完成体",
+      "meaning": "感到受委屈；见怪；生气",
+      "perfective": "оби́деться",
+      "note": "对谁或什么生气用на加四格。",
+      "stage": 2,
+      "original": {
+        "word": "обижаться",
+        "part_of_speech": "未",
+        "meaning_zh": "对……生气；感到受委屈",
+        "source_page": 166,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обижаться",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=166"
+      ]
+    },
+    {
+      "id": 9114,
+      "accent": "облада́ть",
+      "part": "动词，未完成体",
+      "meaning": "拥有；占有；具有",
+      "perfective": "",
+      "note": "接五格；表示持有状态，不把开始占有的овладеть当作全义项通用体对。",
+      "stage": 2,
+      "original": {
+        "word": "обладать",
+        "part_of_speech": "未",
+        "meaning_zh": "拥有；占有；具有",
+        "source_page": 166,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обладать",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=166"
+      ]
+    },
+    {
+      "id": 9115,
+      "accent": "о́блако",
+      "part": "名词，中性",
+      "meaning": "云；云朵；云状物",
+      "perfective": "",
+      "note": "云状物如облако пыли一团尘土。",
+      "stage": 1,
+      "original": {
+        "word": "облако",
+        "part_of_speech": "中",
+        "meaning_zh": "云；云层；云状物",
+        "source_page": 166,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "облако",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=166"
+      ]
+    },
+    {
+      "id": 9116,
+      "accent": "о́бласть",
+      "part": "名词，阴性",
+      "meaning": "领域；范围；地区；州；部位",
+      "perfective": "",
+      "note": "补回身体部位义，如в области печени在肝区。",
+      "stage": 2,
+      "original": {
+        "word": "область",
+        "part_of_speech": "阴",
+        "meaning_zh": "领域；范围；方面；地区；州",
+        "source_page": 166,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "область",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=166"
+      ]
+    },
+    {
+      "id": 9117,
+      "accent": "облегча́ть",
+      "part": "动词，未完成体",
+      "meaning": "减轻；使轻松；使容易；改善处境",
+      "perfective": "облегчи́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "облегчать",
+        "part_of_speech": "未",
+        "meaning_zh": "减轻；使容易；改善处境",
+        "source_page": 166,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "облегчать",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=166",
+        "data/words/tem4_russian_words.pdf#page=167"
+      ]
+    },
+    {
+      "id": 9118,
+      "accent": "обма́нывать",
+      "part": "动词，未完成体",
+      "meaning": "欺骗；蒙骗；辜负；失信",
+      "perfective": "обману́ть",
+      "note": "补回原书辜负或失信义，不把骗取当作所有用法。",
+      "stage": 2,
+      "original": {
+        "word": "обманывать",
+        "part_of_speech": "未",
+        "meaning_zh": "欺骗；蒙骗；骗取",
+        "source_page": 167,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обманывать",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=167"
+      ]
+    },
+    {
+      "id": 9119,
+      "accent": "обме́ниваться",
+      "part": "动词，未完成体",
+      "meaning": "交换；互换；交流",
+      "perfective": "обменя́ться",
+      "note": "用五格表示交换内容，如обмениваться опытом交流经验。",
+      "stage": 2,
+      "original": {
+        "word": "обмениваться",
+        "part_of_speech": "未",
+        "meaning_zh": "交换；互换；交流",
+        "source_page": 167,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обмениваться",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=167"
+      ]
+    },
+    {
+      "id": 9120,
+      "accent": "обнару́живать",
+      "part": "动词，未完成体",
+      "meaning": "发现；察觉；查出；显出；露出",
+      "perfective": "обнару́жить",
+      "note": "补回原书显露义，如обнаружить радость显露喜悦。",
+      "stage": 2,
+      "original": {
+        "word": "обнаруживать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "发现；察觉；查出",
+        "source_page": 167,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обнаруживать",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=167"
+      ]
+    },
+    {
+      "id": 9121,
+      "accent": "обнима́ть",
+      "part": "动词，未完成体",
+      "meaning": "拥抱；包围；环绕",
+      "perfective": "обня́ть",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "обнимать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "拥抱；包围；环绕",
+        "source_page": 167,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обнимать",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=167"
+      ]
+    },
+    {
+      "id": 9122,
+      "accent": "обнима́ться",
+      "part": "动词，未完成体",
+      "meaning": "互相拥抱",
+      "perfective": "обня́ться",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "обниматься",
+        "part_of_speech": "未",
+        "meaning_zh": "互相拥抱",
+        "source_page": 167,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обниматься",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=167"
+      ]
+    },
+    {
+      "id": 9123,
+      "accent": "обобща́ть",
+      "part": "动词，未完成体",
+      "meaning": "综合；概括；总结；归纳",
+      "perfective": "обобщи́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "обобщать",
+        "part_of_speech": "未",
+        "meaning_zh": "综合；概括；总结；归纳",
+        "source_page": 167,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обобщать",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=167"
+      ]
+    },
+    {
+      "id": 9124,
+      "accent": "обознача́ть",
+      "part": "动词，未完成体",
+      "meaning": "标出；标明；表示；意味着",
+      "perfective": "обозна́чить",
+      "note": "标出义可配完成体；意味着这一状态义通常用未完成体。",
+      "stage": 2,
+      "original": {
+        "word": "обозначать",
+        "part_of_speech": "未",
+        "meaning_zh": "标出；表示；意味着",
+        "source_page": 167,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обозначать",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=167"
+      ]
+    },
+    {
+      "id": 9125,
+      "accent": "оборо́на",
+      "part": "名词，阴性",
+      "meaning": "防御；保卫；国防；防御体系",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "оборона",
+        "part_of_speech": "阴",
+        "meaning_zh": "防御；保卫；国防；防御体系",
+        "source_page": 167,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "оборона",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=167",
+        "data/words/tem4_russian_words.pdf#page=168"
+      ]
+    },
+    {
+      "id": 9126,
+      "accent": "обору́дование",
+      "part": "名词，中性",
+      "meaning": "设备；装备；器材",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "оборудование",
+        "part_of_speech": "中",
+        "meaning_zh": "设备；装备；器材",
+        "source_page": 168,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "оборудование",
+      "method": "2026-09-15当前助手逐词视觉核对PDF164至168页，恢复跨页漏义，纠正обёдать拼写，区分状态动词、兼体及语境限定配对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=168"
+      ]
+    }
+  ]
+}
