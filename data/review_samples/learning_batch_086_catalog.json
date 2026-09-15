@@ -1,0 +1,605 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8861,
+      "accent": "механи́ческий",
+      "part": "形容词",
+      "meaning": "力学的；机械的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "механический",
+        "part_of_speech": "形",
+        "meaning_zh": "力学的；机械的",
+        "source_page": 142,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "механический",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=142"
+      ]
+    },
+    {
+      "id": 8862,
+      "accent": "мечта́",
+      "part": "名词·阴性",
+      "meaning": "幻想；梦想；愿望；理想；向往",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "мечта",
+        "part_of_speech": "阴",
+        "meaning_zh": "幻想；愿望；理想；向往",
+        "source_page": 142,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мечта",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=142"
+      ]
+    },
+    {
+      "id": 8863,
+      "accent": "мечта́ть",
+      "part": "动词·未完成体",
+      "meaning": "幻想；向往；梦想",
+      "perfective": "",
+      "note": "常接о加第六格或不定式。",
+      "stage": 1,
+      "original": {
+        "word": "мечтать",
+        "part_of_speech": "未",
+        "meaning_zh": "幻想；向往；梦想",
+        "source_page": 142,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мечтать",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=142"
+      ]
+    },
+    {
+      "id": 8864,
+      "accent": "меша́ть",
+      "part": "动词·未完成体",
+      "meaning": "妨碍；打扰；阻碍",
+      "perfective": "помеша́ть",
+      "note": "本条不混入搅拌义。",
+      "stage": 1,
+      "original": {
+        "word": "мешать",
+        "part_of_speech": "未",
+        "meaning_zh": "妨碍；打扰；阻碍",
+        "source_page": 142,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мешать",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=142"
+      ]
+    },
+    {
+      "id": 8865,
+      "accent": "мешо́к",
+      "part": "名词·阳性",
+      "meaning": "袋；口袋；一袋",
+      "perfective": "",
+      "note": "不限定袋子的大小。",
+      "stage": 1,
+      "original": {
+        "word": "мешок",
+        "part_of_speech": "阳",
+        "meaning_zh": "袋；口袋；一大袋",
+        "source_page": 142,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мешок",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=142"
+      ]
+    },
+    {
+      "id": 8866,
+      "accent": "микрофо́н",
+      "part": "名词·阳性",
+      "meaning": "麦克风；送话器",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "микрофон",
+        "part_of_speech": "阳",
+        "meaning_zh": "麦克风；送话器",
+        "source_page": 142,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "микрофон",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=142"
+      ]
+    },
+    {
+      "id": 8867,
+      "accent": "милиционе́р",
+      "part": "名词·阳性",
+      "meaning": "民警；警察",
+      "perfective": "",
+      "note": "历史称谓，不能不加说明替代所有现代警察名称。",
+      "stage": 2,
+      "original": {
+        "word": "милиционер",
+        "part_of_speech": "阳",
+        "meaning_zh": "民警；警察",
+        "source_page": 142,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "милиционер",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=142"
+      ]
+    },
+    {
+      "id": 8868,
+      "accent": "миллиа́рд",
+      "part": "名词·阳性·数词用法",
+      "meaning": "十亿；亿万；无数",
+      "perfective": "",
+      "note": "精确数值为十亿，后两义为夸张泛指。",
+      "stage": 2,
+      "original": {
+        "word": "миллиард",
+        "part_of_speech": "阳",
+        "meaning_zh": "十亿；亿万；无数",
+        "source_page": 142,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "миллиард",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=142"
+      ]
+    },
+    {
+      "id": 8869,
+      "accent": "миллио́н",
+      "part": "名词·阳性·数词用法",
+      "meaning": "百万；一百万；无数",
+      "perfective": "",
+      "note": "许多人须结合людей等词，不把人写进数词核心义。",
+      "stage": 2,
+      "original": {
+        "word": "миллион",
+        "part_of_speech": "阳",
+        "meaning_zh": "百万；一百万；许多人",
+        "source_page": 142,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "миллион",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=142"
+      ]
+    },
+    {
+      "id": 8870,
+      "accent": "ми́нимум",
+      "part": "名词·阳性；副词及定语用法",
+      "meaning": "最小限度；最低限度；基本知识；至少；最低的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "минимум",
+        "part_of_speech": "阳",
+        "meaning_zh": "最小限度；最低限度；基本知识；至少",
+        "source_page": 142,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "минимум",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=142"
+      ]
+    },
+    {
+      "id": 8871,
+      "accent": "министе́рство",
+      "part": "名词·中性",
+      "meaning": "部；政府部门；内阁",
+      "perfective": "",
+      "note": "内阁义见原页смена министерства；修复е误识为ё。",
+      "stage": 2,
+      "original": {
+        "word": "министёрство",
+        "part_of_speech": "中",
+        "meaning_zh": "部；部委；部长机关",
+        "source_page": 142,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "министерство",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=142",
+        "data/words/tem4_russian_words.pdf#page=143"
+      ]
+    },
+    {
+      "id": 8872,
+      "accent": "мини́стр",
+      "part": "名词·阳性",
+      "meaning": "部长；大臣",
+      "perfective": "",
+      "note": "总理或首相是премьер-министр，不是министр单独义。",
+      "stage": 2,
+      "original": {
+        "word": "министр",
+        "part_of_speech": "阳",
+        "meaning_zh": "部长；政府部长；总理；首相",
+        "source_page": 143,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "министр",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=143"
+      ]
+    },
+    {
+      "id": 8873,
+      "accent": "ми́нус",
+      "part": "名词·阳性；数学用语",
+      "meaning": "减号；负号；减；负数；缺点；不足",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "минус",
+        "part_of_speech": "阳",
+        "meaning_zh": "减号；负号；缺点；不足",
+        "source_page": 143,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "минус",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=143"
+      ]
+    },
+    {
+      "id": 8874,
+      "accent": "мину́та",
+      "part": "名词·阴性",
+      "meaning": "分钟；一会儿；时刻；时候",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "минута",
+        "part_of_speech": "阴",
+        "meaning_zh": "分钟；一会儿；时刻；时候",
+        "source_page": 143,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "минута",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=143"
+      ]
+    },
+    {
+      "id": 8875,
+      "accent": "мир",
+      "part": "名词·阳性",
+      "meaning": "和平；和睦；和约",
+      "perfective": "",
+      "note": "与世界义同形词分开保留。",
+      "stage": 1,
+      "original": {
+        "word": "мир",
+        "part_of_speech": "阳",
+        "meaning_zh": "和平；和睦；和约",
+        "source_page": 143,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мир",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=143"
+      ]
+    },
+    {
+      "id": 8876,
+      "accent": "мир",
+      "part": "名词·阳性",
+      "meaning": "世界；全世界；界；领域",
+      "perfective": "",
+      "note": "与和平义同形词分开保留。",
+      "stage": 1,
+      "original": {
+        "word": "мир",
+        "part_of_speech": null,
+        "meaning_zh": "界；领域；世界",
+        "source_page": 143,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мир",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=143"
+      ]
+    },
+    {
+      "id": 8877,
+      "accent": "мири́ться",
+      "part": "动词·未完成体",
+      "meaning": "和解；讲和；容忍；甘于接受",
+      "perfective": "помири́ться",
+      "note": "和解可用помириться或примириться；容忍、接受用примириться，不泛译适应。",
+      "stage": 2,
+      "original": {
+        "word": "мириться",
+        "part_of_speech": "未",
+        "meaning_zh": "和解；讲和；容忍；适应",
+        "source_page": 143,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мириться",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=143"
+      ]
+    },
+    {
+      "id": 8878,
+      "accent": "ми́рный",
+      "part": "形容词",
+      "meaning": "和平的；安宁的；平和的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "мирный",
+        "part_of_speech": "形",
+        "meaning_zh": "和平的；安宁的；平和的",
+        "source_page": 143,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мирный",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=143"
+      ]
+    },
+    {
+      "id": 8879,
+      "accent": "мирово́й",
+      "part": "形容词",
+      "meaning": "世界的；全球的；国际的",
+      "perfective": "",
+      "note": "本来源为世界范围义。",
+      "stage": 2,
+      "original": {
+        "word": "мировой",
+        "part_of_speech": "形",
+        "meaning_zh": "世界的；全球的；国际的",
+        "source_page": 143,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мировой",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=143"
+      ]
+    },
+    {
+      "id": 8880,
+      "accent": "ми́тинг",
+      "part": "名词·阳性",
+      "meaning": "集会；群众大会",
+      "perfective": "",
+      "note": "抗议集会由митинг протеста表达。",
+      "stage": 2,
+      "original": {
+        "word": "митинг",
+        "part_of_speech": "阳",
+        "meaning_zh": "集会；群众大会；抗议集会",
+        "source_page": 143,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "митинг",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=143"
+      ]
+    },
+    {
+      "id": 8881,
+      "accent": "мла́дший",
+      "part": "形容词",
+      "meaning": "年纪较小的；年幼的；级别较低的；低年级的；初级的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "младший",
+        "part_of_speech": "形",
+        "meaning_zh": "年纪较小的；低级的；低年级的；初级的",
+        "source_page": 143,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "младший",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=143",
+        "data/words/tem4_russian_words.pdf#page=144"
+      ]
+    },
+    {
+      "id": 8882,
+      "accent": "мне́ние",
+      "part": "名词·中性",
+      "meaning": "意见；看法；见解",
+      "perfective": "",
+      "note": "修复е误识为ё。",
+      "stage": 1,
+      "original": {
+        "word": "мнёние",
+        "part_of_speech": null,
+        "meaning_zh": "意见；看法；见解",
+        "source_page": 144,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мнение",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=144"
+      ]
+    },
+    {
+      "id": 8883,
+      "accent": "мно́гие",
+      "part": "代词性形容词·复数；名词化用法",
+      "meaning": "许多；很多；许多人",
+      "perfective": "",
+      "note": "本词头为复数；许多事情通常用中性многое，不能不区分词形。",
+      "stage": 1,
+      "original": {
+        "word": "многие",
+        "part_of_speech": "形",
+        "meaning_zh": "许多；很多；许多人；许多事物",
+        "source_page": 144,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "многие",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=144"
+      ]
+    },
+    {
+      "id": 8884,
+      "accent": "мно́го",
+      "part": "副词；不定量数词",
+      "meaning": "许多；很多；大量；太多",
+      "perfective": "",
+      "note": "太多取决于语境，不表示所有много都过量。",
+      "stage": 1,
+      "original": {
+        "word": "много",
+        "part_of_speech": "副",
+        "meaning_zh": "许多；很多；大批；太多",
+        "source_page": 144,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "много",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=144"
+      ]
+    },
+    {
+      "id": 8885,
+      "accent": "многонациона́льный",
+      "part": "形容词",
+      "meaning": "多民族的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "многонациональный",
+        "part_of_speech": "形",
+        "meaning_zh": "多民族的",
+        "source_page": 144,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "многонациональный",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=144"
+      ]
+    },
+    {
+      "id": 8886,
+      "accent": "многочи́сленный",
+      "part": "形容词",
+      "meaning": "人数众多的；很多的；大量的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "многочисленный",
+        "part_of_speech": "№",
+        "meaning_zh": "人数众多的；很多的；大量的",
+        "source_page": 144,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "многочисленный",
+      "method": "2026-09-15当前助手逐项视觉核对专四PDF142至144页，核对重音性体、同形词及中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=144"
+      ]
+    }
+  ]
+}

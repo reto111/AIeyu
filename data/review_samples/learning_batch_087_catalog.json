@@ -1,0 +1,674 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8887,
+      "accent": "моги́ла",
+      "part": "名词·阴性",
+      "meaning": "坟墓；墓穴",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "могила",
+        "part_of_speech": "阴",
+        "meaning_zh": "坟墓；墓穴",
+        "source_page": 144,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "могила",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=144"
+      ]
+    },
+    {
+      "id": 8888,
+      "accent": "могу́чий",
+      "part": "形容词",
+      "meaning": "强壮的；强大的；巨大的；雄伟的；洪亮的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "могучий",
+        "part_of_speech": "形",
+        "meaning_zh": "强大的；雄伟的；巨大的；洪亮的",
+        "source_page": 144,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "могучий",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=144"
+      ]
+    },
+    {
+      "id": 8889,
+      "accent": "мо́да",
+      "part": "名词·阴性",
+      "meaning": "时髦；时兴；流行；时装",
+      "perfective": "",
+      "note": "时装常用复数моды。",
+      "stage": 1,
+      "original": {
+        "word": "мода",
+        "part_of_speech": "阴",
+        "meaning_zh": "时髦；时兴；流行；时装",
+        "source_page": 144,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мода",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=144"
+      ]
+    },
+    {
+      "id": 8890,
+      "accent": "модерниза́ция",
+      "part": "名词·阴性",
+      "meaning": "现代化；现代化改造",
+      "perfective": "",
+      "note": "",
+      "stage": 3,
+      "original": {
+        "word": "модернизация",
+        "part_of_speech": "阴",
+        "meaning_zh": "现代化",
+        "source_page": 144,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "модернизация",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=144"
+      ]
+    },
+    {
+      "id": 8891,
+      "accent": "мо́дный",
+      "part": "形容词",
+      "meaning": "时髦的；时兴的；流行的；时装的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "модный",
+        "part_of_speech": "彤",
+        "meaning_zh": "时髦的；时兴的；流行的；时装的",
+        "source_page": 144,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "модный",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=144"
+      ]
+    },
+    {
+      "id": 8892,
+      "accent": "мо́жно",
+      "part": "谓语词",
+      "meaning": "能；能够；可以；有可能；允许",
+      "perfective": "",
+      "note": "通常接不定式；表示可能性或许可。",
+      "stage": 1,
+      "original": {
+        "word": "можно",
+        "part_of_speech": "用 作 谓 语",
+        "meaning_zh": "能；能够；可以；有可能；允许",
+        "source_page": 144,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "можно",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=144"
+      ]
+    },
+    {
+      "id": 8893,
+      "accent": "мозг",
+      "part": "名词·阳性",
+      "meaning": "脑；大脑；脑子；髓",
+      "perfective": "",
+      "note": "骨髓是костный мозг，脊髓是спинной мозг，需结合修饰词。",
+      "stage": 2,
+      "original": {
+        "word": "мозг",
+        "part_of_speech": "阳",
+        "meaning_zh": "脑；大脑；脑海；骨髓",
+        "source_page": 144,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мозг",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=144",
+        "data/words/tem4_russian_words.pdf#page=145"
+      ]
+    },
+    {
+      "id": 8894,
+      "accent": "мой",
+      "part": "物主代词",
+      "meaning": "我的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "мой",
+        "part_of_speech": "代",
+        "meaning_zh": "我的",
+        "source_page": 145,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мой",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=145"
+      ]
+    },
+    {
+      "id": 8895,
+      "accent": "мо́крый",
+      "part": "形容词",
+      "meaning": "湿的；潮湿的",
+      "perfective": "",
+      "note": "爱哭是глаза на мокром месте的整体义，不是本词单独义。",
+      "stage": 1,
+      "original": {
+        "word": "мокрый",
+        "part_of_speech": "形",
+        "meaning_zh": "湿的；潮湿的；爱哭的",
+        "source_page": 145,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мокрый",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=145"
+      ]
+    },
+    {
+      "id": 8896,
+      "accent": "мо́кро",
+      "part": "副词；谓语用法",
+      "meaning": "潮湿地；湿漉漉的；潮湿",
+      "perfective": "",
+      "note": "原页В лесу мокро为谓语用法。",
+      "stage": 1,
+      "original": {
+        "word": "мокро",
+        "part_of_speech": "副",
+        "meaning_zh": "潮湿地；湿漉漉地",
+        "source_page": 145,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мокро",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=145"
+      ]
+    },
+    {
+      "id": 8897,
+      "accent": "мол",
+      "part": "语气词·转述用法",
+      "meaning": "说是；据说；他说；我说",
+      "perfective": "",
+      "note": "表示转述或重述话语，不混同港口防波堤的同形名词。",
+      "stage": 2,
+      "original": {
+        "word": "мол",
+        "part_of_speech": "插",
+        "meaning_zh": "据说；所谓；说是",
+        "source_page": 145,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мол",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=145"
+      ]
+    },
+    {
+      "id": 8898,
+      "accent": "мо́лния",
+      "part": "名词·阴性",
+      "meaning": "闪电；加急电报；拉链",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "молния",
+        "part_of_speech": "阴",
+        "meaning_zh": "闪电；加急电报；拉链",
+        "source_page": 145,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "молния",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=145"
+      ]
+    },
+    {
+      "id": 8899,
+      "accent": "молодёжь",
+      "part": "名词·阴性·集合义",
+      "meaning": "青年；青年人；年轻一代",
+      "perfective": "",
+      "note": "集合名词按单数配合，保留ё。",
+      "stage": 1,
+      "original": {
+        "word": "молодёжь",
+        "part_of_speech": "阴 , 集",
+        "meaning_zh": "青年；青年人；年轻一代",
+        "source_page": 145,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "молодёжь",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=145"
+      ]
+    },
+    {
+      "id": 8900,
+      "accent": "молоде́ц",
+      "part": "名词·阳性；赞许用法",
+      "meaning": "好小伙子；能干的人；好样的",
+      "perfective": "",
+      "note": "表示赞许时可对不同性别使用。",
+      "stage": 1,
+      "original": {
+        "word": "молодец",
+        "part_of_speech": "阳",
+        "meaning_zh": "好样的；干得好的人；能干的人",
+        "source_page": 145,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "молодец",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=145"
+      ]
+    },
+    {
+      "id": 8901,
+      "accent": "молодо́й",
+      "part": "形容词",
+      "meaning": "年轻的；青年的；幼小的；新的；新成立的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "молодой",
+        "part_of_speech": "形",
+        "meaning_zh": "年轻的；青年的；幼小的；新成立的",
+        "source_page": 145,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "молодой",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=145"
+      ]
+    },
+    {
+      "id": 8902,
+      "accent": "мо́лодость",
+      "part": "名词·阴性",
+      "meaning": "年轻；青春；青年时代",
+      "perfective": "",
+      "note": "不是青年人群体。",
+      "stage": 1,
+      "original": {
+        "word": "молодость",
+        "part_of_speech": "阮",
+        "meaning_zh": "青年；青年时代；青春",
+        "source_page": 145,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "молодость",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=145"
+      ]
+    },
+    {
+      "id": 8904,
+      "accent": "мо́лот",
+      "part": "名词·阳性",
+      "meaning": "大锤；锤",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "молот",
+        "part_of_speech": "阳",
+        "meaning_zh": "锤；大锤",
+        "source_page": 145,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "молот",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=145"
+      ]
+    },
+    {
+      "id": 8905,
+      "accent": "молчали́вый",
+      "part": "形容词",
+      "meaning": "沉默寡言的；默然的；不用语言表示的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "молчаливый",
+        "part_of_speech": "形",
+        "meaning_zh": "沉默寡言的；默然的；不用语言表示的",
+        "source_page": 145,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "молчаливый",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=145"
+      ]
+    },
+    {
+      "id": 8906,
+      "accent": "молча́ть",
+      "part": "动词·未完成体",
+      "meaning": "沉默；不说话；隐匿不说；不公开发表意见",
+      "perfective": "",
+      "note": "持续状态不强配起始动作замолчать。",
+      "stage": 1,
+      "original": {
+        "word": "молчать",
+        "part_of_speech": "未",
+        "meaning_zh": "沉默；不说话；隐匿不说；保持沉默",
+        "source_page": 145,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "молчать",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=145",
+        "data/words/tem4_russian_words.pdf#page=146"
+      ]
+    },
+    {
+      "id": 8907,
+      "accent": "моме́нт",
+      "part": "名词·阳性",
+      "meaning": "片刻；瞬间；时刻；时候；时机",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "момент",
+        "part_of_speech": "阳",
+        "meaning_zh": "一会儿；时刻；时期；时候；时机",
+        "source_page": 146,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "момент",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=146"
+      ]
+    },
+    {
+      "id": 8908,
+      "accent": "моне́та",
+      "part": "名词·阴性",
+      "meaning": "硬币；钱币",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "монета",
+        "part_of_speech": "阴",
+        "meaning_zh": "硬币；钱币",
+        "source_page": 146,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "монета",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=146"
+      ]
+    },
+    {
+      "id": 8909,
+      "accent": "мора́ль",
+      "part": "名词·阴性",
+      "meaning": "道德；道德准则；寓意；教训",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "мораль",
+        "part_of_speech": "阴",
+        "meaning_zh": "道德；道德准则；寓意；教训",
+        "source_page": 146,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мораль",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=146"
+      ]
+    },
+    {
+      "id": 8910,
+      "accent": "моро́женое",
+      "part": "名词·中性",
+      "meaning": "冰淇淋",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "мороженое",
+        "part_of_speech": "中",
+        "meaning_zh": "冰淇淋",
+        "source_page": 146,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мороженое",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=146"
+      ]
+    },
+    {
+      "id": 8911,
+      "accent": "морско́й",
+      "part": "形容词",
+      "meaning": "海的；海洋的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "морской",
+        "part_of_speech": "形",
+        "meaning_zh": "海的；海洋的",
+        "source_page": 146,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "морской",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=146"
+      ]
+    },
+    {
+      "id": 8912,
+      "accent": "моря́к",
+      "part": "名词·阳性",
+      "meaning": "海员；水手；航海者",
+      "perfective": "",
+      "note": "水兵为военный моряк，不限定所有海员都属军人。",
+      "stage": 2,
+      "original": {
+        "word": "моряк",
+        "part_of_speech": "阳",
+        "meaning_zh": "水兵；海员；航海者",
+        "source_page": 146,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "моряк",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=146"
+      ]
+    },
+    {
+      "id": 8913,
+      "accent": "мост",
+      "part": "名词·阳性",
+      "meaning": "桥；桥梁",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "мост",
+        "part_of_speech": "Н",
+        "meaning_zh": "桥；桥梁",
+        "source_page": 146,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мост",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=146"
+      ]
+    },
+    {
+      "id": 8914,
+      "accent": "мото́р",
+      "part": "名词·阳性",
+      "meaning": "发动机；马达",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "мотор",
+        "part_of_speech": "阳",
+        "meaning_zh": "发动机；马达",
+        "source_page": 146,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мотор",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=146"
+      ]
+    },
+    {
+      "id": 8915,
+      "accent": "мотоци́кл",
+      "part": "名词·阳性",
+      "meaning": "摩托车",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "мотоцикл",
+        "part_of_speech": "阳",
+        "meaning_zh": "摩托车",
+        "source_page": 146,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мотоцикл",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=146"
+      ]
+    },
+    {
+      "id": 8916,
+      "accent": "мочь",
+      "part": "动词·未完成体",
+      "meaning": "能；能够；可以",
+      "perfective": "смочь",
+      "note": "也许是может быть等结构的整体义；完成体指能够完成某事。",
+      "stage": 1,
+      "original": {
+        "word": "мочь",
+        "part_of_speech": "未",
+        "meaning_zh": "能；能够；可以；也许",
+        "source_page": 146,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мочь",
+      "method": "2026-09-15当前助手逐项视觉对照专四PDF144至146页，核心义、重音、性体及词组边界核对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=146"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,629 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8917,
+      "accent": "мра́чный",
+      "part": "形容词",
+      "meaning": "黑暗的；昏暗的；阴沉的；忧郁的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "мрачный",
+        "part_of_speech": "形",
+        "meaning_zh": "黑暗的；昏暗的；阴沉的；忧郁的",
+        "source_page": 146,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мрачный",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=146"
+      ]
+    },
+    {
+      "id": 8918,
+      "accent": "му́дрый",
+      "part": "形容词",
+      "meaning": "英明的；有智慧的；明智的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "мудрый",
+        "part_of_speech": "形",
+        "meaning_zh": "英明的；有智慧的",
+        "source_page": 146,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мудрый",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=146"
+      ]
+    },
+    {
+      "id": 8919,
+      "accent": "муж",
+      "part": "名词，阳性",
+      "meaning": "丈夫；男子",
+      "perfective": "",
+      "note": "日常主要指丈夫；男子义偏书面，如国家杰出人物的称呼，不能处处替代мужчина。",
+      "stage": 1,
+      "original": {
+        "word": "муж",
+        "part_of_speech": "阳",
+        "meaning_zh": "丈夫；男人",
+        "source_page": 146,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "муж",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=146"
+      ]
+    },
+    {
+      "id": 8920,
+      "accent": "му́жественный",
+      "part": "形容词",
+      "meaning": "英勇的；勇敢的；有男子气概的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "мужественный",
+        "part_of_speech": "形",
+        "meaning_zh": "英勇的；勇敢的；有男子气概的",
+        "source_page": 146,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мужественный",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=146",
+        "data/words/tem4_russian_words.pdf#page=147"
+      ]
+    },
+    {
+      "id": 8921,
+      "accent": "му́жество",
+      "part": "名词，中性",
+      "meaning": "勇气；英勇；坚毅",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "мужество",
+        "part_of_speech": "中",
+        "meaning_zh": "英勇；勇气；英勇精神",
+        "source_page": 147,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мужество",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=147"
+      ]
+    },
+    {
+      "id": 8922,
+      "accent": "мужско́й",
+      "part": "形容词",
+      "meaning": "男性的；男子的；男用的",
+      "perfective": "",
+      "note": "语法中мужской род表示阳性。",
+      "stage": 1,
+      "original": {
+        "word": "мужской",
+        "part_of_speech": "形",
+        "meaning_zh": "男性的；男的；男子的",
+        "source_page": 147,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мужской",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=147"
+      ]
+    },
+    {
+      "id": 8923,
+      "accent": "мужчи́на",
+      "part": "名词，阳性",
+      "meaning": "男人；成年男子",
+      "perfective": "",
+      "note": "虽以-а结尾，仍是阳性名词。",
+      "stage": 1,
+      "original": {
+        "word": "мужчина",
+        "part_of_speech": "阳",
+        "meaning_zh": "男人；男子汉",
+        "source_page": 147,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мужчина",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=147"
+      ]
+    },
+    {
+      "id": 8924,
+      "accent": "му́зыка",
+      "part": "名词，阴性",
+      "meaning": "音乐；乐曲；器乐",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "музыка",
+        "part_of_speech": "阴",
+        "meaning_zh": "音乐；音乐作品；器乐；器乐曲",
+        "source_page": 147,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "музыка",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=147"
+      ]
+    },
+    {
+      "id": 8925,
+      "accent": "мука́",
+      "part": "名词，阴性",
+      "meaning": "面粉；粉末",
+      "perfective": "",
+      "note": "本条是末音节重读的面粉；不要与му́ка痛苦混淆。картофельная мука指马铃薯淀粉，须保留搭配条件。",
+      "stage": 1,
+      "original": {
+        "word": "мука",
+        "part_of_speech": "阴",
+        "meaning_zh": "面粉；粉",
+        "source_page": 147,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мука",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=147"
+      ]
+    },
+    {
+      "id": 8926,
+      "accent": "му́сор",
+      "part": "名词，阳性",
+      "meaning": "垃圾；废物",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "мусор",
+        "part_of_speech": "阳",
+        "meaning_zh": "垃圾；废物",
+        "source_page": 147,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мусор",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=147"
+      ]
+    },
+    {
+      "id": 8927,
+      "accent": "му́чить",
+      "part": "动词，未完成体",
+      "meaning": "折磨；虐待；使痛苦",
+      "perfective": "изму́чить",
+      "note": "原书另列заму́чить；两个完成体有折磨至精疲力竭等结果色彩，不能不看语境任意互换。",
+      "stage": 2,
+      "original": {
+        "word": "мучить",
+        "part_of_speech": "未",
+        "meaning_zh": "折磨；虐待；使痛苦",
+        "source_page": 147,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мучить",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=147"
+      ]
+    },
+    {
+      "id": 8928,
+      "accent": "му́читься",
+      "part": "动词，未完成体",
+      "meaning": "受折磨；难受；苦恼；伤脑筋",
+      "perfective": "",
+      "note": "表示持续状态；不同结果可用不同前缀完成体，本条不强配。",
+      "stage": 2,
+      "original": {
+        "word": "мучиться",
+        "part_of_speech": "未",
+        "meaning_zh": "受折磨；因……难受；为……苦恼",
+        "source_page": 147,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мучиться",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=147"
+      ]
+    },
+    {
+      "id": 8929,
+      "accent": "мча́ться",
+      "part": "动词，未完成体",
+      "meaning": "飞驰；疾驰；飞逝",
+      "perfective": "",
+      "note": "时间飞逝是转义；помчаться主要表示开始疾驰，不作为全义项通用体对。",
+      "stage": 2,
+      "original": {
+        "word": "мчаться",
+        "part_of_speech": "未",
+        "meaning_zh": "飞驰；疾驰",
+        "source_page": 147,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мчаться",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=147"
+      ]
+    },
+    {
+      "id": 8930,
+      "accent": "мы",
+      "part": "人称代词",
+      "meaning": "我们",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "мы",
+        "part_of_speech": "代",
+        "meaning_zh": "我们",
+        "source_page": 147,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мы",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=147"
+      ]
+    },
+    {
+      "id": 8931,
+      "accent": "мы́ло",
+      "part": "名词，中性",
+      "meaning": "肥皂",
+      "perfective": "",
+      "note": "туалетное мыло是香皂，жидкое мыло是液体皂或洗手液；不要把限定词省去后并列为所有场景的词义。",
+      "stage": 1,
+      "original": {
+        "word": "мыло",
+        "part_of_speech": "中",
+        "meaning_zh": "肥皂；香皂；洗手液",
+        "source_page": 147,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мыло",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=147"
+      ]
+    },
+    {
+      "id": 8932,
+      "accent": "мы́слить",
+      "part": "动词，未完成体",
+      "meaning": "思维；思考；思索；打算",
+      "perfective": "",
+      "note": "打算义偏口语，接不定式；不把同根的其他前缀动词强配为通用完成体。",
+      "stage": 2,
+      "original": {
+        "word": "мыслить",
+        "part_of_speech": "未",
+        "meaning_zh": "思维；思考；思索",
+        "source_page": 147,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мыслить",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=147",
+        "data/words/tem4_russian_words.pdf#page=148"
+      ]
+    },
+    {
+      "id": 8933,
+      "accent": "мысль",
+      "part": "名词，阴性",
+      "meaning": "思维；思想；念头；想法",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "мысль",
+        "part_of_speech": "阮",
+        "meaning_zh": "思维；思想；念头；想法",
+        "source_page": 148,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мысль",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=148"
+      ]
+    },
+    {
+      "id": 8934,
+      "accent": "мыть",
+      "part": "动词，未完成体",
+      "meaning": "洗；清洗",
+      "perfective": "вы́мыть",
+      "note": "原书也列помы́ть，均可表示洗过或洗净，结合具体搭配使用。",
+      "stage": 1,
+      "original": {
+        "word": "мыть",
+        "part_of_speech": "未",
+        "meaning_zh": "洗；清洗",
+        "source_page": 148,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мыть",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=148"
+      ]
+    },
+    {
+      "id": 8935,
+      "accent": "мы́ться",
+      "part": "动词，未完成体",
+      "meaning": "洗澡；洗脸；洗手；洗身体",
+      "perfective": "вы́мыться",
+      "note": "具体洗哪一部分由语境限定；常见搭配мыться под душем为淋浴。",
+      "stage": 1,
+      "original": {
+        "word": "мыться",
+        "part_of_speech": "未",
+        "meaning_zh": "洗澡；洗脸；洗手；洗身体",
+        "source_page": 148,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мыться",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=148"
+      ]
+    },
+    {
+      "id": 8936,
+      "accent": "мя́гкий",
+      "part": "形容词",
+      "meaning": "软的；柔软的；温和的；柔和的；轻柔的；宽容的",
+      "perfective": "",
+      "note": "可形容物体、声音、性格、惩罚或气候；具体译法随搭配，不把所有义项套用于同一对象。",
+      "stage": 1,
+      "original": {
+        "word": "мягкий",
+        "part_of_speech": "形",
+        "meaning_zh": "柔软的；温和的；悦耳的；轻盈的",
+        "source_page": 148,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мягкий",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=148"
+      ]
+    },
+    {
+      "id": 8937,
+      "accent": "мя́со",
+      "part": "名词，中性",
+      "meaning": "肉；肉类",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "мясо",
+        "part_of_speech": "中",
+        "meaning_zh": "肉；肉类",
+        "source_page": 148,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мясо",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=148"
+      ]
+    },
+    {
+      "id": 8938,
+      "accent": "мяч",
+      "part": "名词，阳性",
+      "meaning": "球；皮球",
+      "perfective": "",
+      "note": "指球状运动用品，不泛指球类运动。",
+      "stage": 1,
+      "original": {
+        "word": "мяч",
+        "part_of_speech": "阳",
+        "meaning_zh": "球；皮球；球类",
+        "source_page": 148,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "мяч",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=148"
+      ]
+    },
+    {
+      "id": 8939,
+      "accent": "на",
+      "part": "前置词",
+      "meaning": "在……上；到……上；在；往；用于；用；按",
+      "perfective": "",
+      "note": "接四格或六格：на столе在桌上，на стол到桌上；还可表达时间、用途、方式、数量等，不能逐词固定译成上面。",
+      "stage": 1,
+      "original": {
+        "word": "на",
+        "part_of_speech": "前",
+        "meaning_zh": "往；向……上面；在……上；到……上；在……时候",
+        "source_page": 148,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "на",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=148",
+        "data/words/tem4_russian_words.pdf#page=149"
+      ]
+    },
+    {
+      "id": 8940,
+      "accent": "набира́ть",
+      "part": "动词，未完成体",
+      "meaning": "收集；招收；募集；装满；取得；达到；排字；拨号",
+      "perfective": "набра́ть",
+      "note": "набирать скорость是加速，набирать номер是拨电话号码；买到或借到属于取得一定数量的具体语境。",
+      "stage": 2,
+      "original": {
+        "word": "набирать",
+        "part_of_speech": null,
+        "meaning_zh": "买到；借到；收到；收集；募集；装上；加足；达到；排字；拨号",
+        "source_page": 149,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "набирать",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=149"
+      ]
+    },
+    {
+      "id": 8941,
+      "accent": "наблюда́ть",
+      "part": "动词，未完成体",
+      "meaning": "观察；注视；研究；照看；监督",
+      "perfective": "",
+      "note": "观察某对象可接四格；观察或照看某人某事也可用за加五格。",
+      "stage": 2,
+      "original": {
+        "word": "наблюдать",
+        "part_of_speech": "未",
+        "meaning_zh": "观察；注视；研究；照看；监督",
+        "source_page": 149,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "наблюдать",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=149"
+      ]
+    },
+    {
+      "id": 8942,
+      "accent": "наблюда́ться",
+      "part": "动词，未完成体",
+      "meaning": "可以观察到；出现；表现出",
+      "perfective": "",
+      "note": "常用于某种现象、变化或趋势的出现。",
+      "stage": 2,
+      "original": {
+        "word": "наблюдаться",
+        "part_of_speech": "未",
+        "meaning_zh": "可以看到；显出；表现出",
+        "source_page": 149,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "наблюдаться",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=149"
+      ]
+    },
+    {
+      "id": 8943,
+      "accent": "наве́рно",
+      "part": "副词、插入语",
+      "meaning": "大概；想必；一定；无疑",
+      "perfective": "",
+      "note": "作插入语常表推测；表示确知时可表一定，如знать наверно。原词头ё是重音误识别，应为е。",
+      "stage": 1,
+      "original": {
+        "word": "навёрно",
+        "part_of_speech": "副",
+        "meaning_zh": "一定；无疑；大概；想必",
+        "source_page": 149,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "наверно",
+      "method": "2026-09-15当前助手逐词视觉核对专四原PDF146至149页，复核重音、体、词性与中文核心义；词组义不冒充单词义，不确定配对不强配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=149"
+      ]
+    }
+  ]
+}
