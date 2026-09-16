@@ -1,0 +1,696 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9248,
+      "accent": "оскорбля́ть",
+      "part": "动词，未完成体",
+      "meaning": "侮辱；凌辱；冒犯",
+      "perfective": "оскорби́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "оскорблять",
+        "part_of_speech": "未",
+        "meaning_zh": "侮辱；凌辱；欺侮",
+        "source_page": 179,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "оскорблять",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=179"
+      ]
+    },
+    {
+      "id": 9249,
+      "accent": "ослабля́ть",
+      "part": "动词，未完成体",
+      "meaning": "削弱；减弱；缓和；放松",
+      "perfective": "осла́бить",
+      "note": "补原页使松弛义，如放松肌肉。",
+      "stage": 2,
+      "original": {
+        "word": "ослаблять",
+        "part_of_speech": "未",
+        "meaning_zh": "削弱；减弱",
+        "source_page": 179,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ослаблять",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=179"
+      ]
+    },
+    {
+      "id": 9250,
+      "accent": "осма́тривать",
+      "part": "动词，未完成体",
+      "meaning": "查看；察看；打量；参观；检查",
+      "perfective": "осмотре́ть",
+      "note": "补原页参观义。",
+      "stage": 2,
+      "original": {
+        "word": "осматривать",
+        "part_of_speech": "未",
+        "meaning_zh": "查看；察看；打量；检查",
+        "source_page": 179,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "осматривать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=179"
+      ]
+    },
+    {
+      "id": 9251,
+      "accent": "осно́ва",
+      "part": "名词，阴性",
+      "meaning": "基础；骨架；核心；基本原理；词干",
+      "perfective": "",
+      "note": "基本原理常用复数основы；词干为语法义，勿与词根混淆。",
+      "stage": 2,
+      "original": {
+        "word": "основа",
+        "part_of_speech": "阴",
+        "meaning_zh": "基础；骨架；骨干；核心",
+        "source_page": 179,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "основа",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=179"
+      ]
+    },
+    {
+      "id": 9252,
+      "accent": "основа́ние",
+      "part": "名词，中性",
+      "meaning": "建立；创立；地基；底座；基础；根据；理由",
+      "perfective": "",
+      "note": "原页明确有根据义，如на основании чего根据某事。",
+      "stage": 2,
+      "original": {
+        "word": "основание",
+        "part_of_speech": "中",
+        "meaning_zh": "建立；创立；地基；底座",
+        "source_page": 180,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "основание",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=180"
+      ]
+    },
+    {
+      "id": 9253,
+      "accent": "основа́тель",
+      "part": "名词，阳性",
+      "meaning": "创始人；奠基人",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "основатель",
+        "part_of_speech": "阳",
+        "meaning_zh": "创始人；奠基人",
+        "source_page": 180,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "основатель",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=180"
+      ]
+    },
+    {
+      "id": 9254,
+      "accent": "основно́й",
+      "part": "形容词",
+      "meaning": "基本的；根本的；主要的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "основной",
+        "part_of_speech": "形",
+        "meaning_zh": "基本的；根本的；主要的",
+        "source_page": 180,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "основной",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=180"
+      ]
+    },
+    {
+      "id": 9255,
+      "accent": "осно́вывать",
+      "part": "动词，未完成体",
+      "meaning": "建立；创立；使以……为基础",
+      "perfective": "основа́ть",
+      "note": "что на чём：把某事建立在某基础上，区别основываться自身以某事为依据。",
+      "stage": 2,
+      "original": {
+        "word": "основывать",
+        "part_of_speech": "未",
+        "meaning_zh": "建立；创立；以……为基础",
+        "source_page": 180,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "основывать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=180"
+      ]
+    },
+    {
+      "id": 9256,
+      "accent": "осо́бенность",
+      "part": "名词，阴性",
+      "meaning": "特点；特征；特殊性",
+      "perfective": "",
+      "note": "特别是来自в особенности，不能混作名词本身的副词义。",
+      "stage": 2,
+      "original": {
+        "word": "особенность",
+        "part_of_speech": "阴",
+        "meaning_zh": "特点；特征；特殊性；特别是",
+        "source_page": 180,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "особенность",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=180"
+      ]
+    },
+    {
+      "id": 9257,
+      "accent": "осо́бенный",
+      "part": "形容词",
+      "meaning": "特别的；特殊的；独特的；异常的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "особенный",
+        "part_of_speech": "形",
+        "meaning_zh": "特别的；特殊的；独特的；异常的",
+        "source_page": 180,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "особенный",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=180"
+      ]
+    },
+    {
+      "id": 9258,
+      "accent": "осо́бый",
+      "part": "形容词",
+      "meaning": "特别的；特殊的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "особый",
+        "part_of_speech": "形",
+        "meaning_zh": "特别的；特殊的",
+        "source_page": 180,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "особый",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=180"
+      ]
+    },
+    {
+      "id": 9259,
+      "accent": "остава́ться",
+      "part": "动词，未完成体",
+      "meaning": "留下；停留；剩下；仍然是；处于",
+      "perfective": "оста́ться",
+      "note": "оставаться без чего表示失去或缺少某物，需要完整结构。",
+      "stage": 1,
+      "original": {
+        "word": "оставаться",
+        "part_of_speech": "完",
+        "meaning_zh": "留下；停留；仍然存在；保留",
+        "source_page": 180,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "оставаться",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=180"
+      ]
+    },
+    {
+      "id": 9260,
+      "accent": "оставля́ть",
+      "part": "动词，未完成体",
+      "meaning": "留下；保留；留给；挽留；离开；放弃",
+      "perfective": "оста́вить",
+      "note": "原页包括离开家庭、弃学等义，不仅是留下物品。",
+      "stage": 1,
+      "original": {
+        "word": "оставлять",
+        "part_of_speech": "未",
+        "meaning_zh": "留下；保留；留给；保持",
+        "source_page": 180,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "оставлять",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=180"
+      ]
+    },
+    {
+      "id": 9261,
+      "accent": "остана́вливать",
+      "part": "动词，未完成体",
+      "meaning": "使停下；使停止；阻止；使停留",
+      "perfective": "останови́ть",
+      "note": "使目光或注意停留于某处须结合взгляд、внимание等对象。",
+      "stage": 2,
+      "original": {
+        "word": "останавливать",
+        "part_of_speech": null,
+        "meaning_zh": "使停下；使停止；把注意力集中在",
+        "source_page": 180,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "останавливать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=180",
+        "data/words/tem4_russian_words.pdf#page=181"
+      ]
+    },
+    {
+      "id": 9262,
+      "accent": "остана́вливаться",
+      "part": "动词，未完成体",
+      "meaning": "停下；停止；停留；暂住；详细谈及",
+      "perfective": "останови́ться",
+      "note": "остановиться на вопросе可表详细讨论某问题，不只是进行到某处。",
+      "stage": 1,
+      "original": {
+        "word": "останавливаться",
+        "part_of_speech": "未",
+        "meaning_zh": "停下；站住；停止；停留；进行到……为止",
+        "source_page": 181,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "останавливаться",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=181"
+      ]
+    },
+    {
+      "id": 9263,
+      "accent": "остано́вка",
+      "part": "名词，阴性",
+      "meaning": "停靠站；停顿；间断；逗留",
+      "perfective": "",
+      "note": "主要指公共交通停靠点；不把所有大型铁路车站都译成本词。",
+      "stage": 1,
+      "original": {
+        "word": "остановка",
+        "part_of_speech": "阴",
+        "meaning_zh": "车站；停顿；间断；逗留",
+        "source_page": 181,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "остановка",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=181"
+      ]
+    },
+    {
+      "id": 9264,
+      "accent": "оста́ток",
+      "part": "名词，阳性",
+      "meaning": "剩余；余款；余数；残余；遗迹",
+      "perfective": "",
+      "note": "遗迹、残留物常用复数остатки。",
+      "stage": 2,
+      "original": {
+        "word": "остаток",
+        "part_of_speech": "阳",
+        "meaning_zh": "残余；余款；余数",
+        "source_page": 181,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "остаток",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=181"
+      ]
+    },
+    {
+      "id": 9265,
+      "accent": "о́стров",
+      "part": "名词，阳性",
+      "meaning": "岛；岛屿",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "остров",
+        "part_of_speech": "阳",
+        "meaning_zh": "岛；岛屿",
+        "source_page": 181,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "остров",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=181"
+      ]
+    },
+    {
+      "id": 9266,
+      "accent": "о́стрый",
+      "part": "形容词",
+      "meaning": "尖的；锋利的；敏锐的；辛辣的；强烈的；尖刻的；急性的",
+      "perfective": "",
+      "note": "按刀刃、感官、食物、讽刺或病情等搭配区分，不能相互套用。",
+      "stage": 2,
+      "original": {
+        "word": "острый",
+        "part_of_speech": "形",
+        "meaning_zh": "尖的；尖锐的；敏锐的；辛辣的；强烈的；急性的",
+        "source_page": 181,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "острый",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=181"
+      ]
+    },
+    {
+      "id": 9267,
+      "accent": "осуществле́ние",
+      "part": "名词，中性",
+      "meaning": "实现；实行",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "осуществление",
+        "part_of_speech": "中",
+        "meaning_zh": "实现；实行",
+        "source_page": 181,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "осуществление",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=181"
+      ]
+    },
+    {
+      "id": 9268,
+      "accent": "осуществля́ть",
+      "part": "动词，未完成体",
+      "meaning": "实现；实行；实施",
+      "perfective": "осуществи́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "осуществлять",
+        "part_of_speech": "未",
+        "meaning_zh": "实现；完成；实行",
+        "source_page": 181,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "осуществлять",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=181"
+      ]
+    },
+    {
+      "id": 9269,
+      "accent": "от",
+      "part": "前置词",
+      "meaning": "从；由；离；由于；防；代表",
+      "perfective": "",
+      "note": "接二格，可表起点、来源、原因、防治对象等；具体译法随搭配，不逐词固定翻译。",
+      "stage": 1,
+      "original": {
+        "word": "от",
+        "part_of_speech": "前",
+        "meaning_zh": "从；由；离；由于；防止；代表",
+        "source_page": 182,
+        "source_line": "1"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "от",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=182"
+      ]
+    },
+    {
+      "id": 9270,
+      "accent": "отве́т",
+      "part": "名词，阳性",
+      "meaning": "回答；答复；回信；答案；责任",
+      "perfective": "",
+      "note": "责任常见于держать ответ за；原词头ё应为е。",
+      "stage": 1,
+      "original": {
+        "word": "отвёт",
+        "part_of_speech": null,
+        "meaning_zh": "回答；答复；回信；答案；责任",
+        "source_page": 182,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ответ",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=182"
+      ]
+    },
+    {
+      "id": 9271,
+      "accent": "отве́тственный",
+      "part": "形容词",
+      "meaning": "负有责任的；负责的；有责任心的；重大的；紧要的",
+      "perfective": "",
+      "note": "原词头ё应为е。",
+      "stage": 2,
+      "original": {
+        "word": "отвётственный",
+        "part_of_speech": "形",
+        "meaning_zh": "有责任的；负责的；重大的；紧要的",
+        "source_page": 182,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ответственный",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=182"
+      ]
+    },
+    {
+      "id": 9273,
+      "accent": "отвлечённый",
+      "part": "形容词",
+      "meaning": "抽象的",
+      "perfective": "",
+      "note": "本条抽象义，保留ё；另有动词形动词被转移开的语境，不混为所有句子的统一译义。",
+      "stage": 2,
+      "original": {
+        "word": "отвлечённый",
+        "part_of_speech": "形",
+        "meaning_zh": "抽象的；抽象化的",
+        "source_page": 182,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отвлечённый",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=182"
+      ]
+    },
+    {
+      "id": 9274,
+      "accent": "отвыка́ть",
+      "part": "动词，未完成体",
+      "meaning": "不再习惯；戒掉习惯；疏远；变得生疏",
+      "perfective": "отвы́кнуть",
+      "note": "常接от加二格或不定式。",
+      "stage": 2,
+      "original": {
+        "word": "отвыкать",
+        "part_of_speech": "未",
+        "meaning_zh": "戒掉；不习惯于；与……疏远；对……生疏",
+        "source_page": 183,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отвыкать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=183"
+      ]
+    },
+    {
+      "id": 9275,
+      "accent": "отдава́ть",
+      "part": "动词，未完成体",
+      "meaning": "交还；归还；送给；献出；交出；下达",
+      "perfective": "отда́ть",
+      "note": "下达用于命令等；отдать в аренду出租为完整搭配。",
+      "stage": 1,
+      "original": {
+        "word": "отдавать",
+        "part_of_speech": "未",
+        "meaning_zh": "交出；归还；给予；献出；下达",
+        "source_page": 183,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отдавать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=183"
+      ]
+    },
+    {
+      "id": 9276,
+      "accent": "отде́л",
+      "part": "名词，阳性",
+      "meaning": "部门；科；处；书刊的部分；栏目",
+      "perfective": "",
+      "note": "原词头ё应为е。",
+      "stage": 2,
+      "original": {
+        "word": "отдёл",
+        "part_of_speech": "阳",
+        "meaning_zh": "部门；科；处；（书籍的）部、篇、章；（报刊的）栏目",
+        "source_page": 183,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отдел",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=183"
+      ]
+    },
+    {
+      "id": 9277,
+      "accent": "отделе́ние",
+      "part": "名词，中性",
+      "meaning": "分开；分离；划出；分部；分行",
+      "perfective": "",
+      "note": "原词头ё应为е。",
+      "stage": 2,
+      "original": {
+        "word": "отделёние",
+        "part_of_speech": "中",
+        "meaning_zh": "分开；分离；划出；分部；分行",
+        "source_page": 183,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отделение",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=183"
+      ]
+    },
+    {
+      "id": 9278,
+      "accent": "отде́льный",
+      "part": "形容词",
+      "meaning": "单独的；个别的；独立的",
+      "perfective": "",
+      "note": "原词头ё应为е；分别地是副词отдельно的具体用法。",
+      "stage": 2,
+      "original": {
+        "word": "отдёльный",
+        "part_of_speech": "形",
+        "meaning_zh": "单独的；个别的；分别的",
+        "source_page": 183,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отдельный",
+      "method": "2026-09-16当前助手逐词视觉核对PDF179至183页，补词干、根据等漏义，局部修正е/ё，核对跨页内容及动词支配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=183"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,700 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9311,
+      "accent": "отрица́тельный",
+      "part": "形容词",
+      "meaning": "否定的；负面的；恶劣的；负的",
+      "perfective": "",
+      "note": "负的用于数值或电荷等，不等于所有语境的不好。",
+      "stage": 2,
+      "original": {
+        "word": "отрицательный",
+        "part_of_speech": "形",
+        "meaning_zh": "否定的；负面的；恶劣的；负的",
+        "source_page": 187,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отрицательный",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=187"
+      ]
+    },
+    {
+      "id": 9312,
+      "accent": "отрица́ть",
+      "part": "动词，未完成体",
+      "meaning": "否认；否定",
+      "perfective": "",
+      "note": "本条不强配其他义项的前缀完成体。",
+      "stage": 2,
+      "original": {
+        "word": "отрицать",
+        "part_of_speech": "未",
+        "meaning_zh": "否认；否定",
+        "source_page": 187,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отрицать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=187"
+      ]
+    },
+    {
+      "id": 9313,
+      "accent": "отрыва́ть",
+      "part": "动词，未完成体",
+      "meaning": "撕下；扯断；使离开；使分离",
+      "perfective": "оторва́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "отрывать",
+        "part_of_speech": "未",
+        "meaning_zh": "撕下；扯断；使离开；使分离",
+        "source_page": 187,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отрывать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=187"
+      ]
+    },
+    {
+      "id": 9314,
+      "accent": "отрыва́ться",
+      "part": "动词，未完成体",
+      "meaning": "脱落；被扯掉；脱离；暂时中断",
+      "perfective": "оторва́ться",
+      "note": "отрываться от работы暂停工作；视线移开须结合от和对象。",
+      "stage": 2,
+      "original": {
+        "word": "отрываться",
+        "part_of_speech": "未",
+        "meaning_zh": "被扯掉；撕掉；脱离；中断；移开",
+        "source_page": 187,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отрываться",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=187"
+      ]
+    },
+    {
+      "id": 9315,
+      "accent": "отря́д",
+      "part": "名词，阳性",
+      "meaning": "队；分队；支队",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "отряд",
+        "part_of_speech": "阳",
+        "meaning_zh": "队；分队；支队",
+        "source_page": 187,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отряд",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=187"
+      ]
+    },
+    {
+      "id": 9316,
+      "accent": "отстава́ть",
+      "part": "动词，未完成体",
+      "meaning": "落在后面；落后；走慢；脱落",
+      "perfective": "отста́ть",
+      "note": "走慢义常说钟表慢；脱落如墙纸脱离墙面。",
+      "stage": 2,
+      "original": {
+        "word": "отставать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "落后；落在后面；走慢；脱落",
+        "source_page": 187,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отставать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=187"
+      ]
+    },
+    {
+      "id": 9317,
+      "accent": "отста́ивать",
+      "part": "动词，未完成体",
+      "meaning": "捍卫；维护；坚持",
+      "perfective": "отстоя́ть",
+      "note": "本条维护权利观点义，不混入静置液体的同形动词。",
+      "stage": 2,
+      "original": {
+        "word": "отстаивать",
+        "part_of_speech": "未",
+        "meaning_zh": "捍卫；维护；坚持",
+        "source_page": 187,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отстаивать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=187"
+      ]
+    },
+    {
+      "id": 9318,
+      "accent": "отста́лый",
+      "part": "形容词",
+      "meaning": "落后的；掉队的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "отсталый",
+        "part_of_speech": "形",
+        "meaning_zh": "落后的；掉队的",
+        "source_page": 187,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отсталый",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=187"
+      ]
+    },
+    {
+      "id": 9319,
+      "accent": "отступа́ть",
+      "part": "动词，未完成体",
+      "meaning": "后退；撤退；退让；放弃；背离",
+      "perfective": "отступи́ть",
+      "note": "放弃或背离接от加二格。",
+      "stage": 2,
+      "original": {
+        "word": "отступать",
+        "part_of_speech": "未",
+        "meaning_zh": "后退；退让；放弃；偏离",
+        "source_page": 187,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отступать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=187",
+        "data/words/tem4_russian_words.pdf#page=188"
+      ]
+    },
+    {
+      "id": 9320,
+      "accent": "отсу́тствие",
+      "part": "名词，中性",
+      "meaning": "缺少；不存在；缺席",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "отсутствие",
+        "part_of_speech": "中",
+        "meaning_zh": "缺少；不存在；缺席",
+        "source_page": 188,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отсутствие",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=188"
+      ]
+    },
+    {
+      "id": 9321,
+      "accent": "отсу́тствовать",
+      "part": "动词，未完成体",
+      "meaning": "缺少；不存在；缺席",
+      "perfective": "",
+      "note": "表示状态，不强配通用完成体。",
+      "stage": 2,
+      "original": {
+        "word": "отсутствовать",
+        "part_of_speech": "未",
+        "meaning_zh": "没有；不存在；缺席",
+        "source_page": 188,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отсутствовать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=188"
+      ]
+    },
+    {
+      "id": 9322,
+      "accent": "отсю́да",
+      "part": "代词副词",
+      "meaning": "从这里；由此；因此",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "отсюда",
+        "part_of_speech": "副",
+        "meaning_zh": "从这里；由此；因此",
+        "source_page": 188,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отсюда",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=188"
+      ]
+    },
+    {
+      "id": 9323,
+      "accent": "отту́да",
+      "part": "代词副词",
+      "meaning": "从那里；由那里",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "оттуда",
+        "part_of_speech": "副",
+        "meaning_zh": "从那里；由那里",
+        "source_page": 188,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "оттуда",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=188"
+      ]
+    },
+    {
+      "id": 9324,
+      "accent": "отходи́ть",
+      "part": "动词，未完成体",
+      "meaning": "离开；走到一旁；开出；撤走",
+      "perfective": "отойти́",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "отходить",
+        "part_of_speech": "Ж",
+        "meaning_zh": "离开；走到一旁；开出；离去",
+        "source_page": 188,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отходить",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=188"
+      ]
+    },
+    {
+      "id": 9325,
+      "accent": "о́тчество",
+      "part": "名词，中性",
+      "meaning": "父称；父名",
+      "perfective": "",
+      "note": "指由父亲名字派生的称名组成部分，不是父亲本人的名字。",
+      "stage": 1,
+      "original": {
+        "word": "отчество",
+        "part_of_speech": "中",
+        "meaning_zh": "父名；父称",
+        "source_page": 188,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отчество",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=188"
+      ]
+    },
+    {
+      "id": 9326,
+      "accent": "офице́р",
+      "part": "名词，阳性",
+      "meaning": "军官",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "офицер",
+        "part_of_speech": "阳",
+        "meaning_zh": "军官",
+        "source_page": 188,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "офицер",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=188"
+      ]
+    },
+    {
+      "id": 9327,
+      "accent": "официа́льный",
+      "part": "形容词",
+      "meaning": "官方的；政府的；正式的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "официальный",
+        "part_of_speech": "形",
+        "meaning_zh": "官方的；政府的；正式的",
+        "source_page": 188,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "официальный",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=188"
+      ]
+    },
+    {
+      "id": 9328,
+      "accent": "оформля́ть",
+      "part": "动词，未完成体",
+      "meaning": "办理手续；制作文件；装饰；布置；使成形",
+      "perfective": "офо́рмить",
+      "note": "原页包含装潢和办理手续，不把泛指表达思想当作所有用法。",
+      "stage": 2,
+      "original": {
+        "word": "оформлять",
+        "part_of_speech": "未",
+        "meaning_zh": "办理手续；办理文件；装饰布置；表达",
+        "source_page": 188,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "оформлять",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=188"
+      ]
+    },
+    {
+      "id": 9329,
+      "accent": "охва́тывать",
+      "part": "动词，未完成体",
+      "meaning": "抱住；包围；笼罩；充满；包括；涵盖",
+      "perfective": "охвати́ть",
+      "note": "原页补抱住、情感充满义，不能只留下抽象涵盖。",
+      "stage": 2,
+      "original": {
+        "word": "охватывать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "涵盖；包括；包围；笼罩",
+        "source_page": 188,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "охватывать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=188"
+      ]
+    },
+    {
+      "id": 9330,
+      "accent": "охо́та",
+      "part": "名词，阴性；谓语用法",
+      "meaning": "打猎；狩猎；愿望；意愿；想要",
+      "perfective": "",
+      "note": "原页分列两同形词；愿意义如мне охота читать，不是狩猎义的转译。",
+      "stage": 2,
+      "original": {
+        "word": "охота",
+        "part_of_speech": "[ 阴",
+        "meaning_zh": "打猎；狩猎；爱好；愿意",
+        "source_page": 188,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "охота",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=188",
+        "data/words/tem4_russian_words.pdf#page=189"
+      ]
+    },
+    {
+      "id": 9331,
+      "accent": "охо́тник",
+      "part": "名词，阳性",
+      "meaning": "猎人；爱好者",
+      "perfective": "",
+      "note": "猎人为原书核心；爱好者义需相应对象语境，不泛指专业运动员。",
+      "stage": 2,
+      "original": {
+        "word": "охотник",
+        "part_of_speech": "阳",
+        "meaning_zh": "猎人；爱好者",
+        "source_page": 189,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "охотник",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=189"
+      ]
+    },
+    {
+      "id": 9332,
+      "accent": "охраня́ть",
+      "part": "动词，未完成体",
+      "meaning": "保护；保卫；看守",
+      "perfective": "охрани́ть",
+      "note": "原书列охранить；持续看守通常用未完成体，不与сохранить保存任意替换。",
+      "stage": 2,
+      "original": {
+        "word": "охранять",
+        "part_of_speech": "未",
+        "meaning_zh": "保护；保卫；看守",
+        "source_page": 189,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "охранять",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=189"
+      ]
+    },
+    {
+      "id": 9333,
+      "accent": "оце́нивать",
+      "part": "动词，未完成体",
+      "meaning": "估价；评价；评定；估计",
+      "perfective": "оцени́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "оценивать",
+        "part_of_speech": "未",
+        "meaning_zh": "估价；评价；评定；估计",
+        "source_page": 189,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "оценивать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=189"
+      ]
+    },
+    {
+      "id": 9334,
+      "accent": "оце́нка",
+      "part": "名词，阴性",
+      "meaning": "估计；评价；评定；分数；成绩",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "оценка",
+        "part_of_speech": "阴",
+        "meaning_zh": "估计；评价；评定；分数；成绩",
+        "source_page": 189,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "оценка",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=189"
+      ]
+    },
+    {
+      "id": 9335,
+      "accent": "о́чередь",
+      "part": "名词，阴性",
+      "meaning": "次序；轮次；队列；排队的人",
+      "perfective": "",
+      "note": "轮到某人通常说чья очередь，不能把名词直接标成动词。",
+      "stage": 1,
+      "original": {
+        "word": "очередь",
+        "part_of_speech": "阴",
+        "meaning_zh": "次序；队列；排队的人；轮到",
+        "source_page": 189,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "очередь",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=189"
+      ]
+    },
+    {
+      "id": 9336,
+      "accent": "очки́",
+      "part": "名词，仅复数",
+      "meaning": "眼镜",
+      "perfective": "",
+      "note": "本条原页是眼镜；同形的比赛积分是очко́的复数，中性名词，另作区分说明，不混入眼镜词性。",
+      "stage": 1,
+      "original": {
+        "word": "очки",
+        "part_of_speech": "复",
+        "meaning_zh": "眼镜；分数；成绩",
+        "source_page": 189,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "очки",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=189",
+        "https://gramota.ru/meta/ochko",
+        "https://gramota.ru/poisk?mode=slovari&query=%D0%BE%D1%87%D0%BA%D0%B8"
+      ]
+    },
+    {
+      "id": 9337,
+      "accent": "ошиба́ться",
+      "part": "动词，未完成体",
+      "meaning": "弄错；犯错误",
+      "perfective": "ошиби́ться",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "ошибаться",
+        "part_of_speech": "未",
+        "meaning_zh": "弄错；犯错误",
+        "source_page": 189,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ошибаться",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=189"
+      ]
+    },
+    {
+      "id": 9338,
+      "accent": "оши́бка",
+      "part": "名词，阴性",
+      "meaning": "错误；过失；误差",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "ошибка",
+        "part_of_speech": "阴",
+        "meaning_zh": "错误；过失；误差",
+        "source_page": 189,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ошибка",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=189"
+      ]
+    },
+    {
+      "id": 9339,
+      "accent": "ощу́пывать",
+      "part": "动词，未完成体",
+      "meaning": "用手摸索；触摸检查；触诊",
+      "perfective": "ощу́пать",
+      "note": "触诊为检查身体的具体语境，非所有摸到都译触诊。",
+      "stage": 2,
+      "original": {
+        "word": "ощупывать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "触摸；摸索；触诊",
+        "source_page": 189,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ощупывать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=189"
+      ]
+    },
+    {
+      "id": 9340,
+      "accent": "павильо́н",
+      "part": "名词，阳性",
+      "meaning": "亭；展馆；陈列馆",
+      "perfective": "",
+      "note": "展馆是建筑或场馆，不只是展台。",
+      "stage": 2,
+      "original": {
+        "word": "павильон",
+        "part_of_speech": "阳",
+        "meaning_zh": "亭；展馆；展台",
+        "source_page": 189,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "павильон",
+      "method": "2026-09-16当前助手逐词视觉核对PDF187至190页，区分同形词、名词数和语境；очки另查词典，不把模型自检当外部验证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=189",
+        "data/words/tem4_russian_words.pdf#page=190"
+      ]
+    }
+  ]
+}

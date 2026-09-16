@@ -1,0 +1,698 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9218,
+      "accent": "опозда́ние",
+      "part": "名词，中性",
+      "meaning": "迟到；延误",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "опоздание",
+        "part_of_speech": "中",
+        "meaning_zh": "迟到；耽搁；延误",
+        "source_page": 177,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "опоздание",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=177"
+      ]
+    },
+    {
+      "id": 9219,
+      "accent": "опра́вдывать",
+      "part": "动词，未完成体",
+      "meaning": "证明正确；为……辩护；证明无罪；不辜负",
+      "perfective": "оправда́ть",
+      "note": "补回原页不辜负义，如оправдать доверие不辜负信任。",
+      "stage": 2,
+      "original": {
+        "word": "оправдывать",
+        "part_of_speech": "未",
+        "meaning_zh": "辩解；证明……无罪；为……辩护",
+        "source_page": 177,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "оправдывать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=177"
+      ]
+    },
+    {
+      "id": 9220,
+      "accent": "определённый",
+      "part": "形容词",
+      "meaning": "确定的；固定的；明确的；一定的",
+      "perfective": "",
+      "note": "保留ё。",
+      "stage": 2,
+      "original": {
+        "word": "определённый",
+        "part_of_speech": "形",
+        "meaning_zh": "确定的；明确的；一定的",
+        "source_page": 177,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "определённый",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=177"
+      ]
+    },
+    {
+      "id": 9221,
+      "accent": "определя́ть",
+      "part": "动词，未完成体",
+      "meaning": "确定；断定；规定；决定；给……下定义",
+      "perfective": "определи́ть",
+      "note": "补回原页下定义义；определять понятие给概念下定义。",
+      "stage": 2,
+      "original": {
+        "word": "определять",
+        "part_of_speech": "未",
+        "meaning_zh": "确定；断定；规定；决定",
+        "source_page": 177,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "определять",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=177"
+      ]
+    },
+    {
+      "id": 9222,
+      "accent": "опуска́ть",
+      "part": "动词，未完成体",
+      "meaning": "放下；降低；垂下；放入",
+      "perfective": "опусти́ть",
+      "note": "动作作用于宾语，如опустить голову低下头，不是物体自行下降。",
+      "stage": 2,
+      "original": {
+        "word": "опускать",
+        "part_of_speech": "未",
+        "meaning_zh": "放下；降低；下垂；放入",
+        "source_page": 177,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "опускать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=177"
+      ]
+    },
+    {
+      "id": 9223,
+      "accent": "опуска́ться",
+      "part": "动词，未完成体",
+      "meaning": "下降；落下；垂下；降临",
+      "perfective": "опусти́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "опускаться",
+        "part_of_speech": "未",
+        "meaning_zh": "下降；下落；垂下；降临",
+        "source_page": 177,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "опускаться",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=177"
+      ]
+    },
+    {
+      "id": 9224,
+      "accent": "о́пыт",
+      "part": "名词，阳性",
+      "meaning": "经验；实验；试验；尝试",
+      "perfective": "",
+      "note": "补原书尝试义；个人经验与实验须分开理解。",
+      "stage": 2,
+      "original": {
+        "word": "опыт",
+        "part_of_speech": null,
+        "meaning_zh": "经验；经历；实验；试验",
+        "source_page": 177,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "опыт",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=177"
+      ]
+    },
+    {
+      "id": 9225,
+      "accent": "о́пытный",
+      "part": "形容词",
+      "meaning": "有经验的；实验的；试验性的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "опытный",
+        "part_of_speech": "形",
+        "meaning_zh": "有经验的；实验的；试验性的",
+        "source_page": 177,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "опытный",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=177"
+      ]
+    },
+    {
+      "id": 9226,
+      "accent": "опя́ть",
+      "part": "副词",
+      "meaning": "又；再",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "опять",
+        "part_of_speech": "副",
+        "meaning_zh": "又；再",
+        "source_page": 177,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "опять",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=177"
+      ]
+    },
+    {
+      "id": 9227,
+      "accent": "орби́та",
+      "part": "名词，阴性",
+      "meaning": "轨道",
+      "perfective": "",
+      "note": "主要指天体或航天器等运行轨道。",
+      "stage": 2,
+      "original": {
+        "word": "орбита",
+        "part_of_speech": "阴",
+        "meaning_zh": "轨道",
+        "source_page": 177,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "орбита",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=177"
+      ]
+    },
+    {
+      "id": 9228,
+      "accent": "о́рган",
+      "part": "名词，阳性",
+      "meaning": "器官；机关；机构；机关刊物",
+      "perfective": "",
+      "note": "原页跨页补机关刊物义；勿与末音节重读орга́н管风琴混淆。",
+      "stage": 2,
+      "original": {
+        "word": "орган",
+        "part_of_speech": "阳",
+        "meaning_zh": "器官；机关；机构",
+        "source_page": 177,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "орган",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=177",
+        "data/words/tem4_russian_words.pdf#page=178"
+      ]
+    },
+    {
+      "id": 9229,
+      "accent": "освобожда́ть",
+      "part": "动词，未完成体",
+      "meaning": "释放；解放；腾空；收复；使摆脱；免除；免职",
+      "perfective": "освободи́ть",
+      "note": "与9242同一词头的不同来源记录分别保留，不覆盖学习历史。",
+      "stage": 2,
+      "original": {
+        "word": "освобождать",
+        "part_of_speech": null,
+        "meaning_zh": "解放；释放；使摆脱；免除；免职",
+        "source_page": 178,
+        "source_line": "1"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "освобождать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=178",
+        "data/words/tem4_russian_words.pdf#page=179"
+      ]
+    },
+    {
+      "id": 9230,
+      "accent": "организа́тор",
+      "part": "名词，阳性",
+      "meaning": "组织者",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "организатор",
+        "part_of_speech": "阳",
+        "meaning_zh": "组织者",
+        "source_page": 178,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "организатор",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=178"
+      ]
+    },
+    {
+      "id": 9231,
+      "accent": "организа́ция",
+      "part": "名词，阴性",
+      "meaning": "组织；成立；机构；团体",
+      "perfective": "",
+      "note": "既表示组织活动，也表示组织实体。",
+      "stage": 2,
+      "original": {
+        "word": "организация",
+        "part_of_speech": "阴",
+        "meaning_zh": "组织；机构；团体",
+        "source_page": 178,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "организация",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=178"
+      ]
+    },
+    {
+      "id": 9232,
+      "accent": "органи́зм",
+      "part": "名词，阳性",
+      "meaning": "机体；生物体；体质；身体",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "организм",
+        "part_of_speech": "阳",
+        "meaning_zh": "机体；生物体；身体",
+        "source_page": 178,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "организм",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=178"
+      ]
+    },
+    {
+      "id": 9233,
+      "accent": "организо́вывать",
+      "part": "动词，未完成体",
+      "meaning": "组织；举办；安排；建立",
+      "perfective": "организова́ть",
+      "note": "对应организовать有兼体用法，不能因此把本词也标兼体。",
+      "stage": 2,
+      "original": {
+        "word": "организовывать",
+        "part_of_speech": "未",
+        "meaning_zh": "组织；举办；安排",
+        "source_page": 178,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "организовывать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=178"
+      ]
+    },
+    {
+      "id": 9234,
+      "accent": "о́рден",
+      "part": "名词，阳性",
+      "meaning": "勋章",
+      "perfective": "",
+      "note": "不是所有奖章的通称；本条不混入修会等另一义项体系。",
+      "stage": 2,
+      "original": {
+        "word": "орден",
+        "part_of_speech": "阳",
+        "meaning_zh": "勋章；奖章",
+        "source_page": 178,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "орден",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=178"
+      ]
+    },
+    {
+      "id": 9235,
+      "accent": "орёл",
+      "part": "名词，阳性",
+      "meaning": "鹰；勇士",
+      "perfective": "",
+      "note": "勇士为对勇敢者的转喻称呼，保留ё。",
+      "stage": 2,
+      "original": {
+        "word": "орёл",
+        "part_of_speech": "阳",
+        "meaning_zh": "鹰；勇士",
+        "source_page": 178,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "орёл",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=178"
+      ]
+    },
+    {
+      "id": 9236,
+      "accent": "оре́х",
+      "part": "名词，阳性",
+      "meaning": "坚果；坚果仁",
+      "perfective": "",
+      "note": "核桃是грецкий орех；земляной орех为花生，不把限定搭配全当本词核心义。",
+      "stage": 1,
+      "original": {
+        "word": "орех",
+        "part_of_speech": "阳",
+        "meaning_zh": "坚果；胡桃；核桃",
+        "source_page": 178,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "орех",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=178"
+      ]
+    },
+    {
+      "id": 9237,
+      "accent": "орке́стр",
+      "part": "名词，阳性",
+      "meaning": "乐队；管弦乐队；乐池",
+      "perfective": "",
+      "note": "原页第二义为剧场乐池，并非另一支乐队。",
+      "stage": 2,
+      "original": {
+        "word": "оркестр",
+        "part_of_speech": "阳",
+        "meaning_zh": "乐队；管弦乐队",
+        "source_page": 178,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "оркестр",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=178"
+      ]
+    },
+    {
+      "id": 9238,
+      "accent": "ору́дие",
+      "part": "名词，中性",
+      "meaning": "工具；手段；火炮",
+      "perfective": "",
+      "note": "原页军事义为炮，不与оружие泛指武器混同。",
+      "stage": 2,
+      "original": {
+        "word": "орудие",
+        "part_of_speech": "中",
+        "meaning_zh": "工具；手段；方法；武器",
+        "source_page": 178,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "орудие",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=178"
+      ]
+    },
+    {
+      "id": 9239,
+      "accent": "ору́жие",
+      "part": "名词，中性，集合",
+      "meaning": "武器；兵器",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "оружие",
+        "part_of_speech": "中",
+        "meaning_zh": "武器；兵器",
+        "source_page": 178,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "оружие",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=178"
+      ]
+    },
+    {
+      "id": 9240,
+      "accent": "освеща́ть",
+      "part": "动词，未完成体",
+      "meaning": "照明；照亮；阐明；阐述；报道",
+      "perfective": "освети́ть",
+      "note": "原页补转义阐明；与освящать祝圣、使神圣区分。",
+      "stage": 2,
+      "original": {
+        "word": "освещать",
+        "part_of_speech": "未",
+        "meaning_zh": "照明；照亮",
+        "source_page": 178,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "освещать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=178"
+      ]
+    },
+    {
+      "id": 9241,
+      "accent": "освободи́тельный",
+      "part": "形容词",
+      "meaning": "解放的；争取解放的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "освободительный",
+        "part_of_speech": "形",
+        "meaning_zh": "解放的；解放性的",
+        "source_page": 178,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "освободительный",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=178"
+      ]
+    },
+    {
+      "id": 9242,
+      "accent": "освобожда́ть",
+      "part": "动词，未完成体",
+      "meaning": "释放；解放；腾空；收复；使摆脱；免除；免职",
+      "perfective": "освободи́ть",
+      "note": "原页接上页词头；本记录稳定来源键保留。",
+      "stage": 2,
+      "original": {
+        "word": "освобождать",
+        "part_of_speech": "完",
+        "meaning_zh": "释放；解放；使摆脱；免除；免职",
+        "source_page": 179,
+        "source_line": "1"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "освобождать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=178",
+        "data/words/tem4_russian_words.pdf#page=179"
+      ]
+    },
+    {
+      "id": 9243,
+      "accent": "освобожда́ться",
+      "part": "动词，未完成体",
+      "meaning": "获得自由；被释放；摆脱；腾出；有空闲",
+      "perfective": "освободи́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "освобождаться",
+        "part_of_speech": "Ж",
+        "meaning_zh": "被释放；摆脱；腾出；有空闲",
+        "source_page": 179,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "освобождаться",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=179"
+      ]
+    },
+    {
+      "id": 9244,
+      "accent": "освобожде́ние",
+      "part": "名词，中性",
+      "meaning": "解放；释放",
+      "perfective": "",
+      "note": "原词头ё应为е。",
+      "stage": 2,
+      "original": {
+        "word": "освобождёние",
+        "part_of_speech": "中",
+        "meaning_zh": "解放；释放",
+        "source_page": 179,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "освобождение",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=179"
+      ]
+    },
+    {
+      "id": 9245,
+      "accent": "осёл",
+      "part": "名词，阳性",
+      "meaning": "驴；蠢人",
+      "perfective": "",
+      "note": "指人时为贬义骂语，不能无条件当普通称呼；保留ё。",
+      "stage": 1,
+      "original": {
+        "word": "осёл",
+        "part_of_speech": "阳",
+        "meaning_zh": "驴；蠢人（骂人）",
+        "source_page": 179,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "осёл",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=179"
+      ]
+    },
+    {
+      "id": 9246,
+      "accent": "осе́нний",
+      "part": "形容词",
+      "meaning": "秋天的；秋季的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "осенний",
+        "part_of_speech": "形",
+        "meaning_zh": "秋天的；秋季的",
+        "source_page": 179,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "осенний",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=179"
+      ]
+    },
+    {
+      "id": 9247,
+      "accent": "о́сень",
+      "part": "名词，阴性",
+      "meaning": "秋天；秋季",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "осень",
+        "part_of_speech": "阴",
+        "meaning_zh": "秋天；秋季",
+        "source_page": 179,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "осень",
+      "method": "2026-09-16当前助手逐词视觉核对PDF177至179页，复核跨页、同形词和漏义；9229与9242来源记录分别审核不自动合并。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=179"
+      ]
+    }
+  ]
+}

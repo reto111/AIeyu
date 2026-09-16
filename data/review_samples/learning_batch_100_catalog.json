@@ -1,0 +1,698 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9279,
+      "accent": "о́тдых",
+      "part": "名词，阳性",
+      "meaning": "休息；休养",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "отдых",
+        "part_of_speech": "阳",
+        "meaning_zh": "休息；休养",
+        "source_page": 183,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отдых",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=183"
+      ]
+    },
+    {
+      "id": 9281,
+      "accent": "оте́ц",
+      "part": "名词，阳性",
+      "meaning": "父亲；神父；创始人；奠基人",
+      "perfective": "",
+      "note": "原词头ё应为е；……之父为转喻用法。",
+      "stage": 1,
+      "original": {
+        "word": "отёц",
+        "part_of_speech": "阳",
+        "meaning_zh": "父亲；神父；……之父",
+        "source_page": 183,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отец",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=183"
+      ]
+    },
+    {
+      "id": 9282,
+      "accent": "оте́чественный",
+      "part": "形容词",
+      "meaning": "祖国的；本国的；国产的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "отечественный",
+        "part_of_speech": "形",
+        "meaning_zh": "祖国的；本国的；国产的",
+        "source_page": 183,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отечественный",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=183"
+      ]
+    },
+    {
+      "id": 9283,
+      "accent": "отзыва́ться",
+      "part": "动词，未完成体",
+      "meaning": "应声；回应；响应；评论；评价",
+      "perfective": "отозва́ться",
+      "note": "回应常用на加四格，评论用о加六格。",
+      "stage": 2,
+      "original": {
+        "word": "отзываться",
+        "part_of_speech": "未",
+        "meaning_zh": "响应；回应；评论；评价",
+        "source_page": 183,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отзываться",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=183",
+        "data/words/tem4_russian_words.pdf#page=184"
+      ]
+    },
+    {
+      "id": 9284,
+      "accent": "отка́зывать",
+      "part": "动词，未完成体",
+      "meaning": "拒绝；不答应；拒不提供",
+      "perfective": "отказа́ть",
+      "note": "кому в чём：拒绝给谁什么；отказывать себе节制自己的需要。",
+      "stage": 2,
+      "original": {
+        "word": "отказывать",
+        "part_of_speech": "未",
+        "meaning_zh": "拒绝；不答应；拒不提供",
+        "source_page": 184,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отказывать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=184"
+      ]
+    },
+    {
+      "id": 9285,
+      "accent": "отка́зываться",
+      "part": "动词，未完成体",
+      "meaning": "拒绝；否认；放弃",
+      "perfective": "отказа́ться",
+      "note": "接от加二格或不定式，不能和отказывать的支配混用。",
+      "stage": 2,
+      "original": {
+        "word": "отказываться",
+        "part_of_speech": "未",
+        "meaning_zh": "拒绝；否认；放弃",
+        "source_page": 184,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отказываться",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=184"
+      ]
+    },
+    {
+      "id": 9286,
+      "accent": "откла́дывать",
+      "part": "动词，未完成体",
+      "meaning": "放到一旁；推迟；拖延；储存；储备",
+      "perfective": "отложи́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "откладывать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "推迟；拖延；储存；储备",
+        "source_page": 184,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "откладывать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=184"
+      ]
+    },
+    {
+      "id": 9287,
+      "accent": "отклика́ться",
+      "part": "动词，未完成体",
+      "meaning": "回应；答复；作出反应；响应",
+      "perfective": "откли́кнуться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "откликаться",
+        "part_of_speech": "未",
+        "meaning_zh": "回应；答复；作出反应；响应",
+        "source_page": 184,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "откликаться",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=184"
+      ]
+    },
+    {
+      "id": 9289,
+      "accent": "открыва́ться",
+      "part": "动词，未完成体",
+      "meaning": "打开；开始；开办；开幕；展现",
+      "perfective": "откры́ться",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "открываться",
+        "part_of_speech": "未",
+        "meaning_zh": "打开；开始；开办；展现",
+        "source_page": 184,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "открываться",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=184"
+      ]
+    },
+    {
+      "id": 9290,
+      "accent": "откры́тие",
+      "part": "名词，中性",
+      "meaning": "发现；打开；开幕；开办",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "открытие",
+        "part_of_speech": "中",
+        "meaning_zh": "发现；开幕；开办",
+        "source_page": 184,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "открытие",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=184"
+      ]
+    },
+    {
+      "id": 9291,
+      "accent": "откры́тка",
+      "part": "名词，阴性",
+      "meaning": "明信片；贺卡",
+      "perfective": "",
+      "note": "美术明信片属于明信片具体类型，不重复堆叠成并列核心义。",
+      "stage": 1,
+      "original": {
+        "word": "открытка",
+        "part_of_speech": "阮",
+        "meaning_zh": "明信片；美术明信片",
+        "source_page": 184,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "открытка",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=184",
+        "data/words/tem4_russian_words.pdf#page=185"
+      ]
+    },
+    {
+      "id": 9292,
+      "accent": "откры́тый",
+      "part": "形容词",
+      "meaning": "打开的；开放的；露天的；公开的；坦率的；未解决的",
+      "perfective": "",
+      "note": "未解决义见открытый вопрос；依据搭配区分。",
+      "stage": 1,
+      "original": {
+        "word": "открытый",
+        "part_of_speech": "形",
+        "meaning_zh": "打开的；露天的；公开的；坦率的；未解决的",
+        "source_page": 185,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "открытый",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=185"
+      ]
+    },
+    {
+      "id": 9293,
+      "accent": "отку́да",
+      "part": "疑问代词副词",
+      "meaning": "从哪里；从哪儿",
+      "perfective": "",
+      "note": "强调来源，不与где地点或куда方向混同。",
+      "stage": 1,
+      "original": {
+        "word": "откуда",
+        "part_of_speech": "副",
+        "meaning_zh": "从哪里；哪儿",
+        "source_page": 185,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "откуда",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=185"
+      ]
+    },
+    {
+      "id": 9294,
+      "accent": "отлича́ться",
+      "part": "动词，未完成体",
+      "meaning": "与……不同；以……为特点；表现出色",
+      "perfective": "отличи́ться",
+      "note": "отличиться对应表现出色；不同和具有特点通常只用未完成体，分别接от加二格、五格。",
+      "stage": 2,
+      "original": {
+        "word": "отличаться",
+        "part_of_speech": "未",
+        "meaning_zh": "与……不同；有区别；出色；以……为特点",
+        "source_page": 185,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отличаться",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=185"
+      ]
+    },
+    {
+      "id": 9295,
+      "accent": "отли́чник",
+      "part": "名词，阳性",
+      "meaning": "优等生；优秀工作者；标兵",
+      "perfective": "",
+      "note": "原页也列生产等领域优秀工作者；女性отли́чница。",
+      "stage": 1,
+      "original": {
+        "word": "отличник",
+        "part_of_speech": "阳",
+        "meaning_zh": "优等生；优秀学生",
+        "source_page": 185,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отличник",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=185"
+      ]
+    },
+    {
+      "id": 9296,
+      "accent": "отли́чный",
+      "part": "形容词",
+      "meaning": "极好的；出色的；不同的；有区别的",
+      "perfective": "",
+      "note": "不同义用от加二格。",
+      "stage": 1,
+      "original": {
+        "word": "отличный",
+        "part_of_speech": "形",
+        "meaning_zh": "极好的；出色的；不同的；有区别的",
+        "source_page": 185,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отличный",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=185"
+      ]
+    },
+    {
+      "id": 9297,
+      "accent": "отме́тка",
+      "part": "名词，阴性",
+      "meaning": "记号；标记；分数；成绩",
+      "perfective": "",
+      "note": "原词头ё应为е。",
+      "stage": 1,
+      "original": {
+        "word": "отмётка",
+        "part_of_speech": "阴",
+        "meaning_zh": "记号；标记；分数；成绩",
+        "source_page": 185,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отметка",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=185"
+      ]
+    },
+    {
+      "id": 9298,
+      "accent": "отмеча́ть",
+      "part": "动词，未完成体",
+      "meaning": "标出；做记号；注意到；指出；表扬；庆祝；纪念",
+      "perfective": "отме́тить",
+      "note": "恢复原页注意到、表扬等义。",
+      "stage": 2,
+      "original": {
+        "word": "отмечать",
+        "part_of_speech": "未",
+        "meaning_zh": "标记；指出；庆祝；纪念",
+        "source_page": 185,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отмечать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=185"
+      ]
+    },
+    {
+      "id": 9299,
+      "accent": "отнима́ть",
+      "part": "动词，未完成体",
+      "meaning": "夺走；剥夺；耗费；占用",
+      "perfective": "отня́ть",
+      "note": "如отнимать время占用时间，不是时间主动夺取。",
+      "stage": 2,
+      "original": {
+        "word": "отнимать",
+        "part_of_speech": "未",
+        "meaning_zh": "剥夺；夺去；消耗；占去",
+        "source_page": 185,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отнимать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=185"
+      ]
+    },
+    {
+      "id": 9300,
+      "accent": "относи́ться",
+      "part": "动词，未完成体",
+      "meaning": "对待；涉及；属于；关系到",
+      "perfective": "отнести́сь",
+      "note": "完成体主要对应一次对待态度；属于、涉及的状态义不机械用完成体。",
+      "stage": 2,
+      "original": {
+        "word": "относиться",
+        "part_of_speech": "未",
+        "meaning_zh": "对待；涉及；属于；关系到",
+        "source_page": 186,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "относиться",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=186"
+      ]
+    },
+    {
+      "id": 9301,
+      "accent": "отноше́ние",
+      "part": "名词，中性",
+      "meaning": "态度；对待；关系；比；比率",
+      "perfective": "",
+      "note": "人际、国际关系常用复数отношения；原词头ё应为е。",
+      "stage": 2,
+      "original": {
+        "word": "отношёние",
+        "part_of_speech": "中",
+        "meaning_zh": "态度；对待；关系；比例",
+        "source_page": 186,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отношение",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=186"
+      ]
+    },
+    {
+      "id": 9302,
+      "accent": "отню́дь",
+      "part": "副词、加强语气用法",
+      "meaning": "绝不；决不",
+      "perfective": "",
+      "note": "通常用отнюдь не等否定结构；不遗漏后续否定词。",
+      "stage": 2,
+      "original": {
+        "word": "отнюдь",
+        "part_of_speech": "副",
+        "meaning_zh": "绝对不；决不",
+        "source_page": 186,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отнюдь",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=186"
+      ]
+    },
+    {
+      "id": 9303,
+      "accent": "отправля́ть",
+      "part": "动词，未完成体",
+      "meaning": "寄；发送；派遣；送往；使发车",
+      "perfective": "отпра́вить",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "отправлять",
+        "part_of_speech": "未",
+        "meaning_zh": "发送；派遣；送往",
+        "source_page": 186,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отправлять",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=186"
+      ]
+    },
+    {
+      "id": 9304,
+      "accent": "отправля́ться",
+      "part": "动词，未完成体",
+      "meaning": "出发；动身；开出",
+      "perfective": "отпра́виться",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "отправляться",
+        "part_of_speech": "未",
+        "meaning_zh": "出发；动身；开出",
+        "source_page": 186,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отправляться",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=186"
+      ]
+    },
+    {
+      "id": 9305,
+      "accent": "о́тпуск",
+      "part": "名词，阳性",
+      "meaning": "休假；假期；放走；释放",
+      "perfective": "",
+      "note": "休假为主要日常义；不同义项的复数形式可不同，不把动词直接混入词性。",
+      "stage": 1,
+      "original": {
+        "word": "отпуск",
+        "part_of_speech": "阳",
+        "meaning_zh": "释放；放走；休假；假期",
+        "source_page": 186,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отпуск",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=186"
+      ]
+    },
+    {
+      "id": 9306,
+      "accent": "отпуска́ть",
+      "part": "动词，未完成体",
+      "meaning": "放开；释放；放走；允许离开",
+      "perfective": "отпусти́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "отпускать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "放开；释放；允许离开；放出",
+        "source_page": 186,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отпускать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=186"
+      ]
+    },
+    {
+      "id": 9307,
+      "accent": "отража́ть",
+      "part": "动词，未完成体",
+      "meaning": "击退；反驳；反射；映照；反映",
+      "perfective": "отрази́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "отражать",
+        "part_of_speech": "未",
+        "meaning_zh": "反击；击退；反驳；反射；反映",
+        "source_page": 186,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отражать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=186"
+      ]
+    },
+    {
+      "id": 9308,
+      "accent": "отража́ться",
+      "part": "动词，未完成体",
+      "meaning": "映出；反映；流露；产生影响",
+      "perfective": "отрази́ться",
+      "note": "影响义常用на加六格；映在某物中通常用в加六格。",
+      "stage": 2,
+      "original": {
+        "word": "отражаться",
+        "part_of_speech": "未",
+        "meaning_zh": "映出；反映；影响",
+        "source_page": 186,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отражаться",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=186"
+      ]
+    },
+    {
+      "id": 9309,
+      "accent": "о́трасль",
+      "part": "名词，阴性",
+      "meaning": "行业；部门；领域",
+      "perfective": "",
+      "note": "指经济或知识分支，不等同于机关内部的科室отдел。",
+      "stage": 2,
+      "original": {
+        "word": "отрасль",
+        "part_of_speech": "阴",
+        "meaning_zh": "部门；领域",
+        "source_page": 186,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отрасль",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=186"
+      ]
+    },
+    {
+      "id": 9310,
+      "accent": "отреза́ть",
+      "part": "动词，未完成体",
+      "meaning": "割下；切下；剪下；切断；隔绝",
+      "perfective": "отре́зать",
+      "note": "体对拼写相同但重音不同：отреза́ть未完成体，отре́зать完成体。",
+      "stage": 2,
+      "original": {
+        "word": "отрезать",
+        "part_of_speech": "未",
+        "meaning_zh": "割下；切下；剪下；使分离",
+        "source_page": 186,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "отрезать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF183至187页，核отрезать异重音体对、状态义体限制和е/ё局部纠错。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=186",
+        "data/words/tem4_russian_words.pdf#page=187"
+      ]
+    }
+  ]
+}
