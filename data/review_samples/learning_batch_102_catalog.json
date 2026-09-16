@@ -1,0 +1,695 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9341,
+      "accent": "па́дать",
+      "part": "动词，未完成体",
+      "meaning": "落下；跌倒；脱落；下降；低落",
+      "perfective": "упа́сть",
+      "note": "пасть用于阵亡、陷落等较书面义；不要把所有下降过程都改为该词。",
+      "stage": 1,
+      "original": {
+        "word": "падать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "落下；跌倒；掉落；下降；低落",
+        "source_page": 190,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "падать",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=190"
+      ]
+    },
+    {
+      "id": 9342,
+      "accent": "па́лец",
+      "part": "名词，阳性",
+      "meaning": "手指；脚趾",
+      "perfective": "",
+      "note": "脚趾常说палец ноги，不能仅按英语finger局限为手指。",
+      "stage": 1,
+      "original": {
+        "word": "палец",
+        "part_of_speech": "阳",
+        "meaning_zh": "手指；脚趾",
+        "source_page": 190,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "палец",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=190"
+      ]
+    },
+    {
+      "id": 9343,
+      "accent": "па́лка",
+      "part": "名词，阴性",
+      "meaning": "棍；棒；手杖",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "палка",
+        "part_of_speech": "阴",
+        "meaning_zh": "棍；棒；拐杖",
+        "source_page": 190,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "палка",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=190"
+      ]
+    },
+    {
+      "id": 9344,
+      "accent": "па́мять",
+      "part": "名词，阴性",
+      "meaning": "记忆力；记忆；纪念；回忆；存储器",
+      "perfective": "",
+      "note": "计算机义包括不同存储类型，内存是其中一种，不宜只保留内存。",
+      "stage": 1,
+      "original": {
+        "word": "память",
+        "part_of_speech": "阴",
+        "meaning_zh": "记忆力；记性；纪念；内存",
+        "source_page": 190,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "память",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=190"
+      ]
+    },
+    {
+      "id": 9345,
+      "accent": "папиро́са",
+      "part": "名词，阴性",
+      "meaning": "纸嘴香烟；烟卷",
+      "perfective": "",
+      "note": "通常指带空心纸嘴的传统烟卷，区别有过滤嘴的香烟；不是泛指所有带嘴烟。",
+      "stage": 2,
+      "original": {
+        "word": "папироса",
+        "part_of_speech": "阴",
+        "meaning_zh": "纸嘴香烟；烟卷",
+        "source_page": 190,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "папироса",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=190"
+      ]
+    },
+    {
+      "id": 9346,
+      "accent": "пар",
+      "part": "名词，阳性",
+      "meaning": "蒸汽；水蒸气",
+      "perfective": "",
+      "note": "本条蒸汽义，不混入土地休耕的同形词。",
+      "stage": 2,
+      "original": {
+        "word": "пар",
+        "part_of_speech": "阳",
+        "meaning_zh": "蒸汽；水蒸气",
+        "source_page": 190,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пар",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=190"
+      ]
+    },
+    {
+      "id": 9347,
+      "accent": "пара́дный",
+      "part": "形容词",
+      "meaning": "检阅的；盛大场合用的；礼仪的；正门的",
+      "perfective": "",
+      "note": "按阅兵、礼服或入口搭配理解；不泛指所有节日事物。",
+      "stage": 2,
+      "original": {
+        "word": "парадный",
+        "part_of_speech": "形",
+        "meaning_zh": "检阅的；隆重场合用的；节日的；正门的",
+        "source_page": 190,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "парадный",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=190"
+      ]
+    },
+    {
+      "id": 9348,
+      "accent": "па́рень",
+      "part": "名词，阳性",
+      "meaning": "小伙子；青年男子；男朋友",
+      "perfective": "",
+      "note": "男朋友限相应关系语境，不把所有小伙子称作伴侣。",
+      "stage": 1,
+      "original": {
+        "word": "парень",
+        "part_of_speech": "阳",
+        "meaning_zh": "少年；青年；小伙子",
+        "source_page": 190,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "парень",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=190"
+      ]
+    },
+    {
+      "id": 9349,
+      "accent": "парк",
+      "part": "名词，阳性",
+      "meaning": "公园；园林",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "парк",
+        "part_of_speech": "阳",
+        "meaning_zh": "公园；园林",
+        "source_page": 191,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "парк",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=191"
+      ]
+    },
+    {
+      "id": 9350,
+      "accent": "парово́з",
+      "part": "名词，阳性",
+      "meaning": "蒸汽机车；蒸汽火车头",
+      "perfective": "",
+      "note": "不是电力等所有类型机车的泛称。",
+      "stage": 2,
+      "original": {
+        "word": "паровоз",
+        "part_of_speech": "阳",
+        "meaning_zh": "蒸汽机车；火车头",
+        "source_page": 191,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "паровоз",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=191"
+      ]
+    },
+    {
+      "id": 9351,
+      "accent": "парохо́д",
+      "part": "名词，阳性",
+      "meaning": "轮船；蒸汽船",
+      "perfective": "",
+      "note": "原义为蒸汽动力船，口语可较宽泛地说轮船。",
+      "stage": 2,
+      "original": {
+        "word": "пароход",
+        "part_of_speech": "阳",
+        "meaning_zh": "轮船；蒸汽船",
+        "source_page": 191,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пароход",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=191"
+      ]
+    },
+    {
+      "id": 9352,
+      "accent": "па́рта",
+      "part": "名词，阴性",
+      "meaning": "课桌",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "парта",
+        "part_of_speech": "阴",
+        "meaning_zh": "课桌",
+        "source_page": 191,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "парта",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=191"
+      ]
+    },
+    {
+      "id": 9353,
+      "accent": "партиза́н",
+      "part": "名词，阳性",
+      "meaning": "游击队员",
+      "perfective": "",
+      "note": "女性партиза́нка。",
+      "stage": 2,
+      "original": {
+        "word": "партизан",
+        "part_of_speech": "阳",
+        "meaning_zh": "游击队员",
+        "source_page": 191,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "партизан",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=191"
+      ]
+    },
+    {
+      "id": 9354,
+      "accent": "партиза́нский",
+      "part": "形容词",
+      "meaning": "游击队的；游击战的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "партизанский",
+        "part_of_speech": "形",
+        "meaning_zh": "游击队的；游击战的",
+        "source_page": 191,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "партизанский",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=191"
+      ]
+    },
+    {
+      "id": 9355,
+      "accent": "парти́йный",
+      "part": "形容词、名词化用法",
+      "meaning": "党的；党派的；党员的；党员",
+      "perfective": "",
+      "note": "指党员时是名词化用法。",
+      "stage": 2,
+      "original": {
+        "word": "партийный",
+        "part_of_speech": "形",
+        "meaning_zh": "党的；党派的；党员的",
+        "source_page": 191,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "партийный",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=191"
+      ]
+    },
+    {
+      "id": 9356,
+      "accent": "па́ртия",
+      "part": "名词，阴性",
+      "meaning": "党；政党；队；组；音乐声部；一局；一批",
+      "perfective": "",
+      "note": "原页还列某声部的分谱；一局用于棋类等，一批用于货物；队组不一概贬译为帮派。",
+      "stage": 2,
+      "original": {
+        "word": "партия",
+        "part_of_speech": "阴",
+        "meaning_zh": "党；政党；帮派；队；组；一局；一批",
+        "source_page": 191,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "партия",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=191"
+      ]
+    },
+    {
+      "id": 9357,
+      "accent": "партко́м",
+      "part": "名词，阳性，缩合词",
+      "meaning": "党委；党委会",
+      "perfective": "",
+      "note": "来自партийный комитет。",
+      "stage": 2,
+      "original": {
+        "word": "партком",
+        "part_of_speech": "阳",
+        "meaning_zh": "党委会",
+        "source_page": 191,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "партком",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=191"
+      ]
+    },
+    {
+      "id": 9358,
+      "accent": "па́смурный",
+      "part": "形容词",
+      "meaning": "阴天的；阴云密布的；阴沉的；阴郁的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "пасмурный",
+        "part_of_speech": "形",
+        "meaning_zh": "阴天的；阴云密布的；阴沉的；阴郁的",
+        "source_page": 191,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пасмурный",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=191"
+      ]
+    },
+    {
+      "id": 9359,
+      "accent": "па́спорт",
+      "part": "名词，阳性",
+      "meaning": "护照；公民身份证件",
+      "perfective": "",
+      "note": "国内身份文书与出国护照须依语境区分，不等同于任何卡式身份证。",
+      "stage": 1,
+      "original": {
+        "word": "паспорт",
+        "part_of_speech": "阳",
+        "meaning_zh": "身份证；公民证；护照",
+        "source_page": 191,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "паспорт",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=191"
+      ]
+    },
+    {
+      "id": 9360,
+      "accent": "пассажи́р",
+      "part": "名词，阳性",
+      "meaning": "旅客；乘客",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "пассажир",
+        "part_of_speech": "阳",
+        "meaning_zh": "旅客；乘客",
+        "source_page": 191,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пассажир",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=191"
+      ]
+    },
+    {
+      "id": 9361,
+      "accent": "пасти́",
+      "part": "动词，未完成体",
+      "meaning": "放牧；牧放牲畜",
+      "perfective": "",
+      "note": "持续放牧义不强配пасть；两词并非体对。",
+      "stage": 2,
+      "original": {
+        "word": "пасти",
+        "part_of_speech": "未",
+        "meaning_zh": "放牧；牧放牲畜",
+        "source_page": 191,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пасти",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=191"
+      ]
+    },
+    {
+      "id": 9362,
+      "accent": "пасть",
+      "part": "动词，完成体",
+      "meaning": "倒下；阵亡；牺牲；陷落；垮台",
+      "perfective": "па́дать",
+      "note": "本条为动词，勿与阴性名词пасть兽口混淆；对应未完成体падать。",
+      "stage": 2,
+      "original": {
+        "word": "пасть",
+        "part_of_speech": "完",
+        "meaning_zh": "倒下；阵亡；牺牲；陷落；垮台",
+        "source_page": 191,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пасть",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=191"
+      ]
+    },
+    {
+      "id": 9363,
+      "accent": "патрио́т",
+      "part": "名词，阳性",
+      "meaning": "爱国者",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "патриот",
+        "part_of_speech": "阳",
+        "meaning_zh": "爱国者",
+        "source_page": 191,
+        "source_line": "17"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "патриот",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=191"
+      ]
+    },
+    {
+      "id": 9364,
+      "accent": "па́уза",
+      "part": "名词，阴性",
+      "meaning": "停顿；间歇",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "пауза",
+        "part_of_speech": "阴",
+        "meaning_zh": "停顿；间歇",
+        "source_page": 191,
+        "source_line": "18"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пауза",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=191"
+      ]
+    },
+    {
+      "id": 9365,
+      "accent": "па́хнуть",
+      "part": "动词，未完成体",
+      "meaning": "散发气味；闻起来",
+      "perfective": "",
+      "note": "接五格表示气味来源；不与重读末音节、表示吹来一阵气味的пахну́ть完成体混淆。",
+      "stage": 1,
+      "original": {
+        "word": "пахнуть",
+        "part_of_speech": "未",
+        "meaning_zh": "发出……气味；闻起来",
+        "source_page": 191,
+        "source_line": "19"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пахнуть",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=191"
+      ]
+    },
+    {
+      "id": 9366,
+      "accent": "певе́ц",
+      "part": "名词，阳性",
+      "meaning": "歌手；歌唱家",
+      "perfective": "",
+      "note": "女性певи́ца。",
+      "stage": 1,
+      "original": {
+        "word": "певец",
+        "part_of_speech": "阳",
+        "meaning_zh": "歌手；歌唱家",
+        "source_page": 192,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "певец",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=192"
+      ]
+    },
+    {
+      "id": 9367,
+      "accent": "педаго́г",
+      "part": "名词，阳性",
+      "meaning": "教师；教育家",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "педагог",
+        "part_of_speech": "阳",
+        "meaning_zh": "教师；教育家",
+        "source_page": 192,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "педагог",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=192"
+      ]
+    },
+    {
+      "id": 9368,
+      "accent": "педагоги́ческий",
+      "part": "形容词",
+      "meaning": "教育的；教学的；教育学的；师范的",
+      "perfective": "",
+      "note": "师范义见педагогический институт，不只表示某教师个人所有。",
+      "stage": 2,
+      "original": {
+        "word": "педагогический",
+        "part_of_speech": "形",
+        "meaning_zh": "教师的；教育家的；师范的",
+        "source_page": 192,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "педагогический",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=192"
+      ]
+    },
+    {
+      "id": 9369,
+      "accent": "пейза́ж",
+      "part": "名词，阳性",
+      "meaning": "风景；景色；风景画",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "пейзаж",
+        "part_of_speech": "阳",
+        "meaning_zh": "风景；景色；风景画",
+        "source_page": 192,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пейзаж",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=192"
+      ]
+    },
+    {
+      "id": 9370,
+      "accent": "пе́нсия",
+      "part": "名词，阴性",
+      "meaning": "退休金；养老金；抚恤金",
+      "perfective": "",
+      "note": "退休动作属于уйти на пенсию，名词本身是相应待遇款项。",
+      "stage": 2,
+      "original": {
+        "word": "пенсия",
+        "part_of_speech": "阴",
+        "meaning_zh": "退休金；养老金；抚恤金",
+        "source_page": 192,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пенсия",
+      "method": "2026-09-16当前助手逐词视觉核对PDF190至192页，核重音、名词性和动词体；补原页音乐声部、存储器等义，不机械按后缀判体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=192"
+      ]
+    }
+  ]
+}
