@@ -1,0 +1,698 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9187,
+      "accent": "одино́кий",
+      "part": "形容词",
+      "meaning": "孤独的；单独的；独身的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "одинокий",
+        "part_of_speech": "形",
+        "meaning_zh": "孤独的；单独的；独身的",
+        "source_page": 174,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "одинокий",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=174"
+      ]
+    },
+    {
+      "id": 9188,
+      "accent": "одна́жды",
+      "part": "副词",
+      "meaning": "有一次；有一天；一次",
+      "perfective": "",
+      "note": "不强制限于过去，具体时间看句子。",
+      "stage": 1,
+      "original": {
+        "word": "однажды",
+        "part_of_speech": "#1",
+        "meaning_zh": "有一天；曾经有一次",
+        "source_page": 174,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "однажды",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=174"
+      ]
+    },
+    {
+      "id": 9189,
+      "accent": "одна́ко",
+      "part": "连接词、插入语",
+      "meaning": "可是；但是；然而；不过",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "однако",
+        "part_of_speech": "连",
+        "meaning_zh": "可是；但是；然而；不过；终究",
+        "source_page": 174,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "однако",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=174"
+      ]
+    },
+    {
+      "id": 9190,
+      "accent": "одновре́менный",
+      "part": "形容词",
+      "meaning": "同时的；同时发生的",
+      "perfective": "",
+      "note": "本批采用原书所标重音。",
+      "stage": 2,
+      "original": {
+        "word": "одновременный",
+        "part_of_speech": "形",
+        "meaning_zh": "同时的；同时发生的",
+        "source_page": 174,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "одновременный",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=174"
+      ]
+    },
+    {
+      "id": 9191,
+      "accent": "одобря́ть",
+      "part": "动词，未完成体",
+      "meaning": "赞成；认可；赞许",
+      "perfective": "одо́брить",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "одобрять",
+        "part_of_speech": "Ж",
+        "meaning_zh": "赞成；认可；赞许",
+        "source_page": 174,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "одобрять",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=174"
+      ]
+    },
+    {
+      "id": 9192,
+      "accent": "одолева́ть",
+      "part": "动词，未完成体",
+      "meaning": "战胜；克服；征服",
+      "perfective": "одоле́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "одолевать",
+        "part_of_speech": "未",
+        "meaning_zh": "战胜；克服；征服",
+        "source_page": 174,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "одолевать",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=174"
+      ]
+    },
+    {
+      "id": 9193,
+      "accent": "ожива́ть",
+      "part": "动词，未完成体",
+      "meaning": "活过来；复活；重现；恢复生气；活跃起来",
+      "perfective": "ожи́ть",
+      "note": "不把变得活跃译成静态的生气勃勃。",
+      "stage": 2,
+      "original": {
+        "word": "оживать",
+        "part_of_speech": "未",
+        "meaning_zh": "活过来；复活；重现；再现；生气勃勃",
+        "source_page": 174,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "оживать",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=174",
+        "data/words/tem4_russian_words.pdf#page=175"
+      ]
+    },
+    {
+      "id": 9194,
+      "accent": "ожида́ть",
+      "part": "动词，未完成体",
+      "meaning": "等待；期待；指望；预料",
+      "perfective": "",
+      "note": "状态或过程义，不强配一个通用前缀完成体。",
+      "stage": 1,
+      "original": {
+        "word": "ожидать",
+        "part_of_speech": "未",
+        "meaning_zh": "等待；期待；指望；预料",
+        "source_page": 175,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ожидать",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=175"
+      ]
+    },
+    {
+      "id": 9195,
+      "accent": "о́зеро",
+      "part": "名词，中性",
+      "meaning": "湖；湖泊",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "озеро",
+        "part_of_speech": "中",
+        "meaning_zh": "湖；湖泊",
+        "source_page": 175,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "озеро",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=175"
+      ]
+    },
+    {
+      "id": 9196,
+      "accent": "означа́ть",
+      "part": "动词，未完成体",
+      "meaning": "表示；意味着；说明",
+      "perfective": "",
+      "note": "本条意义状态不强配означить。",
+      "stage": 2,
+      "original": {
+        "word": "означать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "表示；意味着；说明",
+        "source_page": 175,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "означать",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=175"
+      ]
+    },
+    {
+      "id": 9197,
+      "accent": "ока́зывать",
+      "part": "动词，未完成体",
+      "meaning": "给予；提供；施加",
+      "perfective": "оказа́ть",
+      "note": "搭配帮助、支持、影响等抽象名词；并非递交任何物品。",
+      "stage": 2,
+      "original": {
+        "word": "оказывать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "给予；施加；提供",
+        "source_page": 175,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "оказывать",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=175"
+      ]
+    },
+    {
+      "id": 9198,
+      "accent": "ока́нчивать",
+      "part": "动词，未完成体",
+      "meaning": "结束；完成；毕业",
+      "perfective": "око́нчить",
+      "note": "毕业于某校接四格：окончить университет。",
+      "stage": 1,
+      "original": {
+        "word": "оканчивать",
+        "part_of_speech": "未",
+        "meaning_zh": "结束；完成；毕业",
+        "source_page": 175,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "оканчивать",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=175"
+      ]
+    },
+    {
+      "id": 9199,
+      "accent": "океа́н",
+      "part": "名词，阳性",
+      "meaning": "海洋；大洋；浩瀚的事物",
+      "perfective": "",
+      "note": "转义如океан знаний知识的海洋，不直接译成任意形容词无限。",
+      "stage": 1,
+      "original": {
+        "word": "океан",
+        "part_of_speech": "阳",
+        "meaning_zh": "海洋；大洋",
+        "source_page": 175,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "океан",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=175"
+      ]
+    },
+    {
+      "id": 9200,
+      "accent": "оклика́ть",
+      "part": "动词，未完成体",
+      "meaning": "喊住；叫住；呼唤",
+      "perfective": "окли́кнуть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "окликать",
+        "part_of_speech": "未",
+        "meaning_zh": "喊住；叫住；呼唤",
+        "source_page": 175,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "окликать",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=175"
+      ]
+    },
+    {
+      "id": 9202,
+      "accent": "о́коло",
+      "part": "副词、前置词",
+      "meaning": "在附近；在旁边；大约；左右",
+      "perfective": "",
+      "note": "作前置词接二格。",
+      "stage": 1,
+      "original": {
+        "word": "около",
+        "part_of_speech": "副",
+        "meaning_zh": "在附近；大约；左右",
+        "source_page": 175,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "около",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=175"
+      ]
+    },
+    {
+      "id": 9203,
+      "accent": "оконча́ние",
+      "part": "名词，中性",
+      "meaning": "结束；完成；毕业；结尾；词尾",
+      "perfective": "",
+      "note": "补回原页语法义词尾；之后来自по окончании结构，不是本词独立义。",
+      "stage": 2,
+      "original": {
+        "word": "окончание",
+        "part_of_speech": "中",
+        "meaning_zh": "结束；结尾；毕业（之后）",
+        "source_page": 175,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "окончание",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=175"
+      ]
+    },
+    {
+      "id": 9204,
+      "accent": "окружа́ть",
+      "part": "动词，未完成体",
+      "meaning": "围住；环绕；包围；使处于……之中",
+      "perfective": "окружи́ть",
+      "note": "окружать заботой给予关怀；描述周围环境的持续状态时通常用未完成体。",
+      "stage": 2,
+      "original": {
+        "word": "окружать",
+        "part_of_speech": "未",
+        "meaning_zh": "围住；环绕；包围",
+        "source_page": 175,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "окружать",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=175",
+        "data/words/tem4_russian_words.pdf#page=176"
+      ]
+    },
+    {
+      "id": 9205,
+      "accent": "октя́брь",
+      "part": "名词，阳性",
+      "meaning": "十月",
+      "perfective": "",
+      "note": "首字母大写Октябрь在历史语境可指十月革命或其纪念日。",
+      "stage": 1,
+      "original": {
+        "word": "октябрь",
+        "part_of_speech": "阳",
+        "meaning_zh": "十月",
+        "source_page": 176,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "октябрь",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=176"
+      ]
+    },
+    {
+      "id": 9206,
+      "accent": "октя́брьский",
+      "part": "形容词",
+      "meaning": "十月的；十月革命的",
+      "perfective": "",
+      "note": "革命义限历史搭配。",
+      "stage": 2,
+      "original": {
+        "word": "октябрьский",
+        "part_of_speech": "形",
+        "meaning_zh": "十月的；十月革命的",
+        "source_page": 176,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "октябрьский",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=176"
+      ]
+    },
+    {
+      "id": 9207,
+      "accent": "олимпиа́да",
+      "part": "名词，阴性",
+      "meaning": "奥林匹克运动会；竞赛；比赛大会",
+      "perfective": "",
+      "note": "如数学等学科竞赛；专指奥运会时按专名语境使用大写。",
+      "stage": 2,
+      "original": {
+        "word": "олимпиада",
+        "part_of_speech": "阴",
+        "meaning_zh": "奥林匹克运动会；竞赛；比赛大会",
+        "source_page": 176,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "олимпиада",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=176"
+      ]
+    },
+    {
+      "id": 9208,
+      "accent": "он",
+      "part": "人称代词",
+      "meaning": "他；它",
+      "perfective": "",
+      "note": "代指阳性名词；она、оно分别代指阴性、中性，不把语法性别混入中文释义。",
+      "stage": 1,
+      "original": {
+        "word": "он",
+        "part_of_speech": "阳",
+        "meaning_zh": "他；它（阳性）",
+        "source_page": 176,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "он",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=176"
+      ]
+    },
+    {
+      "id": 9209,
+      "accent": "они́",
+      "part": "人称代词",
+      "meaning": "他们；她们；它们",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "они",
+        "part_of_speech": "代",
+        "meaning_zh": "他们；她们；它们",
+        "source_page": 176,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "они",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=176"
+      ]
+    },
+    {
+      "id": 9210,
+      "accent": "опаса́ться",
+      "part": "动词，未完成体",
+      "meaning": "担心；害怕；戒备",
+      "perfective": "",
+      "note": "常接二格。",
+      "stage": 2,
+      "original": {
+        "word": "опасаться",
+        "part_of_speech": "未",
+        "meaning_zh": "担心；害怕；戒备",
+        "source_page": 176,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "опасаться",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=176"
+      ]
+    },
+    {
+      "id": 9211,
+      "accent": "опа́сность",
+      "part": "名词，阴性",
+      "meaning": "危险；危险性；危害",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "опасность",
+        "part_of_speech": "阴",
+        "meaning_zh": "危险；危害",
+        "source_page": 176,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "опасность",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=176"
+      ]
+    },
+    {
+      "id": 9212,
+      "accent": "опа́сный",
+      "part": "形容词",
+      "meaning": "危险的；有危害的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "опасный",
+        "part_of_speech": "形",
+        "meaning_zh": "危险的；有危害的",
+        "source_page": 176,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "опасный",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=176"
+      ]
+    },
+    {
+      "id": 9213,
+      "accent": "о́пера",
+      "part": "名词，阴性",
+      "meaning": "歌剧；歌剧院；歌剧团",
+      "perfective": "",
+      "note": "后两义为相关机构用法，如在歌剧院演出。",
+      "stage": 2,
+      "original": {
+        "word": "опера",
+        "part_of_speech": "阴",
+        "meaning_zh": "歌剧；歌剧院",
+        "source_page": 176,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "опера",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=176"
+      ]
+    },
+    {
+      "id": 9214,
+      "accent": "опера́ция",
+      "part": "名词，阴性",
+      "meaning": "手术；军事行动；运算；工序",
+      "perfective": "",
+      "note": "恢复原页工序义，行动义在本条首先指军事行动。",
+      "stage": 2,
+      "original": {
+        "word": "операция",
+        "part_of_speech": "阴",
+        "meaning_zh": "手术；行动；运算",
+        "source_page": 176,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "операция",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=176"
+      ]
+    },
+    {
+      "id": 9215,
+      "accent": "опира́ться",
+      "part": "动词，未完成体",
+      "meaning": "倚靠；支撑；依靠；以……为依据",
+      "perfective": "опере́ться",
+      "note": "原书另列опёрться；接на加四格，不能省略具体支配关系。",
+      "stage": 2,
+      "original": {
+        "word": "опираться",
+        "part_of_speech": "未",
+        "meaning_zh": "依靠；依赖；以……为依据",
+        "source_page": 176,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "опираться",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=176"
+      ]
+    },
+    {
+      "id": 9216,
+      "accent": "описа́ние",
+      "part": "名词，中性",
+      "meaning": "描述；描写；说明",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "описание",
+        "part_of_speech": "中",
+        "meaning_zh": "说明；描述；描写",
+        "source_page": 176,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "описание",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=176"
+      ]
+    },
+    {
+      "id": 9217,
+      "accent": "опи́сывать",
+      "part": "动词，未完成体",
+      "meaning": "描述；描写",
+      "perfective": "описа́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "описывать",
+        "part_of_speech": "未",
+        "meaning_zh": "描述；描写",
+        "source_page": 176,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "описывать",
+      "method": "2026-09-16当前助手逐项视觉核对PDF174至177页，补语法词尾、工序等漏义，区分体与支配结构。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=176",
+        "data/words/tem4_russian_words.pdf#page=177"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,696 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9157,
+      "accent": "объясне́ние",
+      "part": "名词，中性",
+      "meaning": "说明；解释",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "объяснение",
+        "part_of_speech": "中",
+        "meaning_zh": "说明；解释",
+        "source_page": 171,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "объяснение",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=171"
+      ]
+    },
+    {
+      "id": 9158,
+      "accent": "объясня́ть",
+      "part": "动词，未完成体",
+      "meaning": "解释；说明；阐明",
+      "perfective": "объясни́ть",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "объяснять",
+        "part_of_speech": "未",
+        "meaning_zh": "解释；说明；阐明",
+        "source_page": 171,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "объяснять",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=171"
+      ]
+    },
+    {
+      "id": 9159,
+      "accent": "объясня́ться",
+      "part": "动词，未完成体",
+      "meaning": "彼此解释；说明白；得到解释；原因在于",
+      "perfective": "объясни́ться",
+      "note": "原因在于常用五格，如объясняется болезнью；此状态义通常不套用一次说明的完成体。",
+      "stage": 2,
+      "original": {
+        "word": "объясняться",
+        "part_of_speech": "未",
+        "meaning_zh": "彼此解释清楚；说明白；得到说明",
+        "source_page": 171,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "объясняться",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=171"
+      ]
+    },
+    {
+      "id": 9160,
+      "accent": "обыкнове́нный",
+      "part": "形容词",
+      "meaning": "平常的；普通的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "обыкновенный",
+        "part_of_speech": "形",
+        "meaning_zh": "平常的；普通的",
+        "source_page": 171,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обыкновенный",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=171"
+      ]
+    },
+    {
+      "id": 9161,
+      "accent": "обы́чай",
+      "part": "名词，阳性",
+      "meaning": "风俗；习俗；惯例",
+      "perfective": "",
+      "note": "区别个人习惯привычка。",
+      "stage": 2,
+      "original": {
+        "word": "обычай",
+        "part_of_speech": "阳",
+        "meaning_zh": "风俗；习惯",
+        "source_page": 171,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обычай",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=171"
+      ]
+    },
+    {
+      "id": 9162,
+      "accent": "обы́чно",
+      "part": "副词",
+      "meaning": "通常；一般地",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "обычно",
+        "part_of_speech": "副",
+        "meaning_zh": "通常；一般地",
+        "source_page": 172,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обычно",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=172"
+      ]
+    },
+    {
+      "id": 9163,
+      "accent": "обя́занность",
+      "part": "名词，阴性",
+      "meaning": "义务；责任；职责",
+      "perfective": "",
+      "note": "职责义常用复数；不把职务名称和岗位本身都等同于本词。",
+      "stage": 2,
+      "original": {
+        "word": "обязанность",
+        "part_of_speech": "阴",
+        "meaning_zh": "义务；责任；职责；职务",
+        "source_page": 172,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обязанность",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=172"
+      ]
+    },
+    {
+      "id": 9164,
+      "accent": "обя́занный",
+      "part": "形容词，常用短尾",
+      "meaning": "有义务的；有责任的；应归功于的",
+      "perfective": "",
+      "note": "обязан加不定式表示应当做；обязан кому чем表示因某事受惠于某人、多亏某人。",
+      "stage": 2,
+      "original": {
+        "word": "обязанный",
+        "part_of_speech": "形",
+        "meaning_zh": "有义务；有责任；应当",
+        "source_page": 172,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обязанный",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=172"
+      ]
+    },
+    {
+      "id": 9165,
+      "accent": "обяза́тельный",
+      "part": "形容词",
+      "meaning": "必须遵守的；必需的；义务的",
+      "perfective": "",
+      "note": "如обязательное обучение义务教育；副词обязательно还可表一定。",
+      "stage": 2,
+      "original": {
+        "word": "обязательный",
+        "part_of_speech": null,
+        "meaning_zh": "必须的；必定的；义务的",
+        "source_page": 172,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "обязательный",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=172"
+      ]
+    },
+    {
+      "id": 9166,
+      "accent": "овладева́ть",
+      "part": "动词，未完成体",
+      "meaning": "掌握；占领；支配；控制",
+      "perfective": "овладе́ть",
+      "note": "接五格；情感作主语时，如им овладел страх为恐惧笼罩了他，不误写成动词本身为被占据。",
+      "stage": 2,
+      "original": {
+        "word": "овладевать",
+        "part_of_speech": "未",
+        "meaning_zh": "掌握；占领；被……占据",
+        "source_page": 172,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "овладевать",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=172"
+      ]
+    },
+    {
+      "id": 9167,
+      "accent": "о́вощи",
+      "part": "名词，复数",
+      "meaning": "蔬菜",
+      "perfective": "",
+      "note": "单数о́вощ；不把青菜局限为绿色叶菜。",
+      "stage": 1,
+      "original": {
+        "word": "овощи",
+        "part_of_speech": "复",
+        "meaning_zh": "蔬菜；青菜",
+        "source_page": 172,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "овощи",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=172"
+      ]
+    },
+    {
+      "id": 9168,
+      "accent": "овца́",
+      "part": "名词，阴性",
+      "meaning": "绵羊；母绵羊",
+      "perfective": "",
+      "note": "既可泛称绵羊，也可与баран对举指母羊；不是仅凭语法阴性推断。",
+      "stage": 1,
+      "original": {
+        "word": "овца",
+        "part_of_speech": "阴",
+        "meaning_zh": "绵羊；母羊",
+        "source_page": 172,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "овца",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=172"
+      ]
+    },
+    {
+      "id": 9169,
+      "accent": "огля́дываться",
+      "part": "动词，未完成体",
+      "meaning": "环顾；四面张望；回头看；回顾",
+      "perfective": "огляну́ться",
+      "note": "原书另列огляде́ться，常指环顾看清周围；оглянуться常为回头看。",
+      "stage": 2,
+      "original": {
+        "word": "оглядываться",
+        "part_of_speech": "未",
+        "meaning_zh": "环顾四周；四面张望；回首",
+        "source_page": 172,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "оглядываться",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=172"
+      ]
+    },
+    {
+      "id": 9170,
+      "accent": "огонёк",
+      "part": "名词，阳性",
+      "meaning": "小火苗；火星；火光；灯光",
+      "perfective": "",
+      "note": "保留ё；与огонь相关的小称形式。",
+      "stage": 2,
+      "original": {
+        "word": "огонёк",
+        "part_of_speech": "阳",
+        "meaning_zh": "火星；火花；火光；灯光",
+        "source_page": 172,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "огонёк",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=172"
+      ]
+    },
+    {
+      "id": 9171,
+      "accent": "ого́нь",
+      "part": "名词，阳性",
+      "meaning": "火；火光；灯光；火力；炮火；热情",
+      "perfective": "",
+      "note": "热情为转义；灯火常用复数огни，结合语境。",
+      "stage": 1,
+      "original": {
+        "word": "огонь",
+        "part_of_speech": "阳",
+        "meaning_zh": "火；火光；灯光；火力；炮火",
+        "source_page": 172,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "огонь",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=172"
+      ]
+    },
+    {
+      "id": 9172,
+      "accent": "огоро́д",
+      "part": "名词，阳性",
+      "meaning": "菜园",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "огород",
+        "part_of_speech": "阳",
+        "meaning_zh": "菜园",
+        "source_page": 172,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "огород",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=172"
+      ]
+    },
+    {
+      "id": 9173,
+      "accent": "огорча́ть",
+      "part": "动词，未完成体",
+      "meaning": "使不快；使伤心；使丧气",
+      "perfective": "огорчи́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "огорчать",
+        "part_of_speech": "未",
+        "meaning_zh": "使不快；使伤心；使丧气",
+        "source_page": 173,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "огорчать",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=173"
+      ]
+    },
+    {
+      "id": 9174,
+      "accent": "ограни́чиваться",
+      "part": "动词，未完成体",
+      "meaning": "限于；满足于；不超过",
+      "perfective": "ограни́читься",
+      "note": "接五格表示所限范围或满足的内容。",
+      "stage": 2,
+      "original": {
+        "word": "ограничиваться",
+        "part_of_speech": "未",
+        "meaning_zh": "满足于；不超过；限于",
+        "source_page": 173,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ограничиваться",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=173"
+      ]
+    },
+    {
+      "id": 9175,
+      "accent": "огро́мный",
+      "part": "形容词",
+      "meaning": "巨大的；极大的；广大的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "огромный",
+        "part_of_speech": "形",
+        "meaning_zh": "很大的；广大的；巨大的；极大的",
+        "source_page": 173,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "огромный",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=173"
+      ]
+    },
+    {
+      "id": 9176,
+      "accent": "огуре́ц",
+      "part": "名词，阳性",
+      "meaning": "黄瓜",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "огурец",
+        "part_of_speech": "阳",
+        "meaning_zh": "黄瓜",
+        "source_page": 173,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "огурец",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=173"
+      ]
+    },
+    {
+      "id": 9177,
+      "accent": "одева́ть",
+      "part": "动词，未完成体",
+      "meaning": "给……穿衣；给……披上；为……置办衣服",
+      "perfective": "оде́ть",
+      "note": "接人或拟人对象四格，衣物可用во что；穿戴某件衣物用надевать что，不能混用。",
+      "stage": 1,
+      "original": {
+        "word": "одевать",
+        "part_of_speech": "未",
+        "meaning_zh": "给……穿上；给……盖上",
+        "source_page": 173,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "одевать",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=173"
+      ]
+    },
+    {
+      "id": 9178,
+      "accent": "одева́ться",
+      "part": "动词，未完成体",
+      "meaning": "穿上衣服；穿戴；穿着打扮",
+      "perfective": "оде́ться",
+      "note": "描述长期穿衣风格常用未完成体。",
+      "stage": 1,
+      "original": {
+        "word": "одеваться",
+        "part_of_speech": "Ж",
+        "meaning_zh": "穿上衣服；穿戴；穿得……",
+        "source_page": 173,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "одеваться",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=173"
+      ]
+    },
+    {
+      "id": 9179,
+      "accent": "оде́жда",
+      "part": "名词，阴性，集合",
+      "meaning": "衣服；服装",
+      "perfective": "",
+      "note": "верхняя одежда外衣、нижняя одежда内衣、готовая одежда成衣是限定搭配。",
+      "stage": 1,
+      "original": {
+        "word": "одежда",
+        "part_of_speech": "阴",
+        "meaning_zh": "衣服；服装；外衣；内衣；成衣",
+        "source_page": 173,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "одежда",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=173"
+      ]
+    },
+    {
+      "id": 9180,
+      "accent": "оде́рживать",
+      "part": "动词，未完成体",
+      "meaning": "取得；获得",
+      "perfective": "одержа́ть",
+      "note": "限胜利等搭配：одержать победу获得胜利，одержать верх占上风；不是泛指得到任何物品。",
+      "stage": 2,
+      "original": {
+        "word": "одерживать",
+        "part_of_speech": "未",
+        "meaning_zh": "取得；获得（胜利）；占上风",
+        "source_page": 173,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "одерживать",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=173"
+      ]
+    },
+    {
+      "id": 9181,
+      "accent": "оде́тый",
+      "part": "形容词、被动形动词",
+      "meaning": "穿着衣服的；穿好衣服的",
+      "perfective": "",
+      "note": "由одеть形成；按本条穿衣状态学习，不作为动词原形配体。",
+      "stage": 1,
+      "original": {
+        "word": "одетый",
+        "part_of_speech": "形",
+        "meaning_zh": "穿着衣服的；穿好衣服的",
+        "source_page": 173,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "одетый",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=173"
+      ]
+    },
+    {
+      "id": 9182,
+      "accent": "одея́ло",
+      "part": "名词，中性",
+      "meaning": "被子；毯子",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "одеяло",
+        "part_of_speech": "中",
+        "meaning_zh": "被子；毯子",
+        "source_page": 173,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "одеяло",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=173"
+      ]
+    },
+    {
+      "id": 9183,
+      "accent": "оди́н",
+      "part": "数词、代词",
+      "meaning": "一；一个；独自；唯一的；同一个；某一个",
+      "perfective": "",
+      "note": "还可表统一不可分，如в один язык融合为一种语言；与одна、одно、одни的形式和用法相联系。",
+      "stage": 1,
+      "original": {
+        "word": "один",
+        "part_of_speech": null,
+        "meaning_zh": "一个；单独的；唯一的；同一个；完整的",
+        "source_page": 173,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "один",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=173",
+        "data/words/tem4_russian_words.pdf#page=174"
+      ]
+    },
+    {
+      "id": 9184,
+      "accent": "одина́ковый",
+      "part": "形容词",
+      "meaning": "相同的；一样的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "одинаковый",
+        "part_of_speech": "形",
+        "meaning_zh": "相同的；一样的",
+        "source_page": 174,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "одинаковый",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=174"
+      ]
+    },
+    {
+      "id": 9185,
+      "accent": "оди́ннадцатый",
+      "part": "序数词",
+      "meaning": "第十一",
+      "perfective": "",
+      "note": "одиннадцатый час表示十点多，不能机械理解为十一点整。",
+      "stage": 1,
+      "original": {
+        "word": "одиннадцатый",
+        "part_of_speech": "数",
+        "meaning_zh": "第十一；第十一个",
+        "source_page": 174,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "одиннадцатый",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=174"
+      ]
+    },
+    {
+      "id": 9186,
+      "accent": "оди́ннадцать",
+      "part": "数词",
+      "meaning": "十一",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "одиннадцать",
+        "part_of_speech": "数",
+        "meaning_zh": "十一",
+        "source_page": 174,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "одиннадцать",
+      "method": "2026-09-16当前助手逐项视觉核对原PDF171至174页，核重音、核心意义、词性及体；不把搭配义和支配关系误写为词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=174"
+      ]
+    }
+  ]
+}
