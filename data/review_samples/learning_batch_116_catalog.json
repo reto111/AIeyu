@@ -1,0 +1,695 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9756,
+      "accent": "про́бовать",
+      "part": "动词，未完成体",
+      "meaning": "尝试；试用；试验；品尝",
+      "perfective": "попро́бовать",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "пробовать",
+        "part_of_speech": "未",
+        "meaning_zh": "尝试；试用；品尝；试验",
+        "source_page": 231,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пробовать",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=231"
+      ]
+    },
+    {
+      "id": 9757,
+      "accent": "прова́ливаться",
+      "part": "动词，未完成体",
+      "meaning": "陷入；掉入；塌陷；失败；败露",
+      "perfective": "провали́ться",
+      "note": "如考试失败或秘密组织暴露；不只是地面塌陷。",
+      "stage": 2,
+      "original": {
+        "word": "проваливаться",
+        "part_of_speech": "未",
+        "meaning_zh": "掉入；塌陷；失败；（秘密等）败露",
+        "source_page": 231,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "проваливаться",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=231"
+      ]
+    },
+    {
+      "id": 9758,
+      "accent": "прове́рка",
+      "part": "名词，阴性",
+      "meaning": "检查；检验；核查",
+      "perfective": "",
+      "note": "原页为е上重音，原库误成ё，局部修正。",
+      "stage": 2,
+      "original": {
+        "word": "провёрка",
+        "part_of_speech": "阴",
+        "meaning_zh": "检查；检验；审查",
+        "source_page": 231,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "проверка",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=231"
+      ]
+    },
+    {
+      "id": 9759,
+      "accent": "проверя́ть",
+      "part": "动词，未完成体",
+      "meaning": "检查；核对；验证；测试；校准",
+      "perfective": "прове́рить",
+      "note": "校表、检验证件、验证理论等按对象取义。",
+      "stage": 1,
+      "original": {
+        "word": "проверять",
+        "part_of_speech": "未",
+        "meaning_zh": "检查；核对；验证；测试；校准",
+        "source_page": 231,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "проверять",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=231"
+      ]
+    },
+    {
+      "id": 9760,
+      "accent": "прови́нция",
+      "part": "名词，阴性",
+      "meaning": "省；外省；外地；偏远地区",
+      "perfective": "",
+      "note": "行政省份用于相应国家；也指首都或大城市以外地区，不必都十分偏远。",
+      "stage": 2,
+      "original": {
+        "word": "провинция",
+        "part_of_speech": "阴",
+        "meaning_zh": "省；偏远地区",
+        "source_page": 231,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "провинция",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=231"
+      ]
+    },
+    {
+      "id": 9761,
+      "accent": "проводи́ть",
+      "part": "动词，未完成体",
+      "meaning": "引领通过；实施；举行；铺设；度过；传导",
+      "perfective": "провести́",
+      "note": "此条为未完成体；另有同形完成体проводи́ть送别，对应провожа́ть。传导物理性质义通常为状态。",
+      "stage": 2,
+      "original": {
+        "word": "проводить",
+        "part_of_speech": "未",
+        "meaning_zh": "带领通过；进行；实施；铺设；度过；传导",
+        "source_page": 231,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "проводить",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=231"
+      ]
+    },
+    {
+      "id": 9762,
+      "accent": "про́воды",
+      "part": "名词，复数",
+      "meaning": "送别；送行；送别活动",
+      "perfective": "",
+      "note": "区别电线复数провода́的词尾和重音。",
+      "stage": 2,
+      "original": {
+        "word": "проводы",
+        "part_of_speech": "复",
+        "meaning_zh": "送别；告别会；送行",
+        "source_page": 231,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "проводы",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=231"
+      ]
+    },
+    {
+      "id": 9763,
+      "accent": "провожа́ть",
+      "part": "动词，未完成体",
+      "meaning": "送行；陪送；目送；送别",
+      "perfective": "проводи́ть",
+      "note": "此完成体不是进行义的未完成体проводить；провожать глазами为目送。",
+      "stage": 1,
+      "original": {
+        "word": "провожать",
+        "part_of_speech": "未",
+        "meaning_zh": "送行；陪送；目送；告别",
+        "source_page": 231,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "провожать",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=231"
+      ]
+    },
+    {
+      "id": 9764,
+      "accent": "провозглаша́ть",
+      "part": "动词，未完成体",
+      "meaning": "宣布；宣告；郑重宣布",
+      "perfective": "провозгласи́ть",
+      "note": "可宣布某人为获胜者，常有正式、郑重色彩。",
+      "stage": 2,
+      "original": {
+        "word": "провозглашать",
+        "part_of_speech": "未",
+        "meaning_zh": "宣布；宣告",
+        "source_page": 231,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "провозглашать",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=231"
+      ]
+    },
+    {
+      "id": 9765,
+      "accent": "програ́мма",
+      "part": "名词，阴性",
+      "meaning": "节目；节目单；计划；纲领；大纲；程序",
+      "perfective": "",
+      "note": "原页词性误印为未完成体符号，但该词为阴性名词，不能照抄动词标记。",
+      "stage": 1,
+      "original": {
+        "word": "программа",
+        "part_of_speech": "阴",
+        "meaning_zh": "节目；计划；规划；纲领；大纲；程序",
+        "source_page": 232,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "программа",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=232"
+      ]
+    },
+    {
+      "id": 9766,
+      "accent": "прогре́сс",
+      "part": "名词，阳性",
+      "meaning": "进步；进展",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "прогресс",
+        "part_of_speech": "阳",
+        "meaning_zh": "进步；进展",
+        "source_page": 232,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прогресс",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=232"
+      ]
+    },
+    {
+      "id": 9767,
+      "accent": "прогресси́вный",
+      "part": "形容词",
+      "meaning": "进步的；先进的；递增的",
+      "perfective": "",
+      "note": "递增义用于税率等专门搭配；不泛译为所有渐进过程。",
+      "stage": 2,
+      "original": {
+        "word": "прогрессивный",
+        "part_of_speech": "形",
+        "meaning_zh": "进步的；先进的；渐进的",
+        "source_page": 232,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прогрессивный",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=232"
+      ]
+    },
+    {
+      "id": 9768,
+      "accent": "прогу́лка",
+      "part": "名词，阴性",
+      "meaning": "散步；漫游；游览",
+      "perfective": "",
+      "note": "也可乘船等游览，不限于步行。",
+      "stage": 1,
+      "original": {
+        "word": "прогулка",
+        "part_of_speech": "阴",
+        "meaning_zh": "散步；漫步；散步活动",
+        "source_page": 232,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прогулка",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=232"
+      ]
+    },
+    {
+      "id": 9770,
+      "accent": "продаве́ц",
+      "part": "名词，阳性",
+      "meaning": "卖主；售货员",
+      "perfective": "",
+      "note": "女性продавщи́ца；不等于商店里所有岗位的工作人员。",
+      "stage": 1,
+      "original": {
+        "word": "продавец",
+        "part_of_speech": "阳",
+        "meaning_zh": "卖主；售货员；店员",
+        "source_page": 232,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "продавец",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=232"
+      ]
+    },
+    {
+      "id": 9771,
+      "accent": "прода́жа",
+      "part": "名词，阴性",
+      "meaning": "出售；销售",
+      "perfective": "",
+      "note": "в продаже表示在售、有售。",
+      "stage": 1,
+      "original": {
+        "word": "продажа",
+        "part_of_speech": "阴",
+        "meaning_zh": "出售；销售；卖",
+        "source_page": 232,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "продажа",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=232"
+      ]
+    },
+    {
+      "id": 9772,
+      "accent": "продово́льственный",
+      "part": "形容词",
+      "meaning": "粮食的；食品的；食品供应的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "продовольственный",
+        "part_of_speech": "形",
+        "meaning_zh": "粮食的；食品的；食品供应的",
+        "source_page": 232,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "продовольственный",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=232"
+      ]
+    },
+    {
+      "id": 9773,
+      "accent": "продово́льствие",
+      "part": "名词，中性；集合义",
+      "meaning": "食品；粮食；食物供应品",
+      "perfective": "",
+      "note": "泛指供食用的物资，不只谷物。",
+      "stage": 2,
+      "original": {
+        "word": "продовольствие",
+        "part_of_speech": "中",
+        "meaning_zh": "粮食；食品；食物供应",
+        "source_page": 232,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "продовольствие",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=232"
+      ]
+    },
+    {
+      "id": 9774,
+      "accent": "продолжа́ть",
+      "part": "动词，未完成体",
+      "meaning": "继续；接着做",
+      "perfective": "продо́лжить",
+      "note": "及物或接不定式，区别事件本身持续的反身形式。",
+      "stage": 1,
+      "original": {
+        "word": "продолжать",
+        "part_of_speech": "未",
+        "meaning_zh": "继续；持续",
+        "source_page": 232,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "продолжать",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=232"
+      ]
+    },
+    {
+      "id": 9775,
+      "accent": "продолжа́ться",
+      "part": "动词，未完成体",
+      "meaning": "继续；持续",
+      "perfective": "продо́лжиться",
+      "note": "事情、过程作主语，常接持续时间。",
+      "stage": 1,
+      "original": {
+        "word": "продолжаться",
+        "part_of_speech": "未",
+        "meaning_zh": "继续；持续",
+        "source_page": 232,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "продолжаться",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=232"
+      ]
+    },
+    {
+      "id": 9776,
+      "accent": "продолже́ние",
+      "part": "名词，中性",
+      "meaning": "继续；延续；延伸部分；续篇；续集",
+      "perfective": "",
+      "note": "小说下一期续载或道路延伸均可用。",
+      "stage": 2,
+      "original": {
+        "word": "продолжение",
+        "part_of_speech": "中",
+        "meaning_zh": "继续；持续；延续；续集",
+        "source_page": 232,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "продолжение",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=232"
+      ]
+    },
+    {
+      "id": 9777,
+      "accent": "проду́кт",
+      "part": "名词，阳性",
+      "meaning": "产品；产物；食品",
+      "perfective": "",
+      "note": "复数продукты常指食品、食材；不只工业成品。",
+      "stage": 1,
+      "original": {
+        "word": "продукт",
+        "part_of_speech": "阳",
+        "meaning_zh": "产品；产物；食品；食物",
+        "source_page": 232,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "продукт",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=232"
+      ]
+    },
+    {
+      "id": 9778,
+      "accent": "проду́кция",
+      "part": "名词，阴性；集合义",
+      "meaning": "产品；产出；产品总量",
+      "perfective": "",
+      "note": "多指生产出的产品整体；不把所有产出都当货币总额。",
+      "stage": 2,
+      "original": {
+        "word": "продукция",
+        "part_of_speech": "阴",
+        "meaning_zh": "产品；产量；产品总额",
+        "source_page": 233,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "продукция",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=233"
+      ]
+    },
+    {
+      "id": 9779,
+      "accent": "проезжа́ть",
+      "part": "动词，未完成体",
+      "meaning": "乘车等经过；行驶；走过一段距离；坐过站",
+      "perfective": "прое́хать",
+      "note": "可指驾车或乘车，末义是超过应下车地点。",
+      "stage": 2,
+      "original": {
+        "word": "проезжать",
+        "part_of_speech": "未",
+        "meaning_zh": "驾车或乘车经过；行驶；错过（车站等）",
+        "source_page": 233,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "проезжать",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=233"
+      ]
+    },
+    {
+      "id": 9780,
+      "accent": "прое́кт",
+      "part": "名词，阳性",
+      "meaning": "项目；计划；方案；草案；设计；设计图",
+      "perfective": "",
+      "note": "如合同草案проект договора，不只工程图。",
+      "stage": 2,
+      "original": {
+        "word": "проект",
+        "part_of_speech": "阳",
+        "meaning_zh": "计划；方案；项目；设计图",
+        "source_page": 233,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "проект",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=233"
+      ]
+    },
+    {
+      "id": 9781,
+      "accent": "прожива́ть",
+      "part": "动词，未完成体",
+      "meaning": "居住；生活；度过一段时间",
+      "perfective": "прожи́ть",
+      "note": "居住地址陈述常用未完成体；体对用于度过一定时间等有界意义。",
+      "stage": 2,
+      "original": {
+        "word": "проживать",
+        "part_of_speech": "未",
+        "meaning_zh": "居住；生活；度过（时间）",
+        "source_page": 233,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "проживать",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=233"
+      ]
+    },
+    {
+      "id": 9782,
+      "accent": "прожи́ть",
+      "part": "动词，完成体",
+      "meaning": "生活或居住一段时间；度过",
+      "perfective": "прожива́ть",
+      "note": "完成体强调一定时间，如прожить год。",
+      "stage": 2,
+      "original": {
+        "word": "прожить",
+        "part_of_speech": "完",
+        "meaning_zh": "生活；度过（时间）",
+        "source_page": 233,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прожить",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=233"
+      ]
+    },
+    {
+      "id": 9783,
+      "accent": "про́за",
+      "part": "名词，阴性",
+      "meaning": "散文体；散文作品；平凡乏味的现实",
+      "perfective": "",
+      "note": "文学术语与诗歌相对，也包括小说，不仅指中文文类中狭义散文。",
+      "stage": 2,
+      "original": {
+        "word": "проза",
+        "part_of_speech": "阴",
+        "meaning_zh": "散文；散文作品",
+        "source_page": 233,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "проза",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=233"
+      ]
+    },
+    {
+      "id": 9784,
+      "accent": "прозра́чный",
+      "part": "形容词",
+      "meaning": "透明的；透光的；清澈的；明显易懂的",
+      "perfective": "",
+      "note": "转义如明显的暗示，需按语境理解。",
+      "stage": 2,
+      "original": {
+        "word": "прозрачный",
+        "part_of_speech": "形",
+        "meaning_zh": "透明的；透光的；清澈的",
+        "source_page": 233,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прозрачный",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=233"
+      ]
+    },
+    {
+      "id": 9785,
+      "accent": "прои́грывать",
+      "part": "动词，未完成体",
+      "meaning": "输掉；失败；播放；弹奏或演练",
+      "perfective": "проигра́ть",
+      "note": "原页玩一整天例句为同形完成体限时义，不给本未完成体泛加消磨时间。",
+      "stage": 2,
+      "original": {
+        "word": "проигрывать",
+        "part_of_speech": "未",
+        "meaning_zh": "输掉；失败；播放；消磨时间",
+        "source_page": 233,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "проигрывать",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=233"
+      ]
+    },
+    {
+      "id": 9786,
+      "accent": "произведе́ние",
+      "part": "名词，中性",
+      "meaning": "作品；著作；产物；乘积",
+      "perfective": "",
+      "note": "数学乘积与文艺作品分开理解。",
+      "stage": 2,
+      "original": {
+        "word": "произведение",
+        "part_of_speech": "中",
+        "meaning_zh": "产物；作品；著作；乘积",
+        "source_page": 233,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "произведение",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF231至233页，区分同形动词的体，纠正局部е/ё及中文释义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=233"
+      ]
+    }
+  ]
+}

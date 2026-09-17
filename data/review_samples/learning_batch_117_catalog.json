@@ -1,0 +1,698 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9787,
+      "accent": "производи́тельность",
+      "part": "名词，阴性",
+      "meaning": "生产率；生产能力；单位时间产出",
+      "perfective": "",
+      "note": "一般产量常用объём производства，不把生产效率概念全混成总产量。",
+      "stage": 2,
+      "original": {
+        "word": "производительность",
+        "part_of_speech": "阴",
+        "meaning_zh": "生产率；生产能力；产量",
+        "source_page": 233,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "производительность",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=233"
+      ]
+    },
+    {
+      "id": 9788,
+      "accent": "производи́тельный",
+      "part": "形容词",
+      "meaning": "生产性的；有生产能力的；有效率的",
+      "perfective": "",
+      "note": "区别表示生产方面的производственный。",
+      "stage": 2,
+      "original": {
+        "word": "производительный",
+        "part_of_speech": "形",
+        "meaning_zh": "生产的；有生产能力的；高效的",
+        "source_page": 233,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "производительный",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=233"
+      ]
+    },
+    {
+      "id": 9789,
+      "accent": "производи́ть",
+      "part": "动词，未完成体",
+      "meaning": "生产；制造；进行；实施；引起；产生",
+      "perfective": "произвести́",
+      "note": "补跨页产生印象义；区别произносить发音。",
+      "stage": 2,
+      "original": {
+        "word": "производить",
+        "part_of_speech": "未",
+        "meaning_zh": "生产；制造；进行；引起；产生",
+        "source_page": 233,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "производить",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=233",
+        "data/words/tem4_russian_words.pdf#page=234"
+      ]
+    },
+    {
+      "id": 9790,
+      "accent": "произво́дственный",
+      "part": "形容词",
+      "meaning": "生产的；生产方面的",
+      "perfective": "",
+      "note": "如生产关系、生产定额，不等于效率高。",
+      "stage": 2,
+      "original": {
+        "word": "производственный",
+        "part_of_speech": "形",
+        "meaning_zh": "生产的；生产方面的",
+        "source_page": 234,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "производственный",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=234"
+      ]
+    },
+    {
+      "id": 9791,
+      "accent": "произво́дство",
+      "part": "名词，中性",
+      "meaning": "生产；制造；生产部门；生产工作；进行",
+      "perfective": "",
+      "note": "可指生产活动或行业部门，依上下文区分。",
+      "stage": 2,
+      "original": {
+        "word": "производство",
+        "part_of_speech": "中",
+        "meaning_zh": "生产；制造；生产部门；生产工作",
+        "source_page": 234,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "производство",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=234"
+      ]
+    },
+    {
+      "id": 9792,
+      "accent": "произноси́ть",
+      "part": "动词，未完成体",
+      "meaning": "说出；念出；发音；发表讲话",
+      "perfective": "произнести́",
+      "note": "произносить речь为发表讲话。",
+      "stage": 1,
+      "original": {
+        "word": "произносить",
+        "part_of_speech": "未",
+        "meaning_zh": "说出；发音；发表讲话",
+        "source_page": 234,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "произносить",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=234"
+      ]
+    },
+    {
+      "id": 9793,
+      "accent": "произноси́ться",
+      "part": "动词，未完成体",
+      "meaning": "读作；发音为；被说出",
+      "perfective": "произнести́сь",
+      "note": "主语通常为声音、词句；完成体用于一次说出，不用于一般发音规则。",
+      "stage": 2,
+      "original": {
+        "word": "произноситься",
+        "part_of_speech": "未",
+        "meaning_zh": "发音；被说出",
+        "source_page": 234,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "произноситься",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=234"
+      ]
+    },
+    {
+      "id": 9794,
+      "accent": "произноше́ние",
+      "part": "名词，中性",
+      "meaning": "发音；发音方式；口音",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "произношение",
+        "part_of_speech": "中",
+        "meaning_zh": "发音；口音；发音方式",
+        "source_page": 234,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "произношение",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=234"
+      ]
+    },
+    {
+      "id": 9795,
+      "accent": "происходи́ть",
+      "part": "动词，未完成体",
+      "meaning": "发生；出现；起源于；出身于",
+      "perfective": "произойти́",
+      "note": "事件发生用体对；出身或来源状态义不机械替换完成体。",
+      "stage": 2,
+      "original": {
+        "word": "происходить",
+        "part_of_speech": "未",
+        "meaning_zh": "发生；出现；起源于",
+        "source_page": 234,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "происходить",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=234"
+      ]
+    },
+    {
+      "id": 9796,
+      "accent": "происхожде́ние",
+      "part": "名词，中性",
+      "meaning": "起源；来源；出身；血统",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "происхождение",
+        "part_of_speech": "中",
+        "meaning_zh": "起源；来源；出身；血统",
+        "source_page": 234,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "происхождение",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=234"
+      ]
+    },
+    {
+      "id": 9797,
+      "accent": "пролетариа́т",
+      "part": "名词，阳性；集合义",
+      "meaning": "无产阶级",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "пролетариат",
+        "part_of_speech": "阳",
+        "meaning_zh": "无产阶级",
+        "source_page": 234,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пролетариат",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=234"
+      ]
+    },
+    {
+      "id": 9798,
+      "accent": "пролета́рий",
+      "part": "名词，阳性",
+      "meaning": "无产者",
+      "perfective": "",
+      "note": "与集合名词пролетариат区分。",
+      "stage": 2,
+      "original": {
+        "word": "пролетарий",
+        "part_of_speech": "阳",
+        "meaning_zh": "无产者",
+        "source_page": 234,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пролетарий",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=234"
+      ]
+    },
+    {
+      "id": 9799,
+      "accent": "пролета́рский",
+      "part": "形容词",
+      "meaning": "无产阶级的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "пролетарский",
+        "part_of_speech": "形",
+        "meaning_zh": "无产阶级的",
+        "source_page": 234,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пролетарский",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=234"
+      ]
+    },
+    {
+      "id": 9800,
+      "accent": "промока́ть",
+      "part": "动词，未完成体",
+      "meaning": "湿透；淋透；被浸湿",
+      "perfective": "промо́кнуть",
+      "note": "本条不及物，不是主动把别的东西弄湿。",
+      "stage": 2,
+      "original": {
+        "word": "промокать",
+        "part_of_speech": "未",
+        "meaning_zh": "湿透；受潮；浸湿",
+        "source_page": 234,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "промокать",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=234",
+        "data/words/tem4_russian_words.pdf#page=235"
+      ]
+    },
+    {
+      "id": 9801,
+      "accent": "промы́шленность",
+      "part": "名词，阴性",
+      "meaning": "工业；工业部门",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "промышленность",
+        "part_of_speech": "阴",
+        "meaning_zh": "工业；工业部门",
+        "source_page": 235,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "промышленность",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=235"
+      ]
+    },
+    {
+      "id": 9802,
+      "accent": "промы́шленный",
+      "part": "形容词",
+      "meaning": "工业的；工业生产的",
+      "perfective": "",
+      "note": "不泛指所有生产活动。",
+      "stage": 2,
+      "original": {
+        "word": "промышленный",
+        "part_of_speech": "形",
+        "meaning_zh": "工业的；生产的",
+        "source_page": 235,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "промышленный",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=235"
+      ]
+    },
+    {
+      "id": 9803,
+      "accent": "проника́ть",
+      "part": "动词，未完成体",
+      "meaning": "进入；渗入；透入；传到；深入理解",
+      "perfective": "прони́кнуть",
+      "note": "可说光透入房间、消息传遍各处或洞察实质。",
+      "stage": 2,
+      "original": {
+        "word": "проникать",
+        "part_of_speech": "未",
+        "meaning_zh": "进入；渗入；传入；深入理解",
+        "source_page": 235,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "проникать",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=235"
+      ]
+    },
+    {
+      "id": 9804,
+      "accent": "пропага́нда",
+      "part": "名词，阴性",
+      "meaning": "宣传；宣传活动",
+      "perfective": "",
+      "note": "不自动增加褒义或贬义，按语境判断。",
+      "stage": 2,
+      "original": {
+        "word": "пропаганда",
+        "part_of_speech": "阴",
+        "meaning_zh": "宣传；宣传活动",
+        "source_page": 235,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пропаганда",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=235"
+      ]
+    },
+    {
+      "id": 9805,
+      "accent": "пропада́ть",
+      "part": "动词，未完成体",
+      "meaning": "丢失；失踪；消失；丧失；白费；毁掉",
+      "perfective": "пропа́сть",
+      "note": "如信不见、声音消失或时间白费。",
+      "stage": 2,
+      "original": {
+        "word": "пропадать",
+        "part_of_speech": "未",
+        "meaning_zh": "消失；失踪；丢失；白费；完蛋",
+        "source_page": 235,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пропадать",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=235"
+      ]
+    },
+    {
+      "id": 9806,
+      "accent": "пропуска́ть",
+      "part": "动词，未完成体",
+      "meaning": "让通过；放行；透过；漏掉；错过；缺席",
+      "perfective": "пропусти́ть",
+      "note": "及物，可让人通过、材料透声，或漏课；不是主语自己经过。",
+      "stage": 2,
+      "original": {
+        "word": "пропускать",
+        "part_of_speech": "未",
+        "meaning_zh": "放过；漏掉；缺席；通过；使通过",
+        "source_page": 235,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пропускать",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=235"
+      ]
+    },
+    {
+      "id": 9807,
+      "accent": "просвеще́ние",
+      "part": "名词，中性",
+      "meaning": "教育；文化教育；启蒙",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "просвещение",
+        "part_of_speech": "中",
+        "meaning_zh": "教育；启蒙；文化教育",
+        "source_page": 235,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "просвещение",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=235"
+      ]
+    },
+    {
+      "id": 9808,
+      "accent": "проси́ть",
+      "part": "动词，未完成体",
+      "meaning": "请求；求；索要；请；邀请",
+      "perfective": "попроси́ть",
+      "note": "常接кого о чём或不定式；不等于提问信息的спрашивать。",
+      "stage": 1,
+      "original": {
+        "word": "просить",
+        "part_of_speech": "未",
+        "meaning_zh": "请求；求；请；邀请",
+        "source_page": 235,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "просить",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=235"
+      ]
+    },
+    {
+      "id": 9809,
+      "accent": "проспе́кт",
+      "part": "名词，阳性",
+      "meaning": "大街；大道；宣传册；内容提要",
+      "perfective": "",
+      "note": "街道义不要求一定有林荫；印刷品义依上下文取用。",
+      "stage": 1,
+      "original": {
+        "word": "проспект",
+        "part_of_speech": "阳",
+        "meaning_zh": "大街；林荫大道；大道",
+        "source_page": 235,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "проспект",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=235"
+      ]
+    },
+    {
+      "id": 9810,
+      "accent": "просто́й",
+      "part": "形容词",
+      "meaning": "简单的；朴素的；普通的；纯朴的；单质的",
+      "perfective": "",
+      "note": "原页另列просто的副词、语气词义，不直接移入形容词。另有同形名词停工，不混入本条。",
+      "stage": 1,
+      "original": {
+        "word": "простой",
+        "part_of_speech": "形",
+        "meaning_zh": "简单的；朴素的；普通的；纯朴的",
+        "source_page": 235,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "простой",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=235",
+        "data/words/tem4_russian_words.pdf#page=236"
+      ]
+    },
+    {
+      "id": 9811,
+      "accent": "просто́рный",
+      "part": "形容词",
+      "meaning": "宽敞的；辽阔的；宽松的",
+      "perfective": "",
+      "note": "形容衣物时可指宽松。",
+      "stage": 1,
+      "original": {
+        "word": "просторный",
+        "part_of_speech": "形",
+        "meaning_zh": "宽敞的；辽阔的",
+        "source_page": 236,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "просторный",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=236"
+      ]
+    },
+    {
+      "id": 9812,
+      "accent": "простра́нство",
+      "part": "名词，中性",
+      "meaning": "空间；空地；地域；范围",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "пространство",
+        "part_of_speech": "中",
+        "meaning_zh": "空间；领域；范围",
+        "source_page": 236,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пространство",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=236"
+      ]
+    },
+    {
+      "id": 9813,
+      "accent": "просту́да",
+      "part": "名词，阴性",
+      "meaning": "感冒；伤风；着凉",
+      "perfective": "",
+      "note": "保留词汇日常义，不把词典释义当作疾病诊断或病因结论。",
+      "stage": 1,
+      "original": {
+        "word": "простуда",
+        "part_of_speech": "阴",
+        "meaning_zh": "着凉；感冒；伤风",
+        "source_page": 236,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "простуда",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=236"
+      ]
+    },
+    {
+      "id": 9814,
+      "accent": "простужа́ться",
+      "part": "动词，未完成体",
+      "meaning": "着凉；患感冒",
+      "perfective": "простуди́ться",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "простужаться",
+        "part_of_speech": "未",
+        "meaning_zh": "着凉；感冒",
+        "source_page": 236,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "простужаться",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=236"
+      ]
+    },
+    {
+      "id": 9815,
+      "accent": "проспа́ть",
+      "part": "动词，完成体",
+      "meaning": "睡了一段时间；睡过头；因睡觉错过",
+      "perfective": "просыпа́ть",
+      "note": "体对просыпать用于睡过头、睡误；睡一定时长为限时义，不统一套用。",
+      "stage": 2,
+      "original": {
+        "word": "проспать",
+        "part_of_speech": "完",
+        "meaning_zh": "睡过（若干时间）；睡过头；因睡觉错过",
+        "source_page": 236,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "проспать",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=236"
+      ]
+    },
+    {
+      "id": 9816,
+      "accent": "просыпа́ться",
+      "part": "动词，未完成体",
+      "meaning": "醒来；苏醒",
+      "perfective": "просну́ться",
+      "note": "本条为醒来义，与散落义的同形动词分开。",
+      "stage": 1,
+      "original": {
+        "word": "просыпаться",
+        "part_of_speech": "未",
+        "meaning_zh": "醒来；苏醒",
+        "source_page": 236,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "просыпаться",
+      "method": "2026-09-17晚间当前助手视觉核对PDF233至236页待标注词，核对重音、词性、体及中俄核心意义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=236"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,697 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9817,
+      "accent": "про́сьба",
+      "part": "名词，阴性",
+      "meaning": "请求；恳求；申请",
+      "perfective": "",
+      "note": "是名词，与просить动词区分。",
+      "stage": 1,
+      "original": {
+        "word": "просьба",
+        "part_of_speech": "阴",
+        "meaning_zh": "请求；要求；申请",
+        "source_page": 236,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "просьба",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=236"
+      ]
+    },
+    {
+      "id": 9818,
+      "accent": "проте́ст",
+      "part": "名词，阳性",
+      "meaning": "抗议；异议；抗议书",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "протест",
+        "part_of_speech": "阳",
+        "meaning_zh": "抗议；异议；抗议书",
+        "source_page": 236,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "протест",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=236"
+      ]
+    },
+    {
+      "id": 9819,
+      "accent": "проти́вник",
+      "part": "名词，阳性",
+      "meaning": "对手；反对者；敌手；敌人",
+      "perfective": "",
+      "note": "比赛对手不必带敌意；反对者可接所反对对象的二格。",
+      "stage": 2,
+      "original": {
+        "word": "противник",
+        "part_of_speech": "阳",
+        "meaning_zh": "对手；反对者；敌手；敌人",
+        "source_page": 236,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "противник",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=236"
+      ]
+    },
+    {
+      "id": 9820,
+      "accent": "противополо́жный",
+      "part": "形容词",
+      "meaning": "对面的；相反的；对立的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "противоположный",
+        "part_of_speech": "形",
+        "meaning_zh": "对面的；相反的；对立的",
+        "source_page": 236,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "противоположный",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=236",
+        "data/words/tem4_russian_words.pdf#page=237"
+      ]
+    },
+    {
+      "id": 9821,
+      "accent": "противоре́чие",
+      "part": "名词，中性",
+      "meaning": "矛盾；抵触；对立；反对意见",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "противоречие",
+        "part_of_speech": "中",
+        "meaning_zh": "矛盾；抵触；对立；反对意见",
+        "source_page": 237,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "противоречие",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=237"
+      ]
+    },
+    {
+      "id": 9822,
+      "accent": "протя́гивать",
+      "part": "动词，未完成体",
+      "meaning": "伸出；拉长；拉过去；架设；递出",
+      "perfective": "протяну́ть",
+      "note": "如伸出手、拉设电话线或递出物品。",
+      "stage": 2,
+      "original": {
+        "word": "протягивать",
+        "part_of_speech": "未",
+        "meaning_zh": "伸出；拉长；铺设或安装（线路）",
+        "source_page": 237,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "протягивать",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=237"
+      ]
+    },
+    {
+      "id": 9823,
+      "accent": "протяже́ние",
+      "part": "名词，中性",
+      "meaning": "延伸；长度；空间或时间的延续",
+      "perfective": "",
+      "note": "原页性别标记有误，本词为中性；在……期间来自на протяжении加二格的搭配。",
+      "stage": 2,
+      "original": {
+        "word": "протяжение",
+        "part_of_speech": "中",
+        "meaning_zh": "长度；延续；期间",
+        "source_page": 237,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "протяжение",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=237"
+      ]
+    },
+    {
+      "id": 9824,
+      "accent": "профе́ссия",
+      "part": "名词，阴性",
+      "meaning": "职业；专门职业",
+      "perfective": "",
+      "note": "大学专业一般为специальность，不直接混同。",
+      "stage": 1,
+      "original": {
+        "word": "профессия",
+        "part_of_speech": "阴",
+        "meaning_zh": "职业；专业",
+        "source_page": 237,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "профессия",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=237"
+      ]
+    },
+    {
+      "id": 9825,
+      "accent": "профе́ссор",
+      "part": "名词，阳性",
+      "meaning": "教授",
+      "perfective": "",
+      "note": "指人及职称，不是动词教授。",
+      "stage": 1,
+      "original": {
+        "word": "профессор",
+        "part_of_speech": "阳",
+        "meaning_zh": "教授",
+        "source_page": 237,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "профессор",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=237"
+      ]
+    },
+    {
+      "id": 9826,
+      "accent": "профсою́з",
+      "part": "名词，阳性",
+      "meaning": "工会",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "профсоюз",
+        "part_of_speech": "阳",
+        "meaning_zh": "工会",
+        "source_page": 237,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "профсоюз",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=237"
+      ]
+    },
+    {
+      "id": 9827,
+      "accent": "прохла́дный",
+      "part": "形容词",
+      "meaning": "凉爽的；凉快的；冷淡的",
+      "perfective": "",
+      "note": "转义为态度冷淡。",
+      "stage": 1,
+      "original": {
+        "word": "прохладный",
+        "part_of_speech": "形",
+        "meaning_zh": "凉快的；凉爽的；冷淡的",
+        "source_page": 237,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прохладный",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=237"
+      ]
+    },
+    {
+      "id": 9828,
+      "accent": "проходи́ть",
+      "part": "动词，未完成体",
+      "meaning": "走过；通过；经过；消逝；消失；学习；进行；经历",
+      "perfective": "пройти́",
+      "note": "顺利是с успехом等补充语的意思，不能把进行一概译为进行顺利。",
+      "stage": 2,
+      "original": {
+        "word": "проходить",
+        "part_of_speech": "未",
+        "meaning_zh": "走过；通过；经过；过去；学习；进行顺利",
+        "source_page": 237,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "проходить",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=237"
+      ]
+    },
+    {
+      "id": 9829,
+      "accent": "прохо́жий",
+      "part": "形容词；名词，阳性",
+      "meaning": "过路的；过路人",
+      "perfective": "",
+      "note": "名词化指路人，女性形式прохожая。",
+      "stage": 1,
+      "original": {
+        "word": "прохожий",
+        "part_of_speech": "形/阳",
+        "meaning_zh": "过路的；过路人",
+        "source_page": 237,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прохожий",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=237"
+      ]
+    },
+    {
+      "id": 9830,
+      "accent": "проце́нт",
+      "part": "名词，阳性",
+      "meaning": "百分之一；百分比；利息",
+      "perfective": "",
+      "note": "利息常用复数проценты。",
+      "stage": 2,
+      "original": {
+        "word": "процент",
+        "part_of_speech": "阳",
+        "meaning_zh": "百分数；百分之一；利息",
+        "source_page": 237,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "процент",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=237",
+        "data/words/tem4_russian_words.pdf#page=238"
+      ]
+    },
+    {
+      "id": 9831,
+      "accent": "проце́сс",
+      "part": "名词，阳性",
+      "meaning": "过程；进程；诉讼；审判",
+      "perfective": "",
+      "note": "司法义按语境区分，不只抽象过程。",
+      "stage": 2,
+      "original": {
+        "word": "процесс",
+        "part_of_speech": "阳",
+        "meaning_zh": "过程；进程",
+        "source_page": 238,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "процесс",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=238"
+      ]
+    },
+    {
+      "id": 9832,
+      "accent": "про́чный",
+      "part": "形容词",
+      "meaning": "坚固的；结实的；牢靠的；可靠的；持久的",
+      "perfective": "",
+      "note": "可形容物体、知识基础或和平等。",
+      "stage": 2,
+      "original": {
+        "word": "прочный",
+        "part_of_speech": "形",
+        "meaning_zh": "坚固的；结实的；可靠的；持久的",
+        "source_page": 238,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прочный",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=238"
+      ]
+    },
+    {
+      "id": 9833,
+      "accent": "про́шлый",
+      "part": "形容词",
+      "meaning": "过去的；上次的；前一个的",
+      "perfective": "",
+      "note": "中性名词化прошлое才表示过去、往事。",
+      "stage": 1,
+      "original": {
+        "word": "прошлый",
+        "part_of_speech": "形",
+        "meaning_zh": "过去的；上次的；前一个的",
+        "source_page": 238,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прошлый",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=238"
+      ]
+    },
+    {
+      "id": 9834,
+      "accent": "проща́ние",
+      "part": "名词，中性",
+      "meaning": "告别；告辞；离别",
+      "perfective": "",
+      "note": "原库ш应为щ，按原页与词义修正。",
+      "stage": 2,
+      "original": {
+        "word": "прошание",
+        "part_of_speech": "中",
+        "meaning_zh": "告别；告辞",
+        "source_page": 238,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прощание",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=238"
+      ]
+    },
+    {
+      "id": 9835,
+      "accent": "проща́ть",
+      "part": "动词，未完成体",
+      "meaning": "原谅；宽恕",
+      "perfective": "прости́ть",
+      "note": "对不起是命令式Простите等的礼貌用法，不是不定式直接义。",
+      "stage": 1,
+      "original": {
+        "word": "прощать",
+        "part_of_speech": "未",
+        "meaning_zh": "原谅；宽恕；请原谅；对不起",
+        "source_page": 238,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прощать",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=238"
+      ]
+    },
+    {
+      "id": 9836,
+      "accent": "проща́ться",
+      "part": "动词，未完成体",
+      "meaning": "告别；告辞；道别",
+      "perfective": "прости́ться",
+      "note": "本条为告别义，接с加五格；不能译为原谅自己。",
+      "stage": 1,
+      "original": {
+        "word": "прощаться",
+        "part_of_speech": "未",
+        "meaning_zh": "告别；告辞",
+        "source_page": 238,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прощаться",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=238"
+      ]
+    },
+    {
+      "id": 9837,
+      "accent": "проявля́ть",
+      "part": "动词，未完成体",
+      "meaning": "表现；显示；显露；使感光材料显影",
+      "perfective": "прояви́ть",
+      "note": "摄影显影与表现品质是不同义项。",
+      "stage": 2,
+      "original": {
+        "word": "проявлять",
+        "part_of_speech": "未",
+        "meaning_zh": "表现；显示；显露；显影",
+        "source_page": 238,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "проявлять",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=238"
+      ]
+    },
+    {
+      "id": 9838,
+      "accent": "проявля́ться",
+      "part": "动词，未完成体",
+      "meaning": "显现；表现出来；显影",
+      "perfective": "прояви́ться",
+      "note": "原页把数码照片与显影混用；此摄影义针对感光材料，不照抄错误例句。",
+      "stage": 2,
+      "original": {
+        "word": "проявляться",
+        "part_of_speech": "未",
+        "meaning_zh": "显现；表现出来；显影",
+        "source_page": 238,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "проявляться",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=238"
+      ]
+    },
+    {
+      "id": 9839,
+      "accent": "пры́гать",
+      "part": "动词，未完成体",
+      "meaning": "跳；跳跃；弹跳；跳动",
+      "perfective": "пры́гнуть",
+      "note": "прыгнуть为一次跳；持续或反复跳不机械换成一次动作。",
+      "stage": 1,
+      "original": {
+        "word": "прыгать",
+        "part_of_speech": "未",
+        "meaning_zh": "跳；跳跃；弹跳",
+        "source_page": 238,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прыгать",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=238"
+      ]
+    },
+    {
+      "id": 9840,
+      "accent": "прямо́й",
+      "part": "形容词",
+      "meaning": "直的；笔直的；直达的；直接的；直率的；公开的",
+      "perfective": "",
+      "note": "如直达交通、直接关系和公然挑衅，依搭配取义。",
+      "stage": 1,
+      "original": {
+        "word": "прямой",
+        "part_of_speech": "形",
+        "meaning_zh": "直的；直接的；直率的；公开的",
+        "source_page": 239,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прямой",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=239"
+      ]
+    },
+    {
+      "id": 9841,
+      "accent": "пря́тать",
+      "part": "动词，未完成体",
+      "meaning": "藏；隐藏；掩饰",
+      "perfective": "спря́тать",
+      "note": "及物，藏东西或隐藏思想。",
+      "stage": 1,
+      "original": {
+        "word": "прятать",
+        "part_of_speech": "未",
+        "meaning_zh": "藏；隐藏；掩饰",
+        "source_page": 239,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прятать",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=239"
+      ]
+    },
+    {
+      "id": 9842,
+      "accent": "пря́таться",
+      "part": "动词，未完成体",
+      "meaning": "躲藏；藏起来；躲避",
+      "perfective": "спря́таться",
+      "note": "主语自己躲藏；от加二格表示躲避对象。",
+      "stage": 1,
+      "original": {
+        "word": "прятаться",
+        "part_of_speech": "未",
+        "meaning_zh": "躲藏；藏起来；躲避",
+        "source_page": 239,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прятаться",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=239"
+      ]
+    },
+    {
+      "id": 9843,
+      "accent": "пти́ца",
+      "part": "名词，阴性",
+      "meaning": "鸟；禽类",
+      "perfective": "",
+      "note": "家禽、猛禽分别来自домашняя птица、хищная птица的完整搭配。",
+      "stage": 1,
+      "original": {
+        "word": "птица",
+        "part_of_speech": "阴",
+        "meaning_zh": "鸟；鸟类；家禽；猛禽",
+        "source_page": 239,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "птица",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=239"
+      ]
+    },
+    {
+      "id": 9844,
+      "accent": "пуга́ть",
+      "part": "动词，未完成体",
+      "meaning": "吓唬；使害怕；恐吓",
+      "perfective": "испуга́ть",
+      "note": "另有完成体напуга́ть，原页并列；勿混入反身形式。",
+      "stage": 1,
+      "original": {
+        "word": "пугать",
+        "part_of_speech": "未",
+        "meaning_zh": "使害怕；吓唬；恐吓",
+        "source_page": 239,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пугать",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=239"
+      ]
+    },
+    {
+      "id": 9845,
+      "accent": "пуга́ться",
+      "part": "动词，未完成体",
+      "meaning": "害怕；受惊；惊慌",
+      "perfective": "испуга́ться",
+      "note": "区别及物动词пугать吓别人。",
+      "stage": 1,
+      "original": {
+        "word": "пугаться",
+        "part_of_speech": "未",
+        "meaning_zh": "害怕；畏惧",
+        "source_page": 239,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пугаться",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=239"
+      ]
+    },
+    {
+      "id": 9846,
+      "accent": "пу́говица",
+      "part": "名词，阴性",
+      "meaning": "纽扣；扣子",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "пуговица",
+        "part_of_speech": "阴",
+        "meaning_zh": "纽扣；扣子",
+        "source_page": 239,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пуговица",
+      "method": "2026-09-17晚间当前助手逐词视觉核对PDF236至239页，核对字母、重音及词性，纠正原书词性误标和词组串义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=239"
+      ]
+    }
+  ]
+}

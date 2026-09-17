@@ -1,0 +1,697 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9726,
+      "accent": "приме́р",
+      "part": "名词，阳性",
+      "meaning": "例子；实例；榜样；范例",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "пример",
+        "part_of_speech": "阳",
+        "meaning_zh": "例子；实例；榜样；范例",
+        "source_page": 227,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пример",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=227"
+      ]
+    },
+    {
+      "id": 9727,
+      "accent": "примеря́ть",
+      "part": "动词，未完成体",
+      "meaning": "试穿；试戴",
+      "perfective": "приме́рить",
+      "note": "服饰用语；不泛化为所有试用，也不与применять应用混淆。",
+      "stage": 1,
+      "original": {
+        "word": "примерять",
+        "part_of_speech": "未",
+        "meaning_zh": "试穿；试戴；试用",
+        "source_page": 227,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "примерять",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=227"
+      ]
+    },
+    {
+      "id": 9728,
+      "accent": "принадлежа́ть",
+      "part": "动词，未完成体",
+      "meaning": "属于；归……所有；属于……之列",
+      "perfective": "",
+      "note": "状态动词不强配完成体；кому表所有者，к чему表所属类别。",
+      "stage": 2,
+      "original": {
+        "word": "принадлежать",
+        "part_of_speech": "未",
+        "meaning_zh": "属于；归……所有；属于……之列",
+        "source_page": 227,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "принадлежать",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=227"
+      ]
+    },
+    {
+      "id": 9729,
+      "accent": "принима́ть",
+      "part": "动词，未完成体",
+      "meaning": "接受；接待；录取；采纳；批准；服用；把……当作",
+      "perfective": "приня́ть",
+      "note": "принимать за加四格为把……当作；参加、洗澡等分别由принимать участие、принимать душ等完整搭配表达。",
+      "stage": 1,
+      "original": {
+        "word": "принимать",
+        "part_of_speech": "未",
+        "meaning_zh": "接受；接待；录取；采纳；服用；认为；承担",
+        "source_page": 228,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "принимать",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=228"
+      ]
+    },
+    {
+      "id": 9730,
+      "accent": "принима́ться",
+      "part": "动词，未完成体",
+      "meaning": "着手；开始做；被接受；被采纳",
+      "perfective": "приня́ться",
+      "note": "体对用于开始做；被接受为被动用法，不直接套用同一完成体。",
+      "stage": 2,
+      "original": {
+        "word": "приниматься",
+        "part_of_speech": "未",
+        "meaning_zh": "开始做；着手；被接受；被采用",
+        "source_page": 228,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приниматься",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=228"
+      ]
+    },
+    {
+      "id": 9731,
+      "accent": "приноси́ть",
+      "part": "动词，未完成体",
+      "meaning": "拿来；带来；产生；造成",
+      "perfective": "принести́",
+      "note": "可带来利益也可造成不幸，不只正面结果。",
+      "stage": 1,
+      "original": {
+        "word": "приносить",
+        "part_of_speech": "未",
+        "meaning_zh": "带来；拿来；导致；带来好处",
+        "source_page": 228,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приносить",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=228"
+      ]
+    },
+    {
+      "id": 9732,
+      "accent": "препя́тствие",
+      "part": "名词，中性",
+      "meaning": "障碍；障碍物；阻碍",
+      "perfective": "",
+      "note": "本条来源页223，按真实原页核对，不因ID顺序改成228页。",
+      "stage": 2,
+      "original": {
+        "word": "препятствие",
+        "part_of_speech": "中",
+        "meaning_zh": "障碍；障碍物；阻碍",
+        "source_page": 223,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "препятствие",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=223"
+      ]
+    },
+    {
+      "id": 9733,
+      "accent": "при́нцип",
+      "part": "名词，阳性",
+      "meaning": "原则；原理；信念；基本准则",
+      "perfective": "",
+      "note": "去除泛化的定理译法，数学定理通常为теорема。",
+      "stage": 2,
+      "original": {
+        "word": "принцип",
+        "part_of_speech": "阳",
+        "meaning_zh": "原则；原理；定理；信念；基本看法",
+        "source_page": 228,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "принцип",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=228"
+      ]
+    },
+    {
+      "id": 9734,
+      "accent": "принципиа́льный",
+      "part": "形容词",
+      "meaning": "原则性的；原则上的；坚持原则的；根本的",
+      "perfective": "",
+      "note": "原则上的同意不一定表示所有细节已同意。",
+      "stage": 2,
+      "original": {
+        "word": "принципиальный",
+        "part_of_speech": "形",
+        "meaning_zh": "原则的；原则性的；坚持原则的；原则上的",
+        "source_page": 228,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "принципиальный",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=228"
+      ]
+    },
+    {
+      "id": 9735,
+      "accent": "приобрета́ть",
+      "part": "动词，未完成体",
+      "meaning": "获得；取得；购得；赢得；开始具有",
+      "perfective": "приобрести́",
+      "note": "可用于购书、获得威信或具有新意义。",
+      "stage": 2,
+      "original": {
+        "word": "приобретать",
+        "part_of_speech": "未",
+        "meaning_zh": "获得；取得；赢得；获得或具有",
+        "source_page": 228,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приобретать",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=228"
+      ]
+    },
+    {
+      "id": 9736,
+      "accent": "приро́да",
+      "part": "名词，阴性",
+      "meaning": "自然界；大自然；自然环境；本性；本质",
+      "perfective": "",
+      "note": "已核跨页人性、社会关系本质等义。",
+      "stage": 1,
+      "original": {
+        "word": "природа",
+        "part_of_speech": "阴",
+        "meaning_zh": "自然；自然界；本性；本质",
+        "source_page": 228,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "природа",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=228",
+        "data/words/tem4_russian_words.pdf#page=229"
+      ]
+    },
+    {
+      "id": 9737,
+      "accent": "приро́дный",
+      "part": "形容词",
+      "meaning": "自然的；天然的；天生的",
+      "perfective": "",
+      "note": "如天然气природный газ；天生义用于禀赋等。",
+      "stage": 2,
+      "original": {
+        "word": "природный",
+        "part_of_speech": "形",
+        "meaning_zh": "自然的；天然的；自然界的",
+        "source_page": 229,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "природный",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=229"
+      ]
+    },
+    {
+      "id": 9738,
+      "accent": "присва́ивать",
+      "part": "动词，未完成体",
+      "meaning": "据为己有；侵占；授予；赋予名称或编号",
+      "perfective": "присво́ить",
+      "note": "私占和合法授予分属不同义项，不笼统译为占有。",
+      "stage": 2,
+      "original": {
+        "word": "присваивать",
+        "part_of_speech": "未",
+        "meaning_zh": "占有；据为己有；授予；以……命名",
+        "source_page": 229,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "присваивать",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=229"
+      ]
+    },
+    {
+      "id": 9739,
+      "accent": "прислу́шиваться",
+      "part": "动词，未完成体",
+      "meaning": "留心听；倾听；听取并重视",
+      "perfective": "прислу́шаться",
+      "note": "接к加三格，可听声音或听取意见。",
+      "stage": 2,
+      "original": {
+        "word": "прислушиваться",
+        "part_of_speech": "未",
+        "meaning_zh": "倾听；留心听取；听取意见",
+        "source_page": 229,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прислушиваться",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=229"
+      ]
+    },
+    {
+      "id": 9740,
+      "accent": "при́стань",
+      "part": "名词，阴性",
+      "meaning": "码头；船舶停靠处",
+      "perfective": "",
+      "note": "不限于客运；软音符结尾，为阴性。",
+      "stage": 2,
+      "original": {
+        "word": "пристань",
+        "part_of_speech": "阴",
+        "meaning_zh": "码头；客运码头",
+        "source_page": 229,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пристань",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=229"
+      ]
+    },
+    {
+      "id": 9741,
+      "accent": "приступа́ть",
+      "part": "动词，未完成体",
+      "meaning": "开始；着手；动手",
+      "perfective": "приступи́ть",
+      "note": "通常к加三格，也可接不定式。",
+      "stage": 2,
+      "original": {
+        "word": "приступать",
+        "part_of_speech": "未",
+        "meaning_zh": "开始；着手；动手",
+        "source_page": 229,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приступать",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=229"
+      ]
+    },
+    {
+      "id": 9742,
+      "accent": "прису́тствие",
+      "part": "名词，中性",
+      "meaning": "在场；出席；存在",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "присутствие",
+        "part_of_speech": "中",
+        "meaning_zh": "在场；出席；存在",
+        "source_page": 229,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "присутствие",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=229"
+      ]
+    },
+    {
+      "id": 9743,
+      "accent": "прису́тствовать",
+      "part": "动词，未完成体",
+      "meaning": "在场；出席；存在",
+      "perfective": "",
+      "note": "状态义不强配完成体；出席会议常用на加六格。",
+      "stage": 2,
+      "original": {
+        "word": "присутствовать",
+        "part_of_speech": "未",
+        "meaning_zh": "出席；在场",
+        "source_page": 229,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "присутствовать",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=229"
+      ]
+    },
+    {
+      "id": 9744,
+      "accent": "присыла́ть",
+      "part": "动词，未完成体",
+      "meaning": "寄来；送来；派来",
+      "perfective": "присла́ть",
+      "note": "向接收方所在处送来；区别посылать的发送。",
+      "stage": 1,
+      "original": {
+        "word": "присылать",
+        "part_of_speech": "未",
+        "meaning_zh": "寄来；送来；派来",
+        "source_page": 229,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "присылать",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=229"
+      ]
+    },
+    {
+      "id": 9745,
+      "accent": "приуча́ть",
+      "part": "动词，未完成体",
+      "meaning": "使习惯于；使养成习惯",
+      "perfective": "приучи́ть",
+      "note": "使别人习惯，区别自己习惯привыкать。",
+      "stage": 2,
+      "original": {
+        "word": "приучать",
+        "part_of_speech": "未",
+        "meaning_zh": "使习惯于；使养成习惯",
+        "source_page": 229,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приучать",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=229"
+      ]
+    },
+    {
+      "id": 9746,
+      "accent": "прихо́д",
+      "part": "名词，阳性",
+      "meaning": "到来；来临；收入；进项",
+      "perfective": "",
+      "note": "会计收入义与到来义分开；另有同形词表示教区。",
+      "stage": 2,
+      "original": {
+        "word": "приход",
+        "part_of_speech": "阳",
+        "meaning_zh": "到来；来临；收入",
+        "source_page": 229,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приход",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=229"
+      ]
+    },
+    {
+      "id": 9747,
+      "accent": "приходи́ть",
+      "part": "动词，未完成体",
+      "meaning": "来；到达；来临；达到；进入某种状态",
+      "perfective": "прийти́",
+      "note": "如прийти к выводу得出结论；正字为прийти，不写成придти。",
+      "stage": 1,
+      "original": {
+        "word": "приходить",
+        "part_of_speech": "未",
+        "meaning_zh": "来；来到；到达",
+        "source_page": 229,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приходить",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=229",
+        "data/words/tem4_russian_words.pdf#page=230"
+      ]
+    },
+    {
+      "id": 9748,
+      "accent": "приходи́ться",
+      "part": "动词，未完成体",
+      "meaning": "不得不；恰好落在；分摊到；占有一定比例",
+      "perfective": "прийти́сь",
+      "note": "无人称кому приходится делать表示不得不；日期适逢与比例分摊另按语境解释。",
+      "stage": 2,
+      "original": {
+        "word": "приходиться",
+        "part_of_speech": "未",
+        "meaning_zh": "不得不；正好；分摊到；占（比例）",
+        "source_page": 230,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приходиться",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=230"
+      ]
+    },
+    {
+      "id": 9749,
+      "accent": "причём",
+      "part": "连接词",
+      "meaning": "而且；并且；其中",
+      "perfective": "",
+      "note": "连写且保留ё；区别疑问搭配при чём。",
+      "stage": 2,
+      "original": {
+        "word": "причём",
+        "part_of_speech": "连",
+        "meaning_zh": "而且；并且；其中",
+        "source_page": 230,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "причём",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=230"
+      ]
+    },
+    {
+      "id": 9750,
+      "accent": "причёсываться",
+      "part": "动词，未完成体",
+      "meaning": "梳头；梳理自己的头发",
+      "perfective": "причеса́ться",
+      "note": "未完成体保留ё，完成体为е。",
+      "stage": 1,
+      "original": {
+        "word": "причёсываться",
+        "part_of_speech": "未",
+        "meaning_zh": "梳头；梳理头发",
+        "source_page": 230,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "причёсываться",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=230"
+      ]
+    },
+    {
+      "id": 9751,
+      "accent": "причи́на",
+      "part": "名词，阴性",
+      "meaning": "原因；缘故；理由；根据",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "причина",
+        "part_of_speech": "阴",
+        "meaning_zh": "原因；缘故；理由；根据",
+        "source_page": 230,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "причина",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=230"
+      ]
+    },
+    {
+      "id": 9752,
+      "accent": "прия́тный",
+      "part": "形容词",
+      "meaning": "令人愉快的；讨人喜欢的；宜人的",
+      "perfective": "",
+      "note": "可形容消息、气味或人，不只表示人心情愉快。",
+      "stage": 1,
+      "original": {
+        "word": "приятный",
+        "part_of_speech": "形",
+        "meaning_zh": "愉快的；令人高兴的；令人喜爱的；宜人的",
+        "source_page": 230,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приятный",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=230"
+      ]
+    },
+    {
+      "id": 9753,
+      "accent": "про",
+      "part": "前置词",
+      "meaning": "关于；谈到",
+      "perfective": "",
+      "note": "接四格，常见口语；不把俄文连接结构一律译成对。",
+      "stage": 1,
+      "original": {
+        "word": "про",
+        "part_of_speech": "前",
+        "meaning_zh": "关于；对……；涉及",
+        "source_page": 230,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "про",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=230"
+      ]
+    },
+    {
+      "id": 9754,
+      "accent": "пробега́ть",
+      "part": "动词，未完成体",
+      "meaning": "跑过；跑完一段距离；迅速经过；浏览",
+      "perfective": "пробежа́ть",
+      "note": "本条按原页未完成体及所列意义；另有限时奔跑的同形完成体，不混为一体。",
+      "stage": 2,
+      "original": {
+        "word": "пробегать",
+        "part_of_speech": "未",
+        "meaning_zh": "跑过；跑完；浏览；经过",
+        "source_page": 230,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пробегать",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=230"
+      ]
+    },
+    {
+      "id": 9755,
+      "accent": "пробле́ма",
+      "part": "名词，阴性",
+      "meaning": "问题；难题",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "проблема",
+        "part_of_speech": "阴",
+        "meaning_zh": "问题；难题",
+        "source_page": 230,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "проблема",
+      "method": "2026-09-17晚间当前助手逐项视觉核对PDF227至230页，9732回看PDF223页；核对重音、词性、体对与多义边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=230"
+      ]
+    }
+  ]
+}
