@@ -1,0 +1,698 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9495,
+      "accent": "подхва́тывать",
+      "part": "动词，未完成体",
+      "meaning": "托住；扶住；抓住；接住；接着唱或说",
+      "perfective": "подхвати́ть",
+      "note": "接唱、接话为接续动作，不仅是物理抓取。",
+      "stage": 2,
+      "original": {
+        "word": "подхватывать",
+        "part_of_speech": "未",
+        "meaning_zh": "抓住；接住；跟着唱起来",
+        "source_page": 204,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подхватывать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=204",
+        "data/words/tem4_russian_words.pdf#page=205"
+      ]
+    },
+    {
+      "id": 9496,
+      "accent": "подходи́ть",
+      "part": "动词，未完成体",
+      "meaning": "走近；接近；对待；处理；适合；走到……下面",
+      "perfective": "подойти́",
+      "note": "适合义通常表示状态，不能将完成体不加区别套用到所有句子。",
+      "stage": 2,
+      "original": {
+        "word": "подходить",
+        "part_of_speech": "未",
+        "meaning_zh": "接近；走近；对待；适合；走到……下",
+        "source_page": 205,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подходить",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=205"
+      ]
+    },
+    {
+      "id": 9497,
+      "accent": "подходя́щий",
+      "part": "形容词",
+      "meaning": "合适的；适当的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "подходящий",
+        "part_of_speech": "形",
+        "meaning_zh": "合适的；适当的",
+        "source_page": 205,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подходящий",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=205"
+      ]
+    },
+    {
+      "id": 9498,
+      "accent": "подчёркивать",
+      "part": "动词，未完成体",
+      "meaning": "在下方划线；着重指出；强调",
+      "perfective": "подчеркну́ть",
+      "note": "未完成体保留ё，完成体为е且重音在у。",
+      "stage": 2,
+      "original": {
+        "word": "подчёркивать",
+        "part_of_speech": "未",
+        "meaning_zh": "划线标出；着重指出；强调",
+        "source_page": 205,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подчёркивать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=205"
+      ]
+    },
+    {
+      "id": 9499,
+      "accent": "подъе́зд",
+      "part": "名词，阳性",
+      "meaning": "驶近；通往建筑物的车道；楼房单元入口",
+      "perfective": "",
+      "note": "保留ъ；楼房语境通常指单元入口，不等于一间公寓。",
+      "stage": 1,
+      "original": {
+        "word": "подъезд",
+        "part_of_speech": "阳",
+        "meaning_zh": "驶近；开到；（住宅楼的）单元入口",
+        "source_page": 205,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подъезд",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=205"
+      ]
+    },
+    {
+      "id": 9500,
+      "accent": "подъезжа́ть",
+      "part": "动词，未完成体",
+      "meaning": "乘车或船接近；驶近；开到",
+      "perfective": "подъе́хать",
+      "note": "区别步行走近подходить。",
+      "stage": 2,
+      "original": {
+        "word": "подъезжать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "乘车接近；开到；驶近",
+        "source_page": 205,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подъезжать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=205"
+      ]
+    },
+    {
+      "id": 9501,
+      "accent": "подъём",
+      "part": "名词，阳性",
+      "meaning": "上升；举起；登高；起床；高涨；振奋",
+      "perfective": "",
+      "note": "保留ъ和ё；精神高涨不只是一般热情。",
+      "stage": 2,
+      "original": {
+        "word": "подъём",
+        "part_of_speech": "阳",
+        "meaning_zh": "上升；举起；登高；起床；高涨；热情",
+        "source_page": 205,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подъём",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=205"
+      ]
+    },
+    {
+      "id": 9502,
+      "accent": "по́езд",
+      "part": "名词，阳性",
+      "meaning": "火车；列车",
+      "perfective": "",
+      "note": "无ъ，重音在о；与подъезд区别。",
+      "stage": 1,
+      "original": {
+        "word": "поезд",
+        "part_of_speech": "阳",
+        "meaning_zh": "火车；列车",
+        "source_page": 205,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поезд",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=205"
+      ]
+    },
+    {
+      "id": 9503,
+      "accent": "пое́здка",
+      "part": "名词，阴性",
+      "meaning": "乘交通工具的旅行；出行",
+      "perfective": "",
+      "note": "原页为е上重音，不是ё；局部纠正。",
+      "stage": 1,
+      "original": {
+        "word": "поёздка",
+        "part_of_speech": "阴",
+        "meaning_zh": "旅行；出行",
+        "source_page": 205,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поездка",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=205"
+      ]
+    },
+    {
+      "id": 9504,
+      "accent": "пое́хать",
+      "part": "动词，完成体",
+      "meaning": "乘交通工具出发；乘车、骑马或乘船前往",
+      "perfective": "",
+      "note": "起始动作，基础动词е́хать；不与步行出发混同。",
+      "stage": 1,
+      "original": {
+        "word": "поехать",
+        "part_of_speech": "完",
+        "meaning_zh": "乘车、骑马或乘船前往",
+        "source_page": 205,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поехать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=205"
+      ]
+    },
+    {
+      "id": 9505,
+      "accent": "пожа́луйста",
+      "part": "语气词、礼貌用语",
+      "meaning": "请；劳驾；不客气",
+      "perfective": "",
+      "note": "请求时用请，回应感谢时用不客气，按语境选义。",
+      "stage": 1,
+      "original": {
+        "word": "пожалуйста",
+        "part_of_speech": "语",
+        "meaning_zh": "请；劳驾；不必客气",
+        "source_page": 205,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пожалуйста",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=205",
+        "data/words/tem4_russian_words.pdf#page=206"
+      ]
+    },
+    {
+      "id": 9506,
+      "accent": "пожа́р",
+      "part": "名词，阳性",
+      "meaning": "火灾；失火",
+      "perfective": "",
+      "note": "区别泛指火的огонь。",
+      "stage": 1,
+      "original": {
+        "word": "пожар",
+        "part_of_speech": "阳",
+        "meaning_zh": "火灾；着火",
+        "source_page": 206,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пожар",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=206"
+      ]
+    },
+    {
+      "id": 9507,
+      "accent": "пожела́ние",
+      "part": "名词，中性",
+      "meaning": "祝愿；祝福；愿望；期望",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "пожелание",
+        "part_of_speech": "中",
+        "meaning_zh": "祝愿；祝福；愿望",
+        "source_page": 206,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пожелание",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=206"
+      ]
+    },
+    {
+      "id": 9508,
+      "accent": "пожива́ть",
+      "part": "动词，未完成体",
+      "meaning": "生活；日子过得……",
+      "perfective": "",
+      "note": "Как поживаете?为您近来怎么样；问句义不等于词头本身。",
+      "stage": 1,
+      "original": {
+        "word": "поживать",
+        "part_of_speech": "未",
+        "meaning_zh": "过得怎么样；生活",
+        "source_page": 206,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поживать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=206"
+      ]
+    },
+    {
+      "id": 9509,
+      "accent": "пожима́ть",
+      "part": "动词，未完成体",
+      "meaning": "握；捏；耸动",
+      "perfective": "пожа́ть",
+      "note": "пожимать руку握手；пожимать плечами耸肩。",
+      "stage": 2,
+      "original": {
+        "word": "пожимать",
+        "part_of_speech": "未",
+        "meaning_zh": "握；捏；耸肩",
+        "source_page": 206,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пожимать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=206"
+      ]
+    },
+    {
+      "id": 9510,
+      "accent": "позавчера́",
+      "part": "副词",
+      "meaning": "前天",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "позавчера",
+        "part_of_speech": "副",
+        "meaning_zh": "前天",
+        "source_page": 206,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "позавчера",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=206"
+      ]
+    },
+    {
+      "id": 9511,
+      "accent": "позади́",
+      "part": "副词、前置词",
+      "meaning": "在后面；在背后；已经过去",
+      "perfective": "",
+      "note": "作前置词接二格；困难已过去可用трудности позади。",
+      "stage": 1,
+      "original": {
+        "word": "позади",
+        "part_of_speech": "副",
+        "meaning_zh": "在后面；在背后；过去了",
+        "source_page": 206,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "позади",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=206"
+      ]
+    },
+    {
+      "id": 9512,
+      "accent": "позволя́ть",
+      "part": "动词，未完成体",
+      "meaning": "允许；准许；使能够；容许",
+      "perfective": "позво́лить",
+      "note": "条件允许也可用本词，不只指人为许可。",
+      "stage": 2,
+      "original": {
+        "word": "позволять",
+        "part_of_speech": "未",
+        "meaning_zh": "允许；准许；使能够",
+        "source_page": 206,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "позволять",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=206"
+      ]
+    },
+    {
+      "id": 9513,
+      "accent": "по́здний",
+      "part": "形容词",
+      "meaning": "晚的；迟来的；晚熟的；晚开的",
+      "perfective": "",
+      "note": "果蔬、花卉语境分别为晚熟、晚开。",
+      "stage": 1,
+      "original": {
+        "word": "поздний",
+        "part_of_speech": "形",
+        "meaning_zh": "晚的；迟的；晚熟的",
+        "source_page": 206,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поздний",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=206"
+      ]
+    },
+    {
+      "id": 9514,
+      "accent": "по́здно",
+      "part": "副词、述谓词",
+      "meaning": "晚；迟；为时已晚",
+      "perfective": "",
+      "note": "不是迟到这一动作本身；迟到常用опоздать。",
+      "stage": 1,
+      "original": {
+        "word": "поздно",
+        "part_of_speech": "副",
+        "meaning_zh": "晚；迟；迟到",
+        "source_page": 206,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поздно",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=206"
+      ]
+    },
+    {
+      "id": 9515,
+      "accent": "поздравля́ть",
+      "part": "动词，未完成体",
+      "meaning": "祝贺；向……道贺",
+      "perfective": "поздра́вить",
+      "note": "поздравлять кого с чем：人用四格，祝贺的事用с加五格。",
+      "stage": 1,
+      "original": {
+        "word": "поздравлять",
+        "part_of_speech": "未",
+        "meaning_zh": "祝贺；向……祝贺",
+        "source_page": 206,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поздравлять",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=206"
+      ]
+    },
+    {
+      "id": 9516,
+      "accent": "пози́ция",
+      "part": "名词，阴性",
+      "meaning": "位置；地位；阵地；立场；观点",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "позиция",
+        "part_of_speech": "阴",
+        "meaning_zh": "位置；地位；阵地；立场；观点",
+        "source_page": 206,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "позиция",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=206"
+      ]
+    },
+    {
+      "id": 9517,
+      "accent": "позо́рный",
+      "part": "形容词",
+      "meaning": "可耻的；丢脸的；耻辱的",
+      "perfective": "",
+      "note": "常形容行为、失败等；不直接等同厚颜无耻的人格特征。",
+      "stage": 2,
+      "original": {
+        "word": "позорный",
+        "part_of_speech": "形",
+        "meaning_zh": "可耻的；无耻的",
+        "source_page": 206,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "позорный",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=206",
+        "data/words/tem4_russian_words.pdf#page=207"
+      ]
+    },
+    {
+      "id": 9518,
+      "accent": "пои́ть",
+      "part": "动词，未完成体",
+      "meaning": "给……喝；喂水；饮牲畜；给……喝酒",
+      "perfective": "напои́ть",
+      "note": "主语给别人饮料，不是主语自己喝；不局限于水。",
+      "stage": 2,
+      "original": {
+        "word": "поить",
+        "part_of_speech": "未",
+        "meaning_zh": "给……喝水；喂水；给马饮水",
+        "source_page": 207,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поить",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=207"
+      ]
+    },
+    {
+      "id": 9519,
+      "accent": "пойти́",
+      "part": "动词，完成体",
+      "meaning": "开始走；动身；去；开始运行或发生",
+      "perfective": "",
+      "note": "起始动作，基础动词идти́；поезд пошёл为车开了，пошёл дождь为开始下雨。",
+      "stage": 1,
+      "original": {
+        "word": "пойти",
+        "part_of_speech": "完",
+        "meaning_zh": "开始走；开始；去；开出；走开",
+        "source_page": 207,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пойти",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=207"
+      ]
+    },
+    {
+      "id": 9520,
+      "accent": "пока́",
+      "part": "副词、连词、告别用语",
+      "meaning": "暂时；目前；当……时候；在……期间；再见",
+      "perfective": "",
+      "note": "пока не可构成直到……才等关系，要按完整句法理解。",
+      "stage": 1,
+      "original": {
+        "word": "пока",
+        "part_of_speech": "副",
+        "meaning_zh": "暂时；目前；当……时候；回头见",
+        "source_page": 207,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пока",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=207"
+      ]
+    },
+    {
+      "id": 9521,
+      "accent": "пока́зывать",
+      "part": "动词，未完成体",
+      "meaning": "指给……看；出示；展示；放映；表现；表明；显示读数",
+      "perfective": "показа́ть",
+      "note": "补仪表读数、事实表明义，避免只译为给人看。",
+      "stage": 1,
+      "original": {
+        "word": "показывать",
+        "part_of_speech": "未",
+        "meaning_zh": "给……看；指出；出示；放映；显示；表现",
+        "source_page": 207,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "показывать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=207"
+      ]
+    },
+    {
+      "id": 9522,
+      "accent": "пока́зываться",
+      "part": "动词，未完成体",
+      "meaning": "显得；给人某种印象；出现；露面；让人检查",
+      "perfective": "показа́ться",
+      "note": "原页показываться врачу为去让医生看；显得义也可用本词，并非一律改为казаться。",
+      "stage": 2,
+      "original": {
+        "word": "показываться",
+        "part_of_speech": "未",
+        "meaning_zh": "出现；显现；露面；被展示",
+        "source_page": 207,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "показываться",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=207"
+      ]
+    },
+    {
+      "id": 9523,
+      "accent": "покида́ть",
+      "part": "动词，未完成体",
+      "meaning": "离开；离去；抛弃",
+      "perfective": "поки́нуть",
+      "note": "常用于离开家乡或抛弃人，不泛化为随意丢掉物件。",
+      "stage": 2,
+      "original": {
+        "word": "покидать",
+        "part_of_speech": "未",
+        "meaning_zh": "离开；抛弃；丢弃",
+        "source_page": 207,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "покидать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=207"
+      ]
+    },
+    {
+      "id": 9524,
+      "accent": "по-кита́йски",
+      "part": "副词",
+      "meaning": "用汉语；按中国方式",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "по-китайски",
+        "part_of_speech": "副",
+        "meaning_zh": "用汉语；汉语地",
+        "source_page": 207,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "по-китайски",
+      "method": "2026-09-17当前助手逐词视觉核对PDF204至207页，补漏义，复核е/ё与体对的适用范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=207"
+      ]
+    }
+  ]
+}

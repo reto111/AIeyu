@@ -1,0 +1,697 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9465,
+      "accent": "повыша́ться",
+      "part": "动词，未完成体",
+      "meaning": "上升；提高；增加；得到晋升",
+      "perfective": "повы́ситься",
+      "note": "温度、水平上升和职位提升按主语区分。",
+      "stage": 2,
+      "original": {
+        "word": "повышаться",
+        "part_of_speech": "未",
+        "meaning_zh": "上升；提高；增长",
+        "source_page": 201,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "повышаться",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=201"
+      ]
+    },
+    {
+      "id": 9466,
+      "accent": "погиба́ть",
+      "part": "动词，未完成体",
+      "meaning": "死亡；丧生；牺牲；毁灭",
+      "perfective": "поги́бнуть",
+      "note": "常有意外、灾害等原因，不是普通自然死亡的中性统称；也用于植物冻死等。",
+      "stage": 2,
+      "original": {
+        "word": "погибать",
+        "part_of_speech": "未",
+        "meaning_zh": "死亡；牺牲",
+        "source_page": 201,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "погибать",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=201"
+      ]
+    },
+    {
+      "id": 9467,
+      "accent": "погля́дывать",
+      "part": "动词，未完成体",
+      "meaning": "不时看看；留意；照看",
+      "perfective": "",
+      "note": "反复间歇动作；照看义常用за加五格。",
+      "stage": 2,
+      "original": {
+        "word": "поглядывать",
+        "part_of_speech": "未",
+        "meaning_zh": "不时看看；照看；监视",
+        "source_page": 201,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поглядывать",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=201"
+      ]
+    },
+    {
+      "id": 9468,
+      "accent": "поговори́ть",
+      "part": "动词，完成体",
+      "meaning": "谈一谈；说一会儿；商量一下",
+      "perfective": "",
+      "note": "限时动作，由говори́ть构成，不把后者当所有语境的一一体对。",
+      "stage": 1,
+      "original": {
+        "word": "поговорить",
+        "part_of_speech": "完",
+        "meaning_zh": "谈一谈；商量",
+        "source_page": 201,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поговорить",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=201"
+      ]
+    },
+    {
+      "id": 9469,
+      "accent": "погово́рка",
+      "part": "名词，阴性",
+      "meaning": "俗语；俗话",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "поговорка",
+        "part_of_speech": "阴",
+        "meaning_zh": "俗语；俗话",
+        "source_page": 201,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поговорка",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=201"
+      ]
+    },
+    {
+      "id": 9470,
+      "accent": "пого́да",
+      "part": "名词，阴性",
+      "meaning": "天气",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "погода",
+        "part_of_speech": "阴",
+        "meaning_zh": "天气；天气情况",
+        "source_page": 201,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "погода",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=201"
+      ]
+    },
+    {
+      "id": 9471,
+      "accent": "пограни́чный",
+      "part": "形容词",
+      "meaning": "边界的；国境的；边防的",
+      "perfective": "",
+      "note": "补跨页边防义，如пограничные войска边防军。",
+      "stage": 2,
+      "original": {
+        "word": "пограничный",
+        "part_of_speech": "形",
+        "meaning_zh": "边界的；国境的；边防的",
+        "source_page": 201,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пограничный",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=201",
+        "data/words/tem4_russian_words.pdf#page=202"
+      ]
+    },
+    {
+      "id": 9472,
+      "accent": "подава́ть",
+      "part": "动词，未完成体",
+      "meaning": "递给；端上；上菜；提交；送到；供给；发出",
+      "perfective": "пода́ть",
+      "note": "发出用于信号、命令等；不是所有提供语境均能替换。",
+      "stage": 2,
+      "original": {
+        "word": "подавать",
+        "part_of_speech": "未",
+        "meaning_zh": "递给；提交；供应；提供",
+        "source_page": 202,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подавать",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=202"
+      ]
+    },
+    {
+      "id": 9473,
+      "accent": "пода́рок",
+      "part": "名词，阳性",
+      "meaning": "礼物；赠品",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "подарок",
+        "part_of_speech": "阳",
+        "meaning_zh": "礼物；赠品",
+        "source_page": 202,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подарок",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=202"
+      ]
+    },
+    {
+      "id": 9474,
+      "accent": "подбира́ть",
+      "part": "动词，未完成体",
+      "meaning": "拾起；收集；挑选；选配",
+      "perfective": "подобра́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "подбирать",
+        "part_of_speech": "未",
+        "meaning_zh": "拾起；选配；挑选",
+        "source_page": 202,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подбирать",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=202"
+      ]
+    },
+    {
+      "id": 9475,
+      "accent": "подва́л",
+      "part": "名词，阳性",
+      "meaning": "地下室；地窖",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "подвал",
+        "part_of_speech": "阳",
+        "meaning_zh": "地下室；地窖",
+        "source_page": 202,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подвал",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=202"
+      ]
+    },
+    {
+      "id": 9476,
+      "accent": "по́двиг",
+      "part": "名词，阳性",
+      "meaning": "英勇事迹；功绩；壮举",
+      "perfective": "",
+      "note": "强调值得赞颂的行为，不只是一般工作成绩。",
+      "stage": 2,
+      "original": {
+        "word": "подвиг",
+        "part_of_speech": "阳",
+        "meaning_zh": "功绩；功勋",
+        "source_page": 203,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подвиг",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=203"
+      ]
+    },
+    {
+      "id": 9477,
+      "accent": "подготовля́ть",
+      "part": "动词，未完成体",
+      "meaning": "准备；预备；培养；培训",
+      "perfective": "подгото́вить",
+      "note": "原页并列另一未完成体подгота́вливать；准备材料与培养人员按宾语区分。",
+      "stage": 2,
+      "original": {
+        "word": "подготовлять",
+        "part_of_speech": "未",
+        "meaning_zh": "准备；预备；培养；训练",
+        "source_page": 203,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подготовлять",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=203"
+      ]
+    },
+    {
+      "id": 9478,
+      "accent": "подготовля́ться",
+      "part": "动词，未完成体",
+      "meaning": "做准备；准备好自己",
+      "perfective": "подгото́виться",
+      "note": "原页并列подгота́вливаться；к加三格表示为某事做准备。",
+      "stage": 2,
+      "original": {
+        "word": "подготовляться",
+        "part_of_speech": "未",
+        "meaning_zh": "准备；预备",
+        "source_page": 203,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подготовляться",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=203"
+      ]
+    },
+    {
+      "id": 9479,
+      "accent": "подгото́вка",
+      "part": "名词，阴性",
+      "meaning": "准备；筹备；培训；训练；知识基础；学识",
+      "perfective": "",
+      "note": "有时表示训练或学习所达到的程度。",
+      "stage": 2,
+      "original": {
+        "word": "подготовка",
+        "part_of_speech": "阴",
+        "meaning_zh": "准备；预备；筹备；培训；知识修养",
+        "source_page": 203,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подготовка",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=203"
+      ]
+    },
+    {
+      "id": 9480,
+      "accent": "подде́рживать",
+      "part": "动词，未完成体",
+      "meaning": "扶持；支撑；援助；支持；赞成；维持；保持",
+      "perfective": "поддержа́ть",
+      "note": "搭配保持联系、维持秩序等；保留е。",
+      "stage": 2,
+      "original": {
+        "word": "поддерживать",
+        "part_of_speech": "未",
+        "meaning_zh": "支持；帮助；支撑；赞成；保持",
+        "source_page": 203,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поддерживать",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=203"
+      ]
+    },
+    {
+      "id": 9481,
+      "accent": "подде́ржка",
+      "part": "名词，阴性",
+      "meaning": "支撑；扶持；支持；援助",
+      "perfective": "",
+      "note": "原页为е上重音，原库误成ё，局部修正，不全局替换。",
+      "stage": 2,
+      "original": {
+        "word": "поддёржка",
+        "part_of_speech": "阴",
+        "meaning_zh": "支撑；支持；援助",
+        "source_page": 203,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поддержка",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=203"
+      ]
+    },
+    {
+      "id": 9482,
+      "accent": "подмета́ть",
+      "part": "动词，未完成体",
+      "meaning": "扫；打扫；扫到下面；吹扫走",
+      "perfective": "подмести́",
+      "note": "末两义按方向、风吹雪等语境区分。",
+      "stage": 1,
+      "original": {
+        "word": "подметать",
+        "part_of_speech": "未",
+        "meaning_zh": "扫；打扫；扫到一边",
+        "source_page": 203,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подметать",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=203"
+      ]
+    },
+    {
+      "id": 9483,
+      "accent": "поднима́ть",
+      "part": "动词，未完成体",
+      "meaning": "举起；拾起；扶起；提高；发动；使振奋；提出",
+      "perfective": "подня́ть",
+      "note": "提出问题是поднять вопрос；发动群众、振奋精神为原页独立义项。",
+      "stage": 2,
+      "original": {
+        "word": "поднимать",
+        "part_of_speech": "未",
+        "meaning_zh": "举起；拾起；升起；扶起；提高；提出",
+        "source_page": 203,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поднимать",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=203"
+      ]
+    },
+    {
+      "id": 9484,
+      "accent": "поднима́ться",
+      "part": "动词，未完成体",
+      "meaning": "上升；登上；站起；起床；动身；奋起；上涨；提高；振奋",
+      "perfective": "подня́ться",
+      "note": "已对照跨页内容；不同义项取决于主语和补语。",
+      "stage": 2,
+      "original": {
+        "word": "подниматься",
+        "part_of_speech": "未",
+        "meaning_zh": "上升；升上去；站起；起床；上涨；提高；振奋",
+        "source_page": 203,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подниматься",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=203",
+        "data/words/tem4_russian_words.pdf#page=204"
+      ]
+    },
+    {
+      "id": 9485,
+      "accent": "подо́бный",
+      "part": "形容词",
+      "meaning": "类似的；相似的；这样的",
+      "perfective": "",
+      "note": "与……相似常接三格。",
+      "stage": 2,
+      "original": {
+        "word": "подобный",
+        "part_of_speech": "Ж",
+        "meaning_zh": "类似的；相似的；像……一样的",
+        "source_page": 204,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подобный",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=204"
+      ]
+    },
+    {
+      "id": 9486,
+      "accent": "подожда́ть",
+      "part": "动词，完成体",
+      "meaning": "等一等；等待一段时间",
+      "perfective": "",
+      "note": "限时动作，对应基础动词ждать，不强加普通结果体对。",
+      "stage": 1,
+      "original": {
+        "word": "подождать",
+        "part_of_speech": "完",
+        "meaning_zh": "等一等；等待一段时间",
+        "source_page": 204,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подождать",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=204"
+      ]
+    },
+    {
+      "id": 9487,
+      "accent": "подозрева́ть",
+      "part": "动词，未完成体",
+      "meaning": "怀疑；猜疑；猜想；料想",
+      "perfective": "",
+      "note": "подозревать кого в чём表示怀疑某人有某行为；状态义不强配完成体。",
+      "stage": 2,
+      "original": {
+        "word": "подозревать",
+        "part_of_speech": "未",
+        "meaning_zh": "怀疑；猜疑；猜想；料想",
+        "source_page": 204,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подозревать",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=204"
+      ]
+    },
+    {
+      "id": 9488,
+      "accent": "подпи́сывать",
+      "part": "动词，未完成体",
+      "meaning": "签名；签署；签订；题写说明；替……订阅",
+      "perfective": "подписа́ть",
+      "note": "替人订阅须有对象及на补语；自己订阅常用反身形式подписываться。",
+      "stage": 2,
+      "original": {
+        "word": "подписывать",
+        "part_of_speech": "未",
+        "meaning_zh": "签名；签署；签订；替……订阅",
+        "source_page": 204,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подписывать",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=204"
+      ]
+    },
+    {
+      "id": 9489,
+      "accent": "по́дпись",
+      "part": "名词，阴性",
+      "meaning": "签名；签字；图片下的说明文字",
+      "perfective": "",
+      "note": "补常用图注义，与合同签字义区分。",
+      "stage": 2,
+      "original": {
+        "word": "подпись",
+        "part_of_speech": "阴",
+        "meaning_zh": "签字；签名",
+        "source_page": 204,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подпись",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=204"
+      ]
+    },
+    {
+      "id": 9490,
+      "accent": "подража́ть",
+      "part": "动词，未完成体",
+      "meaning": "模仿；仿效",
+      "perfective": "",
+      "note": "对象常接三格；不把仿效过程强配成其他结果动作。",
+      "stage": 2,
+      "original": {
+        "word": "подражать",
+        "part_of_speech": "未",
+        "meaning_zh": "模仿；仿效",
+        "source_page": 204,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подражать",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=204"
+      ]
+    },
+    {
+      "id": 9491,
+      "accent": "подро́бный",
+      "part": "形容词",
+      "meaning": "详细的；详尽的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "подробный",
+        "part_of_speech": "形",
+        "meaning_zh": "详细的；详尽的",
+        "source_page": 204,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подробный",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=204"
+      ]
+    },
+    {
+      "id": 9492,
+      "accent": "подру́га",
+      "part": "名词，阴性",
+      "meaning": "女性朋友；女伴",
+      "perfective": "",
+      "note": "不必然是恋爱关系中的女朋友。",
+      "stage": 1,
+      "original": {
+        "word": "подруга",
+        "part_of_speech": "阴",
+        "meaning_zh": "女友；女伴",
+        "source_page": 204,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подруга",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=204"
+      ]
+    },
+    {
+      "id": 9493,
+      "accent": "подска́зывать",
+      "part": "动词，未完成体",
+      "meaning": "悄悄提示；提示；指点；启示",
+      "perfective": "подсказа́ть",
+      "note": "不只用于考试偷偷提示答案，也可用于正常问路或提供线索。",
+      "stage": 2,
+      "original": {
+        "word": "подсказывать",
+        "part_of_speech": "未",
+        "meaning_zh": "悄悄提示；偷偷告诉；提示；启示",
+        "source_page": 204,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подсказывать",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=204"
+      ]
+    },
+    {
+      "id": 9494,
+      "accent": "поду́шка",
+      "part": "名词，阴性",
+      "meaning": "枕头；垫子",
+      "perfective": "",
+      "note": "воздушная подушка为气垫，кислородная подушка为氧气袋；完整搭配义不混入词头。",
+      "stage": 1,
+      "original": {
+        "word": "подушка",
+        "part_of_speech": "阴",
+        "meaning_zh": "枕头；垫子；气垫",
+        "source_page": 204,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "подушка",
+      "method": "2026-09-17当前助手逐项视觉核对PDF201至204页，修正局部е/ё误识别，补跨页义项，核对体对。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=204"
+      ]
+    }
+  ]
+}

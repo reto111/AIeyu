@@ -1,0 +1,699 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9433,
+      "accent": "плащ",
+      "part": "名词，阳性",
+      "meaning": "风衣；雨衣；斗篷",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "плащ",
+        "part_of_speech": "阳",
+        "meaning_zh": "斗篷；风衣；雨衣",
+        "source_page": 198,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "плащ",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=198"
+      ]
+    },
+    {
+      "id": 9434,
+      "accent": "плева́ть",
+      "part": "动词，未完成体",
+      "meaning": "吐唾沫；啐；不理睬；不屑一顾",
+      "perfective": "",
+      "note": "原页轻视义常用плевать на；плюнуть表示啐一口，不强用于所有义项。",
+      "stage": 2,
+      "original": {
+        "word": "плевать",
+        "part_of_speech": "未",
+        "meaning_zh": "吐唾沫；无视；瞧不起",
+        "source_page": 198,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "плевать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=198"
+      ]
+    },
+    {
+      "id": 9435,
+      "accent": "плёнка",
+      "part": "名词，阴性",
+      "meaning": "薄膜；胶片；磁带",
+      "perfective": "",
+      "note": "保留ё；胶片、磁带按摄影或录音语境区分。",
+      "stage": 2,
+      "original": {
+        "word": "плёнка",
+        "part_of_speech": null,
+        "meaning_zh": "薄膜；胶片；磁带",
+        "source_page": 198,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "плёнка",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=198"
+      ]
+    },
+    {
+      "id": 9436,
+      "accent": "плечо́",
+      "part": "名词，中性",
+      "meaning": "肩；肩膀",
+      "perfective": "",
+      "note": "力所能及是по плечу整个搭配的意义，移出词头核心义。",
+      "stage": 1,
+      "original": {
+        "word": "плечо",
+        "part_of_speech": "中",
+        "meaning_zh": "肩；肩膀；力所能及",
+        "source_page": 198,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "плечо",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=198"
+      ]
+    },
+    {
+      "id": 9437,
+      "accent": "плод",
+      "part": "名词，阳性",
+      "meaning": "果实；成果；结果；胎儿",
+      "perfective": "",
+      "note": "果实是植物学意义；胎儿义用于医学等语境，不与水果义混淆。",
+      "stage": 2,
+      "original": {
+        "word": "плод",
+        "part_of_speech": "阳",
+        "meaning_zh": "果实；水果；成果；结果",
+        "source_page": 198,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "плод",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=198"
+      ]
+    },
+    {
+      "id": 9438,
+      "accent": "плодоро́дный",
+      "part": "形容词",
+      "meaning": "肥沃的；丰产的",
+      "perfective": "",
+      "note": "多形容土地、土壤；不直接等同高效率。",
+      "stage": 2,
+      "original": {
+        "word": "плодородный",
+        "part_of_speech": "形",
+        "meaning_zh": "肥沃的；丰产的",
+        "source_page": 198,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "плодородный",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=198"
+      ]
+    },
+    {
+      "id": 9439,
+      "accent": "пло́тный",
+      "part": "形容词",
+      "meaning": "稠密的；密实的；结实的；厚实的；丰盛的",
+      "perfective": "",
+      "note": "丰盛义常说饭食，稠密义可说人口或排列。",
+      "stage": 2,
+      "original": {
+        "word": "плотный",
+        "part_of_speech": "形",
+        "meaning_zh": "密度大的；密实的；结实的；厚的；丰盛的",
+        "source_page": 198,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "плотный",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=198"
+      ]
+    },
+    {
+      "id": 9441,
+      "accent": "площа́дка",
+      "part": "名词，阴性",
+      "meaning": "场地；小平台；楼梯平台",
+      "perfective": "",
+      "note": "строительная площадка为工地，спортивная площадка为运动场地，不一定是大型体育场。",
+      "stage": 2,
+      "original": {
+        "word": "площадка",
+        "part_of_speech": "阴",
+        "meaning_zh": "场地；工地；体育场；平台",
+        "source_page": 199,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "площадка",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=199"
+      ]
+    },
+    {
+      "id": 9442,
+      "accent": "пло́щадь",
+      "part": "名词，阴性",
+      "meaning": "广场；面积",
+      "perfective": "",
+      "note": "以软音符结尾但为阴性。",
+      "stage": 1,
+      "original": {
+        "word": "площадь",
+        "part_of_speech": "阴",
+        "meaning_zh": "广场；面积",
+        "source_page": 199,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "площадь",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=199"
+      ]
+    },
+    {
+      "id": 9443,
+      "accent": "плыть",
+      "part": "动词，未完成体",
+      "meaning": "游泳；漂浮前进；航行；乘船行进",
+      "perfective": "",
+      "note": "定向运动动词；与плавать均为未完成体，不是完成体配对。",
+      "stage": 1,
+      "original": {
+        "word": "плыть",
+        "part_of_speech": "Ж",
+        "meaning_zh": "漂浮；游泳；航行；乘船行进",
+        "source_page": 199,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "плыть",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=199"
+      ]
+    },
+    {
+      "id": 9444,
+      "accent": "плюс",
+      "part": "名词，阳性；不变词用法",
+      "meaning": "加号；正号；优点；加；零上",
+      "perfective": "",
+      "note": "名词复数плюсы可指优点；加法和温度表达中作不变词。",
+      "stage": 1,
+      "original": {
+        "word": "плюс",
+        "part_of_speech": "阳",
+        "meaning_zh": "加号；加上；优点；零上",
+        "source_page": 199,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "плюс",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=199"
+      ]
+    },
+    {
+      "id": 9445,
+      "accent": "пляж",
+      "part": "名词，阳性",
+      "meaning": "海滨或河湖边的沙滩；海滨或河湖浴场",
+      "perfective": "",
+      "note": "不限于海边。",
+      "stage": 1,
+      "original": {
+        "word": "пляж",
+        "part_of_speech": "阳",
+        "meaning_zh": "海滩；浴场",
+        "source_page": 199,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пляж",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=199"
+      ]
+    },
+    {
+      "id": 9446,
+      "accent": "по",
+      "part": "前置词",
+      "meaning": "沿着；按照；在……方面；通过；由于；每逢；每……；直到；在……之后",
+      "perfective": "",
+      "note": "常接三格；界限义可接四格，事后义接六格，如по окончании。с…по…整体表示从……到……。",
+      "stage": 1,
+      "original": {
+        "word": "по",
+        "part_of_speech": "前",
+        "meaning_zh": "沿着；按照；向；在……以后；由于；每逢；到；从……到……",
+        "source_page": 199,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "по",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=199",
+        "data/words/tem4_russian_words.pdf#page=200"
+      ]
+    },
+    {
+      "id": 9447,
+      "accent": "по-англи́йски",
+      "part": "副词",
+      "meaning": "用英语；按英国方式",
+      "perfective": "",
+      "note": "说英语为говорить по-английски。",
+      "stage": 1,
+      "original": {
+        "word": "по-английски",
+        "part_of_speech": "副",
+        "meaning_zh": "用英语；英语地",
+        "source_page": 200,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "по-английски",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=200"
+      ]
+    },
+    {
+      "id": 9448,
+      "accent": "побе́да",
+      "part": "名词，阴性",
+      "meaning": "胜利；获胜",
+      "perfective": "",
+      "note": "победа над加五格表示战胜谁。",
+      "stage": 1,
+      "original": {
+        "word": "победа",
+        "part_of_speech": "阴",
+        "meaning_zh": "胜利；战胜",
+        "source_page": 200,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "победа",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=200"
+      ]
+    },
+    {
+      "id": 9449,
+      "accent": "победи́тель",
+      "part": "名词，阳性",
+      "meaning": "胜利者；获胜者；优胜者",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "победитель",
+        "part_of_speech": "阳",
+        "meaning_zh": "胜利者；战胜者；优胜者",
+        "source_page": 200,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "победитель",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=200"
+      ]
+    },
+    {
+      "id": 9450,
+      "accent": "побежда́ть",
+      "part": "动词，未完成体",
+      "meaning": "战胜；获胜；克服",
+      "perfective": "победи́ть",
+      "note": "恐惧等心理状态也可作宾语。",
+      "stage": 2,
+      "original": {
+        "word": "побеждать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "战胜；取得胜利；克服",
+        "source_page": 200,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "побеждать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=200"
+      ]
+    },
+    {
+      "id": 9451,
+      "accent": "побива́ть",
+      "part": "动词，未完成体",
+      "meaning": "殴打；击败；打破纪录",
+      "perfective": "поби́ть",
+      "note": "原页побить рекорд为打破纪录，不能译成打败纪录。",
+      "stage": 2,
+      "original": {
+        "word": "побивать",
+        "part_of_speech": "未",
+        "meaning_zh": "击败；打败；殴打",
+        "source_page": 200,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "побивать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=200"
+      ]
+    },
+    {
+      "id": 9452,
+      "accent": "по́вар",
+      "part": "名词，阳性",
+      "meaning": "厨师",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "повар",
+        "part_of_speech": "阳",
+        "meaning_zh": "厨师",
+        "source_page": 200,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "повар",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=200"
+      ]
+    },
+    {
+      "id": 9453,
+      "accent": "по-ва́шему",
+      "part": "副词",
+      "meaning": "按你们或您的意思；照你们或您的方式；依你们或您看",
+      "perfective": "",
+      "note": "可对应复数你们，也可对应尊称您。",
+      "stage": 1,
+      "original": {
+        "word": "по-вашему",
+        "part_of_speech": "副",
+        "meaning_zh": "依您说；按您的意思",
+        "source_page": 200,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "по-вашему",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=200"
+      ]
+    },
+    {
+      "id": 9454,
+      "accent": "поведе́ние",
+      "part": "名词，中性",
+      "meaning": "行为；举止；品行",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "поведение",
+        "part_of_speech": "中",
+        "meaning_zh": "行为；品行；举止",
+        "source_page": 200,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поведение",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=200"
+      ]
+    },
+    {
+      "id": 9455,
+      "accent": "пове́рхность",
+      "part": "名词，阴性",
+      "meaning": "表面；表层",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "поверхность",
+        "part_of_speech": "阴",
+        "meaning_zh": "表面；表层",
+        "source_page": 200,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поверхность",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=200"
+      ]
+    },
+    {
+      "id": 9456,
+      "accent": "по́весть",
+      "part": "名词，阴性",
+      "meaning": "中篇小说；叙事作品",
+      "perfective": "",
+      "note": "与роман长篇小说、рассказ短篇小说区别。",
+      "stage": 2,
+      "original": {
+        "word": "повесть",
+        "part_of_speech": "阴",
+        "meaning_zh": "小说；中篇小说",
+        "source_page": 200,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "повесть",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=200"
+      ]
+    },
+    {
+      "id": 9457,
+      "accent": "по-ви́димому",
+      "part": "插入语",
+      "meaning": "看来；大概；显然",
+      "perfective": "",
+      "note": "表示基于迹象的推断，不是绝对确定。",
+      "stage": 2,
+      "original": {
+        "word": "по-видимому",
+        "part_of_speech": "插",
+        "meaning_zh": "看来；大概",
+        "source_page": 200,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "по-видимому",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=200"
+      ]
+    },
+    {
+      "id": 9458,
+      "accent": "поводи́ть",
+      "part": "动词，同形异义分属不同体",
+      "meaning": "带领走一会儿（完成体）；移动或转动身体部位（未完成体）",
+      "perfective": "",
+      "note": "原页把泛指带领、未完成体与повести混列，已查词典：限定时间带领为完成体；移动肩、眉等为未完成体，对应повести。两义不能标成同一兼体，也不统一挂体对。",
+      "stage": 2,
+      "original": {
+        "word": "поводить",
+        "part_of_speech": "未",
+        "meaning_zh": "带领；引导；率领",
+        "source_page": 200,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поводить",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=200",
+        "https://gramota.ru/poisk?dicts%5B0%5D=42&mode=slovari&page=2&query=%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4&simple=0",
+        "https://gufo.me/dict/ozhegov/%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D1%8C"
+      ]
+    },
+    {
+      "id": 9459,
+      "accent": "поверну́ть",
+      "part": "动词，完成体",
+      "meaning": "转动；转向；翻转；扭转",
+      "perfective": "повора́чивать",
+      "note": "为原页跨页体对的完成体，补出未完成体便于学习。",
+      "stage": 2,
+      "original": {
+        "word": "повернуть",
+        "part_of_speech": "完",
+        "meaning_zh": "转动；转向；翻转；扭转",
+        "source_page": 201,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "повернуть",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=200",
+        "data/words/tem4_russian_words.pdf#page=201"
+      ]
+    },
+    {
+      "id": 9460,
+      "accent": "повора́чиваться",
+      "part": "动词，未完成体",
+      "meaning": "转身；转向；转动",
+      "perfective": "поверну́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "поворачиваться",
+        "part_of_speech": "未",
+        "meaning_zh": "转身；转向；转动",
+        "source_page": 201,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поворачиваться",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=201"
+      ]
+    },
+    {
+      "id": 9461,
+      "accent": "поверну́ться",
+      "part": "动词，完成体",
+      "meaning": "转身；转向；转动",
+      "perfective": "повора́чиваться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "повернуться",
+        "part_of_speech": "完",
+        "meaning_zh": "转身；转向",
+        "source_page": 201,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "повернуться",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=201"
+      ]
+    },
+    {
+      "id": 9462,
+      "accent": "поворо́т",
+      "part": "名词，阳性",
+      "meaning": "转向；转弯；转变；转折",
+      "perfective": "",
+      "note": "可指道路拐弯，也可指事情发展转折。",
+      "stage": 2,
+      "original": {
+        "word": "поворот",
+        "part_of_speech": "阳",
+        "meaning_zh": "转向；转变；转折点",
+        "source_page": 201,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поворот",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=201"
+      ]
+    },
+    {
+      "id": 9464,
+      "accent": "повыша́ть",
+      "part": "动词，未完成体",
+      "meaning": "提高；增加；加强；提升职务",
+      "perfective": "повы́сить",
+      "note": "可接声音、压力、生产率或人的职务。",
+      "stage": 2,
+      "original": {
+        "word": "повышать",
+        "part_of_speech": "未",
+        "meaning_zh": "提高；提升；增加",
+        "source_page": 201,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "повышать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF198至201页；区分搭配与核心义，поводить另查词典区分同形异体义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=201"
+      ]
+    }
+  ]
+}
