@@ -1,0 +1,697 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9878,
+      "accent": "равноду́шный",
+      "part": "形容词",
+      "meaning": "冷漠的；漠不关心的；不感兴趣的",
+      "perfective": "",
+      "note": "常接к加三格。",
+      "stage": 2,
+      "original": {
+        "word": "равнодушный",
+        "part_of_speech": "形",
+        "meaning_zh": "冷漠的；漠不关心的；不感兴趣的",
+        "source_page": 242,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "равнодушный",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=242"
+      ]
+    },
+    {
+      "id": 9879,
+      "accent": "ра́вный",
+      "part": "形容词",
+      "meaning": "相等的；相同的；平等的",
+      "perfective": "",
+      "note": "短尾равен等形式可表示等于，比较值用三格。",
+      "stage": 2,
+      "original": {
+        "word": "равный",
+        "part_of_speech": "形",
+        "meaning_zh": "相等的；相同的；平等的；等于",
+        "source_page": 242,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "равный",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=242"
+      ]
+    },
+    {
+      "id": 9880,
+      "accent": "рад",
+      "part": "形容词，短尾形式",
+      "meaning": "高兴的；乐意的",
+      "perfective": "",
+      "note": "性数形式рад、рада́、ра́до、ра́ды；常接三格或不定式。",
+      "stage": 1,
+      "original": {
+        "word": "рад",
+        "part_of_speech": "形",
+        "meaning_zh": "高兴的；乐意的",
+        "source_page": 242,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рад",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=242"
+      ]
+    },
+    {
+      "id": 9881,
+      "accent": "ра́ди",
+      "part": "前置词",
+      "meaning": "为了；为……起见",
+      "perfective": "",
+      "note": "接二格，强调目的或所顾及对象，不笼统译为原因连词因为。",
+      "stage": 1,
+      "original": {
+        "word": "ради",
+        "part_of_speech": "前",
+        "meaning_zh": "为了；因为",
+        "source_page": 242,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ради",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=242"
+      ]
+    },
+    {
+      "id": 9882,
+      "accent": "ра́дио",
+      "part": "名词，中性；不变格",
+      "meaning": "无线电；收音机；无线电广播",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "радио",
+        "part_of_speech": "中，不变",
+        "meaning_zh": "无线电；收音机；广播",
+        "source_page": 242,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "радио",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=242"
+      ]
+    },
+    {
+      "id": 9883,
+      "accent": "радиопереда́ча",
+      "part": "名词，阴性",
+      "meaning": "无线电广播；广播节目",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "радиопередача",
+        "part_of_speech": "阴",
+        "meaning_zh": "无线电广播；广播节目",
+        "source_page": 242,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "радиопередача",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=242"
+      ]
+    },
+    {
+      "id": 9884,
+      "accent": "ра́довать",
+      "part": "动词，未完成体",
+      "meaning": "使高兴；使喜悦",
+      "perfective": "обра́довать",
+      "note": "原页另有пора́довать；主语使别人高兴，不是自己高兴。",
+      "stage": 1,
+      "original": {
+        "word": "радовать",
+        "part_of_speech": "未",
+        "meaning_zh": "使高兴；使喜欢",
+        "source_page": 242,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "радовать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=242"
+      ]
+    },
+    {
+      "id": 9885,
+      "accent": "ра́доваться",
+      "part": "动词，未完成体",
+      "meaning": "高兴；喜悦；为……感到高兴",
+      "perfective": "обра́доваться",
+      "note": "所喜之事常接三格。",
+      "stage": 1,
+      "original": {
+        "word": "радоваться",
+        "part_of_speech": "未",
+        "meaning_zh": "高兴；喜悦；为……高兴",
+        "source_page": 242,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "радоваться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=242"
+      ]
+    },
+    {
+      "id": 9886,
+      "accent": "ра́достный",
+      "part": "形容词",
+      "meaning": "喜悦的；快乐的；令人高兴的",
+      "perfective": "",
+      "note": "既可形容心情，也可形容令人喜悦的消息。",
+      "stage": 1,
+      "original": {
+        "word": "радостный",
+        "part_of_speech": "形",
+        "meaning_zh": "高兴的；喜悦的；快乐的",
+        "source_page": 242,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "радостный",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=242"
+      ]
+    },
+    {
+      "id": 9887,
+      "accent": "ра́дость",
+      "part": "名词，阴性",
+      "meaning": "高兴；喜悦；快乐；喜事；乐趣",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "радость",
+        "part_of_speech": "阴",
+        "meaning_zh": "高兴；喜悦；快乐；乐趣；喜事",
+        "source_page": 242,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "радость",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=242"
+      ]
+    },
+    {
+      "id": 9888,
+      "accent": "раз",
+      "part": "名词，阳性；计数词、连接词用法",
+      "meaning": "次；回；倍；一；既然",
+      "perfective": "",
+      "note": "原页将名词和连接词分列，现有记录合含两类义，明确词性；既然只用于连接词。",
+      "stage": 1,
+      "original": {
+        "word": "раз",
+        "part_of_speech": "阳",
+        "meaning_zh": "一次；一回；倍；既然",
+        "source_page": 242,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "раз",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=242",
+        "data/words/tem4_russian_words.pdf#page=243"
+      ]
+    },
+    {
+      "id": 9889,
+      "accent": "разбива́ть",
+      "part": "动词，未完成体",
+      "meaning": "打碎；击破；击溃；划分；开辟",
+      "perfective": "разби́ть",
+      "note": "划分为组和开辟花园均有原页依据，不仅表示破坏。",
+      "stage": 2,
+      "original": {
+        "word": "разбивать",
+        "part_of_speech": "未",
+        "meaning_zh": "打碎；击破；击溃；分成；开辟",
+        "source_page": 243,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разбивать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=243"
+      ]
+    },
+    {
+      "id": 9890,
+      "accent": "разбира́ть",
+      "part": "动词，未完成体",
+      "meaning": "拆开；整理；分析；弄清；辨认",
+      "perfective": "разобра́ть",
+      "note": "辨认字迹与拆机器是不同义项。",
+      "stage": 2,
+      "original": {
+        "word": "разбирать",
+        "part_of_speech": "未",
+        "meaning_zh": "拆开；整理；分析；理解；辨认",
+        "source_page": 243,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разбирать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=243"
+      ]
+    },
+    {
+      "id": 9891,
+      "accent": "разбира́ться",
+      "part": "动词，未完成体",
+      "meaning": "弄清；了解；懂得；精通",
+      "perfective": "разобра́ться",
+      "note": "弄清可用体对；精通某领域的状态义不机械替换。接в加六格。",
+      "stage": 2,
+      "original": {
+        "word": "разбираться",
+        "part_of_speech": "未",
+        "meaning_zh": "弄清；理解；精通",
+        "source_page": 243,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разбираться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=243"
+      ]
+    },
+    {
+      "id": 9892,
+      "accent": "ра́зве",
+      "part": "语气词",
+      "meaning": "难道；莫非；真的……吗",
+      "perfective": "",
+      "note": "表达反问或怀疑，不是名词问题。",
+      "stage": 1,
+      "original": {
+        "word": "разве",
+        "part_of_speech": "语",
+        "meaning_zh": "难道；莫非；真的吗",
+        "source_page": 243,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разве",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=243"
+      ]
+    },
+    {
+      "id": 9893,
+      "accent": "развева́ться",
+      "part": "动词，未完成体",
+      "meaning": "飘扬；招展；飘动",
+      "perfective": "",
+      "note": "区别развиваться发展；持续飘扬不强配完成体。",
+      "stage": 2,
+      "original": {
+        "word": "развеваться",
+        "part_of_speech": "未",
+        "meaning_zh": "飘扬；招展；飘动",
+        "source_page": 243,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "развеваться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=243"
+      ]
+    },
+    {
+      "id": 9894,
+      "accent": "разве́дка",
+      "part": "名词，阴性",
+      "meaning": "侦察；勘探；情报工作；侦察部门或队伍",
+      "perfective": "",
+      "note": "军事实地侦察、资源勘探和情报工作按语境区分。",
+      "stage": 2,
+      "original": {
+        "word": "разведка",
+        "part_of_speech": "阴",
+        "meaning_zh": "侦察；勘探；侦察部门",
+        "source_page": 243,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разведка",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=243"
+      ]
+    },
+    {
+      "id": 9895,
+      "accent": "разве́дчик",
+      "part": "名词，阳性",
+      "meaning": "侦察员；侦察兵；情报人员；勘探员",
+      "perfective": "",
+      "note": "原页含勘探和情报两类人员，不限于战场侦察兵。",
+      "stage": 2,
+      "original": {
+        "word": "разведчик",
+        "part_of_speech": "阳",
+        "meaning_zh": "侦察员；侦察兵；勘探员",
+        "source_page": 243,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разведчик",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=243"
+      ]
+    },
+    {
+      "id": 9896,
+      "accent": "развива́ть",
+      "part": "动词，未完成体",
+      "meaning": "发展；培养；增强；发挥；展开阐述",
+      "perfective": "разви́ть",
+      "note": "原页развивать мысли为阐明思想；区别развевать使飘扬。",
+      "stage": 2,
+      "original": {
+        "word": "развивать",
+        "part_of_speech": "未",
+        "meaning_zh": "发展；使发达；增强；发挥；培养",
+        "source_page": 243,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "развивать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=243",
+        "data/words/tem4_russian_words.pdf#page=244"
+      ]
+    },
+    {
+      "id": 9897,
+      "accent": "развива́ться",
+      "part": "动词，未完成体",
+      "meaning": "发展；发育；成长；扩大",
+      "perfective": "разви́ться",
+      "note": "变化主体自身发展，不是培养别人。",
+      "stage": 2,
+      "original": {
+        "word": "развиваться",
+        "part_of_speech": "未",
+        "meaning_zh": "发展；发育；成长；扩大",
+        "source_page": 244,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "развиваться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=244"
+      ]
+    },
+    {
+      "id": 9898,
+      "accent": "разви́тие",
+      "part": "名词，中性",
+      "meaning": "发展；发育；发展水平；修养",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "развитие",
+        "part_of_speech": "中",
+        "meaning_zh": "发展；发育；发展水平；修养",
+        "source_page": 244,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "развитие",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=244"
+      ]
+    },
+    {
+      "id": 9899,
+      "accent": "разводи́ть",
+      "part": "动词，未完成体",
+      "meaning": "繁殖；培育；分开带走；布置；使离婚；稀释；生火",
+      "perfective": "развести́",
+      "note": "补常用稀释和生火义；对象不同不能统一译为养殖。",
+      "stage": 2,
+      "original": {
+        "word": "разводить",
+        "part_of_speech": "未",
+        "meaning_zh": "养殖；培育；分开带走；布置；使离婚",
+        "source_page": 244,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разводить",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=244"
+      ]
+    },
+    {
+      "id": 9900,
+      "accent": "развя́зывать",
+      "part": "动词，未完成体",
+      "meaning": "解开；松开；发动；放手开展",
+      "perfective": "развяза́ть",
+      "note": "原页развязывать войну为发动战争，不可漏掉或译为解除战争。",
+      "stage": 2,
+      "original": {
+        "word": "развязывать",
+        "part_of_speech": "未",
+        "meaning_zh": "解开；松开；解除",
+        "source_page": 244,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "развязывать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=244"
+      ]
+    },
+    {
+      "id": 9901,
+      "accent": "разгова́ривать",
+      "part": "动词，未完成体",
+      "meaning": "谈话；交谈；聊天",
+      "perfective": "",
+      "note": "持续交谈不强配限时поговорить为所有用法的体对。",
+      "stage": 1,
+      "original": {
+        "word": "разговаривать",
+        "part_of_speech": "未",
+        "meaning_zh": "谈话；交谈；聊天",
+        "source_page": 244,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разговаривать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=244"
+      ]
+    },
+    {
+      "id": 9902,
+      "accent": "разгово́р",
+      "part": "名词，阳性",
+      "meaning": "谈话；交谈；谈论；话题",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "разговор",
+        "part_of_speech": "阳",
+        "meaning_zh": "谈话；交谈；话题",
+        "source_page": 244,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разговор",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=244"
+      ]
+    },
+    {
+      "id": 9903,
+      "accent": "разгро́м",
+      "part": "名词，阳性",
+      "meaning": "击溃；彻底打败；摧毁；一片狼藉",
+      "perfective": "",
+      "note": "原页既有战胜对手，也有房间杂乱之义。",
+      "stage": 2,
+      "original": {
+        "word": "разгром",
+        "part_of_speech": "阳",
+        "meaning_zh": "消灭；歼灭；惨败；一片混乱",
+        "source_page": 244,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разгром",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=244"
+      ]
+    },
+    {
+      "id": 9904,
+      "accent": "раздава́ть",
+      "part": "动词，未完成体",
+      "meaning": "分发；发给；分配",
+      "perfective": "разда́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "раздавать",
+        "part_of_speech": "未",
+        "meaning_zh": "分发；发给；散发",
+        "source_page": 244,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "раздавать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=244"
+      ]
+    },
+    {
+      "id": 9905,
+      "accent": "раздава́ться",
+      "part": "动词，未完成体",
+      "meaning": "响起；传来；发出声响",
+      "perfective": "разда́ться",
+      "note": "本条为声音义；不是分发的简单反身转译。",
+      "stage": 2,
+      "original": {
+        "word": "раздаваться",
+        "part_of_speech": "未",
+        "meaning_zh": "（声音）传来；响起；发出",
+        "source_page": 244,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "раздаваться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=244"
+      ]
+    },
+    {
+      "id": 9906,
+      "accent": "раздева́ть",
+      "part": "动词，未完成体",
+      "meaning": "给……脱衣；脱去别人的衣服",
+      "perfective": "разде́ть",
+      "note": "及物，区别自己脱衣的反身形式。",
+      "stage": 1,
+      "original": {
+        "word": "раздевать",
+        "part_of_speech": "未",
+        "meaning_zh": "给……脱衣；脱去衣服",
+        "source_page": 244,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "раздевать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=244"
+      ]
+    },
+    {
+      "id": 9907,
+      "accent": "раздева́ться",
+      "part": "动词，未完成体",
+      "meaning": "脱衣服",
+      "perfective": "разде́ться",
+      "note": "主语自己脱衣。",
+      "stage": 1,
+      "original": {
+        "word": "раздеваться",
+        "part_of_speech": "未",
+        "meaning_zh": "脱衣服",
+        "source_page": 245,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "раздеваться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF242至245页，核对重音、词性和核心词义，区分动词体及主动反身用法。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=245"
+      ]
+    }
+  ]
+}

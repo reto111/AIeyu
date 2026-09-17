@@ -1,0 +1,695 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9847,
+      "accent": "пулемёт",
+      "part": "名词，阳性",
+      "meaning": "机枪",
+      "perfective": "",
+      "note": "保留ё；轻机枪为ручной пулемёт，不能把所有机枪都标成轻机枪。",
+      "stage": 2,
+      "original": {
+        "word": "пулемёт",
+        "part_of_speech": "阳",
+        "meaning_zh": "机枪；轻机枪",
+        "source_page": 239,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пулемёт",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=239"
+      ]
+    },
+    {
+      "id": 9848,
+      "accent": "пу́ля",
+      "part": "名词，阴性",
+      "meaning": "枪弹；弹头；子弹",
+      "perfective": "",
+      "note": "通常指射出的弹头，整发枪弹还可用патрон。",
+      "stage": 2,
+      "original": {
+        "word": "пуля",
+        "part_of_speech": "阴",
+        "meaning_zh": "子弹；枪弹",
+        "source_page": 239,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пуля",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=239"
+      ]
+    },
+    {
+      "id": 9849,
+      "accent": "пуска́ть",
+      "part": "动词，未完成体",
+      "meaning": "放开；释放；让进入；准许；开动；发射；放出",
+      "perfective": "пусти́ть",
+      "note": "原页含让人休假、启动工厂、放风筝等，按对象选义。",
+      "stage": 2,
+      "original": {
+        "word": "пускать",
+        "part_of_speech": "未",
+        "meaning_zh": "放；让……进入；发射；开动；释放",
+        "source_page": 239,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пускать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=239"
+      ]
+    },
+    {
+      "id": 9850,
+      "accent": "пусто́й",
+      "part": "形容词",
+      "meaning": "空的；空心的；空洞的；无意义的；徒劳的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "пустой",
+        "part_of_speech": "形",
+        "meaning_zh": "空的；空心的；空洞的；徒劳的",
+        "source_page": 239,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пустой",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=239"
+      ]
+    },
+    {
+      "id": 9851,
+      "accent": "пусты́ня",
+      "part": "名词，阴性",
+      "meaning": "沙漠；荒漠；荒凉无人之地",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "пустыня",
+        "part_of_speech": "阴",
+        "meaning_zh": "沙漠；荒漠；荒凉的地方",
+        "source_page": 240,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пустыня",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=240"
+      ]
+    },
+    {
+      "id": 9852,
+      "accent": "пустя́к",
+      "part": "名词，阳性",
+      "meaning": "小事；琐事；无关紧要的事",
+      "perfective": "",
+      "note": "复数口语Пустяки!可表示没关系、不值一提。",
+      "stage": 1,
+      "original": {
+        "word": "пустяк",
+        "part_of_speech": "阳",
+        "meaning_zh": "小事；琐事；没关系",
+        "source_page": 240,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пустяк",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=240"
+      ]
+    },
+    {
+      "id": 9853,
+      "accent": "путёвка",
+      "part": "名词，阴性",
+      "meaning": "疗养凭证；旅游凭证；派遣证；介绍信",
+      "perfective": "",
+      "note": "保留ё；表示安排去疗养、旅行或工作的凭证，不泛指所有票或许可证。",
+      "stage": 2,
+      "original": {
+        "word": "путёвка",
+        "part_of_speech": "阴",
+        "meaning_zh": "票；疗养证；出差证；许可证；介绍信",
+        "source_page": 240,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "путёвка",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=240"
+      ]
+    },
+    {
+      "id": 9854,
+      "accent": "путеше́ствие",
+      "part": "名词，中性",
+      "meaning": "旅行；游历",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "путешествие",
+        "part_of_speech": "中",
+        "meaning_zh": "旅行；游览",
+        "source_page": 240,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "путешествие",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=240"
+      ]
+    },
+    {
+      "id": 9855,
+      "accent": "путеше́ствовать",
+      "part": "动词，未完成体",
+      "meaning": "旅行；游历",
+      "perfective": "",
+      "note": "持续活动，不强配带时量限制的完成体。",
+      "stage": 1,
+      "original": {
+        "word": "путешествовать",
+        "part_of_speech": "未",
+        "meaning_zh": "旅行；游览",
+        "source_page": 240,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "путешествовать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=240"
+      ]
+    },
+    {
+      "id": 9856,
+      "accent": "пу́шка",
+      "part": "名词，阳性",
+      "meaning": "大炮；火炮",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "пушка",
+        "part_of_speech": "阴",
+        "meaning_zh": "大炮；火炮",
+        "source_page": 240,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пушка",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=240"
+      ]
+    },
+    {
+      "id": 9857,
+      "accent": "пыль",
+      "part": "名词，阴性",
+      "meaning": "灰尘；尘土；粉尘",
+      "perfective": "",
+      "note": "软音符结尾，阴性。",
+      "stage": 1,
+      "original": {
+        "word": "пыль",
+        "part_of_speech": "阴",
+        "meaning_zh": "灰尘；尘土",
+        "source_page": 240,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пыль",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=240"
+      ]
+    },
+    {
+      "id": 9858,
+      "accent": "пыта́ться",
+      "part": "动词，未完成体",
+      "meaning": "试图；尝试；设法",
+      "perfective": "попыта́ться",
+      "note": "通常接不定式，不一定含负面企图。",
+      "stage": 2,
+      "original": {
+        "word": "пытаться",
+        "part_of_speech": "未",
+        "meaning_zh": "企图；试图；想办法",
+        "source_page": 240,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пытаться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=240"
+      ]
+    },
+    {
+      "id": 9859,
+      "accent": "пье́са",
+      "part": "名词，阴性",
+      "meaning": "剧本；戏剧作品；乐曲",
+      "perfective": "",
+      "note": "原页е上重音误成ё，局部修复；乐曲义用于音乐作品。",
+      "stage": 2,
+      "original": {
+        "word": "пьёса",
+        "part_of_speech": "阴",
+        "meaning_zh": "戏剧；剧本",
+        "source_page": 240,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пьеса",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=240"
+      ]
+    },
+    {
+      "id": 9860,
+      "accent": "пья́ный",
+      "part": "形容词",
+      "meaning": "醉的；喝醉的；醉醺醺的",
+      "perfective": "",
+      "note": "词头保留软音符；描述状态而非喝酒动作。",
+      "stage": 1,
+      "original": {
+        "word": "пьяный",
+        "part_of_speech": "形",
+        "meaning_zh": "醉的；喝醉的",
+        "source_page": 240,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пьяный",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=240"
+      ]
+    },
+    {
+      "id": 9861,
+      "accent": "пятёрка",
+      "part": "名词，阴性",
+      "meaning": "数字五；五分；五个一组；五路车（口语）",
+      "perfective": "",
+      "note": "保留ё；成绩、编号车辆等不同语境分别取义。",
+      "stage": 1,
+      "original": {
+        "word": "пятёрка",
+        "part_of_speech": "阴",
+        "meaning_zh": "五；五分；五路车",
+        "source_page": 240,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пятёрка",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=240"
+      ]
+    },
+    {
+      "id": 9862,
+      "accent": "пя́теро",
+      "part": "集合数词",
+      "meaning": "五个（集合用法）",
+      "perfective": "",
+      "note": "用于特定人称类别、幼小动物、某些仅复数名词等；原页пятеро сапог指五双靴子，不是任意名词都可用。",
+      "stage": 2,
+      "original": {
+        "word": "пятеро",
+        "part_of_speech": "数",
+        "meaning_zh": "五个（人）；五个或五件成组的事物",
+        "source_page": 240,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пятеро",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=240"
+      ]
+    },
+    {
+      "id": 9863,
+      "accent": "пятидеся́тый",
+      "part": "序数词",
+      "meaning": "第五十",
+      "perfective": "",
+      "note": "五十年代为пятидесятые годы整组表达。",
+      "stage": 1,
+      "original": {
+        "word": "пятидесятый",
+        "part_of_speech": "数",
+        "meaning_zh": "第五十的；五十年代的",
+        "source_page": 240,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пятидесятый",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=240"
+      ]
+    },
+    {
+      "id": 9864,
+      "accent": "пятиле́тка",
+      "part": "名词，阴性",
+      "meaning": "五年期；五年计划",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "пятилетка",
+        "part_of_speech": "阴",
+        "meaning_zh": "五年计划；五年期",
+        "source_page": 240,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пятилетка",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=240"
+      ]
+    },
+    {
+      "id": 9865,
+      "accent": "пятиле́тний",
+      "part": "形容词",
+      "meaning": "五年的；五年期的；五岁的",
+      "perfective": "",
+      "note": "年龄义也常用，如пятилетний ребёнок。",
+      "stage": 1,
+      "original": {
+        "word": "пятилетний",
+        "part_of_speech": "形",
+        "meaning_zh": "五年的；五年期的",
+        "source_page": 241,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пятилетний",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=241"
+      ]
+    },
+    {
+      "id": 9866,
+      "accent": "пятна́дцатый",
+      "part": "序数词",
+      "meaning": "第十五",
+      "perfective": "",
+      "note": "十五分之一为одна пятнадцатая，不把阳性序数词直接翻成分数。",
+      "stage": 1,
+      "original": {
+        "word": "пятнадцатый",
+        "part_of_speech": "数",
+        "meaning_zh": "第十五的；十五分之一",
+        "source_page": 241,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пятнадцатый",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=241"
+      ]
+    },
+    {
+      "id": 9867,
+      "accent": "пя́тница",
+      "part": "名词，阴性",
+      "meaning": "星期五",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "пятница",
+        "part_of_speech": "阴",
+        "meaning_zh": "星期五",
+        "source_page": 241,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пятница",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=241"
+      ]
+    },
+    {
+      "id": 9868,
+      "accent": "пятно́",
+      "part": "名词，中性",
+      "meaning": "斑点；污斑；污点；名誉上的污点",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "пятно",
+        "part_of_speech": "中",
+        "meaning_zh": "斑点；污点；污斑；名誉污点",
+        "source_page": 241,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пятно",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=241"
+      ]
+    },
+    {
+      "id": 9869,
+      "accent": "пя́тый",
+      "part": "序数词",
+      "meaning": "第五",
+      "perfective": "",
+      "note": "五分之一为одна пятая，需阴性名词化形式和分子。",
+      "stage": 1,
+      "original": {
+        "word": "пятый",
+        "part_of_speech": "数",
+        "meaning_zh": "第五；五分之一",
+        "source_page": 241,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пятый",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=241"
+      ]
+    },
+    {
+      "id": 9870,
+      "accent": "пять",
+      "part": "基数词",
+      "meaning": "五；五分（成绩）",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "пять",
+        "part_of_speech": "数",
+        "meaning_zh": "五；五分",
+        "source_page": 241,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пять",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=241"
+      ]
+    },
+    {
+      "id": 9871,
+      "accent": "пятьдеся́т",
+      "part": "基数词",
+      "meaning": "五十",
+      "perfective": "",
+      "note": "保留词中软音符。",
+      "stage": 1,
+      "original": {
+        "word": "пятьдесят",
+        "part_of_speech": "数",
+        "meaning_zh": "五十",
+        "source_page": 241,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пятьдесят",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=241"
+      ]
+    },
+    {
+      "id": 9872,
+      "accent": "пятьсо́т",
+      "part": "基数词",
+      "meaning": "五百",
+      "perfective": "",
+      "note": "保留词中软音符。",
+      "stage": 1,
+      "original": {
+        "word": "пятьсот",
+        "part_of_speech": "数",
+        "meaning_zh": "五百",
+        "source_page": 241,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пятьсот",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=241"
+      ]
+    },
+    {
+      "id": 9874,
+      "accent": "рабо́тник",
+      "part": "名词，阳性",
+      "meaning": "工作人员；工作者；劳动者",
+      "perfective": "",
+      "note": "原库раоотннк有б/о、и/н误识别，依原页рабóтник及释义复原；不局限办公室职员。",
+      "stage": 1,
+      "original": {
+        "word": "раоотннк",
+        "part_of_speech": "阳",
+        "meaning_zh": "劳动者；工作人员；职员",
+        "source_page": 241,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "работник",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=241"
+      ]
+    },
+    {
+      "id": 9875,
+      "accent": "рабо́чий",
+      "part": "名词，阳性",
+      "meaning": "工人",
+      "perfective": "",
+      "note": "本条为名词，原页与下一形容词条分列，不合并不同词性。",
+      "stage": 1,
+      "original": {
+        "word": "рабочий",
+        "part_of_speech": "阳",
+        "meaning_zh": "工人；工人阶级成员",
+        "source_page": 241,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рабочий",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=241"
+      ]
+    },
+    {
+      "id": 9876,
+      "accent": "рабо́чий",
+      "part": "形容词",
+      "meaning": "工作的；工作用的；工人的",
+      "perfective": "",
+      "note": "如рабочее время工作时间、рабочий класс工人阶级；不是名词工人本身。",
+      "stage": 1,
+      "original": {
+        "word": "рабочий",
+        "part_of_speech": "形",
+        "meaning_zh": "工作的；工作用的；工人的",
+        "source_page": 241,
+        "source_line": "17"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рабочий",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=241"
+      ]
+    },
+    {
+      "id": 9877,
+      "accent": "равни́на",
+      "part": "名词，阴性",
+      "meaning": "平原",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "равнина",
+        "part_of_speech": "阴",
+        "meaning_zh": "平原",
+        "source_page": 242,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "равнина",
+      "method": "2026-09-18当前助手逐词视觉核对PDF239至242页，核对重音、词性和核心义；区分数词、分数搭配与同形不同词性。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=242"
+      ]
+    }
+  ]
+}

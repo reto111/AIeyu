@@ -1,0 +1,696 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9908,
+      "accent": "разделя́ть",
+      "part": "动词·未完成体",
+      "meaning": "分开；划分；分配；分享；赞同",
+      "perfective": "раздели́ть",
+      "note": "分享喜忧、赞同看法与分割物体是不同义项；按宾语判断。",
+      "stage": 2,
+      "original": {
+        "word": "разделять",
+        "part_of_speech": "未",
+        "meaning_zh": "分开；划分；分配；分享；赞同",
+        "source_page": 245,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разделять",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=245"
+      ]
+    },
+    {
+      "id": 9909,
+      "accent": "разду́мывать",
+      "part": "动词·未完成体",
+      "meaning": "反复考虑；改变主意；放弃原来的打算",
+      "perfective": "разду́мать",
+      "note": "所列完成体对应改变主意、放弃打算；反复考虑义不机械套用该体对。",
+      "stage": 2,
+      "original": {
+        "word": "раздумывать",
+        "part_of_speech": "未",
+        "meaning_zh": "反复考虑；改变主意；放弃打算",
+        "source_page": 245,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "раздумывать",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=245"
+      ]
+    },
+    {
+      "id": 9910,
+      "accent": "различа́ть",
+      "part": "动词·未完成体",
+      "meaning": "辨认；辨别；区别",
+      "perfective": "различи́ть",
+      "note": "既可表示看清、听出，也可表示区分不同事物。",
+      "stage": 2,
+      "original": {
+        "word": "различать",
+        "part_of_speech": "未",
+        "meaning_zh": "辨认；辨别；区别",
+        "source_page": 245,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "различать",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=245"
+      ]
+    },
+    {
+      "id": 9911,
+      "accent": "разли́чие",
+      "part": "名词·中性",
+      "meaning": "差别；不同之处；区别",
+      "perfective": "",
+      "note": "表示事物之间的不同；不要与动作различать混为词性相同。",
+      "stage": 2,
+      "original": {
+        "word": "различие",
+        "part_of_speech": "中",
+        "meaning_zh": "差别；不同；区别",
+        "source_page": 245,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "различие",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=245"
+      ]
+    },
+    {
+      "id": 9912,
+      "accent": "разли́чный",
+      "part": "形容词",
+      "meaning": "不同的；各种各样的",
+      "perfective": "",
+      "note": "可指彼此有区别，也可指多种多样。",
+      "stage": 1,
+      "original": {
+        "word": "различный",
+        "part_of_speech": "形",
+        "meaning_zh": "不同的；各种的；各种各样的",
+        "source_page": 245,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "различный",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=245"
+      ]
+    },
+    {
+      "id": 9913,
+      "accent": "ра́зница",
+      "part": "名词·阴性",
+      "meaning": "区别；差别；差额",
+      "perfective": "",
+      "note": "时差通常用разница во времени表达，不把时差当作所有语境下的基本义。",
+      "stage": 1,
+      "original": {
+        "word": "разница",
+        "part_of_speech": "阴",
+        "meaning_zh": "区别；差别；差额；时差",
+        "source_page": 245,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разница",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=245"
+      ]
+    },
+    {
+      "id": 9914,
+      "accent": "разочаро́вывать",
+      "part": "动词·未完成体",
+      "meaning": "使失望；使扫兴",
+      "perfective": "разочарова́ть",
+      "note": "及物动词，表示使某人失望；注意两个体的重音位置不同。",
+      "stage": 2,
+      "original": {
+        "word": "разочаровывать",
+        "part_of_speech": "未",
+        "meaning_zh": "使失望；使扫兴；使失意",
+        "source_page": 245,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разочаровывать",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=245"
+      ]
+    },
+    {
+      "id": 9915,
+      "accent": "разраба́тывать",
+      "part": "动词·未完成体",
+      "meaning": "加工；开发；研究；制订",
+      "perfective": "разрабо́тать",
+      "note": "可搭配矿藏、技术、问题、计划；依宾语分别译为开发、研究或制订。",
+      "stage": 2,
+      "original": {
+        "word": "разрабатывать",
+        "part_of_speech": "未",
+        "meaning_zh": "加工；研究；制订；开发",
+        "source_page": 246,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разрабатывать",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=246"
+      ]
+    },
+    {
+      "id": 9916,
+      "accent": "разреша́ть",
+      "part": "动词·未完成体",
+      "meaning": "允许；准许；解决；消除",
+      "perfective": "разреши́ть",
+      "note": "准许某人做事用кому加不定式；解决问题用что。命令式也可作礼貌请求。",
+      "stage": 1,
+      "original": {
+        "word": "разрешать",
+        "part_of_speech": "未",
+        "meaning_zh": "解决；允许；准许；消除；解除",
+        "source_page": 246,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разрешать",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=246"
+      ]
+    },
+    {
+      "id": 9917,
+      "accent": "разреше́ние",
+      "part": "名词·中性",
+      "meaning": "许可；许可证；解决；分辨率",
+      "perfective": "",
+      "note": "原页误标阴性，按词形及名词用法更正为中性；技术语境可指分辨率。",
+      "stage": 2,
+      "original": {
+        "word": "разрешение",
+        "part_of_speech": "中",
+        "meaning_zh": "解决；许可；许可证；分辨率",
+        "source_page": 246,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разрешение",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=246"
+      ]
+    },
+    {
+      "id": 9918,
+      "accent": "разруша́ть",
+      "part": "动词·未完成体",
+      "meaning": "破坏；毁坏；损害；使破灭",
+      "perfective": "разру́шить",
+      "note": "既可毁坏建筑，也可破坏健康、计划或希望。",
+      "stage": 2,
+      "original": {
+        "word": "разрушать",
+        "part_of_speech": "未",
+        "meaning_zh": "破坏；毁坏；损坏；使破灭",
+        "source_page": 246,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разрушать",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=246"
+      ]
+    },
+    {
+      "id": 9919,
+      "accent": "разрыва́ть",
+      "part": "动词·未完成体",
+      "meaning": "撕破；扯断；中断；断绝",
+      "perfective": "разорва́ть",
+      "note": "此处为撕裂、断绝关系义；不混入挖开义的同形动词及其不同体对。",
+      "stage": 2,
+      "original": {
+        "word": "разрывать",
+        "part_of_speech": "未",
+        "meaning_zh": "撕破；扯断；中断；断绝",
+        "source_page": 246,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разрывать",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=246"
+      ]
+    },
+    {
+      "id": 9920,
+      "accent": "ра́зум",
+      "part": "名词·阳性",
+      "meaning": "理智；理性；智慧",
+      "perfective": "",
+      "note": "指人的思考、理解和判断能力。",
+      "stage": 2,
+      "original": {
+        "word": "разум",
+        "part_of_speech": "阳",
+        "meaning_zh": "理智；理性；智慧",
+        "source_page": 246,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разум",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=246"
+      ]
+    },
+    {
+      "id": 9921,
+      "accent": "разуме́ться",
+      "part": "动词·未完成体；插入语用法",
+      "meaning": "意思是；被理解为；当然（разумеется）",
+      "perfective": "",
+      "note": "当然是разумеется作插入语的用法，不把不定式直接当作普通副词；此处不设完成体。",
+      "stage": 2,
+      "original": {
+        "word": "разуметься",
+        "part_of_speech": "未",
+        "meaning_zh": "意思是；被理解；当然",
+        "source_page": 246,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разуметься",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=246"
+      ]
+    },
+    {
+      "id": 9922,
+      "accent": "разу́мный",
+      "part": "形容词",
+      "meaning": "有理智的；明智的；合理的",
+      "perfective": "",
+      "note": "可形容人、判断、建议和行为。",
+      "stage": 2,
+      "original": {
+        "word": "разумный",
+        "part_of_speech": "形",
+        "meaning_zh": "有理智的；明智的；合理的",
+        "source_page": 246,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разумный",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=246"
+      ]
+    },
+    {
+      "id": 9923,
+      "accent": "разы́скивать",
+      "part": "动词·未完成体",
+      "meaning": "寻找；查找；搜寻",
+      "perfective": "разыска́ть",
+      "note": "重音在разы́скивать的ы；完成体重音在末尾а。",
+      "stage": 2,
+      "original": {
+        "word": "разыскивать",
+        "part_of_speech": "未",
+        "meaning_zh": "寻找；查找；搜寻",
+        "source_page": 246,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "разыскивать",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=246"
+      ]
+    },
+    {
+      "id": 9924,
+      "accent": "райо́н",
+      "part": "名词·阳性",
+      "meaning": "地区；区域；区",
+      "perfective": "",
+      "note": "可指一般地域或行政区；具体行政层级须结合语境。",
+      "stage": 1,
+      "original": {
+        "word": "район",
+        "part_of_speech": "阳",
+        "meaning_zh": "地区；区域；区",
+        "source_page": 247,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "район",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=247"
+      ]
+    },
+    {
+      "id": 9925,
+      "accent": "раке́та",
+      "part": "名词·阴性",
+      "meaning": "火箭；导弹；信号火箭；烟火火箭",
+      "perfective": "",
+      "note": "补回原页的导弹义；不是所有种类的烟花都称为ракета。",
+      "stage": 2,
+      "original": {
+        "word": "ракета",
+        "part_of_speech": "阴",
+        "meaning_zh": "火箭；焰火",
+        "source_page": 247,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ракета",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=247"
+      ]
+    },
+    {
+      "id": 9926,
+      "accent": "ра́ма",
+      "part": "名词·阴性",
+      "meaning": "框；框架；画框；窗框；门框",
+      "perfective": "",
+      "note": "强调支撑或围住物体的框架。",
+      "stage": 1,
+      "original": {
+        "word": "рама",
+        "part_of_speech": "阴",
+        "meaning_zh": "框；画框；窗框；门框",
+        "source_page": 247,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рама",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=247"
+      ]
+    },
+    {
+      "id": 9927,
+      "accent": "ра́на",
+      "part": "名词·阴性",
+      "meaning": "伤口；创伤；内心的创伤",
+      "perfective": "",
+      "note": "可指身体伤口，也可比喻精神创伤。",
+      "stage": 1,
+      "original": {
+        "word": "рана",
+        "part_of_speech": "阴",
+        "meaning_zh": "伤；伤口；内心创伤",
+        "source_page": 247,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рана",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=247"
+      ]
+    },
+    {
+      "id": 9928,
+      "accent": "ра́неный",
+      "part": "形容词；名词化用法",
+      "meaning": "受伤的；伤员",
+      "perfective": "",
+      "note": "此处是一个н的形容词раненый；名词化时指受伤的人，不自动改为带前缀或补语的分词形式。",
+      "stage": 2,
+      "original": {
+        "word": "раненый",
+        "part_of_speech": "形/阳",
+        "meaning_zh": "受伤的；伤员",
+        "source_page": 247,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "раненый",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=247"
+      ]
+    },
+    {
+      "id": 9929,
+      "accent": "раска́иваться",
+      "part": "动词·未完成体",
+      "meaning": "悔恨；悔过；忏悔",
+      "perfective": "раска́яться",
+      "note": "常用в加前置格，表示为自己的过错悔恨。",
+      "stage": 2,
+      "original": {
+        "word": "раскаиваться",
+        "part_of_speech": "未",
+        "meaning_zh": "后悔；悔过；感到悔恨",
+        "source_page": 247,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "раскаиваться",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=247"
+      ]
+    },
+    {
+      "id": 9930,
+      "accent": "раскрыва́ть",
+      "part": "动词·未完成体",
+      "meaning": "打开；展开；揭示；揭露；侦破",
+      "perfective": "раскры́ть",
+      "note": "可打开物体、揭示含义或真相；搭配案件时可译侦破。",
+      "stage": 2,
+      "original": {
+        "word": "раскрывать",
+        "part_of_speech": "未",
+        "meaning_zh": "打开；展开；揭示；暴露",
+        "source_page": 247,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "раскрывать",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=247"
+      ]
+    },
+    {
+      "id": 9931,
+      "accent": "расписа́ние",
+      "part": "名词·中性",
+      "meaning": "时刻表；时间表；课程表",
+      "perfective": "",
+      "note": "根据列车、课程等对象选择中文表达。",
+      "stage": 1,
+      "original": {
+        "word": "расписание",
+        "part_of_speech": "中",
+        "meaning_zh": "时刻表；时间表；课程表",
+        "source_page": 247,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "расписание",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=247"
+      ]
+    },
+    {
+      "id": 9932,
+      "accent": "располага́ться",
+      "part": "动词·未完成体",
+      "meaning": "位于；坐落；安顿下来；排列",
+      "perfective": "расположи́ться",
+      "note": "所列完成体适用于安顿、就位等变化过程；静态位于义不强行转成一次完成动作。",
+      "stage": 2,
+      "original": {
+        "word": "располагаться",
+        "part_of_speech": "未",
+        "meaning_zh": "位于；坐落；安顿；安排",
+        "source_page": 247,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "располагаться",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=247"
+      ]
+    },
+    {
+      "id": 9933,
+      "accent": "располо́женный",
+      "part": "形容词；被动形动词用法",
+      "meaning": "位于……的；对……有好感的；倾向于……的；容易……的",
+      "perfective": "",
+      "note": "跨页核对：к加与格可表示好感、倾向或易患；位置义来自расположить的被动形式。",
+      "stage": 2,
+      "original": {
+        "word": "расположенный",
+        "part_of_speech": "形",
+        "meaning_zh": "有好感的；倾向于……的；位于……的",
+        "source_page": 247,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "расположенный",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=247",
+        "data/words/tem4_russian_words.pdf#page=248"
+      ]
+    },
+    {
+      "id": 9934,
+      "accent": "распоряже́ние",
+      "part": "名词·中性",
+      "meaning": "命令；指示；支配；处置",
+      "perfective": "",
+      "note": "в распоряжении表示由某人支配、供某人使用；不把词组的介词含义混入词头。",
+      "stage": 2,
+      "original": {
+        "word": "распоряжение",
+        "part_of_speech": "中",
+        "meaning_zh": "命令；指示；决定；处置；支配",
+        "source_page": 248,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "распоряжение",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=248"
+      ]
+    },
+    {
+      "id": 9935,
+      "accent": "распределя́ть",
+      "part": "动词·未完成体",
+      "meaning": "分配；分发；分派；分类安排",
+      "perfective": "распредели́ть",
+      "note": "可分配收入、分派任务，也可按类或顺序安排人和事物。",
+      "stage": 2,
+      "original": {
+        "word": "распределять",
+        "part_of_speech": "未",
+        "meaning_zh": "分配；分发；分类；安排",
+        "source_page": 248,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "распределять",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=248"
+      ]
+    },
+    {
+      "id": 9936,
+      "accent": "распространя́ть",
+      "part": "动词·未完成体",
+      "meaning": "散发；传播；推广；扩大",
+      "perfective": "распространи́ть",
+      "note": "及物动词：传播消息、散发材料、推广经验、扩大影响。",
+      "stage": 2,
+      "original": {
+        "word": "распространять",
+        "part_of_speech": "未",
+        "meaning_zh": "传播；散发；推广；扩大影响",
+        "source_page": 248,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "распространять",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=248"
+      ]
+    },
+    {
+      "id": 9937,
+      "accent": "распространя́ться",
+      "part": "动词·未完成体",
+      "meaning": "传播开来；蔓延；扩展；普及",
+      "perfective": "распространи́ться",
+      "note": "不及物形式，指消息、知识、现象等自身扩散，不直接带传播对象作宾语。",
+      "stage": 2,
+      "original": {
+        "word": "распространяться",
+        "part_of_speech": "未",
+        "meaning_zh": "传播；蔓延；扩大；普及",
+        "source_page": 248,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "распространяться",
+      "method": "2026-09-18当前助手逐词视觉核对专四词表PDF245至248页，检查俄文拼写、重音、中文核心义、词性和体对范围；未调用外部模型。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=248"
+      ]
+    }
+  ]
+}

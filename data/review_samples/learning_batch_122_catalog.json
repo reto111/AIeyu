@@ -1,0 +1,696 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9938,
+      "accent": "рассве́т",
+      "part": "名词·阳性",
+      "meaning": "黎明；拂晓；开端；初期",
+      "perfective": "",
+      "note": "原页及词形确认为е，不是ё；初期为比喻用法。",
+      "stage": 2,
+      "original": {
+        "word": "рассвёт",
+        "part_of_speech": "阳",
+        "meaning_zh": "黎明；拂晓；初期；开始",
+        "source_page": 248,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рассвет",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=248"
+      ]
+    },
+    {
+      "id": 9939,
+      "accent": "рассвета́ть",
+      "part": "动词·未完成体；无人称",
+      "meaning": "天亮；破晓",
+      "perfective": "рассвести́",
+      "note": "常用рассветает，过去时рассвело；不当作人主动执行的动作。",
+      "stage": 2,
+      "original": {
+        "word": "рассветать",
+        "part_of_speech": "未，无人称",
+        "meaning_zh": "天亮；破晓",
+        "source_page": 248,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рассветать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=248"
+      ]
+    },
+    {
+      "id": 9940,
+      "accent": "расска́з",
+      "part": "名词·阳性",
+      "meaning": "讲述；叙述；故事；短篇小说",
+      "perfective": "",
+      "note": "既可表示讲述的内容，也可指短篇小说体裁。",
+      "stage": 1,
+      "original": {
+        "word": "рассказ",
+        "part_of_speech": "阳",
+        "meaning_zh": "故事；叙述；短篇小说",
+        "source_page": 248,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рассказ",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=248"
+      ]
+    },
+    {
+      "id": 9941,
+      "accent": "расска́зывать",
+      "part": "动词·未完成体",
+      "meaning": "讲述；叙述；讲给……听",
+      "perfective": "рассказа́ть",
+      "note": "讲什么可接что；谈到某事常接о加前置格，听者用与格。",
+      "stage": 1,
+      "original": {
+        "word": "рассказывать",
+        "part_of_speech": "未",
+        "meaning_zh": "讲述；叙述；谈论",
+        "source_page": 248,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рассказывать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=248"
+      ]
+    },
+    {
+      "id": 9942,
+      "accent": "рассма́тривать",
+      "part": "动词·未完成体",
+      "meaning": "仔细看；观察；考虑；研究；审议",
+      "perfective": "рассмотре́ть",
+      "note": "跨页核对：既可细看物体，也可研究资料或审议事项。",
+      "stage": 2,
+      "original": {
+        "word": "рассматривать",
+        "part_of_speech": "未",
+        "meaning_zh": "仔细看；观察；考虑；研究；审核",
+        "source_page": 248,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рассматривать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=248",
+        "data/words/tem4_russian_words.pdf#page=249"
+      ]
+    },
+    {
+      "id": 9943,
+      "accent": "рассмея́ться",
+      "part": "动词·完成体",
+      "meaning": "笑起来；笑出声来",
+      "perfective": "",
+      "note": "表示开始发笑，不把普通смеяться的持续状态当作完全等义体对。",
+      "stage": 2,
+      "original": {
+        "word": "рассмеяться",
+        "part_of_speech": "完",
+        "meaning_zh": "大笑起来；笑出声",
+        "source_page": 249,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рассмеяться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=249"
+      ]
+    },
+    {
+      "id": 9944,
+      "accent": "расспра́шивать",
+      "part": "动词·未完成体",
+      "meaning": "详细询问；打听；盘问",
+      "perfective": "расспроси́ть",
+      "note": "通常接кого о чём；含详细了解的意思。",
+      "stage": 2,
+      "original": {
+        "word": "расспрашивать",
+        "part_of_speech": "未",
+        "meaning_zh": "详细询问；打听；盘问",
+        "source_page": 249,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "расспрашивать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=249"
+      ]
+    },
+    {
+      "id": 9945,
+      "accent": "расстава́ться",
+      "part": "动词·未完成体",
+      "meaning": "分手；离别；告别；舍弃；放弃",
+      "perfective": "расста́ться",
+      "note": "常接с加工具格；既可与人分别，也可舍弃物品、习惯或原有打算。",
+      "stage": 2,
+      "original": {
+        "word": "расставаться",
+        "part_of_speech": "未",
+        "meaning_zh": "分手；离别；离开；断绝关系",
+        "source_page": 249,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "расставаться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=249"
+      ]
+    },
+    {
+      "id": 9946,
+      "accent": "расстоя́ние",
+      "part": "名词·中性",
+      "meaning": "距离；间距",
+      "perfective": "",
+      "note": "指两点、两地或两个对象之间的距离。",
+      "stage": 1,
+      "original": {
+        "word": "расстояние",
+        "part_of_speech": "中",
+        "meaning_zh": "距离",
+        "source_page": 249,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "расстояние",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=249"
+      ]
+    },
+    {
+      "id": 9947,
+      "accent": "расстра́иваться",
+      "part": "动词·未完成体",
+      "meaning": "难过；心烦；紊乱；失常；受损；被打乱",
+      "perfective": "расстро́иться",
+      "note": "修正及物义混入：主语自己心烦、健康失常或计划被打乱，不是使别人难过；乐器可指走调。",
+      "stage": 2,
+      "original": {
+        "word": "расстраиваться",
+        "part_of_speech": "未",
+        "meaning_zh": "弄糟；损坏；使失常；使难过；心烦",
+        "source_page": 249,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "расстраиваться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=249"
+      ]
+    },
+    {
+      "id": 9948,
+      "accent": "расстре́ливать",
+      "part": "动词·未完成体",
+      "meaning": "枪决；枪毙；猛烈射击",
+      "perfective": "расстреля́ть",
+      "note": "枪决人与向目标猛烈开火依宾语区分。",
+      "stage": 2,
+      "original": {
+        "word": "расстреливать",
+        "part_of_speech": "未",
+        "meaning_zh": "枪毙；射杀；扫射",
+        "source_page": 249,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "расстреливать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=249"
+      ]
+    },
+    {
+      "id": 9949,
+      "accent": "рассужда́ть",
+      "part": "动词·未完成体",
+      "meaning": "推理；思考；论述；议论",
+      "perfective": "",
+      "note": "原页另列рассудить为评判、裁断或作出判断；不为持续议论义机械指定完成体。",
+      "stage": 2,
+      "original": {
+        "word": "рассуждать",
+        "part_of_speech": "未",
+        "meaning_zh": "推理；论述；议论；谈论",
+        "source_page": 249,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рассуждать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=249"
+      ]
+    },
+    {
+      "id": 9950,
+      "accent": "рассужде́ние",
+      "part": "名词·中性",
+      "meaning": "推理；论证；论述；议论",
+      "perfective": "",
+      "note": "可指推理过程或表达出的论述；复数常指议论。",
+      "stage": 2,
+      "original": {
+        "word": "рассуждение",
+        "part_of_speech": "中",
+        "meaning_zh": "推理；论断；议论；论述",
+        "source_page": 249,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рассуждение",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=249"
+      ]
+    },
+    {
+      "id": 9951,
+      "accent": "расте́ние",
+      "part": "名词·中性",
+      "meaning": "植物",
+      "perfective": "",
+      "note": "性别、词性与中文义分开，不把标记当释义。",
+      "stage": 1,
+      "original": {
+        "word": "растение",
+        "part_of_speech": "中",
+        "meaning_zh": "植物；植物体",
+        "source_page": 249,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "растение",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=249"
+      ]
+    },
+    {
+      "id": 9952,
+      "accent": "расте́риваться",
+      "part": "动词·未完成体",
+      "meaning": "不知所措；慌张；茫然失措",
+      "perfective": "растеря́ться",
+      "note": "本词为原页给出的未完成体，完成体重音在я；不是丢失物品的及物动词。",
+      "stage": 2,
+      "original": {
+        "word": "растериваться",
+        "part_of_speech": "未",
+        "meaning_zh": "不知所措；慌张；茫然",
+        "source_page": 249,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "растериваться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=249"
+      ]
+    },
+    {
+      "id": 9953,
+      "accent": "расти́",
+      "part": "动词·未完成体",
+      "meaning": "生长；成长；长大；增长；发展；增强",
+      "perfective": "вы́расти",
+      "note": "所列完成体适用于长成、长大或增长到一定结果；各种加强、发展语境不机械替换。",
+      "stage": 1,
+      "original": {
+        "word": "расти",
+        "part_of_speech": "未",
+        "meaning_zh": "生长；成长；增加；发展；加强",
+        "source_page": 250,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "расти",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=250"
+      ]
+    },
+    {
+      "id": 9954,
+      "accent": "расти́тельный",
+      "part": "形容词",
+      "meaning": "植物的；植物性的；从植物中提取的",
+      "perfective": "",
+      "note": "如растительное масло指植物油。",
+      "stage": 2,
+      "original": {
+        "word": "растительный",
+        "part_of_speech": "形",
+        "meaning_zh": "植物的；植物性的；植物制的",
+        "source_page": 250,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "растительный",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=250"
+      ]
+    },
+    {
+      "id": 9955,
+      "accent": "расходи́ться",
+      "part": "动词·未完成体",
+      "meaning": "散开；各自离去；分手；离婚；售完；花完；不一致",
+      "perfective": "разойти́сь",
+      "note": "意见分歧常用в加前置格；人散去、商品售完、钱花完按主语区分。",
+      "stage": 2,
+      "original": {
+        "word": "расходиться",
+        "part_of_speech": "未",
+        "meaning_zh": "走散；散开；卖完；花完；分手；不一致",
+        "source_page": 250,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "расходиться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=250"
+      ]
+    },
+    {
+      "id": 9956,
+      "accent": "расцве́т",
+      "part": "名词·阳性",
+      "meaning": "繁荣；兴盛；鼎盛时期",
+      "perfective": "",
+      "note": "原页为е，不是ё；与рассвет黎明区别。",
+      "stage": 2,
+      "original": {
+        "word": "расцвёт",
+        "part_of_speech": "阳",
+        "meaning_zh": "繁荣；兴盛；极盛时期",
+        "source_page": 250,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "расцвет",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=250"
+      ]
+    },
+    {
+      "id": 9957,
+      "accent": "расцвета́ть",
+      "part": "动词·未完成体",
+      "meaning": "开花；繁盛起来；兴旺起来",
+      "perfective": "расцвести́",
+      "note": "可指植物开花，也可比喻经济、文化等繁荣。",
+      "stage": 2,
+      "original": {
+        "word": "расцветать",
+        "part_of_speech": "未",
+        "meaning_zh": "开花；繁荣起来",
+        "source_page": 250,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "расцветать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=250"
+      ]
+    },
+    {
+      "id": 9958,
+      "accent": "расширя́ть",
+      "part": "动词·未完成体",
+      "meaning": "加宽；扩大；扩充；拓展",
+      "perfective": "расши́рить",
+      "note": "及物形式，扩大道路、生产规模或知识面等。",
+      "stage": 2,
+      "original": {
+        "word": "расширять",
+        "part_of_speech": "未",
+        "meaning_zh": "扩大；扩充；放宽；推广",
+        "source_page": 250,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "расширять",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=250"
+      ]
+    },
+    {
+      "id": 9959,
+      "accent": "расширя́ться",
+      "part": "动词·未完成体",
+      "meaning": "变宽；扩大；扩充；拓宽",
+      "perfective": "расши́риться",
+      "note": "表示范围、规模或视野本身变大，与及物расширять区分。",
+      "stage": 2,
+      "original": {
+        "word": "расширяться",
+        "part_of_speech": "未",
+        "meaning_zh": "扩大；加宽；扩充；增多",
+        "source_page": 250,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "расширяться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=250"
+      ]
+    },
+    {
+      "id": 9960,
+      "accent": "рациона́льный",
+      "part": "形容词",
+      "meaning": "合理的；合乎理性的；经济有效的",
+      "perfective": "",
+      "note": "经济有效指合理利用资源，不笼统等于价格便宜。",
+      "stage": 2,
+      "original": {
+        "word": "рациональный",
+        "part_of_speech": "形",
+        "meaning_zh": "合理的；理性的；经济的",
+        "source_page": 250,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рациональный",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=250"
+      ]
+    },
+    {
+      "id": 9961,
+      "accent": "рвать",
+      "part": "动词·未完成体",
+      "meaning": "撕；扯；撕破；摘；折",
+      "perfective": "порва́ть",
+      "note": "所列完成体对应撕破、扯破；摘花等义常用сорвать，不能共用同一体对。",
+      "stage": 2,
+      "original": {
+        "word": "рвать",
+        "part_of_speech": "未",
+        "meaning_zh": "撕；扯；折；摘",
+        "source_page": 251,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рвать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=251"
+      ]
+    },
+    {
+      "id": 9962,
+      "accent": "реаги́ровать",
+      "part": "动词·未完成体",
+      "meaning": "起反应；作出反应；回应",
+      "perfective": "прореаги́ровать",
+      "note": "常接на加宾格，表示对某种刺激或事情作出反应。",
+      "stage": 2,
+      "original": {
+        "word": "реагировать",
+        "part_of_speech": "未",
+        "meaning_zh": "起反应；回应",
+        "source_page": 251,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "реагировать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=251"
+      ]
+    },
+    {
+      "id": 9963,
+      "accent": "реа́кция",
+      "part": "名词·阴性",
+      "meaning": "反应；回应；化学反应",
+      "perfective": "",
+      "note": "保留原页核心义；不同领域的专门含义不无依据堆入。",
+      "stage": 2,
+      "original": {
+        "word": "реакция",
+        "part_of_speech": "阴",
+        "meaning_zh": "反应；回应；化学反应",
+        "source_page": 251,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "реакция",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=251"
+      ]
+    },
+    {
+      "id": 9964,
+      "accent": "реа́льный",
+      "part": "形容词",
+      "meaning": "真实的；现实的；实际的；可实现的；切合实际的",
+      "perfective": "",
+      "note": "真实存在与可实现、切合实际是不同义项。",
+      "stage": 2,
+      "original": {
+        "word": "реальный",
+        "part_of_speech": "形",
+        "meaning_zh": "现实的；实际的；真实的；切合实际的；可实现的",
+        "source_page": 251,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "реальный",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=251"
+      ]
+    },
+    {
+      "id": 9965,
+      "accent": "ребёнок",
+      "part": "名词·阳性",
+      "meaning": "孩子；儿童；婴儿",
+      "perfective": "",
+      "note": "保留正确ё；单数词形为阳性，所指孩子不限定男孩；复数常用дети。",
+      "stage": 1,
+      "original": {
+        "word": "ребёнок",
+        "part_of_speech": "阳",
+        "meaning_zh": "孩子；儿童；婴儿",
+        "source_page": 251,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ребёнок",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=251"
+      ]
+    },
+    {
+      "id": 9966,
+      "accent": "ребя́та",
+      "part": "名词·复数形式",
+      "meaning": "孩子们；小伙子们；伙伴们",
+      "perfective": "",
+      "note": "可泛指孩子，也可作对伙伴的口语称呼，不能仅译男孩子。",
+      "stage": 1,
+      "original": {
+        "word": "ребята",
+        "part_of_speech": "复",
+        "meaning_zh": "孩子们；小伙子们；伙伴们",
+        "source_page": 251,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ребята",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=251"
+      ]
+    },
+    {
+      "id": 9967,
+      "accent": "революционе́р",
+      "part": "名词·阳性",
+      "meaning": "革命者；革命家",
+      "perfective": "",
+      "note": "指人，与революция革命和революционный革命的区分。",
+      "stage": 2,
+      "original": {
+        "word": "революционер",
+        "part_of_speech": "阳",
+        "meaning_zh": "革命者；革命家",
+        "source_page": 251,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "революционер",
+      "method": "2026-09-18当前助手逐词视觉核对PDF248至251页；核对重音、词性、核心意义和动词体范围，纠正反身意义与е误识别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=251"
+      ]
+    }
+  ]
+}
