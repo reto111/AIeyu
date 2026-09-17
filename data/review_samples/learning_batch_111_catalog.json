@@ -1,0 +1,697 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9620,
+      "accent": "пот",
+      "part": "名词，阳性",
+      "meaning": "汗；汗水；凝结的水汽",
+      "perfective": "",
+      "note": "辛勤劳动来自в поте лица整个搭配，不直接挂在词头。",
+      "stage": 1,
+      "original": {
+        "word": "пот",
+        "part_of_speech": "阳",
+        "meaning_zh": "汗；汗水；辛勤劳动",
+        "source_page": 217,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пот",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=217"
+      ]
+    },
+    {
+      "id": 9621,
+      "accent": "по-тво́ему",
+      "part": "副词、插入语",
+      "meaning": "依你看；按你的意见；按你的方式",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "по-твоему",
+        "part_of_speech": "副",
+        "meaning_zh": "照你的意见；依你看",
+        "source_page": 217,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "по-твоему",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=217"
+      ]
+    },
+    {
+      "id": 9622,
+      "accent": "пото́к",
+      "part": "名词，阳性",
+      "meaning": "水流；急流；流；连续涌来的人或事物",
+      "perfective": "",
+      "note": "可指人流、话语流等，不只小溪。",
+      "stage": 2,
+      "original": {
+        "word": "поток",
+        "part_of_speech": "阳",
+        "meaning_zh": "水流；溪流；大量连续的人或事物",
+        "source_page": 217,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поток",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=217"
+      ]
+    },
+    {
+      "id": 9623,
+      "accent": "потоло́к",
+      "part": "名词，阳性",
+      "meaning": "天花板；上限",
+      "perfective": "",
+      "note": "上限为转义，如价格上限。",
+      "stage": 1,
+      "original": {
+        "word": "потолок",
+        "part_of_speech": "阳",
+        "meaning_zh": "天花板；上限",
+        "source_page": 217,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "потолок",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=217"
+      ]
+    },
+    {
+      "id": 9625,
+      "accent": "потряса́ть",
+      "part": "动词，未完成体",
+      "meaning": "摇动；抖动；震动；震撼；使震惊",
+      "perfective": "потрясти́",
+      "note": "物理摇动和精神震撼分语境；完成体不写成потрясть。",
+      "stage": 2,
+      "original": {
+        "word": "потрясать",
+        "part_of_speech": "未",
+        "meaning_zh": "摇动；抖动；震撼；使震惊",
+        "source_page": 217,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "потрясать",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=217"
+      ]
+    },
+    {
+      "id": 9626,
+      "accent": "похо́д",
+      "part": "名词，阳性",
+      "meaning": "行军；出征；远足；徒步旅行；结伴出行",
+      "perfective": "",
+      "note": "旅游义侧重远足等活动，不泛指一切交通旅行。",
+      "stage": 2,
+      "original": {
+        "word": "поход",
+        "part_of_speech": "阳",
+        "meaning_zh": "行军；进军；远足；旅行",
+        "source_page": 217,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поход",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=217",
+        "data/words/tem4_russian_words.pdf#page=218"
+      ]
+    },
+    {
+      "id": 9627,
+      "accent": "похо́дка",
+      "part": "名词，阴性",
+      "meaning": "步态；走路姿势",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "походка",
+        "part_of_speech": "阴",
+        "meaning_zh": "步态；走路姿势",
+        "source_page": 218,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "походка",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=218"
+      ]
+    },
+    {
+      "id": 9628,
+      "accent": "похо́жий",
+      "part": "形容词",
+      "meaning": "相似的；像……的",
+      "perfective": "",
+      "note": "на加四格表示像谁或什么。",
+      "stage": 1,
+      "original": {
+        "word": "похожий",
+        "part_of_speech": "形",
+        "meaning_zh": "相似的；像……的",
+        "source_page": 218,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "похожий",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=218"
+      ]
+    },
+    {
+      "id": 9629,
+      "accent": "по́чва",
+      "part": "名词，阴性",
+      "meaning": "土壤；基础；根据",
+      "perfective": "",
+      "note": "转义可指产生某事的条件或基础。",
+      "stage": 2,
+      "original": {
+        "word": "почва",
+        "part_of_speech": "阴",
+        "meaning_zh": "土壤；基础；根据",
+        "source_page": 218,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "почва",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=218"
+      ]
+    },
+    {
+      "id": 9630,
+      "accent": "почему́",
+      "part": "疑问副词",
+      "meaning": "为什么",
+      "perfective": "",
+      "note": "询问原因，区别询问目的зачем。",
+      "stage": 1,
+      "original": {
+        "word": "почему",
+        "part_of_speech": "副",
+        "meaning_zh": "为什么",
+        "source_page": 218,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "почему",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=218"
+      ]
+    },
+    {
+      "id": 9631,
+      "accent": "почему́-то",
+      "part": "不定副词",
+      "meaning": "不知为什么；由于某种原因",
+      "perfective": "",
+      "note": "后缀-то不另加重音。",
+      "stage": 1,
+      "original": {
+        "word": "почему-то",
+        "part_of_speech": "副",
+        "meaning_zh": "不知为什么",
+        "source_page": 218,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "почему-то",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=218"
+      ]
+    },
+    {
+      "id": 9632,
+      "accent": "по́черк",
+      "part": "名词，阳性",
+      "meaning": "笔迹；书写风格；创作风格",
+      "perfective": "",
+      "note": "可转指作家、艺术家等独特风格。",
+      "stage": 2,
+      "original": {
+        "word": "почерк",
+        "part_of_speech": "阳",
+        "meaning_zh": "笔迹；书写风格",
+        "source_page": 218,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "почерк",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=218"
+      ]
+    },
+    {
+      "id": 9633,
+      "accent": "почёт",
+      "part": "名词，阳性",
+      "meaning": "尊敬；敬重；荣誉",
+      "perfective": "",
+      "note": "保留ё。",
+      "stage": 2,
+      "original": {
+        "word": "почёт",
+        "part_of_speech": "阳",
+        "meaning_zh": "尊敬；敬重；荣誉",
+        "source_page": 218,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "почёт",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=218"
+      ]
+    },
+    {
+      "id": 9634,
+      "accent": "почётный",
+      "part": "形容词",
+      "meaning": "受尊敬的；荣誉的；名誉的；光荣的",
+      "perfective": "",
+      "note": "почётный профессор为名誉教授，почётная обязанность为光荣义务；保留ё。",
+      "stage": 2,
+      "original": {
+        "word": "почётный",
+        "part_of_speech": "形",
+        "meaning_zh": "受人尊敬的；荣誉的",
+        "source_page": 218,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "почётный",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=218"
+      ]
+    },
+    {
+      "id": 9635,
+      "accent": "по́чта",
+      "part": "名词，阴性",
+      "meaning": "邮政；邮局；邮递；邮件",
+      "perfective": "",
+      "note": "电子邮件常用электронная почта。",
+      "stage": 1,
+      "original": {
+        "word": "почта",
+        "part_of_speech": "阴",
+        "meaning_zh": "邮政局；邮递；邮件",
+        "source_page": 218,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "почта",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=218"
+      ]
+    },
+    {
+      "id": 9636,
+      "accent": "почтальо́н",
+      "part": "名词，阳性",
+      "meaning": "邮递员",
+      "perfective": "",
+      "note": "保留льо拼写，不误写成лё。",
+      "stage": 1,
+      "original": {
+        "word": "почтальон",
+        "part_of_speech": "阳",
+        "meaning_zh": "邮递员",
+        "source_page": 218,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "почтальон",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=218"
+      ]
+    },
+    {
+      "id": 9637,
+      "accent": "почти́",
+      "part": "副词",
+      "meaning": "几乎；差不多",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "почти",
+        "part_of_speech": null,
+        "meaning_zh": "差不多；几乎",
+        "source_page": 218,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "почти",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=218"
+      ]
+    },
+    {
+      "id": 9638,
+      "accent": "почто́вый",
+      "part": "形容词",
+      "meaning": "邮政的；邮寄的；邮局的",
+      "perfective": "",
+      "note": "邮票为почтовая марка，形容词本身不等于邮票。",
+      "stage": 1,
+      "original": {
+        "word": "почтовый",
+        "part_of_speech": "形",
+        "meaning_zh": "邮政的；邮局的",
+        "source_page": 218,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "почтовый",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=218"
+      ]
+    },
+    {
+      "id": 9639,
+      "accent": "поэ́зия",
+      "part": "名词，阴性",
+      "meaning": "诗；诗歌作品；诗意；诗情",
+      "perfective": "",
+      "note": "文学体裁和诗意情趣分开理解。",
+      "stage": 2,
+      "original": {
+        "word": "поэзия",
+        "part_of_speech": "阴",
+        "meaning_zh": "诗；诗歌作品；诗意",
+        "source_page": 218,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поэзия",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=218"
+      ]
+    },
+    {
+      "id": 9640,
+      "accent": "поэ́т",
+      "part": "名词，阳性",
+      "meaning": "诗人",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "поэт",
+        "part_of_speech": "阳",
+        "meaning_zh": "诗人",
+        "source_page": 218,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поэт",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=218"
+      ]
+    },
+    {
+      "id": 9641,
+      "accent": "поэ́тому",
+      "part": "副词",
+      "meaning": "所以；因此",
+      "perfective": "",
+      "note": "连写表示因果；区别по этому加名词的结构。",
+      "stage": 1,
+      "original": {
+        "word": "поэтому",
+        "part_of_speech": "副",
+        "meaning_zh": "所以；因此",
+        "source_page": 219,
+        "source_line": "1"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поэтому",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=219"
+      ]
+    },
+    {
+      "id": 9642,
+      "accent": "появля́ться",
+      "part": "动词，未完成体",
+      "meaning": "出现；呈现；产生；发生",
+      "perfective": "появи́ться",
+      "note": "出生为появиться на свет完整搭配，单列说明以免机械译义。",
+      "stage": 2,
+      "original": {
+        "word": "появляться",
+        "part_of_speech": "未",
+        "meaning_zh": "出现；呈现；出生；诞生",
+        "source_page": 219,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "появляться",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=219"
+      ]
+    },
+    {
+      "id": 9643,
+      "accent": "по-япо́нски",
+      "part": "副词",
+      "meaning": "用日语；按日本方式",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "по-японски",
+        "part_of_speech": "副",
+        "meaning_zh": "用日语；按日本方式",
+        "source_page": 219,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "по-японски",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=219"
+      ]
+    },
+    {
+      "id": 9644,
+      "accent": "по́яс",
+      "part": "名词，阳性",
+      "meaning": "腰带；腰；地带；区域带",
+      "perfective": "",
+      "note": "часовой пояс为时区，тропический пояс为热带，按限定词理解。",
+      "stage": 2,
+      "original": {
+        "word": "пояс",
+        "part_of_speech": "阳",
+        "meaning_zh": "腰带；皮带；腰；地带；时区",
+        "source_page": 219,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пояс",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=219"
+      ]
+    },
+    {
+      "id": 9645,
+      "accent": "пра́вда",
+      "part": "名词，阴性；插入语、语气词用法",
+      "meaning": "事实；真相；真话；真理；的确；不过",
+      "perfective": "",
+      "note": "插入语可表示让步补充，不能一律翻译为是的。",
+      "stage": 1,
+      "original": {
+        "word": "правда",
+        "part_of_speech": "阴",
+        "meaning_zh": "真理；事实；真话；（插入语）是的",
+        "source_page": 219,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "правда",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=219"
+      ]
+    },
+    {
+      "id": 9646,
+      "accent": "правди́вый",
+      "part": "形容词",
+      "meaning": "诚实的；真实的；如实反映事实的",
+      "perfective": "",
+      "note": "人物诚实与叙述真实分语境。",
+      "stage": 2,
+      "original": {
+        "word": "правдивый",
+        "part_of_speech": "形",
+        "meaning_zh": "真实的；诚实的；忠实反映事实的",
+        "source_page": 219,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "правдивый",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=219"
+      ]
+    },
+    {
+      "id": 9647,
+      "accent": "пра́вило",
+      "part": "名词，中性",
+      "meaning": "规则；规定；准则；习惯；惯例",
+      "perfective": "",
+      "note": "通常、照例来自как правило，不是单独词头的副词义。",
+      "stage": 1,
+      "original": {
+        "word": "правило",
+        "part_of_speech": "中",
+        "meaning_zh": "规则；规定；准则；惯例；通常，照例",
+        "source_page": 219,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "правило",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=219"
+      ]
+    },
+    {
+      "id": 9648,
+      "accent": "пра́вильный",
+      "part": "形容词",
+      "meaning": "正确的；合乎规则的；端正的；匀称的；规则的；正的（几何）",
+      "perfective": "",
+      "note": "几何义如正多边形、正多面体；形容词不能直接等于正多面体这个名词。",
+      "stage": 1,
+      "original": {
+        "word": "правильный",
+        "part_of_speech": "形",
+        "meaning_zh": "正确的；合乎规则的；端正的；正多面体的",
+        "source_page": 219,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "правильный",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=219"
+      ]
+    },
+    {
+      "id": 9649,
+      "accent": "прави́тельство",
+      "part": "名词，中性",
+      "meaning": "政府",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "правительство",
+        "part_of_speech": "中",
+        "meaning_zh": "政府",
+        "source_page": 219,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "правительство",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=219"
+      ]
+    },
+    {
+      "id": 9650,
+      "accent": "пра́во",
+      "part": "名词，中性",
+      "meaning": "法律；法；法权；权利；资格；理由；根据",
+      "perfective": "",
+      "note": "如международное право国际法、право на образование受教育权；区别方向副词вправо。",
+      "stage": 2,
+      "original": {
+        "word": "право",
+        "part_of_speech": "中",
+        "meaning_zh": "法律；法权；权利；资格；理由；根据",
+        "source_page": 219,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "право",
+      "method": "2026-09-17当前助手逐项视觉核对PDF217至220页，校正词组义与单词义边界，核对重音、词性、动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=219",
+        "data/words/tem4_russian_words.pdf#page=220"
+      ]
+    }
+  ]
+}

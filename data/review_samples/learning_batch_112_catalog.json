@@ -1,0 +1,698 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9651,
+      "accent": "пра́вый",
+      "part": "形容词",
+      "meaning": "右边的；右翼的；正义的；公正的；有理的；无罪的",
+      "perfective": "",
+      "note": "短尾形式прав常表示某人说得对、有理；不与правильный所有用法互换。",
+      "stage": 1,
+      "original": {
+        "word": "правый",
+        "part_of_speech": "形",
+        "meaning_zh": "右的；右边的；右翼的；公正的；正确的；无罪的",
+        "source_page": 220,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "правый",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=220"
+      ]
+    },
+    {
+      "id": 9652,
+      "accent": "пра́здник",
+      "part": "名词，阳性",
+      "meaning": "节日；喜庆日；庆祝活动；盛会",
+      "perfective": "",
+      "note": "心里欢乐为на душе праздник搭配，不只是一种抽象心情。",
+      "stage": 1,
+      "original": {
+        "word": "праздник",
+        "part_of_speech": "阳",
+        "meaning_zh": "节日；庆祝活动；喜庆日；欢乐",
+        "source_page": 220,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "праздник",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=220"
+      ]
+    },
+    {
+      "id": 9653,
+      "accent": "пра́здничный",
+      "part": "形容词",
+      "meaning": "节日的；喜庆的；欢乐的；盛装的",
+      "perfective": "",
+      "note": "服装语境可指节日盛装。",
+      "stage": 1,
+      "original": {
+        "word": "праздничный",
+        "part_of_speech": "形",
+        "meaning_zh": "节日的；喜庆的；欢乐的",
+        "source_page": 220,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "праздничный",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=220"
+      ]
+    },
+    {
+      "id": 9654,
+      "accent": "пра́здновать",
+      "part": "动词，未完成体",
+      "meaning": "庆祝；庆贺；过节",
+      "perfective": "отпра́здновать",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "праздновать",
+        "part_of_speech": "未",
+        "meaning_zh": "庆祝；庆贺",
+        "source_page": 220,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "праздновать",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=220"
+      ]
+    },
+    {
+      "id": 9655,
+      "accent": "пра́ктика",
+      "part": "名词，阴性",
+      "meaning": "实践；实际；做法；实习；实践经验",
+      "perfective": "",
+      "note": "不只指学校安排的实习。",
+      "stage": 2,
+      "original": {
+        "word": "практика",
+        "part_of_speech": "阴",
+        "meaning_zh": "实践；实际；实习；实践经验",
+        "source_page": 220,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "практика",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=220"
+      ]
+    },
+    {
+      "id": 9656,
+      "accent": "практи́ческий",
+      "part": "形容词",
+      "meaning": "实践的；实习的；实际的；符合实际的",
+      "perfective": "",
+      "note": "区别практичный实用、精打细算等义，不机械互换。",
+      "stage": 2,
+      "original": {
+        "word": "практический",
+        "part_of_speech": "形",
+        "meaning_zh": "实践的；实习的；实际的；符合实际的",
+        "source_page": 220,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "практический",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=220"
+      ]
+    },
+    {
+      "id": 9657,
+      "accent": "превраща́ть",
+      "part": "动词，未完成体",
+      "meaning": "使变成；把……转化为",
+      "perfective": "преврати́ть",
+      "note": "превращать что во что，变化前后对象均用四格。",
+      "stage": 2,
+      "original": {
+        "word": "превращать",
+        "part_of_speech": "未",
+        "meaning_zh": "使变成；把……变为；转化",
+        "source_page": 220,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "превращать",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=220"
+      ]
+    },
+    {
+      "id": 9658,
+      "accent": "превраща́ться",
+      "part": "动词，未完成体",
+      "meaning": "变成；转变为；化为",
+      "perfective": "преврати́ться",
+      "note": "结果用в或во加四格，不是施事使别人变化。",
+      "stage": 2,
+      "original": {
+        "word": "превращаться",
+        "part_of_speech": "未",
+        "meaning_zh": "变成；变为；化为",
+        "source_page": 220,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "превращаться",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=220",
+        "data/words/tem4_russian_words.pdf#page=221"
+      ]
+    },
+    {
+      "id": 9659,
+      "accent": "превраще́ние",
+      "part": "名词，中性",
+      "meaning": "变化；转变；转化",
+      "perfective": "",
+      "note": "во что表示转化后的结果。",
+      "stage": 2,
+      "original": {
+        "word": "превращение",
+        "part_of_speech": "中",
+        "meaning_zh": "变化；转变；变成；转化",
+        "source_page": 221,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "превращение",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=221"
+      ]
+    },
+    {
+      "id": 9660,
+      "accent": "пре́данный",
+      "part": "形容词",
+      "meaning": "忠实的；忠诚的；全心投入的",
+      "perfective": "",
+      "note": "本页为形容词，可接三格表忠于谁或什么；别与предать的被动形动词语境混淆。",
+      "stage": 2,
+      "original": {
+        "word": "преданный",
+        "part_of_speech": "形",
+        "meaning_zh": "忠实的；忠诚的；献身的",
+        "source_page": 221,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "преданный",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=221"
+      ]
+    },
+    {
+      "id": 9661,
+      "accent": "преда́тель",
+      "part": "名词，阳性",
+      "meaning": "叛徒；背叛者",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "предатель",
+        "part_of_speech": "阳",
+        "meaning_zh": "叛徒；背叛者",
+        "source_page": 221,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "предатель",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=221"
+      ]
+    },
+    {
+      "id": 9662,
+      "accent": "предви́деть",
+      "part": "动词，未完成体",
+      "meaning": "预见；预料",
+      "perfective": "",
+      "note": "不强配其他构词为完成体；原页标未完成体。",
+      "stage": 2,
+      "original": {
+        "word": "предвидеть",
+        "part_of_speech": "未",
+        "meaning_zh": "预见；预料；预先看到",
+        "source_page": 221,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "предвидеть",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=221"
+      ]
+    },
+    {
+      "id": 9663,
+      "accent": "предлага́ть",
+      "part": "动词，未完成体",
+      "meaning": "提出；建议；提供；邀请；吩咐",
+      "perfective": "предложи́ть",
+      "note": "吩咐义须看说话人的身份和语境，不是每次建议都具有命令意味。",
+      "stage": 2,
+      "original": {
+        "word": "предлагать",
+        "part_of_speech": "未",
+        "meaning_zh": "提出；建议；提供；邀请；吩咐",
+        "source_page": 221,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "предлагать",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=221"
+      ]
+    },
+    {
+      "id": 9664,
+      "accent": "предло́г",
+      "part": "名词，阳性",
+      "meaning": "借口；托词；前置词",
+      "perfective": "",
+      "note": "原页把日常义与语法术语并列，学习时分开记。",
+      "stage": 1,
+      "original": {
+        "word": "предлог",
+        "part_of_speech": "阳",
+        "meaning_zh": "借口；托词；前置词",
+        "source_page": 221,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "предлог",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=221"
+      ]
+    },
+    {
+      "id": 9665,
+      "accent": "предме́т",
+      "part": "名词，阳性",
+      "meaning": "物品；物体；对象；学科；科目",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "предмет",
+        "part_of_speech": "阳",
+        "meaning_zh": "物品；物体；对象；科目；课程",
+        "source_page": 221,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "предмет",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=221"
+      ]
+    },
+    {
+      "id": 9666,
+      "accent": "предпочита́ть",
+      "part": "动词，未完成体",
+      "meaning": "更喜欢；偏爱；宁愿",
+      "perfective": "предпоче́сть",
+      "note": "предпочитать что чему：更喜欢的用四格，比较对象用三格。",
+      "stage": 2,
+      "original": {
+        "word": "предпочитать",
+        "part_of_speech": "未",
+        "meaning_zh": "更喜欢；宁愿；偏爱",
+        "source_page": 221,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "предпочитать",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=221"
+      ]
+    },
+    {
+      "id": 9667,
+      "accent": "предприя́тие",
+      "part": "名词，中性",
+      "meaning": "企业；经营单位；计划进行的事业或活动",
+      "perfective": "",
+      "note": "不能直接对应中国行政分类中的事业单位；本页核心义是企业。",
+      "stage": 2,
+      "original": {
+        "word": "предприятие",
+        "part_of_speech": "中",
+        "meaning_zh": "企业；事业单位",
+        "source_page": 221,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "предприятие",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=221"
+      ]
+    },
+    {
+      "id": 9668,
+      "accent": "председа́тель",
+      "part": "名词，阳性",
+      "meaning": "主席；会议主持人；委员会负责人；董事长",
+      "perfective": "",
+      "note": "职务翻译依机构，如председатель правления；非所有负责人均用此词。",
+      "stage": 2,
+      "original": {
+        "word": "председатель",
+        "part_of_speech": "阳",
+        "meaning_zh": "主席；负责人",
+        "source_page": 221,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "председатель",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=221",
+        "data/words/tem4_russian_words.pdf#page=222"
+      ]
+    },
+    {
+      "id": 9669,
+      "accent": "представи́тель",
+      "part": "名词，阳性",
+      "meaning": "代表；代理人；代表人物；某类成员",
+      "perfective": "",
+      "note": "不必都经过正式任命，也可指某一阶层或流派的成员。",
+      "stage": 2,
+      "original": {
+        "word": "представитель",
+        "part_of_speech": "阳",
+        "meaning_zh": "代表；代表人物；代表某一群体利益的人",
+        "source_page": 222,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "представитель",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=222"
+      ]
+    },
+    {
+      "id": 9670,
+      "accent": "представле́ние",
+      "part": "名词，中性",
+      "meaning": "概念；认识；想象；呈报；提交；介绍；演出",
+      "perfective": "",
+      "note": "补原页呈文、报告义；不是只表示一种观念。",
+      "stage": 2,
+      "original": {
+        "word": "представление",
+        "part_of_speech": "中",
+        "meaning_zh": "概念；认识；观念；演出；表演；呈现",
+        "source_page": 222,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "представление",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=222"
+      ]
+    },
+    {
+      "id": 9671,
+      "accent": "представля́ть",
+      "part": "动词，未完成体",
+      "meaning": "想象；提交；呈报；介绍；代表；构成；展现",
+      "perfective": "предста́вить",
+      "note": "想象常用себе，构成或是常用собой；长期代表某方的状态义不机械套完成体。",
+      "stage": 2,
+      "original": {
+        "word": "представлять",
+        "part_of_speech": "未",
+        "meaning_zh": "代表；表示；呈现；介绍；想象；提交",
+        "source_page": 222,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "представлять",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=222"
+      ]
+    },
+    {
+      "id": 9672,
+      "accent": "представля́ться",
+      "part": "动词，未完成体",
+      "meaning": "自我介绍；显得；在想象中浮现；出现；假装",
+      "perfective": "предста́виться",
+      "note": "假装为口语用法，原页已列；常用表达也有притворяться。机会出现用представиться。",
+      "stage": 2,
+      "original": {
+        "word": "представляться",
+        "part_of_speech": "未",
+        "meaning_zh": "自我介绍；假装；装作；显得",
+        "source_page": 222,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "представляться",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=222"
+      ]
+    },
+    {
+      "id": 9673,
+      "accent": "предстоя́ть",
+      "part": "动词，未完成体",
+      "meaning": "即将发生；等待着；将要面临",
+      "perfective": "",
+      "note": "面临者常用三格，如Мне предстоит экзамен；不应直译为人作主语的我要面对。",
+      "stage": 2,
+      "original": {
+        "word": "предстоять",
+        "part_of_speech": "未",
+        "meaning_zh": "面临；将要发生",
+        "source_page": 222,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "предстоять",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=222"
+      ]
+    },
+    {
+      "id": 9674,
+      "accent": "предупрежда́ть",
+      "part": "动词，未完成体",
+      "meaning": "预先通知；预告；警告；预防；防止",
+      "perfective": "предупреди́ть",
+      "note": "告知危险和防止事故是两个义项。",
+      "stage": 2,
+      "original": {
+        "word": "предупреждать",
+        "part_of_speech": "未",
+        "meaning_zh": "预先通知；预告；警告；预防",
+        "source_page": 222,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "предупреждать",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=222"
+      ]
+    },
+    {
+      "id": 9675,
+      "accent": "предыду́щий",
+      "part": "形容词",
+      "meaning": "前一个的；上次的；前面的；先前的",
+      "perfective": "",
+      "note": "保留ды后的ы，不误写成и。",
+      "stage": 2,
+      "original": {
+        "word": "предыдущий",
+        "part_of_speech": "形",
+        "meaning_zh": "上次的；前述的；以前的",
+        "source_page": 222,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "предыдущий",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=222"
+      ]
+    },
+    {
+      "id": 9676,
+      "accent": "пре́жде",
+      "part": "副词、前置词",
+      "meaning": "以前；原先；先；在……之前",
+      "perfective": "",
+      "note": "作前置词接二格；首先常见完整搭配прежде всего。",
+      "stage": 2,
+      "original": {
+        "word": "прежде",
+        "part_of_speech": "副",
+        "meaning_zh": "以前；原先；首先；在……以前",
+        "source_page": 222,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прежде",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=222"
+      ]
+    },
+    {
+      "id": 9677,
+      "accent": "пре́жний",
+      "part": "形容词",
+      "meaning": "原先的；以前的；从前的；原样的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "прежний",
+        "part_of_speech": "形",
+        "meaning_zh": "原先的；以前的；从前的",
+        "source_page": 222,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прежний",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=222"
+      ]
+    },
+    {
+      "id": 9678,
+      "accent": "прези́диум",
+      "part": "名词，阳性",
+      "meaning": "主席团",
+      "perfective": "",
+      "note": "可为会议或机构的主席团，已核跨页尾句。",
+      "stage": 2,
+      "original": {
+        "word": "президиум",
+        "part_of_speech": "阳",
+        "meaning_zh": "主席团；（会议或机构的）主席团",
+        "source_page": 222,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "президиум",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=222",
+        "data/words/tem4_russian_words.pdf#page=223"
+      ]
+    },
+    {
+      "id": 9679,
+      "accent": "преиму́щество",
+      "part": "名词，中性",
+      "meaning": "优势；优点；优越性；优先权",
+      "perfective": "",
+      "note": "по преимуществу为主要、大半，是完整搭配义。",
+      "stage": 2,
+      "original": {
+        "word": "преимущество",
+        "part_of_speech": "中",
+        "meaning_zh": "优势；优点；好处；优越性",
+        "source_page": 223,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "преимущество",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=223"
+      ]
+    },
+    {
+      "id": 9680,
+      "accent": "прекра́сный",
+      "part": "形容词",
+      "meaning": "美丽的；优美的；极好的；出色的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "прекрасный",
+        "part_of_speech": "形",
+        "meaning_zh": "美丽的；漂亮的；极好的；出色的",
+        "source_page": 223,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прекрасный",
+      "method": "2026-09-17当前助手逐项视觉核对PDF220至223页，复核多义动词及名词释义，不混淆主动反身词。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=223"
+      ]
+    }
+  ]
+}

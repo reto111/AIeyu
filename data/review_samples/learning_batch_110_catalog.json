@@ -1,0 +1,696 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9590,
+      "accent": "портре́т",
+      "part": "名词，阳性",
+      "meaning": "肖像；画像；人物外貌描写",
+      "perfective": "",
+      "note": "原页为е上重音；半身像为поясной портрет，不把半身限制加到词头。",
+      "stage": 1,
+      "original": {
+        "word": "портрёт",
+        "part_of_speech": "阳",
+        "meaning_zh": "肖像；画像；半身像；肖像画",
+        "source_page": 214,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "портрет",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=214"
+      ]
+    },
+    {
+      "id": 9591,
+      "accent": "портфе́ль",
+      "part": "名词，阳性",
+      "meaning": "公文包；书包；文件夹",
+      "perfective": "",
+      "note": "原页为е上重音，不是ё；常见有提手的文件包或书包。",
+      "stage": 1,
+      "original": {
+        "word": "портфёль",
+        "part_of_speech": "阳",
+        "meaning_zh": "公文包；手提包",
+        "source_page": 214,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "портфель",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=214"
+      ]
+    },
+    {
+      "id": 9592,
+      "accent": "по-ру́сски",
+      "part": "副词",
+      "meaning": "用俄语；按俄罗斯方式",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "по-русски",
+        "part_of_speech": "副",
+        "meaning_zh": "用俄语；按俄国方式",
+        "source_page": 214,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "по-русски",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=214"
+      ]
+    },
+    {
+      "id": 9593,
+      "accent": "поруча́ть",
+      "part": "动词，未完成体",
+      "meaning": "委托；交办；托付",
+      "perfective": "поручи́ть",
+      "note": "人用三格，托付的任务或人用四格。",
+      "stage": 2,
+      "original": {
+        "word": "поручать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "委托；托付；交给",
+        "source_page": 214,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поручать",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=214"
+      ]
+    },
+    {
+      "id": 9594,
+      "accent": "поруче́ние",
+      "part": "名词，中性",
+      "meaning": "委托；交办的任务；嘱托",
+      "perfective": "",
+      "note": "修正ё误识别，重音在е。",
+      "stage": 2,
+      "original": {
+        "word": "поручёние",
+        "part_of_speech": "中",
+        "meaning_zh": "委托；任务；嘱托",
+        "source_page": 215,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поручение",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=215"
+      ]
+    },
+    {
+      "id": 9595,
+      "accent": "по́рция",
+      "part": "名词，阴性",
+      "meaning": "一份；一客；一定份量",
+      "perfective": "",
+      "note": "常用于饭食，也可指分成若干份的其他物质。",
+      "stage": 1,
+      "original": {
+        "word": "порция",
+        "part_of_speech": "阮",
+        "meaning_zh": "一份；一客；一份食物",
+        "source_page": 215,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "порция",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=215"
+      ]
+    },
+    {
+      "id": 9596,
+      "accent": "поря́док",
+      "part": "名词，阳性",
+      "meaning": "秩序；整齐；次序；程序；制度；规则；办法",
+      "perfective": "",
+      "note": "всё в порядке为一切正常，须按搭配理解。",
+      "stage": 1,
+      "original": {
+        "word": "порядок",
+        "part_of_speech": "阳",
+        "meaning_zh": "秩序；次序；程序；制度；方法",
+        "source_page": 215,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "порядок",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=215"
+      ]
+    },
+    {
+      "id": 9597,
+      "accent": "поря́дочный",
+      "part": "形容词",
+      "meaning": "正派的；品行端正的；相当大的；相当多的；不错的",
+      "perfective": "",
+      "note": "数量程度义和品行义均为原页内容，不能只保留体面。",
+      "stage": 2,
+      "original": {
+        "word": "порядочный",
+        "part_of_speech": "形",
+        "meaning_zh": "很大的；很多的；体面的；正派的",
+        "source_page": 215,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "порядочный",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=215"
+      ]
+    },
+    {
+      "id": 9598,
+      "accent": "по-сво́ему",
+      "part": "副词",
+      "meaning": "按自己的方式；各有特点地；从自己的角度",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "по-своему",
+        "part_of_speech": "副",
+        "meaning_zh": "按自己的方式；独特地",
+        "source_page": 215,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "по-своему",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=215"
+      ]
+    },
+    {
+      "id": 9599,
+      "accent": "посвяща́ть",
+      "part": "动词，未完成体",
+      "meaning": "告知内情；献给；贡献；把……用于；以……为主题",
+      "perfective": "посвяти́ть",
+      "note": "посвящать кого во что为告知内情；посвящать что кому-чему为献给或用于。",
+      "stage": 2,
+      "original": {
+        "word": "посвящать",
+        "part_of_speech": "未",
+        "meaning_zh": "使……知道；告知；献给；致力于",
+        "source_page": 215,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "посвящать",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=215"
+      ]
+    },
+    {
+      "id": 9600,
+      "accent": "посёлок",
+      "part": "名词，阳性",
+      "meaning": "小镇；居民点；市镇",
+      "perfective": "",
+      "note": "保留ё；不是普通市内行政区的统称。",
+      "stage": 2,
+      "original": {
+        "word": "посёлок",
+        "part_of_speech": "阳",
+        "meaning_zh": "小镇；市镇；居民区",
+        "source_page": 215,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "посёлок",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=215"
+      ]
+    },
+    {
+      "id": 9601,
+      "accent": "посети́тель",
+      "part": "名词，阳性",
+      "meaning": "来访者；参观者；顾客",
+      "perfective": "",
+      "note": "可指图书馆读者或店内顾客，按场所区分。",
+      "stage": 2,
+      "original": {
+        "word": "посетитель",
+        "part_of_speech": "阳",
+        "meaning_zh": "访问者；参观者；客人",
+        "source_page": 215,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "посетитель",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=215"
+      ]
+    },
+    {
+      "id": 9602,
+      "accent": "посеща́ть",
+      "part": "动词，未完成体",
+      "meaning": "访问；拜访；探望；参观；到……去；出席",
+      "perfective": "посети́ть",
+      "note": "可说посещать занятия参加课程；不只旅游参观。",
+      "stage": 2,
+      "original": {
+        "word": "посещать",
+        "part_of_speech": "未",
+        "meaning_zh": "访问；拜访；探望；参观",
+        "source_page": 215,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "посещать",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=215"
+      ]
+    },
+    {
+      "id": 9603,
+      "accent": "после́дний",
+      "part": "形容词",
+      "meaning": "最后的；末尾的；最终的；最新的；最近的",
+      "perfective": "",
+      "note": "修正ё误识别；临终遗愿等是搭配义，最新消息、最近一段时间也是常见用法。",
+      "stage": 1,
+      "original": {
+        "word": "послёдний",
+        "part_of_speech": "形",
+        "meaning_zh": "最后的；末尾的；临终的；最新的；决定性的",
+        "source_page": 216,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "последний",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=216"
+      ]
+    },
+    {
+      "id": 9604,
+      "accent": "послеза́втра",
+      "part": "副词",
+      "meaning": "后天",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "послезавтра",
+        "part_of_speech": "副",
+        "meaning_zh": "后天",
+        "source_page": 216,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "послезавтра",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=216"
+      ]
+    },
+    {
+      "id": 9605,
+      "accent": "посло́вица",
+      "part": "名词，阴性",
+      "meaning": "谚语",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "пословица",
+        "part_of_speech": "阴",
+        "meaning_zh": "谚语",
+        "source_page": 216,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пословица",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=216"
+      ]
+    },
+    {
+      "id": 9606,
+      "accent": "послу́шать",
+      "part": "动词，完成体",
+      "meaning": "听一听；听一会儿；听从",
+      "perfective": "",
+      "note": "听一会儿为слу́шать的限时动作；听从意见须看具体语境。",
+      "stage": 1,
+      "original": {
+        "word": "послушать",
+        "part_of_speech": "完",
+        "meaning_zh": "听一会儿",
+        "source_page": 216,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "послушать",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=216"
+      ]
+    },
+    {
+      "id": 9607,
+      "accent": "послу́шный",
+      "part": "形容词",
+      "meaning": "听话的；顺从的；易于操控的",
+      "perfective": "",
+      "note": "可形容孩子，也可形容听使唤的工具。",
+      "stage": 1,
+      "original": {
+        "word": "послушный",
+        "part_of_speech": "形",
+        "meaning_zh": "听话的；顺从的",
+        "source_page": 216,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "послушный",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=216"
+      ]
+    },
+    {
+      "id": 9608,
+      "accent": "поспе́шно",
+      "part": "副词",
+      "meaning": "匆忙地；仓促地",
+      "perfective": "",
+      "note": "修正ё误识别。",
+      "stage": 2,
+      "original": {
+        "word": "поспёшно",
+        "part_of_speech": "副",
+        "meaning_zh": "匆忙地",
+        "source_page": 216,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поспешно",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=216"
+      ]
+    },
+    {
+      "id": 9609,
+      "accent": "посреди́",
+      "part": "前置词、副词",
+      "meaning": "在……中间；在……当中；在中间",
+      "perfective": "",
+      "note": "作前置词接二格，如посреди комнаты。",
+      "stage": 2,
+      "original": {
+        "word": "посреди",
+        "part_of_speech": "前",
+        "meaning_zh": "在中间；在……当中",
+        "source_page": 216,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "посреди",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=216"
+      ]
+    },
+    {
+      "id": 9610,
+      "accent": "пост",
+      "part": "名词，阳性",
+      "meaning": "岗位；岗哨；哨所；职位",
+      "perfective": "",
+      "note": "本来源为岗位义；另有同形宗教名词表示斋戒，不混作本页义项。",
+      "stage": 2,
+      "original": {
+        "word": "пост",
+        "part_of_speech": "阳",
+        "meaning_zh": "岗位；岗哨；职位",
+        "source_page": 216,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пост",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=216"
+      ]
+    },
+    {
+      "id": 9611,
+      "accent": "посте́ль",
+      "part": "名词，阴性",
+      "meaning": "床铺；被褥",
+      "perfective": "",
+      "note": "与床架本体кровать侧重点不同。",
+      "stage": 1,
+      "original": {
+        "word": "постель",
+        "part_of_speech": "阴",
+        "meaning_zh": "被褥；床铺",
+        "source_page": 216,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "постель",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=216"
+      ]
+    },
+    {
+      "id": 9612,
+      "accent": "постепе́нный",
+      "part": "形容词",
+      "meaning": "逐渐的；渐进的",
+      "perfective": "",
+      "note": "修正ё误识别；本条是形容词，不写成副词渐渐地。",
+      "stage": 2,
+      "original": {
+        "word": "постепённый",
+        "part_of_speech": "形",
+        "meaning_zh": "渐渐的；逐渐的",
+        "source_page": 216,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "постепенный",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=216"
+      ]
+    },
+    {
+      "id": 9613,
+      "accent": "постоя́нный",
+      "part": "形容词",
+      "meaning": "经常的；持续的；固定的；永久的；一贯的；不变的",
+      "perfective": "",
+      "note": "常量中的常用постоянный，与临时временный对照。",
+      "stage": 2,
+      "original": {
+        "word": "постоянный",
+        "part_of_speech": "形",
+        "meaning_zh": "经常的；不断的；固定的；一贯的",
+        "source_page": 216,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "постоянный",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=216"
+      ]
+    },
+    {
+      "id": 9614,
+      "accent": "поступа́ть",
+      "part": "动词，未完成体",
+      "meaning": "行事；做事；进入；入学；入职；到达；送达",
+      "perfective": "поступи́ть",
+      "note": "补跨页书籍上市、申请送达义；入大学常用поступить в университет。",
+      "stage": 2,
+      "original": {
+        "word": "поступать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "行事；做事；进入；参加；到达",
+        "source_page": 216,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поступать",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=216",
+        "data/words/tem4_russian_words.pdf#page=217"
+      ]
+    },
+    {
+      "id": 9615,
+      "accent": "посту́пок",
+      "part": "名词，阳性",
+      "meaning": "行为；举动",
+      "perfective": "",
+      "note": "常指具体一次可评价的行为，区别整体行为表现поведение。",
+      "stage": 2,
+      "original": {
+        "word": "поступок",
+        "part_of_speech": "阳",
+        "meaning_zh": "行为；举动",
+        "source_page": 217,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поступок",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=217"
+      ]
+    },
+    {
+      "id": 9616,
+      "accent": "посу́да",
+      "part": "名词，阴性；集合义",
+      "meaning": "餐具；炊具；器皿",
+      "perfective": "",
+      "note": "茶具为чайная посуда；集合名词，不把每件器皿都计作一个посуда。",
+      "stage": 1,
+      "original": {
+        "word": "посуда",
+        "part_of_speech": "阴",
+        "meaning_zh": "器皿；餐具；茶具",
+        "source_page": 217,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "посуда",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=217"
+      ]
+    },
+    {
+      "id": 9617,
+      "accent": "посчастли́виться",
+      "part": "动词，完成体；无人称",
+      "meaning": "有幸；幸运地能……",
+      "perfective": "",
+      "note": "幸运的人用三格，常接不定式；不是表示给别人祝福。",
+      "stage": 2,
+      "original": {
+        "word": "посчастливиться",
+        "part_of_speech": "完 , 无 人 称",
+        "meaning_zh": "碰上运气；很幸运地能……",
+        "source_page": 217,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "посчастливиться",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=217"
+      ]
+    },
+    {
+      "id": 9618,
+      "accent": "посыла́ть",
+      "part": "动词，未完成体",
+      "meaning": "派遣；寄出；汇出；发送；送去",
+      "perfective": "посла́ть",
+      "note": "可派人、寄信或发出问候，按宾语选译。",
+      "stage": 1,
+      "original": {
+        "word": "посылать",
+        "part_of_speech": "未",
+        "meaning_zh": "派遣；寄出；汇出；送出",
+        "source_page": 217,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "посылать",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=217"
+      ]
+    },
+    {
+      "id": 9619,
+      "accent": "посы́лка",
+      "part": "名词，阴性",
+      "meaning": "邮包；包裹；寄送；前提（逻辑）",
+      "perfective": "",
+      "note": "包裹为原页核心义；逻辑前提为另一语境，不能译成邮包。",
+      "stage": 1,
+      "original": {
+        "word": "посылка",
+        "part_of_speech": "阴",
+        "meaning_zh": "邮包；包裹",
+        "source_page": 217,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "посылка",
+      "method": "2026-09-17当前助手视觉核对PDF214至217页，逐项修复重音符号误识别为ё，核对中文核心义及动词体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=217"
+      ]
+    }
+  ]
+}

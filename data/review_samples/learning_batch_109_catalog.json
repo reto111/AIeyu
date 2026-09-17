@@ -1,0 +1,697 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9557,
+      "accent": "по́льза",
+      "part": "名词，阴性",
+      "meaning": "益处；好处；利益",
+      "perfective": "",
+      "note": "в пользу等固定搭配表示有利于或支持，不单独增添动词义。",
+      "stage": 1,
+      "original": {
+        "word": "польза",
+        "part_of_speech": "阴",
+        "meaning_zh": "益处；好处；利益",
+        "source_page": 211,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "польза",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=211"
+      ]
+    },
+    {
+      "id": 9558,
+      "accent": "по́льзоваться",
+      "part": "动词，未完成体",
+      "meaning": "使用；运用；利用；享有；受到",
+      "perfective": "воспо́льзоваться",
+      "note": "体对适用于使用、利用；享有声望等状态义不强套完成体。接五格。",
+      "stage": 2,
+      "original": {
+        "word": "пользоваться",
+        "part_of_speech": "未",
+        "meaning_zh": "使用；运用；利用；享有；受到",
+        "source_page": 211,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пользоваться",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=211"
+      ]
+    },
+    {
+      "id": 9559,
+      "accent": "полюби́ть",
+      "part": "动词，完成体",
+      "meaning": "爱上；开始喜欢",
+      "perfective": "",
+      "note": "起始动作，基础动词люби́ть；不等同持续爱着。",
+      "stage": 1,
+      "original": {
+        "word": "полюбить",
+        "part_of_speech": "完",
+        "meaning_zh": "爱上；开始喜欢",
+        "source_page": 211,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "полюбить",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=211"
+      ]
+    },
+    {
+      "id": 9560,
+      "accent": "по́люс",
+      "part": "名词，阳性",
+      "meaning": "极；地极；磁极；电极",
+      "perfective": "",
+      "note": "如南北极、正负极。",
+      "stage": 2,
+      "original": {
+        "word": "полюс",
+        "part_of_speech": "阳",
+        "meaning_zh": "极；磁极；电极",
+        "source_page": 211,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "полюс",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=211"
+      ]
+    },
+    {
+      "id": 9561,
+      "accent": "помеща́ться",
+      "part": "动词，未完成体",
+      "meaning": "位于；设在；住在；容得下；装得下",
+      "perfective": "помести́ться",
+      "note": "容纳、安置义可用体对；所在位置的状态义不机械套用。",
+      "stage": 2,
+      "original": {
+        "word": "помещаться",
+        "part_of_speech": "未",
+        "meaning_zh": "放置；安置；住在；容得下",
+        "source_page": 211,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "помещаться",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=211",
+        "data/words/tem4_russian_words.pdf#page=212"
+      ]
+    },
+    {
+      "id": 9562,
+      "accent": "помеще́ние",
+      "part": "名词，中性",
+      "meaning": "房间；室内场所；放置；安置",
+      "perfective": "",
+      "note": "原页为е上重音，修正原库ё；不只指住宅房间。",
+      "stage": 2,
+      "original": {
+        "word": "помещёние",
+        "part_of_speech": "中",
+        "meaning_zh": "放置；安置；住所；房间",
+        "source_page": 212,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "помещение",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=212"
+      ]
+    },
+    {
+      "id": 9563,
+      "accent": "поме́щик",
+      "part": "名词，阳性",
+      "meaning": "地主；领地所有者",
+      "perfective": "",
+      "note": "主要用于俄国历史地主语境，不泛指所有统治者。",
+      "stage": 2,
+      "original": {
+        "word": "помещик",
+        "part_of_speech": "阳",
+        "meaning_zh": "地主；领地地主；领主",
+        "source_page": 212,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "помещик",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=212"
+      ]
+    },
+    {
+      "id": 9564,
+      "accent": "помидо́р",
+      "part": "名词，阳性",
+      "meaning": "西红柿；番茄",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "помидор",
+        "part_of_speech": "阳",
+        "meaning_zh": "西红柿；番茄",
+        "source_page": 212,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "помидор",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=212"
+      ]
+    },
+    {
+      "id": 9567,
+      "accent": "по-мо́ему",
+      "part": "副词、插入语",
+      "meaning": "依我看；按我的意见或方式",
+      "perfective": "",
+      "note": "连字符形式区别по моему加名词，如по моему мнению。",
+      "stage": 1,
+      "original": {
+        "word": "по-моему",
+        "part_of_speech": "副",
+        "meaning_zh": "依我看",
+        "source_page": 212,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "по-моему",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=212"
+      ]
+    },
+    {
+      "id": 9568,
+      "accent": "помо́щник",
+      "part": "名词，阳性",
+      "meaning": "助手；助理；副手",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "помощник",
+        "part_of_speech": "阳",
+        "meaning_zh": "助手；助理",
+        "source_page": 212,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "помощник",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=212"
+      ]
+    },
+    {
+      "id": 9569,
+      "accent": "по́мощь",
+      "part": "名词，阴性",
+      "meaning": "帮助；援助",
+      "perfective": "",
+      "note": "скорая помощь完整搭配可指急救、急救服务或救护车，不把车义单独挂词头。",
+      "stage": 1,
+      "original": {
+        "word": "помощь",
+        "part_of_speech": "阴",
+        "meaning_zh": "帮助；援助",
+        "source_page": 212,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "помощь",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=212"
+      ]
+    },
+    {
+      "id": 9570,
+      "accent": "пона́добиться",
+      "part": "动词，完成体",
+      "meaning": "需要；用得着",
+      "perfective": "",
+      "note": "需要的人用三格，被需要的事物作主语，如Мне понадобится книга。",
+      "stage": 2,
+      "original": {
+        "word": "понадобиться",
+        "part_of_speech": "完",
+        "meaning_zh": "需要；用得着",
+        "source_page": 212,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "понадобиться",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=212"
+      ]
+    },
+    {
+      "id": 9571,
+      "accent": "по-настоя́щему",
+      "part": "副词",
+      "meaning": "真正地；认真地；切实地",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "по-настоящему",
+        "part_of_speech": "副",
+        "meaning_zh": "真正地；认真地",
+        "source_page": 212,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "по-настоящему",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=212"
+      ]
+    },
+    {
+      "id": 9572,
+      "accent": "понеде́льник",
+      "part": "名词，阳性",
+      "meaning": "星期一",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "понедельник",
+        "part_of_speech": "阳",
+        "meaning_zh": "星期一",
+        "source_page": 212,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "понедельник",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=212"
+      ]
+    },
+    {
+      "id": 9573,
+      "accent": "понижа́ться",
+      "part": "动词，未完成体",
+      "meaning": "降低；下降；变低",
+      "perfective": "пони́зиться",
+      "note": "可说价格、温度、水位，也可说嗓音降低。",
+      "stage": 2,
+      "original": {
+        "word": "понижаться",
+        "part_of_speech": "未",
+        "meaning_zh": "降低；下降；变低",
+        "source_page": 212,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "понижаться",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=212"
+      ]
+    },
+    {
+      "id": 9575,
+      "accent": "поня́тие",
+      "part": "名词，中性",
+      "meaning": "概念；了解；认识；见解",
+      "perfective": "",
+      "note": "понятия не иметь为一点也不知道；不是词头本身的否定义。",
+      "stage": 2,
+      "original": {
+        "word": "понятие",
+        "part_of_speech": "中",
+        "meaning_zh": "概念；理解；见解；理解程度",
+        "source_page": 213,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "понятие",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=213"
+      ]
+    },
+    {
+      "id": 9576,
+      "accent": "поня́тно",
+      "part": "副词、述谓词、插入语",
+      "meaning": "明白易懂地；清楚；明白；当然",
+      "perfective": "",
+      "note": "副词修饰解释方式；述谓用法如Всё понятно；插入语表示自然、当然。",
+      "stage": 1,
+      "original": {
+        "word": "понятно",
+        "part_of_speech": "制",
+        "meaning_zh": "容易懂地；当然；明白；清楚",
+        "source_page": 213,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "понятно",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=213"
+      ]
+    },
+    {
+      "id": 9577,
+      "accent": "поня́тный",
+      "part": "形容词",
+      "meaning": "容易懂的；清楚的；可以理解的；合乎情理的",
+      "perfective": "",
+      "note": "不等于经核实必然正确，只表示能够理解或有理由。",
+      "stage": 1,
+      "original": {
+        "word": "понятный",
+        "part_of_speech": "形",
+        "meaning_zh": "容易懂的；合理的；有根据的",
+        "source_page": 213,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "понятный",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=213"
+      ]
+    },
+    {
+      "id": 9578,
+      "accent": "попада́ть",
+      "part": "动词，未完成体",
+      "meaning": "打中；命中；进入；到达；偶然来到；陷入",
+      "perfective": "попа́сть",
+      "note": "常有进入某环境或状态的意味，如попасть в беду陷入困境。",
+      "stage": 2,
+      "original": {
+        "word": "попадать",
+        "part_of_speech": "未",
+        "meaning_zh": "打中；命中；进入；陷入；偶然来到",
+        "source_page": 213,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "попадать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=213"
+      ]
+    },
+    {
+      "id": 9579,
+      "accent": "поперёк",
+      "part": "副词、前置词",
+      "meaning": "横着；横跨；横在……上",
+      "perfective": "",
+      "note": "保留ё；作前置词接二格，与вдоль纵向相对。",
+      "stage": 2,
+      "original": {
+        "word": "поперёк",
+        "part_of_speech": "副",
+        "meaning_zh": "横着；横跨；跨过",
+        "source_page": 213,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поперёк",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=213"
+      ]
+    },
+    {
+      "id": 9580,
+      "accent": "поправля́ть",
+      "part": "动词，未完成体",
+      "meaning": "改正；纠正；整理；调整；改善；修复",
+      "perfective": "попра́вить",
+      "note": "可整理发型、纠正说话或改善健康，不只改文字。",
+      "stage": 2,
+      "original": {
+        "word": "поправлять",
+        "part_of_speech": "未",
+        "meaning_zh": "纠正；修改；整理",
+        "source_page": 213,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поправлять",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=213"
+      ]
+    },
+    {
+      "id": 9581,
+      "accent": "поправля́ться",
+      "part": "动词，未完成体",
+      "meaning": "改正自己的错误；得到改正；康复；好转；长胖",
+      "perfective": "попра́виться",
+      "note": "身体康复与体重增加是不同常用义。",
+      "stage": 2,
+      "original": {
+        "word": "поправляться",
+        "part_of_speech": "未",
+        "meaning_zh": "改正错误；恢复；改善；长胖",
+        "source_page": 213,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поправляться",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=213"
+      ]
+    },
+    {
+      "id": 9582,
+      "accent": "по-пре́жнему",
+      "part": "副词",
+      "meaning": "依旧；仍然；照旧",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "по-прежнему",
+        "part_of_speech": "副",
+        "meaning_zh": "依旧；仍然",
+        "source_page": 213,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "по-прежнему",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=213"
+      ]
+    },
+    {
+      "id": 9583,
+      "accent": "популя́рный",
+      "part": "形容词",
+      "meaning": "受欢迎的；流行的；有名望的；通俗易懂的",
+      "perfective": "",
+      "note": "通俗科普与流行受欢迎不能混为同一义项。",
+      "stage": 2,
+      "original": {
+        "word": "популярный",
+        "part_of_speech": "形",
+        "meaning_zh": "通俗的；大众化的；驰名的；有声望的",
+        "source_page": 213,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "популярный",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=213",
+        "data/words/tem4_russian_words.pdf#page=214"
+      ]
+    },
+    {
+      "id": 9584,
+      "accent": "пора́",
+      "part": "名词，阴性；述谓词",
+      "meaning": "时候；时期；季节；该……了",
+      "perfective": "",
+      "note": "本来源为时间义；不要混入同形名词пора孔隙。",
+      "stage": 1,
+      "original": {
+        "word": "пора",
+        "part_of_speech": "阴",
+        "meaning_zh": "时候；时期；季节；该……了",
+        "source_page": 214,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пора",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=214"
+      ]
+    },
+    {
+      "id": 9585,
+      "accent": "поража́ть",
+      "part": "动词，未完成体",
+      "meaning": "使惊讶；使震惊；击中；击败；损伤",
+      "perfective": "порази́ть",
+      "note": "可说消息令人惊讶，也可说攻击或疾病造成损害。",
+      "stage": 2,
+      "original": {
+        "word": "поражать",
+        "part_of_speech": "Ж|",
+        "meaning_zh": "使震惊；击败；击溃；战胜",
+        "source_page": 214,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поражать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=214"
+      ]
+    },
+    {
+      "id": 9586,
+      "accent": "пораже́ние",
+      "part": "名词，中性",
+      "meaning": "失败；战败；打击；损伤；病变",
+      "perfective": "",
+      "note": "原页含遭雷击等受损义，不只是比赛失败。",
+      "stage": 2,
+      "original": {
+        "word": "поражение",
+        "part_of_speech": "中",
+        "meaning_zh": "失败；战败；挫折；损害",
+        "source_page": 214,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "поражение",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=214"
+      ]
+    },
+    {
+      "id": 9587,
+      "accent": "порошо́к",
+      "part": "名词，阳性",
+      "meaning": "粉末；药粉",
+      "perfective": "",
+      "note": "洗衣粉通常为стиральный порошок；口语也可依语境省略限定词。",
+      "stage": 2,
+      "original": {
+        "word": "порошок",
+        "part_of_speech": "阳",
+        "meaning_zh": "粉末；药粉；洗衣粉",
+        "source_page": 214,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "порошок",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=214"
+      ]
+    },
+    {
+      "id": 9588,
+      "accent": "порт",
+      "part": "名词，阳性",
+      "meaning": "港；港口；计算机端口",
+      "perfective": "",
+      "note": "海港、军港需相应修饰语；航空港为воздушный порт，常用аэропорт。计算机义需看语境。",
+      "stage": 2,
+      "original": {
+        "word": "порт",
+        "part_of_speech": "阳",
+        "meaning_zh": "港口；海港；军港；航空港",
+        "source_page": 214,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "порт",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=214"
+      ]
+    },
+    {
+      "id": 9589,
+      "accent": "по́ртить",
+      "part": "动词，未完成体",
+      "meaning": "损坏；损害；破坏；使恶化；使变坏；惯坏",
+      "perfective": "испо́ртить",
+      "note": "原页包括使人堕落、使性格变坏，不只损坏物品。",
+      "stage": 2,
+      "original": {
+        "word": "портить",
+        "part_of_speech": "Ж",
+        "meaning_zh": "损害；损坏；破坏；使恶化",
+        "source_page": 214,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "портить",
+      "method": "2026-09-17当前助手逐词视觉核对PDF211至214页，复核重音、词性、体及核心词义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=214"
+      ]
+    }
+  ]
+}
