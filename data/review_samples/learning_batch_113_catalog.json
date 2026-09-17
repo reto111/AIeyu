@@ -1,0 +1,699 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9681,
+      "accent": "прекраща́ть",
+      "part": "动词，未完成体",
+      "meaning": "停止；终止；中断",
+      "perfective": "прекрати́ть",
+      "note": "及物，表示停止某项活动。",
+      "stage": 2,
+      "original": {
+        "word": "прекращать",
+        "part_of_speech": "未",
+        "meaning_zh": "停止；终止；中断",
+        "source_page": 223,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прекращать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=223"
+      ]
+    },
+    {
+      "id": 9682,
+      "accent": "прекраща́ться",
+      "part": "动词，未完成体",
+      "meaning": "停止；终止；中断",
+      "perfective": "прекрати́ться",
+      "note": "不及物，活动或现象本身停止。",
+      "stage": 2,
+      "original": {
+        "word": "прекращаться",
+        "part_of_speech": "未",
+        "meaning_zh": "停止；终止",
+        "source_page": 223,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прекращаться",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=223"
+      ]
+    },
+    {
+      "id": 9683,
+      "accent": "пре́мия",
+      "part": "名词，阴性",
+      "meaning": "奖金；奖项；奖品；赠品",
+      "perfective": "",
+      "note": "原页赠品用于购买商品获赠物品；删除奖金性赠品这一生硬拼接。",
+      "stage": 2,
+      "original": {
+        "word": "премия",
+        "part_of_speech": "阴",
+        "meaning_zh": "奖金；奖品；奖项；奖金性赠品",
+        "source_page": 223,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "премия",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=223"
+      ]
+    },
+    {
+      "id": 9684,
+      "accent": "пренебрега́ть",
+      "part": "动词，未完成体",
+      "meaning": "轻视；忽视；不重视；不屑于",
+      "perfective": "пренебре́чь",
+      "note": "接五格，如пренебрегать опасностью不顾危险。",
+      "stage": 2,
+      "original": {
+        "word": "пренебрегать",
+        "part_of_speech": "未",
+        "meaning_zh": "轻视；蔑视；不重视；不屑于",
+        "source_page": 223,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "пренебрегать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=223"
+      ]
+    },
+    {
+      "id": 9685,
+      "accent": "преодолева́ть",
+      "part": "动词，未完成体",
+      "meaning": "克服；战胜；抑制；越过",
+      "perfective": "преодоле́ть",
+      "note": "可克服困难、抑制情绪或越过障碍。",
+      "stage": 2,
+      "original": {
+        "word": "преодолевать",
+        "part_of_speech": "未",
+        "meaning_zh": "克服；战胜；忍住",
+        "source_page": 223,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "преодолевать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=223"
+      ]
+    },
+    {
+      "id": 9686,
+      "accent": "преподава́тель",
+      "part": "名词，阳性",
+      "meaning": "教师；教员",
+      "perfective": "",
+      "note": "多用于中高等学校；不能一律对应讲师这一具体职称。",
+      "stage": 1,
+      "original": {
+        "word": "преподаватель",
+        "part_of_speech": "阳/阴",
+        "meaning_zh": "教师；讲师；教员",
+        "source_page": 223,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "преподаватель",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=223"
+      ]
+    },
+    {
+      "id": 9687,
+      "accent": "преподава́ть",
+      "part": "动词，未完成体",
+      "meaning": "教；讲授；教授",
+      "perfective": "препода́ть",
+      "note": "完成体常用于传授一次教训、讲一课等；长期任教状态不机械换完成体。这里教授是动词，不是职称。",
+      "stage": 1,
+      "original": {
+        "word": "преподавать",
+        "part_of_speech": "未",
+        "meaning_zh": "教授；讲授；教",
+        "source_page": 223,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "преподавать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=223"
+      ]
+    },
+    {
+      "id": 9688,
+      "accent": "престу́пник",
+      "part": "名词，阳性",
+      "meaning": "罪犯；犯罪者",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "преступник",
+        "part_of_speech": "阳",
+        "meaning_zh": "罪犯；犯人",
+        "source_page": 224,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "преступник",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=224"
+      ]
+    },
+    {
+      "id": 9689,
+      "accent": "при",
+      "part": "前置词",
+      "meaning": "在……旁；附属于；随身带有；在……时；在……条件下；当着……的面",
+      "perfective": "",
+      "note": "接六格；所属机构、时间和条件等用法不能只译为附近。",
+      "stage": 1,
+      "original": {
+        "word": "при",
+        "part_of_speech": "前",
+        "meaning_zh": "在……旁边；在……附近；在……时；在……情况下；伴随",
+        "source_page": 224,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "при",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=224"
+      ]
+    },
+    {
+      "id": 9690,
+      "accent": "прибавля́ть",
+      "part": "动词，未完成体",
+      "meaning": "加上；添加；增加；补充",
+      "perfective": "приба́вить",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "прибавлять",
+        "part_of_speech": "未",
+        "meaning_zh": "增加；加上；补充；添上",
+        "source_page": 224,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прибавлять",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=224"
+      ]
+    },
+    {
+      "id": 9691,
+      "accent": "прибега́ть",
+      "part": "动词，未完成体",
+      "meaning": "跑来；跑到；求助于；采用某种手段",
+      "perfective": "прибежа́ть",
+      "note": "跑来义完成体为прибежа́ть；求助、采用手段义为прибе́гнуть，接к加三格。原页只列一个完成体，不能覆盖两义。",
+      "stage": 2,
+      "original": {
+        "word": "прибегать",
+        "part_of_speech": "未",
+        "meaning_zh": "跑来；跑到；求助于；采取（措施）",
+        "source_page": 224,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прибегать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=224",
+        "https://gramota.ru/meta/pribegat",
+        "https://ruw.uni-leipzig.de/ra/online/ruw-online.htm?ru=%D0%BF%D1%80%D0%B8%D0%B1%D0%B5%D0%B3%D0%B0%D1%82%D1%8C"
+      ]
+    },
+    {
+      "id": 9692,
+      "accent": "приближа́ться",
+      "part": "动词，未完成体",
+      "meaning": "接近；靠近；临近",
+      "perfective": "прибли́зиться",
+      "note": "空间距离与时间临近均可。",
+      "stage": 2,
+      "original": {
+        "word": "приближаться",
+        "part_of_speech": "未",
+        "meaning_zh": "接近；靠近；临近",
+        "source_page": 224,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приближаться",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=224"
+      ]
+    },
+    {
+      "id": 9693,
+      "accent": "приблизи́тельно",
+      "part": "副词",
+      "meaning": "大约；大致；近似地",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "приблизительно",
+        "part_of_speech": "副",
+        "meaning_zh": "大约；大概",
+        "source_page": 224,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приблизительно",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=224"
+      ]
+    },
+    {
+      "id": 9694,
+      "accent": "прибо́р",
+      "part": "名词，阳性",
+      "meaning": "仪器；仪表；装置；成套器具",
+      "perfective": "",
+      "note": "столовый прибор为一套餐具；不限定为测量仪器。",
+      "stage": 2,
+      "original": {
+        "word": "прибор",
+        "part_of_speech": "阳",
+        "meaning_zh": "仪器；仪表；装置；器具",
+        "source_page": 224,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прибор",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=224"
+      ]
+    },
+    {
+      "id": 9695,
+      "accent": "прибыва́ть",
+      "part": "动词，未完成体",
+      "meaning": "到达；抵达；增加；增多",
+      "perfective": "прибы́ть",
+      "note": "到达与水量等增长义分开理解；区别пребывать处于某状态。",
+      "stage": 2,
+      "original": {
+        "word": "прибывать",
+        "part_of_speech": "未",
+        "meaning_zh": "到达；抵达；增加；增多",
+        "source_page": 224,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прибывать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=224"
+      ]
+    },
+    {
+      "id": 9696,
+      "accent": "приве́т",
+      "part": "名词，阳性；招呼语",
+      "meaning": "问候；致意；你好；嗨",
+      "perfective": "",
+      "note": "日常招呼较随意，正式场合通常用Здравствуйте。",
+      "stage": 1,
+      "original": {
+        "word": "привет",
+        "part_of_speech": "阳",
+        "meaning_zh": "问候；招呼；致意；你好",
+        "source_page": 224,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "привет",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=224"
+      ]
+    },
+    {
+      "id": 9697,
+      "accent": "приве́тливый",
+      "part": "形容词",
+      "meaning": "和蔼的；亲切的；友好的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "приветливый",
+        "part_of_speech": "形",
+        "meaning_zh": "和蔼的；亲切的；友好的",
+        "source_page": 224,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приветливый",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=224"
+      ]
+    },
+    {
+      "id": 9698,
+      "accent": "приве́тствие",
+      "part": "名词，中性",
+      "meaning": "问候；致意；欢迎词；贺词",
+      "perfective": "",
+      "note": "已核跨页обратиться с приветствием致欢迎词。",
+      "stage": 2,
+      "original": {
+        "word": "приветствие",
+        "part_of_speech": "中",
+        "meaning_zh": "问候；致意；祝贺；贺词",
+        "source_page": 224,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приветствие",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=224",
+        "data/words/tem4_russian_words.pdf#page=225"
+      ]
+    },
+    {
+      "id": 9699,
+      "accent": "приве́тствовать",
+      "part": "动词，未完成体",
+      "meaning": "向……问候；欢迎；致意；拥护；赞成",
+      "perfective": "поприве́тствовать",
+      "note": "体对用于一次问候、致意；拥护某政策的持续态不机械套用。",
+      "stage": 2,
+      "original": {
+        "word": "приветствовать",
+        "part_of_speech": "未",
+        "meaning_zh": "向……问候；欢迎；致意；拥护；赞成",
+        "source_page": 225,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приветствовать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=225"
+      ]
+    },
+    {
+      "id": 9700,
+      "accent": "привлека́ть",
+      "part": "动词，未完成体",
+      "meaning": "吸引；引起注意；吸引参加；招引",
+      "perfective": "привле́чь",
+      "note": "可吸引目光或使人参与工作，常用к加三格表参与目标。",
+      "stage": 2,
+      "original": {
+        "word": "привлекать",
+        "part_of_speech": "未",
+        "meaning_zh": "吸引；招来；吸引参加；引起（注意）",
+        "source_page": 225,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "привлекать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=225"
+      ]
+    },
+    {
+      "id": 9701,
+      "accent": "привози́ть",
+      "part": "动词，未完成体",
+      "meaning": "运来；运到；乘交通工具带来",
+      "perfective": "привезти́",
+      "note": "运输工具带来用з，区别привести步行带来。",
+      "stage": 1,
+      "original": {
+        "word": "привозить",
+        "part_of_speech": "未",
+        "meaning_zh": "运来；带来；运到",
+        "source_page": 225,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "привозить",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=225"
+      ]
+    },
+    {
+      "id": 9702,
+      "accent": "привыка́ть",
+      "part": "动词，未完成体",
+      "meaning": "逐渐习惯；适应；养成习惯",
+      "perfective": "привы́кнуть",
+      "note": "к加三格或不定式；不只是知道某人的普通熟悉。",
+      "stage": 2,
+      "original": {
+        "word": "привыкать",
+        "part_of_speech": "未",
+        "meaning_zh": "习惯于；逐渐适应；与……熟悉",
+        "source_page": 225,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "привыкать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=225"
+      ]
+    },
+    {
+      "id": 9703,
+      "accent": "привы́чный",
+      "part": "形容词",
+      "meaning": "惯常的；习以为常的；熟悉的；习惯于……的",
+      "perfective": "",
+      "note": "后一个义项常接к加三格。",
+      "stage": 2,
+      "original": {
+        "word": "привычный",
+        "part_of_speech": "形",
+        "meaning_zh": "习惯的；熟悉的；惯常的",
+        "source_page": 225,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "привычный",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=225"
+      ]
+    },
+    {
+      "id": 9704,
+      "accent": "приглаша́ть",
+      "part": "动词，未完成体",
+      "meaning": "邀请；请来；聘请",
+      "perfective": "пригласи́ть",
+      "note": "聘请顾问等可用，不把一般所有雇佣关系都等同本词。",
+      "stage": 1,
+      "original": {
+        "word": "приглашать",
+        "part_of_speech": "未",
+        "meaning_zh": "邀请；聘请；雇佣",
+        "source_page": 225,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приглашать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=225"
+      ]
+    },
+    {
+      "id": 9705,
+      "accent": "приглаше́ние",
+      "part": "名词，中性",
+      "meaning": "邀请；请帖；邀请函",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "приглашение",
+        "part_of_speech": "中",
+        "meaning_zh": "邀请；请帖；邀请函",
+        "source_page": 225,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приглашение",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=225"
+      ]
+    },
+    {
+      "id": 9706,
+      "accent": "пригота́вливать",
+      "part": "动词，未完成体",
+      "meaning": "准备；预备；事先安排；烹调",
+      "perfective": "пригото́вить",
+      "note": "原页另列приготовля́ть；补跨页做饭、准备功课等义。",
+      "stage": 2,
+      "original": {
+        "word": "приготавливать",
+        "part_of_speech": "未",
+        "meaning_zh": "准备；预备；烹调",
+        "source_page": 225,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приготавливать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=225",
+        "data/words/tem4_russian_words.pdf#page=226"
+      ]
+    },
+    {
+      "id": 9707,
+      "accent": "придава́ть",
+      "part": "动词，未完成体",
+      "meaning": "赋予；使具有；增添；给予",
+      "perfective": "прида́ть",
+      "note": "区别предавать背叛；придавать значение表示认为有意义、重视。",
+      "stage": 2,
+      "original": {
+        "word": "придавать",
+        "part_of_speech": "未",
+        "meaning_zh": "赋予；给予；使具有；增添",
+        "source_page": 226,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "придавать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=226"
+      ]
+    },
+    {
+      "id": 9708,
+      "accent": "приду́мывать",
+      "part": "动词，未完成体",
+      "meaning": "想出；构思；编造；虚构",
+      "perfective": "приду́мать",
+      "note": "不必达到专利发明的含义；可想出办法或编造理由。",
+      "stage": 2,
+      "original": {
+        "word": "придумывать",
+        "part_of_speech": "未",
+        "meaning_zh": "想出；发明；编造",
+        "source_page": 226,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "придумывать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=226"
+      ]
+    },
+    {
+      "id": 9709,
+      "accent": "прие́зд",
+      "part": "名词，阳性",
+      "meaning": "乘交通工具到来；抵达",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "приезд",
+        "part_of_speech": "阳",
+        "meaning_zh": "到来；抵达",
+        "source_page": 226,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приезд",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=226"
+      ]
+    },
+    {
+      "id": 9710,
+      "accent": "приезжа́ть",
+      "part": "动词，未完成体",
+      "meaning": "乘车、船等到来；抵达",
+      "perfective": "прие́хать",
+      "note": "与步行到达приходить区别。",
+      "stage": 1,
+      "original": {
+        "word": "приезжать",
+        "part_of_speech": "未",
+        "meaning_zh": "来；到达；抵达（乘车、船等）",
+        "source_page": 226,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приезжать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF223至226页，核对重音、词性与核心义；прибегать另查词典分开两义的完成体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=226"
+      ]
+    }
+  ]
+}

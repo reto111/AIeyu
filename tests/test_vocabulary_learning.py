@@ -14,6 +14,7 @@ import serve_student_app as app
 import import_vocabulary_learning as importer
 import vocabulary_learning as learning
 import correct_learning_polvieka as correction
+import correct_learning_pravo as pravo_correction
 import archive_vocabulary_headers as header_correction
 
 
@@ -84,6 +85,21 @@ class VocabularyLearningTests(unittest.TestCase):
             conn.execute("UPDATE vocabulary_learning_annotations SET note='later human edit' WHERE vocabulary_item_id=4315")
         with self.assertRaisesRegex(ValueError, '停止覆盖'):
             correction.correct(self.path, True, self.root / 'backups')
+
+    def test_pravo_append_preserves_source_and_later_edits(self):
+        catalog = ROOT / 'data/review_samples/learning_batch_111_catalog.json'
+        importer.apply_catalog(self.path, catalog, True, self.root / 'backups')
+        with app.db() as conn:
+            original = dict(conn.execute('SELECT * FROM vocabulary_items WHERE id=9650').fetchone())
+        self.assertEqual(pravo_correction.correct(self.path)['state'], 'pending')
+        self.assertTrue(pravo_correction.correct(self.path, True, self.root / 'backups')['database_written'])
+        self.assertFalse(pravo_correction.correct(self.path, True, self.root / 'backups')['database_written'])
+        with app.db() as conn:
+            self.assertEqual(dict(conn.execute('SELECT * FROM vocabulary_items WHERE id=9650').fetchone()), original)
+            self.assertIn('驾驶证', conn.execute('SELECT note FROM vocabulary_learning_annotations WHERE vocabulary_item_id=9650').fetchone()[0])
+            conn.execute("UPDATE vocabulary_learning_annotations SET note='later human edit' WHERE vocabulary_item_id=9650")
+        with self.assertRaisesRegex(ValueError, 'refusing overwrite'):
+            pravo_correction.correct(self.path, True, self.root / 'backups')
 
     def test_phrase_stress_is_checked_per_word(self):
         importer.check_accent('Атланти́ческий океа́н')

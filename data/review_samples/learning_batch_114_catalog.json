@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9711,
+      "accent": "приём",
+      "part": "名词，阳性",
+      "meaning": "接待；接受；招待会；方法；手法；服用；接收",
+      "perfective": "",
+      "note": "保留ё；服药用приём лекарства，信号接收也可用本词。",
+      "stage": 2,
+      "original": {
+        "word": "приём",
+        "part_of_speech": "阳",
+        "meaning_zh": "接待；接受；招待会；方式；手法",
+        "source_page": 226,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приём",
+      "method": "2026-09-17当前助手逐词视觉核对PDF226至227页，核对重音、е/ё、动词体、核心义与搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=226"
+      ]
+    },
+    {
+      "id": 9712,
+      "accent": "приёмник",
+      "part": "名词，阳性",
+      "meaning": "接收器；收音机",
+      "perfective": "",
+      "note": "保留ё；区别преемник继任者。",
+      "stage": 2,
+      "original": {
+        "word": "приёмник",
+        "part_of_speech": "阳",
+        "meaning_zh": "接收器；收音机",
+        "source_page": 226,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приёмник",
+      "method": "2026-09-17当前助手逐词视觉核对PDF226至227页，核对重音、е/ё、动词体、核心义与搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=226"
+      ]
+    },
+    {
+      "id": 9713,
+      "accent": "приземля́ться",
+      "part": "动词，未完成体",
+      "meaning": "着陆；降落到地面",
+      "perfective": "приземли́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "приземляться",
+        "part_of_speech": "未",
+        "meaning_zh": "着陆；降落",
+        "source_page": 226,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приземляться",
+      "method": "2026-09-17当前助手逐词视觉核对PDF226至227页，核对重音、е/ё、动词体、核心义与搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=226"
+      ]
+    },
+    {
+      "id": 9714,
+      "accent": "признава́ть",
+      "part": "动词，未完成体",
+      "meaning": "承认；认可；认定；承认……为",
+      "perfective": "призна́ть",
+      "note": "признать кого кем可表示认定某人为某种人；承认错误也用本词。",
+      "stage": 2,
+      "original": {
+        "word": "признавать",
+        "part_of_speech": "未",
+        "meaning_zh": "承认；认可；承认……为",
+        "source_page": 226,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "признавать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF226至227页，核对重音、е/ё、动词体、核心义与搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=226"
+      ]
+    },
+    {
+      "id": 9715,
+      "accent": "при́знак",
+      "part": "名词，阳性",
+      "meaning": "特征；迹象；征候；征兆",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "признак",
+        "part_of_speech": "阳",
+        "meaning_zh": "特征；迹象；征候；征兆",
+        "source_page": 226,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "признак",
+      "method": "2026-09-17当前助手逐词视觉核对PDF226至227页，核对重音、е/ё、动词体、核心义与搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=226"
+      ]
+    },
+    {
+      "id": 9716,
+      "accent": "призы́в",
+      "part": "名词，阳性",
+      "meaning": "号召；呼吁；召唤；征召入伍",
+      "perfective": "",
+      "note": "征兵为常用语境，不只指口头呼吁。",
+      "stage": 2,
+      "original": {
+        "word": "призыв",
+        "part_of_speech": "阳",
+        "meaning_zh": "号召；召唤；呼吁",
+        "source_page": 226,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "призыв",
+      "method": "2026-09-17当前助手逐词视觉核对PDF226至227页，核对重音、е/ё、动词体、核心义与搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=226"
+      ]
+    },
+    {
+      "id": 9717,
+      "accent": "призыва́ть",
+      "part": "动词，未完成体",
+      "meaning": "召来；召集；号召；呼吁；征召入伍",
+      "perfective": "призва́ть",
+      "note": "к加三格表示号召做某事；на военную службу为征召服役。",
+      "stage": 2,
+      "original": {
+        "word": "призывать",
+        "part_of_speech": "未",
+        "meaning_zh": "号召；召唤；呼吁",
+        "source_page": 226,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "призывать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF226至227页，核对重音、е/ё、动词体、核心义与搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=226",
+        "data/words/tem4_russian_words.pdf#page=227"
+      ]
+    },
+    {
+      "id": 9718,
+      "accent": "прика́з",
+      "part": "名词，阳性",
+      "meaning": "命令；命令书",
+      "perfective": "",
+      "note": "正式命令，不只是一般建议。",
+      "stage": 2,
+      "original": {
+        "word": "приказ",
+        "part_of_speech": "阳",
+        "meaning_zh": "命令；指示；命令书",
+        "source_page": 227,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приказ",
+      "method": "2026-09-17当前助手逐词视觉核对PDF226至227页，核对重音、е/ё、动词体、核心义与搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=227"
+      ]
+    },
+    {
+      "id": 9719,
+      "accent": "прика́зывать",
+      "part": "动词，未完成体",
+      "meaning": "命令；下令；吩咐",
+      "perfective": "приказа́ть",
+      "note": "常接三格的人和不定式动作。",
+      "stage": 2,
+      "original": {
+        "word": "приказывать",
+        "part_of_speech": "未",
+        "meaning_zh": "命令；下令",
+        "source_page": 227,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "приказывать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF226至227页，核对重音、е/ё、动词体、核心义与搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=227"
+      ]
+    },
+    {
+      "id": 9720,
+      "accent": "прикла́дывать",
+      "part": "动词，未完成体",
+      "meaning": "贴近；放到……上；附上；运用；付出",
+      "perfective": "приложи́ть",
+      "note": "прикладывать усилия为付出努力，不直译为贴上努力。",
+      "stage": 2,
+      "original": {
+        "word": "прикладывать",
+        "part_of_speech": "未",
+        "meaning_zh": "贴近；放在……上；附上；把……用于",
+        "source_page": 227,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прикладывать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF226至227页，核对重音、е/ё、动词体、核心义与搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=227"
+      ]
+    },
+    {
+      "id": 9721,
+      "accent": "прикрепля́ть",
+      "part": "动词，未完成体",
+      "meaning": "固定；附着；把……划归；指定由……负责",
+      "perfective": "прикрепи́ть",
+      "note": "身体贴附和指定负责关系是两个义项。",
+      "stage": 2,
+      "original": {
+        "word": "прикреплять",
+        "part_of_speech": "未",
+        "meaning_zh": "固定在……上；附着；指定；委托负责",
+        "source_page": 227,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прикреплять",
+      "method": "2026-09-17当前助手逐词视觉核对PDF226至227页，核对重音、е/ё、动词体、核心义与搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=227"
+      ]
+    },
+    {
+      "id": 9722,
+      "accent": "прилага́ть",
+      "part": "动词，未完成体",
+      "meaning": "运用；付出；附上；附加",
+      "perfective": "приложи́ть",
+      "note": "常用прилагать усилия努力、付出努力；与прикладывать有部分用法重叠，不自动合并词条。",
+      "stage": 2,
+      "original": {
+        "word": "прилагать",
+        "part_of_speech": "未",
+        "meaning_zh": "应用；运用；添上；附加",
+        "source_page": 227,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прилагать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF226至227页，核对重音、е/ё、动词体、核心义与搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=227"
+      ]
+    },
+    {
+      "id": 9723,
+      "accent": "приле́жный",
+      "part": "形容词",
+      "meaning": "勤奋的；勤勉的；用功的",
+      "perfective": "",
+      "note": "保留е；多用于学习、工作态度。",
+      "stage": 1,
+      "original": {
+        "word": "прилежный",
+        "part_of_speech": "形",
+        "meaning_zh": "勤奋的；勤勉的；用功的",
+        "source_page": 227,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прилежный",
+      "method": "2026-09-17当前助手逐词视觉核对PDF226至227页，核对重音、е/ё、动词体、核心义与搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=227"
+      ]
+    },
+    {
+      "id": 9724,
+      "accent": "прилета́ть",
+      "part": "动词，未完成体",
+      "meaning": "飞来；飞到；乘飞机到达",
+      "perfective": "прилете́ть",
+      "note": "指飞行抵达，区别полететь开始飞。",
+      "stage": 1,
+      "original": {
+        "word": "прилетать",
+        "part_of_speech": "未",
+        "meaning_zh": "飞来；飞到",
+        "source_page": 227,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "прилетать",
+      "method": "2026-09-17当前助手逐词视觉核对PDF226至227页，核对重音、е/ё、动词体、核心义与搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=227"
+      ]
+    },
+    {
+      "id": 9725,
+      "accent": "применя́ть",
+      "part": "动词，未完成体",
+      "meaning": "运用；应用；采用",
+      "perfective": "примени́ть",
+      "note": "区别примерять试穿，不混淆词形和意义。",
+      "stage": 2,
+      "original": {
+        "word": "применять",
+        "part_of_speech": "未",
+        "meaning_zh": "运用；应用；采用",
+        "source_page": 227,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "применять",
+      "method": "2026-09-17当前助手逐词视觉核对PDF226至227页，核对重音、е/ё、动词体、核心义与搭配。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=227"
+      ]
+    }
+  ]
+}
