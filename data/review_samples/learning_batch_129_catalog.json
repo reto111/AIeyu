@@ -1,0 +1,674 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10155,
+      "accent": "сла́дкий",
+      "part": "形容词",
+      "meaning": "甜的；甜蜜的；美好的；悦人的",
+      "perfective": "",
+      "note": "可形容味道、生活、言语或笑容。",
+      "stage": 1,
+      "original": {
+        "word": "сладкий",
+        "part_of_speech": "形",
+        "meaning_zh": "甜的；甜蜜的；诱人的",
+        "source_page": 269,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сладкий",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=269"
+      ]
+    },
+    {
+      "id": 10156,
+      "accent": "слать",
+      "part": "动词·未完成体",
+      "meaning": "寄；送；派；发送",
+      "perfective": "посла́ть",
+      "note": "原页说明与посылать近义；完成体послать对应发送义。",
+      "stage": 2,
+      "original": {
+        "word": "слать",
+        "part_of_speech": "未",
+        "meaning_zh": "寄；派；发送",
+        "source_page": 269,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "слать",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=269"
+      ]
+    },
+    {
+      "id": 10157,
+      "accent": "след",
+      "part": "名词·阳性",
+      "meaning": "脚印；足迹；痕迹；印痕",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "след",
+        "part_of_speech": "阳",
+        "meaning_zh": "脚印；痕迹；印痕",
+        "source_page": 269,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "след",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=269"
+      ]
+    },
+    {
+      "id": 10158,
+      "accent": "следи́ть",
+      "part": "动词·未完成体",
+      "meaning": "注视；观察；关注；照料；监视；跟踪",
+      "perfective": "",
+      "note": "常接за加工具格；跨页补监视义，不给全义统一完成体。",
+      "stage": 2,
+      "original": {
+        "word": "следить",
+        "part_of_speech": "未",
+        "meaning_zh": "注视；观察；注意；照料",
+        "source_page": 269,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "следить",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=269",
+        "data/words/tem4_russian_words.pdf#page=270"
+      ]
+    },
+    {
+      "id": 10159,
+      "accent": "сле́довать",
+      "part": "动词·未完成体",
+      "meaning": "跟随；接着发生；遵循；仿效；应该",
+      "perfective": "после́довать",
+      "note": "体对限跟随、接踵发生等义；应该是无人称следует用法，不用последовать替代。",
+      "stage": 2,
+      "original": {
+        "word": "следовать",
+        "part_of_speech": "未",
+        "meaning_zh": "跟随；遵循；模仿；应该",
+        "source_page": 270,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "следовать",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=270"
+      ]
+    },
+    {
+      "id": 10160,
+      "accent": "сле́дующий",
+      "part": "形容词；形动词用法",
+      "meaning": "下一个的；接下来的；以下的",
+      "perfective": "",
+      "note": "如следующий день下一天，следующие примеры以下例子。",
+      "stage": 1,
+      "original": {
+        "word": "следующий",
+        "part_of_speech": "形",
+        "meaning_zh": "下一个的；其次的；以下的",
+        "source_page": 270,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "следующий",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=270"
+      ]
+    },
+    {
+      "id": 10161,
+      "accent": "слеза́",
+      "part": "名词·阴性",
+      "meaning": "眼泪；泪珠",
+      "perfective": "",
+      "note": "常用复数слёзы，词头单数不改为ё。",
+      "stage": 1,
+      "original": {
+        "word": "слеза",
+        "part_of_speech": "阴",
+        "meaning_zh": "眼泪；泪珠",
+        "source_page": 270,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "слеза",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=270"
+      ]
+    },
+    {
+      "id": 10162,
+      "accent": "слепо́й",
+      "part": "形容词；名词化用法",
+      "meaning": "盲的；看不见的；盲目的；盲人",
+      "perfective": "",
+      "note": "盲人为名词化形式；爱、信仰等可用比喻盲目义。",
+      "stage": 2,
+      "original": {
+        "word": "слепой",
+        "part_of_speech": "形",
+        "meaning_zh": "盲的；盲目的；盲人",
+        "source_page": 270,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "слепой",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=270"
+      ]
+    },
+    {
+      "id": 10163,
+      "accent": "сле́сарь",
+      "part": "名词·阳性",
+      "meaning": "钳工；机械装配修理工；锁匠",
+      "perfective": "",
+      "note": "按工种搭配理解，不限于配钥匙的锁匠。",
+      "stage": 2,
+      "original": {
+        "word": "слесарь",
+        "part_of_speech": "阳",
+        "meaning_zh": "钳工；锁匠",
+        "source_page": 270,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "слесарь",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=270"
+      ]
+    },
+    {
+      "id": 10164,
+      "accent": "сли́шком",
+      "part": "副词",
+      "meaning": "太；过分；过于",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "слишком",
+        "part_of_speech": "副",
+        "meaning_zh": "太；过分；过于",
+        "source_page": 270,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "слишком",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=270"
+      ]
+    },
+    {
+      "id": 10165,
+      "accent": "слова́рь",
+      "part": "名词·阳性",
+      "meaning": "词典；词汇表；词汇；词汇量",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "словарь",
+        "part_of_speech": "阳",
+        "meaning_zh": "词典；词汇表；词汇量",
+        "source_page": 270,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "словарь",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=270"
+      ]
+    },
+    {
+      "id": 10166,
+      "accent": "сло́вно",
+      "part": "连接词；语气词",
+      "meaning": "好像；仿佛；如同",
+      "perfective": "",
+      "note": "原页区分比较连接词与表示似乎的语气词，不标为名词。",
+      "stage": 2,
+      "original": {
+        "word": "словно",
+        "part_of_speech": "连",
+        "meaning_zh": "好像；仿佛；如同",
+        "source_page": 270,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "словно",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=270"
+      ]
+    },
+    {
+      "id": 10168,
+      "accent": "сло́жный",
+      "part": "形容词",
+      "meaning": "复杂的；困难的；复合的；合成的",
+      "perfective": "",
+      "note": "复合句等术语不只表示难度大。",
+      "stage": 1,
+      "original": {
+        "word": "сложный",
+        "part_of_speech": "形",
+        "meaning_zh": "复杂的；困难的；合成的；复合的",
+        "source_page": 271,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сложный",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=271"
+      ]
+    },
+    {
+      "id": 10169,
+      "accent": "слу́жащий",
+      "part": "名词·阳性；形容词式变化",
+      "meaning": "职员；工作人员",
+      "perfective": "",
+      "note": "国家公务员为государственный служащий，单独词头不限政府工作人员。",
+      "stage": 2,
+      "original": {
+        "word": "служащий",
+        "part_of_speech": "阳",
+        "meaning_zh": "职员；工作人员；公务员",
+        "source_page": 271,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "служащий",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=271"
+      ]
+    },
+    {
+      "id": 10170,
+      "accent": "слу́жба",
+      "part": "名词·阴性",
+      "meaning": "服务；职务；工作；兵役；服务部门",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "служба",
+        "part_of_speech": "阴",
+        "meaning_zh": "服务；职务；工作；兵役",
+        "source_page": 271,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "служба",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=271"
+      ]
+    },
+    {
+      "id": 10171,
+      "accent": "служи́ть",
+      "part": "动词·未完成体",
+      "meaning": "任职；服务；供……使用；作为；服兵役",
+      "perfective": "послужи́ть",
+      "note": "完成体表示服务一段时间或起到作用；任职、用作等持续状态不机械互换。",
+      "stage": 2,
+      "original": {
+        "word": "служить",
+        "part_of_speech": "未",
+        "meaning_zh": "任职；服务；用作；服兵役",
+        "source_page": 271,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "служить",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=271"
+      ]
+    },
+    {
+      "id": 10172,
+      "accent": "слух",
+      "part": "名词·阳性",
+      "meaning": "听觉；听力；传闻；传言；辨音能力",
+      "perfective": "",
+      "note": "音乐语境指辨音能力，不等于广义艺术鉴赏力。",
+      "stage": 2,
+      "original": {
+        "word": "слух",
+        "part_of_speech": "阳",
+        "meaning_zh": "听觉；听力；传闻；音乐鉴赏力",
+        "source_page": 271,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "слух",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=271"
+      ]
+    },
+    {
+      "id": 10173,
+      "accent": "слу́чай",
+      "part": "名词·阳性",
+      "meaning": "事情；事件；情况；场合；机会；偶然",
+      "perfective": "",
+      "note": "各类固定搭配依整体解释，如на всякий случай以防万一。",
+      "stage": 2,
+      "original": {
+        "word": "случай",
+        "part_of_speech": "阳",
+        "meaning_zh": "事情；事件；情况；场合；机会",
+        "source_page": 271,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "случай",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=271"
+      ]
+    },
+    {
+      "id": 10174,
+      "accent": "случа́йный",
+      "part": "形容词",
+      "meaning": "偶然的；意外的；随机的",
+      "perfective": "",
+      "note": "原页插入语случайно另作副词，不把顺便问一句直接当形容词释义。",
+      "stage": 2,
+      "original": {
+        "word": "случайный",
+        "part_of_speech": "形",
+        "meaning_zh": "偶然的；随机的；意外的",
+        "source_page": 271,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "случайный",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=271"
+      ]
+    },
+    {
+      "id": 10176,
+      "accent": "случа́ться",
+      "part": "动词·未完成体",
+      "meaning": "发生；出现；碰巧；有机会",
+      "perfective": "случи́ться",
+      "note": "跨页补无人称加不定式的有机会、碰巧义。",
+      "stage": 2,
+      "original": {
+        "word": "случаться",
+        "part_of_speech": "未",
+        "meaning_zh": "发生；出现",
+        "source_page": 271,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "случаться",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=271",
+        "data/words/tem4_russian_words.pdf#page=272"
+      ]
+    },
+    {
+      "id": 10177,
+      "accent": "слу́шатель",
+      "part": "名词·阳性",
+      "meaning": "听众；听课者；学员",
+      "perfective": "",
+      "note": "学员通常指培训班、课程等的参加者，不泛指一切学生。",
+      "stage": 2,
+      "original": {
+        "word": "слушатель",
+        "part_of_speech": "阳",
+        "meaning_zh": "听众；学员；学生",
+        "source_page": 272,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "слушатель",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=272"
+      ]
+    },
+    {
+      "id": 10179,
+      "accent": "слу́шаться",
+      "part": "动词·未完成体",
+      "meaning": "听话；听从；服从",
+      "perfective": "послу́шаться",
+      "note": "原页配кого-чего；与主动听声音слушать区分。",
+      "stage": 1,
+      "original": {
+        "word": "слушаться",
+        "part_of_speech": "未",
+        "meaning_zh": "听话；服从",
+        "source_page": 272,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "слушаться",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=272"
+      ]
+    },
+    {
+      "id": 10180,
+      "accent": "слы́хать",
+      "part": "动词·未完成体",
+      "meaning": "听见过；听到过；听说过",
+      "perfective": "",
+      "note": "较口语化，常涉及已有听闻；不机械配услышать覆盖所有用法。",
+      "stage": 2,
+      "original": {
+        "word": "слыхать",
+        "part_of_speech": "未",
+        "meaning_zh": "听见；听到；听说",
+        "source_page": 272,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "слыхать",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=272"
+      ]
+    },
+    {
+      "id": 10181,
+      "accent": "слы́шать",
+      "part": "动词·未完成体",
+      "meaning": "听见；听到；听得见；听说",
+      "perfective": "услы́шать",
+      "note": "强调听觉获得，不同于主动倾听слушать。",
+      "stage": 1,
+      "original": {
+        "word": "слышать",
+        "part_of_speech": "未",
+        "meaning_zh": "听见；听到；听说",
+        "source_page": 272,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "слышать",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=272"
+      ]
+    },
+    {
+      "id": 10182,
+      "accent": "слы́шаться",
+      "part": "动词·未完成体",
+      "meaning": "传来声音；听得到；听来有……；从声音中感觉到",
+      "perfective": "послы́шаться",
+      "note": "词头可表示声音被听到，也可表示从声音中感到情绪；完成体不只用于误听。",
+      "stage": 2,
+      "original": {
+        "word": "слышаться",
+        "part_of_speech": "未",
+        "meaning_zh": "听起来；被听见",
+        "source_page": 272,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "слышаться",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=272"
+      ]
+    },
+    {
+      "id": 10183,
+      "accent": "слы́шно",
+      "part": "状态词；无人称谓语",
+      "meaning": "听得见；听得到；听说有消息",
+      "perfective": "",
+      "note": "可用кого-что指听见对象，о ком-чём指听闻消息。",
+      "stage": 1,
+      "original": {
+        "word": "слышно",
+        "part_of_speech": "副",
+        "meaning_zh": "听得见；听得到；听得清",
+        "source_page": 272,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "слышно",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=272"
+      ]
+    },
+    {
+      "id": 10184,
+      "accent": "слы́шный",
+      "part": "形容词",
+      "meaning": "听得见的；可听到的",
+      "perfective": "",
+      "note": "不要和状态词слышно混同。",
+      "stage": 2,
+      "original": {
+        "word": "слышный",
+        "part_of_speech": "形",
+        "meaning_zh": "听得见的；可听见的",
+        "source_page": 272,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "слышный",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=272"
+      ]
+    },
+    {
+      "id": 10185,
+      "accent": "сме́лость",
+      "part": "名词·阴性",
+      "meaning": "勇气；胆量；大胆；大胆行为",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "смелость",
+        "part_of_speech": "阴",
+        "meaning_zh": "胆量；勇气；大胆行为",
+        "source_page": 272,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "смелость",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=272"
+      ]
+    },
+    {
+      "id": 10186,
+      "accent": "сме́лый",
+      "part": "形容词",
+      "meaning": "勇敢的；大胆的；敢于创新的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "смелый",
+        "part_of_speech": "形",
+        "meaning_zh": "大胆的；勇敢的；勇于创新的",
+        "source_page": 272,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "смелый",
+      "method": "2026-09-18当前助手逐词核对PDF269至272页原图；10175为断行伪词头，单独归档，本批29条真实词汇。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=272"
+      ]
+    }
+  ]
+}

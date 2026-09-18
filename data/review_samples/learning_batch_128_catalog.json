@@ -1,0 +1,697 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10124,
+      "accent": "сигна́л",
+      "part": "名词·阳性",
+      "meaning": "信号；讯号；征兆；提示",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "сигнал",
+        "part_of_speech": "阳",
+        "meaning_zh": "信号；预兆",
+        "source_page": 266,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сигнал",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=266"
+      ]
+    },
+    {
+      "id": 10125,
+      "accent": "сиде́ть",
+      "part": "动词·未完成体",
+      "meaning": "坐着；待在；留在；坐着从事",
+      "perfective": "",
+      "note": "表示状态，不把сесть坐下当作全义通用完成体。",
+      "stage": 1,
+      "original": {
+        "word": "сидеть",
+        "part_of_speech": "未",
+        "meaning_zh": "坐；坐着；待在；从事坐着完成的工作",
+        "source_page": 266,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сидеть",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=266"
+      ]
+    },
+    {
+      "id": 10126,
+      "accent": "сиде́ться",
+      "part": "动词·未完成体；无人称",
+      "meaning": "坐得住；待得住",
+      "perfective": "",
+      "note": "常用于否定не сидится，表示坐不住；体验者用与格。",
+      "stage": 2,
+      "original": {
+        "word": "сидеться",
+        "part_of_speech": "未，无人称",
+        "meaning_zh": "坐着；坐得住（无人称）",
+        "source_page": 266,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сидеться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=266"
+      ]
+    },
+    {
+      "id": 10127,
+      "accent": "си́ла",
+      "part": "名词·阴性",
+      "meaning": "力；力量；力气；能力；威力；权力；效力；兵力",
+      "perfective": "",
+      "note": "复数可指部队、力量；вступить в силу表示生效。",
+      "stage": 1,
+      "original": {
+        "word": "сила",
+        "part_of_speech": "阴",
+        "meaning_zh": "力量；力气；能力；威力；权力；兵力",
+        "source_page": 266,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сила",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=266"
+      ]
+    },
+    {
+      "id": 10128,
+      "accent": "си́льный",
+      "part": "形容词",
+      "meaning": "强壮的；强大的；坚强的；强烈的；擅长的",
+      "perfective": "",
+      "note": "跨页补在某方面能力强、擅长义。",
+      "stage": 1,
+      "original": {
+        "word": "сильный",
+        "part_of_speech": "形",
+        "meaning_zh": "强的；强大的；坚强的；强烈的",
+        "source_page": 266,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сильный",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=266",
+        "data/words/tem4_russian_words.pdf#page=267"
+      ]
+    },
+    {
+      "id": 10129,
+      "accent": "си́мвол",
+      "part": "名词·阳性",
+      "meaning": "象征；标志；符号",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "символ",
+        "part_of_speech": "阳",
+        "meaning_zh": "象征；标志",
+        "source_page": 267,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "символ",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=267"
+      ]
+    },
+    {
+      "id": 10130,
+      "accent": "симпа́тия",
+      "part": "名词·阴性",
+      "meaning": "好感；喜欢；喜爱",
+      "perfective": "",
+      "note": "常接к加与格，不等同于怜悯、同情。",
+      "stage": 2,
+      "original": {
+        "word": "симпатия",
+        "part_of_speech": "阴",
+        "meaning_zh": "好感；喜欢",
+        "source_page": 267,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "симпатия",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=267"
+      ]
+    },
+    {
+      "id": 10132,
+      "accent": "сирота́",
+      "part": "名词·通性",
+      "meaning": "孤儿；孤苦无依的人",
+      "perfective": "",
+      "note": "原页明确阳性或阴性，语法配合随所指人的性别。",
+      "stage": 2,
+      "original": {
+        "word": "сирота",
+        "part_of_speech": "阳及阴",
+        "meaning_zh": "孤儿；无依无靠的人",
+        "source_page": 267,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сирота",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=267"
+      ]
+    },
+    {
+      "id": 10133,
+      "accent": "систе́ма",
+      "part": "名词·阴性",
+      "meaning": "系统；体系；制度；体制",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "система",
+        "part_of_speech": "阴",
+        "meaning_zh": "系统；体系；制度；体制",
+        "source_page": 267,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "система",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=267"
+      ]
+    },
+    {
+      "id": 10134,
+      "accent": "сия́ть",
+      "part": "动词·未完成体",
+      "meaning": "闪耀；发光；容光焕发",
+      "perfective": "",
+      "note": "状态、持续义不机械配置开始发亮的前缀完成体。",
+      "stage": 2,
+      "original": {
+        "word": "сиять",
+        "part_of_speech": "未",
+        "meaning_zh": "闪耀；发光；容光焕发",
+        "source_page": 267,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сиять",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=267"
+      ]
+    },
+    {
+      "id": 10135,
+      "accent": "сказа́ть",
+      "part": "动词·完成体",
+      "meaning": "说；说出；告诉；表示",
+      "perfective": "говори́ть",
+      "note": "говорить对应说话义；сказать不是只表示将来时，属于完成体不定式。",
+      "stage": 1,
+      "original": {
+        "word": "сказать",
+        "part_of_speech": "完",
+        "meaning_zh": "说；告诉；表示",
+        "source_page": 267,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сказать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=267"
+      ]
+    },
+    {
+      "id": 10136,
+      "accent": "ска́зка",
+      "part": "名词·阴性",
+      "meaning": "童话；神奇故事；虚构故事",
+      "perfective": "",
+      "note": "不泛指所有真实叙事；民间神奇故事与严格意义的神话概念不完全相同。",
+      "stage": 1,
+      "original": {
+        "word": "сказка",
+        "part_of_speech": "阴",
+        "meaning_zh": "童话；神话；故事",
+        "source_page": 267,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сказка",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=267"
+      ]
+    },
+    {
+      "id": 10137,
+      "accent": "скаме́йка",
+      "part": "名词·阴性",
+      "meaning": "长凳；长椅",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "скамейка",
+        "part_of_speech": "阴",
+        "meaning_zh": "长凳；长椅",
+        "source_page": 267,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "скамейка",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=267"
+      ]
+    },
+    {
+      "id": 10138,
+      "accent": "скла́дывать",
+      "part": "动词·未完成体",
+      "meaning": "放在一起；堆放；相加；折叠；编作；卸下",
+      "perfective": "сложи́ть",
+      "note": "原页补编作歌曲、卸下武器等义，按宾语区分。",
+      "stage": 2,
+      "original": {
+        "word": "складывать",
+        "part_of_speech": "未",
+        "meaning_zh": "放在一起；相加；折叠；编写",
+        "source_page": 267,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "складывать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=267"
+      ]
+    },
+    {
+      "id": 10139,
+      "accent": "сконча́ться",
+      "part": "动词·完成体",
+      "meaning": "去世；逝世",
+      "perfective": "",
+      "note": "庄重、委婉用语；原页未列体对，不以语义近似的умирать直接配对。",
+      "stage": 2,
+      "original": {
+        "word": "скончаться",
+        "part_of_speech": "完",
+        "meaning_zh": "去世；逝世（雅）",
+        "source_page": 268,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "скончаться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=268"
+      ]
+    },
+    {
+      "id": 10140,
+      "accent": "скоре́е",
+      "part": "比较级；副词用法",
+      "meaning": "更快；更早；宁可；与其说……不如说……",
+      "perfective": "",
+      "note": "很可能为скорее всего；尽快为как можно скорее，保留完整搭配解释。",
+      "stage": 2,
+      "original": {
+        "word": "скорее",
+        "part_of_speech": "比较级",
+        "meaning_zh": "较快地；宁愿；与其……不如……；很可能；最好",
+        "source_page": 268,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "скорее",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=268"
+      ]
+    },
+    {
+      "id": 10141,
+      "accent": "ско́рость",
+      "part": "名词·阴性",
+      "meaning": "速度；速率",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "скорость",
+        "part_of_speech": "阴",
+        "meaning_zh": "速度",
+        "source_page": 268,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "скорость",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=268"
+      ]
+    },
+    {
+      "id": 10142,
+      "accent": "ско́рый",
+      "part": "形容词",
+      "meaning": "快的；迅速的；即将发生的；不久的",
+      "perfective": "",
+      "note": "急救为скорая помощь，不能把所有скорый都译急救的；до скорого свидания为回头见。",
+      "stage": 2,
+      "original": {
+        "word": "скорый",
+        "part_of_speech": "形",
+        "meaning_zh": "快的；迅速的；急救的；即将发生的",
+        "source_page": 268,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "скорый",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=268"
+      ]
+    },
+    {
+      "id": 10143,
+      "accent": "скот",
+      "part": "名词·阳性；集合名词",
+      "meaning": "牲畜；家畜",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "скот",
+        "part_of_speech": "阳",
+        "meaning_zh": "家畜；牲畜",
+        "source_page": 268,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "скот",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=268"
+      ]
+    },
+    {
+      "id": 10144,
+      "accent": "скри́пка",
+      "part": "名词·阴性",
+      "meaning": "小提琴",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "скрипка",
+        "part_of_speech": "阴",
+        "meaning_zh": "小提琴",
+        "source_page": 268,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "скрипка",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=268"
+      ]
+    },
+    {
+      "id": 10145,
+      "accent": "скро́мный",
+      "part": "形容词",
+      "meaning": "谦逊的；朴素的；简单的；不大的；微薄的",
+      "perfective": "",
+      "note": "评价人、装饰、收入等时分别对应不同义项。",
+      "stage": 2,
+      "original": {
+        "word": "скромный",
+        "part_of_speech": "形",
+        "meaning_zh": "谦逊的；朴素的；微薄的；微不足道的",
+        "source_page": 268,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "скромный",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=268"
+      ]
+    },
+    {
+      "id": 10146,
+      "accent": "скрыва́ть",
+      "part": "动词·未完成体",
+      "meaning": "隐藏；遮盖；掩盖；隐瞒",
+      "perfective": "скрыть",
+      "note": "及物形式，如隐瞒事实。",
+      "stage": 2,
+      "original": {
+        "word": "скрывать",
+        "part_of_speech": "未",
+        "meaning_zh": "隐藏；掩盖；隐瞒",
+        "source_page": 268,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "скрывать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=268"
+      ]
+    },
+    {
+      "id": 10147,
+      "accent": "скрыва́ться",
+      "part": "动词·未完成体",
+      "meaning": "躲藏；隐藏；消失；隐没",
+      "perfective": "скры́ться",
+      "note": "主体自己躲起来或从视野消失，与скрывать区分。",
+      "stage": 2,
+      "original": {
+        "word": "скрываться",
+        "part_of_speech": "未",
+        "meaning_zh": "躲藏；隐藏；消失",
+        "source_page": 268,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "скрываться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=268"
+      ]
+    },
+    {
+      "id": 10148,
+      "accent": "скульпту́ра",
+      "part": "名词·阴性",
+      "meaning": "雕塑艺术；雕刻；雕塑作品",
+      "perfective": "",
+      "note": "既指艺术门类，也指作品。",
+      "stage": 2,
+      "original": {
+        "word": "скульптура",
+        "part_of_speech": "阴",
+        "meaning_zh": "雕塑；雕塑作品",
+        "source_page": 268,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "скульптура",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=268"
+      ]
+    },
+    {
+      "id": 10149,
+      "accent": "скупо́й",
+      "part": "形容词",
+      "meaning": "吝啬的；小气的；微薄的；很少的",
+      "perfective": "",
+      "note": "不只形容人吝啬，也可形容礼物、表达等不足。",
+      "stage": 2,
+      "original": {
+        "word": "скупой",
+        "part_of_speech": "形",
+        "meaning_zh": "吝啬的；舍不得花钱的；微薄的",
+        "source_page": 268,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "скупой",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=268"
+      ]
+    },
+    {
+      "id": 10150,
+      "accent": "скуча́ть",
+      "part": "动词·未完成体",
+      "meaning": "感到无聊；感到寂寞；想念",
+      "perfective": "",
+      "note": "想念常接по加与格；状态义不强行指定完成体。",
+      "stage": 1,
+      "original": {
+        "word": "скучать",
+        "part_of_speech": "未",
+        "meaning_zh": "感到无聊；感到寂寞；想念",
+        "source_page": 268,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "скучать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=268",
+        "data/words/tem4_russian_words.pdf#page=269"
+      ]
+    },
+    {
+      "id": 10151,
+      "accent": "ску́чный",
+      "part": "形容词",
+      "meaning": "无聊的；寂寞的；乏味的；枯燥的",
+      "perfective": "",
+      "note": "可表示人感到无聊，也可表示事物让人无聊。",
+      "stage": 1,
+      "original": {
+        "word": "скучный",
+        "part_of_speech": "形",
+        "meaning_zh": "无聊的；乏味的；枯燥的",
+        "source_page": 269,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "скучный",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=269"
+      ]
+    },
+    {
+      "id": 10152,
+      "accent": "сла́бый",
+      "part": "形容词",
+      "meaning": "虚弱的；微弱的；功率小的；软弱的；不擅长的；差的",
+      "perfective": "",
+      "note": "描述体力、强度、意志和能力时含义不同。",
+      "stage": 1,
+      "original": {
+        "word": "слабый",
+        "part_of_speech": "形",
+        "meaning_zh": "虚弱的；功率小的；微弱的；软弱的；差的",
+        "source_page": 269,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "слабый",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=269"
+      ]
+    },
+    {
+      "id": 10153,
+      "accent": "сла́ва",
+      "part": "名词·阴性",
+      "meaning": "光荣；荣誉；名声；声誉",
+      "perfective": "",
+      "note": "普通名词，不是昵称Слава。",
+      "stage": 2,
+      "original": {
+        "word": "слава",
+        "part_of_speech": "阴",
+        "meaning_zh": "光荣；荣誉；名声；名誉",
+        "source_page": 269,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "слава",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=269"
+      ]
+    },
+    {
+      "id": 10154,
+      "accent": "сла́вный",
+      "part": "形容词",
+      "meaning": "光荣的；有名的；可爱的；出色的",
+      "perfective": "",
+      "note": "可赞美人或事，不仅表示荣誉。",
+      "stage": 2,
+      "original": {
+        "word": "славный",
+        "part_of_speech": "形",
+        "meaning_zh": "光荣的；可爱的；美好的",
+        "source_page": 269,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "славный",
+      "method": "2026-09-18当前助手逐词视觉核对PDF266至269页，核对词性、重音与体，区分状态和动作、搭配与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=269"
+      ]
+    }
+  ]
+}

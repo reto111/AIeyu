@@ -1,0 +1,696 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10217,
+      "accent": "сове́т",
+      "part": "名词·阳性",
+      "meaning": "劝告；建议；商议；会议；委员会；理事会；苏维埃",
+      "perfective": "",
+      "note": "原页苏维埃为历史政治含义；建议、议事机构按语境区分。",
+      "stage": 1,
+      "original": {
+        "word": "совет",
+        "part_of_speech": "阳",
+        "meaning_zh": "劝告；建议；会议；委员会；理事会",
+        "source_page": 276,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "совет",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=276"
+      ]
+    },
+    {
+      "id": 10218,
+      "accent": "сове́товать",
+      "part": "动词·未完成体",
+      "meaning": "建议；劝告",
+      "perfective": "посове́товать",
+      "note": "接受建议的人用与格，可接不定式说明建议做的事。",
+      "stage": 1,
+      "original": {
+        "word": "советовать",
+        "part_of_speech": "未",
+        "meaning_zh": "建议；劝告",
+        "source_page": 276,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "советовать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=276"
+      ]
+    },
+    {
+      "id": 10219,
+      "accent": "сове́товаться",
+      "part": "动词·未完成体",
+      "meaning": "商量；请教；征求意见",
+      "perfective": "посове́товаться",
+      "note": "常接с加工具格，表示与谁商量；区别给别人建议。",
+      "stage": 2,
+      "original": {
+        "word": "советоваться",
+        "part_of_speech": "未",
+        "meaning_zh": "商量；征求意见",
+        "source_page": 276,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "советоваться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=276"
+      ]
+    },
+    {
+      "id": 10220,
+      "accent": "совеща́ние",
+      "part": "名词·中性",
+      "meaning": "会议；协商会议；商议",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "совещание",
+        "part_of_speech": "中",
+        "meaning_zh": "会议；协商会",
+        "source_page": 276,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "совещание",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=276"
+      ]
+    },
+    {
+      "id": 10221,
+      "accent": "совреме́нник",
+      "part": "名词·阳性",
+      "meaning": "同时代的人",
+      "perfective": "",
+      "note": "同时代不等于年龄相同。",
+      "stage": 2,
+      "original": {
+        "word": "современник",
+        "part_of_speech": "阳",
+        "meaning_zh": "同时代的人",
+        "source_page": 276,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "современник",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=276"
+      ]
+    },
+    {
+      "id": 10222,
+      "accent": "совреме́нный",
+      "part": "形容词",
+      "meaning": "现代的；当代的；当前的；现代化的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "современный",
+        "part_of_speech": "形",
+        "meaning_zh": "现代的；当代的；现代化的",
+        "source_page": 276,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "современный",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=276"
+      ]
+    },
+    {
+      "id": 10223,
+      "accent": "совхо́з",
+      "part": "名词·阳性",
+      "meaning": "国营农场",
+      "perfective": "",
+      "note": "常见于苏联相关历史语境，区别集体农庄колхоз。",
+      "stage": 2,
+      "original": {
+        "word": "совхоз",
+        "part_of_speech": "阳",
+        "meaning_zh": "国营农场",
+        "source_page": 276,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "совхоз",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=276"
+      ]
+    },
+    {
+      "id": 10224,
+      "accent": "согла́сие",
+      "part": "名词·中性",
+      "meaning": "同意；赞同；意见一致；和睦",
+      "perfective": "",
+      "note": "в согласии с表示依照、与……一致，为完整搭配义。",
+      "stage": 2,
+      "original": {
+        "word": "согласие",
+        "part_of_speech": "中",
+        "meaning_zh": "同意；赞同；一致；和睦",
+        "source_page": 276,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "согласие",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=276"
+      ]
+    },
+    {
+      "id": 10225,
+      "accent": "согла́сный",
+      "part": "形容词；名词化用法",
+      "meaning": "同意的；赞同的；一致的；辅音的；辅音",
+      "perfective": "",
+      "note": "原页收同意义；语法常用согласный звук，名词化时指辅音，不是同意者的意思。",
+      "stage": 2,
+      "original": {
+        "word": "согласный",
+        "part_of_speech": "形",
+        "meaning_zh": "同意的；赞同的；一致的；辅音（名词）",
+        "source_page": 276,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "согласный",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=276",
+        "data/words/tem4_russian_words.pdf#page=277"
+      ]
+    },
+    {
+      "id": 10226,
+      "accent": "соглаша́ться",
+      "part": "动词·未完成体",
+      "meaning": "同意；答应；赞同",
+      "perfective": "согласи́ться",
+      "note": "с加工具格表示赞同谁或什么，на加宾格表示同意某项请求、条件。",
+      "stage": 1,
+      "original": {
+        "word": "соглашаться",
+        "part_of_speech": "未",
+        "meaning_zh": "同意；答应；赞同",
+        "source_page": 277,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "соглашаться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=277"
+      ]
+    },
+    {
+      "id": 10227,
+      "accent": "согрева́ть",
+      "part": "动词·未完成体",
+      "meaning": "使温暖；把……暖热；使感到温暖",
+      "perfective": "согре́ть",
+      "note": "可指实际加热，也可比喻关心使人温暖。",
+      "stage": 2,
+      "original": {
+        "word": "согревать",
+        "part_of_speech": "未",
+        "meaning_zh": "使温暖；加热；使感到温暖",
+        "source_page": 277,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "согревать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=277"
+      ]
+    },
+    {
+      "id": 10228,
+      "accent": "содержа́ние",
+      "part": "名词·中性",
+      "meaning": "内容；含量；成分；供养；维持费用",
+      "perfective": "",
+      "note": "原页重点内容与含量；供养、维持费用为与содержать供养义相关的常用义，按语境区分。",
+      "stage": 2,
+      "original": {
+        "word": "содержание",
+        "part_of_speech": "中",
+        "meaning_zh": "内容；含量；成分",
+        "source_page": 277,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "содержание",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=277"
+      ]
+    },
+    {
+      "id": 10229,
+      "accent": "содержа́ть",
+      "part": "动词·未完成体",
+      "meaning": "供养；养活；维持；保持；包含；含有",
+      "perfective": "",
+      "note": "原页未列通用完成体；表示含有或供养的状态不强行加前缀配对。",
+      "stage": 2,
+      "original": {
+        "word": "содержать",
+        "part_of_speech": "未",
+        "meaning_zh": "养活；供养；保持；包含",
+        "source_page": 277,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "содержать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=277"
+      ]
+    },
+    {
+      "id": 10230,
+      "accent": "соединя́ть",
+      "part": "动词·未完成体",
+      "meaning": "连接；接上；联合；结合；使化合",
+      "perfective": "соедини́ть",
+      "note": "及物形式，使两物或多人连接、联合。",
+      "stage": 2,
+      "original": {
+        "word": "соединять",
+        "part_of_speech": "未",
+        "meaning_zh": "连接；接上；联合；使化合；结合",
+        "source_page": 277,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "соединять",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=277"
+      ]
+    },
+    {
+      "id": 10231,
+      "accent": "соединя́ться",
+      "part": "动词·未完成体",
+      "meaning": "连接；联合；结合；接通；取得联系",
+      "perfective": "соедини́ться",
+      "note": "常接с加工具格；电话接通、物体连接和人员联合按语境区分。",
+      "stage": 2,
+      "original": {
+        "word": "соединяться",
+        "part_of_speech": "未",
+        "meaning_zh": "连接；接上；结合；接通；取得联系",
+        "source_page": 277,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "соединяться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=277"
+      ]
+    },
+    {
+      "id": 10232,
+      "accent": "сожале́ние",
+      "part": "名词·中性",
+      "meaning": "遗憾；惋惜；歉意；怜惜；同情",
+      "perfective": "",
+      "note": "к сожалению是很遗憾的插入语搭配。",
+      "stage": 2,
+      "original": {
+        "word": "сожаление",
+        "part_of_speech": "中",
+        "meaning_zh": "遗憾；抱歉；怜惜；同情",
+        "source_page": 277,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сожаление",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=277"
+      ]
+    },
+    {
+      "id": 10233,
+      "accent": "создава́ть",
+      "part": "动词·未完成体",
+      "meaning": "创造；创作；建立；造成；造就",
+      "perfective": "созда́ть",
+      "note": "既可创造作品、建立组织，也可造成困难或造就人才。",
+      "stage": 2,
+      "original": {
+        "word": "создавать",
+        "part_of_speech": "未",
+        "meaning_zh": "创造；建立；造成；产生",
+        "source_page": 278,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "создавать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=278"
+      ]
+    },
+    {
+      "id": 10234,
+      "accent": "создава́ться",
+      "part": "动词·未完成体",
+      "meaning": "建立起来；被创造；形成；产生；出现",
+      "perfective": "созда́ться",
+      "note": "保留反身、被动与自发形成的区别。",
+      "stage": 2,
+      "original": {
+        "word": "создаваться",
+        "part_of_speech": "未",
+        "meaning_zh": "建立；形成；产生；出现",
+        "source_page": 278,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "создаваться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=278"
+      ]
+    },
+    {
+      "id": 10235,
+      "accent": "созда́ние",
+      "part": "名词·中性",
+      "meaning": "创造；创作；创立；建立；作品；生灵",
+      "perfective": "",
+      "note": "原页列创造过程；作品、生灵为创造出的事物这一常用名词义，非每个语境都适用。",
+      "stage": 2,
+      "original": {
+        "word": "создание",
+        "part_of_speech": "中",
+        "meaning_zh": "创作；创立；建立",
+        "source_page": 278,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "создание",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=278"
+      ]
+    },
+    {
+      "id": 10236,
+      "accent": "созна́ние",
+      "part": "名词·中性",
+      "meaning": "意识；认识；觉悟；知觉；对……的承认",
+      "perfective": "",
+      "note": "потерять сознание失去知觉；对过错的认识、承认须结合宾语理解。",
+      "stage": 2,
+      "original": {
+        "word": "сознание",
+        "part_of_speech": "中",
+        "meaning_zh": "意识；认识；知觉",
+        "source_page": 278,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сознание",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=278"
+      ]
+    },
+    {
+      "id": 10237,
+      "accent": "созна́тельность",
+      "part": "名词·阴性",
+      "meaning": "自觉性；觉悟",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "сознательность",
+        "part_of_speech": "阴",
+        "meaning_zh": "觉悟；自觉性",
+        "source_page": 278,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сознательность",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=278"
+      ]
+    },
+    {
+      "id": 10238,
+      "accent": "созна́тельный",
+      "part": "形容词",
+      "meaning": "有意识的；自觉的；有觉悟的；故意的",
+      "perfective": "",
+      "note": "故意不自动带有赞许含义。",
+      "stage": 2,
+      "original": {
+        "word": "сознательный",
+        "part_of_speech": "形",
+        "meaning_zh": "有意识的；自觉的；故意的；有觉悟的",
+        "source_page": 278,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сознательный",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=278"
+      ]
+    },
+    {
+      "id": 10239,
+      "accent": "созрева́ть",
+      "part": "动词·未完成体",
+      "meaning": "成熟；酝酿成熟；发展成熟",
+      "perfective": "созре́ть",
+      "note": "可形容果实，也可形容计划、想法成熟。",
+      "stage": 2,
+      "original": {
+        "word": "созревать",
+        "part_of_speech": "未",
+        "meaning_zh": "成熟；成熟起来；酝酿成熟",
+        "source_page": 278,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "созревать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=278"
+      ]
+    },
+    {
+      "id": 10240,
+      "accent": "сок",
+      "part": "名词·阳性",
+      "meaning": "汁；液；果汁",
+      "perfective": "",
+      "note": "也可指植物汁液、胃液等，并非只指饮料。",
+      "stage": 1,
+      "original": {
+        "word": "сок",
+        "part_of_speech": "阳",
+        "meaning_zh": "汁；液；果汁",
+        "source_page": 278,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сок",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=278"
+      ]
+    },
+    {
+      "id": 10241,
+      "accent": "сокраща́ть",
+      "part": "动词·未完成体",
+      "meaning": "缩短；缩减；减少；削减；裁减；缩写",
+      "perfective": "сократи́ть",
+      "note": "裁减人员与缩写文字按宾语区分，不把缩短时间误作结束。",
+      "stage": 2,
+      "original": {
+        "word": "сокращать",
+        "part_of_speech": "未",
+        "meaning_zh": "缩短；减少；削减；裁员",
+        "source_page": 278,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сокращать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=278"
+      ]
+    },
+    {
+      "id": 10242,
+      "accent": "солда́т",
+      "part": "名词·阳性",
+      "meaning": "士兵；军人",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "солдат",
+        "part_of_speech": "阳",
+        "meaning_zh": "兵；士兵",
+        "source_page": 279,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "солдат",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=279"
+      ]
+    },
+    {
+      "id": 10243,
+      "accent": "солёный",
+      "part": "形容词",
+      "meaning": "含盐的；咸的；盐腌的",
+      "perfective": "",
+      "note": "保留正确ё；盐腌义不泛指所有腌制方式。",
+      "stage": 1,
+      "original": {
+        "word": "солёный",
+        "part_of_speech": "形",
+        "meaning_zh": "含盐的；咸的；腌制的",
+        "source_page": 279,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "солёный",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=279"
+      ]
+    },
+    {
+      "id": 10244,
+      "accent": "солида́рность",
+      "part": "名词·阴性",
+      "meaning": "团结；一致；团结支持",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "солидарность",
+        "part_of_speech": "阴",
+        "meaning_zh": "团结；一致；团结一致",
+        "source_page": 279,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "солидарность",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=279"
+      ]
+    },
+    {
+      "id": 10245,
+      "accent": "соли́дный",
+      "part": "形容词",
+      "meaning": "结实的；充实的；稳重的；有风度的；有声望的；可观的",
+      "perfective": "",
+      "note": "原页六类用法依搭配区分，收入可观不等于人的声望高。",
+      "stage": 2,
+      "original": {
+        "word": "солидный",
+        "part_of_speech": "形",
+        "meaning_zh": "牢固的；充实的；有声望的；可观的",
+        "source_page": 279,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "солидный",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=279"
+      ]
+    },
+    {
+      "id": 10246,
+      "accent": "со́лнечный",
+      "part": "形容词",
+      "meaning": "太阳的；阳光的；阳光充足的；晴朗的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "солнечный",
+        "part_of_speech": "形",
+        "meaning_zh": "太阳的；阳光的；晴朗的",
+        "source_page": 279,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "солнечный",
+      "method": "2026-09-18当前助手逐词视觉核对PDF276至279页，复核重音、体、词性与核心义，避免原页未收录义与来源义混同。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=279"
+      ]
+    }
+  ]
+}

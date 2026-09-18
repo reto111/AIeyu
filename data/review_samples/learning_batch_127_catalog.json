@@ -1,0 +1,696 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10092,
+      "accent": "секре́т",
+      "part": "名词·阳性",
+      "meaning": "秘密；秘诀；秘密机关；暗装置",
+      "perfective": "",
+      "note": "暗装置指锁具等内部的隐蔽构造，不是政治机构。",
+      "stage": 1,
+      "original": {
+        "word": "секрет",
+        "part_of_speech": "阳",
+        "meaning_zh": "秘密；秘诀；暗装置",
+        "source_page": 263,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "секрет",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=263"
+      ]
+    },
+    {
+      "id": 10093,
+      "accent": "секрета́рь",
+      "part": "名词·阳性",
+      "meaning": "秘书；书记；记录员",
+      "perfective": "",
+      "note": "职业名词语法阳性，所指人可以是女性。",
+      "stage": 2,
+      "original": {
+        "word": "секретарь",
+        "part_of_speech": "阳",
+        "meaning_zh": "秘书；书记；记录员",
+        "source_page": 263,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "секретарь",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=263"
+      ]
+    },
+    {
+      "id": 10094,
+      "accent": "секу́нда",
+      "part": "名词·阴性",
+      "meaning": "秒；片刻",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "секунда",
+        "part_of_speech": "阴",
+        "meaning_zh": "秒；片刻",
+        "source_page": 263,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "секунда",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=263"
+      ]
+    },
+    {
+      "id": 10095,
+      "accent": "село́",
+      "part": "名词·中性",
+      "meaning": "村庄；乡村；农村",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "село",
+        "part_of_speech": "中",
+        "meaning_zh": "村庄；乡村",
+        "source_page": 264,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "село",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=264"
+      ]
+    },
+    {
+      "id": 10096,
+      "accent": "се́льский",
+      "part": "形容词",
+      "meaning": "乡村的；农村的；农业的",
+      "perfective": "",
+      "note": "сельское хозяйство为农业，按搭配区分。",
+      "stage": 1,
+      "original": {
+        "word": "сельский",
+        "part_of_speech": "形",
+        "meaning_zh": "乡村的；农村的；农业的",
+        "source_page": 264,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сельский",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=264"
+      ]
+    },
+    {
+      "id": 10097,
+      "accent": "сельскохозя́йственный",
+      "part": "形容词",
+      "meaning": "农业的；农用的",
+      "perfective": "",
+      "note": "重音在зя的я。",
+      "stage": 2,
+      "original": {
+        "word": "сельскохозяйственный",
+        "part_of_speech": "形",
+        "meaning_zh": "农业的；农用的",
+        "source_page": 264,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сельскохозяйственный",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=264"
+      ]
+    },
+    {
+      "id": 10098,
+      "accent": "семе́стр",
+      "part": "名词·阳性",
+      "meaning": "学期",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "семестр",
+        "part_of_speech": "阳",
+        "meaning_zh": "学期",
+        "source_page": 264,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "семестр",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=264"
+      ]
+    },
+    {
+      "id": 10099,
+      "accent": "семина́р",
+      "part": "名词·阳性",
+      "meaning": "讨论课；研讨会；研修班",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "семинар",
+        "part_of_speech": "阳",
+        "meaning_zh": "课堂讨论；研讨会",
+        "source_page": 264,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "семинар",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=264"
+      ]
+    },
+    {
+      "id": 10100,
+      "accent": "семна́дцатый",
+      "part": "序数词",
+      "meaning": "第十七",
+      "perfective": "",
+      "note": "十七分之一须用одна семнадцатая等分数表达，不能直接当此词独立义。",
+      "stage": 1,
+      "original": {
+        "word": "семнадцатый",
+        "part_of_speech": "数",
+        "meaning_zh": "第十七；十七分之一",
+        "source_page": 264,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "семнадцатый",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=264"
+      ]
+    },
+    {
+      "id": 10101,
+      "accent": "семна́дцать",
+      "part": "基数词",
+      "meaning": "十七",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "семнадцать",
+        "part_of_speech": "数",
+        "meaning_zh": "十七；十七个",
+        "source_page": 264,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "семнадцать",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=264"
+      ]
+    },
+    {
+      "id": 10102,
+      "accent": "семь",
+      "part": "基数词",
+      "meaning": "七",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "семь",
+        "part_of_speech": "数",
+        "meaning_zh": "七；七个",
+        "source_page": 264,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "семь",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=264"
+      ]
+    },
+    {
+      "id": 10103,
+      "accent": "се́мьдесят",
+      "part": "基数词",
+      "meaning": "七十",
+      "perfective": "",
+      "note": "词头重音在第一个е，保留软音符号。",
+      "stage": 1,
+      "original": {
+        "word": "семьдесят",
+        "part_of_speech": "数",
+        "meaning_zh": "七十；七十个",
+        "source_page": 264,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "семьдесят",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=264"
+      ]
+    },
+    {
+      "id": 10104,
+      "accent": "семьсо́т",
+      "part": "基数词",
+      "meaning": "七百",
+      "perfective": "",
+      "note": "重音在сот。",
+      "stage": 1,
+      "original": {
+        "word": "семьсот",
+        "part_of_speech": "数",
+        "meaning_zh": "七百；七百个",
+        "source_page": 264,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "семьсот",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=264"
+      ]
+    },
+    {
+      "id": 10106,
+      "accent": "сентя́брь",
+      "part": "名词·阳性",
+      "meaning": "九月",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "сентябрь",
+        "part_of_speech": "阳",
+        "meaning_zh": "九月",
+        "source_page": 264,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сентябрь",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=264"
+      ]
+    },
+    {
+      "id": 10107,
+      "accent": "серде́чный",
+      "part": "形容词",
+      "meaning": "心脏的；内心的；诚挚的；亲切的",
+      "perfective": "",
+      "note": "心脏病与诚挚问候是不同语境。",
+      "stage": 2,
+      "original": {
+        "word": "сердечный",
+        "part_of_speech": "形",
+        "meaning_zh": "心脏的；诚挚的；亲切的",
+        "source_page": 264,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сердечный",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=264"
+      ]
+    },
+    {
+      "id": 10108,
+      "accent": "серди́тый",
+      "part": "形容词",
+      "meaning": "生气的；恼怒的；爱发脾气的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "сердитый",
+        "part_of_speech": "形",
+        "meaning_zh": "生气的；恼怒的；爱发脾气的",
+        "source_page": 264,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сердитый",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=264"
+      ]
+    },
+    {
+      "id": 10109,
+      "accent": "серди́ться",
+      "part": "动词·未完成体",
+      "meaning": "生气；恼怒",
+      "perfective": "рассерди́ться",
+      "note": "常接на加宾格表示对谁生气；完成体强调生起气来。",
+      "stage": 1,
+      "original": {
+        "word": "сердиться",
+        "part_of_speech": "未",
+        "meaning_zh": "生气；恼怒",
+        "source_page": 264,
+        "source_line": "17"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сердиться",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=264"
+      ]
+    },
+    {
+      "id": 10110,
+      "accent": "се́рдце",
+      "part": "名词·中性",
+      "meaning": "心；心脏；内心；心肠；中心；核心",
+      "perfective": "",
+      "note": "跨页补中心、核心义；原页软化、不发音字母不改变拼写。",
+      "stage": 1,
+      "original": {
+        "word": "сердце",
+        "part_of_speech": "中",
+        "meaning_zh": "心；心脏；心肠",
+        "source_page": 264,
+        "source_line": "18"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сердце",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=264",
+        "data/words/tem4_russian_words.pdf#page=265"
+      ]
+    },
+    {
+      "id": 10111,
+      "accent": "серебро́",
+      "part": "名词·中性",
+      "meaning": "银；白银；银器；银光；银色",
+      "perfective": "",
+      "note": "补原页银器义。",
+      "stage": 2,
+      "original": {
+        "word": "серебро",
+        "part_of_speech": "中",
+        "meaning_zh": "银；白银；银色",
+        "source_page": 265,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "серебро",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=265"
+      ]
+    },
+    {
+      "id": 10112,
+      "accent": "середи́на",
+      "part": "名词·阴性",
+      "meaning": "中间；中部；中途；中期",
+      "perfective": "",
+      "note": "位置或时间的中间依搭配区分。",
+      "stage": 1,
+      "original": {
+        "word": "середина",
+        "part_of_speech": "阴",
+        "meaning_zh": "中间；中途；中期",
+        "source_page": 265,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "середина",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=265"
+      ]
+    },
+    {
+      "id": 10113,
+      "accent": "се́рия",
+      "part": "名词·阴性",
+      "meaning": "系列；一套；一组；一集",
+      "perfective": "",
+      "note": "影视的一集与一套物品分别理解。",
+      "stage": 2,
+      "original": {
+        "word": "серия",
+        "part_of_speech": "阴",
+        "meaning_zh": "一套；一系列；（电影等的）一集",
+        "source_page": 265,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "серия",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=265"
+      ]
+    },
+    {
+      "id": 10114,
+      "accent": "серп",
+      "part": "名词·阳性",
+      "meaning": "镰刀；镰刀形的东西",
+      "perfective": "",
+      "note": "如серп луны指新月的弯月形。",
+      "stage": 2,
+      "original": {
+        "word": "серп",
+        "part_of_speech": "阳",
+        "meaning_zh": "镰刀；镰刀状物",
+        "source_page": 265,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "серп",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=265"
+      ]
+    },
+    {
+      "id": 10115,
+      "accent": "се́рый",
+      "part": "形容词",
+      "meaning": "灰色的；阴沉的；苍白的；平庸的",
+      "perfective": "",
+      "note": "颜色、天气或面色与比喻平庸义分开理解。",
+      "stage": 1,
+      "original": {
+        "word": "серый",
+        "part_of_speech": "形",
+        "meaning_zh": "灰色的；阴暗的；苍白的",
+        "source_page": 265,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "серый",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=265"
+      ]
+    },
+    {
+      "id": 10116,
+      "accent": "серьёзный",
+      "part": "形容词",
+      "meaning": "严肃的；认真的；重要的；重大的；严重的",
+      "perfective": "",
+      "note": "保留正确ё与软音符号。",
+      "stage": 1,
+      "original": {
+        "word": "серьёзный",
+        "part_of_speech": "形",
+        "meaning_zh": "严肃的；认真的；重大的；严重的",
+        "source_page": 265,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "серьёзный",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=265"
+      ]
+    },
+    {
+      "id": 10117,
+      "accent": "се́ссия",
+      "part": "名词·阴性",
+      "meaning": "会议；会期；考试期",
+      "perfective": "",
+      "note": "考试期用于学生集中考试的时段，不等于每次单独考试。",
+      "stage": 2,
+      "original": {
+        "word": "сессия",
+        "part_of_speech": "阴",
+        "meaning_zh": "会期；会议；考试期",
+        "source_page": 265,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сессия",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=265"
+      ]
+    },
+    {
+      "id": 10119,
+      "accent": "сеть",
+      "part": "名词·阴性",
+      "meaning": "网；网络；系统",
+      "perfective": "",
+      "note": "可指实物网或交通、通信、商业等网络。",
+      "stage": 1,
+      "original": {
+        "word": "сеть",
+        "part_of_speech": "阴",
+        "meaning_zh": "网；网络；系统",
+        "source_page": 265,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сеть",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=265"
+      ]
+    },
+    {
+      "id": 10120,
+      "accent": "се́ять",
+      "part": "动词·未完成体",
+      "meaning": "播种；传播；散布",
+      "perfective": "посе́ять",
+      "note": "可播种植物，也可传播思想或散布谣言。",
+      "stage": 2,
+      "original": {
+        "word": "сеять",
+        "part_of_speech": "未",
+        "meaning_zh": "播种；传播",
+        "source_page": 265,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сеять",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=265"
+      ]
+    },
+    {
+      "id": 10121,
+      "accent": "сжига́ть",
+      "part": "动词·未完成体",
+      "meaning": "烧掉；烧毁；焚烧；燃烧消耗",
+      "perfective": "сжечь",
+      "note": "煤等作宾语时可指燃烧用掉，不只指毁坏。",
+      "stage": 2,
+      "original": {
+        "word": "сжигать",
+        "part_of_speech": "未",
+        "meaning_zh": "烧毁；焚烧",
+        "source_page": 266,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сжигать",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=266"
+      ]
+    },
+    {
+      "id": 10122,
+      "accent": "сжима́ть",
+      "part": "动词·未完成体",
+      "meaning": "压缩；压紧；挤压；紧握",
+      "perfective": "сжать",
+      "note": "这是压缩、紧握义；不混入收割义同形完成体的对应关系。",
+      "stage": 2,
+      "original": {
+        "word": "сжимать",
+        "part_of_speech": "未",
+        "meaning_zh": "压缩；挤压；紧握",
+        "source_page": 266,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сжимать",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=266"
+      ]
+    },
+    {
+      "id": 10123,
+      "accent": "сигаре́та",
+      "part": "名词·阴性",
+      "meaning": "香烟；卷烟",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "сигарета",
+        "part_of_speech": "阴",
+        "meaning_zh": "香烟；烟卷",
+        "source_page": 266,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сигарета",
+      "method": "2026-09-18当前助手逐词核对PDF263至266页原图，复核重音、体、词性、缺失核心义及数词边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=266"
+      ]
+    }
+  ]
+}

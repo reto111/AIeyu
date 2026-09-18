@@ -1,0 +1,697 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10187,
+      "accent": "сме́на",
+      "part": "名词·阴性",
+      "meaning": "更换；交替；接替；班次；接班人",
+      "perfective": "",
+      "note": "跨页补接班人义，可指接替的一代或一班人员。",
+      "stage": 2,
+      "original": {
+        "word": "смена",
+        "part_of_speech": "阴",
+        "meaning_zh": "更换；代替；班次；交替",
+        "source_page": 272,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "смена",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=272",
+        "data/words/tem4_russian_words.pdf#page=273"
+      ]
+    },
+    {
+      "id": 10188,
+      "accent": "сменя́ть",
+      "part": "动词·未完成体",
+      "meaning": "更换；替换；接替；代替",
+      "perfective": "смени́ть",
+      "note": "此来源为更换、接替义的未完成体；不混入交换义同形完成体。",
+      "stage": 2,
+      "original": {
+        "word": "сменять",
+        "part_of_speech": "未",
+        "meaning_zh": "更换；替换；代替",
+        "source_page": 273,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сменять",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=273"
+      ]
+    },
+    {
+      "id": 10189,
+      "accent": "смерть",
+      "part": "名词·阴性",
+      "meaning": "死；死亡",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "смерть",
+        "part_of_speech": "阴",
+        "meaning_zh": "死亡；死；死亡状态",
+        "source_page": 273,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "смерть",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=273"
+      ]
+    },
+    {
+      "id": 10190,
+      "accent": "сметь",
+      "part": "动词·未完成体",
+      "meaning": "敢；敢于；有权；获准",
+      "perfective": "посме́ть",
+      "note": "通常接不定式；有权、被容许常出现在否定语境。",
+      "stage": 2,
+      "original": {
+        "word": "сметь",
+        "part_of_speech": "未",
+        "meaning_zh": "敢于；敢；有权；获准",
+        "source_page": 273,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сметь",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=273"
+      ]
+    },
+    {
+      "id": 10191,
+      "accent": "смех",
+      "part": "名词·阳性",
+      "meaning": "笑；笑声",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "смех",
+        "part_of_speech": "阳",
+        "meaning_zh": "笑；笑声",
+        "source_page": 273,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "смех",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=273"
+      ]
+    },
+    {
+      "id": 10192,
+      "accent": "смешно́",
+      "part": "副词；状态词",
+      "meaning": "滑稽地；可笑地；令人发笑；可笑",
+      "perfective": "",
+      "note": "副词与无人称谓语用法分开理解。",
+      "stage": 1,
+      "original": {
+        "word": "смешно",
+        "part_of_speech": "副",
+        "meaning_zh": "可笑地；滑稽地；可笑",
+        "source_page": 273,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "смешно",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=273"
+      ]
+    },
+    {
+      "id": 10193,
+      "accent": "смешно́й",
+      "part": "形容词",
+      "meaning": "可笑的；滑稽的；令人发笑的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "смешной",
+        "part_of_speech": "形",
+        "meaning_zh": "可笑的；滑稽的",
+        "source_page": 273,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "смешной",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=273"
+      ]
+    },
+    {
+      "id": 10194,
+      "accent": "смея́ться",
+      "part": "动词·未完成体",
+      "meaning": "笑；发笑；嘲笑",
+      "perfective": "",
+      "note": "嘲笑常接над加工具格；不把рассмеяться开始笑覆盖所有义项。",
+      "stage": 1,
+      "original": {
+        "word": "смеяться",
+        "part_of_speech": "未",
+        "meaning_zh": "笑；发笑；嘲笑",
+        "source_page": 273,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "смеяться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=273"
+      ]
+    },
+    {
+      "id": 10195,
+      "accent": "сми́рный",
+      "part": "形容词",
+      "meaning": "温顺的；温和的；安静的；驯顺的",
+      "perfective": "",
+      "note": "命令Смирно为立正，不是形容词独立义。",
+      "stage": 2,
+      "original": {
+        "word": "смирный",
+        "part_of_speech": "形",
+        "meaning_zh": "温顺的；温和的；驯顺的",
+        "source_page": 273,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "смирный",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=273"
+      ]
+    },
+    {
+      "id": 10196,
+      "accent": "смуща́ться",
+      "part": "动词·未完成体",
+      "meaning": "害羞；难为情；感到困窘",
+      "perfective": "смути́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "смущаться",
+        "part_of_speech": "未",
+        "meaning_zh": "害羞；感到难为情；困窘",
+        "source_page": 274,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "смущаться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=274"
+      ]
+    },
+    {
+      "id": 10197,
+      "accent": "смущённый",
+      "part": "形容词；被动形动词用法",
+      "meaning": "害羞的；难为情的；困窘的",
+      "perfective": "",
+      "note": "保留ё与双н；来自смутить，不因词形像分词便删去形容词常用义。",
+      "stage": 2,
+      "original": {
+        "word": "смущённый",
+        "part_of_speech": "形",
+        "meaning_zh": "害羞的；难为情的；困窘的",
+        "source_page": 274,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "смущённый",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=274"
+      ]
+    },
+    {
+      "id": 10198,
+      "accent": "смысл",
+      "part": "名词·阳性",
+      "meaning": "意思；意义；含义；道理；价值",
+      "perfective": "",
+      "note": "既指话语含义，也指生活、行动的意义或价值。",
+      "stage": 2,
+      "original": {
+        "word": "смысл",
+        "part_of_speech": "阳",
+        "meaning_zh": "词义；意义；意思",
+        "source_page": 274,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "смысл",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=274"
+      ]
+    },
+    {
+      "id": 10199,
+      "accent": "снача́ла",
+      "part": "副词",
+      "meaning": "起初；首先；最初；重新；从头",
+      "perfective": "",
+      "note": "先做某事与从头重来两类用法均保留。",
+      "stage": 1,
+      "original": {
+        "word": "сначала",
+        "part_of_speech": "副",
+        "meaning_zh": "起初；最初；重新；从头开始",
+        "source_page": 274,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сначала",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=274"
+      ]
+    },
+    {
+      "id": 10200,
+      "accent": "снег",
+      "part": "名词·阳性",
+      "meaning": "雪",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "снег",
+        "part_of_speech": "阳",
+        "meaning_zh": "雪",
+        "source_page": 274,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "снег",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=274"
+      ]
+    },
+    {
+      "id": 10201,
+      "accent": "снегу́рочка",
+      "part": "名词·阴性",
+      "meaning": "雪姑娘",
+      "perfective": "",
+      "note": "保留原页词头小写记录；作为童话人物专名通常写Снегурочка。",
+      "stage": 2,
+      "original": {
+        "word": "снегурочка",
+        "part_of_speech": "阴",
+        "meaning_zh": "雪姑娘（童话人物）",
+        "source_page": 274,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "снегурочка",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=274"
+      ]
+    },
+    {
+      "id": 10202,
+      "accent": "сни́зу",
+      "part": "副词",
+      "meaning": "从下面；从下方；从下游；从基层；在下面",
+      "perfective": "",
+      "note": "具体表示方向、位置或基层来源时按语境理解。",
+      "stage": 1,
+      "original": {
+        "word": "снизу",
+        "part_of_speech": "副",
+        "meaning_zh": "从下边；从下面；从下游",
+        "source_page": 274,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "снизу",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=274"
+      ]
+    },
+    {
+      "id": 10203,
+      "accent": "снима́ть",
+      "part": "动词·未完成体",
+      "meaning": "取下；摘下；脱下；撤销；解除；拍摄；租用",
+      "perfective": "снять",
+      "note": "租用指租入、承租房屋，不是把房屋出租给别人。",
+      "stage": 1,
+      "original": {
+        "word": "снимать",
+        "part_of_speech": "未",
+        "meaning_zh": "取下；脱下；解除；拍摄；租赁",
+        "source_page": 274,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "снимать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=274"
+      ]
+    },
+    {
+      "id": 10204,
+      "accent": "сни́мок",
+      "part": "名词·阳性",
+      "meaning": "照片；相片；影像",
+      "perfective": "",
+      "note": "可用于摄影或医学拍摄影像。",
+      "stage": 1,
+      "original": {
+        "word": "снимок",
+        "part_of_speech": "阳",
+        "meaning_zh": "照片；相片",
+        "source_page": 274,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "снимок",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=274"
+      ]
+    },
+    {
+      "id": 10205,
+      "accent": "сно́ва",
+      "part": "副词",
+      "meaning": "又；再一次；重新",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "снова",
+        "part_of_speech": "副",
+        "meaning_zh": "又；重新；再一次",
+        "source_page": 274,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "снова",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=274"
+      ]
+    },
+    {
+      "id": 10206,
+      "accent": "соба́ка",
+      "part": "名词·阴性",
+      "meaning": "狗；犬",
+      "perfective": "",
+      "note": "语法阴性不等于专指母狗，删除会误导的性别限制。",
+      "stage": 1,
+      "original": {
+        "word": "собака",
+        "part_of_speech": "阴",
+        "meaning_zh": "狗；母狗",
+        "source_page": 274,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "собака",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=274"
+      ]
+    },
+    {
+      "id": 10207,
+      "accent": "собира́ть",
+      "part": "动词·未完成体",
+      "meaning": "收集；召集；装配；积攒；采集；收获；征收；为……作准备",
+      "perfective": "собра́ть",
+      "note": "跨页补装配、征收等核心义；宾语为人、物、税款等时各不相同。",
+      "stage": 1,
+      "original": {
+        "word": "собирать",
+        "part_of_speech": "未",
+        "meaning_zh": "聚集；召集；收集；积攒；采集；收割；准备",
+        "source_page": 274,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "собирать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=274",
+        "data/words/tem4_russian_words.pdf#page=275"
+      ]
+    },
+    {
+      "id": 10208,
+      "accent": "собира́ться",
+      "part": "动词·未完成体",
+      "meaning": "集合；聚集；积累；准备；打算；集中精神",
+      "perfective": "собра́ться",
+      "note": "打算加不定式；不把打算做等同于已经做完。",
+      "stage": 1,
+      "original": {
+        "word": "собираться",
+        "part_of_speech": "未",
+        "meaning_zh": "集合；打算；准备；积累；集中力量",
+        "source_page": 275,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "собираться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=275"
+      ]
+    },
+    {
+      "id": 10209,
+      "accent": "соблюда́ть",
+      "part": "动词·未完成体",
+      "meaning": "遵守；遵循；奉行；保持",
+      "perfective": "соблюсти́",
+      "note": "可遵守法律，也可保持清洁等状态。",
+      "stage": 2,
+      "original": {
+        "word": "соблюдать",
+        "part_of_speech": "未",
+        "meaning_zh": "遵守；奉行",
+        "source_page": 275,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "соблюдать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=275"
+      ]
+    },
+    {
+      "id": 10210,
+      "accent": "собра́ние",
+      "part": "名词·中性",
+      "meaning": "会议；集会；收集；收藏；汇集；作品集",
+      "perfective": "",
+      "note": "作品集、藏品集合依所汇集对象区分。",
+      "stage": 2,
+      "original": {
+        "word": "собрание",
+        "part_of_speech": "中",
+        "meaning_zh": "会议；集会；集合；选集",
+        "source_page": 275,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "собрание",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=275"
+      ]
+    },
+    {
+      "id": 10211,
+      "accent": "со́бственный",
+      "part": "形容词",
+      "meaning": "自己的；本人的；自有的；私人的",
+      "perfective": "",
+      "note": "原页自身、私人所有等义保留。",
+      "stage": 2,
+      "original": {
+        "word": "собственный",
+        "part_of_speech": "形",
+        "meaning_zh": "自己的；本人的；个人的",
+        "source_page": 275,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "собственный",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=275"
+      ]
+    },
+    {
+      "id": 10212,
+      "accent": "собы́тие",
+      "part": "名词·中性",
+      "meaning": "事件；事情；重要发生的事",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "событие",
+        "part_of_speech": "中",
+        "meaning_zh": "事件；事情",
+        "source_page": 275,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "событие",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=275"
+      ]
+    },
+    {
+      "id": 10213,
+      "accent": "соверша́ть",
+      "part": "动词·未完成体",
+      "meaning": "做；进行；完成；作出",
+      "perfective": "соверши́ть",
+      "note": "可与旅行、行为等搭配；按宾语翻译。",
+      "stage": 2,
+      "original": {
+        "word": "совершать",
+        "part_of_speech": "未",
+        "meaning_zh": "做；进行；完成",
+        "source_page": 275,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "совершать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=275"
+      ]
+    },
+    {
+      "id": 10214,
+      "accent": "соверше́нно",
+      "part": "副词",
+      "meaning": "完全；十分；全然",
+      "perfective": "",
+      "note": "此处重音在шен的е，表达程度，不混同表示完美地的异重音形式。",
+      "stage": 2,
+      "original": {
+        "word": "совершенно",
+        "part_of_speech": "副",
+        "meaning_zh": "完全地；十分；绝对",
+        "source_page": 276,
+        "source_line": "1"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "совершенно",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=276"
+      ]
+    },
+    {
+      "id": 10215,
+      "accent": "соверше́нствовать",
+      "part": "动词·未完成体",
+      "meaning": "完善；改进；改良",
+      "perfective": "усоверше́нствовать",
+      "note": "及物形式，改善项目、技术或技能。",
+      "stage": 2,
+      "original": {
+        "word": "совершенствовать",
+        "part_of_speech": "未",
+        "meaning_zh": "完善；改进；改良",
+        "source_page": 276,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "совершенствовать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=276"
+      ]
+    },
+    {
+      "id": 10216,
+      "accent": "со́весть",
+      "part": "名词·阴性",
+      "meaning": "良心；良知",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "совесть",
+        "part_of_speech": "阴",
+        "meaning_zh": "良心",
+        "source_page": 276,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "совесть",
+      "method": "2026-09-18当前助手逐词视觉核对PDF272至276页，核对词性、重音、体与核心义，明确租入方向和同形动词范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=276"
+      ]
+    }
+  ]
+}
