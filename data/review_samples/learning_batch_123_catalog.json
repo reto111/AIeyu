@@ -1,0 +1,696 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 9968,
+      "accent": "револю́ция",
+      "part": "名词·阴性",
+      "meaning": "革命；根本变革",
+      "perfective": "",
+      "note": "也可指科技、工业等领域的根本变革。",
+      "stage": 2,
+      "original": {
+        "word": "революция",
+        "part_of_speech": "阴",
+        "meaning_zh": "革命",
+        "source_page": 251,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "революция",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=251"
+      ]
+    },
+    {
+      "id": 9969,
+      "accent": "регуля́рный",
+      "part": "形容词",
+      "meaning": "有规律的；定期的；按时的；正规的",
+      "perfective": "",
+      "note": "正规义如正规军；不笼统译为正常。",
+      "stage": 2,
+      "original": {
+        "word": "регулярный",
+        "part_of_speech": "形",
+        "meaning_zh": "有规律的；正常的；按时的；定期的；正规的",
+        "source_page": 251,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "регулярный",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=251"
+      ]
+    },
+    {
+      "id": 9970,
+      "accent": "реда́ктор",
+      "part": "名词·阳性",
+      "meaning": "编辑；编者",
+      "perfective": "",
+      "note": "主编为главный редактор，单独词头不必然是主编。",
+      "stage": 2,
+      "original": {
+        "word": "редактор",
+        "part_of_speech": "阳",
+        "meaning_zh": "编辑；主编",
+        "source_page": 251,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "редактор",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=251"
+      ]
+    },
+    {
+      "id": 9971,
+      "accent": "реда́кция",
+      "part": "名词·阴性",
+      "meaning": "编辑；校订；编辑部；版本",
+      "perfective": "",
+      "note": "版本指作品经编辑、修订形成的文本版本。",
+      "stage": 2,
+      "original": {
+        "word": "редакция",
+        "part_of_speech": "阴",
+        "meaning_zh": "编辑部；编辑；版本",
+        "source_page": 251,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "редакция",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=251"
+      ]
+    },
+    {
+      "id": 9972,
+      "accent": "ре́дкий",
+      "part": "形容词",
+      "meaning": "稀疏的；稀少的；不常见的；罕见的；出众的",
+      "perfective": "",
+      "note": "跨页补出众、非同寻常义；редкий与редко的词性不同。",
+      "stage": 1,
+      "original": {
+        "word": "редкий",
+        "part_of_speech": "形",
+        "meaning_zh": "稀少的；稀疏的；不经常的；罕见的",
+        "source_page": 251,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "редкий",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=251",
+        "data/words/tem4_russian_words.pdf#page=252"
+      ]
+    },
+    {
+      "id": 9973,
+      "accent": "режи́м",
+      "part": "名词·阳性",
+      "meaning": "政体；制度；作息制度；规程；运行方式",
+      "perfective": "",
+      "note": "政体、作息及设备运行规程依搭配区分。",
+      "stage": 2,
+      "original": {
+        "word": "режим",
+        "part_of_speech": "阳",
+        "meaning_zh": "政体；制度；规章；作息制度；操作规范",
+        "source_page": 252,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "режим",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=252"
+      ]
+    },
+    {
+      "id": 9974,
+      "accent": "режиссёр",
+      "part": "名词·阳性",
+      "meaning": "导演",
+      "perfective": "",
+      "note": "保留ё，原页明确；可指电影或戏剧导演。",
+      "stage": 2,
+      "original": {
+        "word": "режиссёр",
+        "part_of_speech": "阳",
+        "meaning_zh": "导演；电影或戏剧导演",
+        "source_page": 252,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "режиссёр",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=252"
+      ]
+    },
+    {
+      "id": 9975,
+      "accent": "ре́зать",
+      "part": "动词·未完成体",
+      "meaning": "切；割；宰杀；刺痛；使感官不适",
+      "perfective": "",
+      "note": "原页列резнуть为一次动作，разрезать、зарезать依切开、宰杀等语义使用，不设全义通用体对。",
+      "stage": 1,
+      "original": {
+        "word": "резать",
+        "part_of_speech": "未",
+        "meaning_zh": "切；割；刺痛；使不舒服",
+        "source_page": 252,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "резать",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=252"
+      ]
+    },
+    {
+      "id": 9976,
+      "accent": "резе́рв",
+      "part": "名词·阳性",
+      "meaning": "储备；后备资源；后备力量；预备队",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "резерв",
+        "part_of_speech": "阳",
+        "meaning_zh": "储备；后备力量；预备队",
+        "source_page": 252,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "резерв",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=252"
+      ]
+    },
+    {
+      "id": 9977,
+      "accent": "ре́зкий",
+      "part": "形容词",
+      "meaning": "急剧的；强烈的；突然的；刺耳的；刺鼻的；分明的；尖刻的",
+      "perfective": "",
+      "note": "声音、气味、变化、轮廓和言语分别对应不同义项。",
+      "stage": 2,
+      "original": {
+        "word": "резкий",
+        "part_of_speech": "形",
+        "meaning_zh": "急剧的；强烈的；突然的；刺鼻的；尖刻的",
+        "source_page": 252,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "резкий",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=252"
+      ]
+    },
+    {
+      "id": 9978,
+      "accent": "результа́т",
+      "part": "名词·阳性",
+      "meaning": "结果；成果；成绩",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "результат",
+        "part_of_speech": "阳",
+        "meaning_zh": "结果；成绩；成果",
+        "source_page": 252,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "результат",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=252"
+      ]
+    },
+    {
+      "id": 9979,
+      "accent": "река́",
+      "part": "名词·阴性",
+      "meaning": "河；河流",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "река",
+        "part_of_speech": "阴",
+        "meaning_zh": "河；河流",
+        "source_page": 252,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "река",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=252"
+      ]
+    },
+    {
+      "id": 9980,
+      "accent": "рекомендова́ть",
+      "part": "动词·兼体",
+      "meaning": "推荐；介绍；建议",
+      "perfective": "порекомендова́ть",
+      "note": "原页标未完成体、完成体兼用；所列带前缀形式是明确完成体，不把词头只标为未完成体。",
+      "stage": 2,
+      "original": {
+        "word": "рекомендовать",
+        "part_of_speech": "未/完",
+        "meaning_zh": "推荐；建议",
+        "source_page": 252,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рекомендовать",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=252"
+      ]
+    },
+    {
+      "id": 9981,
+      "accent": "реко́рд",
+      "part": "名词·阳性",
+      "meaning": "纪录；最高纪录",
+      "perfective": "",
+      "note": "指达到的最高成绩，不是一般记录或记载。",
+      "stage": 2,
+      "original": {
+        "word": "рекорд",
+        "part_of_speech": "阳",
+        "meaning_zh": "纪录；记录",
+        "source_page": 253,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рекорд",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=253"
+      ]
+    },
+    {
+      "id": 9982,
+      "accent": "ремо́нт",
+      "part": "名词·阳性",
+      "meaning": "修理；维修；修缮；装修",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "ремонт",
+        "part_of_speech": "阳",
+        "meaning_zh": "修理；维修；装修",
+        "source_page": 253,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ремонт",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=253"
+      ]
+    },
+    {
+      "id": 9983,
+      "accent": "репети́ция",
+      "part": "名词·阴性",
+      "meaning": "排练；排演；预演",
+      "perfective": "",
+      "note": "以表演等准备性演练为核心，不泛指所有军事演习。",
+      "stage": 2,
+      "original": {
+        "word": "репетиция",
+        "part_of_speech": "阴",
+        "meaning_zh": "排练；排演；演习",
+        "source_page": 253,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "репетиция",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=253"
+      ]
+    },
+    {
+      "id": 9984,
+      "accent": "респу́блика",
+      "part": "名词·阴性",
+      "meaning": "共和国",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "республика",
+        "part_of_speech": "阴",
+        "meaning_zh": "共和国",
+        "source_page": 253,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "республика",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=253"
+      ]
+    },
+    {
+      "id": 9985,
+      "accent": "рестора́н",
+      "part": "名词·阳性",
+      "meaning": "餐馆；饭店",
+      "perfective": "",
+      "note": "这里饭店指用餐场所，不是旅馆。",
+      "stage": 1,
+      "original": {
+        "word": "ресторан",
+        "part_of_speech": "阳",
+        "meaning_zh": "饭馆；餐厅",
+        "source_page": 253,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ресторан",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=253"
+      ]
+    },
+    {
+      "id": 9986,
+      "accent": "реце́пт",
+      "part": "名词·阳性",
+      "meaning": "处方；药方；食谱；配方；做法",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "рецепт",
+        "part_of_speech": "阳",
+        "meaning_zh": "处方；药方；食谱；配方",
+        "source_page": 253,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рецепт",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=253"
+      ]
+    },
+    {
+      "id": 9987,
+      "accent": "речь",
+      "part": "名词·阴性",
+      "meaning": "言语；言语能力；说话方式；谈话；演讲",
+      "perfective": "",
+      "note": "词类是часть речи整个词组的意思，删除混入单词核心义的词类。",
+      "stage": 2,
+      "original": {
+        "word": "речь",
+        "part_of_speech": "阴",
+        "meaning_zh": "言语；讲话；谈话；语法中的词类",
+        "source_page": 253,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "речь",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=253"
+      ]
+    },
+    {
+      "id": 9988,
+      "accent": "реша́ть",
+      "part": "动词·未完成体",
+      "meaning": "解决；解答；决定；下决心",
+      "perfective": "реши́ть",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "решать",
+        "part_of_speech": "未",
+        "meaning_zh": "解决；解答；决定；下决心",
+        "source_page": 253,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "решать",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=253"
+      ]
+    },
+    {
+      "id": 9989,
+      "accent": "реша́ться",
+      "part": "动词·未完成体",
+      "meaning": "下定决心；敢于；得到解决；作出裁决",
+      "perfective": "реши́ться",
+      "note": "决定冒险可接на加宾格或不定式；问题得到解决是被动意义。",
+      "stage": 2,
+      "original": {
+        "word": "решаться",
+        "part_of_speech": "未",
+        "meaning_zh": "下定决心；敢于；得到解决",
+        "source_page": 253,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "решаться",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=253"
+      ]
+    },
+    {
+      "id": 9990,
+      "accent": "реше́ние",
+      "part": "名词·中性",
+      "meaning": "解决；解答；解；决定；决议；判决",
+      "perfective": "",
+      "note": "解可指数学题的答案，判决用于司法语境。",
+      "stage": 1,
+      "original": {
+        "word": "решение",
+        "part_of_speech": "中",
+        "meaning_zh": "解决；答案；决定；决议；判决",
+        "source_page": 253,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "решение",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=253"
+      ]
+    },
+    {
+      "id": 9991,
+      "accent": "реши́тельный",
+      "part": "形容词",
+      "meaning": "坚决的；果断的；决定性的；最终的",
+      "perfective": "",
+      "note": "补原页最终义，不把决定性弱化为泛指重要。",
+      "stage": 2,
+      "original": {
+        "word": "решительный",
+        "part_of_speech": "形",
+        "meaning_zh": "坚决的；果断的；确定的；关键的",
+        "source_page": 253,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "решительный",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=253"
+      ]
+    },
+    {
+      "id": 9992,
+      "accent": "рис",
+      "part": "名词·阳性",
+      "meaning": "水稻；稻米；大米；米饭",
+      "perfective": "",
+      "note": "既指作物、米粒，也可指煮熟的米饭，依语境区分。",
+      "stage": 1,
+      "original": {
+        "word": "рис",
+        "part_of_speech": "阳",
+        "meaning_zh": "稻；稻子；大米",
+        "source_page": 254,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рис",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=254"
+      ]
+    },
+    {
+      "id": 9993,
+      "accent": "рискова́ть",
+      "part": "动词·未完成体",
+      "meaning": "冒险；冒失去……的危险",
+      "perfective": "рискну́ть",
+      "note": "被置于风险中的事物用工具格，如冒生命危险。",
+      "stage": 2,
+      "original": {
+        "word": "рисковать",
+        "part_of_speech": "未",
+        "meaning_zh": "冒险；承担风险",
+        "source_page": 254,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рисковать",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=254"
+      ]
+    },
+    {
+      "id": 9994,
+      "accent": "рисова́ние",
+      "part": "名词·中性",
+      "meaning": "绘画；画画",
+      "perfective": "",
+      "note": "可指绘画活动或相关课程。",
+      "stage": 1,
+      "original": {
+        "word": "рисование",
+        "part_of_speech": "中",
+        "meaning_zh": "绘画；画画",
+        "source_page": 254,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рисование",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=254"
+      ]
+    },
+    {
+      "id": 9995,
+      "accent": "рисова́ть",
+      "part": "动词·未完成体",
+      "meaning": "画；绘画；描绘；描述",
+      "perfective": "нарисова́ть",
+      "note": "既能画图，也能用语言描绘。",
+      "stage": 1,
+      "original": {
+        "word": "рисовать",
+        "part_of_speech": "未",
+        "meaning_zh": "画；绘画；描写；描述",
+        "source_page": 254,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рисовать",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=254"
+      ]
+    },
+    {
+      "id": 9996,
+      "accent": "рису́нок",
+      "part": "名词·阳性",
+      "meaning": "图画；素描；插图；图案；花纹",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "рисунок",
+        "part_of_speech": "阳",
+        "meaning_zh": "图画；素描；插图；图案",
+        "source_page": 254,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рисунок",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=254"
+      ]
+    },
+    {
+      "id": 9997,
+      "accent": "ро́бкий",
+      "part": "形容词",
+      "meaning": "胆小的；胆怯的；羞怯的；畏缩的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "робкий",
+        "part_of_speech": "形",
+        "meaning_zh": "胆小的；胆怯的；畏缩的",
+        "source_page": 254,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "робкий",
+      "method": "2026-09-18当前助手逐词对照PDF251至254页，核对重音、核心义、词性与体，分离词组义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=254"
+      ]
+    }
+  ]
+}

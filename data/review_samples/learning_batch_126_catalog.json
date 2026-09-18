@@ -1,0 +1,698 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10059,
+      "accent": "сверка́ть",
+      "part": "动词·未完成体",
+      "meaning": "闪烁；闪闪发光",
+      "perfective": "сверкну́ть",
+      "note": "所列完成体表示闪一下。",
+      "stage": 2,
+      "original": {
+        "word": "сверкать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "闪烁；闪闪发光",
+        "source_page": 260,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сверкать",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=260"
+      ]
+    },
+    {
+      "id": 10060,
+      "accent": "свёртывать",
+      "part": "动词·未完成体",
+      "meaning": "卷起；折叠；缩减；转弯；拐入",
+      "perfective": "сверну́ть",
+      "note": "原页含拐入小路义；保留ё。缩减如缩减工作或生产。",
+      "stage": 2,
+      "original": {
+        "word": "свёртывать",
+        "part_of_speech": "未",
+        "meaning_zh": "卷起；使折叠；使缩减",
+        "source_page": 260,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "свёртывать",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=260"
+      ]
+    },
+    {
+      "id": 10061,
+      "accent": "све́рху",
+      "part": "副词",
+      "meaning": "从上面；从高处；从上游；从上级；在上面",
+      "perfective": "",
+      "note": "可表示方向或所在位置。",
+      "stage": 1,
+      "original": {
+        "word": "сверху",
+        "part_of_speech": "副",
+        "meaning_zh": "从上面；从高处；在上面",
+        "source_page": 260,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сверху",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=260"
+      ]
+    },
+    {
+      "id": 10062,
+      "accent": "свет",
+      "part": "名词·阳性",
+      "meaning": "光；光线；灯光；电灯；光明；世界",
+      "perfective": "",
+      "note": "当前来源合列光与世界义，保留并区别；停电语境нет света是口语搭配。",
+      "stage": 1,
+      "original": {
+        "word": "свет",
+        "part_of_speech": "阳",
+        "meaning_zh": "光；光线；电；光明；世界",
+        "source_page": 260,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "свет",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=260"
+      ]
+    },
+    {
+      "id": 10063,
+      "accent": "света́ть",
+      "part": "动词·未完成体；无人称",
+      "meaning": "天亮；破晓",
+      "perfective": "",
+      "note": "常用светает、светало，不补造一对一完成体。",
+      "stage": 2,
+      "original": {
+        "word": "светать",
+        "part_of_speech": "未 , 无 人 称",
+        "meaning_zh": "天亮；破晓",
+        "source_page": 260,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "светать",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=260"
+      ]
+    },
+    {
+      "id": 10064,
+      "accent": "свети́ть",
+      "part": "动词·未完成体",
+      "meaning": "发光；照亮；照射",
+      "perfective": "",
+      "note": "持续发光义不机械配一次闪光或开始发光的前缀动词。",
+      "stage": 1,
+      "original": {
+        "word": "светить",
+        "part_of_speech": "未",
+        "meaning_zh": "发光；照亮",
+        "source_page": 260,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "светить",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=260",
+        "data/words/tem4_russian_words.pdf#page=261"
+      ]
+    },
+    {
+      "id": 10065,
+      "accent": "светло́",
+      "part": "副词；状态词",
+      "meaning": "明亮地；明亮；敞亮；心情开朗",
+      "perfective": "",
+      "note": "原页本条为末音节重读副词、状态词，不混同其他语法形式。",
+      "stage": 2,
+      "original": {
+        "word": "светло",
+        "part_of_speech": "副",
+        "meaning_zh": "明亮；光明；（心情）开朗",
+        "source_page": 261,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "светло",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=261"
+      ]
+    },
+    {
+      "id": 10066,
+      "accent": "све́тлый",
+      "part": "形容词",
+      "meaning": "明亮的；光明的；浅色的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "светлый",
+        "part_of_speech": "形",
+        "meaning_zh": "明亮的；光明的；浅色的",
+        "source_page": 261,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "светлый",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=261"
+      ]
+    },
+    {
+      "id": 10067,
+      "accent": "свеча́",
+      "part": "名词·阴性",
+      "meaning": "蜡烛；烛光单位；火花塞",
+      "perfective": "",
+      "note": "烛光单位为旧用法，不表示一般的烛火光线；发动机语境可指火花塞。",
+      "stage": 2,
+      "original": {
+        "word": "свеча",
+        "part_of_speech": "阴",
+        "meaning_zh": "蜡烛；烛光；烛光单位",
+        "source_page": 261,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "свеча",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=261"
+      ]
+    },
+    {
+      "id": 10068,
+      "accent": "свида́ние",
+      "part": "名词·中性",
+      "meaning": "会面；会晤；约会",
+      "perfective": "",
+      "note": "再见是до свидания整个告别语的意义，不能作为单词独立义。",
+      "stage": 1,
+      "original": {
+        "word": "свидание",
+        "part_of_speech": "中",
+        "meaning_zh": "会面；约会；会晤；再见",
+        "source_page": 261,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "свидание",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=261"
+      ]
+    },
+    {
+      "id": 10069,
+      "accent": "свиде́тельство",
+      "part": "名词·中性",
+      "meaning": "证据；证明；证词；证书",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "свидетельство",
+        "part_of_speech": "中",
+        "meaning_zh": "证据；证明；证词；证书",
+        "source_page": 261,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "свидетельство",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=261"
+      ]
+    },
+    {
+      "id": 10070,
+      "accent": "свинья́",
+      "part": "名词·阴性",
+      "meaning": "猪；母猪",
+      "perfective": "",
+      "note": "语法阴性不意味着所有语境都专指母猪。",
+      "stage": 1,
+      "original": {
+        "word": "свинья",
+        "part_of_speech": "阴",
+        "meaning_zh": "猪；母猪",
+        "source_page": 261,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "свинья",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=261"
+      ]
+    },
+    {
+      "id": 10071,
+      "accent": "свисте́ть",
+      "part": "动词·未完成体",
+      "meaning": "吹口哨；发出哨声；呼啸",
+      "perfective": "сви́стнуть",
+      "note": "完成体通常表示吹一声、响一下。",
+      "stage": 2,
+      "original": {
+        "word": "свистеть",
+        "part_of_speech": "未",
+        "meaning_zh": "吹口哨；呼啸",
+        "source_page": 261,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "свистеть",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=261"
+      ]
+    },
+    {
+      "id": 10072,
+      "accent": "свобо́да",
+      "part": "名词·阴性",
+      "meaning": "自由；自主；不受约束；空闲",
+      "perfective": "",
+      "note": "空闲通常在на свободе等具体语境中出现。",
+      "stage": 1,
+      "original": {
+        "word": "свобода",
+        "part_of_speech": "阴",
+        "meaning_zh": "自由；自主；空闲",
+        "source_page": 261,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "свобода",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=261"
+      ]
+    },
+    {
+      "id": 10074,
+      "accent": "сво́дка",
+      "part": "名词·阴性",
+      "meaning": "综合报告；简报；通报",
+      "perfective": "",
+      "note": "强调汇总的信息，如天气简报。",
+      "stage": 2,
+      "original": {
+        "word": "сводка",
+        "part_of_speech": "阴",
+        "meaning_zh": "汇报；通报；综合报告",
+        "source_page": 261,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сводка",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=261"
+      ]
+    },
+    {
+      "id": 10075,
+      "accent": "свой",
+      "part": "代词",
+      "meaning": "自己的；本人的；特有的；自己人的；亲近的",
+      "perfective": "",
+      "note": "通常指句子主语所属；名词化形式有自己人、自己的意见等意义。",
+      "stage": 1,
+      "original": {
+        "word": "свой",
+        "part_of_speech": null,
+        "meaning_zh": "自己的；本人的；亲近的；特有的",
+        "source_page": 261,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "свой",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=261",
+        "data/words/tem4_russian_words.pdf#page=262"
+      ]
+    },
+    {
+      "id": 10076,
+      "accent": "сво́йство",
+      "part": "名词·中性",
+      "meaning": "性质；特性；性能",
+      "perfective": "",
+      "note": "此处重音在首音节；不混入异重音的姻亲关系义。",
+      "stage": 2,
+      "original": {
+        "word": "свойство",
+        "part_of_speech": "中",
+        "meaning_zh": "性质；特性；性能",
+        "source_page": 262,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "свойство",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=262"
+      ]
+    },
+    {
+      "id": 10077,
+      "accent": "свя́зывать",
+      "part": "动词·未完成体",
+      "meaning": "捆绑；连接；联系；约束；使承担义务",
+      "perfective": "связа́ть",
+      "note": "联系可指建立通信、交通或思想上的关联；约束可指承诺使人受约束。",
+      "stage": 2,
+      "original": {
+        "word": "связывать",
+        "part_of_speech": "未",
+        "meaning_zh": "连接；捆绑；联系；使承担",
+        "source_page": 262,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "связывать",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=262"
+      ]
+    },
+    {
+      "id": 10078,
+      "accent": "связь",
+      "part": "名词·阴性",
+      "meaning": "联系；关系；交往；通信；通信设施",
+      "perfective": "",
+      "note": "в связи с为由于、鉴于的介词搭配，不并入词头义。",
+      "stage": 2,
+      "original": {
+        "word": "связь",
+        "part_of_speech": "阴",
+        "meaning_zh": "联系；关系；通信；通讯",
+        "source_page": 262,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "связь",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=262"
+      ]
+    },
+    {
+      "id": 10079,
+      "accent": "сдава́ть",
+      "part": "动词·未完成体",
+      "meaning": "交出；交付；送交；出租；参加考试；通过考试；放弃",
+      "perfective": "сдать",
+      "note": "сдавать экзамен可表示参加考试过程，сдать экзамен通常表示通过；并非每次参加都考过。",
+      "stage": 1,
+      "original": {
+        "word": "сдавать",
+        "part_of_speech": "未",
+        "meaning_zh": "交出；提交；参加考试；出租",
+        "source_page": 262,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сдавать",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=262"
+      ]
+    },
+    {
+      "id": 10080,
+      "accent": "сда́ча",
+      "part": "名词·阴性",
+      "meaning": "交付；移交；找回的钱；找零",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "сдача",
+        "part_of_speech": "阴",
+        "meaning_zh": "交出；移交；找零",
+        "source_page": 262,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сдача",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=262"
+      ]
+    },
+    {
+      "id": 10081,
+      "accent": "сде́рживать",
+      "part": "动词·未完成体",
+      "meaning": "抑制；制止；克制；约束；信守",
+      "perfective": "сдержа́ть",
+      "note": "信守用于слово、обещание等宾语，不能泛指任何兑现。",
+      "stage": 2,
+      "original": {
+        "word": "сдерживать",
+        "part_of_speech": "未",
+        "meaning_zh": "抑制；克制；阻止；兑现（诺言）",
+        "source_page": 262,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сдерживать",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=262",
+        "data/words/tem4_russian_words.pdf#page=263"
+      ]
+    },
+    {
+      "id": 10082,
+      "accent": "сеа́нс",
+      "part": "名词·阳性",
+      "meaning": "场次；一场；一次活动；一次治疗",
+      "perfective": "",
+      "note": "常指电影放映、治疗等持续一定时间的活动，不是所有次、回都用此词。",
+      "stage": 2,
+      "original": {
+        "word": "сеанс",
+        "part_of_speech": "阳",
+        "meaning_zh": "一场；一次；一回；（电影等）场次",
+        "source_page": 263,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сеанс",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=263"
+      ]
+    },
+    {
+      "id": 10083,
+      "accent": "себя́",
+      "part": "反身代词",
+      "meaning": "自己；自身",
+      "perfective": "",
+      "note": "无主格；指向动作主体，不表示物主自己的。",
+      "stage": 1,
+      "original": {
+        "word": "себя",
+        "part_of_speech": "代",
+        "meaning_zh": "自己；自身",
+        "source_page": 263,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "себя",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=263"
+      ]
+    },
+    {
+      "id": 10084,
+      "accent": "се́вер",
+      "part": "名词·阳性",
+      "meaning": "北；北方；北部",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "север",
+        "part_of_speech": "阳",
+        "meaning_zh": "北；北方",
+        "source_page": 263,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "север",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=263"
+      ]
+    },
+    {
+      "id": 10085,
+      "accent": "се́верный",
+      "part": "形容词",
+      "meaning": "北方的；北部的；北面的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "северный",
+        "part_of_speech": "形",
+        "meaning_zh": "北方的；北部的",
+        "source_page": 263,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "северный",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=263"
+      ]
+    },
+    {
+      "id": 10087,
+      "accent": "сего́дняшний",
+      "part": "形容词",
+      "meaning": "今天的；当前的；现今的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "сегодняшний",
+        "part_of_speech": "形",
+        "meaning_zh": "今天的；当前的；现在的",
+        "source_page": 263,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сегодняшний",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=263"
+      ]
+    },
+    {
+      "id": 10088,
+      "accent": "седо́й",
+      "part": "形容词",
+      "meaning": "头发灰白的；白发的；苍白的",
+      "perfective": "",
+      "note": "常说头发或白发的人，亦可形容灰白雾气，不泛指所有白色。",
+      "stage": 2,
+      "original": {
+        "word": "седой",
+        "part_of_speech": "形",
+        "meaning_zh": "花白的；灰白头发的；白色的",
+        "source_page": 263,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "седой",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=263"
+      ]
+    },
+    {
+      "id": 10089,
+      "accent": "седьмо́й",
+      "part": "序数词",
+      "meaning": "第七",
+      "perfective": "",
+      "note": "七分之一是одна седьмая，不能把седьмой本身当作分数。",
+      "stage": 1,
+      "original": {
+        "word": "седьмой",
+        "part_of_speech": "数",
+        "meaning_zh": "第七；七分之一",
+        "source_page": 263,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "седьмой",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=263"
+      ]
+    },
+    {
+      "id": 10090,
+      "accent": "быть на седьмо́м не́бе",
+      "part": "固定短语",
+      "meaning": "欣喜若狂；非常高兴",
+      "perfective": "",
+      "note": "固定比喻表达，不能逐字按所在楼层理解；不设短语完成体。",
+      "stage": 2,
+      "original": {
+        "word": "быть на седьмом небе",
+        "part_of_speech": null,
+        "meaning_zh": "欣喜若狂；非常高兴",
+        "source_page": 263,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "быть на седьмом небе",
+      "method": "2026-09-18当前助手逐词对照PDF260至263页原图，核对重音、词性、体及搭配义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=263"
+      ]
+    }
+  ]
+}

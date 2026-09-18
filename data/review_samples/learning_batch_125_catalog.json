@@ -1,0 +1,696 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10029,
+      "accent": "ручно́й",
+      "part": "形容词",
+      "meaning": "手的；手用的；手提的；手工的；手动的；驯服的",
+      "perfective": "",
+      "note": "手动操作与驯服、亲人的动物用法分开理解。",
+      "stage": 2,
+      "original": {
+        "word": "ручной",
+        "part_of_speech": "形",
+        "meaning_zh": "手的；手工的；手提的",
+        "source_page": 256,
+        "source_line": "17"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ручной",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=256"
+      ]
+    },
+    {
+      "id": 10030,
+      "accent": "ры́ба",
+      "part": "名词·阴性",
+      "meaning": "鱼；鱼类；鱼肉",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "рыба",
+        "part_of_speech": "阴",
+        "meaning_zh": "鱼；鱼类；鱼肉",
+        "source_page": 257,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рыба",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=257"
+      ]
+    },
+    {
+      "id": 10031,
+      "accent": "рыба́к",
+      "part": "名词·阳性",
+      "meaning": "渔民；捕鱼人；钓鱼人",
+      "perfective": "",
+      "note": "不限以捕鱼为业的人。",
+      "stage": 1,
+      "original": {
+        "word": "рыбак",
+        "part_of_speech": "阳",
+        "meaning_zh": "渔民；渔夫",
+        "source_page": 257,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рыбак",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=257"
+      ]
+    },
+    {
+      "id": 10032,
+      "accent": "ры́жий",
+      "part": "形容词",
+      "meaning": "姜黄色的；红褐色的；红头发的；赤褐毛色的",
+      "perfective": "",
+      "note": "常形容头发、胡须、动物毛色；不是一般红色красный。",
+      "stage": 2,
+      "original": {
+        "word": "рыжий",
+        "part_of_speech": "形",
+        "meaning_zh": "红褐色的；红头发的；（马）栗色的",
+        "source_page": 257,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рыжий",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=257"
+      ]
+    },
+    {
+      "id": 10033,
+      "accent": "ры́нок",
+      "part": "名词·阳性",
+      "meaning": "市场；集市；销路",
+      "perfective": "",
+      "note": "既指交易场所，也指商品需求、销售领域等经济意义。",
+      "stage": 1,
+      "original": {
+        "word": "рынок",
+        "part_of_speech": "阳",
+        "meaning_zh": "市场；集市；市场体系",
+        "source_page": 257,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рынок",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=257"
+      ]
+    },
+    {
+      "id": 10034,
+      "accent": "ряд",
+      "part": "名词·阳性",
+      "meaning": "行；排；列；行列；一系列；若干",
+      "perfective": "",
+      "note": "ряд加属格可表示一系列或若干，并非总指空间排列。",
+      "stage": 2,
+      "original": {
+        "word": "ряд",
+        "part_of_speech": "阳",
+        "meaning_zh": "行；排；列；一系列",
+        "source_page": 257,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ряд",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=257"
+      ]
+    },
+    {
+      "id": 10035,
+      "accent": "рядово́й",
+      "part": "形容词；名词化用法",
+      "meaning": "普通的；一般的；列兵",
+      "perfective": "",
+      "note": "列兵为名词化用法；普通工作人员是рядовой работник整个搭配的意义。",
+      "stage": 2,
+      "original": {
+        "word": "рядовой",
+        "part_of_speech": "形",
+        "meaning_zh": "普通的；普通工作人员；列兵",
+        "source_page": 257,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "рядовой",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=257"
+      ]
+    },
+    {
+      "id": 10036,
+      "accent": "сад",
+      "part": "名词·阳性",
+      "meaning": "花园；园子；果园",
+      "perfective": "",
+      "note": "детский сад为幼儿园，ботанический сад为植物园；口语可按语境省略修饰词。",
+      "stage": 1,
+      "original": {
+        "word": "сад",
+        "part_of_speech": "阳",
+        "meaning_zh": "花园；果园；植物园；幼儿园",
+        "source_page": 258,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сад",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=258"
+      ]
+    },
+    {
+      "id": 10037,
+      "accent": "сади́ться",
+      "part": "动词·未完成体",
+      "meaning": "坐下；上车；登机；坐下开始做；降落；落山",
+      "perfective": "сесть",
+      "note": "乘交通工具侧重上车、登机动作，不等同于持续乘坐；太阳落山也是原页义。",
+      "stage": 1,
+      "original": {
+        "word": "садиться",
+        "part_of_speech": "Ж",
+        "meaning_zh": "坐下；登上；乘坐；降落；日落",
+        "source_page": 258,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "садиться",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=258"
+      ]
+    },
+    {
+      "id": 10038,
+      "accent": "сажа́ть",
+      "part": "动词·未完成体",
+      "meaning": "栽种；让坐下；使上车；关押；使降落",
+      "perfective": "посади́ть",
+      "note": "跨页核对：сажать в тюрьму为投入监狱，飞机作宾语可指使飞机着陆。",
+      "stage": 2,
+      "original": {
+        "word": "сажать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "栽种；让……坐下；使上车；送入",
+        "source_page": 258,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сажать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=258",
+        "data/words/tem4_russian_words.pdf#page=259"
+      ]
+    },
+    {
+      "id": 10039,
+      "accent": "сам",
+      "part": "代词",
+      "meaning": "自己；本人；亲自",
+      "perfective": "",
+      "note": "阳性сам，阴性сама，中性само，复数сами；不同于最高级用词самый。",
+      "stage": 1,
+      "original": {
+        "word": "сам",
+        "part_of_speech": "阳",
+        "meaning_zh": "自己；本人；亲自",
+        "source_page": 259,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сам",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=259"
+      ]
+    },
+    {
+      "id": 10040,
+      "accent": "самова́р",
+      "part": "名词·阳性",
+      "meaning": "茶炊；俄式茶炊",
+      "perfective": "",
+      "note": "烧水沏茶的器具，不是茶壶的泛称。",
+      "stage": 2,
+      "original": {
+        "word": "самовар",
+        "part_of_speech": "阳",
+        "meaning_zh": "俄式茶炊；茶炊",
+        "source_page": 259,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "самовар",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=259"
+      ]
+    },
+    {
+      "id": 10041,
+      "accent": "самоде́ятельность",
+      "part": "名词·阴性",
+      "meaning": "主动性；独立活动；业余文艺活动",
+      "perfective": "",
+      "note": "业余艺术活动与自行活动依语境区分。",
+      "stage": 2,
+      "original": {
+        "word": "самодеятельность",
+        "part_of_speech": "阴",
+        "meaning_zh": "主动性；首创精神；业余文艺活动",
+        "source_page": 259,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "самодеятельность",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=259"
+      ]
+    },
+    {
+      "id": 10042,
+      "accent": "самолёт",
+      "part": "名词·阳性",
+      "meaning": "飞机",
+      "perfective": "",
+      "note": "保留正确ё。",
+      "stage": 1,
+      "original": {
+        "word": "самолёт",
+        "part_of_speech": "阳",
+        "meaning_zh": "飞机",
+        "source_page": 259,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "самолёт",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=259"
+      ]
+    },
+    {
+      "id": 10043,
+      "accent": "самообслу́живание",
+      "part": "名词·中性",
+      "meaning": "自助服务；自我服务；生活自理",
+      "perfective": "",
+      "note": "自助餐厅是столовая самообслуживания，单词不限于餐饮。",
+      "stage": 2,
+      "original": {
+        "word": "самообслуживание",
+        "part_of_speech": "中",
+        "meaning_zh": "自助服务；自助餐",
+        "source_page": 259,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "самообслуживание",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=259"
+      ]
+    },
+    {
+      "id": 10044,
+      "accent": "самостоя́тельный",
+      "part": "形容词",
+      "meaning": "独立的；自主的；有独立能力的；独自完成的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "самостоятельный",
+        "part_of_speech": "形",
+        "meaning_zh": "独立的；自主的；独自的；能独立完成的",
+        "source_page": 259,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "самостоятельный",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=259"
+      ]
+    },
+    {
+      "id": 10045,
+      "accent": "са́мый",
+      "part": "代词",
+      "meaning": "正是那个；恰是；最……的；紧靠……的",
+      "perfective": "",
+      "note": "与形容词连用构成最高级；тот самый强调正是，与сам区别。",
+      "stage": 1,
+      "original": {
+        "word": "самый",
+        "part_of_speech": "代",
+        "meaning_zh": "正是；恰好；最；最……的",
+        "source_page": 259,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "самый",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=259"
+      ]
+    },
+    {
+      "id": 10046,
+      "accent": "санато́рий",
+      "part": "名词·阳性",
+      "meaning": "疗养院；疗养所",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "санаторий",
+        "part_of_speech": "阳",
+        "meaning_zh": "疗养院；疗养所",
+        "source_page": 259,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "санаторий",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=259"
+      ]
+    },
+    {
+      "id": 10047,
+      "accent": "са́ни",
+      "part": "名词·只用复数",
+      "meaning": "雪橇",
+      "perfective": "",
+      "note": "单件雪橇也用该复数形式。",
+      "stage": 2,
+      "original": {
+        "word": "сани",
+        "part_of_speech": "复",
+        "meaning_zh": "雪橇",
+        "source_page": 259,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сани",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=259"
+      ]
+    },
+    {
+      "id": 10048,
+      "accent": "сантиме́тр",
+      "part": "名词·阳性",
+      "meaning": "厘米",
+      "perfective": "",
+      "note": "长度单位。",
+      "stage": 1,
+      "original": {
+        "word": "сантиметр",
+        "part_of_speech": "阳",
+        "meaning_zh": "厘米",
+        "source_page": 259,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сантиметр",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=259"
+      ]
+    },
+    {
+      "id": 10049,
+      "accent": "сапо́г",
+      "part": "名词·阳性",
+      "meaning": "靴子；长筒靴",
+      "perfective": "",
+      "note": "本词为单数，复数сапоги。",
+      "stage": 1,
+      "original": {
+        "word": "сапог",
+        "part_of_speech": "阳",
+        "meaning_zh": "靴子；长筒靴",
+        "source_page": 259,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сапог",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=259"
+      ]
+    },
+    {
+      "id": 10050,
+      "accent": "сара́й",
+      "part": "名词·阳性",
+      "meaning": "棚子；板棚；牲口棚",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "сарай",
+        "part_of_speech": "阳",
+        "meaning_zh": "棚子；板棚；牲口棚",
+        "source_page": 259,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сарай",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=259"
+      ]
+    },
+    {
+      "id": 10051,
+      "accent": "са́хар",
+      "part": "名词·阳性",
+      "meaning": "糖；食糖；糖分",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "сахар",
+        "part_of_speech": "阳",
+        "meaning_zh": "糖；糖分",
+        "source_page": 259,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сахар",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=259"
+      ]
+    },
+    {
+      "id": 10052,
+      "accent": "сбор",
+      "part": "名词·阳性",
+      "meaning": "收集；采集；集合；征收；费用",
+      "perfective": "",
+      "note": "费用常见于征收的款项；原页核心收集、集合保留。",
+      "stage": 2,
+      "original": {
+        "word": "сбор",
+        "part_of_speech": "阳",
+        "meaning_zh": "收集；集合；汇集",
+        "source_page": 259,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сбор",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=259"
+      ]
+    },
+    {
+      "id": 10053,
+      "accent": "сбо́рник",
+      "part": "名词·阳性",
+      "meaning": "选集；文集；汇编",
+      "perfective": "",
+      "note": "练习集为сборник упражнений，不把所有练习册都等同于сборник。",
+      "stage": 2,
+      "original": {
+        "word": "сборник",
+        "part_of_speech": "阳",
+        "meaning_zh": "选集；汇编；练习册",
+        "source_page": 260,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сборник",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=260"
+      ]
+    },
+    {
+      "id": 10054,
+      "accent": "сбра́сывать",
+      "part": "动词·未完成体",
+      "meaning": "扔下；抛下；甩掉；脱掉；减去",
+      "perfective": "сбро́сить",
+      "note": "减去可用于体重等；按宾语区分，不把物体自行掉下当及物义。",
+      "stage": 2,
+      "original": {
+        "word": "сбрасывать",
+        "part_of_speech": "未",
+        "meaning_zh": "扔下；抛下；甩掉；降低；脱掉",
+        "source_page": 260,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сбрасывать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=260"
+      ]
+    },
+    {
+      "id": 10055,
+      "accent": "сва́дьба",
+      "part": "名词·阴性",
+      "meaning": "婚礼；婚宴",
+      "perfective": "",
+      "note": "金婚、银婚等是带修饰词的纪念称谓；不把婚姻关系直接等同于婚礼。",
+      "stage": 1,
+      "original": {
+        "word": "свадьба",
+        "part_of_speech": "阴",
+        "meaning_zh": "婚礼；婚姻；结婚纪念",
+        "source_page": 260,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "свадьба",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=260"
+      ]
+    },
+    {
+      "id": 10056,
+      "accent": "све́дение",
+      "part": "名词·中性",
+      "meaning": "消息；资料；知识",
+      "perfective": "",
+      "note": "本条重音在第一个е，常用复数сведения；区别сведе́ние汇总等同形异重音词。",
+      "stage": 2,
+      "original": {
+        "word": "сведение",
+        "part_of_speech": "中",
+        "meaning_zh": "消息；资料；知识",
+        "source_page": 260,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сведение",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=260"
+      ]
+    },
+    {
+      "id": 10057,
+      "accent": "све́жий",
+      "part": "形容词",
+      "meaning": "新鲜的；新的；清新的；凉爽的；干净的；新颖的",
+      "perfective": "",
+      "note": "衣物可指刚洗净的，想法可指新颖的，不只用于食物。",
+      "stage": 1,
+      "original": {
+        "word": "свежий",
+        "part_of_speech": "形",
+        "meaning_zh": "新鲜的；新颖的；清新的；刚洗的",
+        "source_page": 260,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "свежий",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=260"
+      ]
+    },
+    {
+      "id": 10058,
+      "accent": "сверга́ть",
+      "part": "动词·未完成体",
+      "meaning": "推翻；使倒台；推下；掀下",
+      "perfective": "све́ргнуть",
+      "note": "推翻制度与把物体掀下均见原页。",
+      "stage": 2,
+      "original": {
+        "word": "свергать",
+        "part_of_speech": "Ж",
+        "meaning_zh": "推翻；使倒台；扔下",
+        "source_page": 260,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "свергать",
+      "method": "2026-09-18当前助手逐词视觉核对PDF256至260页，复核重音、中文核心义、词性和搭配边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=260"
+      ]
+    }
+  ]
+}
