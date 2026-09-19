@@ -1,0 +1,696 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10401,
+      "accent": "суши́ть",
+      "part": "动词·未完成体",
+      "meaning": "弄干；晒干；晾干；烘干",
+      "perfective": "вы́сушить",
+      "note": "使物体变干的及物动词，区别сохнуть物体自身变干。",
+      "stage": 1,
+      "original": {
+        "word": "сушить",
+        "part_of_speech": "未",
+        "meaning_zh": "烤干；晒干；弄干",
+        "source_page": 295,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сушить",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=295"
+      ]
+    },
+    {
+      "id": 10402,
+      "accent": "суще́ственный",
+      "part": "形容词",
+      "meaning": "本质的；实质性的；重要的；显著的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "существенный",
+        "part_of_speech": "形",
+        "meaning_zh": "本质的；重要的；实质性的",
+        "source_page": 295,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "существенный",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=295"
+      ]
+    },
+    {
+      "id": 10403,
+      "accent": "существо́",
+      "part": "名词·中性",
+      "meaning": "本质；实质；生物；生灵",
+      "perfective": "",
+      "note": "原页此条为实质义；既有生物义也成立，同形同重音，分别理解。",
+      "stage": 2,
+      "original": {
+        "word": "существо",
+        "part_of_speech": "中",
+        "meaning_zh": "本质；实质；生物；生物体",
+        "source_page": 295,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "существо",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=295"
+      ]
+    },
+    {
+      "id": 10404,
+      "accent": "существова́ть",
+      "part": "动词·未完成体",
+      "meaning": "存在；生存；生活",
+      "perfective": "",
+      "note": "状态动词，不机械配一段时间存在的完成体。",
+      "stage": 2,
+      "original": {
+        "word": "существовать",
+        "part_of_speech": "未",
+        "meaning_zh": "存在；生存；生活",
+        "source_page": 295,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "существовать",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=295"
+      ]
+    },
+    {
+      "id": 10405,
+      "accent": "сходи́ть",
+      "part": "动词·未完成体",
+      "meaning": "下来；下去；下车；脱落；退去；停止上演或上映",
+      "perfective": "сойти́",
+      "note": "本条原页编号1，下车、脱落等义，不同于去一趟的同形完成体。",
+      "stage": 1,
+      "original": {
+        "word": "сходить",
+        "part_of_speech": "未",
+        "meaning_zh": "下去；下来；下车；脱落；停止上映",
+        "source_page": 296,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сходить",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=296"
+      ]
+    },
+    {
+      "id": 10406,
+      "accent": "сходи́ть",
+      "part": "动词·完成体",
+      "meaning": "去一趟；走一趟",
+      "perfective": "",
+      "note": "本条原页编号2，表示去后返回的一次行程；与10405不是重复条目，不合并为兼体。",
+      "stage": 1,
+      "original": {
+        "word": "сходить",
+        "part_of_speech": "完",
+        "meaning_zh": "去一趟；走一趟",
+        "source_page": 296,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сходить",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=296"
+      ]
+    },
+    {
+      "id": 10407,
+      "accent": "сце́на",
+      "part": "名词·阴性",
+      "meaning": "舞台；戏剧舞台生涯；一场戏；场面；情景",
+      "perfective": "",
+      "note": "戏剧中的场与生活情景均可用；不泛指戏院建筑。",
+      "stage": 2,
+      "original": {
+        "word": "сцена",
+        "part_of_speech": "阴",
+        "meaning_zh": "舞台；戏院；舞台生涯；场面；情景",
+        "source_page": 296,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сцена",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=296"
+      ]
+    },
+    {
+      "id": 10408,
+      "accent": "счастли́вый",
+      "part": "形容词",
+      "meaning": "幸福的；幸运的；愉快的",
+      "perfective": "",
+      "note": "原页另列счастливый重音变体的活用说明；词头采用常用счастли́вый，非每个形式重音相同。",
+      "stage": 1,
+      "original": {
+        "word": "счастливый",
+        "part_of_speech": "形",
+        "meaning_zh": "幸福的；幸运的",
+        "source_page": 296,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "счастливый",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=296"
+      ]
+    },
+    {
+      "id": 10409,
+      "accent": "сча́стье",
+      "part": "名词·中性",
+      "meaning": "幸福；幸运；好运",
+      "perfective": "",
+      "note": "к счастью为幸好、幸而，不当作名词自身的副词义。",
+      "stage": 1,
+      "original": {
+        "word": "счастье",
+        "part_of_speech": "中",
+        "meaning_zh": "幸福；运气；幸运",
+        "source_page": 296,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "счастье",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=296"
+      ]
+    },
+    {
+      "id": 10410,
+      "accent": "счёт",
+      "part": "名词·阳性",
+      "meaning": "计算；计数；账单；账目；账户；比分",
+      "perfective": "",
+      "note": "费用常见于за чей счёт由谁负担等搭配；保留正确ё。",
+      "stage": 1,
+      "original": {
+        "word": "счёт",
+        "part_of_speech": "阳",
+        "meaning_zh": "计算；账目；账户；比分；费用",
+        "source_page": 296,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "счёт",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=296"
+      ]
+    },
+    {
+      "id": 10411,
+      "accent": "счита́ться",
+      "part": "动词·未完成体",
+      "meaning": "清账；考虑到；顾及；被认为；被看作",
+      "perfective": "",
+      "note": "清账用с кем，顾及用с чем，被认为用工具格；状态被认为不套用清账义完成体。",
+      "stage": 2,
+      "original": {
+        "word": "считаться",
+        "part_of_speech": "未",
+        "meaning_zh": "清账；考虑到；被认为；被看作",
+        "source_page": 296,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "считаться",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=296"
+      ]
+    },
+    {
+      "id": 10412,
+      "accent": "съезд",
+      "part": "名词·阳性",
+      "meaning": "代表大会；大会；驶出道路；出口匝道",
+      "perfective": "",
+      "note": "原页核心为代表大会；道路语境的出口是另一常用义。保留ъ而非ь。",
+      "stage": 2,
+      "original": {
+        "word": "съезд",
+        "part_of_speech": "阳",
+        "meaning_zh": "代表大会；大会",
+        "source_page": 296,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "съезд",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=296"
+      ]
+    },
+    {
+      "id": 10413,
+      "accent": "сын",
+      "part": "名词·阳性",
+      "meaning": "儿子；男儿；子弟",
+      "perfective": "",
+      "note": "普通单数是儿子，不泛指任何男孩；复数сыны常用于祖国儿女等庄重表达。",
+      "stage": 1,
+      "original": {
+        "word": "сын",
+        "part_of_speech": "阳",
+        "meaning_zh": "儿子；男孩",
+        "source_page": 296,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сын",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=296",
+        "data/words/tem4_russian_words.pdf#page=297"
+      ]
+    },
+    {
+      "id": 10414,
+      "accent": "сыро́й",
+      "part": "形容词",
+      "meaning": "湿的；潮湿的；生的；未煮熟的；未经加工的",
+      "perfective": "",
+      "note": "食物、天气、材料等分别对应不同义项。",
+      "stage": 1,
+      "original": {
+        "word": "сырой",
+        "part_of_speech": "形",
+        "meaning_zh": "湿的；潮湿的；生的；未经加工的",
+        "source_page": 297,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сырой",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=297"
+      ]
+    },
+    {
+      "id": 10415,
+      "accent": "сы́тый",
+      "part": "形容词",
+      "meaning": "吃饱的；饱食的；丰衣足食的",
+      "perfective": "",
+      "note": "富足为生活安裕、衣食无忧的比喻义，不是所有富裕都适用。",
+      "stage": 1,
+      "original": {
+        "word": "сытый",
+        "part_of_speech": "形",
+        "meaning_zh": "吃饱的；富裕的",
+        "source_page": 297,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сытый",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=297"
+      ]
+    },
+    {
+      "id": 10416,
+      "accent": "сюрпри́з",
+      "part": "名词·阳性",
+      "meaning": "惊喜；意外礼物；意外的事",
+      "perfective": "",
+      "note": "不总是令人高兴，也可指不愉快的意外。",
+      "stage": 1,
+      "original": {
+        "word": "сюрприз",
+        "part_of_speech": "阳",
+        "meaning_zh": "惊喜；意外的事",
+        "source_page": 297,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сюрприз",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=297"
+      ]
+    },
+    {
+      "id": 10417,
+      "accent": "табли́ца",
+      "part": "名词·阴性",
+      "meaning": "表；表格；图表",
+      "perfective": "",
+      "note": "乘法表、周期表均为带限定语的具体搭配。",
+      "stage": 1,
+      "original": {
+        "word": "таблица",
+        "part_of_speech": "阴",
+        "meaning_zh": "表；表格；乘法表；周期表",
+        "source_page": 297,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "таблица",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=297"
+      ]
+    },
+    {
+      "id": 10418,
+      "accent": "тайга́",
+      "part": "名词·阴性",
+      "meaning": "泰加林；北方针叶林地带",
+      "perfective": "",
+      "note": "不泛指所有原始森林，主要指寒温带针叶林区域。",
+      "stage": 2,
+      "original": {
+        "word": "тайга",
+        "part_of_speech": "阴",
+        "meaning_zh": "针叶林；泰加林",
+        "source_page": 297,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тайга",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=297"
+      ]
+    },
+    {
+      "id": 10419,
+      "accent": "та́йна",
+      "part": "名词·阴性",
+      "meaning": "秘密；机密；奥秘；秘诀",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "тайна",
+        "part_of_speech": "阴",
+        "meaning_zh": "秘密；机密；秘诀",
+        "source_page": 297,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тайна",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=297"
+      ]
+    },
+    {
+      "id": 10420,
+      "accent": "та́йный",
+      "part": "形容词",
+      "meaning": "秘密的；暗中的；隐蔽的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "тайный",
+        "part_of_speech": "形",
+        "meaning_zh": "秘密的；暗中的；隐蔽的",
+        "source_page": 297,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тайный",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=297"
+      ]
+    },
+    {
+      "id": 10421,
+      "accent": "та́кже",
+      "part": "副词；连接词用法",
+      "meaning": "也；同样；以及",
+      "perfective": "",
+      "note": "连写также通常表示也；不要与так же（同样地）在比较结构中的分写混同。",
+      "stage": 1,
+      "original": {
+        "word": "также",
+        "part_of_speech": "副",
+        "meaning_zh": "同样地；也；以及",
+        "source_page": 298,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "также",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=298"
+      ]
+    },
+    {
+      "id": 10422,
+      "accent": "тако́й",
+      "part": "指示代词",
+      "meaning": "这样的；那样的；如此的",
+      "perfective": "",
+      "note": "某一、一般等是特定结构的语境解释，不作为全部场景的基本译法。",
+      "stage": 1,
+      "original": {
+        "word": "такой",
+        "part_of_speech": "代",
+        "meaning_zh": "这样的；如此的；某一；一般的",
+        "source_page": 298,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "такой",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=298"
+      ]
+    },
+    {
+      "id": 10423,
+      "accent": "такси́",
+      "part": "名词·中性；不变格",
+      "meaning": "出租汽车；出租车",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "такси",
+        "part_of_speech": "中，不变",
+        "meaning_zh": "出租汽车；出租车",
+        "source_page": 298,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "такси",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=298"
+      ]
+    },
+    {
+      "id": 10424,
+      "accent": "тала́нт",
+      "part": "名词·阳性",
+      "meaning": "才能；才华；天赋；有才华的人",
+      "perfective": "",
+      "note": "既可指才能，也可比喻有才能的人。",
+      "stage": 2,
+      "original": {
+        "word": "талант",
+        "part_of_speech": "阳",
+        "meaning_zh": "天才；才能；才华",
+        "source_page": 298,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "талант",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=298"
+      ]
+    },
+    {
+      "id": 10425,
+      "accent": "тала́нтливый",
+      "part": "形容词",
+      "meaning": "有才能的；有才华的；富有才气的",
+      "perfective": "",
+      "note": "亦可形容体现才华的作品。",
+      "stage": 2,
+      "original": {
+        "word": "талантливый",
+        "part_of_speech": "形",
+        "meaning_zh": "有才能的；有才华的",
+        "source_page": 298,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "талантливый",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=298"
+      ]
+    },
+    {
+      "id": 10426,
+      "accent": "там",
+      "part": "副词",
+      "meaning": "在那里；在那儿",
+      "perfective": "",
+      "note": "表示位置，不是到那里；方向到那里用туда。",
+      "stage": 1,
+      "original": {
+        "word": "там",
+        "part_of_speech": "副",
+        "meaning_zh": "在那里；到那里",
+        "source_page": 298,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "там",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=298"
+      ]
+    },
+    {
+      "id": 10427,
+      "accent": "та́нец",
+      "part": "名词·阳性",
+      "meaning": "舞蹈；舞；舞曲",
+      "perfective": "",
+      "note": "复数танцы还可指舞会、跳舞活动，不把所有单数都译舞会。",
+      "stage": 1,
+      "original": {
+        "word": "танец",
+        "part_of_speech": "阳",
+        "meaning_zh": "舞蹈；舞",
+        "source_page": 298,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "танец",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=298"
+      ]
+    },
+    {
+      "id": 10428,
+      "accent": "танк",
+      "part": "名词·阳性",
+      "meaning": "坦克",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "танк",
+        "part_of_speech": "阳",
+        "meaning_zh": "坦克",
+        "source_page": 298,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "танк",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=298"
+      ]
+    },
+    {
+      "id": 10429,
+      "accent": "танцева́ть",
+      "part": "动词·未完成体",
+      "meaning": "跳舞；舞动",
+      "perfective": "станцева́ть",
+      "note": "完成体常表示跳完一支舞；火焰等跳动是比喻义。",
+      "stage": 1,
+      "original": {
+        "word": "танцевать",
+        "part_of_speech": "未",
+        "meaning_zh": "跳舞",
+        "source_page": 298,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "танцевать",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=298"
+      ]
+    },
+    {
+      "id": 10430,
+      "accent": "таре́лка",
+      "part": "名词·阴性",
+      "meaning": "盘子；碟子",
+      "perfective": "",
+      "note": "не в своей тарелке不自在是固定搭配，不单独列为盘子的词义。",
+      "stage": 1,
+      "original": {
+        "word": "тарелка",
+        "part_of_speech": "阴",
+        "meaning_zh": "盘子；碟子",
+        "source_page": 298,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тарелка",
+      "method": "2026-09-19当前助手逐词视觉核对PDF295至298页，区分同形词的体、状态与方向、词组义与词头义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=298"
+      ]
+    }
+  ]
+}

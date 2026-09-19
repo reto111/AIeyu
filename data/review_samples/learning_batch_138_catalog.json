@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10431,
+      "accent": "таска́ть",
+      "part": "动词·未完成体",
+      "meaning": "搬运；提来提去；拖拉；携带；拔；揪扯",
+      "perfective": "",
+      "note": "强调反复或多向搬运；与单向тащить区别，不直接把二者当不同体。",
+      "stage": 2,
+      "original": {
+        "word": "таскать",
+        "part_of_speech": "未",
+        "meaning_zh": "带；拉；拖；提；揪疼",
+        "source_page": 298,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "таскать",
+      "method": "2026-09-19当前助手逐词视觉核对PDF298至299页，核对重音、词性和核心义，纠正物主代词及电视词族误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=298"
+      ]
+    },
+    {
+      "id": 10432,
+      "accent": "тащи́ть",
+      "part": "动词·未完成体",
+      "meaning": "拖；拉；拽；费力搬运；拔",
+      "perfective": "",
+      "note": "通常指朝一个方向拖拉，不强行用起始或限时前缀形式覆盖全部。",
+      "stage": 2,
+      "original": {
+        "word": "тащить",
+        "part_of_speech": "未",
+        "meaning_zh": "拖；拉；拔",
+        "source_page": 298,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тащить",
+      "method": "2026-09-19当前助手逐词视觉核对PDF298至299页，核对重音、词性和核心义，纠正物主代词及电视词族误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=298"
+      ]
+    },
+    {
+      "id": 10433,
+      "accent": "та́ять",
+      "part": "动词·未完成体",
+      "meaning": "融化；消融；溶化；逐渐消失",
+      "perfective": "раста́ять",
+      "note": "雪、冰融化是核心义，不是主动把其他物体熔化。",
+      "stage": 2,
+      "original": {
+        "word": "таять",
+        "part_of_speech": "未",
+        "meaning_zh": "融化；溶解",
+        "source_page": 299,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "таять",
+      "method": "2026-09-19当前助手逐词视觉核对PDF298至299页，核对重音、词性和核心义，纠正物主代词及电视词族误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=299"
+      ]
+    },
+    {
+      "id": 10434,
+      "accent": "твёрдый",
+      "part": "形容词",
+      "meaning": "固体的；硬的；坚强的；坚定的；牢固的；硬音的",
+      "perfective": "",
+      "note": "保留正确ё；硬辅音、硬音符号属于语音语法语境。",
+      "stage": 2,
+      "original": {
+        "word": "твёрдый",
+        "part_of_speech": "形",
+        "meaning_zh": "固体的；硬的；坚强的；牢固的；硬辅音的",
+        "source_page": 299,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "твёрдый",
+      "method": "2026-09-19当前助手逐词视觉核对PDF298至299页，核对重音、词性和核心义，纠正物主代词及电视词族误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=299"
+      ]
+    },
+    {
+      "id": 10435,
+      "accent": "твой",
+      "part": "物主代词",
+      "meaning": "你的",
+      "perfective": "",
+      "note": "指单数非敬称ты；你们的或敬称您的用ваш，不因修饰复数名词变成你们的。",
+      "stage": 1,
+      "original": {
+        "word": "твой",
+        "part_of_speech": "代",
+        "meaning_zh": "你的；你们的",
+        "source_page": 299,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "твой",
+      "method": "2026-09-19当前助手逐词视觉核对PDF298至299页，核对重音、词性和核心义，纠正物主代词及电视词族误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=299"
+      ]
+    },
+    {
+      "id": 10436,
+      "accent": "тво́рческий",
+      "part": "形容词",
+      "meaning": "创作的；创造的；创造性的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "творческий",
+        "part_of_speech": "形",
+        "meaning_zh": "创作的；创造性的",
+        "source_page": 299,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "творческий",
+      "method": "2026-09-19当前助手逐词视觉核对PDF298至299页，核对重音、词性和核心义，纠正物主代词及电视词族误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=299"
+      ]
+    },
+    {
+      "id": 10437,
+      "accent": "тво́рчество",
+      "part": "名词·中性",
+      "meaning": "创作；创造活动；作品总和",
+      "perfective": "",
+      "note": "创造力通常用творческие способности等表达，不与创作活动本身完全等同。",
+      "stage": 2,
+      "original": {
+        "word": "творчество",
+        "part_of_speech": "中",
+        "meaning_zh": "创作；作品；创造力",
+        "source_page": 299,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "творчество",
+      "method": "2026-09-19当前助手逐词视觉核对PDF298至299页，核对重音、词性和核心义，纠正物主代词及电视词族误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=299"
+      ]
+    },
+    {
+      "id": 10438,
+      "accent": "теа́тр",
+      "part": "名词·阳性",
+      "meaning": "戏剧；剧院；剧团",
+      "perfective": "",
+      "note": "艺术门类、建筑场所和演出团体依语境区分。",
+      "stage": 1,
+      "original": {
+        "word": "театр",
+        "part_of_speech": "阳",
+        "meaning_zh": "戏剧；剧院；剧团",
+        "source_page": 299,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "театр",
+      "method": "2026-09-19当前助手逐词视觉核对PDF298至299页，核对重音、词性和核心义，纠正物主代词及电视词族误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=299"
+      ]
+    },
+    {
+      "id": 10439,
+      "accent": "текст",
+      "part": "名词·阳性",
+      "meaning": "文本；文字；正文；原文；课文；台词",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "текст",
+        "part_of_speech": "阳",
+        "meaning_zh": "文字；正文；台词；原文",
+        "source_page": 299,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "текст",
+      "method": "2026-09-19当前助手逐词视觉核对PDF298至299页，核对重音、词性和核心义，纠正物主代词及电视词族误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=299"
+      ]
+    },
+    {
+      "id": 10440,
+      "accent": "теку́щий",
+      "part": "形容词；形动词用法",
+      "meaning": "当前的；本期的；日常的；流动的",
+      "perfective": "",
+      "note": "原页有日常事务义；流动义来自течь的现在时主动形动词。",
+      "stage": 2,
+      "original": {
+        "word": "текущий",
+        "part_of_speech": "形",
+        "meaning_zh": "当前的；本期的；流动的",
+        "source_page": 299,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "текущий",
+      "method": "2026-09-19当前助手逐词视觉核对PDF298至299页，核对重音、词性和核心义，纠正物主代词及电视词族误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=299"
+      ]
+    },
+    {
+      "id": 10441,
+      "accent": "телеви́дение",
+      "part": "名词·中性",
+      "meaning": "电视；电视广播；电视事业；电视台",
+      "perfective": "",
+      "note": "原页误标阴性，按词形和用法更正中性；不同于电视机телевизор。",
+      "stage": 1,
+      "original": {
+        "word": "телевидение",
+        "part_of_speech": "中",
+        "meaning_zh": "电视；电视广播；电视台",
+        "source_page": 299,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "телевидение",
+      "method": "2026-09-19当前助手逐词视觉核对PDF298至299页，核对重音、词性和核心义，纠正物主代词及电视词族误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=299"
+      ]
+    },
+    {
+      "id": 10442,
+      "accent": "телеви́зор",
+      "part": "名词·阳性",
+      "meaning": "电视机",
+      "perfective": "",
+      "note": "指接收、播放电视的设备。",
+      "stage": 1,
+      "original": {
+        "word": "телевизор",
+        "part_of_speech": "阳",
+        "meaning_zh": "电视机",
+        "source_page": 299,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "телевизор",
+      "method": "2026-09-19当前助手逐词视觉核对PDF298至299页，核对重音、词性和核心义，纠正物主代词及电视词族误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=299"
+      ]
+    },
+    {
+      "id": 10443,
+      "accent": "телегра́мма",
+      "part": "名词·阴性",
+      "meaning": "电报；电文",
+      "perfective": "",
+      "note": "贺电是поздравительная телеграмма，单词不专指祝贺。",
+      "stage": 2,
+      "original": {
+        "word": "телеграмма",
+        "part_of_speech": "阴",
+        "meaning_zh": "电报；贺电",
+        "source_page": 299,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "телеграмма",
+      "method": "2026-09-19当前助手逐词视觉核对PDF298至299页，核对重音、词性和核心义，纠正物主代词及电视词族误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=299"
+      ]
+    },
+    {
+      "id": 10444,
+      "accent": "телегра́ф",
+      "part": "名词·阳性",
+      "meaning": "电报通信；电报系统；电报局",
+      "perfective": "",
+      "note": "强调通信方式或机构，与一封电报телеграмма区别。",
+      "stage": 2,
+      "original": {
+        "word": "телеграф",
+        "part_of_speech": "阳",
+        "meaning_zh": "电报；电报局",
+        "source_page": 299,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "телеграф",
+      "method": "2026-09-19当前助手逐词视觉核对PDF298至299页，核对重音、词性和核心义，纠正物主代词及电视词族误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=299"
+      ]
+    },
+    {
+      "id": 10445,
+      "accent": "телепереда́ча",
+      "part": "名词·阴性",
+      "meaning": "电视节目；电视播送",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "телепередача",
+        "part_of_speech": "阴",
+        "meaning_zh": "电视节目",
+        "source_page": 299,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "телепередача",
+      "method": "2026-09-19当前助手逐词视觉核对PDF298至299页，核对重音、词性和核心义，纠正物主代词及电视词族误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=299"
+      ]
+    }
+  ]
+}

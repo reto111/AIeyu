@@ -1,0 +1,698 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10370,
+      "accent": "стремле́ние",
+      "part": "名词·中性",
+      "meaning": "追求；渴望；愿望；抱负",
+      "perfective": "",
+      "note": "常接к加与格或不定式说明追求目标。",
+      "stage": 2,
+      "original": {
+        "word": "стремление",
+        "part_of_speech": "中",
+        "meaning_zh": "渴望；追求；抱负",
+        "source_page": 292,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стремление",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=292"
+      ]
+    },
+    {
+      "id": 10371,
+      "accent": "стри́чься",
+      "part": "动词·未完成体",
+      "meaning": "理发；剪头发；剃头",
+      "perfective": "остри́чься",
+      "note": "指自己的头发被修剪，不等于给别人理发стричь。",
+      "stage": 2,
+      "original": {
+        "word": "стричься",
+        "part_of_speech": "未",
+        "meaning_zh": "理发；剪短头发；剃头",
+        "source_page": 292,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стричься",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=292"
+      ]
+    },
+    {
+      "id": 10372,
+      "accent": "стро́гий",
+      "part": "形容词",
+      "meaning": "严格的；严厉的；严谨的；严肃的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "строгий",
+        "part_of_speech": "形",
+        "meaning_zh": "严格的；严厉的；严谨的",
+        "source_page": 292,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "строгий",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=292"
+      ]
+    },
+    {
+      "id": 10373,
+      "accent": "строи́тель",
+      "part": "名词·阳性",
+      "meaning": "建筑工人；建筑者；建设者",
+      "perfective": "",
+      "note": "建设者也可用于比喻建设新生活等。",
+      "stage": 2,
+      "original": {
+        "word": "строитель",
+        "part_of_speech": "阳",
+        "meaning_zh": "建筑者；建设者",
+        "source_page": 292,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "строитель",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=292",
+        "data/words/tem4_russian_words.pdf#page=293"
+      ]
+    },
+    {
+      "id": 10374,
+      "accent": "строи́тельный",
+      "part": "形容词",
+      "meaning": "建筑的；建设的；建筑用的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "строительный",
+        "part_of_speech": "形",
+        "meaning_zh": "建筑的；建筑用的",
+        "source_page": 293,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "строительный",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=293"
+      ]
+    },
+    {
+      "id": 10375,
+      "accent": "стро́ить",
+      "part": "动词·未完成体",
+      "meaning": "建造；修建；建立；制订；构造",
+      "perfective": "постро́ить",
+      "note": "可建房，也可制订计划或组织句子。",
+      "stage": 1,
+      "original": {
+        "word": "строить",
+        "part_of_speech": "未",
+        "meaning_zh": "建筑；修建；建立；制定；构造",
+        "source_page": 293,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "строить",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=293"
+      ]
+    },
+    {
+      "id": 10376,
+      "accent": "строй",
+      "part": "名词·阳性",
+      "meaning": "队列；阵列；体系；结构；制度；体制",
+      "perfective": "",
+      "note": "原页分列队列体系与社会制度两类名词义，现有合并记录保留并区分。",
+      "stage": 2,
+      "original": {
+        "word": "строй",
+        "part_of_speech": "阳",
+        "meaning_zh": "队列；队伍；体系；系统；体制",
+        "source_page": 293,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "строй",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=293"
+      ]
+    },
+    {
+      "id": 10377,
+      "accent": "стро́йка",
+      "part": "名词·阴性",
+      "meaning": "施工；建筑工程；工地",
+      "perfective": "",
+      "note": "既可指建造活动，也可指正在施工的地方。",
+      "stage": 2,
+      "original": {
+        "word": "стройка",
+        "part_of_speech": "阴",
+        "meaning_zh": "建筑；建筑工程；工地",
+        "source_page": 293,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стройка",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=293"
+      ]
+    },
+    {
+      "id": 10378,
+      "accent": "стро́йный",
+      "part": "形容词",
+      "meaning": "身材匀称的；修长的；整齐的；协调的；严整的",
+      "perfective": "",
+      "note": "不等同于单纯瘦；还可形容队列或思想体系。",
+      "stage": 2,
+      "original": {
+        "word": "стройный",
+        "part_of_speech": "形",
+        "meaning_zh": "身材匀称的；整齐的；和谐的",
+        "source_page": 293,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стройный",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=293"
+      ]
+    },
+    {
+      "id": 10379,
+      "accent": "строка́",
+      "part": "名词·阴性",
+      "meaning": "一行文字；行；诗行",
+      "perfective": "",
+      "note": "不泛指空间中的队列；行列义需结合文本或表格。",
+      "stage": 2,
+      "original": {
+        "word": "строка",
+        "part_of_speech": "阴",
+        "meaning_zh": "行；一行文字；行列",
+        "source_page": 293,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "строка",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=293"
+      ]
+    },
+    {
+      "id": 10381,
+      "accent": "студе́нческий",
+      "part": "形容词",
+      "meaning": "大学生的；学生的（高等院校等）",
+      "perfective": "",
+      "note": "不泛指所有中小学生。",
+      "stage": 1,
+      "original": {
+        "word": "студенческий",
+        "part_of_speech": "形",
+        "meaning_zh": "学生的；大学生的",
+        "source_page": 293,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "студенческий",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=293"
+      ]
+    },
+    {
+      "id": 10382,
+      "accent": "стук",
+      "part": "名词·阳性",
+      "meaning": "敲击声；敲门声；碰击声",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "стук",
+        "part_of_speech": "阳",
+        "meaning_zh": "敲击声；敲门声",
+        "source_page": 293,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стук",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=293"
+      ]
+    },
+    {
+      "id": 10383,
+      "accent": "стуча́ть",
+      "part": "动词·未完成体",
+      "meaning": "敲；敲打；发出敲击声；砰砰跳",
+      "perfective": "сту́кнуть",
+      "note": "所列完成体表示一下动作；原页还有простучать，持续心跳等不套用一次体。",
+      "stage": 2,
+      "original": {
+        "word": "стучать",
+        "part_of_speech": "未",
+        "meaning_zh": "敲；发出敲击声；跳动得砰砰响",
+        "source_page": 293,
+        "source_line": "17"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стучать",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=293",
+        "data/words/tem4_russian_words.pdf#page=294"
+      ]
+    },
+    {
+      "id": 10384,
+      "accent": "сты́дно",
+      "part": "状态词；无人称谓语",
+      "meaning": "感到羞愧；惭愧；不好意思；可耻",
+      "perfective": "",
+      "note": "体验者用与格，如мне стыдно。",
+      "stage": 1,
+      "original": {
+        "word": "стыдно",
+        "part_of_speech": "谓语",
+        "meaning_zh": "感到羞愧；不好意思；惭愧",
+        "source_page": 294,
+        "source_line": "1"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стыдно",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=294"
+      ]
+    },
+    {
+      "id": 10385,
+      "accent": "суббо́та",
+      "part": "名词·阴性",
+      "meaning": "星期六",
+      "perfective": "",
+      "note": "保留双б。",
+      "stage": 1,
+      "original": {
+        "word": "суббота",
+        "part_of_speech": "阴",
+        "meaning_zh": "星期六",
+        "source_page": 294,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "суббота",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=294"
+      ]
+    },
+    {
+      "id": 10386,
+      "accent": "сувени́р",
+      "part": "名词·阳性",
+      "meaning": "纪念品；纪念礼物",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "сувенир",
+        "part_of_speech": "阳",
+        "meaning_zh": "纪念品；纪念礼物",
+        "source_page": 294,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сувенир",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=294"
+      ]
+    },
+    {
+      "id": 10387,
+      "accent": "суд",
+      "part": "名词·阳性",
+      "meaning": "法院；法庭；审判；审理",
+      "perfective": "",
+      "note": "司法机构与审理活动依语境区分，不泛指所有讯问。",
+      "stage": 2,
+      "original": {
+        "word": "суд",
+        "part_of_speech": "阳",
+        "meaning_zh": "法院；法庭；审判；审讯",
+        "source_page": 294,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "суд",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=294"
+      ]
+    },
+    {
+      "id": 10388,
+      "accent": "суди́ть",
+      "part": "动词·未完成体",
+      "meaning": "判断；评论；指责；审判；担任裁判",
+      "perfective": "",
+      "note": "各义的结果形式不同，不用осудить一词覆盖全部。",
+      "stage": 2,
+      "original": {
+        "word": "судить",
+        "part_of_speech": "未",
+        "meaning_zh": "判断；评论；指责；审判；裁判",
+        "source_page": 294,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "судить",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=294"
+      ]
+    },
+    {
+      "id": 10389,
+      "accent": "су́дно",
+      "part": "名词·中性",
+      "meaning": "船；船舶",
+      "perfective": "",
+      "note": "本来源指水上船舶，不混入其他专门义。",
+      "stage": 2,
+      "original": {
+        "word": "судно",
+        "part_of_speech": "中",
+        "meaning_zh": "船；船只",
+        "source_page": 294,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "судно",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=294"
+      ]
+    },
+    {
+      "id": 10390,
+      "accent": "судьба́",
+      "part": "名词·阴性",
+      "meaning": "命运；遭遇；经历；来历；前途",
+      "perfective": "",
+      "note": "原页还涉及物品的来历，不只用于人。",
+      "stage": 2,
+      "original": {
+        "word": "судьба",
+        "part_of_speech": "阴",
+        "meaning_zh": "命运；遭遇；前途；来历",
+        "source_page": 294,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "судьба",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=294"
+      ]
+    },
+    {
+      "id": 10391,
+      "accent": "су́мерки",
+      "part": "名词·只用复数",
+      "meaning": "暮色；黄昏；曙暮时的微光",
+      "perfective": "",
+      "note": "以黄昏为常用义，也可指日出前光线昏暗时段，不限定只有夜晚。",
+      "stage": 2,
+      "original": {
+        "word": "сумерки",
+        "part_of_speech": "复",
+        "meaning_zh": "黄昏；暮色",
+        "source_page": 294,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сумерки",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=294"
+      ]
+    },
+    {
+      "id": 10392,
+      "accent": "суме́ть",
+      "part": "动词·完成体",
+      "meaning": "能够；设法做到；成功做到",
+      "perfective": "уме́ть",
+      "note": "常接不定式，强调具体情境能做到；уметь常表示已具备技能，不能机械互换。",
+      "stage": 2,
+      "original": {
+        "word": "суметь",
+        "part_of_speech": "完",
+        "meaning_zh": "能够；设法做到",
+        "source_page": 294,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "суметь",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=294",
+        "data/words/tem4_russian_words.pdf#page=295"
+      ]
+    },
+    {
+      "id": 10393,
+      "accent": "су́мка",
+      "part": "名词·阴性",
+      "meaning": "包；袋；手提包",
+      "perfective": "",
+      "note": "书包是具体用途，不是唯一含义。",
+      "stage": 1,
+      "original": {
+        "word": "сумка",
+        "part_of_speech": "阴",
+        "meaning_zh": "袋；包；书包",
+        "source_page": 295,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сумка",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=295"
+      ]
+    },
+    {
+      "id": 10394,
+      "accent": "су́мма",
+      "part": "名词·阴性",
+      "meaning": "总和；总数；总额；金额；一笔款项",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "сумма",
+        "part_of_speech": "阴",
+        "meaning_zh": "总数；总额；金额",
+        "source_page": 295,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сумма",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=295"
+      ]
+    },
+    {
+      "id": 10395,
+      "accent": "суп",
+      "part": "名词·阳性",
+      "meaning": "汤",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "суп",
+        "part_of_speech": "阳",
+        "meaning_zh": "汤；汤类",
+        "source_page": 295,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "суп",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=295"
+      ]
+    },
+    {
+      "id": 10396,
+      "accent": "супру́г",
+      "part": "名词·阳性",
+      "meaning": "丈夫；男性配偶",
+      "perfective": "",
+      "note": "正式用语；夫妇为复数супруги，妻子为супруга，不能混作单数词义。",
+      "stage": 2,
+      "original": {
+        "word": "супруг",
+        "part_of_speech": "阳",
+        "meaning_zh": "丈夫；配偶；夫妇（正式用语）",
+        "source_page": 295,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "супруг",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=295"
+      ]
+    },
+    {
+      "id": 10397,
+      "accent": "суро́вый",
+      "part": "形容词",
+      "meaning": "严寒的；严厉的；严峻的；艰苦的；严酷的",
+      "perfective": "",
+      "note": "天气、人或处境按语境选择中文。",
+      "stage": 2,
+      "original": {
+        "word": "суровый",
+        "part_of_speech": "形",
+        "meaning_zh": "严酷的；严厉的；严肃的；艰苦的",
+        "source_page": 295,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "суровый",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=295"
+      ]
+    },
+    {
+      "id": 10398,
+      "accent": "су́тки",
+      "part": "名词·只用复数",
+      "meaning": "一昼夜；二十四小时",
+      "perfective": "",
+      "note": "一天一夜也用复数形式，如одни сутки。",
+      "stage": 1,
+      "original": {
+        "word": "сутки",
+        "part_of_speech": "复",
+        "meaning_zh": "昼夜；二十四小时",
+        "source_page": 295,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сутки",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=295"
+      ]
+    },
+    {
+      "id": 10399,
+      "accent": "сухо́й",
+      "part": "形容词",
+      "meaning": "干的；干燥的；干旱的；干硬的；干瘦的；冷淡的；枯燥的",
+      "perfective": "",
+      "note": "原页干枯、冷淡、枯燥等义保留，按皮肤、声音、报告等对象区分。",
+      "stage": 1,
+      "original": {
+        "word": "сухой",
+        "part_of_speech": "形",
+        "meaning_zh": "干的；干燥的；干旱的；干枯的；枯燥的",
+        "source_page": 295,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сухой",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=295"
+      ]
+    },
+    {
+      "id": 10400,
+      "accent": "су́ша",
+      "part": "名词·阴性",
+      "meaning": "陆地",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "суша",
+        "part_of_speech": "阴",
+        "meaning_zh": "陆地",
+        "source_page": 295,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "суша",
+      "method": "2026-09-19当前助手逐词视觉核对PDF292至295页，复核词性、单复数、重音、体及核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=295"
+      ]
+    }
+  ]
+}
