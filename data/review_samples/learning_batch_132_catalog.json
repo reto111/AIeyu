@@ -1,0 +1,696 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10247,
+      "accent": "со́лнце",
+      "part": "名词·中性",
+      "meaning": "太阳；阳光",
+      "perfective": "",
+      "note": "拼写保留不发音的л。",
+      "stage": 1,
+      "original": {
+        "word": "солнце",
+        "part_of_speech": "中",
+        "meaning_zh": "太阳；阳光",
+        "source_page": 279,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "солнце",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=279"
+      ]
+    },
+    {
+      "id": 10248,
+      "accent": "соль",
+      "part": "名词·阴性",
+      "meaning": "盐；精华；要点",
+      "perfective": "",
+      "note": "比喻精华可指群体中优秀的人，不泛指所有优秀者。",
+      "stage": 1,
+      "original": {
+        "word": "соль",
+        "part_of_speech": "阴",
+        "meaning_zh": "盐；精华；最优秀的人",
+        "source_page": 279,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "соль",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=279"
+      ]
+    },
+    {
+      "id": 10249,
+      "accent": "сомнева́ться",
+      "part": "动词·未完成体",
+      "meaning": "怀疑；犹豫；没有把握",
+      "perfective": "",
+      "note": "常接в加前置格；持续怀疑义不强配通用完成体。",
+      "stage": 2,
+      "original": {
+        "word": "сомневаться",
+        "part_of_speech": "未",
+        "meaning_zh": "怀疑；犹豫；没有把握",
+        "source_page": 279,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сомневаться",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=279"
+      ]
+    },
+    {
+      "id": 10250,
+      "accent": "сомне́ние",
+      "part": "名词·中性",
+      "meaning": "怀疑；疑问；疑惑；疑虑",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "сомнение",
+        "part_of_speech": "中",
+        "meaning_zh": "怀疑；疑问；疑惑",
+        "source_page": 279,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сомнение",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=279"
+      ]
+    },
+    {
+      "id": 10251,
+      "accent": "сон",
+      "part": "名词·阳性",
+      "meaning": "睡眠；梦",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "сон",
+        "part_of_speech": "阳",
+        "meaning_zh": "睡眠；梦",
+        "source_page": 279,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сон",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=279"
+      ]
+    },
+    {
+      "id": 10252,
+      "accent": "сообража́ть",
+      "part": "动词·未完成体",
+      "meaning": "思考；考虑；理解；弄明白",
+      "perfective": "сообрази́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "соображать",
+        "part_of_speech": "未",
+        "meaning_zh": "理解；弄清；考虑",
+        "source_page": 280,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "соображать",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=280"
+      ]
+    },
+    {
+      "id": 10253,
+      "accent": "сообща́ть",
+      "part": "动词·未完成体",
+      "meaning": "通知；告知；报告；传达；使具有",
+      "perfective": "сообщи́ть",
+      "note": "补原页使具有某种性质义，如使铁具有磁性；不能只译消息传达。",
+      "stage": 2,
+      "original": {
+        "word": "сообщать",
+        "part_of_speech": "未",
+        "meaning_zh": "告知；通知；报告；传达",
+        "source_page": 280,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сообщать",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=280"
+      ]
+    },
+    {
+      "id": 10254,
+      "accent": "сообще́ние",
+      "part": "名词·中性",
+      "meaning": "消息；通告；报道；报告；通信；交通；赋予",
+      "perfective": "",
+      "note": "原页误标未完成体，实际为中性名词；赋予指сообщение某种性质的专业搭配。",
+      "stage": 2,
+      "original": {
+        "word": "сообщение",
+        "part_of_speech": "中",
+        "meaning_zh": "消息；通告；报道；通信；交通",
+        "source_page": 280,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сообщение",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=280"
+      ]
+    },
+    {
+      "id": 10255,
+      "accent": "сооруже́ние",
+      "part": "名词·中性",
+      "meaning": "建造；修建；建筑物；工程设施",
+      "perfective": "",
+      "note": "同时保留建造过程和建成物。",
+      "stage": 2,
+      "original": {
+        "word": "сооружение",
+        "part_of_speech": "中",
+        "meaning_zh": "建筑；建筑物；工程设施",
+        "source_page": 280,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сооружение",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=280"
+      ]
+    },
+    {
+      "id": 10256,
+      "accent": "соотве́тствовать",
+      "part": "动词·未完成体",
+      "meaning": "符合；与……相符；适合",
+      "perfective": "",
+      "note": "原页词性误印中性，实际为动词；支配与格кому-чему，不另造完成体。",
+      "stage": 2,
+      "original": {
+        "word": "соответствовать",
+        "part_of_speech": "未",
+        "meaning_zh": "符合；相符；适合",
+        "source_page": 280,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "соответствовать",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=280"
+      ]
+    },
+    {
+      "id": 10257,
+      "accent": "сопоставля́ть",
+      "part": "动词·未完成体",
+      "meaning": "比较；对比；对照",
+      "perfective": "сопоста́вить",
+      "note": "常用что с чем。",
+      "stage": 2,
+      "original": {
+        "word": "сопоставлять",
+        "part_of_speech": "未",
+        "meaning_zh": "对比；比较",
+        "source_page": 280,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сопоставлять",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=280"
+      ]
+    },
+    {
+      "id": 10258,
+      "accent": "сопровожда́ть",
+      "part": "动词·未完成体",
+      "meaning": "陪同；伴随；辅以；伴奏",
+      "perfective": "сопроводи́ть",
+      "note": "状态伴随与一次陪同依语境区分；伴奏义可用音乐作工具格补语。",
+      "stage": 2,
+      "original": {
+        "word": "сопровождать",
+        "part_of_speech": "未",
+        "meaning_zh": "陪同；伴随；伴奏；辅以",
+        "source_page": 280,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сопровождать",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=280"
+      ]
+    },
+    {
+      "id": 10259,
+      "accent": "сопротивле́ние",
+      "part": "名词·中性",
+      "meaning": "抵抗；反抗；阻力；电阻",
+      "perfective": "",
+      "note": "电阻为物理语境常用义，不与日常反抗混同。",
+      "stage": 2,
+      "original": {
+        "word": "сопротивление",
+        "part_of_speech": "中",
+        "meaning_zh": "抵抗；反抗；阻力",
+        "source_page": 280,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сопротивление",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=280"
+      ]
+    },
+    {
+      "id": 10260,
+      "accent": "сопротивля́ться",
+      "part": "动词·未完成体",
+      "meaning": "抵抗；反抗；抗拒",
+      "perfective": "",
+      "note": "对象用与格，不机械配起始或限时完成体。",
+      "stage": 2,
+      "original": {
+        "word": "сопротивляться",
+        "part_of_speech": "未",
+        "meaning_zh": "抵抗；反抗",
+        "source_page": 280,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сопротивляться",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=280"
+      ]
+    },
+    {
+      "id": 10261,
+      "accent": "сора́тник",
+      "part": "名词·阳性",
+      "meaning": "战友；同道；共同奋斗的伙伴",
+      "perfective": "",
+      "note": "强调共同事业或斗争，不泛指所有同事。",
+      "stage": 2,
+      "original": {
+        "word": "соратник",
+        "part_of_speech": "阳",
+        "meaning_zh": "战友；同志；同道",
+        "source_page": 280,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "соратник",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=280"
+      ]
+    },
+    {
+      "id": 10262,
+      "accent": "соревнова́ние",
+      "part": "名词·中性",
+      "meaning": "比赛；竞赛；竞争",
+      "perfective": "",
+      "note": "体育赛事常用复数соревнования。",
+      "stage": 2,
+      "original": {
+        "word": "соревнование",
+        "part_of_speech": "中",
+        "meaning_zh": "竞赛；比赛",
+        "source_page": 280,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "соревнование",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=280"
+      ]
+    },
+    {
+      "id": 10263,
+      "accent": "соревнова́ться",
+      "part": "动词·未完成体",
+      "meaning": "比赛；竞赛；竞争",
+      "perfective": "",
+      "note": "对手用с加工具格，比赛方面可用в加前置格。",
+      "stage": 2,
+      "original": {
+        "word": "соревноваться",
+        "part_of_speech": "未",
+        "meaning_zh": "竞争；比赛",
+        "source_page": 280,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "соревноваться",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=280"
+      ]
+    },
+    {
+      "id": 10264,
+      "accent": "со́рок",
+      "part": "基数词",
+      "meaning": "四十",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "сорок",
+        "part_of_speech": "数",
+        "meaning_zh": "四十；四十个",
+        "source_page": 280,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сорок",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=280"
+      ]
+    },
+    {
+      "id": 10265,
+      "accent": "сороково́й",
+      "part": "序数词",
+      "meaning": "第四十",
+      "perfective": "",
+      "note": "四十分之一为одна сороковая，不能将分数直接当作序数词独立义。",
+      "stage": 1,
+      "original": {
+        "word": "сороковой",
+        "part_of_speech": "数",
+        "meaning_zh": "第四十；四十分之一",
+        "source_page": 280,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сороковой",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=280"
+      ]
+    },
+    {
+      "id": 10266,
+      "accent": "сорт",
+      "part": "名词·阳性",
+      "meaning": "品种；种类；等级",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "сорт",
+        "part_of_speech": "阳",
+        "meaning_zh": "种类；等级；品种",
+        "source_page": 281,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сорт",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=281"
+      ]
+    },
+    {
+      "id": 10267,
+      "accent": "сосе́дний",
+      "part": "形容词",
+      "meaning": "邻近的；隔壁的；相邻的",
+      "perfective": "",
+      "note": "邻国为соседнее государство等搭配，不把邻国当独立词义。",
+      "stage": 1,
+      "original": {
+        "word": "соседний",
+        "part_of_speech": "形",
+        "meaning_zh": "邻近的；隔壁的；邻国的",
+        "source_page": 281,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "соседний",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=281"
+      ]
+    },
+    {
+      "id": 10268,
+      "accent": "сосна́",
+      "part": "名词·阴性",
+      "meaning": "松树；松木",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "сосна",
+        "part_of_speech": "阴",
+        "meaning_zh": "松树；松木",
+        "source_page": 281,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сосна",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=281"
+      ]
+    },
+    {
+      "id": 10269,
+      "accent": "сосредото́чиваться",
+      "part": "动词·未完成体",
+      "meaning": "集中；聚集；集结；集中精力",
+      "perfective": "сосредото́читься",
+      "note": "原页词形保留；集中注意于某事常接на加前置格。",
+      "stage": 2,
+      "original": {
+        "word": "сосредоточиваться",
+        "part_of_speech": "未",
+        "meaning_zh": "集中；聚集；集结；集中精力",
+        "source_page": 281,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сосредоточиваться",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=281"
+      ]
+    },
+    {
+      "id": 10270,
+      "accent": "соста́в",
+      "part": "名词·阳性",
+      "meaning": "组成；构成；成分；成员；人员；列车编组",
+      "perfective": "",
+      "note": "原页为成分、成员；铁路语境也可指编成的一列车辆。",
+      "stage": 2,
+      "original": {
+        "word": "состав",
+        "part_of_speech": "阳",
+        "meaning_zh": "组成；成分；成员；构成",
+        "source_page": 281,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "состав",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=281"
+      ]
+    },
+    {
+      "id": 10271,
+      "accent": "составля́ть",
+      "part": "动词·未完成体",
+      "meaning": "组成；构成；编写；编制；合计为",
+      "perfective": "соста́вить",
+      "note": "状态总数是与编制一次结果的体用法有别。",
+      "stage": 2,
+      "original": {
+        "word": "составлять",
+        "part_of_speech": "未",
+        "meaning_zh": "组成；编成；总数是；合计",
+        "source_page": 281,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "составлять",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=281"
+      ]
+    },
+    {
+      "id": 10272,
+      "accent": "состоя́ть",
+      "part": "动词·未完成体",
+      "meaning": "由……组成；在于；担任；是……成员",
+      "perfective": "",
+      "note": "组成用из加属格，在于用в加前置格；没有全义通用完成体。",
+      "stage": 2,
+      "original": {
+        "word": "состоять",
+        "part_of_speech": "未",
+        "meaning_zh": "由……组成；在于；是……成员",
+        "source_page": 281,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "состоять",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=281"
+      ]
+    },
+    {
+      "id": 10273,
+      "accent": "состоя́ться",
+      "part": "动词·完成体",
+      "meaning": "举行；发生；实现；获得成功",
+      "perfective": "",
+      "note": "不把состоять误作本词未完成体；原页核心为如期举行。",
+      "stage": 2,
+      "original": {
+        "word": "состояться",
+        "part_of_speech": "完",
+        "meaning_zh": "举行；发生；实现",
+        "source_page": 281,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "состояться",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=281"
+      ]
+    },
+    {
+      "id": 10274,
+      "accent": "со́тня",
+      "part": "名词·阴性",
+      "meaning": "一百；一百个；上百；数百（复数）",
+      "perfective": "",
+      "note": "数百是复数сотни语境，不是单数必然表示多个百。",
+      "stage": 1,
+      "original": {
+        "word": "сотня",
+        "part_of_speech": "阴",
+        "meaning_zh": "一百；一百个；数百",
+        "source_page": 281,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сотня",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=281"
+      ]
+    },
+    {
+      "id": 10275,
+      "accent": "сотру́дничать",
+      "part": "动词·未完成体",
+      "meaning": "合作；共事；协作；为报刊工作或撰稿",
+      "perfective": "",
+      "note": "跨页核对报刊工作义；不机械补限时完成体。",
+      "stage": 2,
+      "original": {
+        "word": "сотрудничать",
+        "part_of_speech": "未",
+        "meaning_zh": "共事；合作",
+        "source_page": 281,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сотрудничать",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=281",
+        "data/words/tem4_russian_words.pdf#page=282"
+      ]
+    },
+    {
+      "id": 10276,
+      "accent": "сотру́дничество",
+      "part": "名词·中性",
+      "meaning": "合作；协作；共事；为报刊撰稿",
+      "perfective": "",
+      "note": "原页含为报刊撰稿用法，不只指人际合作。",
+      "stage": 2,
+      "original": {
+        "word": "сотрудничество",
+        "part_of_speech": "中",
+        "meaning_zh": "合作；共事；协作",
+        "source_page": 282,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сотрудничество",
+      "method": "2026-09-19当前助手逐词视觉核对PDF279至282页，复核重音、词性、核心义与动词体，纠正原书词性误印和分数义混入。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=282"
+      ]
+    }
+  ]
+}

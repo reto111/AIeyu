@@ -1,0 +1,699 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10307,
+      "accent": "спорт",
+      "part": "名词·阳性",
+      "meaning": "体育运动；竞技运动",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "спорт",
+        "part_of_speech": "阳",
+        "meaning_zh": "体育；运动",
+        "source_page": 284,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "спорт",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=284"
+      ]
+    },
+    {
+      "id": 10308,
+      "accent": "спорти́вный",
+      "part": "形容词",
+      "meaning": "体育的；运动的；运动用的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "спортивный",
+        "part_of_speech": "形",
+        "meaning_zh": "体育的；运动的",
+        "source_page": 284,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "спортивный",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=284"
+      ]
+    },
+    {
+      "id": 10309,
+      "accent": "спортсме́н",
+      "part": "名词·阳性",
+      "meaning": "运动员",
+      "perfective": "",
+      "note": "重音在末尾е，不能把е误改成ё。",
+      "stage": 1,
+      "original": {
+        "word": "спортсмен",
+        "part_of_speech": "阳",
+        "meaning_zh": "运动员",
+        "source_page": 284,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "спортсмен",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=284"
+      ]
+    },
+    {
+      "id": 10310,
+      "accent": "спо́соб",
+      "part": "名词·阳性",
+      "meaning": "方法；方式；办法",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "способ",
+        "part_of_speech": "阳",
+        "meaning_zh": "方法；方式",
+        "source_page": 284,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "способ",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=284"
+      ]
+    },
+    {
+      "id": 10311,
+      "accent": "спосо́бность",
+      "part": "名词·阴性",
+      "meaning": "能力；才能；天赋",
+      "perfective": "",
+      "note": "购买力为покупательная способность；才能常用复数способности，不把整个搭配义塞进词头。",
+      "stage": 2,
+      "original": {
+        "word": "способность",
+        "part_of_speech": "阴",
+        "meaning_zh": "能力；才能；购买力",
+        "source_page": 284,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "способность",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=284",
+        "data/words/tem4_russian_words.pdf#page=285"
+      ]
+    },
+    {
+      "id": 10312,
+      "accent": "спосо́бный",
+      "part": "形容词",
+      "meaning": "有能力的；有才能的；能干的；能够……的",
+      "perfective": "",
+      "note": "可用к加与格表示具有某种才能，亦可接不定式。",
+      "stage": 2,
+      "original": {
+        "word": "способный",
+        "part_of_speech": "形",
+        "meaning_zh": "有能力的；能干的；有才华的",
+        "source_page": 285,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "способный",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=285"
+      ]
+    },
+    {
+      "id": 10313,
+      "accent": "спосо́бствовать",
+      "part": "动词·未完成体",
+      "meaning": "促进；有助于；帮助；协助",
+      "perfective": "поспосо́бствовать",
+      "note": "支配与格чему；原页既有事物促进，也有人协助的用法。",
+      "stage": 2,
+      "original": {
+        "word": "способствовать",
+        "part_of_speech": "未",
+        "meaning_zh": "促进；有助于；帮助",
+        "source_page": 285,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "способствовать",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=285"
+      ]
+    },
+    {
+      "id": 10314,
+      "accent": "справедли́вый",
+      "part": "形容词",
+      "meaning": "公正的；公平的；正义的；正当的；确实的",
+      "perfective": "",
+      "note": "原页另有确切、符合事实义，不只表示道德公正。",
+      "stage": 2,
+      "original": {
+        "word": "справедливый",
+        "part_of_speech": "形",
+        "meaning_zh": "公正的；公平的；确实的；正义的",
+        "source_page": 285,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "справедливый",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=285"
+      ]
+    },
+    {
+      "id": 10315,
+      "accent": "справля́ться",
+      "part": "动词·未完成体",
+      "meaning": "应付；胜任；完成；克服；战胜",
+      "perfective": "спра́виться",
+      "note": "本来源为с加工具格的应付、战胜义；不混同打听义的不同体对。",
+      "stage": 2,
+      "original": {
+        "word": "справляться",
+        "part_of_speech": "未",
+        "meaning_zh": "应付；胜任；克服",
+        "source_page": 285,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "справляться",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=285"
+      ]
+    },
+    {
+      "id": 10316,
+      "accent": "спуска́ть",
+      "part": "动词·未完成体",
+      "meaning": "放下；降下；放出；排出；释放",
+      "perfective": "спусти́ть",
+      "note": "及物动词，旗帜降下、蒸汽排出、放开束缚等按宾语区分。",
+      "stage": 2,
+      "original": {
+        "word": "спускать",
+        "part_of_speech": "未",
+        "meaning_zh": "放下；放出；放下去；释放",
+        "source_page": 285,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "спускать",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=285"
+      ]
+    },
+    {
+      "id": 10317,
+      "accent": "спуска́ться",
+      "part": "动词·未完成体",
+      "meaning": "下来；下降；下山；下楼；顺流而下；降临",
+      "perfective": "спусти́ться",
+      "note": "跨页核对滑落、顺流而下义；与让物体下降的及物形式区分。",
+      "stage": 2,
+      "original": {
+        "word": "спускаться",
+        "part_of_speech": "未",
+        "meaning_zh": "下来；下降；下山；下楼；顺流而下",
+        "source_page": 285,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "спускаться",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=285",
+        "data/words/tem4_russian_words.pdf#page=286"
+      ]
+    },
+    {
+      "id": 10318,
+      "accent": "сравне́ние",
+      "part": "名词·中性",
+      "meaning": "比较；对比；比喻；比拟",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "сравнение",
+        "part_of_speech": "中",
+        "meaning_zh": "比喻；比拟；比较",
+        "source_page": 286,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сравнение",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=286"
+      ]
+    },
+    {
+      "id": 10319,
+      "accent": "сра́внивать",
+      "part": "动词·未完成体",
+      "meaning": "比较；对比；把……比作",
+      "perfective": "сравни́ть",
+      "note": "常用что с чем，名词比较对象用工具格。",
+      "stage": 2,
+      "original": {
+        "word": "сравнивать",
+        "part_of_speech": "未",
+        "meaning_zh": "比较；把……比作",
+        "source_page": 286,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сравнивать",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=286"
+      ]
+    },
+    {
+      "id": 10320,
+      "accent": "сравни́тельный",
+      "part": "形容词",
+      "meaning": "比较的；对比的；相对的",
+      "perfective": "",
+      "note": "сравнительная степень为比较级，属于完整语法术语。",
+      "stage": 2,
+      "original": {
+        "word": "сравнительный",
+        "part_of_speech": "形",
+        "meaning_zh": "比较的；比较级的",
+        "source_page": 286,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сравнительный",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=286"
+      ]
+    },
+    {
+      "id": 10321,
+      "accent": "сре́дство",
+      "part": "名词·中性",
+      "meaning": "方法；手段；工具；用品；药剂；资金（复数）",
+      "perfective": "",
+      "note": "跨页核对；资金、经费通常用средства；生产资料为средства производства整个搭配。",
+      "stage": 2,
+      "original": {
+        "word": "средство",
+        "part_of_speech": "中",
+        "meaning_zh": "方法；手段；资金；资料；工具；药剂",
+        "source_page": 286,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "средство",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=286",
+        "data/words/tem4_russian_words.pdf#page=287"
+      ]
+    },
+    {
+      "id": 10322,
+      "accent": "срок",
+      "part": "名词·阳性",
+      "meaning": "期限；期间；规定的时间；日期",
+      "perfective": "",
+      "note": "按期为в срок、к сроку等搭配，不是单词副词义。",
+      "stage": 2,
+      "original": {
+        "word": "срок",
+        "part_of_speech": "阳",
+        "meaning_zh": "期限；期间；日期；按期",
+        "source_page": 287,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "срок",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=287"
+      ]
+    },
+    {
+      "id": 10323,
+      "accent": "сро́чный",
+      "part": "形容词",
+      "meaning": "紧急的；急需处理的；有固定期限的",
+      "perfective": "",
+      "note": "固定期限不等于周期性反复发生的定期。",
+      "stage": 2,
+      "original": {
+        "word": "срочный",
+        "part_of_speech": "形",
+        "meaning_zh": "紧急的；定期的",
+        "source_page": 287,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "срочный",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=287"
+      ]
+    },
+    {
+      "id": 10324,
+      "accent": "срыва́ть",
+      "part": "动词·未完成体",
+      "meaning": "摘下；扯下；破坏；阻挠；铲平",
+      "perfective": "сорва́ть",
+      "note": "摘下、破坏对应сорвать；原页铲平、挖掉义为同形动词，对应срыть，不能混用。",
+      "stage": 2,
+      "original": {
+        "word": "срывать",
+        "part_of_speech": "未",
+        "meaning_zh": "扯下；摘下；破坏；阻挠",
+        "source_page": 287,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "срывать",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=287"
+      ]
+    },
+    {
+      "id": 10325,
+      "accent": "ссо́риться",
+      "part": "动词·未完成体",
+      "meaning": "争吵；不和；反目",
+      "perfective": "поссо́риться",
+      "note": "与谁争吵用с加工具格；保留词首双с。",
+      "stage": 1,
+      "original": {
+        "word": "ссориться",
+        "part_of_speech": "未",
+        "meaning_zh": "争吵；不和；反目",
+        "source_page": 287,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ссориться",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=287"
+      ]
+    },
+    {
+      "id": 10326,
+      "accent": "ста́вить",
+      "part": "动词·未完成体",
+      "meaning": "竖放；放置；使站立；建立；安装；标注；上演；提出；打分",
+      "perfective": "поста́вить",
+      "note": "多义动词按宾语使用；放置强调使物体处于直立或适当位置，不等同所有放。",
+      "stage": 1,
+      "original": {
+        "word": "ставить",
+        "part_of_speech": "未",
+        "meaning_zh": "放置；使站立；建立；建筑；安装；提出；上演；打分",
+        "source_page": 287,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ставить",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=287"
+      ]
+    },
+    {
+      "id": 10327,
+      "accent": "стадио́н",
+      "part": "名词·阳性",
+      "meaning": "体育场；运动场",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "стадион",
+        "part_of_speech": "阳",
+        "meaning_zh": "体育场；运动场",
+        "source_page": 287,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стадион",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=287"
+      ]
+    },
+    {
+      "id": 10328,
+      "accent": "ста́до",
+      "part": "名词·中性",
+      "meaning": "畜群；一群（牲畜等）",
+      "perfective": "",
+      "note": "不泛指任意一群人或物。",
+      "stage": 2,
+      "original": {
+        "word": "стадо",
+        "part_of_speech": "中",
+        "meaning_zh": "群；畜群",
+        "source_page": 287,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стадо",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=287"
+      ]
+    },
+    {
+      "id": 10329,
+      "accent": "стака́н",
+      "part": "名词·阳性",
+      "meaning": "玻璃杯；无柄杯；一杯的量",
+      "perfective": "",
+      "note": "作为量词时指杯中所盛物的量。",
+      "stage": 1,
+      "original": {
+        "word": "стакан",
+        "part_of_speech": "阳",
+        "meaning_zh": "玻璃杯；一杯",
+        "source_page": 287,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стакан",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=287"
+      ]
+    },
+    {
+      "id": 10330,
+      "accent": "сталь",
+      "part": "名词·阴性",
+      "meaning": "钢",
+      "perfective": "",
+      "note": "不要混同铁железо。",
+      "stage": 2,
+      "original": {
+        "word": "сталь",
+        "part_of_speech": "阴",
+        "meaning_zh": "钢；钢铁",
+        "source_page": 287,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сталь",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=287"
+      ]
+    },
+    {
+      "id": 10331,
+      "accent": "стально́й",
+      "part": "形容词",
+      "meaning": "钢的；钢制的；钢铁般坚强的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "стальной",
+        "part_of_speech": "形",
+        "meaning_zh": "钢的；钢铁般的；坚强的",
+        "source_page": 287,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стальной",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=287"
+      ]
+    },
+    {
+      "id": 10332,
+      "accent": "станови́ться",
+      "part": "动词·未完成体",
+      "meaning": "站起；站到；停下；成为；变成；开始",
+      "perfective": "стать",
+      "note": "跨页核对；开始做常用стать加不定式，状态变为与位置动作依语境区分。",
+      "stage": 1,
+      "original": {
+        "word": "становиться",
+        "part_of_speech": "未",
+        "meaning_zh": "站起；站立；停下；开始；成为；变成",
+        "source_page": 287,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "становиться",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=287",
+        "data/words/tem4_russian_words.pdf#page=288"
+      ]
+    },
+    {
+      "id": 10333,
+      "accent": "ста́нция",
+      "part": "名词·阴性",
+      "meaning": "车站；站；台；站点；专业服务机构",
+      "perfective": "",
+      "note": "气象站、电话局等依据搭配翻译，不是所有局或所都称станция。",
+      "stage": 1,
+      "original": {
+        "word": "станция",
+        "part_of_speech": "阴",
+        "meaning_zh": "车站；站；台；局；所",
+        "source_page": 288,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "станция",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=288"
+      ]
+    },
+    {
+      "id": 10334,
+      "accent": "стара́тельный",
+      "part": "形容词",
+      "meaning": "勤奋的；努力的；勤恳的；认真的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "старательный",
+        "part_of_speech": "形",
+        "meaning_zh": "勤奋的；努力的；勤恳的",
+        "source_page": 288,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "старательный",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=288"
+      ]
+    },
+    {
+      "id": 10335,
+      "accent": "стара́ться",
+      "part": "动词·未完成体",
+      "meaning": "努力；力求；竭力；尽力",
+      "perfective": "постара́ться",
+      "note": "常接不定式；努力不意味着一定完成目标。",
+      "stage": 1,
+      "original": {
+        "word": "стараться",
+        "part_of_speech": "未",
+        "meaning_zh": "努力；力求；竭力",
+        "source_page": 288,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стараться",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=288"
+      ]
+    },
+    {
+      "id": 10336,
+      "accent": "стари́к",
+      "part": "名词·阳性",
+      "meaning": "老年男子；老头；老人",
+      "perfective": "",
+      "note": "单数通常指男性，复数старики可泛指老人或老两口。",
+      "stage": 1,
+      "original": {
+        "word": "старик",
+        "part_of_speech": "阳",
+        "meaning_zh": "老人；老头",
+        "source_page": 288,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "старик",
+      "method": "2026-09-19当前助手逐词视觉核对PDF284至288页，核对跨页释义、重音和同形动词体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=288"
+      ]
+    }
+  ]
+}

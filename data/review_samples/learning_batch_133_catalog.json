@@ -1,0 +1,696 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10277,
+      "accent": "со́тый",
+      "part": "序数词",
+      "meaning": "第一百",
+      "perfective": "",
+      "note": "百分之一应为одна сотая，不把整个分数等同于词头。",
+      "stage": 1,
+      "original": {
+        "word": "сотый",
+        "part_of_speech": "数",
+        "meaning_zh": "第一百；百分之一",
+        "source_page": 282,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сотый",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=282"
+      ]
+    },
+    {
+      "id": 10278,
+      "accent": "со́хнуть",
+      "part": "动词·未完成体",
+      "meaning": "变干；干燥；干枯；枯萎",
+      "perfective": "вы́сохнуть",
+      "note": "与主动把物体弄干сушить区分。",
+      "stage": 2,
+      "original": {
+        "word": "сохнуть",
+        "part_of_speech": "未",
+        "meaning_zh": "变干；干枯",
+        "source_page": 282,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сохнуть",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=282"
+      ]
+    },
+    {
+      "id": 10279,
+      "accent": "сохраня́ть",
+      "part": "动词·未完成体",
+      "meaning": "保存；保全；保留；保持",
+      "perfective": "сохрани́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "сохранять",
+        "part_of_speech": "未",
+        "meaning_zh": "保存；保留；保持；保全",
+        "source_page": 282,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сохранять",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=282"
+      ]
+    },
+    {
+      "id": 10280,
+      "accent": "сохраня́ться",
+      "part": "动词·未完成体",
+      "meaning": "保存下来；保留下来；保持不变",
+      "perfective": "сохрани́ться",
+      "note": "主语为被保存的事物或仍保持的状态。",
+      "stage": 2,
+      "original": {
+        "word": "сохраняться",
+        "part_of_speech": "未",
+        "meaning_zh": "保存下来；保留；保持",
+        "source_page": 282,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сохраняться",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=282"
+      ]
+    },
+    {
+      "id": 10281,
+      "accent": "социали́зм",
+      "part": "名词·阳性",
+      "meaning": "社会主义",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "социализм",
+        "part_of_speech": "阳",
+        "meaning_zh": "社会主义",
+        "source_page": 282,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "социализм",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=282"
+      ]
+    },
+    {
+      "id": 10282,
+      "accent": "социалисти́ческий",
+      "part": "形容词",
+      "meaning": "社会主义的",
+      "perfective": "",
+      "note": "社会主义国家为социалистическая страна整个词组。",
+      "stage": 2,
+      "original": {
+        "word": "социалистический",
+        "part_of_speech": "形",
+        "meaning_zh": "社会主义的；社会主义国家的",
+        "source_page": 282,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "социалистический",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=282"
+      ]
+    },
+    {
+      "id": 10283,
+      "accent": "социа́льный",
+      "part": "形容词",
+      "meaning": "社会的；社会性的",
+      "perfective": "",
+      "note": "不等于社会主义的。",
+      "stage": 2,
+      "original": {
+        "word": "социальный",
+        "part_of_speech": "形",
+        "meaning_zh": "社会的；社会性的",
+        "source_page": 282,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "социальный",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=282"
+      ]
+    },
+    {
+      "id": 10284,
+      "accent": "сочета́ние",
+      "part": "名词·中性",
+      "meaning": "结合；组合；搭配",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "сочетание",
+        "part_of_speech": "中",
+        "meaning_zh": "结合；组合；搭配",
+        "source_page": 282,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сочетание",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=282"
+      ]
+    },
+    {
+      "id": 10285,
+      "accent": "сочета́ть",
+      "part": "动词·兼体",
+      "meaning": "结合；组合；把……相结合",
+      "perfective": "",
+      "note": "原页标未、完兼用，不强造带前缀的另一体；常用что с чем。",
+      "stage": 2,
+      "original": {
+        "word": "сочетать",
+        "part_of_speech": "未",
+        "meaning_zh": "结合；组合；使相结合",
+        "source_page": 282,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сочетать",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=282",
+        "data/words/tem4_russian_words.pdf#page=283"
+      ]
+    },
+    {
+      "id": 10286,
+      "accent": "сочине́ние",
+      "part": "名词·中性",
+      "meaning": "作品；著作；作文；创作；写作",
+      "perfective": "",
+      "note": "同时表示创作过程和创作出的作品。",
+      "stage": 1,
+      "original": {
+        "word": "сочинение",
+        "part_of_speech": "中",
+        "meaning_zh": "著作；作品；作文",
+        "source_page": 283,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сочинение",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=283"
+      ]
+    },
+    {
+      "id": 10287,
+      "accent": "сочиня́ть",
+      "part": "动词·未完成体",
+      "meaning": "创作；写作；编写；编造",
+      "perfective": "сочини́ть",
+      "note": "除文学、音乐创作，也可指凭空编造。",
+      "stage": 2,
+      "original": {
+        "word": "сочинять",
+        "part_of_speech": "未",
+        "meaning_zh": "创作；写作；编写",
+        "source_page": 283,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сочинять",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=283"
+      ]
+    },
+    {
+      "id": 10288,
+      "accent": "сочу́вствовать",
+      "part": "动词·未完成体",
+      "meaning": "同情；体谅；表示同情",
+      "perfective": "посочу́вствовать",
+      "note": "对象用与格，完成体表示一次表达同情。",
+      "stage": 2,
+      "original": {
+        "word": "сочувствовать",
+        "part_of_speech": "未",
+        "meaning_zh": "同情；表示同情",
+        "source_page": 283,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сочувствовать",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=283"
+      ]
+    },
+    {
+      "id": 10289,
+      "accent": "сою́з",
+      "part": "名词·阳性",
+      "meaning": "联盟；同盟；联合；协会；连词",
+      "perfective": "",
+      "note": "连词为语法义；历史国名中的Союз按专名书写。",
+      "stage": 2,
+      "original": {
+        "word": "союз",
+        "part_of_speech": "阳",
+        "meaning_zh": "联盟；同盟；联合；协会；（语法）连词",
+        "source_page": 283,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "союз",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=283"
+      ]
+    },
+    {
+      "id": 10290,
+      "accent": "спартакиа́да",
+      "part": "名词·阴性",
+      "meaning": "综合性运动会；体育运动大会",
+      "perfective": "",
+      "note": "原页全运会是具体例子的译法，不是专指某一个国家的全运会。",
+      "stage": 2,
+      "original": {
+        "word": "спартакиада",
+        "part_of_speech": "阴",
+        "meaning_zh": "体育运动会；综合性运动会",
+        "source_page": 283,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "спартакиада",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=283"
+      ]
+    },
+    {
+      "id": 10291,
+      "accent": "спаса́ть",
+      "part": "动词·未完成体",
+      "meaning": "救；拯救；挽救；使免遭",
+      "perfective": "спасти́",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "спасать",
+        "part_of_speech": "未",
+        "meaning_zh": "救；拯救；挽救；使免于",
+        "source_page": 283,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "спасать",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=283"
+      ]
+    },
+    {
+      "id": 10292,
+      "accent": "спать",
+      "part": "动词·未完成体",
+      "meaning": "睡；睡觉；睡眠；消沉；不采取行动",
+      "perfective": "",
+      "note": "比喻消沉、不行动有原页依据；不把睡一会儿或入睡当全义体对。",
+      "stage": 1,
+      "original": {
+        "word": "спать",
+        "part_of_speech": "未",
+        "meaning_zh": "睡觉；睡眠；（比喻）消沉或不振作",
+        "source_page": 283,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "спать",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=283"
+      ]
+    },
+    {
+      "id": 10293,
+      "accent": "спа́ться",
+      "part": "动词·未完成体；无人称",
+      "meaning": "睡得着；睡得如何",
+      "perfective": "",
+      "note": "常说кому хорошо/плохо спится；не спится是睡不着，不笼统译想睡。",
+      "stage": 2,
+      "original": {
+        "word": "спаться",
+        "part_of_speech": "未，无人称",
+        "meaning_zh": "想睡；睡得着；睡得如何（无人称）",
+        "source_page": 283,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "спаться",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=283"
+      ]
+    },
+    {
+      "id": 10294,
+      "accent": "спекта́кль",
+      "part": "名词·阳性",
+      "meaning": "戏剧演出；一场戏；剧目",
+      "perfective": "",
+      "note": "侧重舞台演出，不是文学意义的剧本。",
+      "stage": 2,
+      "original": {
+        "word": "спектакль",
+        "part_of_speech": "阳",
+        "meaning_zh": "戏剧；演出；剧目",
+        "source_page": 283,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "спектакль",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=283"
+      ]
+    },
+    {
+      "id": 10295,
+      "accent": "спе́лый",
+      "part": "形容词",
+      "meaning": "成熟的；熟了的（果实、庄稼）",
+      "perfective": "",
+      "note": "不泛指烹煮熟了的食物。",
+      "stage": 1,
+      "original": {
+        "word": "спелый",
+        "part_of_speech": "形",
+        "meaning_zh": "成熟的；熟了的",
+        "source_page": 283,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "спелый",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=283"
+      ]
+    },
+    {
+      "id": 10296,
+      "accent": "специали́ст",
+      "part": "名词·阳性",
+      "meaning": "专家；专业人员",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "специалист",
+        "part_of_speech": "阳",
+        "meaning_zh": "专家；专业人员",
+        "source_page": 283,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "специалист",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=283"
+      ]
+    },
+    {
+      "id": 10297,
+      "accent": "специа́льность",
+      "part": "名词·阴性",
+      "meaning": "专业；专长；职业",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "специальность",
+        "part_of_speech": "阴",
+        "meaning_zh": "专业；专长；职业",
+        "source_page": 283,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "специальность",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=283"
+      ]
+    },
+    {
+      "id": 10298,
+      "accent": "специа́льный",
+      "part": "形容词",
+      "meaning": "专门的；专用的；特别的；专业的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "специальный",
+        "part_of_speech": "形",
+        "meaning_zh": "专门的；特别的；专业的",
+        "source_page": 284,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "специальный",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=284"
+      ]
+    },
+    {
+      "id": 10299,
+      "accent": "спеши́ть",
+      "part": "动词·未完成体",
+      "meaning": "赶快；急于；赶时间；赶往；走快（钟表）",
+      "perfective": "поспеши́ть",
+      "note": "体对用于赶快、赶往；钟表走快的状态义不套用поспешить。",
+      "stage": 1,
+      "original": {
+        "word": "спешить",
+        "part_of_speech": "未",
+        "meaning_zh": "赶快；急于；赶；（钟表）走快",
+        "source_page": 284,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "спешить",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=284"
+      ]
+    },
+    {
+      "id": 10300,
+      "accent": "спина́",
+      "part": "名词·阴性",
+      "meaning": "背；脊背",
+      "perfective": "",
+      "note": "单数主格末尾а重读，变格可移动重音。",
+      "stage": 1,
+      "original": {
+        "word": "спина",
+        "part_of_speech": "阴",
+        "meaning_zh": "背；脊背",
+        "source_page": 284,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "спина",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=284"
+      ]
+    },
+    {
+      "id": 10301,
+      "accent": "спи́сок",
+      "part": "名词·阳性",
+      "meaning": "名单；名册；清单；目录",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "список",
+        "part_of_speech": "阳",
+        "meaning_zh": "名单；名册；清单",
+        "source_page": 284,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "список",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=284"
+      ]
+    },
+    {
+      "id": 10302,
+      "accent": "спи́сывать",
+      "part": "动词·未完成体",
+      "meaning": "抄写；抄录；抄袭；注销；报废",
+      "perfective": "списа́ть",
+      "note": "原页抄写、抄袭保留；账目、设备等语境可表示注销或报废。",
+      "stage": 2,
+      "original": {
+        "word": "списывать",
+        "part_of_speech": "未",
+        "meaning_zh": "抄写；抄袭",
+        "source_page": 284,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "списывать",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=284"
+      ]
+    },
+    {
+      "id": 10303,
+      "accent": "спи́чка",
+      "part": "名词·阴性",
+      "meaning": "火柴",
+      "perfective": "",
+      "note": "一根火柴用单数。",
+      "stage": 1,
+      "original": {
+        "word": "спичка",
+        "part_of_speech": "阴",
+        "meaning_zh": "火柴",
+        "source_page": 284,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "спичка",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=284"
+      ]
+    },
+    {
+      "id": 10304,
+      "accent": "споко́йный",
+      "part": "形容词",
+      "meaning": "平静的；宁静的；安详的；安稳的；文静的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "спокойный",
+        "part_of_speech": "形",
+        "meaning_zh": "平静的；宁静的；安稳的；文静的",
+        "source_page": 284,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "спокойный",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=284"
+      ]
+    },
+    {
+      "id": 10305,
+      "accent": "спор",
+      "part": "名词·阳性",
+      "meaning": "争论；争执；争议",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "спор",
+        "part_of_speech": "阳",
+        "meaning_zh": "争论；争执；争议",
+        "source_page": 284,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "спор",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=284"
+      ]
+    },
+    {
+      "id": 10306,
+      "accent": "спо́рить",
+      "part": "动词·未完成体",
+      "meaning": "争论；争执；争辩",
+      "perfective": "поспо́рить",
+      "note": "常用с кем о чём；完成体可表示争论一番，不表示争论必有定论。",
+      "stage": 2,
+      "original": {
+        "word": "спорить",
+        "part_of_speech": "未",
+        "meaning_zh": "争论；争执",
+        "source_page": 284,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "спорить",
+      "method": "2026-09-19当前助手逐词视觉核对PDF282至284页，核对重音、兼体、核心义和词组边界。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=284"
+      ]
+    }
+  ]
+}

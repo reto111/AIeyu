@@ -1,0 +1,698 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10337,
+      "accent": "стари́нный",
+      "part": "形容词",
+      "meaning": "古老的；古代的；老式的；多年的",
+      "perfective": "",
+      "note": "原页старинный друг为多年老友，不是年龄大的朋友。",
+      "stage": 2,
+      "original": {
+        "word": "старинный",
+        "part_of_speech": "形",
+        "meaning_zh": "古代的；古老的；老式的",
+        "source_page": 288,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "старинный",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=288"
+      ]
+    },
+    {
+      "id": 10338,
+      "accent": "ста́роста",
+      "part": "名词·阳性",
+      "meaning": "班长；领班；某团体的负责人",
+      "perfective": "",
+      "note": "常见于学校班级；虽以а结尾，传统词典标阳性，现实可指女性担任者。",
+      "stage": 1,
+      "original": {
+        "word": "староста",
+        "part_of_speech": "阳",
+        "meaning_zh": "班长；工长；领班",
+        "source_page": 288,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "староста",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=288"
+      ]
+    },
+    {
+      "id": 10339,
+      "accent": "ста́рость",
+      "part": "名词·阴性",
+      "meaning": "老年；晚年；衰老",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "старость",
+        "part_of_speech": "阴",
+        "meaning_zh": "老年；晚年",
+        "source_page": 288,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "старость",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=288"
+      ]
+    },
+    {
+      "id": 10340,
+      "accent": "стару́ха",
+      "part": "名词·阴性",
+      "meaning": "老妇人；老太太",
+      "perfective": "",
+      "note": "称呼人时注意语气，通常不如中性描述пожилая женщина礼貌。",
+      "stage": 2,
+      "original": {
+        "word": "старуха",
+        "part_of_speech": "阴",
+        "meaning_zh": "老太太；老妇人",
+        "source_page": 288,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "старуха",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=288"
+      ]
+    },
+    {
+      "id": 10341,
+      "accent": "ста́рший",
+      "part": "形容词；名词化用法",
+      "meaning": "年长的；年级高的；职位较高的；高级的；长辈",
+      "perfective": "",
+      "note": "哥哥、姐姐用старший брат、старшая сестра；高级职称依具体制度翻译。",
+      "stage": 1,
+      "original": {
+        "word": "старший",
+        "part_of_speech": "形",
+        "meaning_zh": "年长的；年级高的；职位较高的；高级的",
+        "source_page": 288,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "старший",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=288",
+        "data/words/tem4_russian_words.pdf#page=289"
+      ]
+    },
+    {
+      "id": 10343,
+      "accent": "статья́",
+      "part": "名词·阴性",
+      "meaning": "文章；条文；词条；项目",
+      "perfective": "",
+      "note": "词条为словарная статья，项目可见预算等语境。",
+      "stage": 1,
+      "original": {
+        "word": "статья",
+        "part_of_speech": "阴",
+        "meaning_zh": "文章；条文；词条",
+        "source_page": 289,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "статья",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=289"
+      ]
+    },
+    {
+      "id": 10344,
+      "accent": "ствол",
+      "part": "名词·阳性",
+      "meaning": "树干；枪管；炮管",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "ствол",
+        "part_of_speech": "阳",
+        "meaning_zh": "树干；树身；枪管；炮管",
+        "source_page": 289,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ствол",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=289"
+      ]
+    },
+    {
+      "id": 10345,
+      "accent": "стекло́",
+      "part": "名词·中性",
+      "meaning": "玻璃；玻璃片；玻璃制的镜片",
+      "perfective": "",
+      "note": "单数词头е，复数стёкла重音变化，不能机械统一е/ё。",
+      "stage": 1,
+      "original": {
+        "word": "стекло",
+        "part_of_speech": "中",
+        "meaning_zh": "玻璃；玻璃片",
+        "source_page": 289,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стекло",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=289"
+      ]
+    },
+    {
+      "id": 10346,
+      "accent": "стена́",
+      "part": "名词·阴性",
+      "meaning": "墙；墙壁；围墙；城墙",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "стена",
+        "part_of_speech": "阴",
+        "meaning_zh": "墙；城墙",
+        "source_page": 289,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стена",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=289"
+      ]
+    },
+    {
+      "id": 10347,
+      "accent": "сте́пень",
+      "part": "名词·阴性",
+      "meaning": "程度；等级；学位；级（语法）；幂（数学）",
+      "perfective": "",
+      "note": "依学科语境区分，不只指学位。",
+      "stage": 2,
+      "original": {
+        "word": "степень",
+        "part_of_speech": "阴",
+        "meaning_zh": "程度；学位；（语法）级",
+        "source_page": 289,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "степень",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=289"
+      ]
+    },
+    {
+      "id": 10348,
+      "accent": "степь",
+      "part": "名词·阴性",
+      "meaning": "草原；干草原",
+      "perfective": "",
+      "note": "指广阔的无林草原地带。",
+      "stage": 2,
+      "original": {
+        "word": "степь",
+        "part_of_speech": "阴",
+        "meaning_zh": "草原",
+        "source_page": 289,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "степь",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=289"
+      ]
+    },
+    {
+      "id": 10349,
+      "accent": "стесня́ться",
+      "part": "动词·未完成体",
+      "meaning": "害羞；不好意思；拘谨；感到难为情",
+      "perfective": "постесня́ться",
+      "note": "可接不定式或кого-чего，原页怕生是具体搭配。",
+      "stage": 2,
+      "original": {
+        "word": "стесняться",
+        "part_of_speech": "未",
+        "meaning_zh": "不好意思；害羞；怕见生人",
+        "source_page": 289,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стесняться",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=289"
+      ]
+    },
+    {
+      "id": 10350,
+      "accent": "стира́ть",
+      "part": "动词·未完成体",
+      "meaning": "擦去；擦掉；磨掉；洗涤衣物",
+      "perfective": "стере́ть",
+      "note": "擦去、磨掉对应стереть；洗衣为同形动词，对应выстирать，不能共用体对。",
+      "stage": 1,
+      "original": {
+        "word": "стирать",
+        "part_of_speech": "未",
+        "meaning_zh": "擦掉；擦拭；洗涤；磨损",
+        "source_page": 290,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стирать",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=290"
+      ]
+    },
+    {
+      "id": 10351,
+      "accent": "стихотворе́ние",
+      "part": "名词·中性",
+      "meaning": "诗；诗篇；一首诗",
+      "perfective": "",
+      "note": "指单篇诗歌作品。",
+      "stage": 2,
+      "original": {
+        "word": "стихотворение",
+        "part_of_speech": "中",
+        "meaning_zh": "诗；诗歌；诗篇",
+        "source_page": 290,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стихотворение",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=290"
+      ]
+    },
+    {
+      "id": 10352,
+      "accent": "сто",
+      "part": "基数词",
+      "meaning": "一百",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "сто",
+        "part_of_speech": "数",
+        "meaning_zh": "一百；一百个",
+        "source_page": 290,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сто",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=290"
+      ]
+    },
+    {
+      "id": 10354,
+      "accent": "столб",
+      "part": "名词·阳性",
+      "meaning": "柱子；杆子；柱状物",
+      "perfective": "",
+      "note": "电线杆、路标柱是具体搭配，不限这两种。",
+      "stage": 2,
+      "original": {
+        "word": "столб",
+        "part_of_speech": "阳",
+        "meaning_zh": "柱子；电线杆；路标柱",
+        "source_page": 290,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "столб",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=290"
+      ]
+    },
+    {
+      "id": 10355,
+      "accent": "столе́тие",
+      "part": "名词·中性",
+      "meaning": "一百年；世纪；一百周年",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "столетие",
+        "part_of_speech": "中",
+        "meaning_zh": "百年；世纪；一百周年",
+        "source_page": 290,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "столетие",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=290"
+      ]
+    },
+    {
+      "id": 10356,
+      "accent": "столи́ца",
+      "part": "名词·阴性",
+      "meaning": "首都",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "столица",
+        "part_of_speech": "阴",
+        "meaning_zh": "首都",
+        "source_page": 290,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "столица",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=290"
+      ]
+    },
+    {
+      "id": 10357,
+      "accent": "столо́вая",
+      "part": "名词·阴性；形容词式变化",
+      "meaning": "饭厅；餐厅；食堂",
+      "perfective": "",
+      "note": "作为名词使用，不误写成形容词餐桌的。",
+      "stage": 1,
+      "original": {
+        "word": "столовая",
+        "part_of_speech": "阴",
+        "meaning_zh": "饭厅；餐厅；食堂",
+        "source_page": 290,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "столовая",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=290"
+      ]
+    },
+    {
+      "id": 10358,
+      "accent": "сто́лько",
+      "part": "数量代词；副词用法",
+      "meaning": "这么多；那么多；同样多",
+      "perfective": "",
+      "note": "数量多少依前后文确定。",
+      "stage": 1,
+      "original": {
+        "word": "столько",
+        "part_of_speech": "副",
+        "meaning_zh": "这么多；那么多",
+        "source_page": 290,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "столько",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=290",
+        "data/words/tem4_russian_words.pdf#page=291"
+      ]
+    },
+    {
+      "id": 10359,
+      "accent": "сто́рож",
+      "part": "名词·阳性",
+      "meaning": "看守；守卫；守夜人",
+      "perfective": "",
+      "note": "指看守场所、财物的人，不仅夜间工作。",
+      "stage": 2,
+      "original": {
+        "word": "сторож",
+        "part_of_speech": "阳",
+        "meaning_zh": "看守；守夜人；更夫",
+        "source_page": 291,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сторож",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=291"
+      ]
+    },
+    {
+      "id": 10360,
+      "accent": "сторона́",
+      "part": "名词·阴性",
+      "meaning": "方向；一边；一面；一方；方面；地区",
+      "perfective": "",
+      "note": "亲属关系可用со стороны表示某一方；完整搭配另理解。",
+      "stage": 1,
+      "original": {
+        "word": "сторона",
+        "part_of_speech": "阴",
+        "meaning_zh": "方向；一边；方面；地方；地区",
+        "source_page": 291,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сторона",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=291"
+      ]
+    },
+    {
+      "id": 10361,
+      "accent": "стоя́ть",
+      "part": "动词·未完成体",
+      "meaning": "站着；竖立；放着；处于；存在；停着",
+      "perfective": "",
+      "note": "删除误混的开始或将要义；本词表示状态，不机械配стать的各种动作义。",
+      "stage": 1,
+      "original": {
+        "word": "стоять",
+        "part_of_speech": "未",
+        "meaning_zh": "站立；放置；处于；停着；开始或将要",
+        "source_page": 291,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стоять",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=291"
+      ]
+    },
+    {
+      "id": 10362,
+      "accent": "страда́ть",
+      "part": "动词·未完成体",
+      "meaning": "受苦；患有；感到痛苦；为……难过；遭受损害",
+      "perfective": "",
+      "note": "病症可用工具格；受某原因之苦可用от加属格，不设全义通用完成体。",
+      "stage": 2,
+      "original": {
+        "word": "страдать",
+        "part_of_speech": "未",
+        "meaning_zh": "患病；受苦；为……难过；遭受……之害",
+        "source_page": 291,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "страдать",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=291"
+      ]
+    },
+    {
+      "id": 10364,
+      "accent": "страни́ца",
+      "part": "名词·阴性",
+      "meaning": "页；页面；历史上的一页；某一时期",
+      "perfective": "",
+      "note": "跨页补历史、经历中某一阶段的比喻义。",
+      "stage": 1,
+      "original": {
+        "word": "страница",
+        "part_of_speech": "阴",
+        "meaning_zh": "页；页面；（比喻）历史的一页",
+        "source_page": 291,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "страница",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=291",
+        "data/words/tem4_russian_words.pdf#page=292"
+      ]
+    },
+    {
+      "id": 10365,
+      "accent": "стра́нный",
+      "part": "形容词",
+      "meaning": "奇怪的；古怪的；反常的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "странный",
+        "part_of_speech": "形",
+        "meaning_zh": "奇怪的；反常的；古怪的",
+        "source_page": 292,
+        "source_line": "1"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "странный",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=292"
+      ]
+    },
+    {
+      "id": 10366,
+      "accent": "странове́дение",
+      "part": "名词·中性",
+      "meaning": "国情学；国别研究；区域研究",
+      "perfective": "",
+      "note": "研究特定国家或地区的地理、历史、文化等，不泛指全部地理学。",
+      "stage": 2,
+      "original": {
+        "word": "страноведение",
+        "part_of_speech": "中",
+        "meaning_zh": "地理学；国情学",
+        "source_page": 292,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "страноведение",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=292"
+      ]
+    },
+    {
+      "id": 10367,
+      "accent": "страх",
+      "part": "名词·阳性",
+      "meaning": "恐惧；害怕；可怕的事物（复数）",
+      "perfective": "",
+      "note": "复数страхи可指使人害怕的事情。",
+      "stage": 2,
+      "original": {
+        "word": "страх",
+        "part_of_speech": "阳",
+        "meaning_zh": "恐惧；害怕；可怕的事物",
+        "source_page": 292,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "страх",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=292"
+      ]
+    },
+    {
+      "id": 10368,
+      "accent": "стре́лка",
+      "part": "名词·阴性",
+      "meaning": "箭头；指针；铁路道岔",
+      "perfective": "",
+      "note": "箭头与钟表指针为原页核心义。",
+      "stage": 2,
+      "original": {
+        "word": "стрелка",
+        "part_of_speech": "阴",
+        "meaning_zh": "箭头；指针",
+        "source_page": 292,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стрелка",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=292"
+      ]
+    },
+    {
+      "id": 10369,
+      "accent": "стреля́ть",
+      "part": "动词·未完成体",
+      "meaning": "射击；开枪；开炮；射杀",
+      "perfective": "стрельну́ть",
+      "note": "所列完成体为射击一下；不把它用于所有持续射击或射杀结果。",
+      "stage": 2,
+      "original": {
+        "word": "стрелять",
+        "part_of_speech": "未",
+        "meaning_zh": "射击；开枪；向目标射击",
+        "source_page": 292,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "стрелять",
+      "method": "2026-09-19当前助手逐词视觉核对PDF288至292页，区分同形动词体对、跨页义及来源误释。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=292"
+      ]
+    }
+  ]
+}
