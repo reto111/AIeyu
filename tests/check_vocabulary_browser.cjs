@@ -36,12 +36,22 @@ async function main() {
   await page.locator('#authSubmit').click();
   await page.waitForURL(url + '/');
   await page.locator('[data-view="words"]').click();
+  for (const width of [1440,390]) {
+    await page.setViewportSize({width, height: 950});
+    await page.screenshot({path:path.join(out,`words-empty-${width}.png`),fullPage:true});
+    await page.locator('#openProductFeedbackBtn').click();
+    await page.locator('dialog[open]').waitFor();
+    await page.screenshot({path:path.join(out,`feedback-${width}.png`),fullPage:true});
+    await page.keyboard.press('Escape');
+    assert.equal(await page.locator('dialog[open]').count(), 0);
+  }
   await page.locator('#generalStageStatus').filter({hasText:'大一'}).waitFor();
   assert.equal(await page.locator('#generalStageInput').inputValue(), '1');
   await page.locator('#wordCountInput').fill('50');
   await page.locator('#startWordsBtn').click();
   await page.locator('#wordCard').waitFor();
   assert.equal(await page.locator('#wordMeaning').isVisible(), false);
+  await page.screenshot({path:path.join(out,'words-question-mobile.png'),fullPage:true});
   await page.locator('[data-word-result="fuzzy"]').click();
   await page.locator('#wordMeaning').waitFor();
   await page.locator('#nextWordBtn').click();
