@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10506,
+      "accent": "торопи́ться",
+      "part": "动词·未完成体",
+      "meaning": "赶快；急忙做；赶路",
+      "perfective": "поторопи́ться",
+      "note": "与及物торопить催促某人区别。",
+      "stage": 2,
+      "original": {
+        "word": "торопиться",
+        "part_of_speech": "未",
+        "meaning_zh": "赶快；急着做；赶路",
+        "source_page": 305,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "торопиться",
+      "method": "2026-09-20当前助手逐词视觉核对PDF305至307页对应20条；区分词头核心义和短语义，标注重音、词性、体及学习阶段。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=305"
+      ]
+    },
+    {
+      "id": 10507,
+      "accent": "торопли́вый",
+      "part": "形容词",
+      "meaning": "性急的；匆忙的；急促的；仓促的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "торопливый",
+        "part_of_speech": "形",
+        "meaning_zh": "性急的；急促的；匆忙的",
+        "source_page": 305,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "торопливый",
+      "method": "2026-09-20当前助手逐词视觉核对PDF305至307页对应20条；区分词头核心义和短语义，标注重音、词性、体及学习阶段。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=305"
+      ]
+    },
+    {
+      "id": 10508,
+      "accent": "торча́ть",
+      "part": "动词·未完成体",
+      "meaning": "突出；露出；耸立；长时间逗留",
+      "perfective": "",
+      "note": "长久待在某处为口语用法，不强行配统一完成体。",
+      "stage": 2,
+      "original": {
+        "word": "торчать",
+        "part_of_speech": "未",
+        "meaning_zh": "耸立；露出；老是逗留",
+        "source_page": 305,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "торчать",
+      "method": "2026-09-20当前助手逐词视觉核对PDF305至307页对应20条；区分词头核心义和短语义，标注重音、词性、体及学习阶段。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=305"
+      ]
+    },
+    {
+      "id": 10509,
+      "accent": "тоска́",
+      "part": "名词·阴性",
+      "meaning": "忧愁；苦闷；惆怅；思念",
+      "perfective": "",
+      "note": "тоска по родине为思乡，不能把思念义理解为一般思考。",
+      "stage": 2,
+      "original": {
+        "word": "тоска",
+        "part_of_speech": "阴",
+        "meaning_zh": "忧愁；苦闷；思念",
+        "source_page": 305,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тоска",
+      "method": "2026-09-20当前助手逐词视觉核对PDF305至307页对应20条；区分词头核心义和短语义，标注重音、词性、体及学习阶段。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=305"
+      ]
+    },
+    {
+      "id": 10510,
+      "accent": "тост",
+      "part": "名词·阳性",
+      "meaning": "祝酒词；祝酒",
+      "perfective": "",
+      "note": "произнести тост为致祝酒词；本页不是把命令式干杯作为名词直译。",
+      "stage": 2,
+      "original": {
+        "word": "тост",
+        "part_of_speech": "阳",
+        "meaning_zh": "祝酒词；祝酒；干杯",
+        "source_page": 305,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тост",
+      "method": "2026-09-20当前助手逐词视觉核对PDF305至307页对应20条；区分词头核心义和短语义，标注重音、词性、体及学习阶段。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=305"
+      ]
+    },
+    {
+      "id": 10511,
+      "accent": "тот",
+      "part": "指示代词",
+      "meaning": "那；那个；那一种",
+      "perfective": "",
+      "note": "已核跨页；в тот раз为那次，тот же为同一个，中性то也可指那件事。",
+      "stage": 1,
+      "original": {
+        "word": "тот",
+        "part_of_speech": "代",
+        "meaning_zh": "那；那个；那次；那种",
+        "source_page": 305,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тот",
+      "method": "2026-09-20当前助手逐词视觉核对PDF305至307页对应20条；区分词头核心义和短语义，标注重音、词性、体及学习阶段。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=305",
+        "data/words/tem4_russian_words.pdf#page=306"
+      ]
+    },
+    {
+      "id": 10512,
+      "accent": "то́тчас",
+      "part": "副词",
+      "meaning": "立刻；马上",
+      "perfective": "",
+      "note": "重音在第一音节。",
+      "stage": 2,
+      "original": {
+        "word": "тотчас",
+        "part_of_speech": "副",
+        "meaning_zh": "立刻；马上",
+        "source_page": 306,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тотчас",
+      "method": "2026-09-20当前助手逐词视觉核对PDF305至307页对应20条；区分词头核心义和短语义，标注重音、词性、体及学习阶段。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=306"
+      ]
+    },
+    {
+      "id": 10513,
+      "accent": "то́чка",
+      "part": "名词·阴性",
+      "meaning": "点；圆点；句号；地点；站点",
+      "perfective": "",
+      "note": "观点是точка зрения整体义，不把зрения省略后仍译为观点。",
+      "stage": 1,
+      "original": {
+        "word": "точка",
+        "part_of_speech": "阴",
+        "meaning_zh": "点；句号；地点；站；观点",
+        "source_page": 306,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "точка",
+      "method": "2026-09-20当前助手逐词视觉核对PDF305至307页对应20条；区分词头核心义和短语义，标注重音、词性、体及学习阶段。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=306"
+      ]
+    },
+    {
+      "id": 10514,
+      "accent": "то́чно",
+      "part": "副词；语气词",
+      "meaning": "准确地；恰好；正是；完全正确；的确；好像",
+      "perfective": "",
+      "note": "原页分列точно的不同用法；好像为比较语气，注意句法语境。",
+      "stage": 2,
+      "original": {
+        "word": "точно",
+        "part_of_speech": "副",
+        "meaning_zh": "准确地；恰好；正是；完全正确；的确；好像",
+        "source_page": 306,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "точно",
+      "method": "2026-09-20当前助手逐词视觉核对PDF305至307页对应20条；区分词头核心义和短语义，标注重音、词性、体及学习阶段。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=306"
+      ]
+    },
+    {
+      "id": 10515,
+      "accent": "то́чный",
+      "part": "形容词",
+      "meaning": "准确的；精确的；精密的；一丝不苟的；守时的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "точный",
+        "part_of_speech": "形",
+        "meaning_zh": "正确的；精确的；精密的；守时的",
+        "source_page": 306,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "точный",
+      "method": "2026-09-20当前助手逐词视觉核对PDF305至307页对应20条；区分词头核心义和短语义，标注重音、词性、体及学习阶段。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=306"
+      ]
+    },
+    {
+      "id": 10516,
+      "accent": "тошни́ть",
+      "part": "动词·未完成体·无人称",
+      "meaning": "恶心；反胃",
+      "perfective": "",
+      "note": "кого тошнит中感受者用第四格；不泛译成主动使人讨厌。",
+      "stage": 2,
+      "original": {
+        "word": "тошнить",
+        "part_of_speech": "未，无人称",
+        "meaning_zh": "恶心；反胃",
+        "source_page": 306,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тошнить",
+      "method": "2026-09-20当前助手逐词视觉核对PDF305至307页对应20条；区分词头核心义和短语义，标注重音、词性、体及学习阶段。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=306"
+      ]
+    },
+    {
+      "id": 10517,
+      "accent": "трава́",
+      "part": "名词·阴性",
+      "meaning": "草；草本植物；草地",
+      "perfective": "",
+      "note": "药草为лекарственные травы，不把所有草都译成药草。",
+      "stage": 1,
+      "original": {
+        "word": "трава",
+        "part_of_speech": "阴",
+        "meaning_zh": "草；草地；药草",
+        "source_page": 306,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "трава",
+      "method": "2026-09-20当前助手逐词视觉核对PDF305至307页对应20条；区分词头核心义和短语义，标注重音、词性、体及学习阶段。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=306"
+      ]
+    },
+    {
+      "id": 10518,
+      "accent": "траге́дия",
+      "part": "名词·阴性",
+      "meaning": "悲剧；悲惨事件",
+      "perfective": "",
+      "note": "包括戏剧体裁与现实中的不幸事件。",
+      "stage": 2,
+      "original": {
+        "word": "трагедия",
+        "part_of_speech": "阴",
+        "meaning_zh": "悲剧；悲惨的事",
+        "source_page": 307,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "трагедия",
+      "method": "2026-09-20当前助手逐词视觉核对PDF305至307页对应20条；区分词头核心义和短语义，标注重音、词性、体及学习阶段。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=307"
+      ]
+    },
+    {
+      "id": 10519,
+      "accent": "тради́ция",
+      "part": "名词·阴性",
+      "meaning": "传统；习俗；惯例",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "традиция",
+        "part_of_speech": "阴",
+        "meaning_zh": "传统；惯例；习俗",
+        "source_page": 307,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "традиция",
+      "method": "2026-09-20当前助手逐词视觉核对PDF305至307页对应20条；区分词头核心义和短语义，标注重音、词性、体及学习阶段。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=307"
+      ]
+    },
+    {
+      "id": 10520,
+      "accent": "тра́ктор",
+      "part": "名词·阳性",
+      "meaning": "拖拉机",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "трактор",
+        "part_of_speech": "阳",
+        "meaning_zh": "拖拉机",
+        "source_page": 307,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "трактор",
+      "method": "2026-09-20当前助手逐词视觉核对PDF305至307页对应20条；区分词头核心义和短语义，标注重音、词性、体及学习阶段。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=307"
+      ]
+    },
+    {
+      "id": 10521,
+      "accent": "трамва́й",
+      "part": "名词·阳性",
+      "meaning": "有轨电车",
+      "perfective": "",
+      "note": "与无轨电车троллейбус区别。",
+      "stage": 1,
+      "original": {
+        "word": "трамвай",
+        "part_of_speech": "阳",
+        "meaning_zh": "有轨电车",
+        "source_page": 307,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "трамвай",
+      "method": "2026-09-20当前助手逐词视觉核对PDF305至307页对应20条；区分词头核心义和短语义，标注重音、词性、体及学习阶段。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=307"
+      ]
+    },
+    {
+      "id": 10522,
+      "accent": "тра́нспорт",
+      "part": "名词·阳性",
+      "meaning": "运输；交通；运输工具；交通工具",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "транспорт",
+        "part_of_speech": "阳",
+        "meaning_zh": "运输；交通；交通工具",
+        "source_page": 307,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "транспорт",
+      "method": "2026-09-20当前助手逐词视觉核对PDF305至307页对应20条；区分词头核心义和短语义，标注重音、词性、体及学习阶段。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=307"
+      ]
+    },
+    {
+      "id": 10523,
+      "accent": "тре́бование",
+      "part": "名词·中性",
+      "meaning": "要求；规定；需求",
+      "perfective": "",
+      "note": "规定义多见复数；原页中性标记已核，不让词性进入释义。",
+      "stage": 2,
+      "original": {
+        "word": "требование",
+        "part_of_speech": "中",
+        "meaning_zh": "要求；规定；规则；需求",
+        "source_page": 307,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "требование",
+      "method": "2026-09-20当前助手逐词视觉核对PDF305至307页对应20条；区分词头核心义和短语义，标注重音、词性、体及学习阶段。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=307"
+      ]
+    },
+    {
+      "id": 10524,
+      "accent": "тре́бовать",
+      "part": "动词·未完成体",
+      "meaning": "要求；索要；需要；召唤",
+      "perfective": "потре́бовать",
+      "note": "需要、必须具备义未必表达一次提出要求，需按语境选体。",
+      "stage": 2,
+      "original": {
+        "word": "требовать",
+        "part_of_speech": "未",
+        "meaning_zh": "要求；需要；索要",
+        "source_page": 307,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "требовать",
+      "method": "2026-09-20当前助手逐词视觉核对PDF305至307页对应20条；区分词头核心义和短语义，标注重音、词性、体及学习阶段。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=307"
+      ]
+    },
+    {
+      "id": 10525,
+      "accent": "тре́боваться",
+      "part": "动词·未完成体",
+      "meaning": "需要；有必要；被要求",
+      "perfective": "потре́боваться",
+      "note": "某人需要某物常用кому требуется что，与требовать的主动要求结构区别。",
+      "stage": 2,
+      "original": {
+        "word": "требоваться",
+        "part_of_speech": "未，无人称",
+        "meaning_zh": "需要；要求",
+        "source_page": 307,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "требоваться",
+      "method": "2026-09-20当前助手逐词视觉核对PDF305至307页对应20条；区分词头核心义和短语义，标注重音、词性、体及学习阶段。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=307"
+      ]
+    }
+  ]
+}

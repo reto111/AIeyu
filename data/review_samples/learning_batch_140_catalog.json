@@ -1,0 +1,672 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10476,
+      "accent": "тип",
+      "part": "名词·阳性",
+      "meaning": "类型；式样；典型；家伙",
+      "perfective": "",
+      "note": "家伙义通常含不赞许；不与普通的人完全等同。",
+      "stage": 2,
+      "original": {
+        "word": "тип",
+        "part_of_speech": "阳",
+        "meaning_zh": "类型；式样；典型；家伙",
+        "source_page": 302,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тип",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=302"
+      ]
+    },
+    {
+      "id": 10477,
+      "accent": "типи́чный",
+      "part": "形容词",
+      "meaning": "典型的；有代表性的；常见的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "типичный",
+        "part_of_speech": "形",
+        "meaning_zh": "典型的；有代表性的",
+        "source_page": 302,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "типичный",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=302"
+      ]
+    },
+    {
+      "id": 10478,
+      "accent": "типогра́фия",
+      "part": "名词·阴性",
+      "meaning": "印刷厂",
+      "perfective": "",
+      "note": "本条原页指印刷机构；不将印刷行业与该机构无区别合并。",
+      "stage": 2,
+      "original": {
+        "word": "типография",
+        "part_of_speech": "阴",
+        "meaning_zh": "印刷厂；排印业",
+        "source_page": 302,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "типография",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=302"
+      ]
+    },
+    {
+      "id": 10479,
+      "accent": "тира́ж",
+      "part": "名词·阳性",
+      "meaning": "印数；发行量",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "тираж",
+        "part_of_speech": "阳",
+        "meaning_zh": "印数；发行量；印刷数量",
+        "source_page": 303,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тираж",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=303"
+      ]
+    },
+    {
+      "id": 10480,
+      "accent": "ти́хий",
+      "part": "形容词",
+      "meaning": "声音低的；安静的；平静的；文静的；温和的",
+      "perfective": "",
+      "note": "声音轻而非重量轻；风平浪静依具体搭配理解。",
+      "stage": 1,
+      "original": {
+        "word": "тихий",
+        "part_of_speech": "形",
+        "meaning_zh": "轻的；低声的；安静的；平静的；文静的",
+        "source_page": 303,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тихий",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=303"
+      ]
+    },
+    {
+      "id": 10481,
+      "accent": "тишина́",
+      "part": "名词·阴性",
+      "meaning": "安静；寂静；平静；安定",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "тишина",
+        "part_of_speech": "阴",
+        "meaning_zh": "安静；寂静；平静；安定",
+        "source_page": 303,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тишина",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=303"
+      ]
+    },
+    {
+      "id": 10482,
+      "accent": "ткань",
+      "part": "名词·阴性",
+      "meaning": "织物；布料；生物组织",
+      "perfective": "",
+      "note": "组织义指肌肉等生物组织，不是机构或组织活动。",
+      "stage": 2,
+      "original": {
+        "word": "ткань",
+        "part_of_speech": "阴",
+        "meaning_zh": "织物；布；组织",
+        "source_page": 303,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ткань",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=303"
+      ]
+    },
+    {
+      "id": 10483,
+      "accent": "то",
+      "part": "连词",
+      "meaning": "那么；那就；时而……时而……",
+      "perfective": "",
+      "note": "если..., то...为条件结果；то..., то...为交替。此来源为连词，不混入тот的中性代词形式。",
+      "stage": 1,
+      "original": {
+        "word": "то",
+        "part_of_speech": "连",
+        "meaning_zh": "那么就；时而……时而……",
+        "source_page": 303,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "то",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=303"
+      ]
+    },
+    {
+      "id": 10484,
+      "accent": "това́р",
+      "part": "名词·阳性",
+      "meaning": "商品；货物",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "товар",
+        "part_of_speech": "阳",
+        "meaning_zh": "货物；商品",
+        "source_page": 303,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "товар",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=303"
+      ]
+    },
+    {
+      "id": 10485,
+      "accent": "това́рищ",
+      "part": "名词·阳性",
+      "meaning": "同志；伙伴；同伴；同事",
+      "perfective": "",
+      "note": "同学见товарищ по школе等具体关系搭配。",
+      "stage": 1,
+      "original": {
+        "word": "товарищ",
+        "part_of_speech": "阳",
+        "meaning_zh": "同志；同事；同学；伙伴",
+        "source_page": 303,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "товарищ",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=303"
+      ]
+    },
+    {
+      "id": 10486,
+      "accent": "тогда́",
+      "part": "副词",
+      "meaning": "那时；当时；那么；那就",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "тогда",
+        "part_of_speech": "副",
+        "meaning_zh": "当时；那时候；那么；那就",
+        "source_page": 303,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тогда",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=303"
+      ]
+    },
+    {
+      "id": 10487,
+      "accent": "то́же",
+      "part": "副词",
+      "meaning": "也；同样",
+      "perfective": "",
+      "note": "与то же分写结构有区别，不按字面拆为同一条。",
+      "stage": 1,
+      "original": {
+        "word": "тоже",
+        "part_of_speech": "副",
+        "meaning_zh": "也；也是",
+        "source_page": 303,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тоже",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=303"
+      ]
+    },
+    {
+      "id": 10488,
+      "accent": "ток",
+      "part": "名词·阳性",
+      "meaning": "电流；流动",
+      "perfective": "",
+      "note": "电流强度为сила тока，不把带修饰语的物理量直接当作电流同义词。",
+      "stage": 2,
+      "original": {
+        "word": "ток",
+        "part_of_speech": "阳",
+        "meaning_zh": "电流；电流强度",
+        "source_page": 303,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ток",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=303"
+      ]
+    },
+    {
+      "id": 10489,
+      "accent": "толк",
+      "part": "名词·阳性",
+      "meaning": "道理；意义；用处；成效；谈论；议论",
+      "perfective": "",
+      "note": "пустые толки为闲谈；понимать толк в чём表示内行。",
+      "stage": 2,
+      "original": {
+        "word": "толк",
+        "part_of_speech": "阳",
+        "meaning_zh": "意义；用处；好处；道理",
+        "source_page": 303,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "толк",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=303"
+      ]
+    },
+    {
+      "id": 10490,
+      "accent": "толка́ть",
+      "part": "动词·未完成体",
+      "meaning": "推；碰撞；推动；促使",
+      "perfective": "толкну́ть",
+      "note": "толкнуть通常表示推一下的单次动作，推动发展等义不统一套用单次体。",
+      "stage": 2,
+      "original": {
+        "word": "толкать",
+        "part_of_speech": "未",
+        "meaning_zh": "推；撞；推动",
+        "source_page": 304,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "толкать",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=304"
+      ]
+    },
+    {
+      "id": 10491,
+      "accent": "толпа́",
+      "part": "名词·阴性",
+      "meaning": "人群；一群人",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "толпа",
+        "part_of_speech": "阴",
+        "meaning_zh": "人群；一群人",
+        "source_page": 304,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "толпа",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=304"
+      ]
+    },
+    {
+      "id": 10492,
+      "accent": "то́лстый",
+      "part": "形容词",
+      "meaning": "粗的；厚的；胖的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "толстый",
+        "part_of_speech": "形",
+        "meaning_zh": "粗的；厚的；胖的",
+        "source_page": 304,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "толстый",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=304"
+      ]
+    },
+    {
+      "id": 10493,
+      "accent": "то́лько",
+      "part": "语气词；连词；副词",
+      "meaning": "只；仅仅；只有；只是；不过；刚刚",
+      "perfective": "",
+      "note": "только бы表示愿望，但愿；только...就...可表示一发生便接另一动作，需结合完整句式。",
+      "stage": 1,
+      "original": {
+        "word": "только",
+        "part_of_speech": "副",
+        "meaning_zh": "只；仅仅；只有；只是；不过",
+        "source_page": 304,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "только",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=304"
+      ]
+    },
+    {
+      "id": 10495,
+      "accent": "том",
+      "part": "名词·阳性",
+      "meaning": "卷；册",
+      "perfective": "",
+      "note": "指书籍卷册，不混入тот的变格形式。",
+      "stage": 2,
+      "original": {
+        "word": "том",
+        "part_of_speech": "阳",
+        "meaning_zh": "卷；册；部",
+        "source_page": 304,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "том",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=304"
+      ]
+    },
+    {
+      "id": 10496,
+      "accent": "тон",
+      "part": "名词·阳性",
+      "meaning": "音调；声调；语调；语气；色调",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "тон",
+        "part_of_speech": "阳",
+        "meaning_zh": "音调；声调；语气；色调",
+        "source_page": 304,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тон",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=304"
+      ]
+    },
+    {
+      "id": 10497,
+      "accent": "то́нкий",
+      "part": "形容词",
+      "meaning": "薄的；细的；尖细的；精细的；精美的；敏锐的",
+      "perfective": "",
+      "note": "声音、工艺与感官语境区分，不能只理解为厚薄。",
+      "stage": 2,
+      "original": {
+        "word": "тонкий",
+        "part_of_speech": "形",
+        "meaning_zh": "薄的；细的；尖细的；精细的；敏锐的",
+        "source_page": 304,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тонкий",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=304"
+      ]
+    },
+    {
+      "id": 10498,
+      "accent": "то́нна",
+      "part": "名词·阴性",
+      "meaning": "吨",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "тонна",
+        "part_of_speech": "阴",
+        "meaning_zh": "吨",
+        "source_page": 304,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тонна",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=304"
+      ]
+    },
+    {
+      "id": 10499,
+      "accent": "тону́ть",
+      "part": "动词·未完成体",
+      "meaning": "下沉；沉没；溺水；陷入；隐没",
+      "perfective": "утону́ть",
+      "note": "陷入积雪、房屋隐没于绿荫属于不同语境；核心为不及物沉没，与топить使沉没区别。",
+      "stage": 2,
+      "original": {
+        "word": "тонуть",
+        "part_of_speech": "未",
+        "meaning_zh": "下沉；沉没；陷入；隐没",
+        "source_page": 304,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тонуть",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=304"
+      ]
+    },
+    {
+      "id": 10500,
+      "accent": "топи́ть",
+      "part": "动词·未完成体",
+      "meaning": "使沉没；击沉；淹没；使淹死",
+      "perfective": "утопи́ть",
+      "note": "本条为原页топить²使沉没；不混入另一个同形词топить¹烧炉取暖的体对。",
+      "stage": 2,
+      "original": {
+        "word": "топить",
+        "part_of_speech": "未",
+        "meaning_zh": "使沉没；击沉；淹死",
+        "source_page": 305,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "топить",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=305"
+      ]
+    },
+    {
+      "id": 10501,
+      "accent": "то́пливо",
+      "part": "名词·中性",
+      "meaning": "燃料",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "топливо",
+        "part_of_speech": "中",
+        "meaning_zh": "燃料",
+        "source_page": 305,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "топливо",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=305"
+      ]
+    },
+    {
+      "id": 10502,
+      "accent": "топо́р",
+      "part": "名词·阳性",
+      "meaning": "斧；斧头",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "топор",
+        "part_of_speech": "阳",
+        "meaning_zh": "斧子；斧头",
+        "source_page": 305,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "топор",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=305"
+      ]
+    },
+    {
+      "id": 10503,
+      "accent": "торго́вля",
+      "part": "名词·阴性",
+      "meaning": "商业；贸易；买卖",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "торговля",
+        "part_of_speech": "阴",
+        "meaning_zh": "商业；贸易",
+        "source_page": 305,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "торговля",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=305"
+      ]
+    },
+    {
+      "id": 10504,
+      "accent": "торго́вый",
+      "part": "形容词",
+      "meaning": "商业的；贸易的；营业的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "торговый",
+        "part_of_speech": "形",
+        "meaning_zh": "贸易的；商业的；营业的",
+        "source_page": 305,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "торговый",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=305"
+      ]
+    },
+    {
+      "id": 10505,
+      "accent": "торже́ственный",
+      "part": "形容词",
+      "meaning": "隆重的；庄严的；郑重的；庄重激昂的",
+      "perfective": "",
+      "note": "可形容庆典、宣誓或激昂歌声；不把庆祝活动误作形容词本义。",
+      "stage": 2,
+      "original": {
+        "word": "торжественный",
+        "part_of_speech": "形",
+        "meaning_zh": "隆重的；庄严的；庆祝的；激昂的",
+        "source_page": 305,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "торжественный",
+      "method": "2026-09-20当前助手逐词视觉核对PDF302至305页；核对重音、核心义及同形词范围。10494是только例句残片，另表归档，不作有效标注。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=305"
+      ]
+    }
+  ]
+}
