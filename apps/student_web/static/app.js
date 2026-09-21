@@ -153,7 +153,7 @@ async function translateCurrentSelection(allowAi = false) {
   const current = state.selectionTranslation;
   if (!current.text || !state.authenticated) return;
   const requestId = ++current.requestId;
-  $("#translatorBody").innerHTML = `<div class="translator-loading"><span class="loader"></span><span>${allowAi ? "正在进行语境翻译..." : "正在查询词库..."}</span></div>`;
+  $("#translatorBody").innerHTML = loadingMarkup(allowAi ? "AI 正在翻译，请稍候" : "正在查询词库，请稍候");
   window.requestAnimationFrame(placeSelectionTranslator);
   try {
     const exam = state.activeView === 'words' ? currentWordExam() : currentExam();
@@ -1203,12 +1203,17 @@ function selectedValues(name) {
   return Array.from(document.querySelectorAll(`input[name="${name}"]:checked`)).map((input) => input.value);
 }
 
+function loadingMarkup(message) {
+  return `<div class="ai-wait" role="status" aria-live="polite"><span class="loader" aria-hidden="true"></span><span>${escapeHtml(message)}</span></div>`;
+}
+
 function setSubmitLoading(isLoading) {
   const button = $("#quizForm button[type='submit']");
   button.disabled = isLoading;
+  $("#quizForm").setAttribute("aria-busy", String(isLoading));
   button.textContent = isLoading ? "批改中..." : "提交批改";
   if (isLoading) {
-    $("#answerHint").innerHTML = `<span class="loader"></span><span>正在批改中，讲解生成后会一起显示。</span>`;
+    $("#answerHint").innerHTML = loadingMarkup("正在批改并生成讲解，请稍候");
   }
 }
 
@@ -1462,7 +1467,7 @@ function renderQuiz(quiz) {
 
 async function submitQuiz(event) {
   event.preventDefault();
-  if (!state.quiz) return;
+  if (!state.quiz || $("#quizForm").getAttribute("aria-busy") === "true") return;
 
   const answers = state.quiz.questions.map((question) => {
     const selected = document.querySelector(`input[name="q${question.quiz_number}"]:checked`);
@@ -1476,9 +1481,9 @@ async function submitQuiz(event) {
   setSubmitLoading(true);
   applyQuestionExplanations([]);
   $("#resultBox").classList.add("muted");
-  $("#resultBox").textContent = "正在批改中...";
+  $("#resultBox").innerHTML = loadingMarkup("正在批改，请稍候");
   $("#threadBox").classList.add("muted");
-  $("#threadBox").textContent = "正在同步生成错题讲解...";
+  $("#threadBox").innerHTML = loadingMarkup("AI 正在整理讲解，请稍候");
   try {
     const sessionMode = state.quiz.mode === "diagnostic"
       ? "mock_exam"
@@ -1510,6 +1515,10 @@ async function submitQuiz(event) {
     $("#answerHint").textContent = "已批改";
   } catch (error) {
     $("#answerHint").textContent = error.message;
+    for (const id of ["resultBox", "threadBox"]) {
+      const box = $("#" + id);
+      if (box.querySelector(".ai-wait")) box.textContent = error.message;
+    }
   } finally {
     setSubmitLoading(false);
   }
@@ -1589,6 +1598,7 @@ function renderExplanation(explanation, error) {
 }
 
 async function sendFollowup() {
+  if ($("#followupBtn").disabled) return;
   const message = $("#followupText").value.trim();
   if (!state.latestThreadId) {
     $("#threadBox").textContent = "请先完成一次带错题解析的批改。";
@@ -1605,6 +1615,10 @@ async function sendFollowup() {
 
   $("#followupBtn").disabled = true;
   $("#followupBtn").textContent = "发送中...";
+  const wait = document.createElement("div");
+  wait.innerHTML = loadingMarkup("AI 正在思考，请稍候");
+  $("#threadBox").after(wait);
+  $("#followupBtn").setAttribute("aria-busy", "true");
   try {
     const payload = await requestJson("/api/followup", {
       method: "POST",
@@ -1620,6 +1634,8 @@ async function sendFollowup() {
   } catch (error) {
     $("#threadBox").textContent = error.message;
   } finally {
+    wait.remove();
+    $("#followupBtn").removeAttribute("aria-busy");
     $("#followupBtn").disabled = false;
     $("#followupBtn").textContent = "发送追问";
   }

@@ -8,6 +8,25 @@
 }
 
 body { letter-spacing: 0; }
+body { font-family: "Segoe UI", "Microsoft YaHei", Arial, sans-serif; }
+.pagearea { min-width: 0; }
+.topbar { border-bottom: 1px solid var(--line); }
+.topbar h2 { font-weight: 650; }
+.section-heading { padding-bottom: 12px; }
+.today-task { padding: 20px 0; }
+.task-index { border-radius: 4px; font-variant-numeric: tabular-nums; }
+.navbtn.active { box-shadow: inset 3px 0 var(--green); }
+.exam-tabs { gap: 4px; }
+.exam-tab { border-radius: 4px; }
+.question + .question { border-top: 1px solid var(--line); }
+.qhead .source { color: var(--muted); font-size: 12px; }
+.option { border-radius: 6px; }
+.question-explanation { border: 0; border-left: 3px solid var(--green); border-radius: 0; padding: 16px 20px; }
+.wrongbook-toolbar { border-radius: 0; box-shadow: none; }
+.ai-wait { display: flex; align-items: center; gap: 12px; padding: 14px 0; color: #3d5962; font-size: 14px; line-height: 1.6; }
+.ai-wait .loader { display: inline-block; flex: 0 0 20px; width: 20px; height: 20px; border-width: 2px; }
+.ai-wait > span:last-child { min-width: 0; overflow-wrap: anywhere; }
+.translator-body .ai-wait { padding: 10px 0; }
 .shell { grid-template-columns: 184px minmax(0, 1fr); gap: 32px; padding: 24px; }
 .sidebar { align-self: start; position: sticky; top: 24px; }
 .brand, .panel, .workspace { border: 0; border-radius: 0; box-shadow: none; }

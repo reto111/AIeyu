@@ -103,6 +103,41 @@ async function main() {
   assert.ok((await page.locator('#wordText').innerText()).length > 0);
   await page.waitForLoadState('networkidle');
   assert.deepEqual(errors, []);
+  await page.locator('[data-view="practice"]').click();
+  await page.evaluate(() => {
+    state.quiz = {questions: [], mode: 'random'};
+    document.querySelector('#quizForm').classList.remove('hidden');
+  });
+  let finishGrade;
+  const gradeGate = new Promise(resolve => { finishGrade = resolve; });
+  await page.route('**/api/grade', async route => {
+    await gradeGate;
+    await route.fulfill({status:503, contentType:'application/json', body:JSON.stringify({error:'测试：服务暂不可用'})});
+  });
+  await page.locator('#quizForm button[type="submit"]').click();
+  await page.locator('#resultBox .loader').waitFor();
+  assert.equal(await page.locator('#quizForm').getAttribute('aria-busy'), 'true');
+  await page.screenshot({path:path.join(out,'grading-wait-mobile.png'),fullPage:true});
+  finishGrade();
+  await page.waitForFunction(() => document.querySelector('#quizForm').getAttribute('aria-busy') === 'false');
+  assert.equal(await page.locator('#resultBox .loader, #threadBox .loader').count(), 0);
+  await page.evaluate(() => {state.latestThreadId = 1;});
+  await page.locator('#externalConsent').check();
+  await page.locator('#followupText').fill('请解释这个知识点');
+  let finishFollowup;
+  const followGate = new Promise(resolve => {finishFollowup = resolve;});
+  await page.route('**/api/followup', async route => {
+    await followGate;
+    await route.fulfill({contentType:'application/json', body:JSON.stringify({assistant_text:'测试回复'})});
+  });
+  await page.locator('#followupBtn').click();
+  await page.locator('#followupBtn[aria-busy="true"]').waitFor();
+  assert.ok(await page.locator('.ai-wait .loader').count() > 0);
+  finishFollowup();
+  await page.locator('#threadBox').filter({hasText:'测试回复'}).waitFor();
+  assert.equal(await page.locator('.ai-wait .loader').count(), 0);
+  assert.equal(await page.locator('#followupBtn').isEnabled(), true);
+  assert.deepEqual(errors, []);
   console.log(JSON.stringify({registration:true, grade:true, words:true, scopes:true, review:true,
     stage_saved:true, viewports:[1440,390,320], page_errors:errors, screenshots:out}));
 }

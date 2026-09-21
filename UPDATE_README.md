@@ -1,46 +1,61 @@
-# AIeyu 2026-09-06 服务器更新
+# AIeyu 2026-09-21 服务器更新
 
-本包用于已有 AIeyu 服务器。包含最新学生端视觉、俄语标识、全局提建议窗口及配套代码。不是首次部署包。
+适用于已有 Windows 服务器，不是首次部署包。包含最新界面、AI 等待转圈、统一分级背词、注册年级选择、6587 条审核标注及 20 条伪来源归档。412 条仍待标注；题库使用服务器现有数据。
 
-## 保留文件
+## 1. 停止与备份
 
-不要删除服务器文件夹，不要替换学生数据库。本包不包含以下文件，请保留服务器现有文件：
-
-- `C:\AIeyu\.env`
-- `C:\AIeyu\database\russian_ai_tutor.sqlite`
-
-本次没有新增题库内容，不需要运行历史题库/词库导入、修复脚本，也不需要运行 content_patch.py。
-
-## 更新步骤
-
-1. 在正在运行旧服务的终端按 Ctrl+C 停止服务。如果是后台服务，先按原有方式停止，避免新旧进程同时运行。
-2. 在 PowerShell 备份数据库：
+在旧服务窗口按 Ctrl+C。若由后台服务管理，请停止对应服务，不要结束所有 Python 进程。管理员 PowerShell：
 
 ```powershell
 cd C:\AIeyu
-Copy-Item .\database\russian_ai_tutor.sqlite (".\database\russian_ai_tutor_backup_" + (Get-Date -Format 'yyyyMMdd_HHmmss') + ".sqlite")
+$backup = "C:\AIeyu_backup_" + (Get-Date -Format 'yyyyMMdd_HHmmss')
+Copy-Item -LiteralPath C:\AIeyu -Destination $backup -Recurse
+Write-Host "备份位置：$backup"
 ```
 
-3. 将 ZIP 内的文件解压覆盖到 `C:\AIeyu`。ZIP 根目录直接是 apps、scripts 等目录，不要多套一层 AIeyu 文件夹。确认 `C:\AIeyu\apps\student_web\static\student-refinement.css` 存在。
-4. 在 PowerShell 启动：
+确认成功再覆盖。备份含密钥和学生资料，仅留服务器，不要公开。
+
+## 2. 解压覆盖
+
+上传 ZIP，解压到 `C:\AIeyu`，覆盖同名代码。ZIP 根目录直接有 apps、scripts 等，不要套第二层目录。**不要先删除原项目。**
+
+本包不含 `.env`、SQLite 数据库、原始 PDF 或学生数据。保留 `C:\AIeyu\.env` 和 `C:\AIeyu\database\russian_ai_tutor.sqlite`；旁边若有 `-wal`、`-shm` 文件也不要手工删除。
+
+## 3. 预检并导入审核标注
+
+使用原来运行服务的 Python 环境：
 
 ```powershell
 cd C:\AIeyu
-python .\scripts\serve_student_app.py --host 0.0.0.0 --port 8765
+python -m pip install -r .\requirements-web.txt
+python -X utf8 -B .\scripts\update_release.py
 ```
 
-保留这个服务窗口。如果缺少俄语词形依赖，再执行 `python -m pip install -r requirements-web.txt` 后重新启动。使用原来正常运行服务的 Python 环境。
+预检在数据库副本上执行全部标注与归档，并比较其他业务表。看到 `validated: true` 后执行：
 
-5. 在浏览器按 Ctrl+F5 强制刷新；手机重新加载页面。检查顶部的“提建议”、俄语标识，以及自己的学习记录仍在。
+```powershell
+python -X utf8 -B .\scripts\update_release.py --apply
+```
 
-另开 PowerShell 窗口可检查健康状态：
+按稳定来源键和原值匹配，不依赖服务器 ID 与本机一致。若出现来源缺失、原值变化或已有不同审核内容，停止更新并把完整报错发回；不要强制覆盖、替换数据库或重放历史批次。可恢复备份运行旧版。137旧草稿不能重放。
+
+## 4. 启动与检查
+
+```powershell
+cd C:\AIeyu
+python -X utf8 -B .\scripts\serve_student_app.py --host 0.0.0.0 --port 8765
+```
+
+保留窗口。另开 PowerShell：
 
 ```powershell
 Invoke-RestMethod http://127.0.0.1:8765/api/health
 ```
 
-需要检查完整业务时使用 `python -B scripts\check_mvp_readiness.py --base-url http://127.0.0.1:8765`。出现题库数量、质量等旧数据问题时保留报告，不要用本地数据库覆盖服务器。
+浏览器 Ctrl+F5，手机重新加载。检查原账号和学习记录、三种词库、重音及体对、AI 等待和提建议窗口。真实 AI 请求使用服务器原密钥，可能产生原有服务商费用。端口和安全组不用更改。
 
-## 范围说明
+## 5. 回退
 
-包内不包含 .env、SQLite 数据库、原始 PDF、本地依赖环境、缓存和学生个人数据。代码包包含历史工具，但不会自动执行。此次打包不代表已经部署或验证过服务器。
+停止新服务，将步骤1完整备份恢复到项目位置，保持代码和数据库为同一版本。不要只恢复其中一项；新版本目录先保留备用。备份后的新作答不会在旧备份中，恢复前确认是否已有学生使用新版。
+
+本包已本地验证，不代表已经部署或验证服务器。
