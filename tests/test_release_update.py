@@ -14,6 +14,21 @@ import import_vocabulary_learning as importer
 
 
 class ReleaseTests(unittest.TestCase):
+    def test_confirmed_old_typo_and_unknown_edit(self):
+        with tempfile.TemporaryDirectory() as folder:
+            db = Path(folder) / 'test.sqlite'
+            with closing(sqlite3.connect(ROOT / 'database/russian_ai_tutor.sqlite')) as source:
+                with closing(sqlite3.connect(db)) as target:
+                    source.backup(target)
+            with closing(sqlite3.connect(db)) as conn, conn:
+                conn.execute("UPDATE vocabulary_items SET meaning_zh='西珠牙的' WHERE id=5822")
+            self.assertEqual(release.repair_confirmed_baseline(db), 1)
+            self.assertEqual(release.repair_confirmed_baseline(db), 0)
+            with closing(sqlite3.connect(db)) as conn, conn:
+                conn.execute("UPDATE vocabulary_items SET meaning_zh='后续人工修正' WHERE id=5822")
+            with self.assertRaises(ValueError):
+                release.repair_confirmed_baseline(db)
+
     def test_import_repeat_and_conflict_preserve_data(self):
         catalog = ROOT / 'dist/vocabulary_release_catalog.json'
         if not catalog.exists():

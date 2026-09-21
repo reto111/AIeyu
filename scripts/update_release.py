@@ -4,12 +4,47 @@ import json
 import sqlite3
 import tempfile
 from contextlib import closing
+from datetime import datetime
 from pathlib import Path
 
 from archive_vocabulary_headers import archive
-from import_vocabulary_learning import apply_catalog, DEFAULT_DB, ROOT
+from import_vocabulary_learning import apply_catalog, locate, DEFAULT_DB, ROOT
 
 PATCH = ROOT / 'data/review_samples/vocabulary_release_catalog.json'
+
+
+def repair_confirmed_baseline(db):
+    """Only the exact server value confirmed by the user is eligible."""
+    with closing(sqlite3.connect(db)) as conn, conn:
+        rows = conn.execute('''SELECT v.id, v.meaning_zh FROM vocabulary_items v
+            JOIN exam_systems e ON e.id=v.exam_system_id
+            JOIN exam_levels l ON l.id=v.level_id
+            WHERE e.code='TEM8_RU' AND l.code='TEM8' AND v.word=?
+            AND v.part_of_speech IS NULL AND v.source_page=68 AND v.source_line='12'
+            AND v.review_status='approved' ''', ('испанский',)).fetchall()
+        if len(rows) != 1:
+            raise ValueError('испанский: source missing or ambiguous; no automatic correction')
+        word_id, meaning = rows[0]
+        if meaning == '西班牙的':
+            return 0
+        if meaning != '西珠牙的':
+            raise ValueError(f'испанский: unconfirmed meaning {meaning!r}; preserving it')
+        conn.execute('UPDATE vocabulary_items SET meaning_zh=?, updated_at=CURRENT_TIMESTAMP WHERE id=? AND meaning_zh=?',
+                     ('西班牙的', word_id, '西珠牙的'))
+        return 1
+
+
+def check_sources(db, patch):
+    conflicts = []
+    with closing(sqlite3.connect(db.resolve().as_uri() + '?mode=ro', uri=True)) as conn:
+        conn.row_factory = sqlite3.Row
+        for item in json.loads(patch.read_text(encoding='utf-8'))['records']:
+            try:
+                locate(conn, item)
+            except ValueError as error:
+                conflicts.append(str(error))
+    if conflicts:
+        raise ValueError('Source conflicts (no production changes):\n' + '\n'.join(conflicts))
 
 
 def update(db, patch, apply=False):
@@ -21,14 +56,26 @@ def update(db, patch, apply=False):
             with closing(sqlite3.connect(copy)) as target:
                 source.backup(target)
         before = snapshot(copy)
+        corrected = repair_confirmed_baseline(copy)
+        check_sources(copy, patch)
         preview = apply_catalog(copy, patch, True, Path(folder) / 'backups')
         archives = archive(copy, True, Path(folder) / 'backups')
         if snapshot(copy) != before:
             raise ValueError('Unexpected changes outside vocabulary annotations/archive status')
     if not apply:
         return dict(validated=True, new_annotations=preview['inserted'], existing_annotations=preview['skipped'],
-                    archives=archives.get('changed', 0), database_written=False)
+                    baseline_corrections=corrected, archives=archives.get('changed', 0), database_written=False)
+    # Preserve the original baseline before any compatibility repair.
+    directory = ROOT / 'data/processed/backups'
+    directory.mkdir(parents=True, exist_ok=True)
+    backup = directory / f'release_before_{datetime.now():%Y%m%d_%H%M%S_%f}.sqlite'
+    with closing(sqlite3.connect(db.resolve().as_uri() + '?mode=ro', uri=True)) as source:
+        with closing(sqlite3.connect(backup)) as target:
+            source.backup(target)
+    repair_confirmed_baseline(db)
     result = apply_catalog(db.resolve(), patch, True)
+    result['release_backup'] = str(backup)
+    result['baseline_corrections'] = corrected
     result['archives'] = archive(db.resolve(), True)
     return result
 
