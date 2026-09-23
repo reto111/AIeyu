@@ -1,0 +1,927 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10566,
+      "accent": "тяну́ться",
+      "part": "动词·未完成体",
+      "meaning": "伸长；伸展；延伸；持续；拖延",
+      "perfective": "потяну́ться",
+      "note": "完成体用于伸展或向某处伸去等语境，不统一覆盖绵延、持续义。",
+      "stage": 2,
+      "original": {
+        "word": "тянуться",
+        "part_of_speech": "未",
+        "meaning_zh": "伸长；延伸；持续；延长",
+        "source_page": 311,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тянуться",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=311"
+      ]
+    },
+    {
+      "id": 10567,
+      "accent": "убега́ть",
+      "part": "动词·未完成体",
+      "meaning": "跑开；跑走；逃跑；逃脱",
+      "perfective": "убежа́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "убегать",
+        "part_of_speech": "未",
+        "meaning_zh": "跑开；跑走；逃跑；逃脱",
+        "source_page": 311,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "убегать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=311"
+      ]
+    },
+    {
+      "id": 10568,
+      "accent": "убежда́ть",
+      "part": "动词·未完成体",
+      "meaning": "使相信；说服；劝服",
+      "perfective": "убеди́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "убеждать",
+        "part_of_speech": "未",
+        "meaning_zh": "使相信；说服；劝服",
+        "source_page": 311,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "убеждать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=311"
+      ]
+    },
+    {
+      "id": 10569,
+      "accent": "убива́ть",
+      "part": "动词·未完成体",
+      "meaning": "杀死；消灭；扼杀；消磨",
+      "perfective": "уби́ть",
+      "note": "убивать время为消磨时间。",
+      "stage": 2,
+      "original": {
+        "word": "убивать",
+        "part_of_speech": "未",
+        "meaning_zh": "杀死；消灭；扼杀；耗费",
+        "source_page": 311,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "убивать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=311"
+      ]
+    },
+    {
+      "id": 10570,
+      "accent": "убира́ть",
+      "part": "动词·未完成体",
+      "meaning": "拿走；收起；收拾；清扫；收获",
+      "perfective": "убра́ть",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "убирать",
+        "part_of_speech": "未",
+        "meaning_zh": "拿走；收拾；收获",
+        "source_page": 311,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "убирать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=311"
+      ]
+    },
+    {
+      "id": 10571,
+      "accent": "убо́рка",
+      "part": "名词·阴性",
+      "meaning": "收拾；清扫；收获",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "уборка",
+        "part_of_speech": "阴",
+        "meaning_zh": "收获；收拾；清扫",
+        "source_page": 311,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "уборка",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=311"
+      ]
+    },
+    {
+      "id": 10572,
+      "accent": "уважа́ть",
+      "part": "动词·未完成体",
+      "meaning": "尊敬；尊重；重视",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "уважать",
+        "part_of_speech": "未",
+        "meaning_zh": "尊敬；尊重",
+        "source_page": 312,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "уважать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=312"
+      ]
+    },
+    {
+      "id": 10573,
+      "accent": "уваже́ние",
+      "part": "名词·中性",
+      "meaning": "尊敬；尊重",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "уважение",
+        "part_of_speech": "中",
+        "meaning_zh": "尊敬；尊重",
+        "source_page": 312,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "уважение",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=312"
+      ]
+    },
+    {
+      "id": 10574,
+      "accent": "увели́чивать",
+      "part": "动词·未完成体",
+      "meaning": "增加；增大；增强；放大",
+      "perfective": "увели́чить",
+      "note": "及物动词，使某物增大。",
+      "stage": 2,
+      "original": {
+        "word": "увеличивать",
+        "part_of_speech": "未",
+        "meaning_zh": "增加；增大；增强；放大",
+        "source_page": 312,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "увеличивать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=312"
+      ]
+    },
+    {
+      "id": 10575,
+      "accent": "увели́чиваться",
+      "part": "动词·未完成体",
+      "meaning": "增加；增大；扩大；提高",
+      "perfective": "увели́читься",
+      "note": "不及物，事物自身数量或程度增加。",
+      "stage": 2,
+      "original": {
+        "word": "увеличиваться",
+        "part_of_speech": "未",
+        "meaning_zh": "增加；扩大；放大；提高",
+        "source_page": 312,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "увеличиваться",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=312"
+      ]
+    },
+    {
+      "id": 10576,
+      "accent": "уве́ренность",
+      "part": "名词·阴性",
+      "meaning": "信心；确信；坚定",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "уверенность",
+        "part_of_speech": "阴",
+        "meaning_zh": "信心；确信；坚定信念",
+        "source_page": 312,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "уверенность",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=312"
+      ]
+    },
+    {
+      "id": 10577,
+      "accent": "уве́ренный",
+      "part": "形容词",
+      "meaning": "确信的；有信心的；坚定的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "уверенный",
+        "part_of_speech": "形",
+        "meaning_zh": "确信的；有信心的；坚定的",
+        "source_page": 312,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "уверенный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=312"
+      ]
+    },
+    {
+      "id": 10578,
+      "accent": "увлека́ть",
+      "part": "动词·未完成体",
+      "meaning": "吸引；使入迷；带走；卷走",
+      "perfective": "увле́чь",
+      "note": "补原页水流带走船只的本义。",
+      "stage": 2,
+      "original": {
+        "word": "увлекать",
+        "part_of_speech": "未",
+        "meaning_zh": "吸引；使入迷；使热衷",
+        "source_page": 312,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "увлекать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=312"
+      ]
+    },
+    {
+      "id": 10579,
+      "accent": "увлека́ться",
+      "part": "动词·未完成体",
+      "meaning": "入迷；热衷；爱好；迷恋",
+      "perfective": "увле́чься",
+      "note": "кем-чем第五格表示迷恋的对象。",
+      "stage": 2,
+      "original": {
+        "word": "увлекаться",
+        "part_of_speech": "未",
+        "meaning_zh": "对……入迷；醉心于；爱好",
+        "source_page": 312,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "увлекаться",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=312"
+      ]
+    },
+    {
+      "id": 10580,
+      "accent": "увлече́ние",
+      "part": "名词·中性",
+      "meaning": "兴致；热情；兴趣；爱好；迷恋",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "увлечение",
+        "part_of_speech": "中",
+        "meaning_zh": "兴致；兴趣；爱好；迷恋",
+        "source_page": 312,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "увлечение",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=312"
+      ]
+    },
+    {
+      "id": 10581,
+      "accent": "уга́дывать",
+      "part": "动词·未完成体",
+      "meaning": "猜；猜中；猜到；推测",
+      "perfective": "угада́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "угадывать",
+        "part_of_speech": "未",
+        "meaning_zh": "猜到；猜中；猜测",
+        "source_page": 312,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "угадывать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=312"
+      ]
+    },
+    {
+      "id": 10582,
+      "accent": "угова́ривать",
+      "part": "动词·未完成体",
+      "meaning": "劝说；劝服",
+      "perfective": "уговори́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "уговаривать",
+        "part_of_speech": "未",
+        "meaning_zh": "劝说；说服",
+        "source_page": 312,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "уговаривать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=312"
+      ]
+    },
+    {
+      "id": 10583,
+      "accent": "уго́дно",
+      "part": "状态词；语气词",
+      "meaning": "愿意；想要；无论；随便",
+      "perfective": "",
+      "note": "кому угодно表达意愿；кто/где/сколько угодно表示任意对象、地点或数量。",
+      "stage": 2,
+      "original": {
+        "word": "угодно",
+        "part_of_speech": "副",
+        "meaning_zh": "想要；乐意；无论；不管",
+        "source_page": 312,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "угодно",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=312"
+      ]
+    },
+    {
+      "id": 10584,
+      "accent": "у́гол",
+      "part": "名词·阳性",
+      "meaning": "角；角度；角落；地方",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "угол",
+        "part_of_speech": "阳",
+        "meaning_zh": "角；角落；地区",
+        "source_page": 313,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "угол",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=313"
+      ]
+    },
+    {
+      "id": 10585,
+      "accent": "уголо́к",
+      "part": "名词·阳性",
+      "meaning": "小角落；一角；专用活动区",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "уголок",
+        "part_of_speech": "阳",
+        "meaning_zh": "角落；一角；专门活动区",
+        "source_page": 313,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "уголок",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=313"
+      ]
+    },
+    {
+      "id": 10586,
+      "accent": "у́голь",
+      "part": "名词·阳性",
+      "meaning": "煤；炭；木炭",
+      "perfective": "",
+      "note": "不是所有燃料的总称；白煤等比喻性搭配不能混入单词本义。",
+      "stage": 2,
+      "original": {
+        "word": "уголь",
+        "part_of_speech": "阳",
+        "meaning_zh": "煤；木炭；燃料",
+        "source_page": 313,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "уголь",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=313"
+      ]
+    },
+    {
+      "id": 10587,
+      "accent": "угоща́ть",
+      "part": "动词·未完成体",
+      "meaning": "请客；宴请；用食物招待",
+      "perfective": "угости́ть",
+      "note": "кого чем，请某人吃喝某物。",
+      "stage": 1,
+      "original": {
+        "word": "угощать",
+        "part_of_speech": "未",
+        "meaning_zh": "请……吃；用……招待",
+        "source_page": 313,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "угощать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=313"
+      ]
+    },
+    {
+      "id": 10588,
+      "accent": "угоща́ться",
+      "part": "动词·未完成体",
+      "meaning": "享用招待的食物；尽情吃喝",
+      "perfective": "угости́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "угощаться",
+        "part_of_speech": "未",
+        "meaning_zh": "吃；喝；享用招待的食物",
+        "source_page": 313,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "угощаться",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=313"
+      ]
+    },
+    {
+      "id": 10589,
+      "accent": "угрожа́ть",
+      "part": "动词·未完成体",
+      "meaning": "威胁；恐吓",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "угрожать",
+        "part_of_speech": "未",
+        "meaning_zh": "威吓；威胁",
+        "source_page": 313,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "угрожать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=313"
+      ]
+    },
+    {
+      "id": 10590,
+      "accent": "угро́за",
+      "part": "名词·阴性",
+      "meaning": "威胁；恐吓；危险",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "угроза",
+        "part_of_speech": "阴",
+        "meaning_zh": "威胁；危险",
+        "source_page": 313,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "угроза",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=313"
+      ]
+    },
+    {
+      "id": 10591,
+      "accent": "угрю́мый",
+      "part": "形容词",
+      "meaning": "阴郁的；阴沉的；闷闷不乐的；阴森的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "угрюмый",
+        "part_of_speech": "形",
+        "meaning_zh": "忧郁的；阴沉的；阴森的",
+        "source_page": 313,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "угрюмый",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=313"
+      ]
+    },
+    {
+      "id": 10592,
+      "accent": "удава́ться",
+      "part": "动词·未完成体",
+      "meaning": "成功；办成；顺利完成",
+      "perfective": "уда́ться",
+      "note": "кому удаётся加不定式，表示某人成功做成某事。",
+      "stage": 2,
+      "original": {
+        "word": "удаваться",
+        "part_of_speech": "未",
+        "meaning_zh": "成功；顺利进行；办成",
+        "source_page": 313,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "удаваться",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=313"
+      ]
+    },
+    {
+      "id": 10593,
+      "accent": "уда́р",
+      "part": "名词·阳性",
+      "meaning": "打击；撞击；敲击声；袭击；精神打击",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "удар",
+        "part_of_speech": "阳",
+        "meaning_zh": "打击；碰撞；袭击；精神上的打击",
+        "source_page": 313,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "удар",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=313"
+      ]
+    },
+    {
+      "id": 10594,
+      "accent": "ударя́ть",
+      "part": "动词·未完成体",
+      "meaning": "打；击；敲；碰撞",
+      "perfective": "уда́рить",
+      "note": "已核314页续义。",
+      "stage": 2,
+      "original": {
+        "word": "ударять",
+        "part_of_speech": "未",
+        "meaning_zh": "打；击；敲；碰撞",
+        "source_page": 313,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ударять",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=313",
+        "data/words/tem4_russian_words.pdf#page=314"
+      ]
+    },
+    {
+      "id": 10595,
+      "accent": "уда́ча",
+      "part": "名词·阴性",
+      "meaning": "好运；顺利；成功",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "удача",
+        "part_of_speech": "阴",
+        "meaning_zh": "顺利；成功；好运",
+        "source_page": 314,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "удача",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=314"
+      ]
+    },
+    {
+      "id": 10596,
+      "accent": "уда́чный",
+      "part": "形容词",
+      "meaning": "成功的；顺利的；恰当的；合适的",
+      "perfective": "",
+      "note": "不等同描述人常走运的удачливый。",
+      "stage": 2,
+      "original": {
+        "word": "удачный",
+        "part_of_speech": "形",
+        "meaning_zh": "顺利的；成功的；恰当的；合适的",
+        "source_page": 314,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "удачный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=314"
+      ]
+    },
+    {
+      "id": 10597,
+      "accent": "удиви́тельный",
+      "part": "形容词",
+      "meaning": "令人惊奇的；奇妙的；非凡的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "удивительный",
+        "part_of_speech": "形",
+        "meaning_zh": "令人吃惊的；奇妙的",
+        "source_page": 314,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "удивительный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=314"
+      ]
+    },
+    {
+      "id": 10598,
+      "accent": "удивле́ние",
+      "part": "名词·中性",
+      "meaning": "惊奇；惊讶",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "удивление",
+        "part_of_speech": "中",
+        "meaning_zh": "惊奇；惊讶",
+        "source_page": 314,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "удивление",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=314"
+      ]
+    },
+    {
+      "id": 10599,
+      "accent": "удивля́ть",
+      "part": "动词·未完成体",
+      "meaning": "使惊奇；使惊讶",
+      "perfective": "удиви́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "удивлять",
+        "part_of_speech": "未",
+        "meaning_zh": "使惊奇；使惊讶",
+        "source_page": 314,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "удивлять",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=314"
+      ]
+    },
+    {
+      "id": 10600,
+      "accent": "удивля́ться",
+      "part": "动词·未完成体",
+      "meaning": "感到惊奇；感到惊讶",
+      "perfective": "удиви́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "удивляться",
+        "part_of_speech": "未",
+        "meaning_zh": "觉得奇怪；感到惊讶",
+        "source_page": 314,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "удивляться",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=314"
+      ]
+    },
+    {
+      "id": 10601,
+      "accent": "уди́ть",
+      "part": "动词·未完成体",
+      "meaning": "钓；钓鱼",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "удить",
+        "part_of_speech": "未",
+        "meaning_zh": "钓鱼",
+        "source_page": 314,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "удить",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=314"
+      ]
+    },
+    {
+      "id": 10602,
+      "accent": "удо́бный",
+      "part": "形容词",
+      "meaning": "舒适的；方便的；合适的；得体的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "удобный",
+        "part_of_speech": "形",
+        "meaning_zh": "舒适的；方便的；合适的；得体的",
+        "source_page": 314,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "удобный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=314"
+      ]
+    },
+    {
+      "id": 10603,
+      "accent": "удовлетворя́ть",
+      "part": "动词·未完成体",
+      "meaning": "使满意；满足；符合",
+      "perfective": "удовлетвори́ть",
+      "note": "满足对象用第四格；符合要求可用第三格，如удовлетворять требованиям。",
+      "stage": 2,
+      "original": {
+        "word": "удовлетворять",
+        "part_of_speech": "未",
+        "meaning_zh": "满足；符合；满足要求",
+        "source_page": 314,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "удовлетворять",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=314"
+      ]
+    },
+    {
+      "id": 10604,
+      "accent": "удово́льствие",
+      "part": "名词·中性",
+      "meaning": "愉快；快乐；乐趣；令人愉快的事",
+      "perfective": "",
+      "note": "已核315页续义；不与满足需求的удовлетворение完全等同。",
+      "stage": 2,
+      "original": {
+        "word": "удовольствие",
+        "part_of_speech": "中",
+        "meaning_zh": "快乐；愉快；乐趣；满足",
+        "source_page": 314,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "удовольствие",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=314",
+        "data/words/tem4_russian_words.pdf#page=315"
+      ]
+    },
+    {
+      "id": 10605,
+      "accent": "уе́зд",
+      "part": "名词·阳性",
+      "meaning": "县；旧时的县级行政区",
+      "perfective": "",
+      "note": "郊县需具体修饰语，不是单独词头所含的郊区意义。",
+      "stage": 2,
+      "original": {
+        "word": "уезд",
+        "part_of_speech": "阳",
+        "meaning_zh": "县；郊县；行政区",
+        "source_page": 315,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "уезд",
+      "method": "2026-09-24当前助手逐词视觉核对PDF311至315页对应词头、重音、词性、体及中文核心义，检查跨页续义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=315"
+      ]
+    }
+  ]
+}

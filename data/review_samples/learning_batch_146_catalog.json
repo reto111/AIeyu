@@ -1,0 +1,926 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10690,
+      "accent": "уче́бный",
+      "part": "形容词",
+      "meaning": "学习的；教学的；用于教学的",
+      "perfective": "",
+      "note": "保留е；учебный год为学年。",
+      "stage": 1,
+      "original": {
+        "word": "учебный",
+        "part_of_speech": "形",
+        "meaning_zh": "学习的；教学的；教材的",
+        "source_page": 322,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "учебный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=322"
+      ]
+    },
+    {
+      "id": 10691,
+      "accent": "уче́ние",
+      "part": "名词·中性",
+      "meaning": "学习；训练；演习；学说；理论",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "учение",
+        "part_of_speech": "中",
+        "meaning_zh": "学习；训练；学说；理论",
+        "source_page": 323,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "учение",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=323"
+      ]
+    },
+    {
+      "id": 10692,
+      "accent": "учени́к",
+      "part": "名词·阳性",
+      "meaning": "学生；学徒；门生；弟子",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "ученик",
+        "part_of_speech": "阳",
+        "meaning_zh": "学生；学徒；门生",
+        "source_page": 323,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ученик",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=323"
+      ]
+    },
+    {
+      "id": 10693,
+      "accent": "учёный",
+      "part": "形容词；名词化用法",
+      "meaning": "有学问的；学术的；科学家；学者",
+      "perfective": "",
+      "note": "保留ё；作名词时指学者或科学家。",
+      "stage": 1,
+      "original": {
+        "word": "учёный",
+        "part_of_speech": "形",
+        "meaning_zh": "有学问的；学术的；科学家；学者",
+        "source_page": 323,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "учёный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=323"
+      ]
+    },
+    {
+      "id": 10694,
+      "accent": "учи́лище",
+      "part": "名词·中性",
+      "meaning": "学校；职业学校；专门学校",
+      "perfective": "",
+      "note": "通常指特定专业教育机构，不能一律等同大学。",
+      "stage": 2,
+      "original": {
+        "word": "училище",
+        "part_of_speech": "中",
+        "meaning_zh": "学校；专科学校",
+        "source_page": 323,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "училище",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=323"
+      ]
+    },
+    {
+      "id": 10696,
+      "accent": "учи́тывать",
+      "part": "动词·未完成体",
+      "meaning": "清点；统计；考虑到；顾及",
+      "perfective": "уче́сть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "учитывать",
+        "part_of_speech": "未",
+        "meaning_zh": "清点；统计；考虑到",
+        "source_page": 323,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "учитывать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=323"
+      ]
+    },
+    {
+      "id": 10699,
+      "accent": "учрежде́ние",
+      "part": "名词·中性",
+      "meaning": "设立；创立；机构；机关",
+      "perfective": "",
+      "note": "原页把中性误标为阳性，已纠正。",
+      "stage": 2,
+      "original": {
+        "word": "учреждение",
+        "part_of_speech": "中",
+        "meaning_zh": "成立；机关；机构",
+        "source_page": 323,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "учреждение",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=323"
+      ]
+    },
+    {
+      "id": 10700,
+      "accent": "ую́тный",
+      "part": "形容词",
+      "meaning": "舒适的；温馨的；宜人的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "уютный",
+        "part_of_speech": "形",
+        "meaning_zh": "舒适的；温馨的",
+        "source_page": 323,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "уютный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=323"
+      ]
+    },
+    {
+      "id": 10701,
+      "accent": "фа́брика",
+      "part": "名词·阴性",
+      "meaning": "工厂；制造厂",
+      "perfective": "",
+      "note": "常指轻工业工厂。",
+      "stage": 1,
+      "original": {
+        "word": "фабрика",
+        "part_of_speech": "阴",
+        "meaning_zh": "工厂；制造厂",
+        "source_page": 324,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "фабрика",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=324"
+      ]
+    },
+    {
+      "id": 10702,
+      "accent": "факт",
+      "part": "名词·阳性",
+      "meaning": "事实",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "факт",
+        "part_of_speech": "阳",
+        "meaning_zh": "事实",
+        "source_page": 324,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "факт",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=324"
+      ]
+    },
+    {
+      "id": 10703,
+      "accent": "факультати́вный",
+      "part": "形容词",
+      "meaning": "选修的；非必修的；可选择的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "факультативный",
+        "part_of_speech": "形",
+        "meaning_zh": "非必修的；选修的",
+        "source_page": 324,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "факультативный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=324"
+      ]
+    },
+    {
+      "id": 10704,
+      "accent": "факульте́т",
+      "part": "名词·阳性",
+      "meaning": "大学的系；学院",
+      "perfective": "",
+      "note": "具体组织层级随学校而异。",
+      "stage": 1,
+      "original": {
+        "word": "факультет",
+        "part_of_speech": "阳",
+        "meaning_zh": "系；学院；大学院系",
+        "source_page": 324,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "факультет",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=324"
+      ]
+    },
+    {
+      "id": 10705,
+      "accent": "фами́лия",
+      "part": "名词·阴性",
+      "meaning": "姓；姓氏",
+      "perfective": "",
+      "note": "不等同英语family的家庭义。",
+      "stage": 1,
+      "original": {
+        "word": "фамилия",
+        "part_of_speech": "阴",
+        "meaning_zh": "姓；姓氏",
+        "source_page": 324,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "фамилия",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=324"
+      ]
+    },
+    {
+      "id": 10706,
+      "accent": "фанта́зия",
+      "part": "名词·阴性",
+      "meaning": "想象；想象力；幻想；幻想曲",
+      "perfective": "",
+      "note": "音乐体裁义与一般想象义区分。",
+      "stage": 2,
+      "original": {
+        "word": "фантазия",
+        "part_of_speech": "阴",
+        "meaning_zh": "想象；幻想；想象力",
+        "source_page": 324,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "фантазия",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=324"
+      ]
+    },
+    {
+      "id": 10707,
+      "accent": "фаши́зм",
+      "part": "名词·阳性",
+      "meaning": "法西斯主义",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "фашизм",
+        "part_of_speech": "阳",
+        "meaning_zh": "法西斯主义",
+        "source_page": 324,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "фашизм",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=324"
+      ]
+    },
+    {
+      "id": 10708,
+      "accent": "фаши́ст",
+      "part": "名词·阳性",
+      "meaning": "法西斯主义者；法西斯分子",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "фашист",
+        "part_of_speech": "阳",
+        "meaning_zh": "法西斯分子；法西斯主义者",
+        "source_page": 324,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "фашист",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=324"
+      ]
+    },
+    {
+      "id": 10709,
+      "accent": "февра́ль",
+      "part": "名词·阳性",
+      "meaning": "二月",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "февраль",
+        "part_of_speech": "阳",
+        "meaning_zh": "二月",
+        "source_page": 324,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "февраль",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=324"
+      ]
+    },
+    {
+      "id": 10710,
+      "accent": "феодали́зм",
+      "part": "名词·阳性",
+      "meaning": "封建主义；封建制度",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "феодализм",
+        "part_of_speech": "阳",
+        "meaning_zh": "封建主义；封建制度",
+        "source_page": 324,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "феодализм",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=324"
+      ]
+    },
+    {
+      "id": 10711,
+      "accent": "фестива́ль",
+      "part": "名词·阳性",
+      "meaning": "艺术节；会演；联欢节",
+      "perfective": "",
+      "note": "电影节为фестиваль фильмов等具体类别，不泛指所有节日。",
+      "stage": 2,
+      "original": {
+        "word": "фестиваль",
+        "part_of_speech": "阳",
+        "meaning_zh": "节日；联欢节；电影节",
+        "source_page": 324,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "фестиваль",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=324"
+      ]
+    },
+    {
+      "id": 10712,
+      "accent": "фигу́ра",
+      "part": "名词·阴性",
+      "meaning": "身材；身形；形状；图形；人物；姿势；棋子；纸牌花牌",
+      "perfective": "",
+      "note": "补棋类、纸牌原义；不同领域不混译，大牌不指明星。",
+      "stage": 2,
+      "original": {
+        "word": "фигура",
+        "part_of_speech": "阴",
+        "meaning_zh": "身材；形状；人物；花样；大牌",
+        "source_page": 324,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "фигура",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=324"
+      ]
+    },
+    {
+      "id": 10713,
+      "accent": "фи́зик",
+      "part": "名词·阳性",
+      "meaning": "物理学家；物理专业人员",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "физик",
+        "part_of_speech": "阳",
+        "meaning_zh": "物理学家",
+        "source_page": 324,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "физик",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=324"
+      ]
+    },
+    {
+      "id": 10714,
+      "accent": "фи́зика",
+      "part": "名词·阴性",
+      "meaning": "物理学；物理课",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "физика",
+        "part_of_speech": "阴",
+        "meaning_zh": "物理学",
+        "source_page": 325,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "физика",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=325"
+      ]
+    },
+    {
+      "id": 10715,
+      "accent": "физи́ческий",
+      "part": "形容词",
+      "meaning": "物理的；物质的；身体的；体力的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "физический",
+        "part_of_speech": "形",
+        "meaning_zh": "物体的；物理的；体力的",
+        "source_page": 325,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "физический",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=325"
+      ]
+    },
+    {
+      "id": 10716,
+      "accent": "физкульту́ра",
+      "part": "名词·阴性",
+      "meaning": "体育；体育锻炼；体育课",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "физкультура",
+        "part_of_speech": "阴",
+        "meaning_zh": "体育；体育课",
+        "source_page": 325,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "физкультура",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=325"
+      ]
+    },
+    {
+      "id": 10717,
+      "accent": "фило́лог",
+      "part": "名词·阳性",
+      "meaning": "语文学家；语文专业人员；语文系学生",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "филолог",
+        "part_of_speech": "阳",
+        "meaning_zh": "语文学家；语文系学生",
+        "source_page": 325,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "филолог",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=325"
+      ]
+    },
+    {
+      "id": 10718,
+      "accent": "филосо́фия",
+      "part": "名词·阴性",
+      "meaning": "哲学",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "философия",
+        "part_of_speech": "阴",
+        "meaning_zh": "哲学",
+        "source_page": 325,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "философия",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=325"
+      ]
+    },
+    {
+      "id": 10719,
+      "accent": "фильм",
+      "part": "名词·阳性",
+      "meaning": "电影；影片",
+      "perfective": "",
+      "note": "胶片通常用плёнка；不把影片载体泛化为所有胶片。",
+      "stage": 1,
+      "original": {
+        "word": "фильм",
+        "part_of_speech": "阳",
+        "meaning_zh": "影片；电影；胶片",
+        "source_page": 325,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "фильм",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=325"
+      ]
+    },
+    {
+      "id": 10720,
+      "accent": "флаг",
+      "part": "名词·阳性",
+      "meaning": "旗；旗帜",
+      "perfective": "",
+      "note": "国旗需государственный флаг等限定，并非所有旗都是国旗。",
+      "stage": 1,
+      "original": {
+        "word": "флаг",
+        "part_of_speech": "阳",
+        "meaning_zh": "旗；旗帜；国旗",
+        "source_page": 325,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "флаг",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=325"
+      ]
+    },
+    {
+      "id": 10721,
+      "accent": "флот",
+      "part": "名词·阳性",
+      "meaning": "海军；舰队；船队",
+      "perfective": "",
+      "note": "航空义出现在воздушный флот等组合，不沿用空军舰队误释。",
+      "stage": 2,
+      "original": {
+        "word": "флот",
+        "part_of_speech": "阳",
+        "meaning_zh": "舰队；船队；空军舰队",
+        "source_page": 325,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "флот",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=325"
+      ]
+    },
+    {
+      "id": 10722,
+      "accent": "фона́рь",
+      "part": "名词·阳性",
+      "meaning": "灯笼；提灯；手电筒；路灯",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "фонарь",
+        "part_of_speech": "阳",
+        "meaning_zh": "提灯；灯笼；手电筒；路灯",
+        "source_page": 325,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "фонарь",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=325"
+      ]
+    },
+    {
+      "id": 10723,
+      "accent": "фонта́н",
+      "part": "名词·阳性",
+      "meaning": "喷泉；喷水池；喷出的液柱",
+      "perfective": "",
+      "note": "нефтяной фонтан指喷出的石油，不把油井本身作为通用单词义。",
+      "stage": 2,
+      "original": {
+        "word": "фонтан",
+        "part_of_speech": "阳",
+        "meaning_zh": "喷泉；喷水池；喷油井",
+        "source_page": 325,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "фонтан",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=325"
+      ]
+    },
+    {
+      "id": 10724,
+      "accent": "фо́рма",
+      "part": "名词·阴性",
+      "meaning": "形式；形状；外形；方式；制服；状态",
+      "perfective": "",
+      "note": "语法形式和身体状态等按语境理解。",
+      "stage": 2,
+      "original": {
+        "word": "форма",
+        "part_of_speech": "阴",
+        "meaning_zh": "形式；外形；方式；制服",
+        "source_page": 325,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "форма",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=325"
+      ]
+    },
+    {
+      "id": 10725,
+      "accent": "формирова́ться",
+      "part": "动词·未完成体",
+      "meaning": "形成；发展成形；成长；组建",
+      "perfective": "сформирова́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "формироваться",
+        "part_of_speech": "未",
+        "meaning_zh": "形成；成熟；发育成长",
+        "source_page": 325,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "формироваться",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=325"
+      ]
+    },
+    {
+      "id": 10726,
+      "accent": "фотоаппара́т",
+      "part": "名词·阳性",
+      "meaning": "照相机",
+      "perfective": "",
+      "note": "不泛指拍摄影片的摄影机。",
+      "stage": 1,
+      "original": {
+        "word": "фотоаппарат",
+        "part_of_speech": "阳",
+        "meaning_zh": "照相机；摄影机",
+        "source_page": 325,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "фотоаппарат",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=325"
+      ]
+    },
+    {
+      "id": 10727,
+      "accent": "фотографи́ровать",
+      "part": "动词·未完成体",
+      "meaning": "拍照；摄影",
+      "perfective": "сфотографи́ровать",
+      "note": "已核326页续文。",
+      "stage": 1,
+      "original": {
+        "word": "фотографировать",
+        "part_of_speech": "未",
+        "meaning_zh": "拍照；摄影",
+        "source_page": 325,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "фотографировать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=325",
+        "data/words/tem4_russian_words.pdf#page=326"
+      ]
+    },
+    {
+      "id": 10728,
+      "accent": "фотографи́роваться",
+      "part": "动词·未完成体",
+      "meaning": "照相；留影；被拍照",
+      "perfective": "сфотографи́роваться",
+      "note": "不一定是自己拿相机自拍，也可以请别人拍自己。",
+      "stage": 1,
+      "original": {
+        "word": "фотографироваться",
+        "part_of_speech": "未",
+        "meaning_zh": "照相；给自己拍照",
+        "source_page": 326,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "фотографироваться",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=326"
+      ]
+    },
+    {
+      "id": 10729,
+      "accent": "фотогра́фия",
+      "part": "名词·阴性",
+      "meaning": "照片；摄影；摄影术；照相馆",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "фотография",
+        "part_of_speech": "阴",
+        "meaning_zh": "照片；摄影；照相馆",
+        "source_page": 326,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "фотография",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=326"
+      ]
+    },
+    {
+      "id": 10730,
+      "accent": "францу́з",
+      "part": "名词·阳性",
+      "meaning": "法国人；法国男子",
+      "perfective": "",
+      "note": "阴性француженка。",
+      "stage": 1,
+      "original": {
+        "word": "француз",
+        "part_of_speech": "阳",
+        "meaning_zh": "法国人",
+        "source_page": 326,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "француз",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=326"
+      ]
+    },
+    {
+      "id": 10731,
+      "accent": "францу́зский",
+      "part": "形容词",
+      "meaning": "法国的；法国人的；法语的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "французский",
+        "part_of_speech": "形",
+        "meaning_zh": "法国的；法语的",
+        "source_page": 326,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "французский",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=326"
+      ]
+    },
+    {
+      "id": 10732,
+      "accent": "фру́кты",
+      "part": "名词·复数",
+      "meaning": "水果",
+      "perfective": "",
+      "note": "单数фрукт，不泛指所有植物果实。",
+      "stage": 1,
+      "original": {
+        "word": "фрукты",
+        "part_of_speech": "复",
+        "meaning_zh": "水果；果实",
+        "source_page": 326,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "фрукты",
+      "method": "2026-09-24当前助手逐词视觉核对PDF322至326页，检查重音、词性及中文核心义，纠正搭配义泛化和摄影反身义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=326"
+      ]
+    }
+  ]
+}

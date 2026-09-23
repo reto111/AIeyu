@@ -1,0 +1,926 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10648,
+      "accent": "урожа́й",
+      "part": "名词·阳性",
+      "meaning": "收成；收获量；收获物",
+      "perfective": "",
+      "note": "丰收通常为богатый урожай，单词不必然表示丰收。",
+      "stage": 2,
+      "original": {
+        "word": "урожай",
+        "part_of_speech": "阳",
+        "meaning_zh": "收成；收获；丰收",
+        "source_page": 319,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "урожай",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=319"
+      ]
+    },
+    {
+      "id": 10650,
+      "accent": "усва́ивать",
+      "part": "动词·未完成体",
+      "meaning": "掌握；领会；吸收；消化",
+      "perfective": "усво́ить",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "усваивать",
+        "part_of_speech": "未",
+        "meaning_zh": "掌握；领会；消化",
+        "source_page": 319,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "усваивать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=319"
+      ]
+    },
+    {
+      "id": 10651,
+      "accent": "уси́ливать",
+      "part": "动词·未完成体",
+      "meaning": "加强；增强；放大；加剧",
+      "perfective": "уси́лить",
+      "note": "及物。",
+      "stage": 2,
+      "original": {
+        "word": "усиливать",
+        "part_of_speech": "未",
+        "meaning_zh": "加强；放大；加深",
+        "source_page": 319,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "усиливать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=319"
+      ]
+    },
+    {
+      "id": 10652,
+      "accent": "уси́ливаться",
+      "part": "动词·未完成体",
+      "meaning": "增强；加强；加剧",
+      "perfective": "уси́литься",
+      "note": "不及物。",
+      "stage": 2,
+      "original": {
+        "word": "усиливаться",
+        "part_of_speech": "未",
+        "meaning_zh": "变强烈；加强；增强",
+        "source_page": 319,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "усиливаться",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=319"
+      ]
+    },
+    {
+      "id": 10653,
+      "accent": "уси́лие",
+      "part": "名词·中性",
+      "meaning": "努力；用力",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "усилие",
+        "part_of_speech": "中",
+        "meaning_zh": "努力；用力",
+        "source_page": 319,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "усилие",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=319"
+      ]
+    },
+    {
+      "id": 10654,
+      "accent": "ускоря́ть",
+      "part": "动词·未完成体",
+      "meaning": "加快；加速",
+      "perfective": "уско́рить",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "ускорять",
+        "part_of_speech": "未",
+        "meaning_zh": "加快；加速",
+        "source_page": 319,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ускорять",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=319"
+      ]
+    },
+    {
+      "id": 10655,
+      "accent": "усло́вие",
+      "part": "名词·中性",
+      "meaning": "条件；约定；条款；环境",
+      "perfective": "",
+      "note": "已核320页续义，复数常指环境条件。",
+      "stage": 2,
+      "original": {
+        "word": "условие",
+        "part_of_speech": "中",
+        "meaning_zh": "条件；条件要求；条款",
+        "source_page": 319,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "условие",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=319",
+        "data/words/tem4_russian_words.pdf#page=320"
+      ]
+    },
+    {
+      "id": 10656,
+      "accent": "услу́га",
+      "part": "名词·阴性",
+      "meaning": "服务；帮助；效劳",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "услуга",
+        "part_of_speech": "阴",
+        "meaning_zh": "服务；帮助；效劳",
+        "source_page": 320,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "услуга",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=320"
+      ]
+    },
+    {
+      "id": 10657,
+      "accent": "усмеха́ться",
+      "part": "动词·未完成体",
+      "meaning": "微微一笑；冷笑；带讥讽地笑",
+      "perfective": "усмехну́ться",
+      "note": "与中性的улыбаться区别，常含讥讽或怀疑意味。",
+      "stage": 2,
+      "original": {
+        "word": "усмехаться",
+        "part_of_speech": "未",
+        "meaning_zh": "微笑；冷笑",
+        "source_page": 320,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "усмехаться",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=320"
+      ]
+    },
+    {
+      "id": 10658,
+      "accent": "успева́емость",
+      "part": "名词·阴性",
+      "meaning": "学习成绩；学业表现",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "успеваемость",
+        "part_of_speech": "阴",
+        "meaning_zh": "学习成绩；成绩情况",
+        "source_page": 320,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "успеваемость",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=320"
+      ]
+    },
+    {
+      "id": 10659,
+      "accent": "успева́ть",
+      "part": "动词·未完成体",
+      "meaning": "来得及；赶得上；取得成绩；学业进展良好",
+      "perfective": "успе́ть",
+      "note": "学业表现义不一律套用一次赶上的完成体。",
+      "stage": 1,
+      "original": {
+        "word": "успевать",
+        "part_of_speech": "未",
+        "meaning_zh": "来得及；赶得上；取得成绩",
+        "source_page": 320,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "успевать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=320"
+      ]
+    },
+    {
+      "id": 10660,
+      "accent": "успе́х",
+      "part": "名词·阳性",
+      "meaning": "成功；成就；成绩；进步；好评",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "успех",
+        "part_of_speech": "阳",
+        "meaning_zh": "成绩；成就；成功；好评",
+        "source_page": 320,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "успех",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=320"
+      ]
+    },
+    {
+      "id": 10661,
+      "accent": "успе́шный",
+      "part": "形容词",
+      "meaning": "成功的；有成效的；顺利的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "успешный",
+        "part_of_speech": "形",
+        "meaning_zh": "成功的；有成绩的；顺利的",
+        "source_page": 320,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "успешный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=320"
+      ]
+    },
+    {
+      "id": 10662,
+      "accent": "успока́ивать",
+      "part": "动词·未完成体",
+      "meaning": "使平静；使安心；安慰；缓解",
+      "perfective": "успоко́ить",
+      "note": "успокоить боль为缓解疼痛，不限于对人的安慰。",
+      "stage": 2,
+      "original": {
+        "word": "успокаивать",
+        "part_of_speech": "未",
+        "meaning_zh": "使安静；使安心；安慰；止痛",
+        "source_page": 320,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "успокаивать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=320"
+      ]
+    },
+    {
+      "id": 10663,
+      "accent": "успока́иваться",
+      "part": "动词·未完成体",
+      "meaning": "平静下来；安心；放心；得到安慰",
+      "perfective": "успоко́иться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "успокаиваться",
+        "part_of_speech": "未",
+        "meaning_zh": "安心；放心；得到安慰；安静下来",
+        "source_page": 320,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "успокаиваться",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=320"
+      ]
+    },
+    {
+      "id": 10664,
+      "accent": "устава́ть",
+      "part": "动词·未完成体",
+      "meaning": "疲劳；疲倦；感到厌倦",
+      "perfective": "уста́ть",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "уставать",
+        "part_of_speech": "未",
+        "meaning_zh": "感到疲劳；疲倦",
+        "source_page": 320,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "уставать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=320"
+      ]
+    },
+    {
+      "id": 10665,
+      "accent": "уста́лый",
+      "part": "形容词",
+      "meaning": "疲劳的；疲倦的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "усталый",
+        "part_of_speech": "形",
+        "meaning_zh": "疲劳的；疲倦的",
+        "source_page": 320,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "усталый",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=320"
+      ]
+    },
+    {
+      "id": 10666,
+      "accent": "устана́вливать",
+      "part": "动词·未完成体",
+      "meaning": "安装；设置；规定；确定；建立；查明",
+      "perfective": "установи́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "устанавливать",
+        "part_of_speech": "未",
+        "meaning_zh": "安装；设置；规定；确定；建立；查明",
+        "source_page": 320,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "устанавливать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=320"
+      ]
+    },
+    {
+      "id": 10667,
+      "accent": "устана́вливаться",
+      "part": "动词·未完成体",
+      "meaning": "确立；建立；稳定下来；形成；定型",
+      "perfective": "установи́ться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "устанавливаться",
+        "part_of_speech": "未",
+        "meaning_zh": "建立；确立；稳定下来；定型",
+        "source_page": 321,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "устанавливаться",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=321"
+      ]
+    },
+    {
+      "id": 10668,
+      "accent": "у́стный",
+      "part": "形容词",
+      "meaning": "口头的；口述的",
+      "perfective": "",
+      "note": "устный счёт为口算，非单词自身表示算术。",
+      "stage": 1,
+      "original": {
+        "word": "устный",
+        "part_of_speech": "形",
+        "meaning_zh": "口头的；口述的；口算的",
+        "source_page": 321,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "устный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=321"
+      ]
+    },
+    {
+      "id": 10669,
+      "accent": "устра́ивать",
+      "part": "动词·未完成体",
+      "meaning": "建造；举办；安排；安置；合意；适合",
+      "perfective": "устро́ить",
+      "note": "устраивает кого表示使某人满意或适合其需要。",
+      "stage": 2,
+      "original": {
+        "word": "устраивать",
+        "part_of_speech": "未",
+        "meaning_zh": "建造；举办；安置；使合适",
+        "source_page": 321,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "устраивать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=321"
+      ]
+    },
+    {
+      "id": 10670,
+      "accent": "уступа́ть",
+      "part": "动词·未完成体",
+      "meaning": "让出；让给；让步；退让；不如；转让",
+      "perfective": "уступи́ть",
+      "note": "不如义常用于比较；不把转让泛化为全部出售行为。",
+      "stage": 2,
+      "original": {
+        "word": "уступать",
+        "part_of_speech": "未",
+        "meaning_zh": "让步；让出；不如；出售",
+        "source_page": 321,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "уступать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=321"
+      ]
+    },
+    {
+      "id": 10671,
+      "accent": "усы́",
+      "part": "名词·复数",
+      "meaning": "上唇胡须；小胡子；触须",
+      "perfective": "",
+      "note": "区别下巴及两颊的борода；单数ус。",
+      "stage": 2,
+      "original": {
+        "word": "усы",
+        "part_of_speech": "复",
+        "meaning_zh": "胡须；小胡子",
+        "source_page": 321,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "усы",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=321"
+      ]
+    },
+    {
+      "id": 10672,
+      "accent": "утвержда́ть",
+      "part": "动词·未完成体",
+      "meaning": "批准；确立；肯定；断言",
+      "perfective": "утверди́ть",
+      "note": "批准、确立可配утвердить；断言某命题义通常无相同通用完成体。",
+      "stage": 2,
+      "original": {
+        "word": "утверждать",
+        "part_of_speech": "未",
+        "meaning_zh": "确定；确立；批准；断言",
+        "source_page": 321,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "утверждать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=321"
+      ]
+    },
+    {
+      "id": 10673,
+      "accent": "утиха́ть",
+      "part": "动词·未完成体",
+      "meaning": "平息；减弱；安静下来",
+      "perfective": "ути́хнуть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "утихать",
+        "part_of_speech": "未",
+        "meaning_zh": "停止；平息；减弱",
+        "source_page": 321,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "утихать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=321"
+      ]
+    },
+    {
+      "id": 10674,
+      "accent": "у́тка",
+      "part": "名词·阴性",
+      "meaning": "鸭；鸭肉；虚假消息",
+      "perfective": "",
+      "note": "虚假新闻为转义，与动物义区分。",
+      "stage": 1,
+      "original": {
+        "word": "утка",
+        "part_of_speech": "阴",
+        "meaning_zh": "鸭；鸭肉",
+        "source_page": 321,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "утка",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=321"
+      ]
+    },
+    {
+      "id": 10675,
+      "accent": "у́тренний",
+      "part": "形容词",
+      "meaning": "早晨的；上午的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "утренний",
+        "part_of_speech": "形",
+        "meaning_zh": "早晨的；上午的",
+        "source_page": 321,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "утренний",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=321"
+      ]
+    },
+    {
+      "id": 10677,
+      "accent": "у́тром",
+      "part": "副词",
+      "meaning": "在早晨；在上午",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "утром",
+        "part_of_speech": "副",
+        "meaning_zh": "在早晨",
+        "source_page": 322,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "утром",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=322"
+      ]
+    },
+    {
+      "id": 10678,
+      "accent": "уха́живать",
+      "part": "动词·未完成体",
+      "meaning": "照料；护理；照顾；献殷勤；追求",
+      "perfective": "",
+      "note": "за кем-чем，第五格；追求义需人物语境。",
+      "stage": 2,
+      "original": {
+        "word": "ухаживать",
+        "part_of_speech": "未",
+        "meaning_zh": "服侍；照料；对……献殷勤；追求",
+        "source_page": 322,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ухаживать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=322"
+      ]
+    },
+    {
+      "id": 10679,
+      "accent": "у́хо",
+      "part": "名词·中性",
+      "meaning": "耳朵；器物的耳状部分",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "ухо",
+        "part_of_speech": "中",
+        "meaning_zh": "耳；耳朵；器物的耳子",
+        "source_page": 322,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ухо",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=322"
+      ]
+    },
+    {
+      "id": 10680,
+      "accent": "ухо́д",
+      "part": "名词·阳性",
+      "meaning": "离开；退出；照料；护理",
+      "perfective": "",
+      "note": "下班来自уход с работы具体搭配，不是全部离开义。",
+      "stage": 2,
+      "original": {
+        "word": "уход",
+        "part_of_speech": "阳",
+        "meaning_zh": "离开；下班；照料；护理",
+        "source_page": 322,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "уход",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=322"
+      ]
+    },
+    {
+      "id": 10681,
+      "accent": "уходи́ть",
+      "part": "动词·未完成体",
+      "meaning": "离开；离去；退出；逝去；消逝",
+      "perfective": "уйти́",
+      "note": "退休为уйти на пенсию；去世为уйти из жизни，均需语境。",
+      "stage": 1,
+      "original": {
+        "word": "уходить",
+        "part_of_speech": "未",
+        "meaning_zh": "离开；退出；退休；逝去",
+        "source_page": 322,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "уходить",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=322"
+      ]
+    },
+    {
+      "id": 10682,
+      "accent": "ухудша́ться",
+      "part": "动词·未完成体",
+      "meaning": "变坏；恶化",
+      "perfective": "уху́дшиться",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "ухудшаться",
+        "part_of_speech": "未",
+        "meaning_zh": "变坏；恶化",
+        "source_page": 322,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ухудшаться",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=322"
+      ]
+    },
+    {
+      "id": 10683,
+      "accent": "уча́ствовать",
+      "part": "动词·未完成体",
+      "meaning": "参加；参与",
+      "perfective": "",
+      "note": "в чём，第六格；不是成为成员的加入所有用法。",
+      "stage": 1,
+      "original": {
+        "word": "участвовать",
+        "part_of_speech": "未",
+        "meaning_zh": "参加；加入",
+        "source_page": 322,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "участвовать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=322"
+      ]
+    },
+    {
+      "id": 10684,
+      "accent": "уча́стие",
+      "part": "名词·中性",
+      "meaning": "参加；参与；关心；同情",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "участие",
+        "part_of_speech": "中",
+        "meaning_zh": "参加；参与",
+        "source_page": 322,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "участие",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=322"
+      ]
+    },
+    {
+      "id": 10685,
+      "accent": "уча́стник",
+      "part": "名词·阳性",
+      "meaning": "参加者；参与者",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "участник",
+        "part_of_speech": "阳",
+        "meaning_zh": "参加者；参与者",
+        "source_page": 322,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "участник",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=322"
+      ]
+    },
+    {
+      "id": 10686,
+      "accent": "уча́сток",
+      "part": "名词·阳性",
+      "meaning": "地段；区域；片区；部门",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "участок",
+        "part_of_speech": "阳",
+        "meaning_zh": "地段；区域；部门",
+        "source_page": 322,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "участок",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=322"
+      ]
+    },
+    {
+      "id": 10687,
+      "accent": "уча́щийся",
+      "part": "名词化形动词·阳性",
+      "meaning": "学生；学习者",
+      "perfective": "",
+      "note": "阴性учащаяся，复数учащиеся。",
+      "stage": 1,
+      "original": {
+        "word": "учащийся",
+        "part_of_speech": "阳",
+        "meaning_zh": "学生；学习者",
+        "source_page": 322,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "учащийся",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=322"
+      ]
+    },
+    {
+      "id": 10688,
+      "accent": "учёба",
+      "part": "名词·阴性",
+      "meaning": "学习；求学",
+      "perfective": "",
+      "note": "保留正确ё。",
+      "stage": 1,
+      "original": {
+        "word": "учёба",
+        "part_of_speech": "阴",
+        "meaning_zh": "学习；求学",
+        "source_page": 322,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "учёба",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=322"
+      ]
+    },
+    {
+      "id": 10689,
+      "accent": "уче́бник",
+      "part": "名词·阳性",
+      "meaning": "教科书；课本",
+      "perfective": "",
+      "note": "此词是е，不按同族учёба把е改成ё。",
+      "stage": 1,
+      "original": {
+        "word": "учебник",
+        "part_of_speech": "阳",
+        "meaning_zh": "教科书；课本",
+        "source_page": 322,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "учебник",
+      "method": "2026-09-24当前助手逐词视觉核对PDF319至322页，核对词形重音、核心义与体对，保留同族е/ё差别。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=322"
+      ]
+    }
+  ]
+}

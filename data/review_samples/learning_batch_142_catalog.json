@@ -1,0 +1,905 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10526,
+      "accent": "трево́га",
+      "part": "名词·阴性",
+      "meaning": "不安；担忧；惊慌；警报",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "тревога",
+        "part_of_speech": "阴",
+        "meaning_zh": "不安；担忧；慌乱；警报",
+        "source_page": 307,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тревога",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=307"
+      ]
+    },
+    {
+      "id": 10527,
+      "accent": "трево́жить",
+      "part": "动词·未完成体",
+      "meaning": "使不安；使担忧；打扰；惊动",
+      "perfective": "потрево́жить",
+      "note": "打扰义常配потревожить；使担忧可配встревожить。已核跨页。",
+      "stage": 2,
+      "original": {
+        "word": "тревожить",
+        "part_of_speech": "未",
+        "meaning_zh": "使不安；打扰；惊动",
+        "source_page": 307,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тревожить",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=307",
+        "data/words/tem4_russian_words.pdf#page=308"
+      ]
+    },
+    {
+      "id": 10528,
+      "accent": "трево́жный",
+      "part": "形容词",
+      "meaning": "不安的；令人担忧的；警报的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "тревожный",
+        "part_of_speech": "形",
+        "meaning_zh": "不安的；令人担忧的；危险的；警报的",
+        "source_page": 308,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тревожный",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=308"
+      ]
+    },
+    {
+      "id": 10529,
+      "accent": "тренирова́ться",
+      "part": "动词·未完成体",
+      "meaning": "训练；练习；锻炼",
+      "perfective": "",
+      "note": "原页完成体标记误印；该词为未完成体，不强配表示一段时间训练的потренироваться作通用体对。",
+      "stage": 2,
+      "original": {
+        "word": "тренироваться",
+        "part_of_speech": "未",
+        "meaning_zh": "训练；练习",
+        "source_page": 308,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тренироваться",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=308"
+      ]
+    },
+    {
+      "id": 10530,
+      "accent": "тре́тий",
+      "part": "序数词",
+      "meaning": "第三",
+      "perfective": "",
+      "note": "第三道菜是на третье等名词化语境，不是独立词义。",
+      "stage": 1,
+      "original": {
+        "word": "третий",
+        "part_of_speech": "数",
+        "meaning_zh": "第三；第三个",
+        "source_page": 308,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "третий",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=308"
+      ]
+    },
+    {
+      "id": 10531,
+      "accent": "три",
+      "part": "数词",
+      "meaning": "三",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "три",
+        "part_of_speech": "数",
+        "meaning_zh": "三；三个",
+        "source_page": 308,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "три",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=308"
+      ]
+    },
+    {
+      "id": 10532,
+      "accent": "тридца́тый",
+      "part": "序数词",
+      "meaning": "第三十",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "тридцатый",
+        "part_of_speech": "数",
+        "meaning_zh": "第三十；第三十个",
+        "source_page": 308,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тридцатый",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=308"
+      ]
+    },
+    {
+      "id": 10533,
+      "accent": "трина́дцатый",
+      "part": "序数词",
+      "meaning": "第十三",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "тринадцатый",
+        "part_of_speech": "数",
+        "meaning_zh": "第十三；第十三个",
+        "source_page": 308,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тринадцатый",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=308"
+      ]
+    },
+    {
+      "id": 10534,
+      "accent": "трина́дцать",
+      "part": "数词",
+      "meaning": "十三",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "тринадцать",
+        "part_of_speech": "数",
+        "meaning_zh": "十三；十三个",
+        "source_page": 308,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тринадцать",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=308"
+      ]
+    },
+    {
+      "id": 10535,
+      "accent": "три́ста",
+      "part": "数词",
+      "meaning": "三百",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "триста",
+        "part_of_speech": "数",
+        "meaning_zh": "三百；三百个",
+        "source_page": 308,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "триста",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=308"
+      ]
+    },
+    {
+      "id": 10536,
+      "accent": "тро́гать",
+      "part": "动词·未完成体",
+      "meaning": "触摸；碰；动用；招惹；打扰；使感动",
+      "perfective": "тро́нуть",
+      "note": "感动义是使别人感动，不是自身受到感动。",
+      "stage": 2,
+      "original": {
+        "word": "трогать",
+        "part_of_speech": "未",
+        "meaning_zh": "触摸；动；惹；打扰；感动",
+        "source_page": 308,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "трогать",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=308"
+      ]
+    },
+    {
+      "id": 10537,
+      "accent": "тро́е",
+      "part": "集合数词",
+      "meaning": "三个；三人",
+      "perfective": "",
+      "note": "可搭配适用的人名词、幼兽名词及只用复数的名词；三副三双依具体名词，不泛指所有物品。",
+      "stage": 2,
+      "original": {
+        "word": "трое",
+        "part_of_speech": "数",
+        "meaning_zh": "三人；三个；三副或三双",
+        "source_page": 308,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "трое",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=308"
+      ]
+    },
+    {
+      "id": 10538,
+      "accent": "тро́йка",
+      "part": "名词·阴性",
+      "meaning": "数字三；三分；三人组；三套马车",
+      "perfective": "",
+      "note": "评分语境为三分；马车义指三匹马并驾。",
+      "stage": 2,
+      "original": {
+        "word": "тройка",
+        "part_of_speech": "阴",
+        "meaning_zh": "三；三分；三套车",
+        "source_page": 308,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тройка",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=308"
+      ]
+    },
+    {
+      "id": 10539,
+      "accent": "тролле́йбус",
+      "part": "名词·阳性",
+      "meaning": "无轨电车",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "троллейбус",
+        "part_of_speech": "阳",
+        "meaning_zh": "无轨电车",
+        "source_page": 308,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "троллейбус",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=308"
+      ]
+    },
+    {
+      "id": 10540,
+      "accent": "тротуа́р",
+      "part": "名词·阳性",
+      "meaning": "人行道",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "тротуар",
+        "part_of_speech": "阳",
+        "meaning_zh": "人行道",
+        "source_page": 308,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тротуар",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=308"
+      ]
+    },
+    {
+      "id": 10541,
+      "accent": "труба́",
+      "part": "名词·阴性",
+      "meaning": "管；管子；烟囱；小号",
+      "perfective": "",
+      "note": "补原页烟囱义；乐器通常指小号。",
+      "stage": 2,
+      "original": {
+        "word": "труба",
+        "part_of_speech": "阴",
+        "meaning_zh": "管；管子；小号；喇叭",
+        "source_page": 308,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "труба",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=308"
+      ]
+    },
+    {
+      "id": 10542,
+      "accent": "тру́бка",
+      "part": "名词·阴性",
+      "meaning": "小管；管状物；电话听筒；烟斗",
+      "perfective": "",
+      "note": "已核309页续义。",
+      "stage": 2,
+      "original": {
+        "word": "трубка",
+        "part_of_speech": "阴",
+        "meaning_zh": "管子；听筒；烟斗",
+        "source_page": 308,
+        "source_line": "17"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "трубка",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=308",
+        "data/words/tem4_russian_words.pdf#page=309"
+      ]
+    },
+    {
+      "id": 10543,
+      "accent": "труд",
+      "part": "名词·阳性",
+      "meaning": "劳动；工作；努力；辛劳；著作",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "труд",
+        "part_of_speech": "阳",
+        "meaning_zh": "劳动；工作；努力；著作",
+        "source_page": 309,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "труд",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=309"
+      ]
+    },
+    {
+      "id": 10544,
+      "accent": "труди́ться",
+      "part": "动词·未完成体",
+      "meaning": "劳动；工作；致力于",
+      "perfective": "",
+      "note": "потрудиться可表示做一番工作或费心，不机械配到所有义项。",
+      "stage": 2,
+      "original": {
+        "word": "трудиться",
+        "part_of_speech": "未",
+        "meaning_zh": "劳动；工作；致力于",
+        "source_page": 309,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "трудиться",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=309"
+      ]
+    },
+    {
+      "id": 10545,
+      "accent": "тру́дность",
+      "part": "名词·阴性",
+      "meaning": "困难；难处；难度",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "трудность",
+        "part_of_speech": "阴",
+        "meaning_zh": "困难；难关",
+        "source_page": 309,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "трудность",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=309"
+      ]
+    },
+    {
+      "id": 10547,
+      "accent": "трудово́й",
+      "part": "形容词",
+      "meaning": "劳动的；工作的；靠劳动生活的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "трудовой",
+        "part_of_speech": "形",
+        "meaning_zh": "劳动的；工作的",
+        "source_page": 309,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "трудовой",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=309"
+      ]
+    },
+    {
+      "id": 10548,
+      "accent": "трудя́щийся",
+      "part": "形动词；名词化用法",
+      "meaning": "劳动的；劳动者",
+      "perfective": "",
+      "note": "复数трудящиеся常用作劳动人民；不能把名词化用法抹掉。",
+      "stage": 2,
+      "original": {
+        "word": "трудящийся",
+        "part_of_speech": "形",
+        "meaning_zh": "劳动的；劳动者",
+        "source_page": 309,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "трудящийся",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=309"
+      ]
+    },
+    {
+      "id": 10549,
+      "accent": "туале́т",
+      "part": "名词·阳性",
+      "meaning": "厕所；洗手间；梳洗；装束",
+      "perfective": "",
+      "note": "厕所为本页核心义；梳洗与装束按相应语境理解。",
+      "stage": 1,
+      "original": {
+        "word": "туалет",
+        "part_of_speech": "阳",
+        "meaning_zh": "厕所；洗手间",
+        "source_page": 309,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "туалет",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=309"
+      ]
+    },
+    {
+      "id": 10550,
+      "accent": "ту́го",
+      "part": "副词；状态词",
+      "meaning": "紧紧地；困难地；吃力地；拮据",
+      "perfective": "",
+      "note": "с деньгами туго表示手头拮据。",
+      "stage": 2,
+      "original": {
+        "word": "туго",
+        "part_of_speech": "副",
+        "meaning_zh": "紧紧地；困难地；拮据地",
+        "source_page": 309,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "туго",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=309"
+      ]
+    },
+    {
+      "id": 10551,
+      "accent": "тума́н",
+      "part": "名词·阳性",
+      "meaning": "雾；烟雾；模糊不清的状态",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "туман",
+        "part_of_speech": "阳",
+        "meaning_zh": "雾；烟雾；模糊状态",
+        "source_page": 309,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "туман",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=309"
+      ]
+    },
+    {
+      "id": 10552,
+      "accent": "ту́ндра",
+      "part": "名词·阴性",
+      "meaning": "苔原；冻原",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "тундра",
+        "part_of_speech": "阴",
+        "meaning_zh": "冻土带；苔原",
+        "source_page": 309,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тундра",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=309"
+      ]
+    },
+    {
+      "id": 10553,
+      "accent": "тут",
+      "part": "副词",
+      "meaning": "这里；此地；这时；在这种情况下",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "тут",
+        "part_of_speech": "副",
+        "meaning_zh": "这里；此地；在这种情况下",
+        "source_page": 310,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тут",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=310"
+      ]
+    },
+    {
+      "id": 10554,
+      "accent": "ту́фли",
+      "part": "名词·复数",
+      "meaning": "浅口鞋；便鞋",
+      "perfective": "",
+      "note": "单数туфля为阴性；不是所有鞋类的总称。",
+      "stage": 1,
+      "original": {
+        "word": "туфли",
+        "part_of_speech": "复",
+        "meaning_zh": "鞋；便鞋",
+        "source_page": 310,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "туфли",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=310"
+      ]
+    },
+    {
+      "id": 10555,
+      "accent": "ту́ча",
+      "part": "名词·阴性",
+      "meaning": "乌云；黑云；黑压压的一大群",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "туча",
+        "part_of_speech": "阴",
+        "meaning_zh": "乌云；黑云；黑压压的一群",
+        "source_page": 310,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "туча",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=310"
+      ]
+    },
+    {
+      "id": 10556,
+      "accent": "туши́ть",
+      "part": "动词·未完成体",
+      "meaning": "熄灭；扑灭；炖；焖",
+      "perfective": "потуши́ть",
+      "note": "原页为灭火义，可配потушить或затушить；同形的烹饪义常配потушить，不混淆语境。",
+      "stage": 2,
+      "original": {
+        "word": "тушить",
+        "part_of_speech": "未",
+        "meaning_zh": "熄灭；扑灭；炖煮",
+        "source_page": 310,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тушить",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=310"
+      ]
+    },
+    {
+      "id": 10557,
+      "accent": "тща́тельный",
+      "part": "形容词",
+      "meaning": "仔细的；细致的；周密的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "тщательный",
+        "part_of_speech": "形",
+        "meaning_zh": "仔细的；细心的；周密的",
+        "source_page": 310,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тщательный",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=310"
+      ]
+    },
+    {
+      "id": 10558,
+      "accent": "ты",
+      "part": "人称代词",
+      "meaning": "你",
+      "perfective": "",
+      "note": "单数非敬称；你们是вы，删除旧释义中的你们。",
+      "stage": 1,
+      "original": {
+        "word": "ты",
+        "part_of_speech": "代",
+        "meaning_zh": "你；你们",
+        "source_page": 310,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ты",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=310"
+      ]
+    },
+    {
+      "id": 10559,
+      "accent": "тыл",
+      "part": "名词·阳性",
+      "meaning": "后方；后部；背后",
+      "perfective": "",
+      "note": "军事上与前线相对，不笼统等同地理上的内地。",
+      "stage": 2,
+      "original": {
+        "word": "тыл",
+        "part_of_speech": "阳",
+        "meaning_zh": "后方；内地",
+        "source_page": 310,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тыл",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=310"
+      ]
+    },
+    {
+      "id": 10560,
+      "accent": "ты́сяча",
+      "part": "数词；名词·阴性",
+      "meaning": "一千；千；大量",
+      "perfective": "",
+      "note": "复数тысячи可表示成千上万或很多。",
+      "stage": 1,
+      "original": {
+        "word": "тысяча",
+        "part_of_speech": "阴",
+        "meaning_zh": "一千；上千；许多",
+        "source_page": 310,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тысяча",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=310"
+      ]
+    },
+    {
+      "id": 10561,
+      "accent": "тюрьма́",
+      "part": "名词·阴性",
+      "meaning": "监狱；监牢",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "тюрьма",
+        "part_of_speech": "阴",
+        "meaning_zh": "监狱；监牢",
+        "source_page": 310,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тюрьма",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=310"
+      ]
+    },
+    {
+      "id": 10562,
+      "accent": "тяжело́",
+      "part": "副词；状态词",
+      "meaning": "沉重地；吃力地；严重地；难受；心情沉重",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "тяжело",
+        "part_of_speech": "副",
+        "meaning_zh": "严重地；沉重地；吃力地；难过地",
+        "source_page": 310,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тяжело",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=310"
+      ]
+    },
+    {
+      "id": 10563,
+      "accent": "тяжёлый",
+      "part": "形容词",
+      "meaning": "重的；沉重的；笨重的；繁重的；困难的；严重的",
+      "perfective": "",
+      "note": "保留正确ё；重工业、重病等搭配各有具体义。",
+      "stage": 1,
+      "original": {
+        "word": "тяжёлый",
+        "part_of_speech": "形",
+        "meaning_zh": "重的；沉重的；笨重的；严重的；繁重的",
+        "source_page": 310,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тяжёлый",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=310"
+      ]
+    },
+    {
+      "id": 10564,
+      "accent": "тя́жесть",
+      "part": "名词·阴性",
+      "meaning": "重量；重力；重物；沉重感；负担；严重程度",
+      "perfective": "",
+      "note": "сила тяжести为重力；复数тяжести常指重物。",
+      "stage": 2,
+      "original": {
+        "word": "тяжесть",
+        "part_of_speech": "阴",
+        "meaning_zh": "重力；重量；重物",
+        "source_page": 310,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тяжесть",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=310"
+      ]
+    },
+    {
+      "id": 10565,
+      "accent": "тяну́ть",
+      "part": "动词·未完成体",
+      "meaning": "拉；拖；牵引；铺设；吸引；拖延；想要",
+      "perfective": "",
+      "note": "已核311页续文；кого тянет куда为想去某处，不强行给所有义项配同一个完成体。",
+      "stage": 2,
+      "original": {
+        "word": "тянуть",
+        "part_of_speech": "未",
+        "meaning_zh": "拉；拖；铺设；吸引；想要",
+        "source_page": 310,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "тянуть",
+      "method": "2026-09-23当前助手逐词视觉核对PDF307至311页对应词头及跨页续义，校对重音、词性、体对与中文核心义。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=310",
+        "data/words/tem4_russian_words.pdf#page=311"
+      ]
+    }
+  ]
+}

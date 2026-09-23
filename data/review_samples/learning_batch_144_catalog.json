@@ -1,0 +1,927 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10606,
+      "accent": "уезжа́ть",
+      "part": "动词·未完成体",
+      "meaning": "乘车离开；乘交通工具离去",
+      "perfective": "уе́хать",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "уезжать",
+        "part_of_speech": "未",
+        "meaning_zh": "离开；乘车离去",
+        "source_page": 315,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "уезжать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=315"
+      ]
+    },
+    {
+      "id": 10607,
+      "accent": "у́жас",
+      "part": "名词·阳性",
+      "meaning": "恐惧；恐怖；可怕的事情；惨状",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "ужас",
+        "part_of_speech": "阳",
+        "meaning_zh": "恐惧；恐怖；惨祸；可怕的景象",
+        "source_page": 315,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ужас",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=315"
+      ]
+    },
+    {
+      "id": 10608,
+      "accent": "ужа́сный",
+      "part": "形容词",
+      "meaning": "可怕的；恐怖的；糟糕的；恶劣的；极厉害的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "ужасный",
+        "part_of_speech": "形",
+        "meaning_zh": "可怕的；恐怖的；恶劣的；厉害的",
+        "source_page": 315,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ужасный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=315"
+      ]
+    },
+    {
+      "id": 10609,
+      "accent": "уже́",
+      "part": "副词",
+      "meaning": "已经",
+      "perfective": "",
+      "note": "与узкий的比较级у́же重音不同。",
+      "stage": 1,
+      "original": {
+        "word": "уже",
+        "part_of_speech": "副",
+        "meaning_zh": "已经",
+        "source_page": 315,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "уже",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=315"
+      ]
+    },
+    {
+      "id": 10610,
+      "accent": "у́жин",
+      "part": "名词·阳性",
+      "meaning": "晚饭；晚餐",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "ужин",
+        "part_of_speech": "阳",
+        "meaning_zh": "晚饭；晚餐",
+        "source_page": 315,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ужин",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=315"
+      ]
+    },
+    {
+      "id": 10611,
+      "accent": "у́жинать",
+      "part": "动词·未完成体",
+      "meaning": "吃晚饭",
+      "perfective": "поу́жинать",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "ужинать",
+        "part_of_speech": "未",
+        "meaning_zh": "吃晚饭",
+        "source_page": 315,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ужинать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=315"
+      ]
+    },
+    {
+      "id": 10612,
+      "accent": "у́зел",
+      "part": "名词·阳性",
+      "meaning": "结；枢纽；节点；包袱",
+      "perfective": "",
+      "note": "铁路枢纽为железнодорожный узел；补原页包袱义。",
+      "stage": 2,
+      "original": {
+        "word": "узел",
+        "part_of_speech": "阳",
+        "meaning_zh": "结；铁路枢纽；节点",
+        "source_page": 315,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "узел",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=315"
+      ]
+    },
+    {
+      "id": 10613,
+      "accent": "у́зкий",
+      "part": "形容词",
+      "meaning": "窄的；狭窄的；狭小的；有限的；狭义的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "узкий",
+        "part_of_speech": "形",
+        "meaning_zh": "狭窄的；窄的；有限的；狭义的",
+        "source_page": 315,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "узкий",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=315"
+      ]
+    },
+    {
+      "id": 10614,
+      "accent": "узнава́ть",
+      "part": "动词·未完成体",
+      "meaning": "得知；打听；认出",
+      "perfective": "узна́ть",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "узнавать",
+        "part_of_speech": "未",
+        "meaning_zh": "得知；打听；认出",
+        "source_page": 315,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "узнавать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=315"
+      ]
+    },
+    {
+      "id": 10615,
+      "accent": "указа́ние",
+      "part": "名词·中性",
+      "meaning": "指示；指令；指出；说明",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "указание",
+        "part_of_speech": "中",
+        "meaning_zh": "指示；指令",
+        "source_page": 315,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "указание",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=315"
+      ]
+    },
+    {
+      "id": 10616,
+      "accent": "ука́зывать",
+      "part": "动词·未完成体",
+      "meaning": "指；指向；指出；指明；指定",
+      "perfective": "указа́ть",
+      "note": "已核316页续义。",
+      "stage": 2,
+      "original": {
+        "word": "указывать",
+        "part_of_speech": "未",
+        "meaning_zh": "指；指向；指出；指定",
+        "source_page": 315,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "указывать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=315",
+        "data/words/tem4_russian_words.pdf#page=316"
+      ]
+    },
+    {
+      "id": 10617,
+      "accent": "укла́дывать",
+      "part": "动词·未完成体",
+      "meaning": "使躺下；摆放；堆放；装入；整理装好",
+      "perfective": "уложи́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "укладывать",
+        "part_of_speech": "未",
+        "meaning_zh": "放置；让……躺下；装入；收拾",
+        "source_page": 316,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "укладывать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=316"
+      ]
+    },
+    {
+      "id": 10618,
+      "accent": "уко́л",
+      "part": "名词·阳性",
+      "meaning": "刺；扎；注射；刺痛",
+      "perfective": "",
+      "note": "指针刺或注射动作，不是针这种器具。",
+      "stage": 2,
+      "original": {
+        "word": "укол",
+        "part_of_speech": "阳",
+        "meaning_zh": "针；注射；打针",
+        "source_page": 316,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "укол",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=316"
+      ]
+    },
+    {
+      "id": 10619,
+      "accent": "укрепля́ть",
+      "part": "动词·未完成体",
+      "meaning": "加固；加强；增进",
+      "perfective": "укрепи́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "укреплять",
+        "part_of_speech": "未",
+        "meaning_zh": "加固；加强；增进",
+        "source_page": 316,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "укреплять",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=316"
+      ]
+    },
+    {
+      "id": 10620,
+      "accent": "улета́ть",
+      "part": "动词·未完成体",
+      "meaning": "飞走；乘飞机离开；消逝",
+      "perfective": "улете́ть",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "улетать",
+        "part_of_speech": "未",
+        "meaning_zh": "飞去；飞走；消逝",
+        "source_page": 316,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "улетать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=316"
+      ]
+    },
+    {
+      "id": 10622,
+      "accent": "улучша́ть",
+      "part": "动词·未完成体",
+      "meaning": "改进；改善；使好转",
+      "perfective": "улу́чшить",
+      "note": "及物。",
+      "stage": 2,
+      "original": {
+        "word": "улучшать",
+        "part_of_speech": "未",
+        "meaning_zh": "改进；改善",
+        "source_page": 316,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "улучшать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=316"
+      ]
+    },
+    {
+      "id": 10623,
+      "accent": "улучша́ться",
+      "part": "动词·未完成体",
+      "meaning": "改善；好转；变好",
+      "perfective": "улу́чшиться",
+      "note": "不及物。",
+      "stage": 2,
+      "original": {
+        "word": "улучшаться",
+        "part_of_speech": "未",
+        "meaning_zh": "变好；改善",
+        "source_page": 316,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "улучшаться",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=316"
+      ]
+    },
+    {
+      "id": 10624,
+      "accent": "улыба́ться",
+      "part": "动词·未完成体",
+      "meaning": "微笑",
+      "perfective": "улыбну́ться",
+      "note": "完成体表示微笑一下。",
+      "stage": 1,
+      "original": {
+        "word": "улыбаться",
+        "part_of_speech": "未",
+        "meaning_zh": "微笑；笑",
+        "source_page": 316,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "улыбаться",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=316"
+      ]
+    },
+    {
+      "id": 10625,
+      "accent": "улы́бка",
+      "part": "名词·阴性",
+      "meaning": "微笑；笑容",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "улыбка",
+        "part_of_speech": "阴",
+        "meaning_zh": "微笑；笑容",
+        "source_page": 316,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "улыбка",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=316"
+      ]
+    },
+    {
+      "id": 10626,
+      "accent": "ум",
+      "part": "名词·阳性",
+      "meaning": "头脑；智力；智慧；才智；有才智的人",
+      "perfective": "",
+      "note": "已核317页续义。",
+      "stage": 2,
+      "original": {
+        "word": "ум",
+        "part_of_speech": "阳",
+        "meaning_zh": "头脑；智力；智慧",
+        "source_page": 316,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ум",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=316",
+        "data/words/tem4_russian_words.pdf#page=317"
+      ]
+    },
+    {
+      "id": 10627,
+      "accent": "уме́ние",
+      "part": "名词·中性",
+      "meaning": "技能；本领；能力",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "умение",
+        "part_of_speech": "中",
+        "meaning_zh": "能力；本事；技能",
+        "source_page": 317,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "умение",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=317"
+      ]
+    },
+    {
+      "id": 10628,
+      "accent": "уменьша́ть",
+      "part": "动词·未完成体",
+      "meaning": "减少；缩小；减轻",
+      "perfective": "уме́ньшить",
+      "note": "使数量、体积、程度变小。",
+      "stage": 2,
+      "original": {
+        "word": "уменьшать",
+        "part_of_speech": "未",
+        "meaning_zh": "减少；缩小；减轻",
+        "source_page": 317,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "уменьшать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=317"
+      ]
+    },
+    {
+      "id": 10629,
+      "accent": "уменьша́ться",
+      "part": "动词·未完成体",
+      "meaning": "减少；缩小；减轻",
+      "perfective": "уме́ньшиться",
+      "note": "事物自身变少、变小。",
+      "stage": 2,
+      "original": {
+        "word": "уменьшаться",
+        "part_of_speech": "未",
+        "meaning_zh": "减少；缩小；减轻",
+        "source_page": 317,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "уменьшаться",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=317"
+      ]
+    },
+    {
+      "id": 10630,
+      "accent": "уме́ть",
+      "part": "动词·未完成体",
+      "meaning": "会；懂得怎样做；善于",
+      "perfective": "суме́ть",
+      "note": "суметь偏在具体条件下成功做到，不与习得技能义完全等同。",
+      "stage": 1,
+      "original": {
+        "word": "уметь",
+        "part_of_speech": "未",
+        "meaning_zh": "会；有能力；善于",
+        "source_page": 317,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "уметь",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=317"
+      ]
+    },
+    {
+      "id": 10631,
+      "accent": "умира́ть",
+      "part": "动词·未完成体",
+      "meaning": "死；死亡；消亡；消逝",
+      "perfective": "умере́ть",
+      "note": "删除不朽误释；原例Правое дело не умрёт因有否定词才表示事业不朽。",
+      "stage": 2,
+      "original": {
+        "word": "умирать",
+        "part_of_speech": "未",
+        "meaning_zh": "死亡；消逝；不朽",
+        "source_page": 317,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "умирать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=317"
+      ]
+    },
+    {
+      "id": 10632,
+      "accent": "у́мница",
+      "part": "名词·通性",
+      "meaning": "聪明的人；能干的人",
+      "perfective": "",
+      "note": "可指男性或女性，按所指对象配性。",
+      "stage": 1,
+      "original": {
+        "word": "умница",
+        "part_of_speech": "阳及阴",
+        "meaning_zh": "聪明的人；能干的人",
+        "source_page": 317,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "умница",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=317"
+      ]
+    },
+    {
+      "id": 10633,
+      "accent": "у́мный",
+      "part": "形容词",
+      "meaning": "聪明的；明智的；有道理的；灵巧的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "умный",
+        "part_of_speech": "形",
+        "meaning_zh": "聪明的；明智的；灵巧的",
+        "source_page": 317,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "умный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=317"
+      ]
+    },
+    {
+      "id": 10634,
+      "accent": "у́мственный",
+      "part": "形容词",
+      "meaning": "脑力的；智力的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "умственный",
+        "part_of_speech": "形",
+        "meaning_zh": "脑力的；智力的",
+        "source_page": 317,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "умственный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=317"
+      ]
+    },
+    {
+      "id": 10635,
+      "accent": "умыва́ть",
+      "part": "动词·未完成体",
+      "meaning": "给……洗脸或洗手；洗净脸手",
+      "perfective": "умы́ть",
+      "note": "与泛指洗物品的мыть区别。",
+      "stage": 1,
+      "original": {
+        "word": "умывать",
+        "part_of_speech": "未",
+        "meaning_zh": "给……洗；洗净",
+        "source_page": 317,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "умывать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=317"
+      ]
+    },
+    {
+      "id": 10636,
+      "accent": "умы́ться",
+      "part": "动词·完成体",
+      "meaning": "洗脸；洗净自己的脸手",
+      "perfective": "умыва́ться",
+      "note": "原页умыватьcя词条列出的完成体；本记录保留完成体词头，关联未完成体。",
+      "stage": 1,
+      "original": {
+        "word": "умыться",
+        "part_of_speech": "完",
+        "meaning_zh": "洗脸；洗手；洗干净",
+        "source_page": 317,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "умыться",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=317"
+      ]
+    },
+    {
+      "id": 10637,
+      "accent": "универма́г",
+      "part": "名词·阳性",
+      "meaning": "百货商店",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "универмаг",
+        "part_of_speech": "阳",
+        "meaning_zh": "百货商店",
+        "source_page": 317,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "универмаг",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=317"
+      ]
+    },
+    {
+      "id": 10639,
+      "accent": "уничтожа́ть",
+      "part": "动词·未完成体",
+      "meaning": "消灭；毁灭；歼灭；消除",
+      "perfective": "уничто́жить",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "уничтожать",
+        "part_of_speech": "未",
+        "meaning_zh": "消灭；歼灭；消除",
+        "source_page": 318,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "уничтожать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=318"
+      ]
+    },
+    {
+      "id": 10640,
+      "accent": "уноси́ть",
+      "part": "动词·未完成体",
+      "meaning": "拿走；带走；吹走；冲走",
+      "perfective": "унести́",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "уносить",
+        "part_of_speech": "未",
+        "meaning_zh": "拿走；带走；吹走；冲走",
+        "source_page": 318,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "уносить",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=318"
+      ]
+    },
+    {
+      "id": 10641,
+      "accent": "уны́лый",
+      "part": "形容词",
+      "meaning": "沮丧的；忧郁的；灰心的；凄凉的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "унылый",
+        "part_of_speech": "形",
+        "meaning_zh": "灰心的；沮丧的；忧郁的；悲凉的",
+        "source_page": 318,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "унылый",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=318"
+      ]
+    },
+    {
+      "id": 10642,
+      "accent": "упо́рный",
+      "part": "形容词",
+      "meaning": "顽强的；坚持不懈的；倔强的；顽固的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "упорный",
+        "part_of_speech": "形",
+        "meaning_zh": "顽强的；倔强的；顽固的；坚持的",
+        "source_page": 318,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "упорный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=318"
+      ]
+    },
+    {
+      "id": 10643,
+      "accent": "управле́ние",
+      "part": "名词·中性",
+      "meaning": "管理；行政管理；操纵；控制；管理局；语法支配关系",
+      "perfective": "",
+      "note": "补原页语法义：动词等对从属词格的支配。",
+      "stage": 2,
+      "original": {
+        "word": "управление",
+        "part_of_speech": "中",
+        "meaning_zh": "驾驶；操纵；管理；行政机关；控制",
+        "source_page": 318,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "управление",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=318"
+      ]
+    },
+    {
+      "id": 10644,
+      "accent": "упрека́ть",
+      "part": "动词·未完成体",
+      "meaning": "责备；指责；责怪",
+      "perfective": "упрекну́ть",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "упрекать",
+        "part_of_speech": "未",
+        "meaning_zh": "责备；指责；责怪",
+        "source_page": 319,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "упрекать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=319"
+      ]
+    },
+    {
+      "id": 10645,
+      "accent": "упря́мый",
+      "part": "形容词",
+      "meaning": "固执的；执拗的；顽固的；顽强的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "упрямый",
+        "part_of_speech": "形",
+        "meaning_zh": "固执的；执拗的；顽固的；坚持的",
+        "source_page": 319,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "упрямый",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=319"
+      ]
+    },
+    {
+      "id": 10646,
+      "accent": "упуска́ть",
+      "part": "动词·未完成体",
+      "meaning": "失手掉落；让逃脱；错过；放过；遗漏",
+      "perfective": "упусти́ть",
+      "note": "补原页失手掉落义，不只表示错失机会。",
+      "stage": 2,
+      "original": {
+        "word": "упускать",
+        "part_of_speech": "未",
+        "meaning_zh": "错过；失去机会；放过",
+        "source_page": 319,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "упускать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=319"
+      ]
+    },
+    {
+      "id": 10647,
+      "accent": "у́ровень",
+      "part": "名词·阳性",
+      "meaning": "水平；水平面；高度；程度；级别",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "уровень",
+        "part_of_speech": "阳",
+        "meaning_zh": "水平；水平线；级别",
+        "source_page": 319,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "уровень",
+      "method": "2026-09-24当前助手逐词视觉核对PDF315至319页，补漏义并分离否定句与词头义，核对重音及体。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=319"
+      ]
+    }
+  ]
+}
