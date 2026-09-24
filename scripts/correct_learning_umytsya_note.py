@@ -8,7 +8,7 @@ from pathlib import Path
 from import_vocabulary_learning import ROOT, DEFAULT_DB, locate
 
 
-def correct(db, apply=False):
+def correct(db, apply=False, backup_dir=None):
     catalog = json.loads((ROOT / 'data/review_samples/learning_batch_144_catalog.json').read_text(encoding='utf-8'))
     item = next(r for r in catalog['records'] if r['id'] == 10636)
     old = dict(canonical_word=item['canonical'], accent=item['accent'], part=item['part'],
@@ -29,7 +29,9 @@ def correct(db, apply=False):
         word_id, status = state()
         if not apply or status == 'already_corrected':
             return dict(state=status, database_written=False)
-        backup = ROOT / 'data/processed/backups' / f'learning_note_{datetime.now():%Y%m%d_%H%M%S_%f}.sqlite'
+        directory = backup_dir or ROOT / 'data/processed/backups'
+        directory.mkdir(parents=True, exist_ok=True)
+        backup = directory / f'learning_note_{datetime.now():%Y%m%d_%H%M%S_%f}.sqlite'
         with closing(sqlite3.connect(backup)) as target:
             conn.backup(target)
         with conn:

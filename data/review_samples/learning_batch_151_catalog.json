@@ -1,0 +1,1110 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10901,
+      "accent": "экономи́ческий",
+      "part": "形容词",
+      "meaning": "经济的；经济学的",
+      "perfective": "",
+      "note": "不等同экономный节俭的。",
+      "stage": 2,
+      "original": {
+        "word": "экономический",
+        "part_of_speech": "形",
+        "meaning_zh": "经济的；经济学的",
+        "source_page": 342,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "экономический",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=342"
+      ]
+    },
+    {
+      "id": 10902,
+      "accent": "экра́н",
+      "part": "名词（阳性）",
+      "meaning": "屏幕；银幕；（转义）电影",
+      "perfective": "",
+      "note": "补原页电影明星的转义用法。",
+      "stage": 1,
+      "original": {
+        "word": "экран",
+        "part_of_speech": "阳",
+        "meaning_zh": "屏幕；银幕",
+        "source_page": 342,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "экран",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=342"
+      ]
+    },
+    {
+      "id": 10903,
+      "accent": "экску́рсия",
+      "part": "名词（阴性）",
+      "meaning": "游览；参观",
+      "perfective": "",
+      "note": "常指有组织的参观游览。",
+      "stage": 1,
+      "original": {
+        "word": "экскурсия",
+        "part_of_speech": "阴",
+        "meaning_zh": "游览；参观",
+        "source_page": 342,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "экскурсия",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=342"
+      ]
+    },
+    {
+      "id": 10904,
+      "accent": "экспеди́ция",
+      "part": "名词（阴性）",
+      "meaning": "考察；探险；考察队；探险队",
+      "perfective": "",
+      "note": "行动和人员团体两义。",
+      "stage": 2,
+      "original": {
+        "word": "экспедиция",
+        "part_of_speech": "阴",
+        "meaning_zh": "考察；探险；考察队",
+        "source_page": 342,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "экспедиция",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=342"
+      ]
+    },
+    {
+      "id": 10905,
+      "accent": "экспериме́нт",
+      "part": "名词（阳性）",
+      "meaning": "实验；试验；尝试",
+      "perfective": "",
+      "note": "原页科学实验及冒险尝试。",
+      "stage": 2,
+      "original": {
+        "word": "эксперимент",
+        "part_of_speech": "阳",
+        "meaning_zh": "实验；试验；尝试",
+        "source_page": 342,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "эксперимент",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=342"
+      ]
+    },
+    {
+      "id": 10906,
+      "accent": "эксплуата́ция",
+      "part": "名词（阴性）",
+      "meaning": "剥削；使用；运营；经营",
+      "perfective": "",
+      "note": "启用是вводить в эксплуатацию的整体义，不独立列启用。",
+      "stage": 3,
+      "original": {
+        "word": "эксплуатация",
+        "part_of_speech": "阴",
+        "meaning_zh": "剥削；使用；启用；经营",
+        "source_page": 342,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "эксплуатация",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=342"
+      ]
+    },
+    {
+      "id": 10907,
+      "accent": "эксплуати́ровать",
+      "part": "动词（未完成体）",
+      "meaning": "剥削；使用；运营；经营",
+      "perfective": "",
+      "note": "按原页未完成体；不强配前缀动词覆盖不同义项。",
+      "stage": 3,
+      "original": {
+        "word": "эксплуатировать",
+        "part_of_speech": "未",
+        "meaning_zh": "剥削；使用；操作",
+        "source_page": 342,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "эксплуатировать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=342"
+      ]
+    },
+    {
+      "id": 10908,
+      "accent": "электри́ческий",
+      "part": "形容词",
+      "meaning": "电的；电力的；电动的；电气的",
+      "perfective": "",
+      "note": "核对电流、电动机等例。",
+      "stage": 2,
+      "original": {
+        "word": "электрический",
+        "part_of_speech": "形",
+        "meaning_zh": "电的；电力的；电气的",
+        "source_page": 342,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "электрический",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=342"
+      ]
+    },
+    {
+      "id": 10909,
+      "accent": "электри́чество",
+      "part": "名词（中性）",
+      "meaning": "电；电能；电力；电灯照明",
+      "perfective": "",
+      "note": "原页电学是学科语境，用现代核心义优先；开电灯属照明转义。",
+      "stage": 2,
+      "original": {
+        "word": "электричество",
+        "part_of_speech": "中",
+        "meaning_zh": "电；电力；电学",
+        "source_page": 342,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "электричество",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=342"
+      ]
+    },
+    {
+      "id": 10910,
+      "accent": "электро́нный",
+      "part": "形容词",
+      "meaning": "电子的",
+      "perfective": "",
+      "note": "区别электри́ческий。",
+      "stage": 2,
+      "original": {
+        "word": "электронный",
+        "part_of_speech": "形",
+        "meaning_zh": "电子的",
+        "source_page": 343,
+        "source_line": "1"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "электронный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=343"
+      ]
+    },
+    {
+      "id": 10911,
+      "accent": "электроста́нция",
+      "part": "名词（阴性）",
+      "meaning": "发电站；发电厂",
+      "perfective": "",
+      "note": "词头主重音在стан。",
+      "stage": 2,
+      "original": {
+        "word": "электростанция",
+        "part_of_speech": "阴",
+        "meaning_zh": "发电站；发电厂",
+        "source_page": 343,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "электростанция",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=343"
+      ]
+    },
+    {
+      "id": 10912,
+      "accent": "электроэне́ргия",
+      "part": "名词（阴性）",
+      "meaning": "电能；电力",
+      "perfective": "",
+      "note": "长复合词主重音在нер。",
+      "stage": 2,
+      "original": {
+        "word": "электроэнергия",
+        "part_of_speech": "阴",
+        "meaning_zh": "电能；电力",
+        "source_page": 343,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "электроэнергия",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=343"
+      ]
+    },
+    {
+      "id": 10913,
+      "accent": "элеме́нт",
+      "part": "名词（阳性）",
+      "meaning": "元素；成分；构件；元件；（复数）基础知识；某类分子",
+      "perfective": "",
+      "note": "原页基础入门义常用复数，不将代表人物泛化为杰出人物。",
+      "stage": 2,
+      "original": {
+        "word": "элемент",
+        "part_of_speech": "阳",
+        "meaning_zh": "元素；成分；部件；代表人物",
+        "source_page": 343,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "элемент",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=343"
+      ]
+    },
+    {
+      "id": 10914,
+      "accent": "энерги́чный",
+      "part": "形容词",
+      "meaning": "精力充沛的；有活力的；有力的；坚决的",
+      "perfective": "",
+      "note": "原页措施义不是仅有毅力。",
+      "stage": 2,
+      "original": {
+        "word": "энергичный",
+        "part_of_speech": "形",
+        "meaning_zh": "精力充沛的；有毅力的；有力的",
+        "source_page": 343,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "энергичный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=343"
+      ]
+    },
+    {
+      "id": 10915,
+      "accent": "энтузиа́зм",
+      "part": "名词（阳性）",
+      "meaning": "热情；热忱；干劲",
+      "perfective": "",
+      "note": "注意字形зиа及重音。",
+      "stage": 2,
+      "original": {
+        "word": "энтузиазм",
+        "part_of_speech": "阳",
+        "meaning_zh": "热情；热忱；积极性",
+        "source_page": 343,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "энтузиазм",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=343"
+      ]
+    },
+    {
+      "id": 10916,
+      "accent": "эпо́ха",
+      "part": "名词（阴性）",
+      "meaning": "时代；时期",
+      "perfective": "",
+      "note": "原页文艺复兴时期。",
+      "stage": 2,
+      "original": {
+        "word": "эпоха",
+        "part_of_speech": "阴",
+        "meaning_zh": "时代；时期",
+        "source_page": 343,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "эпоха",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=343"
+      ]
+    },
+    {
+      "id": 10917,
+      "accent": "э́ра",
+      "part": "名词（阴性）",
+      "meaning": "纪元；时代",
+      "perfective": "",
+      "note": "两音节，重音首音节。",
+      "stage": 2,
+      "original": {
+        "word": "эра",
+        "part_of_speech": "阴",
+        "meaning_zh": "纪元；时代",
+        "source_page": 343,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "эра",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=343"
+      ]
+    },
+    {
+      "id": 10918,
+      "accent": "эстра́да",
+      "part": "名词（阴性）",
+      "meaning": "演出舞台；综艺表演；通俗文艺",
+      "perfective": "",
+      "note": "原页小型文艺表演不只轻音乐；普通舞台常用сцена。",
+      "stage": 3,
+      "original": {
+        "word": "эстрада",
+        "part_of_speech": "阴",
+        "meaning_zh": "舞台；演艺节目；轻音乐舞台",
+        "source_page": 343,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "эстрада",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=343"
+      ]
+    },
+    {
+      "id": 10919,
+      "accent": "эта́ж",
+      "part": "名词（阳性）",
+      "meaning": "楼层；层",
+      "perfective": "",
+      "note": "一楼первый этаж。",
+      "stage": 1,
+      "original": {
+        "word": "этаж",
+        "part_of_speech": "阳",
+        "meaning_zh": "层；楼层",
+        "source_page": 343,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "этаж",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=343"
+      ]
+    },
+    {
+      "id": 10920,
+      "accent": "эта́п",
+      "part": "名词（阳性）",
+      "meaning": "阶段；步骤",
+      "perfective": "",
+      "note": "原页发展阶段。",
+      "stage": 2,
+      "original": {
+        "word": "этап",
+        "part_of_speech": "阳",
+        "meaning_zh": "阶段；步骤",
+        "source_page": 343,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "этап",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=343"
+      ]
+    },
+    {
+      "id": 10921,
+      "accent": "э́тот",
+      "part": "指示代词",
+      "meaning": "这个；这；上述的",
+      "perfective": "",
+      "note": "跨页指代先前事物用法；阴性эта，中性это。",
+      "stage": 1,
+      "original": {
+        "word": "этот",
+        "part_of_speech": "代",
+        "meaning_zh": "这个；这一个；上述的",
+        "source_page": 343,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "этот",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=343",
+        "data/words/tem4_russian_words.pdf#page=344"
+      ]
+    },
+    {
+      "id": 10922,
+      "accent": "юбиле́й",
+      "part": "名词（阳性）",
+      "meaning": "周年纪念；纪念日；纪念庆典",
+      "perfective": "",
+      "note": "通常重要整周年，也可纪念重要生日。",
+      "stage": 2,
+      "original": {
+        "word": "юбилей",
+        "part_of_speech": "阳",
+        "meaning_zh": "周年纪念；纪念活动",
+        "source_page": 344,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "юбилей",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=344"
+      ]
+    },
+    {
+      "id": 10923,
+      "accent": "ю́бка",
+      "part": "名词（阴性）",
+      "meaning": "裙子；半身裙",
+      "perfective": "",
+      "note": "区别платье连衣裙。",
+      "stage": 1,
+      "original": {
+        "word": "юбка",
+        "part_of_speech": "阴",
+        "meaning_zh": "裙子",
+        "source_page": 344,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "юбка",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=344"
+      ]
+    },
+    {
+      "id": 10924,
+      "accent": "юг",
+      "part": "名词（阳性）",
+      "meaning": "南；南方；南部",
+      "perfective": "",
+      "note": "方位及地区义。",
+      "stage": 1,
+      "original": {
+        "word": "юг",
+        "part_of_speech": "阳",
+        "meaning_zh": "南方；南部",
+        "source_page": 344,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "юг",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=344"
+      ]
+    },
+    {
+      "id": 10925,
+      "accent": "ю́жный",
+      "part": "形容词",
+      "meaning": "南方的；南部的；南方人特有的",
+      "perfective": "",
+      "note": "原页南方口音等用法。",
+      "stage": 1,
+      "original": {
+        "word": "южный",
+        "part_of_speech": "形",
+        "meaning_zh": "南方的；南部的",
+        "source_page": 344,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "южный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=344"
+      ]
+    },
+    {
+      "id": 10926,
+      "accent": "ю́мор",
+      "part": "名词（阳性）",
+      "meaning": "幽默；幽默手法；幽默作品",
+      "perfective": "",
+      "note": "чувство юмора整体为幽默感，不单独以感替词。",
+      "stage": 2,
+      "original": {
+        "word": "юмор",
+        "part_of_speech": "阳",
+        "meaning_zh": "幽默；幽默感；幽默作品",
+        "source_page": 344,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "юмор",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=344"
+      ]
+    },
+    {
+      "id": 10927,
+      "accent": "ю́ность",
+      "part": "名词（阴性）",
+      "meaning": "少年时代；青春时期",
+      "perfective": "",
+      "note": "时期名词，不指某个青年。",
+      "stage": 2,
+      "original": {
+        "word": "юность",
+        "part_of_speech": "阴",
+        "meaning_zh": "少年时代；青春时代",
+        "source_page": 344,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "юность",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=344"
+      ]
+    },
+    {
+      "id": 10928,
+      "accent": "ю́ноша",
+      "part": "名词（阳性）",
+      "meaning": "男青年；少年男子",
+      "perfective": "",
+      "note": "虽以а结尾仍为阳性；补男性限定。",
+      "stage": 2,
+      "original": {
+        "word": "юноша",
+        "part_of_speech": "阳",
+        "meaning_zh": "青年；少年",
+        "source_page": 344,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "юноша",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=344"
+      ]
+    },
+    {
+      "id": 10929,
+      "accent": "ю́ный",
+      "part": "形容词",
+      "meaning": "年少的；年轻的；青春的",
+      "perfective": "",
+      "note": "核对少年及青年人两义。",
+      "stage": 2,
+      "original": {
+        "word": "юный",
+        "part_of_speech": "形",
+        "meaning_zh": "年轻的；少年的；青春的",
+        "source_page": 344,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "юный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=344"
+      ]
+    },
+    {
+      "id": 10930,
+      "accent": "юри́ст",
+      "part": "名词（阳性）",
+      "meaning": "法律工作者；法律专家；法学家",
+      "perfective": "",
+      "note": "律师只是可能职业之一，不直接等同адвокат。",
+      "stage": 2,
+      "original": {
+        "word": "юрист",
+        "part_of_speech": "阳",
+        "meaning_zh": "法学家；律师；法律专家",
+        "source_page": 344,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "юрист",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=344"
+      ]
+    },
+    {
+      "id": 10931,
+      "accent": "я́блоко",
+      "part": "名词（中性）",
+      "meaning": "苹果",
+      "perfective": "",
+      "note": "删除苹果树果实这种同义冗余。",
+      "stage": 1,
+      "original": {
+        "word": "яблоко",
+        "part_of_speech": "中",
+        "meaning_zh": "苹果；苹果树的果实",
+        "source_page": 345,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "яблоко",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=345"
+      ]
+    },
+    {
+      "id": 10932,
+      "accent": "явле́ние",
+      "part": "名词（中性）",
+      "meaning": "现象；出现；显现",
+      "perfective": "",
+      "note": "原页哲学现象与本质用法；不把表象作为唯一核心义。",
+      "stage": 2,
+      "original": {
+        "word": "явление",
+        "part_of_speech": "中",
+        "meaning_zh": "现象；表象",
+        "source_page": 345,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "явление",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=345"
+      ]
+    },
+    {
+      "id": 10933,
+      "accent": "явля́ться",
+      "part": "动词（未完成体）",
+      "meaning": "来；到场；出现；（接第五格）是、成为",
+      "perfective": "яви́ться",
+      "note": "体对适用于到场、出现；系词用法不要机械按体替换。出庭上班是例句语境。",
+      "stage": 2,
+      "original": {
+        "word": "являться",
+        "part_of_speech": "未",
+        "meaning_zh": "来；到；出庭；上班；是",
+        "source_page": 345,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "являться",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=345"
+      ]
+    },
+    {
+      "id": 10934,
+      "accent": "я́вный",
+      "part": "形容词",
+      "meaning": "明显的；显然的；公开的；公然的",
+      "perfective": "",
+      "note": "原页公开不满与明显谎言。",
+      "stage": 2,
+      "original": {
+        "word": "явный",
+        "part_of_speech": "形",
+        "meaning_zh": "明显的；公开的；显然的",
+        "source_page": 345,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "явный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=345"
+      ]
+    },
+    {
+      "id": 10935,
+      "accent": "я́года",
+      "part": "名词（阴性）",
+      "meaning": "浆果；小型多汁果实",
+      "perfective": "",
+      "note": "不限定野生，原页覆盆子可栽培。",
+      "stage": 1,
+      "original": {
+        "word": "ягода",
+        "part_of_speech": "阴",
+        "meaning_zh": "浆果；野果",
+        "source_page": 345,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ягода",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=345"
+      ]
+    },
+    {
+      "id": 10936,
+      "accent": "я́дерный",
+      "part": "形容词",
+      "meaning": "核的；原子核的；核能的；核武器的",
+      "perfective": "",
+      "note": "原页核物理与核武器用法。",
+      "stage": 2,
+      "original": {
+        "word": "ядерный",
+        "part_of_speech": "形",
+        "meaning_zh": "核的；核反应的；核能的",
+        "source_page": 345,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ядерный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=345"
+      ]
+    },
+    {
+      "id": 10937,
+      "accent": "ядро́",
+      "part": "名词（中性）",
+      "meaning": "核；果仁；核心；中心；铅球",
+      "perfective": "",
+      "note": "补原页体育铅球义。",
+      "stage": 2,
+      "original": {
+        "word": "ядро",
+        "part_of_speech": "中",
+        "meaning_zh": "核；果仁；核心；中心",
+        "source_page": 345,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ядро",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=345"
+      ]
+    },
+    {
+      "id": 10939,
+      "accent": "яйцо́",
+      "part": "名词（中性）",
+      "meaning": "蛋；卵",
+      "perfective": "",
+      "note": "鸡蛋需具体语境，不泛限鸡蛋。",
+      "stage": 1,
+      "original": {
+        "word": "яйцо",
+        "part_of_speech": "中",
+        "meaning_zh": "蛋；卵；鸡蛋",
+        "source_page": 346,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "яйцо",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=346"
+      ]
+    },
+    {
+      "id": 10940,
+      "accent": "я́ма",
+      "part": "名词（阴性）",
+      "meaning": "坑；穴",
+      "perfective": "",
+      "note": "原页地坑。",
+      "stage": 1,
+      "original": {
+        "word": "яма",
+        "part_of_speech": "阴",
+        "meaning_zh": "坑；穴",
+        "source_page": 346,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "яма",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=346"
+      ]
+    },
+    {
+      "id": 10941,
+      "accent": "янва́рь",
+      "part": "名词（阳性）",
+      "meaning": "一月",
+      "perfective": "",
+      "note": "软音结尾阳性。",
+      "stage": 1,
+      "original": {
+        "word": "январь",
+        "part_of_speech": "阳",
+        "meaning_zh": "一月",
+        "source_page": 346,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "январь",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=346"
+      ]
+    },
+    {
+      "id": 10942,
+      "accent": "япо́нский",
+      "part": "形容词",
+      "meaning": "日本的；日本人的；日语的",
+      "perfective": "",
+      "note": "原页日本与日语搭配。",
+      "stage": 1,
+      "original": {
+        "word": "японский",
+        "part_of_speech": "形",
+        "meaning_zh": "日本的；日语的",
+        "source_page": 346,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "японский",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=346"
+      ]
+    },
+    {
+      "id": 10943,
+      "accent": "я́ркий",
+      "part": "形容词",
+      "meaning": "明亮的；鲜艳的；突出的；出色的",
+      "perfective": "",
+      "note": "核对光线、颜色、事例三义。",
+      "stage": 2,
+      "original": {
+        "word": "яркий",
+        "part_of_speech": "形",
+        "meaning_zh": "明亮的；鲜艳的；突出的",
+        "source_page": 346,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "яркий",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=346"
+      ]
+    },
+    {
+      "id": 10944,
+      "accent": "я́сный",
+      "part": "形容词",
+      "meaning": "明亮的；晴朗的；清晰的；明确的；开朗的",
+      "perfective": "",
+      "note": "补原页开朗神态义。",
+      "stage": 2,
+      "original": {
+        "word": "ясный",
+        "part_of_speech": "形",
+        "meaning_zh": "明亮的；晴朗的；清楚的；明确的",
+        "source_page": 346,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ясный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=346"
+      ]
+    },
+    {
+      "id": 10945,
+      "accent": "я́щик",
+      "part": "名词（阳性）",
+      "meaning": "箱子；匣子；抽屉",
+      "perfective": "",
+      "note": "почтовый ящик为信箱，不把修饰词义单独混入。",
+      "stage": 1,
+      "original": {
+        "word": "ящик",
+        "part_of_speech": "阳",
+        "meaning_zh": "箱子；匣子；抽屉；信箱",
+        "source_page": 346,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ящик",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=346"
+      ]
+    },
+    {
+      "id": 10946,
+      "accent": "бо́лее и́ли ме́нее",
+      "part": "固定短语",
+      "meaning": "或多或少；大致；还算",
+      "perfective": "",
+      "note": "原页他们多少有点相像；逐词标重音。",
+      "stage": 2,
+      "original": {
+        "word": "более или менее",
+        "part_of_speech": "短语",
+        "meaning_zh": "或多或少；大致",
+        "source_page": 348,
+        "source_line": "1"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "более или менее",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=348"
+      ]
+    },
+    {
+      "id": 10947,
+      "accent": "име́ть в виду́",
+      "part": "固定短语（未完成体）",
+      "meaning": "指的是；意指；考虑到；记住",
+      "perfective": "",
+      "note": "固定搭配в виду分写，不与介词ввиду混淆。",
+      "stage": 2,
+      "original": {
+        "word": "иметь в виду",
+        "part_of_speech": "短语",
+        "meaning_zh": "指的是；意思是；考虑到",
+        "source_page": 349,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "иметь в виду",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=349"
+      ]
+    },
+    {
+      "id": 10948,
+      "accent": "лома́ть го́лову над чем",
+      "part": "固定短语（未完成体）",
+      "meaning": "为某事绞尽脑汁；苦苦思考",
+      "perfective": "",
+      "note": "над后接第五格，чем为格支配提示。",
+      "stage": 2,
+      "original": {
+        "word": "ломать голову над чем",
+        "part_of_speech": "短语",
+        "meaning_zh": "为某事绞尽脑汁；苦苦思考",
+        "source_page": 350,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ломать голову над чем",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=350"
+      ]
+    },
+    {
+      "id": 10949,
+      "accent": "сказа́ть своё сло́во",
+      "part": "固定短语（完成体）",
+      "meaning": "发表自己的意见；发挥自己的作用；作出贡献",
+      "perfective": "",
+      "note": "原页强调表现力量、产生影响；保留惯用义而不只字面说话。",
+      "stage": 2,
+      "original": {
+        "word": "сказать своё слово",
+        "part_of_speech": "短语",
+        "meaning_zh": "发挥作用；产生影响",
+        "source_page": 352,
+        "source_line": "1"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "сказать своё слово",
+      "method": "2026-09-24当前助手逐词视觉核对PDF342至346页及348、349、350、352页中四个待审固定搭配；非上述页面其他词条的全量重审。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=352"
+      ]
+    }
+  ]
+}

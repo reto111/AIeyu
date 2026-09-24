@@ -1,0 +1,1111 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10852,
+      "accent": "шаг",
+      "part": "名词（阳性）",
+      "meaning": "步；步伐；步长；步骤；措施",
+      "perfective": "",
+      "note": "进展需具体搭配，补回原页步骤、措施义。",
+      "stage": 1,
+      "original": {
+        "word": "шаг",
+        "part_of_speech": "阳",
+        "meaning_zh": "步；步伐；一步；进展",
+        "source_page": 337,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шаг",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=337"
+      ]
+    },
+    {
+      "id": 10853,
+      "accent": "шага́ть",
+      "part": "动词（未完成体）",
+      "meaning": "迈步；行走；前进",
+      "perfective": "шагну́ть",
+      "note": "完成体表示迈一步、跨一步。",
+      "stage": 2,
+      "original": {
+        "word": "шагать",
+        "part_of_speech": "未",
+        "meaning_zh": "走；迈步；前进",
+        "source_page": 337,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шагать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=337"
+      ]
+    },
+    {
+      "id": 10854,
+      "accent": "ша́пка",
+      "part": "名词（阴性）",
+      "meaning": "帽子（通常无帽檐）；帽状覆盖物；通栏标题",
+      "perfective": "",
+      "note": "标题义限报刊等语境；核心为帽子。",
+      "stage": 1,
+      "original": {
+        "word": "шапка",
+        "part_of_speech": "阴",
+        "meaning_zh": "帽子；帽形物；标题",
+        "source_page": 338,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шапка",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=338"
+      ]
+    },
+    {
+      "id": 10855,
+      "accent": "шар",
+      "part": "名词（阳性）",
+      "meaning": "球；球体；气球",
+      "perfective": "",
+      "note": "删除无依据的层；земной шар才指地球。",
+      "stage": 1,
+      "original": {
+        "word": "шар",
+        "part_of_speech": "阳",
+        "meaning_zh": "球；球体；地球；层",
+        "source_page": 338,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шар",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=338"
+      ]
+    },
+    {
+      "id": 10856,
+      "accent": "шарф",
+      "part": "名词（阳性）",
+      "meaning": "围巾；长围巾",
+      "perfective": "",
+      "note": "原页毛围巾、丝围巾；不泛指所有头巾。",
+      "stage": 1,
+      "original": {
+        "word": "шарф",
+        "part_of_speech": "阳",
+        "meaning_zh": "围巾；头巾",
+        "source_page": 338,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шарф",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=338"
+      ]
+    },
+    {
+      "id": 10857,
+      "accent": "ша́хматы",
+      "part": "名词（复数）",
+      "meaning": "国际象棋；一副国际象棋棋子",
+      "perfective": "",
+      "note": "китайские шахматы为中国象棋，不直接混成无区别的象棋。",
+      "stage": 2,
+      "original": {
+        "word": "шахматы",
+        "part_of_speech": "复",
+        "meaning_zh": "国际象棋；象棋",
+        "source_page": 338,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шахматы",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=338"
+      ]
+    },
+    {
+      "id": 10858,
+      "accent": "ша́хта",
+      "part": "名词（阴性）",
+      "meaning": "矿井；竖井；矿场",
+      "perfective": "",
+      "note": "核对矿井及采矿企业义。",
+      "stage": 2,
+      "original": {
+        "word": "шахта",
+        "part_of_speech": "阴",
+        "meaning_zh": "矿井；矿山；矿场",
+        "source_page": 338,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шахта",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=338"
+      ]
+    },
+    {
+      "id": 10859,
+      "accent": "шахтёр",
+      "part": "名词（阳性）",
+      "meaning": "矿工",
+      "perfective": "",
+      "note": "保留ё。",
+      "stage": 2,
+      "original": {
+        "word": "шахтёр",
+        "part_of_speech": "阳",
+        "meaning_zh": "矿工",
+        "source_page": 338,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шахтёр",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=338"
+      ]
+    },
+    {
+      "id": 10860,
+      "accent": "ша́шка",
+      "part": "名词（阴性）",
+      "meaning": "俄式跳棋棋子；军刀",
+      "perfective": "",
+      "note": "军刀是同形词另一义；棋子不是中国跳棋专名。",
+      "stage": 2,
+      "original": {
+        "word": "шашка",
+        "part_of_speech": "阴",
+        "meaning_zh": "跳棋子；军刀",
+        "source_page": 338,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шашка",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=338"
+      ]
+    },
+    {
+      "id": 10861,
+      "accent": "ша́шки",
+      "part": "名词（复数）",
+      "meaning": "俄式跳棋；西洋跳棋",
+      "perfective": "",
+      "note": "指在方格棋盘上进行的draughts，不是中国跳棋。",
+      "stage": 2,
+      "original": {
+        "word": "шашки",
+        "part_of_speech": "复",
+        "meaning_zh": "跳棋；跳棋游戏",
+        "source_page": 338,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шашки",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=338"
+      ]
+    },
+    {
+      "id": 10862,
+      "accent": "шёлк",
+      "part": "名词（阳性）",
+      "meaning": "丝；丝线；丝绸",
+      "perfective": "",
+      "note": "保留ё，区分原料与织物。",
+      "stage": 2,
+      "original": {
+        "word": "шёлк",
+        "part_of_speech": "阳",
+        "meaning_zh": "丝；丝绸；丝线",
+        "source_page": 338,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шёлк",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=338"
+      ]
+    },
+    {
+      "id": 10863,
+      "accent": "шепта́ть",
+      "part": "动词（未完成体）",
+      "meaning": "低声说；耳语；悄悄说",
+      "perfective": "прошепта́ть",
+      "note": "原页另列一次动作шепну́ть。",
+      "stage": 2,
+      "original": {
+        "word": "шептать",
+        "part_of_speech": "未",
+        "meaning_zh": "低声说；耳语；悄悄说",
+        "source_page": 338,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шептать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=338"
+      ]
+    },
+    {
+      "id": 10864,
+      "accent": "шерсть",
+      "part": "名词（阴性）",
+      "meaning": "兽毛；羊毛；毛线；毛料",
+      "perfective": "",
+      "note": "原页毛线毛料义被遗漏；删除毛皮，毛皮通常为мех。",
+      "stage": 2,
+      "original": {
+        "word": "шерсть",
+        "part_of_speech": "阴",
+        "meaning_zh": "羊毛；毛；毛皮",
+        "source_page": 338,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шерсть",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=338"
+      ]
+    },
+    {
+      "id": 10865,
+      "accent": "шерстяно́й",
+      "part": "形容词",
+      "meaning": "毛的；羊毛的；毛纺的；毛料制的",
+      "perfective": "",
+      "note": "核对材料、工业及织物用法。",
+      "stage": 2,
+      "original": {
+        "word": "шерстяной",
+        "part_of_speech": "形",
+        "meaning_zh": "羊毛的；毛纺的",
+        "source_page": 338,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шерстяной",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=338"
+      ]
+    },
+    {
+      "id": 10866,
+      "accent": "шестидеся́тый",
+      "part": "序数词",
+      "meaning": "第六十",
+      "perfective": "",
+      "note": "注意重音ся。",
+      "stage": 1,
+      "original": {
+        "word": "шестидесятый",
+        "part_of_speech": "数",
+        "meaning_zh": "第六十",
+        "source_page": 338,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шестидесятый",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=338"
+      ]
+    },
+    {
+      "id": 10867,
+      "accent": "шестна́дцатый",
+      "part": "序数词",
+      "meaning": "第十六",
+      "perfective": "",
+      "note": "原页重音与字形核对。",
+      "stage": 1,
+      "original": {
+        "word": "шестнадцатый",
+        "part_of_speech": "数",
+        "meaning_zh": "第十六",
+        "source_page": 338,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шестнадцатый",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=338"
+      ]
+    },
+    {
+      "id": 10868,
+      "accent": "шестна́дцать",
+      "part": "数词",
+      "meaning": "十六",
+      "perfective": "",
+      "note": "基数词。",
+      "stage": 1,
+      "original": {
+        "word": "шестнадцать",
+        "part_of_speech": "数",
+        "meaning_zh": "十六；十六个",
+        "source_page": 338,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шестнадцать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=338"
+      ]
+    },
+    {
+      "id": 10869,
+      "accent": "шесто́й",
+      "part": "序数词",
+      "meaning": "第六",
+      "perfective": "",
+      "note": "одна шестая才表示六分之一。",
+      "stage": 1,
+      "original": {
+        "word": "шестой",
+        "part_of_speech": "数",
+        "meaning_zh": "第六；六分之一",
+        "source_page": 338,
+        "source_line": "17"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шестой",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=338"
+      ]
+    },
+    {
+      "id": 10870,
+      "accent": "шесть",
+      "part": "数词",
+      "meaning": "六",
+      "perfective": "",
+      "note": "单音节不加重音符。",
+      "stage": 1,
+      "original": {
+        "word": "шесть",
+        "part_of_speech": "数",
+        "meaning_zh": "六；六个",
+        "source_page": 338,
+        "source_line": "18"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шесть",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=338"
+      ]
+    },
+    {
+      "id": 10871,
+      "accent": "шестьдеся́т",
+      "part": "数词",
+      "meaning": "六十",
+      "perfective": "",
+      "note": "重音在最后音节。",
+      "stage": 1,
+      "original": {
+        "word": "шестьдесят",
+        "part_of_speech": "数",
+        "meaning_zh": "六十；六十个",
+        "source_page": 338,
+        "source_line": "19"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шестьдесят",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=338"
+      ]
+    },
+    {
+      "id": 10872,
+      "accent": "шестьсо́т",
+      "part": "数词",
+      "meaning": "六百",
+      "perfective": "",
+      "note": "原页跨页词头核对。",
+      "stage": 1,
+      "original": {
+        "word": "шестьсот",
+        "part_of_speech": "数",
+        "meaning_zh": "六百；六百个",
+        "source_page": 339,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шестьсот",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=339"
+      ]
+    },
+    {
+      "id": 10873,
+      "accent": "ше́я",
+      "part": "名词（阴性）",
+      "meaning": "脖子；颈部",
+      "perfective": "",
+      "note": "词头非变格形式。",
+      "stage": 1,
+      "original": {
+        "word": "шея",
+        "part_of_speech": "阴",
+        "meaning_zh": "脖子；颈部",
+        "source_page": 339,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шея",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=339"
+      ]
+    },
+    {
+      "id": 10874,
+      "accent": "шине́ль",
+      "part": "名词（阴性）",
+      "meaning": "军大衣；制服大衣",
+      "perfective": "",
+      "note": "名词阴性，不因辅音结尾误判。",
+      "stage": 2,
+      "original": {
+        "word": "шинель",
+        "part_of_speech": "阴",
+        "meaning_zh": "军大衣；制服大衣",
+        "source_page": 339,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шинель",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=339"
+      ]
+    },
+    {
+      "id": 10875,
+      "accent": "ширина́",
+      "part": "名词（阴性）",
+      "meaning": "宽；宽度",
+      "perfective": "",
+      "note": "原页宽度义。",
+      "stage": 1,
+      "original": {
+        "word": "ширина",
+        "part_of_speech": "阴",
+        "meaning_zh": "宽；宽度",
+        "source_page": 339,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ширина",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=339"
+      ]
+    },
+    {
+      "id": 10876,
+      "accent": "широ́кий",
+      "part": "形容词",
+      "meaning": "宽的；宽阔的；宽大的；广泛的；开阔的；大方的",
+      "perfective": "",
+      "note": "补原页广泛用途、眼界及性格义；肥大限衣物。",
+      "stage": 1,
+      "original": {
+        "word": "широкий",
+        "part_of_speech": "形",
+        "meaning_zh": "宽的；宽阔的；肥大的",
+        "source_page": 339,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "широкий",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=339"
+      ]
+    },
+    {
+      "id": 10877,
+      "accent": "шить",
+      "part": "动词（未完成体）",
+      "meaning": "缝；缝制；做缝纫活；刺绣",
+      "perfective": "сшить",
+      "note": "缝制成品可用完成体сшить；刺绣义依语境另配。",
+      "stage": 2,
+      "original": {
+        "word": "шить",
+        "part_of_speech": "未",
+        "meaning_zh": "缝；缝制；做缝纫活",
+        "source_page": 339,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шить",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=339"
+      ]
+    },
+    {
+      "id": 10878,
+      "accent": "шкаф",
+      "part": "名词（阳性）",
+      "meaning": "柜子；橱柜",
+      "perfective": "",
+      "note": "衣柜为платяной шкаф等具体搭配。",
+      "stage": 1,
+      "original": {
+        "word": "шкаф",
+        "part_of_speech": "阳",
+        "meaning_zh": "柜子；橱柜；衣柜",
+        "source_page": 339,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шкаф",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=339"
+      ]
+    },
+    {
+      "id": 10880,
+      "accent": "шко́льник",
+      "part": "名词（阳性）",
+      "meaning": "中小学生",
+      "perfective": "",
+      "note": "不泛指大学生；阴性шко́льница。",
+      "stage": 1,
+      "original": {
+        "word": "школьник",
+        "part_of_speech": "阳",
+        "meaning_zh": "学生；小学生；中学生",
+        "source_page": 339,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "школьник",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=339"
+      ]
+    },
+    {
+      "id": 10881,
+      "accent": "шко́льный",
+      "part": "形容词",
+      "meaning": "学校的；中小学的；中小学生的",
+      "perfective": "",
+      "note": "核对跨页校服、教学大纲及学龄用法。",
+      "stage": 1,
+      "original": {
+        "word": "школьный",
+        "part_of_speech": "形",
+        "meaning_zh": "学校的；学生的",
+        "source_page": 339,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "школьный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=339",
+        "data/words/tem4_russian_words.pdf#page=340"
+      ]
+    },
+    {
+      "id": 10882,
+      "accent": "шля́па",
+      "part": "名词（阴性）",
+      "meaning": "有檐帽；礼帽",
+      "perfective": "",
+      "note": "删除无依据的无聊老套想法；女帽只是搭配例而非性别限制。",
+      "stage": 1,
+      "original": {
+        "word": "шляпа",
+        "part_of_speech": "阴",
+        "meaning_zh": "帽子；女帽；无聊的老套想法",
+        "source_page": 340,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шляпа",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=340"
+      ]
+    },
+    {
+      "id": 10883,
+      "accent": "шокола́д",
+      "part": "名词（阳性）",
+      "meaning": "巧克力",
+      "perfective": "",
+      "note": "不保留旧译朱古力重复项。",
+      "stage": 1,
+      "original": {
+        "word": "шоколад",
+        "part_of_speech": "阳",
+        "meaning_zh": "巧克力",
+        "source_page": 340,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шоколад",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=340"
+      ]
+    },
+    {
+      "id": 10884,
+      "accent": "шофёр",
+      "part": "名词（阳性）",
+      "meaning": "汽车司机；驾驶员",
+      "perfective": "",
+      "note": "原页ё及汽车语境明确。",
+      "stage": 1,
+      "original": {
+        "word": "шофёр",
+        "part_of_speech": "阳",
+        "meaning_zh": "司机；驾驶员",
+        "source_page": 340,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шофёр",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=340"
+      ]
+    },
+    {
+      "id": 10885,
+      "accent": "штаб",
+      "part": "名词（阳性）",
+      "meaning": "参谋部；司令部；指挥部；总部",
+      "perfective": "",
+      "note": "原页军事与指挥组织两类用法。",
+      "stage": 2,
+      "original": {
+        "word": "штаб",
+        "part_of_speech": "阳",
+        "meaning_zh": "司令部；总部；参谋部",
+        "source_page": 340,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "штаб",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=340"
+      ]
+    },
+    {
+      "id": 10886,
+      "accent": "штраф",
+      "part": "名词（阳性）",
+      "meaning": "罚款；罚金",
+      "perfective": "",
+      "note": "不泛化为所有处罚。",
+      "stage": 2,
+      "original": {
+        "word": "штраф",
+        "part_of_speech": "阳",
+        "meaning_zh": "罚款；罚金；处罚",
+        "source_page": 340,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "штраф",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=340"
+      ]
+    },
+    {
+      "id": 10887,
+      "accent": "шту́ка",
+      "part": "名词（阴性）",
+      "meaning": "件；个；枚；（口语）东西、物件、事情",
+      "perfective": "",
+      "note": "删除无语境支持的窍门，保留原页量词及口语义。",
+      "stage": 2,
+      "original": {
+        "word": "штука",
+        "part_of_speech": "阴",
+        "meaning_zh": "件；个；东西；窍门",
+        "source_page": 340,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "штука",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=340"
+      ]
+    },
+    {
+      "id": 10888,
+      "accent": "шу́ба",
+      "part": "名词（阴性）",
+      "meaning": "毛皮大衣",
+      "perfective": "",
+      "note": "与шерсть毛、шине́ль军大衣区分。",
+      "stage": 2,
+      "original": {
+        "word": "шуба",
+        "part_of_speech": "阴",
+        "meaning_zh": "皮大衣；毛皮大衣",
+        "source_page": 340,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шуба",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=340"
+      ]
+    },
+    {
+      "id": 10889,
+      "accent": "шум",
+      "part": "名词（阳性）",
+      "meaning": "响声；噪声；喧闹；议论；轰动",
+      "perfective": "",
+      "note": "原页还有杂音及引发议论义。",
+      "stage": 2,
+      "original": {
+        "word": "шум",
+        "part_of_speech": "阳",
+        "meaning_zh": "噪声；喧哗声；嘈杂",
+        "source_page": 340,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шум",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=340"
+      ]
+    },
+    {
+      "id": 10890,
+      "accent": "шуме́ть",
+      "part": "动词（未完成体）",
+      "meaning": "发出响声；喧哗；吵闹",
+      "perfective": "прошуме́ть",
+      "note": "原页列完成体，侧重响过或持续一段时间后结束；不是所有用法简单替换。",
+      "stage": 2,
+      "original": {
+        "word": "шуметь",
+        "part_of_speech": "未",
+        "meaning_zh": "发出响声；喧哗；喧嚷",
+        "source_page": 340,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шуметь",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=340"
+      ]
+    },
+    {
+      "id": 10891,
+      "accent": "шу́мный",
+      "part": "形容词",
+      "meaning": "喧闹的；吵闹的；热闹的",
+      "perfective": "",
+      "note": "跨页核对大街热闹义。",
+      "stage": 2,
+      "original": {
+        "word": "шумный",
+        "part_of_speech": "形",
+        "meaning_zh": "喧闹的；吵闹的；热闹的",
+        "source_page": 340,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шумный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=340",
+        "data/words/tem4_russian_words.pdf#page=341"
+      ]
+    },
+    {
+      "id": 10892,
+      "accent": "шути́ть",
+      "part": "动词（未完成体）",
+      "meaning": "开玩笑；说笑话；戏弄；不当回事",
+      "perfective": "пошути́ть",
+      "note": "原页nad结构表示拿某人某事开玩笑。",
+      "stage": 2,
+      "original": {
+        "word": "шутить",
+        "part_of_speech": "未",
+        "meaning_zh": "开玩笑；讲笑话；戏弄",
+        "source_page": 341,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шутить",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=341"
+      ]
+    },
+    {
+      "id": 10893,
+      "accent": "шу́тка",
+      "part": "名词（阴性）",
+      "meaning": "玩笑；笑话；戏谑",
+      "perfective": "",
+      "note": "恶意戏谑见злая шутка，不把恶意当固有义。",
+      "stage": 2,
+      "original": {
+        "word": "шутка",
+        "part_of_speech": "阴",
+        "meaning_zh": "笑话；玩笑；恶作剧",
+        "source_page": 341,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "шутка",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=341"
+      ]
+    },
+    {
+      "id": 10894,
+      "accent": "ще́дрый",
+      "part": "形容词",
+      "meaning": "慷慨的；大方的；丰厚的；丰富的",
+      "perfective": "",
+      "note": "原页人和馈赠等用法。",
+      "stage": 2,
+      "original": {
+        "word": "щедрый",
+        "part_of_speech": "形",
+        "meaning_zh": "慷慨的；大方的；丰富的；富饶的",
+        "source_page": 341,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "щедрый",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=341"
+      ]
+    },
+    {
+      "id": 10895,
+      "accent": "щека́",
+      "part": "名词（阴性）",
+      "meaning": "脸颊；面颊",
+      "perfective": "",
+      "note": "单数重音末尾，复数щёки。",
+      "stage": 1,
+      "original": {
+        "word": "щека",
+        "part_of_speech": "阴",
+        "meaning_zh": "脸颊；面颊",
+        "source_page": 341,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "щека",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=341"
+      ]
+    },
+    {
+      "id": 10896,
+      "accent": "щётка",
+      "part": "名词（阴性）",
+      "meaning": "刷子",
+      "perfective": "",
+      "note": "牙刷、鞋刷分别需зубная或для обуви，保留ё。",
+      "stage": 1,
+      "original": {
+        "word": "щётка",
+        "part_of_speech": "阴",
+        "meaning_zh": "刷子；牙刷；鞋刷",
+        "source_page": 341,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "щётка",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=341"
+      ]
+    },
+    {
+      "id": 10897,
+      "accent": "щи",
+      "part": "名词（复数）",
+      "meaning": "俄式白菜汤；卷心菜汤",
+      "perfective": "",
+      "note": "俄式汤名，只用复数。",
+      "stage": 2,
+      "original": {
+        "word": "щи",
+        "part_of_speech": "复",
+        "meaning_zh": "白菜汤；卷心菜汤",
+        "source_page": 341,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "щи",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=341"
+      ]
+    },
+    {
+      "id": 10898,
+      "accent": "экза́мен",
+      "part": "名词（阳性）",
+      "meaning": "考试；测验；考验",
+      "perfective": "",
+      "note": "补原页转义考验。",
+      "stage": 1,
+      "original": {
+        "word": "экзамен",
+        "part_of_speech": "阳",
+        "meaning_zh": "考试；测验",
+        "source_page": 341,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "экзамен",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=341"
+      ]
+    },
+    {
+      "id": 10899,
+      "accent": "экипа́ж",
+      "part": "名词（阳性）",
+      "meaning": "全体机组人员；全体船员；乘务组；车组",
+      "perfective": "",
+      "note": "限定交通工具中的工作团队，不是任意全体成员。",
+      "stage": 2,
+      "original": {
+        "word": "экипаж",
+        "part_of_speech": "阳",
+        "meaning_zh": "全体成员；乘务组；车组",
+        "source_page": 341,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "экипаж",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=341"
+      ]
+    },
+    {
+      "id": 10900,
+      "accent": "эконо́мика",
+      "part": "名词（阴性）",
+      "meaning": "经济；经济状况；经济学",
+      "perfective": "",
+      "note": "原页三项核心义。",
+      "stage": 2,
+      "original": {
+        "word": "экономика",
+        "part_of_speech": "阴",
+        "meaning_zh": "经济；经济学；经济状况",
+        "source_page": 341,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "экономика",
+      "method": "2026-09-24当前助手逐词视觉核对PDF337至341页，检查词义误混、搭配限定、重音与体对；附模型对常用语义的纠正说明。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=341"
+      ]
+    }
+  ]
+}

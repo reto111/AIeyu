@@ -1,6 +1,14 @@
 {
- "updated":"2026-09-15",
- "scope":"本轮逐词审核中已读但尚未确认的核心标注；未检查的普通pending不在本表。",
+ "updated":"2026-09-24",
+ "scope":"records保留2026-09-15历史未决判断；当前状态以follow_up及current_pending_ids为准。未检查的普通pending不在历史表中；截至2026-09-24顺序队列已走完。",
+ "current_pending_ids":[5984,6229],
+ "follow_up":{
+   "date":"2026-09-24",
+   "8316":{"status":"resolved","batch":152,"reason":"原页复核后用Gramota区分两个заиграть及两个заигрывать，纠正旧完成体标记与起始义泛化；现代常用调情、讨好义无同一体对，玩坏、演奏过滥义另注完成体。","sources":["https://gramota.ru/poisk?mode=all&query=%D0%B7%D0%B0%D0%B8%D0%B3%D1%80%D1%8B%D0%B2%D0%B0%D0%B5%D1%82&simple=0","https://gramota.ru/poisk?dicts%5B%5D=42&mode=slovari&query=%D0%B7%D0%B0%D0%B8%D0%B3%D1%80%D0%B0%D1%82%D1%8C"]},
+   "8945":{"status":"resolved_with_source_variation_note","batch":152,"reason":"已有词头ё得到Gramota元词条与读音词典支持，故保留展示；原页及正字法资料的е形式在说明中保留，不断言唯一规范，不全局替换。","sources":["https://gramota.ru/meta/naverstyvat","https://ruslang.ru/sites/default/files/doc/normativnyje_slovari/orfoepicheskij_slovar.pdf","https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf"]},
+   "6229":{"status":"pronunciation_pending_meaning_corrected","reason":"原PDF120页明确中国人民解放军，已修中国大民解放军。缩略语读音仍未取得足够可靠证据；不套用同形姓氏Ноак重音，不放宽普通词校验绕过。","script":"scripts/correct_vocabulary_noak_meaning.py","backup":"data/processed/backups/vocabulary_noak_20260924_103920_576168.sqlite","next":"取得可靠俄语缩略语发音资料；此词未进入有效重音标注池。"},
+   "5984":{"status":"pronunciation_pending","reason":"已复看原页并核联合国地名资料，Кыргызская Республика确为俄语正式自称写法；官方拼写资料不证明重音，不根据普通киргизский强行更换专名。","sources":["data/words/tem8_russian_words.pdf#page=87","https://ungegn.un.org/dashboard/countries/namedetails?id=122"],"next":"可靠俄语专名读音来源或教师确认后再标注，不归档、不重写词头。"}
+ },
  "records":[
  {"id":8945,"word":"навёрстывать","source":"data/words/tem4_russian_words.pdf#page=150","status":"pending","reason":"原页写наве́рстывать，Грамота元词条及其读音词典列навёрстывать，而正字法PDF列наве́рстывать。保留原值，不把ё宣布为OCR错误，不强加统一读音。","references":["https://gramota.ru/meta/naverstyvat","https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf"],"next":"核当前正字法与读音规范的变体许可，确认展示形式再标注；其他词照常推进。"},
  {"id":8316,"word":"заигрывать","source":"data/words/tem4_russian_words.pdf#page=91","status":"pending","reason":"原书将开始演奏/游戏与заиграть配对；现代词典还列调情、讨好及玩坏等不同义，当前检索不足以核定原来源起始义的通用程度。先修正文稿思路但不入标注库，不直接把主词义改成调情或强配统一完成体。","reference":"https://gramota.ru/meta/zaigrat","next":"逐条核词典заигрывать与заиграть义项编号、语体，确认本来源保留范围及另一体后再导入。"},

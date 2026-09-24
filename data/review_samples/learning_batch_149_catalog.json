@@ -1,0 +1,927 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10810,
+      "accent": "чемода́н",
+      "part": "名词（阳性）",
+      "meaning": "手提箱；行李箱",
+      "perfective": "",
+      "note": "核对原页寄运行李箱用法。",
+      "stage": 1,
+      "original": {
+        "word": "чемодан",
+        "part_of_speech": "阳",
+        "meaning_zh": "手提箱；皮箱",
+        "source_page": 334,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чемодан",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=334"
+      ]
+    },
+    {
+      "id": 10811,
+      "accent": "чемпио́н",
+      "part": "名词（阳性）",
+      "meaning": "冠军；优胜者",
+      "perfective": "",
+      "note": "原页奥运与百米冠军例。",
+      "stage": 2,
+      "original": {
+        "word": "чемпион",
+        "part_of_speech": "阳",
+        "meaning_zh": "冠军；优胜者",
+        "source_page": 334,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чемпион",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=334"
+      ]
+    },
+    {
+      "id": 10812,
+      "accent": "чепуха́",
+      "part": "名词（阴性）",
+      "meaning": "胡说；废话；无聊的事",
+      "perfective": "",
+      "note": "口语词，不混入例句。",
+      "stage": 2,
+      "original": {
+        "word": "чепуха",
+        "part_of_speech": "阴",
+        "meaning_zh": "胡说；蠢话；废话",
+        "source_page": 334,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чепуха",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=334"
+      ]
+    },
+    {
+      "id": 10813,
+      "accent": "черни́ла",
+      "part": "名词（复数）",
+      "meaning": "墨水",
+      "perfective": "",
+      "note": "只用复数，原页不是阴性单数词。",
+      "stage": 1,
+      "original": {
+        "word": "чернила",
+        "part_of_speech": "复",
+        "meaning_zh": "墨水",
+        "source_page": 334,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чернила",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=334"
+      ]
+    },
+    {
+      "id": 10815,
+      "accent": "че́рпать",
+      "part": "动词（未完成体）",
+      "meaning": "舀；汲取；吸取",
+      "perfective": "черпну́ть",
+      "note": "原页完成体为一次动作；注意重音че́рпать，不是черпа́ть。",
+      "stage": 2,
+      "original": {
+        "word": "черпать",
+        "part_of_speech": "未",
+        "meaning_zh": "舀取；汲取；吸取",
+        "source_page": 334,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "черпать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=334"
+      ]
+    },
+    {
+      "id": 10816,
+      "accent": "чёрт",
+      "part": "名词（阳性）",
+      "meaning": "魔鬼；恶魔；（咒骂或感叹）该死",
+      "perfective": "",
+      "note": "保留ё；感叹用法与实体义分开。",
+      "stage": 2,
+      "original": {
+        "word": "чёрт",
+        "part_of_speech": "阳",
+        "meaning_zh": "魔鬼；恶魔；该死的东西",
+        "source_page": 334,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чёрт",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=334"
+      ]
+    },
+    {
+      "id": 10817,
+      "accent": "черта́",
+      "part": "名词（阴性）",
+      "meaning": "线；界限；特点；特征",
+      "perfective": "",
+      "note": "черты лица指面部特征、容貌。",
+      "stage": 2,
+      "original": {
+        "word": "черта",
+        "part_of_speech": "阴",
+        "meaning_zh": "特征；特点；界限；线",
+        "source_page": 334,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "черта",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=334"
+      ]
+    },
+    {
+      "id": 10818,
+      "accent": "чертёж",
+      "part": "名词（阳性）",
+      "meaning": "图纸；工程图",
+      "perfective": "",
+      "note": "原页ё明确，不替换为е。",
+      "stage": 2,
+      "original": {
+        "word": "чертёж",
+        "part_of_speech": "阳",
+        "meaning_zh": "图纸；工程图",
+        "source_page": 334,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чертёж",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=334"
+      ]
+    },
+    {
+      "id": 10819,
+      "accent": "че́стный",
+      "part": "形容词",
+      "meaning": "诚实的；正直的；廉洁的；清白的；正当的",
+      "perfective": "",
+      "note": "补原页正当收入等用法。",
+      "stage": 2,
+      "original": {
+        "word": "честный",
+        "part_of_speech": "形",
+        "meaning_zh": "诚实的；正直的；廉洁的；清白的",
+        "source_page": 334,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "честный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=334"
+      ]
+    },
+    {
+      "id": 10820,
+      "accent": "честь",
+      "part": "名词（阴性）",
+      "meaning": "荣誉；名誉；尊严；敬意；贞操",
+      "perfective": "",
+      "note": "原页贞操义属特定传统用语，非主要日常释义。",
+      "stage": 2,
+      "original": {
+        "word": "честь",
+        "part_of_speech": "阴",
+        "meaning_zh": "荣誉；名誉；尊重；贞操",
+        "source_page": 334,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "честь",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=334"
+      ]
+    },
+    {
+      "id": 10821,
+      "accent": "четве́рг",
+      "part": "名词（阳性）",
+      "meaning": "星期四",
+      "perfective": "",
+      "note": "与четвёртый的ё区分。",
+      "stage": 1,
+      "original": {
+        "word": "четверг",
+        "part_of_speech": "阳",
+        "meaning_zh": "星期四",
+        "source_page": 335,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "четверг",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=335"
+      ]
+    },
+    {
+      "id": 10822,
+      "accent": "четвёрка",
+      "part": "名词（阴性）",
+      "meaning": "数字四；四人小组；四个一组；四分（五分制）",
+      "perfective": "",
+      "note": "补原页数字四义，保留评分语境。",
+      "stage": 1,
+      "original": {
+        "word": "четвёрка",
+        "part_of_speech": "阴",
+        "meaning_zh": "四人小组；四分；四人或四件的一组",
+        "source_page": 335,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "четвёрка",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=335"
+      ]
+    },
+    {
+      "id": 10823,
+      "accent": "че́тверо",
+      "part": "集合数词",
+      "meaning": "四个；四人",
+      "perfective": "",
+      "note": "适用于人及部分特定名词，如четверо суток四昼夜；不能泛代所有четыре。",
+      "stage": 1,
+      "original": {
+        "word": "четверо",
+        "part_of_speech": "数",
+        "meaning_zh": "四人；四个（用于复数名词）",
+        "source_page": 335,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "четверо",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=335"
+      ]
+    },
+    {
+      "id": 10824,
+      "accent": "четвёртый",
+      "part": "序数词",
+      "meaning": "第四",
+      "perfective": "",
+      "note": "одна четвёртая才表示四分之一，不直接列为本词独立义。",
+      "stage": 1,
+      "original": {
+        "word": "четвёртый",
+        "part_of_speech": "数",
+        "meaning_zh": "第四；四分之一",
+        "source_page": 335,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "четвёртый",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=335"
+      ]
+    },
+    {
+      "id": 10825,
+      "accent": "че́тверть",
+      "part": "名词（阴性）",
+      "meaning": "四分之一；一刻钟；学季（学年的四分之一）",
+      "perfective": "",
+      "note": "четверть года为一季度；不是所有制度中的任意学期。",
+      "stage": 2,
+      "original": {
+        "word": "четверть",
+        "part_of_speech": "阴",
+        "meaning_zh": "四分之一；一刻钟；四分之一年；学期",
+        "source_page": 335,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "четверть",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=335"
+      ]
+    },
+    {
+      "id": 10826,
+      "accent": "чёткий",
+      "part": "形容词",
+      "meaning": "清晰的；清楚的；明确的；整齐的",
+      "perfective": "",
+      "note": "保留ё及原页字迹、发音用法。",
+      "stage": 2,
+      "original": {
+        "word": "чёткий",
+        "part_of_speech": "形",
+        "meaning_zh": "清楚的；明确的；整齐的",
+        "source_page": 335,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чёткий",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=335"
+      ]
+    },
+    {
+      "id": 10827,
+      "accent": "четы́ре",
+      "part": "数词",
+      "meaning": "四",
+      "perfective": "",
+      "note": "基数词。",
+      "stage": 1,
+      "original": {
+        "word": "четыре",
+        "part_of_speech": "数",
+        "meaning_zh": "四；四个",
+        "source_page": 335,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "четыре",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=335"
+      ]
+    },
+    {
+      "id": 10828,
+      "accent": "четы́реста",
+      "part": "数词",
+      "meaning": "四百",
+      "perfective": "",
+      "note": "重音在ты，非ста。",
+      "stage": 1,
+      "original": {
+        "word": "четыреста",
+        "part_of_speech": "数",
+        "meaning_zh": "四百；四百个",
+        "source_page": 335,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "четыреста",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=335"
+      ]
+    },
+    {
+      "id": 10829,
+      "accent": "четы́рнадцатый",
+      "part": "序数词",
+      "meaning": "第十四",
+      "perfective": "",
+      "note": "逐字核对数词拼写。",
+      "stage": 1,
+      "original": {
+        "word": "четырнадцатый",
+        "part_of_speech": "数",
+        "meaning_zh": "第十四",
+        "source_page": 335,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "четырнадцатый",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=335"
+      ]
+    },
+    {
+      "id": 10830,
+      "accent": "четы́рнадцать",
+      "part": "数词",
+      "meaning": "十四",
+      "perfective": "",
+      "note": "与序数词分开。",
+      "stage": 1,
+      "original": {
+        "word": "четырнадцать",
+        "part_of_speech": "数",
+        "meaning_zh": "十四；十四个",
+        "source_page": 335,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "четырнадцать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=335"
+      ]
+    },
+    {
+      "id": 10831,
+      "accent": "число́",
+      "part": "名词（中性）",
+      "meaning": "数；数值；数量；日期；（语法）数",
+      "perfective": "",
+      "note": "数字符号通常用цифра；补语法单复数这一核心义。",
+      "stage": 1,
+      "original": {
+        "word": "число",
+        "part_of_speech": "中",
+        "meaning_zh": "数字；数值；数量；日期",
+        "source_page": 335,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "число",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=335"
+      ]
+    },
+    {
+      "id": 10832,
+      "accent": "чи́стить",
+      "part": "动词（未完成体）",
+      "meaning": "清洁；刷洗；去皮；去壳",
+      "perfective": "почи́стить",
+      "note": "原页另列вы́чистить、очи́стить，分别侧重彻底清洁或去除附着物；配对依语境。",
+      "stage": 1,
+      "original": {
+        "word": "чистить",
+        "part_of_speech": "未",
+        "meaning_zh": "清洁；刷洗；剥皮；去壳",
+        "source_page": 335,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чистить",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=335"
+      ]
+    },
+    {
+      "id": 10833,
+      "accent": "чистота́",
+      "part": "名词（阴性）",
+      "meaning": "清洁；纯洁；纯净；纯正",
+      "perfective": "",
+      "note": "与частота频率区分。",
+      "stage": 2,
+      "original": {
+        "word": "чистота",
+        "part_of_speech": "阴",
+        "meaning_zh": "清洁；纯洁；纯正",
+        "source_page": 335,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чистота",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=335"
+      ]
+    },
+    {
+      "id": 10834,
+      "accent": "чи́стый",
+      "part": "形容词",
+      "meaning": "干净的；纯洁的；清白的；纯的；纯粹的",
+      "perfective": "",
+      "note": "跨页核对纯金及纯属胡说等用法。",
+      "stage": 1,
+      "original": {
+        "word": "чистый",
+        "part_of_speech": "形",
+        "meaning_zh": "干净的；纯洁的；清白的；纯粹的",
+        "source_page": 335,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чистый",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=335",
+        "data/words/tem4_russian_words.pdf#page=336"
+      ]
+    },
+    {
+      "id": 10835,
+      "accent": "чита́тель",
+      "part": "名词（阳性）",
+      "meaning": "读者；阅览者",
+      "perfective": "",
+      "note": "不混入读者反馈例句。",
+      "stage": 1,
+      "original": {
+        "word": "читатель",
+        "part_of_speech": "阳",
+        "meaning_zh": "读者；阅览者",
+        "source_page": 336,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "читатель",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=336"
+      ]
+    },
+    {
+      "id": 10837,
+      "accent": "член",
+      "part": "名词（阳性）",
+      "meaning": "成员；会员；肢体；（语法、数学的）成分、项",
+      "perfective": "",
+      "note": "部件过泛，区分组织成员和身体、语法、数学用法。",
+      "stage": 2,
+      "original": {
+        "word": "член",
+        "part_of_speech": "阳",
+        "meaning_zh": "成员；会员；部件；器官",
+        "source_page": 336,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "член",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=336"
+      ]
+    },
+    {
+      "id": 10838,
+      "accent": "член-корреспонде́нт",
+      "part": "名词（阳性）",
+      "meaning": "通讯院士；通讯会员",
+      "perfective": "",
+      "note": "原页列为член下完整搭配；保留连字符。",
+      "stage": 3,
+      "original": {
+        "word": "член-корреспондент",
+        "part_of_speech": "阳",
+        "meaning_zh": "通讯院士；通讯会员",
+        "source_page": 336,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "член-корреспондент",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=336"
+      ]
+    },
+    {
+      "id": 10839,
+      "accent": "чте́ние",
+      "part": "名词（中性）",
+      "meaning": "阅读；朗读；读物；（复数）朗诵会、专题报告会",
+      "perfective": "",
+      "note": "集会义通常чтения，避免泛指任意讲座。",
+      "stage": 1,
+      "original": {
+        "word": "чтение",
+        "part_of_speech": "中",
+        "meaning_zh": "阅读；看书；读物；朗诵会；讲座",
+        "source_page": 336,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чтение",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=336"
+      ]
+    },
+    {
+      "id": 10840,
+      "accent": "что",
+      "part": "代词；连词",
+      "meaning": "什么；所……的；（连词）引导说明事实或内容的从句",
+      "perfective": "",
+      "note": "原页含代词与连词；连词常不单独译，不能只标代词。",
+      "stage": 1,
+      "original": {
+        "word": "что",
+        "part_of_speech": "代",
+        "meaning_zh": "什么；什么事；什么东西",
+        "source_page": 336,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "что",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=336"
+      ]
+    },
+    {
+      "id": 10841,
+      "accent": "что́бы",
+      "part": "连词；语气词",
+      "meaning": "为了；以便；让；使",
+      "perfective": "",
+      "note": "也引导愿望、要求等从句；语气词可表强烈要求。",
+      "stage": 1,
+      "original": {
+        "word": "чтобы",
+        "part_of_speech": "连",
+        "meaning_zh": "为了；以便；使",
+        "source_page": 336,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чтобы",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=336"
+      ]
+    },
+    {
+      "id": 10842,
+      "accent": "что-нибудь",
+      "part": "代词",
+      "meaning": "某种东西；什么东西；随便什么",
+      "perfective": "",
+      "note": "泛指不确定事物，不直接等同所有语境的任何东西。",
+      "stage": 1,
+      "original": {
+        "word": "что-нибудь",
+        "part_of_speech": "代",
+        "meaning_zh": "什么；随便什么；任何东西",
+        "source_page": 336,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "что-нибудь",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=336"
+      ]
+    },
+    {
+      "id": 10843,
+      "accent": "что-то",
+      "part": "代词；副词",
+      "meaning": "某种东西；某件事；（口语）不知为什么、有点儿",
+      "perfective": "",
+      "note": "原页跨页为某事物；副词义另作口语用法说明。",
+      "stage": 1,
+      "original": {
+        "word": "что-то",
+        "part_of_speech": "代",
+        "meaning_zh": "某种东西；什么事情；有点儿",
+        "source_page": 336,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "что-то",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=336",
+        "data/words/tem4_russian_words.pdf#page=337"
+      ]
+    },
+    {
+      "id": 10844,
+      "accent": "чу́вство",
+      "part": "名词（中性）",
+      "meaning": "感觉；感情；知觉；意识",
+      "perfective": "",
+      "note": "原页知觉、意识义常见复数搭配прийти в чувства。",
+      "stage": 2,
+      "original": {
+        "word": "чувство",
+        "part_of_speech": "中",
+        "meaning_zh": "感觉；感情；知觉",
+        "source_page": 337,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чувство",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=337"
+      ]
+    },
+    {
+      "id": 10845,
+      "accent": "чу́вствовать",
+      "part": "动词（未完成体）",
+      "meaning": "感觉；感到；体会到",
+      "perfective": "почу́вствовать",
+      "note": "原页体对明确。",
+      "stage": 2,
+      "original": {
+        "word": "чувствовать",
+        "part_of_speech": "未",
+        "meaning_zh": "感觉；感到；体会到",
+        "source_page": 337,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чувствовать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=337"
+      ]
+    },
+    {
+      "id": 10846,
+      "accent": "чуде́сный",
+      "part": "形容词",
+      "meaning": "神奇的；奇异的；美妙的；极好的",
+      "perfective": "",
+      "note": "区分不可思议与赞美两义。",
+      "stage": 2,
+      "original": {
+        "word": "чудесный",
+        "part_of_speech": "形",
+        "meaning_zh": "奇异的；神奇的；美妙的",
+        "source_page": 337,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чудесный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=337"
+      ]
+    },
+    {
+      "id": 10847,
+      "accent": "чу́до",
+      "part": "名词（中性）",
+      "meaning": "奇迹；奇事；神奇的事物",
+      "perfective": "",
+      "note": "作赞叹可表示妙极了，不混作普通名词核心义。",
+      "stage": 2,
+      "original": {
+        "word": "чудо",
+        "part_of_speech": "中",
+        "meaning_zh": "奇迹；怪事；神奇的事物",
+        "source_page": 337,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чудо",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=337"
+      ]
+    },
+    {
+      "id": 10848,
+      "accent": "чужо́й",
+      "part": "形容词",
+      "meaning": "别人的；外人的；陌生的；疏远的；格格不入的",
+      "perfective": "",
+      "note": "чужая страна可指外国；不把外国的当唯一或无条件等价义。",
+      "stage": 2,
+      "original": {
+        "word": "чужой",
+        "part_of_speech": "形",
+        "meaning_zh": "别人的；外国的；外来的；陌生的",
+        "source_page": 337,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чужой",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=337"
+      ]
+    },
+    {
+      "id": 10849,
+      "accent": "чуло́к",
+      "part": "名词（阳性）",
+      "meaning": "长筒袜",
+      "perfective": "",
+      "note": "避免普通袜子过泛；复数чулки́。",
+      "stage": 2,
+      "original": {
+        "word": "чулок",
+        "part_of_speech": "阳",
+        "meaning_zh": "长筒袜；袜子",
+        "source_page": 337,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чулок",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=337"
+      ]
+    },
+    {
+      "id": 10850,
+      "accent": "чу́ткий",
+      "part": "形容词",
+      "meaning": "敏锐的；灵敏的；体贴的；富有同情心的",
+      "perfective": "",
+      "note": "感官和待人态度两类义。",
+      "stage": 2,
+      "original": {
+        "word": "чуткий",
+        "part_of_speech": "形",
+        "meaning_zh": "敏锐的；灵敏的；体贴的",
+        "source_page": 337,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чуткий",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=337"
+      ]
+    },
+    {
+      "id": 10851,
+      "accent": "чуть",
+      "part": "副词",
+      "meaning": "稍微；一点儿；几乎不；勉强",
+      "perfective": "",
+      "note": "几乎、险些常需чуть не，不能漏掉не直接等同。",
+      "stage": 2,
+      "original": {
+        "word": "чуть",
+        "part_of_speech": "副",
+        "meaning_zh": "稍微；刚刚；几乎；一点儿",
+        "source_page": 337,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чуть",
+      "method": "2026-09-24当前助手逐词视觉核对PDF334至337页，区分数词、名词复数及搭配义；以模型语言知识补充常用义并明确用法限制。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=337"
+      ]
+    }
+  ]
+}

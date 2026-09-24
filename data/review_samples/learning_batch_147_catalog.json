@@ -1,0 +1,928 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10733,
+      "accent": "фунда́мент",
+      "part": "名词·阳性",
+      "meaning": "地基；基础",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "фундамент",
+        "part_of_speech": "阳",
+        "meaning_zh": "基础；地基",
+        "source_page": 326,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "фундамент",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=326"
+      ]
+    },
+    {
+      "id": 10734,
+      "accent": "фура́жка",
+      "part": "名词·阴性",
+      "meaning": "有帽檐的制服帽；大檐帽",
+      "perfective": "",
+      "note": "不泛指所有带帽檐的帽子。",
+      "stage": 2,
+      "original": {
+        "word": "фуражка",
+        "part_of_speech": "阴",
+        "meaning_zh": "制服帽；有帽檐的帽子",
+        "source_page": 326,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "фуражка",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=326"
+      ]
+    },
+    {
+      "id": 10735,
+      "accent": "футбо́л",
+      "part": "名词·阳性",
+      "meaning": "足球运动",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "футбол",
+        "part_of_speech": "阳",
+        "meaning_zh": "足球",
+        "source_page": 326,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "футбол",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=326"
+      ]
+    },
+    {
+      "id": 10736,
+      "accent": "футбо́льный",
+      "part": "形容词",
+      "meaning": "足球的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "футбольный",
+        "part_of_speech": "形",
+        "meaning_zh": "足球的",
+        "source_page": 326,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "футбольный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=326"
+      ]
+    },
+    {
+      "id": 10737,
+      "accent": "хала́т",
+      "part": "名词·阳性",
+      "meaning": "长袍；浴袍；工作罩衣",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "халат",
+        "part_of_speech": "阳",
+        "meaning_zh": "长袍；工作服；浴衣",
+        "source_page": 326,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "халат",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=326"
+      ]
+    },
+    {
+      "id": 10738,
+      "accent": "хара́ктер",
+      "part": "名词·阳性",
+      "meaning": "性格；性情；性质；特性",
+      "perfective": "",
+      "note": "已核327页续义。",
+      "stage": 2,
+      "original": {
+        "word": "характер",
+        "part_of_speech": "阳",
+        "meaning_zh": "性格；性情；特性",
+        "source_page": 326,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "характер",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=326",
+        "data/words/tem4_russian_words.pdf#page=327"
+      ]
+    },
+    {
+      "id": 10739,
+      "accent": "характери́стика",
+      "part": "名词·阴性",
+      "meaning": "评价；鉴定；鉴定书；特征；特性",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "характеристика",
+        "part_of_speech": "阴",
+        "meaning_zh": "鉴定；评价；鉴定书；特点",
+        "source_page": 327,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "характеристика",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=327"
+      ]
+    },
+    {
+      "id": 10740,
+      "accent": "хвали́ть",
+      "part": "动词·未完成体",
+      "meaning": "夸奖；称赞；赞扬",
+      "perfective": "похвали́ть",
+      "note": "删除奖励；赞扬不必涉及物质奖励。",
+      "stage": 1,
+      "original": {
+        "word": "хвалить",
+        "part_of_speech": "未",
+        "meaning_zh": "奖励；称赞；赞扬",
+        "source_page": 327,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "хвалить",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=327"
+      ]
+    },
+    {
+      "id": 10741,
+      "accent": "хва́статься",
+      "part": "动词·未完成体",
+      "meaning": "自夸；炫耀；吹嘘",
+      "perfective": "похва́статься",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "хвастаться",
+        "part_of_speech": "未",
+        "meaning_zh": "自夸；吹嘘；吹牛",
+        "source_page": 327,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "хвастаться",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=327"
+      ]
+    },
+    {
+      "id": 10742,
+      "accent": "хвата́ть",
+      "part": "动词·未完成体",
+      "meaning": "抓住；急忙拿起；咬住",
+      "perfective": "схвати́ть",
+      "note": "本条为原页хватать¹；不混入无人称足够义хватать²及其完成体хватить。",
+      "stage": 2,
+      "original": {
+        "word": "хватать",
+        "part_of_speech": "未",
+        "meaning_zh": "抓住；拿起；咬住",
+        "source_page": 327,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "хватать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=327"
+      ]
+    },
+    {
+      "id": 10743,
+      "accent": "хвост",
+      "part": "名词·阳性",
+      "meaning": "尾巴；尾部；队尾；尾随者；剩余未完部分",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "хвост",
+        "part_of_speech": "阳",
+        "meaning_zh": "尾；尾巴；尾部；剩余部分",
+        "source_page": 327,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "хвост",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=327"
+      ]
+    },
+    {
+      "id": 10744,
+      "accent": "хими́ческий",
+      "part": "形容词",
+      "meaning": "化学的；用化学方法的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "химический",
+        "part_of_speech": "形",
+        "meaning_zh": "化学的；用化学方法的",
+        "source_page": 327,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "химический",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=327"
+      ]
+    },
+    {
+      "id": 10745,
+      "accent": "хи́мия",
+      "part": "名词·阴性",
+      "meaning": "化学；化学课",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "химия",
+        "part_of_speech": "阴",
+        "meaning_zh": "化学",
+        "source_page": 327,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "химия",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=327"
+      ]
+    },
+    {
+      "id": 10746,
+      "accent": "хиру́рг",
+      "part": "名词·阳性",
+      "meaning": "外科医生",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "хирург",
+        "part_of_speech": "阳",
+        "meaning_zh": "外科医生；外科医师",
+        "source_page": 327,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "хирург",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=327"
+      ]
+    },
+    {
+      "id": 10747,
+      "accent": "хи́трый",
+      "part": "形容词",
+      "meaning": "狡猾的；狡黠的；巧妙的；复杂难懂的",
+      "perfective": "",
+      "note": "已核328页狡黠神情义；不一律译作阴险。",
+      "stage": 2,
+      "original": {
+        "word": "хитрый",
+        "part_of_speech": "形",
+        "meaning_zh": "狡猾的；滑头的；阴险的",
+        "source_page": 327,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "хитрый",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=327",
+        "data/words/tem4_russian_words.pdf#page=328"
+      ]
+    },
+    {
+      "id": 10749,
+      "accent": "хло́пать",
+      "part": "动词·未完成体",
+      "meaning": "拍；拍打；拍手；鼓掌；砰地关上",
+      "perfective": "хло́пнуть",
+      "note": "完成体通常表示单次拍击或砰地一声。",
+      "stage": 2,
+      "original": {
+        "word": "хлопать",
+        "part_of_speech": "未",
+        "meaning_zh": "拍打；拍手；鼓掌",
+        "source_page": 328,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "хлопать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=328"
+      ]
+    },
+    {
+      "id": 10750,
+      "accent": "хло́пок",
+      "part": "名词·阳性",
+      "meaning": "棉；棉花；棉株",
+      "perfective": "",
+      "note": "与表示拍击声的хлопо́к重音不同。",
+      "stage": 2,
+      "original": {
+        "word": "хлопок",
+        "part_of_speech": "阳",
+        "meaning_zh": "棉花；棉花作物；棉絮",
+        "source_page": 328,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "хлопок",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=328"
+      ]
+    },
+    {
+      "id": 10751,
+      "accent": "хлопу́шка",
+      "part": "名词·阴性",
+      "meaning": "拍子；苍蝇拍；拉炮；响炮玩具",
+      "perfective": "",
+      "note": "原页新年树响炮为玩具，不把全部鞭炮泛作同义。",
+      "stage": 2,
+      "original": {
+        "word": "хлопушка",
+        "part_of_speech": "阴",
+        "meaning_zh": "苍蝇拍；响炮；爆竹",
+        "source_page": 328,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "хлопушка",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=328"
+      ]
+    },
+    {
+      "id": 10752,
+      "accent": "хму́рый",
+      "part": "形容词",
+      "meaning": "愁眉不展的；闷闷不乐的；阴沉的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "хмурый",
+        "part_of_speech": "形",
+        "meaning_zh": "皱眉的；忧郁的；阴沉的",
+        "source_page": 328,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "хмурый",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=328"
+      ]
+    },
+    {
+      "id": 10753,
+      "accent": "ход",
+      "part": "名词·阳性",
+      "meaning": "行进；运行；过程；进展；棋步；通道",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "ход",
+        "part_of_speech": "阳",
+        "meaning_zh": "行进；进程；走法；进展",
+        "source_page": 328,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ход",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=328"
+      ]
+    },
+    {
+      "id": 10755,
+      "accent": "ходьба́",
+      "part": "名词·阴性",
+      "meaning": "步行；行走",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "ходьба",
+        "part_of_speech": "阴",
+        "meaning_zh": "走；行走",
+        "source_page": 328,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ходьба",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=328"
+      ]
+    },
+    {
+      "id": 10756,
+      "accent": "хозя́ин",
+      "part": "名词·阳性",
+      "meaning": "主人；所有者；户主；当家人；老板",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "хозяин",
+        "part_of_speech": "阳",
+        "meaning_zh": "主人；户主；当家人；老板",
+        "source_page": 328,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "хозяин",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=328"
+      ]
+    },
+    {
+      "id": 10757,
+      "accent": "хозя́йство",
+      "part": "名词·中性",
+      "meaning": "经济；生产部门；农场；家务；家庭财产",
+      "perfective": "",
+      "note": "已核329页续文，农业与家庭语境区分。",
+      "stage": 2,
+      "original": {
+        "word": "хозяйство",
+        "part_of_speech": "中",
+        "meaning_zh": "经济；生产部门；农业单位；家务",
+        "source_page": 328,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "хозяйство",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=328",
+        "data/words/tem4_russian_words.pdf#page=329"
+      ]
+    },
+    {
+      "id": 10758,
+      "accent": "хокке́й",
+      "part": "名词·阳性",
+      "meaning": "冰球；曲棍球类运动",
+      "perfective": "",
+      "note": "通常指冰球；хоккей на траве为草地曲棍球。",
+      "stage": 2,
+      "original": {
+        "word": "хоккей",
+        "part_of_speech": "阳",
+        "meaning_zh": "冰球；曲棍球",
+        "source_page": 329,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "хоккей",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=329"
+      ]
+    },
+    {
+      "id": 10759,
+      "accent": "хо́лод",
+      "part": "名词·阳性",
+      "meaning": "寒冷；冷气；冷天气；冷淡",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "холод",
+        "part_of_speech": "阳",
+        "meaning_zh": "寒冷；冷空气；冷天气",
+        "source_page": 329,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "холод",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=329"
+      ]
+    },
+    {
+      "id": 10760,
+      "accent": "холоди́льник",
+      "part": "名词·阳性",
+      "meaning": "冰箱；冷藏设备",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "холодильник",
+        "part_of_speech": "阳",
+        "meaning_zh": "冰箱；冷藏设备",
+        "source_page": 329,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "холодильник",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=329"
+      ]
+    },
+    {
+      "id": 10761,
+      "accent": "холо́дный",
+      "part": "形容词",
+      "meaning": "冷的；寒冷的；不保暖的；冷淡的；冷静的",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "холодный",
+        "part_of_speech": "形",
+        "meaning_zh": "冷的；冰冷的；冷淡的；无情的",
+        "source_page": 329,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "холодный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=329"
+      ]
+    },
+    {
+      "id": 10762,
+      "accent": "хор",
+      "part": "名词·阳性",
+      "meaning": "合唱团；合唱队；合唱",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "хор",
+        "part_of_speech": "阳",
+        "meaning_zh": "合唱团；合唱队",
+        "source_page": 329,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "хор",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=329"
+      ]
+    },
+    {
+      "id": 10765,
+      "accent": "хоте́ться",
+      "part": "动词·未完成体·无人称",
+      "meaning": "想；想要",
+      "perfective": "захоте́ться",
+      "note": "愿望体验者用第三格；完成体表示产生愿望。",
+      "stage": 1,
+      "original": {
+        "word": "хотеться",
+        "part_of_speech": "未，无人称",
+        "meaning_zh": "想；想要（无人称）",
+        "source_page": 329,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "хотеться",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=329"
+      ]
+    },
+    {
+      "id": 10766,
+      "accent": "хоть",
+      "part": "连词；语气词",
+      "meaning": "虽然；即使；哪怕；至少",
+      "perfective": "",
+      "note": "хоть бы等组合依语境可表达愿望。",
+      "stage": 2,
+      "original": {
+        "word": "хоть",
+        "part_of_speech": "连",
+        "meaning_zh": "虽然；即使；尽管",
+        "source_page": 330,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "хоть",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=330"
+      ]
+    },
+    {
+      "id": 10767,
+      "accent": "хотя́",
+      "part": "连词",
+      "meaning": "虽然；尽管；即使",
+      "perfective": "",
+      "note": "хотя бы组合还可表示至少、哪怕，不混作孤立词头的全部用法。",
+      "stage": 2,
+      "original": {
+        "word": "хотя",
+        "part_of_speech": "连",
+        "meaning_zh": "虽然；即使；尽管",
+        "source_page": 330,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "хотя",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=330"
+      ]
+    },
+    {
+      "id": 10768,
+      "accent": "хра́брый",
+      "part": "形容词",
+      "meaning": "勇敢的；有胆量的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "храбрый",
+        "part_of_speech": "形",
+        "meaning_zh": "勇敢的；胆量大的",
+        "source_page": 330,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "храбрый",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=330"
+      ]
+    },
+    {
+      "id": 10769,
+      "accent": "храни́ть",
+      "part": "动词·未完成体",
+      "meaning": "保存；存放；保管；保护；保持；遵守",
+      "perfective": "",
+      "note": "不同义可对应сохранить等，但保管状态不强配统一体对。",
+      "stage": 2,
+      "original": {
+        "word": "хранить",
+        "part_of_speech": "未",
+        "meaning_zh": "保存；收藏；保护；遵守；保持",
+        "source_page": 330,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "хранить",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=330"
+      ]
+    },
+    {
+      "id": 10770,
+      "accent": "хрома́ть",
+      "part": "动词·未完成体",
+      "meaning": "跛行；一瘸一拐地走；有缺陷；不够好",
+      "perfective": "",
+      "note": "转义可指某门学科学得不好。",
+      "stage": 2,
+      "original": {
+        "word": "хромать",
+        "part_of_speech": "未",
+        "meaning_zh": "跛行；瘸；有缺陷",
+        "source_page": 330,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "хромать",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=330"
+      ]
+    },
+    {
+      "id": 10771,
+      "accent": "худо́жественный",
+      "part": "形容词",
+      "meaning": "艺术的；美术的；文艺的",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "художественный",
+        "part_of_speech": "形",
+        "meaning_zh": "艺术的；美术的；文艺的",
+        "source_page": 330,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "художественный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=330"
+      ]
+    },
+    {
+      "id": 10772,
+      "accent": "худо́жник",
+      "part": "名词·阳性",
+      "meaning": "画家；艺术家",
+      "perfective": "",
+      "note": "",
+      "stage": 1,
+      "original": {
+        "word": "художник",
+        "part_of_speech": "阳",
+        "meaning_zh": "艺术家；画家",
+        "source_page": 330,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "художник",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=330"
+      ]
+    },
+    {
+      "id": 10773,
+      "accent": "худо́й",
+      "part": "形容词",
+      "meaning": "瘦的；干瘦的",
+      "perfective": "",
+      "note": "本来源指体态；不混入同形词坏、破漏的其他义项。",
+      "stage": 1,
+      "original": {
+        "word": "худой",
+        "part_of_speech": "形",
+        "meaning_zh": "瘦的；干瘦的",
+        "source_page": 330,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "худой",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=330"
+      ]
+    },
+    {
+      "id": 10774,
+      "accent": "ху́же",
+      "part": "比较级形式",
+      "meaning": "更坏；更差",
+      "perfective": "",
+      "note": "плохой或плохо的比较级。",
+      "stage": 1,
+      "original": {
+        "word": "хуже",
+        "part_of_speech": "比较级",
+        "meaning_zh": "更坏；更差",
+        "source_page": 330,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "хуже",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=330"
+      ]
+    },
+    {
+      "id": 10775,
+      "accent": "цари́ть",
+      "part": "动词·未完成体",
+      "meaning": "为王；统治；占主导地位；笼罩；充满",
+      "perfective": "",
+      "note": "",
+      "stage": 2,
+      "original": {
+        "word": "царить",
+        "part_of_speech": "未",
+        "meaning_zh": "统治；占优势；笼罩；充满",
+        "source_page": 330,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "царить",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=330"
+      ]
+    },
+    {
+      "id": 10776,
+      "accent": "царь",
+      "part": "名词·阳性",
+      "meaning": "沙皇；帝王；君王",
+      "perfective": "",
+      "note": "具体历史称号按语境区分。",
+      "stage": 2,
+      "original": {
+        "word": "царь",
+        "part_of_speech": "阳",
+        "meaning_zh": "皇帝；沙皇",
+        "source_page": 330,
+        "source_line": "14"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "царь",
+      "method": "2026-09-24当前助手逐词视觉核对PDF326至330页，核对跨页释义、同形词重音和体对范围。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=330"
+      ]
+    }
+  ]
+}

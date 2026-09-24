@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 8316,
+      "accent": "заи́грывать",
+      "part": "动词（未完成体）",
+      "meaning": "（口语）调情；讨好；反复演奏使人厌倦；因反复玩用而弄坏",
+      "perfective": "",
+      "note": "原页把开始演奏与заиграть相配；现代词典分别列起始义заиграть及玩坏义体对。此处修正误标完成体，以现代常用义展示；玩坏、演奏过滥义完成体заигра́ть，调情、讨好义无相同体对。",
+      "stage": 3,
+      "original": {
+        "word": "заигрывать",
+        "part_of_speech": "完",
+        "meaning_zh": "开始演奏；开始进行游戏",
+        "source_page": 91,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "заигрывать",
+      "method": "2026-09-24重查原PDF并外查Gramota词典，解决两条旧未决；词典差异明确保留说明，不作全局е/ё替换。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=91",
+        "https://gramota.ru/poisk?mode=all&query=%D0%B7%D0%B0%D0%B8%D0%B3%D1%80%D1%8B%D0%B2%D0%B0%D0%B5%D1%82&simple=0",
+        "https://gramota.ru/poisk?dicts%5B%5D=42&mode=slovari&query=%D0%B7%D0%B0%D0%B8%D0%B3%D1%80%D0%B0%D1%82%D1%8C"
+      ]
+    },
+    {
+      "id": 8945,
+      "accent": "навёрстывать",
+      "part": "动词（未完成体）",
+      "meaning": "弥补；补上；赶上",
+      "perfective": "наверста́ть",
+      "note": "保留现词头ё：Gramota元词条与读音词典支持；原教材及另一正字法资料列наве́рстывать。此处选有读音词典依据的展示形式，不声称е一概错误或已消除词典差异。",
+      "stage": 3,
+      "original": {
+        "word": "навёрстывать",
+        "part_of_speech": "未",
+        "meaning_zh": "弥补；补救；赶上",
+        "source_page": 150,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "навёрстывать",
+      "method": "2026-09-24重查原PDF并外查Gramota词典，解决两条旧未决；词典差异明确保留说明，不作全局е/ё替换。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=150",
+        "https://gramota.ru/meta/naverstyvat",
+        "https://ruslang.ru/sites/default/files/doc/normativnyje_slovari/orfoepicheskij_slovar.pdf",
+        "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,766 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": 10777,
+      "accent": "цвести́",
+      "part": "动词（未完成体）",
+      "meaning": "开花；繁荣；蓬勃发展",
+      "perfective": "",
+      "note": "原页两项核心义；不强配表示开花开始或结束的前缀动词。",
+      "stage": 2,
+      "original": {
+        "word": "цвести",
+        "part_of_speech": "未",
+        "meaning_zh": "开花；繁荣；蓬勃发展",
+        "source_page": 330,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "цвести",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=330"
+      ]
+    },
+    {
+      "id": 10778,
+      "accent": "цвет",
+      "part": "名词（阳性）",
+      "meaning": "颜色；花（集合义）；精华；优秀分子",
+      "perfective": "",
+      "note": "原页跨页列同形词；盛期见в цвете лет等搭配，不将盛花期列为独立通用义。",
+      "stage": 1,
+      "original": {
+        "word": "цвет",
+        "part_of_speech": "阳",
+        "meaning_zh": "颜色；花；精华；盛花期",
+        "source_page": 330,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "цвет",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=330",
+        "data/words/tem4_russian_words.pdf#page=331"
+      ]
+    },
+    {
+      "id": 10779,
+      "accent": "цветно́й",
+      "part": "形容词",
+      "meaning": "有色的；彩色的",
+      "perfective": "",
+      "note": "цветные металлы指有色金属。",
+      "stage": 1,
+      "original": {
+        "word": "цветной",
+        "part_of_speech": "形",
+        "meaning_zh": "有色的；彩色的",
+        "source_page": 331,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "цветной",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=331"
+      ]
+    },
+    {
+      "id": 10780,
+      "accent": "цвето́к",
+      "part": "名词（阳性）",
+      "meaning": "花；花朵",
+      "perfective": "",
+      "note": "复数цветы́。",
+      "stage": 1,
+      "original": {
+        "word": "цветок",
+        "part_of_speech": "阳",
+        "meaning_zh": "花；花朵",
+        "source_page": 331,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "цветок",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=331"
+      ]
+    },
+    {
+      "id": 10781,
+      "accent": "целико́м",
+      "part": "副词",
+      "meaning": "整个地；完全；全部",
+      "perfective": "",
+      "note": "核对原页整物与全部两种用法。",
+      "stage": 2,
+      "original": {
+        "word": "целиком",
+        "part_of_speech": "副",
+        "meaning_zh": "整个地；完全；全部",
+        "source_page": 331,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "целиком",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=331"
+      ]
+    },
+    {
+      "id": 10782,
+      "accent": "целова́ться",
+      "part": "动词（未完成体）",
+      "meaning": "接吻；相吻",
+      "perfective": "поцелова́ться",
+      "note": "原页明确体对。",
+      "stage": 2,
+      "original": {
+        "word": "целоваться",
+        "part_of_speech": "未",
+        "meaning_zh": "接吻；相吻",
+        "source_page": 331,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "целоваться",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=331"
+      ]
+    },
+    {
+      "id": 10783,
+      "accent": "це́лый",
+      "part": "形容词",
+      "meaning": "整个的；完整的；完好无损的",
+      "perfective": "",
+      "note": "保留整体和未受损两类核心义。",
+      "stage": 1,
+      "original": {
+        "word": "целый",
+        "part_of_speech": "形",
+        "meaning_zh": "完整的；整个的；完好无损的",
+        "source_page": 331,
+        "source_line": "7"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "целый",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=331"
+      ]
+    },
+    {
+      "id": 10784,
+      "accent": "цель",
+      "part": "名词（阴性）",
+      "meaning": "目标；目的；宗旨",
+      "perfective": "",
+      "note": "包括射击目标和行动目的。",
+      "stage": 1,
+      "original": {
+        "word": "цель",
+        "part_of_speech": "阴",
+        "meaning_zh": "目标；目的；宗旨",
+        "source_page": 331,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "цель",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=331"
+      ]
+    },
+    {
+      "id": 10785,
+      "accent": "цена́",
+      "part": "名词（阴性）",
+      "meaning": "价格；价钱；价值；代价",
+      "perfective": "",
+      "note": "原页三个义项核对。",
+      "stage": 1,
+      "original": {
+        "word": "цена",
+        "part_of_speech": "阴",
+        "meaning_zh": "价格；价钱；价值；代价",
+        "source_page": 331,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "цена",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=331"
+      ]
+    },
+    {
+      "id": 10786,
+      "accent": "цени́ть",
+      "part": "动词（未完成体）",
+      "meaning": "估价；评价；珍视；重视",
+      "perfective": "",
+      "note": "珍视义不强配评价义完成体。",
+      "stage": 2,
+      "original": {
+        "word": "ценить",
+        "part_of_speech": "未",
+        "meaning_zh": "定价；估计；评价；珍视",
+        "source_page": 331,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ценить",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=331"
+      ]
+    },
+    {
+      "id": 10787,
+      "accent": "це́нный",
+      "part": "形容词",
+      "meaning": "贵重的；有价值的；重要的",
+      "perfective": "",
+      "note": "有价证券为ценные бумаги；避免孤立释义有价过于含糊。",
+      "stage": 2,
+      "original": {
+        "word": "ценный",
+        "part_of_speech": "形",
+        "meaning_zh": "有价的；有价值的；重要的",
+        "source_page": 331,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "ценный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=331"
+      ]
+    },
+    {
+      "id": 10788,
+      "accent": "центр",
+      "part": "名词（阳性）",
+      "meaning": "中心；中央；中心机构",
+      "perfective": "",
+      "note": "原页含展览中心用法。",
+      "stage": 1,
+      "original": {
+        "word": "центр",
+        "part_of_speech": "阳",
+        "meaning_zh": "中心；中央",
+        "source_page": 331,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "центр",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=331"
+      ]
+    },
+    {
+      "id": 10789,
+      "accent": "цепь",
+      "part": "名词（阴性）",
+      "meaning": "链；链条；锁链；一连串",
+      "perfective": "",
+      "note": "горная цепь为山脉，搭配义不直接孤立列山脉。",
+      "stage": 2,
+      "original": {
+        "word": "цепь",
+        "part_of_speech": "阴",
+        "meaning_zh": "链；锁链；链条；山脉",
+        "source_page": 332,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "цепь",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=332"
+      ]
+    },
+    {
+      "id": 10790,
+      "accent": "це́рковь",
+      "part": "名词（阴性）",
+      "meaning": "教堂；教会",
+      "perfective": "",
+      "note": "建筑和宗教组织两个义项。",
+      "stage": 2,
+      "original": {
+        "word": "церковь",
+        "part_of_speech": "阴",
+        "meaning_zh": "教会；教堂",
+        "source_page": 332,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "церковь",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=332"
+      ]
+    },
+    {
+      "id": 10791,
+      "accent": "цех",
+      "part": "名词（阳性）",
+      "meaning": "车间；工场",
+      "perfective": "",
+      "note": "原页车间义。",
+      "stage": 2,
+      "original": {
+        "word": "цех",
+        "part_of_speech": "阳",
+        "meaning_zh": "车间；工场",
+        "source_page": 332,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "цех",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=332"
+      ]
+    },
+    {
+      "id": 10792,
+      "accent": "ци́фра",
+      "part": "名词（阴性）",
+      "meaning": "数字；数额；数目",
+      "perfective": "",
+      "note": "区别数字符号及统计数额。",
+      "stage": 1,
+      "original": {
+        "word": "цифра",
+        "part_of_speech": "阴",
+        "meaning_zh": "数字；数额；数目",
+        "source_page": 332,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "цифра",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=332"
+      ]
+    },
+    {
+      "id": 10793,
+      "accent": "чай",
+      "part": "名词（阳性）",
+      "meaning": "茶；茶叶；茶树；茶水",
+      "perfective": "",
+      "note": "补回原页茶叶义。",
+      "stage": 1,
+      "original": {
+        "word": "чай",
+        "part_of_speech": "阳",
+        "meaning_zh": "茶；茶树；茶饮料",
+        "source_page": 332,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чай",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=332"
+      ]
+    },
+    {
+      "id": 10794,
+      "accent": "ча́йник",
+      "part": "名词（阳性）",
+      "meaning": "茶壶；烧水壶",
+      "perfective": "",
+      "note": "原页电水壶与盛茶器用法。",
+      "stage": 1,
+      "original": {
+        "word": "чайник",
+        "part_of_speech": "阳",
+        "meaning_zh": "茶壶；水壶",
+        "source_page": 332,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чайник",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=332"
+      ]
+    },
+    {
+      "id": 10795,
+      "accent": "час",
+      "part": "名词（阳性）",
+      "meaning": "小时；点钟；课时；时刻；规定时间",
+      "perfective": "",
+      "note": "按原页保留时间单位及时间点等义。",
+      "stage": 1,
+      "original": {
+        "word": "час",
+        "part_of_speech": "阳",
+        "meaning_zh": "小时；点钟；课时；时刻；规定时间",
+        "source_page": 332,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "час",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=332"
+      ]
+    },
+    {
+      "id": 10796,
+      "accent": "часово́й",
+      "part": "形容词；名词（阳性）",
+      "meaning": "一小时的；钟表的；每小时的；哨兵",
+      "perfective": "",
+      "note": "补原页一小时的；哨兵为名词用法，不与形容词混标。",
+      "stage": 2,
+      "original": {
+        "word": "часовой",
+        "part_of_speech": "形",
+        "meaning_zh": "钟表的；每小时的；哨兵（名词）",
+        "source_page": 332,
+        "source_line": "11"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "часовой",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=332"
+      ]
+    },
+    {
+      "id": 10797,
+      "accent": "части́чный",
+      "part": "形容词",
+      "meaning": "部分的；局部的",
+      "perfective": "",
+      "note": "重音在и；词形逐字核对。",
+      "stage": 2,
+      "original": {
+        "word": "частичный",
+        "part_of_speech": "形",
+        "meaning_zh": "部分的；局部的",
+        "source_page": 332,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "частичный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=332"
+      ]
+    },
+    {
+      "id": 10798,
+      "accent": "ча́стный",
+      "part": "形容词",
+      "meaning": "个别的；局部的；个人的；私人的；私有的",
+      "perfective": "",
+      "note": "跨页核对个人事务及私有财产义。",
+      "stage": 2,
+      "original": {
+        "word": "частный",
+        "part_of_speech": "形",
+        "meaning_zh": "部分的；个别的；个人的；私有的",
+        "source_page": 332,
+        "source_line": "13"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "частный",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=332",
+        "data/words/tem4_russian_words.pdf#page=333"
+      ]
+    },
+    {
+      "id": 10799,
+      "accent": "ча́стый",
+      "part": "形容词",
+      "meaning": "稠密的；间隔短的；急促的；频繁的",
+      "perfective": "",
+      "note": "按原页空间密度及时间频率区分。",
+      "stage": 2,
+      "original": {
+        "word": "частый",
+        "part_of_speech": "形",
+        "meaning_zh": "密集的；间距近的；急促的；频繁的",
+        "source_page": 333,
+        "source_line": "2"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "частый",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=333"
+      ]
+    },
+    {
+      "id": 10800,
+      "accent": "часть",
+      "part": "名词（阴性）",
+      "meaning": "部分；部件；（作品的）部、卷、篇；部门；部队",
+      "perfective": "",
+      "note": "часть света指洲，不能将洲或一部作品当作本词不受语境限制的直接义。",
+      "stage": 1,
+      "original": {
+        "word": "часть",
+        "part_of_speech": "阴",
+        "meaning_zh": "部分；部件；一部作品；部门；部队；洲",
+        "source_page": 333,
+        "source_line": "3"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "часть",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=333"
+      ]
+    },
+    {
+      "id": 10801,
+      "accent": "часы́",
+      "part": "名词（复数）",
+      "meaning": "钟；表",
+      "perfective": "",
+      "note": "表示计时器时只用复数；另可为час的复数。",
+      "stage": 1,
+      "original": {
+        "word": "часы",
+        "part_of_speech": "复",
+        "meaning_zh": "钟；表；时钟",
+        "source_page": 333,
+        "source_line": "4"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "часы",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=333"
+      ]
+    },
+    {
+      "id": 10802,
+      "accent": "ча́шка",
+      "part": "名词（阴性）",
+      "meaning": "杯；茶杯；碗",
+      "perfective": "",
+      "note": "原页杯碗义均保留。",
+      "stage": 1,
+      "original": {
+        "word": "чашка",
+        "part_of_speech": "阴",
+        "meaning_zh": "杯；茶杯；碗",
+        "source_page": 333,
+        "source_line": "5"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чашка",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=333"
+      ]
+    },
+    {
+      "id": 10803,
+      "accent": "чей",
+      "part": "代词",
+      "meaning": "谁的",
+      "perfective": "",
+      "note": "也作关系代词连接从句，不能孤立解释为那个的。",
+      "stage": 1,
+      "original": {
+        "word": "чей",
+        "part_of_speech": "代",
+        "meaning_zh": "谁的；那个的",
+        "source_page": 333,
+        "source_line": "6"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чей",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=333"
+      ]
+    },
+    {
+      "id": 10804,
+      "accent": "чей-нибудь",
+      "part": "代词",
+      "meaning": "某个人的；随便谁的",
+      "perfective": "",
+      "note": "不定所属者，区别чей-то所指存在但身份不明。",
+      "stage": 2,
+      "original": {
+        "word": "чей-нибудь",
+        "part_of_speech": "代",
+        "meaning_zh": "不管谁的；无论谁的；随便谁的",
+        "source_page": 333,
+        "source_line": "8"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чей-нибудь",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=333"
+      ]
+    },
+    {
+      "id": 10805,
+      "accent": "чей-то",
+      "part": "代词",
+      "meaning": "某人的；不知谁的",
+      "perfective": "",
+      "note": "连字符保留，单音节重读词干不另加重音。",
+      "stage": 2,
+      "original": {
+        "word": "чей-то",
+        "part_of_speech": "代",
+        "meaning_zh": "某人的；不知谁的",
+        "source_page": 333,
+        "source_line": "9"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чей-то",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=333"
+      ]
+    },
+    {
+      "id": 10806,
+      "accent": "челове́к",
+      "part": "名词（阳性）",
+      "meaning": "人",
+      "perfective": "",
+      "note": "复数通常лю́ди；数量词后可用челове́к。不以人类扩展替代集体词。",
+      "stage": 1,
+      "original": {
+        "word": "человек",
+        "part_of_speech": "阳",
+        "meaning_zh": "人；人类；人（与数量词连用）",
+        "source_page": 333,
+        "source_line": "10"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "человек",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=333"
+      ]
+    },
+    {
+      "id": 10807,
+      "accent": "челове́ческий",
+      "part": "形容词",
+      "meaning": "人的；人类的；人道的",
+      "perfective": "",
+      "note": "核对所属义与人道态度义。",
+      "stage": 2,
+      "original": {
+        "word": "человеческий",
+        "part_of_speech": "形",
+        "meaning_zh": "人的；人类的；人道的",
+        "source_page": 333,
+        "source_line": "12"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "человеческий",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=333"
+      ]
+    },
+    {
+      "id": 10808,
+      "accent": "челове́чество",
+      "part": "名词（中性）",
+      "meaning": "人类",
+      "perfective": "",
+      "note": "集合名词，不混入语法标记。",
+      "stage": 2,
+      "original": {
+        "word": "человечество",
+        "part_of_speech": "中",
+        "meaning_zh": "人类；人类社会",
+        "source_page": 333,
+        "source_line": "15"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "человечество",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=333"
+      ]
+    },
+    {
+      "id": 10809,
+      "accent": "чем",
+      "part": "连词",
+      "meaning": "比；越……（与тем连用）",
+      "perfective": "",
+      "note": "补回чем…тем…越……越……结构，不把比较动作列为词义。",
+      "stage": 1,
+      "original": {
+        "word": "чем",
+        "part_of_speech": "连",
+        "meaning_zh": "比；比较；比起",
+        "source_page": 333,
+        "source_line": "16"
+      },
+      "exam": "TEM4_RU",
+      "level": "TEM4",
+      "canonical": "чем",
+      "method": "2026-09-24当前助手逐词视觉核对PDF330至333页对应词条，区别同形词、语法标记和搭配义；模型判断并非词典穷尽或零错误保证。",
+      "evidence": [
+        "data/words/tem4_russian_words.pdf#page=333"
+      ]
+    }
+  ]
+}
