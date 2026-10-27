@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="AIeyu 俄语自适应备考助手：离线体验诊断、判分、解析与巩固训练。">
+  <title>AIeyu · 俄语学习，从知道错因开始</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">跳到主要内容</a>
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="brand" href="#home" aria-label="AIeyu 学习中心">AI<span>eyu</span><small>俄语自适应备考助手</small></a>
+      <nav aria-label="主导航">
+        <button data-view="home" aria-current="page"><span>01</span>学习中心</button>
+        <button data-view="practice"><span>02</span>迷你诊断</button>
+        <button data-view="words"><span>03</span>单词卡</button>
+        <button data-view="about"><span>04</span>项目说明</button>
+      </nav>
+      <div class="sidebar-note"><span class="dot"></span> 离线作品集 Demo<p>无需登录 · 无外部请求<br>本次体验，刷新即重置</p><button class="text-button" id="reset">重置体验 ↺</button></div>
+    </aside>
+    <main id="main" tabindex="-1">
+      <header class="topbar"><span>学习 / <b id="location">学习中心</b></span><span class="tag">PORTFOLIO EDITION · 2026.10</span></header>
+      <section id="home" class="view">
+        <div class="hero">
+          <div><p class="eyebrow">从「做错了」到「学会了」</p><h1>每一次错题，<br>都有下一步。</h1><p class="lede">为俄语专四、专八备考设计。<br>用作答发现薄弱点，用解析理解错因，<br>再用一组新练习，把知识真正留下。</p><button class="primary" data-start="diagnostic">开始 3 题体验 <span>↗</span></button><p class="fine">约 2 分钟 · 原创基础样例，不代表考试难度</p></div>
+          <div class="learning-note"><div class="note-top"><span>LEARNING NOTE / 01</span><span>俄语 · 名词变格</span></div><p class="russian" lang="ru">Я живу <span>в Москве.</span></p><p class="note-translation">我住在莫斯科。</p><div class="note-rule"><span class="rule-mark">в + 六格</span><p>表示「在某处」时，介词 в 后的名词用前置格（第六格）。</p></div><div class="note-bottom"><span>定位错因</span><span>理解规则</span><span>迁移练习 ↗</span></div></div>
+        </div>
+        <div class="section-heading"><div><p class="eyebrow">YOUR SESSION</p><h2>这一次，学到了什么</h2></div><span class="muted">仅统计本次已提交的作答</span></div>
+        <div class="metrics" id="metrics" aria-live="polite"></div>
+        <div class="home-bottom"><section><h3>下一步建议</h3><div id="recommendation"></div></section><section><h3>本次错题</h3><div id="mistakes"></div></section></div>
+        <div class="journey"><span><b>01</b>诊断</span><i>→</i><span><b>02</b>判分</span><i>→</i><span><b>03</b>错因解析</span><i>→</i><span><b>04</b>专项巩固</span></div>
+      </section>
+      <section id="practice" class="view" hidden>
+        <div class="section-heading"><div><p class="eyebrow">PRACTICE / FEEDBACK</p><h1 class="page-title" id="practice-title">迷你诊断</h1></div><span class="tag">原创演示题 · 静态解析</span></div>
+        <p class="muted" id="practice-intro">先试着选择答案，再看看每道题背后的规则。</p>
+        <div id="quiz"></div><p id="quiz-message" role="status"></p><div id="quiz-actions" class="actions"></div>
+      </section>
+      <section id="words" class="view" hidden>
+        <div class="section-heading"><div><p class="eyebrow">VOCABULARY / RECALL</p><h1 class="page-title">给单词一点记忆。</h1></div><span class="tag">4 张原创演示词卡</span></div>
+        <p class="muted">先回忆，再翻面。标记「再练一次」的词会回到队列末尾。</p>
+        <div id="word-card" class="word-card" aria-live="polite"></div><div class="actions centered" id="word-actions"></div>
+        <p class="fine centered">这里只展示词卡交互。正式产品的分级学习与复习记录由账号保存。</p>
+      </section>
+      <section id="about" class="view" hidden>
+        <p class="eyebrow">PRODUCT / ENGINEERING / RESEARCH</p><h1 class="page-title">把学习闭环做实，<br>让知识来源可追溯。</h1>
+        <p class="lede">AIeyu 是面向俄语专四、专八的个人自适应备考项目。<br>围绕学生真实作答组织训练，同时建设可核查的俄语知识库。</p>
+        <div class="about-row"><span class="row-number">01 / 产品</span><div><h2>从一次作答，走向持续训练</h2><p>现有学生端包含注册登录、按来源组卷、阅读成组、自动判分、错题本、中文解析与追问、薄弱项训练和词汇复习。低样本保留不确定性，避免把短暂失误当成确定能力。</p></div></div>
+        <div class="about-row"><span class="row-number">02 / 技术</span><div><h2>Python + SQLite + 静态前端</h2><p>账号隔离、学习历史与审核证据放在现有轻量架构中。正式 AI 解析使用 DeepSeek 接口；内容修改采用备份、事务和稳定来源键，避免覆盖人工修正。</p><div class="architecture"><span>学生界面</span><b>→</b><span>Python 服务</span><b>→</b><span>SQLite / AI 接口</span></div></div></div>
+        <div class="about-row"><span class="row-number">03 / 研究</span><div><h2>能找到出处，也要检查支持程度</h2><p>三套知识库分别推进：语法编校研究版含 368 个检索节；《新时代俄语通论》整理为 302 单元，其中 175 ready、127 隔离；现代俄语体学区分原始转录、模型候选、隔离项与主张语境。</p><p>语法小规模对照已完成 10 题、两组共 20 次生成。它是开发期探索，不是独立盲评或总体正确率证明。引文逐字存在也不等于充分支持结论。</p><p class="fine">进度依据：项目 CURRENT_STATE.md，2026-10-27。研究成果尚未整体接入学生端，独立专家评价仍待完成。</p></div></div>
+        <div class="about-row"><span class="row-number">04 / 此附件</span><div><h2>可交互的离线流程展示</h2><p>本附件是独立演示界面，使用原创样例和预写解析，不调用模型、不包含教材正文、生产数据库或学生数据。诊断成绩由本次选择实时计算，刷新清空。它展示产品逻辑，不替代完整产品部署。</p><a href="https://github.com/reto111/AIeyu/tree/codex/tem4-clean-rebuild" target="_blank" rel="noopener noreferrer">查看 GitHub 项目 ↗（需联网）</a></div></div>
+      </section>
+      <footer><span>AIeyu / 爱俄语</span><span>知道错在哪里，也知道下一步往哪里。</span></footer>
+    </main>
+  </div>
+  <noscript>此交互 Demo 需要启用 JavaScript；项目说明可在附件 README 中阅读。</noscript>
+  <script src="demo.js"></script>
+</body>
+</html>

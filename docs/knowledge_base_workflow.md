@@ -115,7 +115,7 @@ tem8_countryknowledge_reference_scan.pdf
 - 题型标签：`culture_choice`
 - 知识点标签：`culture`
 
-当前已抽样验证但尚未全量 OCR 的扫描 PDF：
+俄语语法扫描 PDF 已按独立审核流程处理：
 
 ```text
 Russian_grammar_reference_scan.pdf
@@ -124,8 +124,11 @@ Russian_grammar_reference_scan.pdf
 状态：
 
 - 页数：641 页。
-- 已抽样确认 `chi_sim+rus+eng` 可识别中俄混排正文。
-- 因页数较多，建议后续改用分批 OCR 或带进度 OCR。
+- 已完成641页OCR与首轮覆盖、613页正文整页原图二审证据覆盖；覆盖不代表逐字零错。
+- 独立数据库为`data/processed/grammar_reference/grammar_reference.sqlite`，不直接写入学生库或本流程的通用knowledge_chunks表。
+- 截至2026-10-09：236节可检索，133节仍因165条说明隔离。已实现本地问题检索、完整节RAG证据包和引用校验，尚未调用生成模型或接入学生端。小样本检索验收与回答内容核对分开记录，不能据此宣称问答正确率。
+- 2026-10-27 仓库整理：上条为 10 月 9 日历史口径；后续已有独立 368 节编校研究版及已授权的 10 题双组共 20 次生成对照，原始转录与隔离状态不由编校快照覆盖。结果和局限见 `grammar_reference_generation_pilot_20261022.md`、`grammar_reference_guarded_release_20261022.md`，不表示整体接入学生端。
+- 当前断点见`CURRENT_STATE.md`，续作流程见`grammar_reference_workflow.md`。不可用未审核OCR批量导入路径替代原图审核，也不可把已OCR或全页覆盖当成问答验收。
 
 ## 5. 检索资料
 
